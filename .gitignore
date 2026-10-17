@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+.next/
+out/
+build/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+coverage/
+
+# Misc
+.DS_Store
+*.pem
+*.log
+.env
+.env*.local
+
+# IDE
+.vscode/
+.idea/

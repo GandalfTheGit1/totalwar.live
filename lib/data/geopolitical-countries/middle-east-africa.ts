@@ -1,0 +1,138 @@
+/**
+ * lib/data/geopolitical-countries/middle-east-africa.ts
+ *
+ * Geopolitical country records for Middle East, Eurasia, and Africa.
+ */
+
+import { GeopoliticalCountry } from './types';
+
+export const MIDDLE_EAST_COUNTRIES: GeopoliticalCountry[] = [
+  {
+    code: 'SA',
+    iso3: 'SAU',
+    qid: 'Q851',
+    nameEs: 'Arabia Saudita',
+    nameEn: 'Saudi Arabia',
+    flag: '🇸🇦',
+    region: 'Middle East',
+    blocs: ['OPEC+', 'G20'],
+    strategicRole: 'Mayor exportador mundial de crudo (Saudi Aramco) e inversiones del fondo soberano PIF',
+    sovereignRiskBase: 4.0,
+  },
+  {
+    code: 'AE',
+    iso3: 'ARE',
+    qid: 'Q878',
+    nameEs: 'Emiratos Árabes Unidos',
+    nameEn: 'United Arab Emirates',
+    flag: '🇦🇪',
+    region: 'Middle East',
+    blocs: ['OPEC+', 'BRICS'],
+    strategicRole: 'Hub de reexportación y logística en Dubái, capital para centros de datos de IA (G42/MGX)',
+    sovereignRiskBase: 3.0,
+  },
+  {
+    code: 'QA',
+    iso3: 'QAT',
+    qid: 'Q846',
+    nameEs: 'Catar',
+    nameEn: 'Qatar',
+    flag: '🇶🇦',
+    region: 'Middle East',
+    blocs: ['GCC'],
+    strategicRole: 'Exportador líder de gas natural licuado (GNL) con contratos a 27 años para Asia y Europa',
+    sovereignRiskBase: 3.3,
+  },
+  {
+    code: 'IL',
+    iso3: 'ISR',
+    qid: 'Q801',
+    nameEs: 'Israel',
+    nameEn: 'Israel',
+    flag: '🇮🇱',
+    region: 'Middle East',
+    blocs: ['OECD'],
+    strategicRole: 'Centro neurálgico de I+D en ciberseguridad, chips (Intel Fabs) y tecnología militar',
+    sovereignRiskBase: 5.2,
+  },
+  {
+    code: 'TR',
+    iso3: 'TUR',
+    qid: 'Q43',
+    nameEs: 'Turquía',
+    nameEn: 'Turkey',
+    flag: '🇹🇷',
+    region: 'Middle East',
+    blocs: ['NATO', 'G20'],
+    strategicRole: 'Control de los estrechos del Bósforo y Dardanelos, manufactura y puente este-oeste',
+    sovereignRiskBase: 5.8,
+  },
+  {
+    code: 'EG',
+    iso3: 'EGY',
+    qid: 'Q79',
+    nameEs: 'Egipto',
+    nameEn: 'Egypt',
+    flag: '🇪🇬',
+    region: 'Middle East',
+    blocs: ['BRICS'],
+    strategicRole: 'Control exclusivo del Canal de Suez (12% del comercio marítimo mundial)',
+    sovereignRiskBase: 6.2,
+  },
+  {
+    code: 'IR',
+    iso3: 'IRN',
+    qid: 'Q794',
+    nameEs: 'Irán',
+    nameEn: 'Iran',
+    flag: '🇮🇷',
+    region: 'Middle East',
+    blocs: ['BRICS', 'SCO'],
+    strategicRole: 'Control geográfico del Estrecho de Ormuz (20% del petróleo mundial) y sanciones activas',
+    sovereignRiskBase: 8.5,
+  },
+];
+
+export const EURASIA_AFRICA_COUNTRIES: GeopoliticalCountry[] = [
+  {
+    code: 'RU',
+    iso3: 'RUS',
+    qid: 'Q159',
+    nameEs: 'Rusia',
+    nameEn: 'Russia',
+    flag: '🇷🇺',
+    region: 'Eurasia',
+    blocs: ['BRICS', 'SCO', 'OPEC+'],
+    strategicRole: 'Petróleo, gas, fertilizantes, paladio/níquel y sanciones económicas occidentales severas',
+    sovereignRiskBase: 8.2,
+  },
+  {
+    code: 'UA',
+    iso3: 'UKR',
+    qid: 'Q212',
+    nameEs: 'Ucrania',
+    nameEn: 'Ukraine',
+    flag: '🇺🇦',
+    region: 'Europe',
+    blocs: [],
+    strategicRole: 'Granero de Europa, gases nobles para láseres de semiconductores (neón) y conflicto activo',
+    sovereignRiskBase: 8.0,
+  },
+  {
+    code: 'ZA',
+    iso3: 'ZAF',
+    qid: 'Q258',
+    nameEs: 'Sudáfrica',
+    nameEn: 'South Africa',
+    flag: '🇿🇦',
+    region: 'Africa',
+    blocs: ['BRICS', 'G20'],
+    strategicRole: '70% de la producción mundial de platino/paladio y minerales para catálisis y transición verde',
+    sovereignRiskBase: 5.6,
+  },
+];
+
+export const MIDDLE_EAST_AFRICA_COUNTRIES: GeopoliticalCountry[] = [
+  ...MIDDLE_EAST_COUNTRIES,
+  ...EURASIA_AFRICA_COUNTRIES,
+];

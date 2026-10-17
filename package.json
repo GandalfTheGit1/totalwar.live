@@ -1,0 +1,45 @@
+{
+  "name": "world-geopolitical-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Autonomous 3D/2D World Geopolitical & Macro Engine with Tier-N, Maritime Chokepoints, Dalio Sovereign Power Radar, and HoI4/EU4 Mechanics",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "d3": "^7.9.0",
+    "date-fns": "4.1.0",
+    "globe.gl": "^2.32.1",
+    "lucide-react": "^0.564.0",
+    "next": "16.2.6",
+    "react": "^19",
+    "react-dom": "^19",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.2.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^16.2.7",
+    "@tailwindcss/postcss": "^4.2.0",
+    "@testing-library/jest-dom": "^7.0.0",
+    "@testing-library/react": "^16.3.2",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.170.0",
+    "@vitejs/plugin-react": "^6.0.5",
+    "happy-dom": "^20.11.2",
+    "postcss": "^8.5",
+    "tsx": "^4.22.5",
+    "typescript": "5.7.3",
+    "vitest": "^4.1.10"
+  }
+}

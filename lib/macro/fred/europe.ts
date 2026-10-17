@@ -1,0 +1,133 @@
+/**
+ * lib/macro/fred/europe.ts
+ *
+ * FRED series mappings for European economies (DE, FR, IT, ES, IE, GB).
+ */
+
+import type { CountryFredSeries } from './types';
+
+export const DE_FRED_SERIES: CountryFredSeries = {
+  gdpNominal: null,
+  gdpGrowth: 'CLVMNACSCAB1GQDE',
+  productivityPerHour: null,
+  cpi: 'CP0000DE2M086NEST',
+  pce: null,
+  policyRate: null,
+  yieldSpread10Y2Y: null,
+  consumerCredit: null,
+  businessLoans: null,
+  debtToGdp: 'DDEI01DEA156NWDB',
+  householdDebtToGdp: null,
+  householdDsr: null,
+  homePriceIndex: null,
+  centralBankAssets: 'ECBASSETSW',
+  m2: 'MYAGM2EZM052S',
+  fiscalDeficit: null,
+  avgDebtInterestRate: null,
+  bondYield10Y: null,
+};
+
+export const FR_FRED_SERIES: CountryFredSeries = {
+  gdpNominal: null,
+  gdpGrowth: 'CLVMNACSCAB1GQFR',
+  productivityPerHour: null,
+  cpi: 'CP0000FR2M086NEST',
+  pce: null,
+  policyRate: null,
+  yieldSpread10Y2Y: null,
+  consumerCredit: null,
+  businessLoans: null,
+  debtToGdp: 'DDEI01FRA156NWDB',
+  householdDebtToGdp: null,
+  householdDsr: null,
+  homePriceIndex: null,
+  centralBankAssets: 'ECBASSETSW',
+  m2: 'MYAGM2EZM052S',
+  fiscalDeficit: null,
+  avgDebtInterestRate: null,
+  bondYield10Y: null,
+};
+
+export const IT_FRED_SERIES: CountryFredSeries = {
+  gdpNominal: null,
+  gdpGrowth: 'CLVMNACSCAB1GQIT',
+  productivityPerHour: null,
+  cpi: 'CP0000IT2M086NEST',
+  pce: null,
+  policyRate: null,
+  yieldSpread10Y2Y: null,
+  consumerCredit: null,
+  businessLoans: null,
+  debtToGdp: 'DDEI01ITA156NWDB',
+  householdDebtToGdp: null,
+  householdDsr: null,
+  homePriceIndex: null,
+  centralBankAssets: 'ECBASSETSW',
+  m2: 'MYAGM2EZM052S',
+  fiscalDeficit: null,
+  avgDebtInterestRate: null,
+  bondYield10Y: null,
+};
+
+export const ES_FRED_SERIES: CountryFredSeries = {
+  gdpNominal: null,
+  gdpGrowth: 'CLVMNACSCAB1GQES',
+  productivityPerHour: null,
+  cpi: 'CP0000ES2M086NEST',
+  pce: null,
+  policyRate: null,
+  yieldSpread10Y2Y: null,
+  consumerCredit: null,
+  businessLoans: null,
+  debtToGdp: 'DDEI01ESA156NWDB',
+  householdDebtToGdp: null,
+  householdDsr: null,
+  homePriceIndex: null,
+  centralBankAssets: 'ECBASSETSW',
+  m2: 'MYAGM2EZM052S',
+  fiscalDeficit: null,
+  avgDebtInterestRate: null,
+  bondYield10Y: null,
+};
+
+export const IE_FRED_SERIES: CountryFredSeries = {
+  gdpNominal: null,
+  gdpGrowth: 'CLVMNACSCAB1GQIE',
+  productivityPerHour: null,
+  cpi: 'CP0000IE2M086NEST',
+  pce: null,
+  policyRate: null,
+  yieldSpread10Y2Y: null,
+  consumerCredit: null,
+  businessLoans: null,
+  debtToGdp: 'DDEI01IEA156NWDB',
+  householdDebtToGdp: null,
+  householdDsr: null,
+  homePriceIndex: null,
+  centralBankAssets: 'ECBASSETSW',
+  m2: 'MYAGM2EZM052S',
+  fiscalDeficit: null,
+  avgDebtInterestRate: null,
+  bondYield10Y: null,
+};
+
+export const GB_FRED_SERIES: CountryFredSeries = {
+  gdpNominal: null,
+  gdpGrowth: 'GBRGDQ',
+  productivityPerHour: null,
+  cpi: 'GBRCPIALLMINMEI',
+  pce: null,
+  policyRate: 'IUDSOIA',
+  yieldSpread10Y2Y: null,
+  consumerCredit: null,
+  businessLoans: null,
+  debtToGdp: 'DEBTTLG02GBQ163N',
+  householdDebtToGdp: null,
+  householdDsr: null,
+  homePriceIndex: null,
+  centralBankAssets: 'GBRCBDAIM',
+  m2: 'MABMM301GBM189S',
+  fiscalDeficit: null,
+  avgDebtInterestRate: null,
+  bondYield10Y: 'GBMT10UK',
+};

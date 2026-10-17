@@ -1,0 +1,135 @@
+[
+  {
+    "code": "CN",
+    "intensity": 98,
+    "label": "Tierras Raras & Procesamiento Crítico",
+    "sublabel": "Monopolio >70% de extracción y >90% de refinado de imanes permanentes",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "AU",
+    "intensity": 95,
+    "label": "Litio (Espodumena) & Tierras Raras",
+    "sublabel": "Primer productor de mineral de litio (Greenbushes) y extracción de tierras raras (Lynas)",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "US",
+    "intensity": 94,
+    "label": "Petróleo Shale, GNL & Diseño Fabless IA",
+    "sublabel": "Mayor extractor de crudo/GNL, mina Mountain Pass y diseño de silicio IA (Nvidia)",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "CL",
+    "intensity": 98,
+    "label": "Cobre (~25% Global) & Litio (Atacama)",
+    "sublabel": "Líder absoluto de cobre mundial (Codelco, Escondida) y reservas de litio de bajo costo",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "AR",
+    "intensity": 82,
+    "label": "Litio (Triángulo del Litio)",
+    "sublabel": "Cuenca de salmueras de Hombre Muerto y Olaroz en fuerte expansión",
+    "colorCategory": "high"
+  },
+  {
+    "code": "CD",
+    "intensity": 98,
+    "label": "Cobalto (>70% Global) & Cobre de Alta Ley",
+    "sublabel": "Concentración absoluta de cobalto en Katanga y mina Kamoa-Kakula",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "ID",
+    "intensity": 96,
+    "label": "Níquel Clase 1 (HPAL) & Cobalto",
+    "sublabel": ">50% del suministro mundial de níquel con control de plantas HPAL",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "PH",
+    "intensity": 74,
+    "label": "Níquel (Mineral Laterítico)",
+    "sublabel": "Mayor exportador regional de mineral directo a fundiciones asiáticas",
+    "colorCategory": "high"
+  },
+  {
+    "code": "CA",
+    "intensity": 70,
+    "label": "Níquel Clase 1 & Minerales Críticos",
+    "sublabel": "Suministro estratégico de sulfuros de níquel para Norteamérica (Sudbury)",
+    "colorCategory": "medium"
+  },
+  {
+    "code": "PE",
+    "intensity": 88,
+    "label": "Cobre (Cerro Verde & Antamina)",
+    "sublabel": "Segundo mayor productor y exportador mundial de mineral de cobre",
+    "colorCategory": "high"
+  },
+  {
+    "code": "SA",
+    "intensity": 98,
+    "label": "Petróleo Crudo & Capacidad Ociosa",
+    "sublabel": "Pilar de la OPEP con la mayor reserva oscilante de producción mundial",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "RU",
+    "intensity": 92,
+    "label": "Petróleo Urales, Gas Natural & Níquel",
+    "sublabel": "Grandes flujos hacia Asia, reservas de gas y níquel refinado (Nornickel)",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "QA",
+    "intensity": 92,
+    "label": "Gas Natural Licuado (GNL - North Field)",
+    "sublabel": "Mayor capacidad de licuefacción y exportación de GNL global",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "AE",
+    "intensity": 82,
+    "label": "Petróleo & Refinado (ADNOC)",
+    "sublabel": "Capacidad de bombeo de 4M bpd y reservas estratégicas de hidrocarburos",
+    "colorCategory": "high"
+  },
+  {
+    "code": "NO",
+    "intensity": 82,
+    "label": "Gas Natural por Gasoducto",
+    "sublabel": "Principal suministrador de gas natural canalizado a la Unión Europea",
+    "colorCategory": "high"
+  },
+  {
+    "code": "TW",
+    "intensity": 100,
+    "label": "Fundición Avanzada (TSMC <3nm)",
+    "sublabel": ">90% de los nodos de vanguardia semiconductores a escala global",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "NL",
+    "intensity": 98,
+    "label": "Litografía EUV (ASML)",
+    "sublabel": "Monopolio mundial exclusivo en maquinaria de litografía ultravioleta extrema",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "KR",
+    "intensity": 95,
+    "label": "Memorias HBM3e & DRAM (Samsung / SK)",
+    "sublabel": ">70% de cuota global de DRAM y memorias para aceleradores IA",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "JP",
+    "intensity": 86,
+    "label": "Materiales & Obleas de Silicio (Tokyo Electron)",
+    "sublabel": "Liderazgo en fotorresinas químicas, obleas ultrapuras y maquinaria de grabado",
+    "colorCategory": "high"
+  }
+]

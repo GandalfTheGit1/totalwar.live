@@ -1,0 +1,759 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import '../components/oraculo/oraculo.css';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ═══════════════════════════════════════════════════════════════════════
+   DISEÑO: "Oráculo de Caja Transparente" (v1)
+   Tokens CSS para Dark (por defecto) y Light (lectura e impresión)
+   ═══════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ─── Colores: Oscuro primero (Tema por defecto) ─── */
+  --void: #0a0b0d;
+  --surface-1: #111317;
+  --surface-2: #171a1f;
+  --surface-3: #1f242a;
+  --hairline: #232930;
+  --border-control: #66717d;
+  --ink: #e9ecef;
+  --ink-muted: #a7b0ba;
+  --ink-faint: #8a95a1;
+  --accent: #f2b84b;
+  --accent-text: #f2b84b;
+  --on-accent: #17120a;
+  --accent-soft: rgba(242, 184, 75, 0.14);
+  --gain: #46d3c2;
+  --gain-soft: rgba(70, 211, 194, 0.12);
+  --loss: #ff7a66;
+  --loss-soft: rgba(255, 122, 102, 0.12);
+  --info: #8bb0ff;
+  --info-soft: rgba(139, 176, 255, 0.12);
+  --focus-ring: #8bb0ff;
+  --scrim: rgba(0, 0, 0, 0.70);
+
+  /* ─── Sombras (Tokens) ─── */
+  --shadow-panel: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 12px 32px rgba(0, 0, 0, 0.50);
+  --shadow-pop: 0 16px 48px rgba(0, 0, 0, 0.70);
+
+  /* ─── Espaciado (Base 4px) ─── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --pane-pad: 24px;
+  --pane-gap: 16px;
+  --rail-width: 64px;
+  --pane-min: 340px;
+
+  /* ─── Radio de Bordes ─── */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-full: 999px;
+  --radius: 14px;
+
+  /* ─── Mapeo de compatibilidad shadcn UI (Dark por defecto) ─── */
+  --background: var(--void);
+  --foreground: var(--ink);
+  --card: var(--surface-1);
+  --card-foreground: var(--ink);
+  --popover: var(--surface-2);
+  --popover-foreground: var(--ink);
+  --primary: var(--accent);
+  --primary-foreground: var(--on-accent);
+  --secondary: var(--surface-3);
+  --secondary-foreground: var(--ink);
+  --muted: var(--surface-2);
+  --muted-foreground: var(--ink-muted);
+  --destructive: var(--loss);
+  --destructive-foreground: #ffffff;
+  --border: var(--hairline);
+  --input: var(--border-control);
+  --ring: var(--focus-ring);
+  --chart-1: #46d3c2;
+  --chart-2: #ff7a66;
+  --chart-3: #f2b84b;
+  --chart-4: #8bb0ff;
+  --chart-5: #a7b0ba;
+  --sidebar: var(--surface-1);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--accent);
+  --sidebar-primary-foreground: var(--on-accent);
+  --sidebar-accent: var(--surface-3);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--hairline);
+  --sidebar-ring: var(--focus-ring);
+
+  /* Glassmorphism alineado con Oráculo de Caja Transparente */
+  --glass: rgba(17, 19, 23, 0.85);
+  --glass-border: var(--hairline);
+  --glass-highlight: rgba(255, 255, 255, 0.03);
+}
+
+.dark {
+  --void: #0a0b0d;
+  --surface-1: #111317;
+  --surface-2: #171a1f;
+  --surface-3: #1f242a;
+  --hairline: #232930;
+  --border-control: #66717d;
+  --ink: #e9ecef;
+  --ink-muted: #a7b0ba;
+  --ink-faint: #8a95a1;
+  --accent: #f2b84b;
+  --accent-text: #f2b84b;
+  --on-accent: #17120a;
+  --accent-soft: rgba(242, 184, 75, 0.14);
+  --gain: #46d3c2;
+  --gain-soft: rgba(70, 211, 194, 0.12);
+  --loss: #ff7a66;
+  --loss-soft: rgba(255, 122, 102, 0.12);
+  --info: #8bb0ff;
+  --info-soft: rgba(139, 176, 255, 0.12);
+  --focus-ring: #8bb0ff;
+  --scrim: rgba(0, 0, 0, 0.70);
+  --shadow-panel: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 12px 32px rgba(0, 0, 0, 0.50);
+  --shadow-pop: 0 16px 48px rgba(0, 0, 0, 0.70);
+
+  --background: var(--void);
+  --foreground: var(--ink);
+  --card: var(--surface-1);
+  --card-foreground: var(--ink);
+  --popover: var(--surface-2);
+  --popover-foreground: var(--ink);
+  --primary: var(--accent);
+  --primary-foreground: var(--on-accent);
+  --secondary: var(--surface-3);
+  --secondary-foreground: var(--ink);
+  --muted: var(--surface-2);
+  --muted-foreground: var(--ink-muted);
+  --destructive: var(--loss);
+  --destructive-foreground: #ffffff;
+  --border: var(--hairline);
+  --input: var(--border-control);
+  --ring: var(--focus-ring);
+  --sidebar: var(--surface-1);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--accent);
+  --sidebar-primary-foreground: var(--on-accent);
+  --sidebar-accent: var(--surface-3);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--hairline);
+  --sidebar-ring: var(--focus-ring);
+  --glass: rgba(17, 19, 23, 0.85);
+  --glass-border: var(--hairline);
+  --glass-highlight: rgba(255, 255, 255, 0.03);
+}
+
+.light, [data-theme="light"] {
+  /* ─── Colores: Claro como apoyo para lectura e impresión ─── */
+  --void: #f1f0ec;
+  --surface-1: #f9f8f5;
+  --surface-2: #ffffff;
+  --surface-3: #e8e6df;
+  --hairline: #dcd9cf;
+  --border-control: #7b786c;
+  --ink: #16181b;
+  --ink-muted: #464c55;
+  --ink-faint: #585e67;
+  --accent: #e5a82e;
+  --accent-text: #835300;
+  --on-accent: #17120a;
+  --accent-soft: rgba(229, 168, 46, 0.18);
+  --gain: #006b60;
+  --gain-soft: rgba(0, 107, 96, 0.10);
+  --loss: #b3261e;
+  --loss-soft: rgba(179, 38, 30, 0.10);
+  --info: #2c4fb8;
+  --info-soft: rgba(44, 79, 184, 0.10);
+  --focus-ring: #2c4fb8;
+  --scrim: rgba(22, 24, 27, 0.40);
+
+  --shadow-panel: 0 1px 2px rgba(22, 24, 27, 0.08), 0 8px 24px rgba(22, 24, 27, 0.08);
+  --shadow-pop: 0 12px 40px rgba(22, 24, 27, 0.16);
+
+  --background: var(--void);
+  --foreground: var(--ink);
+  --card: var(--surface-1);
+  --card-foreground: var(--ink);
+  --popover: var(--surface-2);
+  --popover-foreground: var(--ink);
+  --primary: var(--accent);
+  --primary-foreground: var(--on-accent);
+  --secondary: var(--surface-3);
+  --secondary-foreground: var(--ink);
+  --muted: var(--surface-2);
+  --muted-foreground: var(--ink-muted);
+  --destructive: var(--loss);
+  --destructive-foreground: #ffffff;
+  --border: var(--hairline);
+  --input: var(--border-control);
+  --ring: var(--focus-ring);
+  --chart-1: #006b60;
+  --chart-2: #b3261e;
+  --chart-3: #e5a82e;
+  --chart-4: #2c4fb8;
+  --chart-5: #464c55;
+  --sidebar: var(--surface-1);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--accent);
+  --sidebar-primary-foreground: var(--on-accent);
+  --sidebar-accent: var(--surface-3);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--hairline);
+  --sidebar-ring: var(--focus-ring);
+
+  --glass: rgba(249, 248, 245, 0.90);
+  --glass-border: var(--hairline);
+  --glass-highlight: rgba(0, 0, 0, 0.02);
+}
+
+@theme inline {
+  --font-sans: 'Geist', 'Helvetica Neue', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Geist Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Tokens directos de Oráculo de Caja Transparente */
+  --color-void: var(--void);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-hairline: var(--hairline);
+  --color-border-control: var(--border-control);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-accent: var(--accent);
+  --color-accent-text: var(--accent-text);
+  --color-on-accent: var(--on-accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-gain: var(--gain);
+  --color-gain-soft: var(--gain-soft);
+  --color-loss: var(--loss);
+  --color-loss-soft: var(--loss-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-focus-ring: var(--focus-ring);
+  --color-scrim: var(--scrim);
+
+  /* Mapeo estándar shadcn */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Mapeo de paletas neutras hacia Oráculo de Caja Transparente */
+  --color-zinc-950: var(--void);
+  --color-zinc-900: var(--surface-1);
+  --color-zinc-850: var(--surface-2);
+  --color-zinc-800: var(--surface-2);
+  --color-zinc-700: var(--border-control);
+  --color-zinc-600: var(--ink-faint);
+  --color-zinc-500: var(--ink-faint);
+  --color-zinc-400: var(--ink-muted);
+  --color-zinc-300: var(--ink-muted);
+  --color-zinc-200: var(--ink);
+  --color-zinc-100: var(--ink);
+  --color-zinc-50: var(--ink);
+
+  --color-slate-950: var(--void);
+  --color-slate-900: var(--surface-1);
+  --color-slate-800: var(--surface-2);
+  --color-slate-700: var(--border-control);
+  --color-slate-600: var(--ink-faint);
+  --color-slate-500: var(--ink-faint);
+  --color-slate-400: var(--ink-muted);
+  --color-slate-300: var(--ink-muted);
+  --color-slate-200: var(--ink);
+  --color-slate-100: var(--ink);
+
+  --color-neutral-950: var(--void);
+  --color-neutral-900: var(--surface-1);
+  --color-neutral-800: var(--surface-2);
+  --color-neutral-700: var(--border-control);
+  --color-neutral-600: var(--ink-faint);
+  --color-neutral-500: var(--ink-faint);
+  --color-neutral-400: var(--ink-muted);
+  --color-neutral-300: var(--ink-muted);
+  --color-neutral-200: var(--ink);
+  --color-neutral-100: var(--ink);
+
+  --color-gray-950: var(--void);
+  --color-gray-900: var(--surface-1);
+  --color-gray-800: var(--surface-2);
+  --color-gray-700: var(--border-control);
+  --color-gray-600: var(--ink-faint);
+  --color-gray-500: var(--ink-faint);
+  --color-gray-400: var(--ink-muted);
+  --color-gray-300: var(--ink-muted);
+  --color-gray-200: var(--ink);
+  --color-gray-100: var(--ink);
+
+  /* Mapeo de semánticas de ganancia, pérdida e info a tokens Oráculo */
+  --color-teal-50: var(--gain-soft);
+  --color-teal-100: var(--gain-soft);
+  --color-teal-200: var(--gain);
+  --color-teal-300: var(--gain);
+  --color-teal-400: var(--gain);
+  --color-teal-500: var(--gain);
+  --color-teal-600: var(--gain);
+  --color-emerald-50: var(--gain-soft);
+  --color-emerald-100: var(--gain-soft);
+  --color-emerald-200: var(--gain);
+  --color-emerald-300: var(--gain);
+  --color-emerald-400: var(--gain);
+  --color-emerald-500: var(--gain);
+  --color-emerald-600: var(--gain);
+
+  --color-red-50: var(--loss-soft);
+  --color-red-100: var(--loss-soft);
+  --color-red-200: var(--loss);
+  --color-red-300: var(--loss);
+  --color-red-400: var(--loss);
+  --color-red-500: var(--loss);
+  --color-red-600: var(--loss);
+  --color-rose-50: var(--loss-soft);
+  --color-rose-100: var(--loss-soft);
+  --color-rose-200: var(--loss);
+  --color-rose-300: var(--loss);
+  --color-rose-400: var(--loss);
+  --color-rose-500: var(--loss);
+  --color-rose-600: var(--loss);
+
+  --color-amber-50: var(--accent-soft);
+  --color-amber-100: var(--accent-soft);
+  --color-amber-200: var(--accent);
+  --color-amber-300: var(--accent);
+  --color-amber-400: var(--accent);
+  --color-amber-500: var(--accent);
+  --color-amber-600: var(--accent);
+
+  /* Radios */
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: calc(var(--radius-lg) + 4px);
+  --radius-full: var(--radius-full);
+}
+
+@layer base {
+  * {
+    border-color: var(--hairline);
+  }
+  *:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+  body {
+    background-color: var(--void);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  h1 {
+    font-family: var(--font-sans);
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+  }
+  h2 {
+    font-family: var(--font-sans);
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+  h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  table {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 18px;
+  }
+  th {
+    font-family: var(--font-sans);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+}
+
+@layer utilities {
+  /* ─── Tipografía: Display (sans) ─── */
+  .text-display {
+    font-family: var(--font-sans);
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  .text-title {
+    font-family: var(--font-sans);
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .text-heading {
+    font-family: var(--font-sans);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+
+  /* ─── Tipografía: Texto (sans) ─── */
+  .text-body {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .text-body-sm {
+    font-family: var(--font-sans);
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .text-label {
+    font-family: var(--font-sans);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  /* ─── Tipografía: Datos (mono) ─── */
+  .text-num-xl {
+    font-family: var(--font-mono);
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+  .text-num-lg {
+    font-family: var(--font-mono);
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+  .text-num {
+    font-family: var(--font-mono);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+  }
+  .text-num-sm {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ─── Contenedores y Paneles de Oráculo ─── */
+  .oracle-panel {
+    background-color: var(--surface-1);
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-lg);
+    padding: var(--pane-pad);
+    box-shadow: var(--shadow-panel);
+  }
+  .oracle-card-elevated {
+    background-color: var(--surface-2);
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-md);
+  }
+  .oracle-card-active {
+    background-color: var(--surface-3);
+    border: 1px solid var(--border-control);
+    border-radius: var(--radius-md);
+  }
+  .oracle-rail {
+    width: var(--rail-width);
+    background-color: var(--surface-1);
+    border-right: 1px solid var(--hairline);
+  }
+  .shadow-panel {
+    box-shadow: var(--shadow-panel);
+  }
+  .shadow-pop {
+    box-shadow: var(--shadow-pop);
+  }
+
+  /* ─── Insignias de Alza / Baja / Info según especificación ─── */
+  .badge-gain {
+    background-color: var(--gain-soft);
+    color: var(--gain);
+    border: 1px solid rgba(70, 211, 194, 0.25);
+    font-family: var(--font-mono);
+    font-size: 13px;
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .badge-loss {
+    background-color: var(--loss-soft);
+    color: var(--loss);
+    border: 1px solid rgba(255, 122, 102, 0.25);
+    font-family: var(--font-mono);
+    font-size: 13px;
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .badge-info {
+    background-color: var(--info-soft);
+    color: var(--info);
+    border: 1px solid rgba(139, 176, 255, 0.25);
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .badge-accent {
+    background-color: var(--accent-soft);
+    color: var(--accent-text);
+    border: 1px solid rgba(242, 184, 75, 0.25);
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  /* ─── Estilos Glass retrocompatibles ─── */
+  .glass {
+    background: var(--glass);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--hairline);
+  }
+  .glass-subtle {
+    background: var(--glass-highlight);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid var(--hairline);
+  }
+  .glass-panel {
+    background: var(--surface-1);
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-panel);
+  }
+  .glass-card {
+    background: var(--surface-1);
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-panel);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .glass-card:hover {
+    background: var(--surface-2);
+    border-color: var(--border-control);
+  }
+  .glass-interactive {
+    background: var(--surface-2);
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-md);
+    transition: all 0.2s ease-in-out;
+  }
+  .glass-interactive:hover {
+    background: var(--surface-3);
+    border-color: var(--border-control);
+  }
+  .glass-input {
+    background: var(--surface-2);
+    border: 1px solid var(--border-control);
+    border-radius: var(--radius-md);
+    color: var(--ink);
+    transition: all 0.2s ease-in-out;
+  }
+  .glass-input:focus {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+  .glass-dialog {
+    background: var(--surface-1);
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-pop);
+  }
+
+  /* ─── Adaptaciones universales para Modo Claro (lectura e impresión) ─── */
+  :where(.light, [data-theme="light"]) {
+    .text-white:not([data-keep-white="true"]) {
+      color: var(--ink);
+    }
+    .text-white\/95,
+    .text-white\/90,
+    .text-white\/80,
+    .text-white\/70 {
+      color: var(--ink);
+    }
+    .text-white\/60,
+    .text-white\/50,
+    .text-white\/40 {
+      color: var(--ink-muted);
+    }
+    .text-white\/30,
+    .text-white\/20,
+    .text-white\/10 {
+      color: var(--ink-faint);
+    }
+    .border-white\/5,
+    .border-white\/10,
+    .border-white\/15,
+    .border-white\/20 {
+      border-color: var(--hairline);
+    }
+    .bg-white\/\[0\.01\],
+    .bg-white\/\[0\.02\],
+    .bg-white\/\[0\.03\],
+    .bg-white\/\[0\.04\],
+    .bg-white\/\[0\.05\],
+    .bg-white\/\[0\.08\],
+    .bg-white\/5,
+    .bg-white\/10 {
+      background-color: var(--surface-2);
+    }
+  }
+}
+
+/* ═══════════════════════════════════════════
+   Animaciones & Efectos
+   ═══════════════════════════════════════════ */
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  14% { transform: scale(1.12); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.08); }
+  56% { transform: scale(1); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -40px) scale(1.08); }
+  66% { transform: translate(-20px, 20px) scale(0.95); }
+}
+
+@keyframes float-reverse {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-35px, 30px) scale(0.95); }
+  66% { transform: translate(25px, -35px) scale(1.06); }
+}
+
+.animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+.animate-gradient-shift { background-size: 200% 200%; animation: gradient-shift 4s ease infinite; }
+.animate-fade-in-up { animation: fade-in-up 0.3s ease-out both; }
+.animate-heartbeat { animation: heartbeat 1.4s ease-in-out infinite; }
+.animate-float-1 { animation: float-slow 22s ease-in-out infinite; }
+.animate-float-2 { animation: float-reverse 28s ease-in-out infinite; }
+
+/* Scrollbars accesibles acordes a superficie */
+.custom-scrollbar::-webkit-scrollbar,
+.dev-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track,
+.dev-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb,
+.dev-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--border-control);
+  border-radius: var(--radius-full);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover,
+.dev-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-faint);
+}
+
+/* ReactFlow overrides */
+.react-flow__controls {
+  background: var(--surface-1) !important;
+  border: 1px solid var(--hairline) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-panel) !important;
+}
+.react-flow__controls-button {
+  background: transparent !important;
+  border-bottom: 1px solid var(--hairline) !important;
+  color: var(--ink-muted) !important;
+}
+.react-flow__controls-button:hover {
+  background: var(--surface-2) !important;
+  color: var(--ink) !important;
+}

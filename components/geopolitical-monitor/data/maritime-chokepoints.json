@@ -1,0 +1,107 @@
+[
+  {
+    "code": "IR",
+    "intensity": 96,
+    "label": "Cuello de Botella: Estrecho de Ormuz",
+    "sublabel": "Control ribereño norte; amenaza sobre el 20% del petróleo marítimo mundial",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "OM",
+    "intensity": 85,
+    "label": "Cuello de Botella: Estrecho de Ormuz",
+    "sublabel": "Península de Musandam; control y vigilancia del canal sur de navegación",
+    "colorCategory": "high"
+  },
+  {
+    "code": "AE",
+    "intensity": 78,
+    "label": "Hub Marítimo & Bypass de Ormuz",
+    "sublabel": "Puerto de Fujairah y oleoducto de contingencia Habshan-Fujairah",
+    "colorCategory": "high"
+  },
+  {
+    "code": "SG",
+    "intensity": 88,
+    "label": "Cuello de Botella: Estrecho de Malaca",
+    "sublabel": "Mayor centro mundial de transbordo portuario y bunkering (>25% comercio global)",
+    "colorCategory": "high"
+  },
+  {
+    "code": "MY",
+    "intensity": 82,
+    "label": "Cuello de Botella: Estrecho de Malaca",
+    "sublabel": "Costa oriental del canal logístico de mayor tonelaje de Asia (Port Klang)",
+    "colorCategory": "high"
+  },
+  {
+    "code": "ID",
+    "intensity": 80,
+    "label": "Corredores de Malaca, Sunda y Lombok",
+    "sublabel": "Riberas occidentales de Malaca y rutas alternas de paso de aguas profundas",
+    "colorCategory": "high"
+  },
+  {
+    "code": "EG",
+    "intensity": 94,
+    "label": "Cuello de Botella: Canal de Suez",
+    "sublabel": "Paso estratégico Asia-Europa con desvíos masivos por Cabo de Buena Esperanza",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "YE",
+    "intensity": 98,
+    "label": "Cuello de Botella: Bab el-Mandeb",
+    "sublabel": "Zona de fuego activo; ataques balísticos y drones a buques en el Mar Rojo",
+    "colorCategory": "critical"
+  },
+  {
+    "code": "DJ",
+    "intensity": 88,
+    "label": "Cuello de Botella: Bab el-Mandeb",
+    "sublabel": "Centinela occidental del estrecho con presencia de bases navales internacionales",
+    "colorCategory": "high"
+  },
+  {
+    "code": "SA",
+    "intensity": 75,
+    "label": "Corredor Mar Rojo & Golfo Pérsico",
+    "sublabel": "Paso obligado por Ormuz y exposición a disrupciones en puertos del Mar Rojo",
+    "colorCategory": "high"
+  },
+  {
+    "code": "PA",
+    "intensity": 84,
+    "label": "Cuello de Botella: Canal de Panamá",
+    "sublabel": "Restricciones de calado hídrico en Lago Gatún y subasta de cupos diarios",
+    "colorCategory": "high"
+  },
+  {
+    "code": "US",
+    "intensity": 68,
+    "label": "Ruta Comercial Interoceánica (Panamá)",
+    "sublabel": "Mayor usuario del canal interoceánico para graneles agrícolas, GNL y contenedores",
+    "colorCategory": "medium"
+  },
+  {
+    "code": "TR",
+    "intensity": 86,
+    "label": "Cuello de Botella: Estrechos Turcos (Bósforo)",
+    "sublabel": "Régimen de Montreux; paso obligado para cereal y crudo procedentes del Mar Negro",
+    "colorCategory": "high"
+  },
+  {
+    "code": "UA",
+    "intensity": 82,
+    "label": "Corredor Cerealero del Mar Negro",
+    "sublabel": "Dependencia crítica del Bósforo para salida de grano y minerales hacia el Mediterráneo",
+    "colorCategory": "high"
+  },
+  {
+    "code": "RU",
+    "intensity": 80,
+    "label": "Tránsito Petrolero Mar Negro (Novorossiysk)",
+    "sublabel": "Paso obligatorio de petroleros y aplicación de Montreux para buques de guerra",
+    "colorCategory": "high"
+  }
+]
