@@ -17,12 +17,22 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    "types": [
+      "vitest/globals",
+      "node"
+    ],
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
+      "@/components/dev/geopolitical-monitor/*": [
+        "./components/geopolitical-monitor/*"
+      ],
+      "@/components/dev/geopolitical-monitor": [
+        "./components/geopolitical-monitor"
+      ],
       "@/*": [
         "./*"
       ]

@@ -9,6 +9,7 @@ export default defineConfig({
     globals: true,
     setupFiles: ['./vitest.setup.ts'],
     alias: {
+      '@/components/dev/geopolitical-monitor': path.resolve(__dirname, './components/geopolitical-monitor'),
       '@': path.resolve(__dirname, './'),
     },
     execArgv: ['--max-old-space-size=4096'],
