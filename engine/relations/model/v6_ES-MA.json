@@ -1,0 +1,977 @@
+{
+ "pair": "ES-MA",
+ "asOf": "2026-10-18",
+ "structuralStatus": "RIVAL",
+ "overallStatus": "TENSE",
+ "trend30d": "IMPROVING",
+ "confidence": "MEDIUM",
+ "axes": {
+  "security": 0,
+  "trade": -1,
+  "energy": -2,
+  "migration": -4,
+  "territorial": -4,
+  "values": null
+ },
+ "trendBasis": {
+  "n30": 9,
+  "nBase": 2,
+  "baseline": "prev30",
+  "mean30": -0.23,
+  "meanBase": -1.0,
+  "delta": 0.77
+ },
+ "coherence": {
+  "mean60": -0.38,
+  "n60": 11,
+  "voted": "TENSE",
+  "final": "TENSE",
+  "clamped": false
+ },
+ "perceptionAtoB": "España mantiene una postura firme sobre la soberanía de Ceuta y Melilla y refuerza su control migratorio, al mismo tiempo que colabora con Marruecos en asuntos de seguridad y acuerdos de cooperación.",
+ "perceptionBtoA": "Marruecos considera que España ejerce presión y amenazas en la cooperación migratoria y defiende una postura territorial inflexible, pese a reconocer ciertos lazos de cooperación.",
+ "summaryEs": "España ha reforzado su control fronterizo en Ceuta con una barrera marítima y ha afirmado la soberanía no negociable de Ceuta y Melilla, al tiempo que ha acusado a Marruecos de incursiones navales y ha avanzado hacia la ciudadanía saharaui. Asimismo, ha mantenido canales de diálogo y cooperación en seguridad y ha firmado acuerdos de educación y modernización con Rabat. Estas acciones reflejan una combinación de firmeza territorial y disposición a colaborar en áreas prácticas.",
+ "leaders": [
+  {
+   "country": "ES",
+   "role": "head of government",
+   "name": "Pedro Sánchez",
+   "source": "wikidata"
+  },
+  {
+   "country": "ES",
+   "role": "head of state",
+   "name": "Felipe VI de España",
+   "source": "wikidata"
+  },
+  {
+   "country": "MA",
+   "role": "head of government",
+   "name": "Fatima Ezzahra El Mansouri",
+   "source": "wikidata"
+  },
+  {
+   "country": "MA",
+   "role": "head of state",
+   "name": "Mohamed VI de Marruecos",
+   "source": "wikidata"
+  }
+ ],
+ "stability": {
+  "agreement": 0.67,
+  "structuralAgreement": 0.67,
+  "runs": [
+   {
+    "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+    "overall": "TENSE",
+    "structural": "RIVAL"
+   },
+   {
+    "model": "groq/qwen/qwen3.8-27b",
+    "overall": "HOSTILE",
+    "structural": "RIVAL"
+   },
+   {
+    "model": "gemini/gemini-3.5-flash-lite",
+    "overall": "TENSE",
+    "structural": "PARTNER"
+   }
+  ],
+  "heldByHysteresis": null
+ },
+ "facts": [
+  {
+   "eventDate": "2026-10-13",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "The Spanish monarch visited the enclave of Ceuta amid bilateral friction following a major migrant border surge.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "territorial",
+   "evidence": [
+    "E73"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbU5tTjB4LUZJOHdiWUljRWNQNDMyZEJ4VGlFSy01ajNIenZTUzZfS3QzeHZWdFMxT0FsRU5wbGxEczlEZk44OVBFaVJxQ0JtVzJjQXQ0cHdGSDl1MFhKX2FwN2tBQ2N4NE4yWGJzOWNwTWlGall5S290SVlhcVZIUkIwcVl5cW0wRkF6ZWViZWJ5ZlNLNkNucDQxWGxCMnJ2bjhxV2JsN0xwYlpDcXFDelNDOUhlMExya3EyTTNZSmtZZlJoNW1F?oc=5",
+     "domain": "reuters.com",
+     "date": "Tue, 13 Oct 2026 18:40:37 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 5,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-10-13",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "The Spanish King proclaimed high and clear that Ceuta and Melilla are non-negotiable and their defense is an obligation.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "territorial",
+   "evidence": [
+    "E53"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5yNXVmbUFEOUxXbDA3WW5OQmpHYnA0TjlBOGpzUGpZUDdWeS1vSTZzQzJtU1oydnZaeVJfSHlCZGk4MzdVVnhNU2I4dmE5S0FGdExiNGhBQWxRbTdHM09MRXI2UFB4Y3BZVTdSMWowNHRIeGhtcmEwd05B0gF6QVVfeXFMUGVXQldnVy1Xd1lOd0Z1WHVYTGxyNDBiZllxbVI4Ny1xb2o5U2V6bTV4QUlzMHNYazF2bkFqdnVyUlZFRDMyeGMtekJQaHNpMG9YYU1LejBKSktvejBNbTlmb3FEYXpIa3lQSkh2TmdKdWVaaHUyUjkwdWc?oc=5",
+     "domain": "elmundo.es",
+     "date": "Tue, 13 Oct 2026 17:41:51 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 5,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-10-12",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Spanish Prime Minister Pedro Sánchez stated that Moroccan navy vessels entered Spanish territorial waters during the Ceuta crisis.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "territorial",
+   "evidence": [
+    "E64"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWFp1VmhuUFluczVQaW83Q0J0aVg0NVY3a3lDT3duTGdUSG1CanpyMFo5ZDJLRV9QTDA1Y2VGbkZmNXVJY3draGJVWXdyZnJpQVJyWlpaQjN6NF9yYmFVVEhuWXhaYzExSlJ5dVFpZ25FYVNxLTdXc0NQZUtLd0dZUGZVV1o5OS1KQ2U5aUNJZHB0YzZTbUZxV0t5OGhvVUV3Rjh1SnJKYmJvNlVrYWllZVM5Q3lvTndfWGVEbm9zZ0dTUHV2?oc=5",
+     "domain": "reuters.com",
+     "date": "Mon, 12 Oct 2026 15:59:44 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 6,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-10-09",
+   "dateBasis": "stated",
+   "actor": "MA",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Moroccan King Mohammed VI stated that the migration cooperation model with Spain has hit its limit and warned against pressure or threats.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "migration",
+   "evidence": [
+    "E47",
+    "E57"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNenFuTlpoWFNHUjhDN2FIVkxyMHVjSUFpOF9pRlhmYmFERFBJZVduN3FTd1lOMEsxVUZDQnlfYkU4MUxXeUdMYXVGOFFfSnVhdl8xNk1xNWZYNnZ5cTZEUmpXamxNODNMcHNpbUtnMEt5WTc1SU1BNkVUSWRrS2FlcFdENEhHNDdaNlJJZ1dhY0FuWDQwTWlJLVR5U3lnYjVBNkF3ZjRuaW0yS2JUNWtjRGhPTkpNUmhicmVKV1pzbHZjTW40ZFRvUzhzcWp0NDE2dmEyaUd0eEkyOGp1RzE4ctIB9AFBVV95cUxNS1JFVDdHTnJiQXNEeXQ1dUNlRW5VRTRVRGwyRURiUkhWRDZyMUFmT1AzVy04bFBsOTYzTzZRa3k4UWthbGNfRVVwdldyd1ZEN2huQ1VhbXNyVkN4WVAtaU9DdTVCd0JlZ2Z1ejlMTlNiNTM0U1F1MlJUbXJpcXBVSFZIcHQ2N1JXOU8wOGJJRS1FejRyNUMxVkVFNk15eDJFODFVb3AzNl93YkhIRkxzTVRIVm43dzBXMDAyUnBNTk0tdXl6Q05aSWw2blhTOWQwX2FEX19BWVFKcGpxTGk0UGRhYzNrbmN5WHRiWGRER3dYd3RP?oc=5",
+     "domain": "elpais.com",
+     "date": "Fri, 09 Oct 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdkxrWWdQRGRkSDkwX05xNzlTMzAxLWtHbkRNZ2J0VGZLcm5hV0FqVGhReW5Pa1JZTl9SRWIxeHRyaElRTG54WWYwU054ZW4wd0gzTFBaRnhFYmNwRE51N2ZzS2duTUVBSHRiWmlRZGpJaTdnS1JrYk1vQ1dKN2F6VGxKY0s2cWFvdEx4OTFFeEpYM2hERmJSVmJLTDhZLXpQRkN6Ul9Bd2JjT0ZBSEN0dzBSZkl1cmc?oc=5",
+     "domain": "reuters.com",
+     "date": "Fri, 09 Oct 2026 18:29:35 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 9,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-10-09",
+   "dateBasis": "stated",
+   "actor": "MA",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "King Mohammed VI denounced the instrumentalization of the Ceuta crisis in Spain and stated he will not accept blackmail.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "migration",
+   "evidence": [
+    "E46"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLWhLdUlHSDVMWWV6TEdkVGY5SHI5ZGVidWJmekRrTWlITW02Mjl6bG13TVVvaGlUUGdmbFVTVi1DSWpneTZSQTBVakh1WUhoZmt4NnhqM082aWJDTGg4aE5yMS02YlBhX1p0OVpPUTg3aWZXZ1NlNDFZcG1LUUFpZEtQZ0UzNVdpSDY2ZE02cU1zYkYwcklac0ZMWkY5TVNNUEFQUkZYTi1IZw?oc=5",
+     "domain": "rtve.es",
+     "date": "Fri, 09 Oct 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 9,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-10-15",
+   "dateBasis": "inferred_from_publication",
+   "actor": "MA",
+   "actorKind": "government",
+   "kind": "third_party_report",
+   "fact": "Morocco reportedly cut its diesel shipments to Spain amid growing bilateral tensions.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "trade",
+   "evidence": [
+    "E44"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPdHhGUEs5MXFjb1lzZXlOTEFoZDBjU2lLWXFySkw3dVRpWWdTUnRFTDdPZTczSXh0eS1JZnJUMk5sWFdiZnJDLXR4SXpNRzNIQ0JZdjZxX1BwRXRMMVVxVlJKUDQ1aXhsejNkMHBfTFhXNk50MTAzWkxLRzVNcHFnbnl5RlFZeURxdllDdEtpQmtfWjdla0VtUllmMHFBcUEtMk1EbHk2dDVZZlctYVpyM2lHcl9aRkVrSHV3bDcyUE5fSlRXMTBhMHhSeVBYVFJvVlotLUNmTU5SaUJfT1RCQ1B4c2lnZVRVOHVWckNDMG5DeVdOcm1sRXVZUdIBjwJBVV95cUxOZGlUNzZ0N2k4ei03T0FkMmlUelMwcHNuRnMyUWxHX01sN0J2T0pNUHlCbktXeE0zU1h3OGZIamtfT1J2LU51OFc3MU1JSnZ0VHpNclVsbDhFeTFtdEhBQ1hmSVlHRWhod3l2eXZBMkFIY2ZKTk9CTVVVOVZXeFZoZG9CQlZPNmo3S21waUxFSnBlTFVWRDA4Rm5vei0ycWRaNGVSOVNJOW80TklCNE1xQW8xZk5VSy1XVEgybjRobm5obWhHQzMxNHFzTDdWQWJoajNOV0JBUXpZdDVFc1VBbUNtMnYyNVdpd2ZVRjZveHN4MmM5dGRtQWpsNlJmOVJSdjR5TjlZMmdrMDl0dktF?oc=5",
+     "domain": "larazon.es",
+     "date": "Thu, 15 Oct 2026 14:12:25 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 3,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-10-02",
+   "dateBasis": "stated",
+   "actor": "joint",
+   "actorKind": "international",
+   "kind": "event",
+   "fact": "Law enforcement agencies arrested five suspects in Spain, Morocco, and France for ordering violence from abroad.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "security",
+   "evidence": [
+    "E59"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbnlqVFhJc1BfS0RDaWVNaUVFLVVSN1N2dXRzSkhaU3BuNGJaOWJra251cVpMWThOT3lFNzRTLThZZW9HVmxnRGxWSjhpQVRFMUlXYm5OUEF4ckVldEVoQ01HUjc3Tkg0WXlMUHB3Ylp4VkQxdGRpOE43cm9HRHEzbVlPajJNRVVfSFJRM0tLVjlmM3RzVGZXMFE3VmZTcjFWblF5dUVkNTNLQjNxbUJFQVZYTmZUbXgzUHVidzFnYTBDck8tcnI5SDVYUQ?oc=5",
+     "domain": "europol.europa.eu",
+     "date": "Fri, 02 Oct 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 16,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-28",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "The Spanish government representative in Ceuta resigned over the border rush fallout.",
+   "type": "IMPLEMENTED",
+   "polarity": 0,
+   "axis": "migration",
+   "evidence": [
+    "E75"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOczJTZVFZTDlIcWtUenJQLW9lT0VuemN2TnBTeHhEcm5xMVBFWWVnZjNfQ0hwbm8ybVA1M2h6YjdjakgteHdUSW5saklaR1BKX1JLM3Q3T1B0OEp2YUU2eHAwRUtaRTlUdHpnckNIVmUxYnRkOElBSVpzb2JTRDhISENMLXMwMkNLa1AyRHJCZlV4XzZ3b1hUMVZzcW5rMzRGcG42Q01XeXc0cnNoUGxqTC1naVNDQ1U2OU84?oc=5",
+     "domain": "reuters.com",
+     "date": "Mon, 28 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 20,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-24",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Spain asked Morocco to adjust drone altitudes after a drone interfered with a flight landing in Melilla.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "security",
+   "evidence": [
+    "E40"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaDdyVEQ2bFRFVE8zQnFqVGVNM1R3Y0FkYUxRNWpuRldrNDlKY09lODFCLWVIMFAxR0xkanp2anlFVGU0YXAyOC05d3FnTkNxaDUtU3l4eVRwVWpDXy1QS2ZGSmk5MXBpQjJLS3V6bkhsNkt3UURmY2xhYnVMMVBoTjZJNVJ6YndSVUJ3Zi0tbU5rdmhNMzEwMVE3Q3ktd1pVdHRnOWlDczFhN0taUC1hSkg1ZTF2YUY0aXAzY1ZhN3NieHRBOTNqM3VTNEo?oc=5",
+     "domain": "rtve.es",
+     "date": "Thu, 24 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 24,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-03",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Spain declassified documents showing Morocco had been warned about impending migrant crossing plans prior to the border surge.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "migration",
+   "evidence": [
+    "E55"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNjQ4aC1vNHJKYUNveGNOVFpHTk5ibTJKU3VZWVVSUnRRRy11UXkyMTJ4N1FkX05LVXAxR1YybGdtVkUwY2ViQWlPeDZIM1NhUjF2QkZJNVpySWRQTHdhckhhVWRSOUEyeUt0UFdNMDlGay1SM25uRUtWMTdiUEEwcFZoT214Z1k?oc=5",
+     "domain": "nytimes.com",
+     "date": "Wed, 09 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 45,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-11",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Spain moved closer to granting citizenship to Western Saharans with a new Sahrawi citizenship law.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "territorial",
+   "evidence": [
+    "E65",
+    "E72"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUpna1g4dWRIUUs3cldwNENSRkE3NUlacXg2eHY3VjYtWlpCeDNxWVNPQklaNUJMTVVjSGFneDJmZUlUejREOHpoMV9VQk5NdzhrUUtVVUh2b3B0Y0x0ZjA0RWdBUGg4N0ZGeXN1NEFmb3BpdmF5Tkd5Skx2MFUxd2diZ21rQmRKZktRdEhkb041VVBZRUlJZHVGZ19FN03SAaQBQVVfeXFMTklsN005VXZPN2VvT3ZkTEFNN2lTZm1qeWFaR2tmQ3hXZ3UwOHVXQlZRamxQUjZFa0V3TmRRX0c4Q0F2V3FuRFZNeGNieDZmZnF5NmUwX2dQQ1JUWFh0U1BEaHF0aXEyMGdGZWlJak8wUjZDemtWWTMwemVmY28wVDhucXJnQWZsQ3BFaWFDU1FVVWlwRm5xcV9Oamk4dGtZeW5jNk4?oc=5",
+     "domain": "aljazeera.com",
+     "date": "Sun, 13 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQamJZWkZRLTlOME9CMFg4YmFRdHRadnZRSlozY1RVS29hNmdJeHNxYWZwa09RVTdvX3BMTUNHaXFQcjl2dklTaTA3UmtKdW5ieG1aaXZ3LWFDYnFBRWhLZWtLel93VkFNZ0JGSnp4aTFvaUk1WXVFTDhWbHdma3dqcXp4NjNMVm85QVlPM2FsSzBzQWFILW0yV01FaGh4cXhfSjlaWEw0dVFma2s3YWdj0gG0AUFVX3lxTFBhcG85eEkzek1vUHZWdE0wOXFKd1l0VlJlT0ZfeWl4Mkt3TWVwbkdJX3c4dDc0NHNYWERHT0NYX0Zua1JsMEg3LUJLRVFZbHEzblJXLWhjUWlnSDh2ZmJpMEFWUG16ZHoyQlI0RllkV3RMWU5IZ0VZdzVFcVNnQ1FsOVlxOC1uNmp6YzV0WFNxM1oyZXhGQjJUMklmZFA3ckhPeEQ5TDd6blJaX0pGS1pkeGtnVA?oc=5",
+     "domain": "aljazeera.com",
+     "date": "Fri, 11 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 37,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-08-01",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Spain announced and began the installation of a containment barrier on the sea border of Ceuta following a mass migrant breach.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "migration",
+   "evidence": [
+    "E14",
+    "E15"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.nbcnews.com/world/europe/spain-put-containment-fence-ceutas-sea-border-morocco-frontier-rush-ki-rcna590361",
+     "domain": "nbcnews.com",
+     "date": "Sat, 01 Aug 2026 15:13:02 GMT"
+    },
+    {
+     "url": "https://www.cbsnews.com/news/spain-ceuta-morocco-migrants-border-crossings",
+     "domain": "cbsnews.com",
+     "date": "Sat, 01 Aug 2026 14:52:58 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 78,
+   "bucket": "last12m",
+   "isGov": true
+  },
+  {
+   "eventDate": "2025-12-04",
+   "dateBasis": "stated",
+   "actor": "joint",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Spain and Morocco signed fourteen cooperation agreements, including education and modernization accords, during the 13th High-Level Meeting.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E4",
+    "E9"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2025/041225-sanchez-reunion-alto-nivel-marruecos.aspx",
+     "domain": "lamoncloa.gob.es",
+     "date": "Thu, 04 Dec 2025 00:00:00 GMT"
+    },
+    {
+     "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/paginas/2025/20251204-spain-morocco-high-level-meeting.aspx",
+     "domain": "lamoncloa.gob.es",
+     "date": "Thu, 04 Dec 2025 00:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 318,
+   "bucket": "last12m",
+   "isGov": true
+  },
+  {
+   "eventDate": "2022-03-18",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Spain formally endorsed Morocco's autonomy plan for Western Sahara in a letter from Prime Minister Pedro Sánchez to King Mohammed VI.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "territorial",
+   "evidence": [
+    "E10",
+    "E16",
+    "E18"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://foreignpolicy.com/2026/08/11/morocco-spain-ceuta",
+     "domain": "foreignpolicy.com",
+     "date": "Tue, 11 Aug 2026 00:00:00 GMT"
+    },
+    {
+     "url": "https://www.reuters.com/world/timeline-spain-moroccos-rocky-diplomatic-relations-2022-06-25",
+     "domain": "reuters.com",
+     "date": ""
+    },
+    {
+     "url": "https://en.unav.edu/web/global-affairs/espana-y-marruecos-la-permisividad-espanola-ante-el-vecino-del-sur",
+     "domain": "en.unav.edu",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 1675,
+   "bucket": "older",
+   "isGov": true
+  },
+  {
+   "eventDate": "2021-05-20",
+   "dateBasis": "stated",
+   "actor": "MA",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Morocco recalled its ambassador to Spain for consultations following the hospitalization of Polisario Front leader Brahim Ghali in Spain.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E22",
+    "E23",
+    "E24"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://theconversation.com/ceutas-border-crisis-is-about-geopolitics-not-just-migration-289098",
+     "domain": "theconversation.com",
+     "date": ""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/2021_Morocco%E2%80%93Spain_border_incident",
+     "domain": "en.wikipedia.org",
+     "date": ""
+    },
+    {
+     "url": "https://www.swissinfo.ch/spa/cronolog%C3%ADa-y-fechas-cruciales-en-la-relaci%C3%B3n-espa%C3%B1a-marruecos/48246782",
+     "domain": "swissinfo.ch",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 1977,
+   "bucket": "ancient",
+   "isGov": true
+  },
+  {
+   "eventDate": "2020-12-21",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Spain summoned the Moroccan ambassador after the Moroccan Prime Minister stated that Ceuta and Melilla are as Moroccan as the Sahara.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "territorial",
+   "evidence": [
+    "E17"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Morocco%E2%80%93Spain_relations",
+     "domain": "en.wikipedia.org",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 2127,
+   "bucket": "ancient",
+   "isGov": true
+  },
+  {
+   "eventDate": "2019-02-11",
+   "dateBasis": "stated",
+   "actor": "joint",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Spanish King Felipe VI and Queen Letizia conducted an official state visit to Morocco at the invitation of King Mohammed VI.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E24"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.swissinfo.ch/spa/cronolog%C3%ADa-y-fechas-cruciales-en-la-relaci%C3%B3n-espa%C3%B1a-marruecos/48246782",
+     "domain": "swissinfo.ch",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 2806,
+   "bucket": "ancient",
+   "isGov": true
+  },
+  {
+   "eventDate": "2007-11",
+   "dateBasis": "stated",
+   "actor": "MA",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Morocco recalled its ambassador to Madrid following the official visit of the Spanish King to Ceuta and Melilla.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "territorial",
+   "evidence": [
+    "E26"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.antena3.com/noticias/espana/cronologia-mayor-crisis-diplomatica-espana-marruecos-imagenes_2021052160a7d82ab37a83000137c4c8.html",
+     "domain": "antena3.com",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 6912,
+   "bucket": "ancient",
+   "isGov": true
+  },
+  {
+   "eventDate": "2002-07-11",
+   "dateBasis": "stated",
+   "actor": "MA",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Moroccan gendarmes occupied the disputed islet of Perejil, triggering a naval standoff and diplomatic crisis with Spain.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "territorial",
+   "evidence": [
+    "E26",
+    "E27",
+    "E28"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.antena3.com/noticias/espana/cronologia-mayor-crisis-diplomatica-espana-marruecos-imagenes_2021052160a7d82ab37a83000137c4c8.html",
+     "domain": "antena3.com",
+     "date": ""
+    },
+    {
+     "url": "https://media.realinstitutoelcano.org/wp-content/uploads/2021/10/informe-elcano-19-relaciones-espana-marruecos.pdf",
+     "domain": "media.realinstitutoelcano.org",
+     "date": ""
+    },
+    {
+     "url": "https://elpais.com/espana/2022-04-07/medio-siglo-de-relacion-entre-espana-y-marruecos-marcado-por-cinco-crisis.html",
+     "domain": "elpais.com",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 8865,
+   "bucket": "ancient",
+   "isGov": true
+  },
+  {
+   "eventDate": "1991-07",
+   "dateBasis": "stated",
+   "actor": "joint",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Spain and Morocco signed the Treaty of Friendship, Good Neighborliness and Cooperation.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E13",
+    "E27"
+   ],
+   "contested": false,
+   "anchor": true,
+   "sources": [
+    {
+     "url": "https://www.lemonde.fr/en/international/article/2026/08/03/ceuta-crisis-spain-and-morocco-s-30-years-of-strategic-rapprochement-and-underlying-tensions_6756096_4.html",
+     "domain": "lemonde.fr",
+     "date": "Mon, 03 Aug 2026 21:34:30 GMT"
+    },
+    {
+     "url": "https://media.realinstitutoelcano.org/wp-content/uploads/2021/10/informe-elcano-19-relaciones-espana-marruecos.pdf",
+     "domain": "media.realinstitutoelcano.org",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 12879,
+   "bucket": "ancient",
+   "isGov": true
+  }
+ ],
+ "contextFacts": [
+  {
+   "eventDate": "2026-10-03",
+   "dateBasis": "stated",
+   "actor": "third-party",
+   "actorKind": "non-government",
+   "kind": "third_party_report",
+   "fact": "Amnesty International published a report concluding that Morocco used Pegasus spyware against Spanish ministers.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "security",
+   "evidence": [
+    "E39"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14SHdWRm1ESGxoTmgyREhDWmJJWkVLS1BqLV9TUVJSMDZVYmJhUlBhQ3Y4LV9jSEhkVzRwbUFRNDBkNnE0b3YwNHFaN1E5RUlTd2JrUVNNVE5nQzNIOTg2OG9XSWdYZDFHNUxaNFF5V1BBaGIzTm5DdkN30gF6QVVfeXFMUE9IT1NUaDAzS3JfbnR5d20ySzFScDh2U3NYQjZpN09jMXR3V2Zyei0tLWNFeXE0d3lJaERhR19VbUtPYW91SF9NWkhmcGw1VERMSjlPMGt4bDgtTEV0aXVLSVdkczBnQUhuaEZ6VWUyMnlhX1NPd1g0OGc?oc=5",
+     "domain": "elmundo.es",
+     "date": "Sat, 03 Oct 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 15,
+   "bucket": "recent",
+   "isGov": false
+  }
+ ],
+ "initiatives": [
+  {
+   "leaderCountry": "ES",
+   "leader": "Pedro Sánchez",
+   "initiative": "Installing a 500-meter maritime containment barrier along the coast of Ceuta to curb unauthorized crossings.",
+   "status": "ACTIVE",
+   "evidence": [
+    "E14",
+    "E15"
+   ]
+  },
+  {
+   "leaderCountry": "ES",
+   "leader": "Pedro Sánchez",
+   "initiative": "Implementing stricter legal rules and asylum procedures for migrants arriving in Ceuta.",
+   "status": "ACTIVE",
+   "evidence": [
+    "E71"
+   ]
+  }
+ ],
+ "quality": {
+  "evidenceCollected": 78,
+  "evidenceRelevant": 77,
+  "independentDomains": 39,
+  "govFacts12m": 13,
+  "govFactsRecent": 11,
+  "factsKept": 21,
+  "contextOnly": 1,
+  "supportRatio": 1.0,
+  "coverage": 0.44,
+  "stillMissing": [
+   {
+    "event": "Morocco offers Spain a partnership in Artificial Intelligence",
+    "evidence": [
+     "E38"
+    ]
+   },
+   {
+    "event": "Morocco offers to collaborate on returning remaining migrants in Ceuta",
+    "evidence": [
+     "E32",
+     "E33"
+    ]
+   },
+   {
+    "event": "Spanish government denies recent incursions of Moroccan vessels",
+    "evidence": [
+     "E43"
+    ]
+   }
+  ],
+  "loops": 2,
+  "fixes": {
+   "type": 0,
+   "typeRule": 0,
+   "date": 0,
+   "actor": 0,
+   "undated": 0,
+   "recovered": 0,
+   "uncorroborated": 7,
+   "polarityDisagree": 4
+  },
+  "dropped": [],
+  "irrelevantExamples": [
+   {
+    "id": "E11",
+    "title": "Bilateral relations between Morocco and the US and their implications for Spain",
+    "why": "Focus on Morocco-US"
+   }
+  ]
+ },
+ "metrics": {
+  "calls": [
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.8,
+    "tokens_in": 1985,
+    "tokens_out": 1096,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.0,
+    "tokens_in": 1607,
+    "tokens_out": 770,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.2,
+    "tokens_in": 1155,
+    "tokens_out": 1336,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.9,
+    "tokens_in": 1093,
+    "tokens_out": 1180,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.0,
+    "tokens_in": 1014,
+    "tokens_out": 771,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 1.3,
+    "tokens_in": 444,
+    "tokens_out": 398,
+    "fallbacks": 0
+   },
+   {
+    "stage": "extract",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 5.9,
+    "tokens_in": 10106,
+    "tokens_out": 2163,
+    "fallbacks": 0
+   },
+   {
+    "stage": "coverage",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 1.1,
+    "tokens_in": 3445,
+    "tokens_out": 38,
+    "fallbacks": 0
+   },
+   {
+    "stage": "extract",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 5.1,
+    "tokens_in": 11729,
+    "tokens_out": 2217,
+    "fallbacks": 0
+   },
+   {
+    "stage": "coverage",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 1.7,
+    "tokens_in": 3477,
+    "tokens_out": 399,
+    "fallbacks": 0
+   },
+   {
+    "stage": "extract",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 6.8,
+    "tokens_in": 12264,
+    "tokens_out": 3227,
+    "fallbacks": 0
+   },
+   {
+    "stage": "coverage",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 1.0,
+    "tokens_in": 3670,
+    "tokens_out": 147,
+    "fallbacks": 0
+   },
+   {
+    "stage": "verify",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 8.9,
+    "tokens_in": 5721,
+    "tokens_out": 3929,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "seconds": 174.2,
+    "tokens_in": 1821,
+    "tokens_out": 4874,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "seconds": 0.9,
+    "tokens_in": 1751,
+    "tokens_out": 288,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "seconds": 1.8,
+    "tokens_in": 1704,
+    "tokens_out": 288,
+    "fallbacks": 0
+   }
+  ],
+  "collect": {
+   "errors": [],
+   "blocked": 2,
+   "wikipedia": "Morocco–Spain relations",
+   "recent": 65,
+   "history": 13
+  },
+  "totalSeconds": 243.6,
+  "tokensIn": 62986,
+  "tokensOut": 23121
+ }
+}

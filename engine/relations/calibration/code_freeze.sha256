@@ -1,0 +1,30 @@
+d69b4049675345aa447e515a46c68c5d49cdad42dd22dd4b86c7a73941703c86  scoring.py
+8ee9fa7d06f08231a8ba029424f8ff4d361a88d757168478f744e674d429afb1  structure.py
+f9f41a358bf062714896dce96d2bb4db4585fc671951c2910e41aa975e85ce5e  measures.py
+82dc61827740c1fddda768ad848804707b3692b9322f19c642e52bb012fd8c22  verify_states.py
+3e893ae4d7171139559fbae61af5b1a64a252d1111669f3c9cdfd945168d4f8d  classify_score2.py
+5d95a47128b3ae33552fde6bf2d50242219a869f3001d4df8b380f56f45a0081  flow.py
+63b3cde26f9213f59aeb28503f4766be0b98a4180b5e984d9f60c21200a97c35  providers.py
+4e183fccc69a5d124d1835b8ef4e2c42dd833eb15587dbd6d0886dea41e2caec  calib_lib.py
+6488065251b6f5166d59a2742d634c6b02a7ef1ccbd4c23d618a268f2d559bd2  extract_hist.py
+d2705502b04e16ab0ac457dece1be1eb7da689832e2ce7b03158d6f6aae0e3c1  eval_variants.py
+e53173b059b6f3c91c1a7ed3991322016458bfdea51add4c4a7587bbd2c2f041  eval_2x2.py
+aa53ab1bc0075d5b6bf4ae305cfcec692fb7c9e2e9289c62cbd55874816ef93b  anchors.py
+MODEL FROZEN at 2026-10-18T12:24:08Z: no fact of the Qatar episode has been read, extracted or scored. Parameters = anchors.py DEFAULTS; B chain = Qwen>Cohere>GeminiLite; measure weights fixed a priori (measures.py).
+d69b4049675345aa447e515a46c68c5d49cdad42dd22dd4b86c7a73941703c86  scoring.py
+ee3978a87e8a085820fa431b7ba34a853d72fe1b0939409edcddaed86e75aed4  structure.py
+f9f41a358bf062714896dce96d2bb4db4585fc671951c2910e41aa975e85ce5e  measures.py
+fee00fe2054accd28d440c803cd4c37d8d9170d85892ffd696fbb719b833bd1f  verify_states.py
+b4e6e79d85483b1604a60191fb95209319045ccd96034d9980d90171e5b6366f  classify_score2.py
+5d95a47128b3ae33552fde6bf2d50242219a869f3001d4df8b380f56f45a0081  flow.py
+63b3cde26f9213f59aeb28503f4766be0b98a4180b5e984d9f60c21200a97c35  providers.py
+4e183fccc69a5d124d1835b8ef4e2c42dd833eb15587dbd6d0886dea41e2caec  calib_lib.py
+6488065251b6f5166d59a2742d634c6b02a7ef1ccbd4c23d618a268f2d559bd2  extract_hist.py
+07c0774b320048b25ab04548ea525750877968ef1879cbf2c2e0b5e7bf625841  protocol_magnitude.py
+44127ccf6a9bd5b48f95a0a9fa5ceb64d3af3c117d91feb5f9295a3f5d846976  protocol_magnitude_A1.py
+MODEL FROZEN (round 4) at 2026-10-18T12:46:02Z: no fact of the Canada-Saudi episode has been extracted, labelled or scored. Parameters = current (holdFrac 0, measureMax 30, fadeHL 365, measureFull 24); protocol A1/A2 frozen.
+NOTE (round 4, written before extracting anything from the Canada-Saudi episode): the hashes of structure.py, verify_states.py and classify_score2.py in the 12:24Z freeze above are NOT the current ones.
+Checked by diff against the backups structure_v5.py / classify_score2_v6.py: after that freeze I added (a) the key 'sideDates' to the AMBASSADOR_ABSENT state, (b) the re-verification step (verify_states.py) and its
+integration inside classify_score2.run(), (c) the --no-verify flag. None of this is on the calibration code path (calib_lib uses derive_states values, measures.py, scoring.py, reconcile/tiebreak, all unchanged:
+scoring.py and measures.py hashes are identical). The development-case gold losses reproduced today with the current files (AUCN 61.8, JPKR 30.0, ES-MA/IN-CA/QA-SA 0.0) match those obtained before.
+The Qatar and Japan results were therefore produced with the 12:24Z files, not the later ones; only this note and the unchanged outputs support that equivalence.

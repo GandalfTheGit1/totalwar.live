@@ -1,0 +1,244 @@
+[
+ {
+  "eventDate": "2020-12-21",
+  "actor": "ES",
+  "actorKind": "government",
+  "fact": "Spain summoned the Moroccan ambassador to convey expectations of respect for sovereignty and request explanations regarding remarks about Ceuta and Melilla.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA00"
+ },
+ {
+  "eventDate": "2021-04",
+  "actor": "MA",
+  "actorKind": "government",
+  "fact": "Morocco summoned the Spanish ambassador to express repudiation over the hospitalization of Brahim Ghali in Spain.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA01"
+ },
+ {
+  "eventDate": "2021-04",
+  "actor": "ES",
+  "actorKind": "government",
+  "fact": "The Spanish Ministry of Foreign Affairs justified Brahim Ghali's entry into Spanish territory for strictly humanitarian reasons.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA02"
+ },
+ {
+  "eventDate": "2021-04-22",
+  "actor": "ES",
+  "actorKind": "government",
+  "fact": "Spanish officials announced that Polisario Front leader Brahim Ghali was sent to Spain for COVID-19 hospitalization.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA03"
+ },
+ {
+  "eventDate": "2021-04-30",
+  "actor": "MA",
+  "actorKind": "government",
+  "fact": "Morocco granted asylum to pro-Catalan independence politician Carles Puigdemont.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA04"
+ },
+ {
+  "eventDate": "2021-05-18",
+  "actor": "ES",
+  "actorKind": "government",
+  "fact": "Spanish Prime Minister Pedro Sánchez announced that illegally arrived migrants would be immediately returned.",
+  "type": "DECLARED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA05"
+ },
+ {
+  "eventDate": "2021-05-18",
+  "actor": "ES",
+  "actorKind": "government",
+  "fact": "The Spanish Ministry of Defense moved 200 police officers and deployed armored vehicles to the border area in Ceuta.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA06"
+ },
+ {
+  "eventDate": "2021-05-18",
+  "actor": "ES",
+  "actorKind": "government",
+  "fact": "The Spanish government announced that it had processed the expulsion of 4,000 immigrants.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA07"
+ },
+ {
+  "eventDate": "2021-05-18",
+  "actor": "MA",
+  "actorKind": "state",
+  "fact": "Morocco recalled its ambassador to Spain for consultations.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "REF"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "ESMA08",
+  "corrected": "type DECLARED->IMPLEMENTED: the recall took place"
+ },
+ {
+  "eventDate": "2021-05-20",
+  "actor": "ES",
+  "actorKind": "government",
+  "fact": "The government delegate in Melilla announced the deployment of Armed Forces to reinforce border surveillance.",
+  "type": "IMPLEMENTED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA09"
+ },
+ {
+  "eventDate": "2021-05-20",
+  "actor": "MA",
+  "actorKind": "government",
+  "fact": "Moroccan Foreign Minister Nasser Bourita confirmed discomfort over Ghali's transfer and stated the Moroccan ambassador would not return while Ghali remained in Spain.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA10"
+ },
+ {
+  "eventDate": "2022-03-14",
+  "actor": "ES",
+  "actorKind": "government",
+  "fact": "Spanish Prime Minister Pedro Sánchez sent a letter to King Mohammed VI backing Morocco's Western Sahara Autonomy Proposal.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA11"
+ },
+ {
+  "eventDate": "2022-04",
+  "actor": "ES",
+  "actorKind": "government",
+  "fact": "Spanish Prime Minister Pedro Sánchez visited Morocco and participated in an iftar with King Mohammed VI.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA12"
+ },
+ {
+  "eventDate": "2023-02",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Spain and Morocco signed a series of multiple agreements to boost trade and investment at a summit in Rabat.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA13"
+ },
+ {
+  "eventDate": "2023-06-22",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Both countries agreed to cooperate on repatriations of illegal migrants.",
+  "type": "DECLARED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ESMA14"
+ }
+]

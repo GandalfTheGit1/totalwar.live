@@ -1,0 +1,110 @@
+{
+ "Saudi Arabia announced the recall of its ambassador to Qatar, citing i": {
+  "id": "QASA00",
+  "date": "2014-03",
+  "code": "AMBASSADOR_RECALL",
+  "actor": "SA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Saudi Arabia severed diplomatic relations with Qatar and blocked Qatar": {
+  "id": "QASA01",
+  "date": "2017-06",
+  "code": "RELATIONS_SEVERED",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "Saudi Arabia suspended Qatar's involvement in the Yemen military campa": {
+  "id": "QASA02",
+  "date": "2017-06",
+  "code": "DIPLOMATIC_BOYCOTT",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "Saudi Arabia accused Qatar of backing terrorism and cut ties.": {
+  "id": "QASA03",
+  "date": "2017-06-05",
+  "code": "RELATIONS_SEVERED",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "Saudi Arabia allowed a Qatari contingent to participate in the Joint G": {
+  "id": "QASA04",
+  "date": "2018-04",
+  "code": "DEFENSE_DEAL",
+  "actor": "joint",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": true
+ },
+ "Qatar declared that it would ban products imported from Saudi Arabia a": {
+  "id": "QASA05",
+  "date": "2018-05",
+  "code": "TRADE_RESTRICTION",
+  "actor": "QA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Saudi Arabia announced its participation in the Arabian Gulf Cup in Qa": {
+  "id": "QASA06",
+  "date": "2019-11",
+  "code": "SYMBOLIC_GESTURE",
+  "actor": "SA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Saudi Arabia and Qatar signed an agreement to restore full diplomatic ": {
+  "id": "QASA07",
+  "date": "2021-01-05",
+  "code": "NORMALIZATION",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Qatar's Emir Sheikh Tamim bin Hamad Al Thani visited Al-Ula in Saudi A": {
+  "id": "QASA08",
+  "date": "2021-01-05",
+  "code": "STATE_VISIT",
+  "actor": "QA",
+  "level": "HEAD",
+  "core": false,
+  "amb": true
+ },
+ "Saudi Arabia agreed to reopen airspace and maritime borders with Qatar": {
+  "id": "QASA09",
+  "date": "2021-01-05",
+  "code": "DE_ESCALATION",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Saudi Foreign Minister Faisal bin Farhan announced the re-opening of h": {
+  "id": "QASA10",
+  "date": "2021-01-16",
+  "code": "AMBASSADOR_RESTORED",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "Saudi Arabia's Crown Prince Mohammed bin Salman arrived in Doha on a v": {
+  "id": "QASA11",
+  "date": "2021-12-08",
+  "code": "STATE_VISIT",
+  "actor": "SA",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ }
+}

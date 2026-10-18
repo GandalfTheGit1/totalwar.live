@@ -1,0 +1,146 @@
+{
+ "Canadian diplomats and the Canadian Embassy in Riyadh released stateme": {
+  "id": "CASA00",
+  "date": "2018-08",
+  "code": "CRITICISM",
+  "actor": "CA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "The Saudi Ministry of Foreign Affairs published an official statement ": {
+  "id": "CASA01",
+  "date": "2018-08",
+  "code": "HARSH_RHETORIC",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "The Saudi government suspended all new trade and investment relations ": {
+  "id": "CASA02",
+  "date": "2018-08",
+  "code": "SANCTIONS_BROAD",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Saudi Arabia expelled Canada's ambassador, named Dennis Horak as perso": {
+  "id": "CASA03",
+  "date": "2018-08",
+  "code": "EXPULSION",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "Saudi Arabia recalled its envoy to Canada temporarily.": {
+  "id": "CASA04",
+  "date": "2018-08",
+  "code": "AMBASSADOR_RECALL",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "Saudi Arabia instructed staff to sell off all Canadian holdings, inclu": {
+  "id": "CASA05",
+  "date": "2018-08",
+  "code": "INVESTMENT_BLOCK",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Saudi students studying in Canada on Saudi Arabian scholarships were o": {
+  "id": "CASA06",
+  "date": "2018-08",
+  "code": "SANCTIONS_TARGETED",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "The Saudi Grains Organization advised that it would no longer accept w": {
+  "id": "CASA07",
+  "date": "2018-08",
+  "code": "TRADE_RESTRICTION",
+  "actor": "SA",
+  "level": "INSTITUTION",
+  "core": false,
+  "amb": false
+ },
+ "Canadian Minister of Foreign Affairs Chrystia Freeland issued a statem": {
+  "id": "CASA08",
+  "date": "2018-08-02",
+  "code": "CRITICISM",
+  "actor": "CA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Canadian Foreign Minister Freeland responded to the expulsion of Ambas": {
+  "id": "CASA09",
+  "date": "2018-08-06",
+  "code": "CRITICISM",
+  "actor": "CA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Saudi Arabia announced that it would put a halt to its medical program": {
+  "id": "CASA10",
+  "date": "2018-08-08",
+  "code": "SANCTIONS_TARGETED",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Saudi Foreign Minister Adel al-Jubeir stated that his country would no": {
+  "id": "CASA11",
+  "date": "2018-08-08",
+  "code": "TALKS_SUSPENDED",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Prime Minister Justin Trudeau told reporters that he refused to apolog": {
+  "id": "CASA12",
+  "date": "2018-08-08",
+  "code": "CRITICISM",
+  "actor": "CA",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "The state airline Saudia terminated all its flights to Toronto Pearson": {
+  "id": "CASA13",
+  "date": "2018-08-13",
+  "code": "TRADE_RESTRICTION",
+  "actor": "SA",
+  "level": "INSTITUTION",
+  "core": false,
+  "amb": false
+ },
+ "The Saudi Ministry of Education informed Saudi medical residents and f": {
+  "id": "CASA14",
+  "date": "2018-08-27",
+  "code": "DE_ESCALATION",
+  "actor": "SA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Canada and Saudi Arabia restored their diplomatic ties.": {
+  "id": "CASA15",
+  "date": "2023-05",
+  "code": "NORMALIZATION",
+  "actor": "joint",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ }
+}

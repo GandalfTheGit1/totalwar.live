@@ -1,0 +1,706 @@
+{
+ "pair": "IN-CA",
+ "asOf": "2026-10-18",
+ "structuralStatus": "RIVAL",
+ "overallStatus": "NEUTRAL",
+ "trend30d": "STABLE",
+ "confidence": "LOW",
+ "axes": {
+  "security": null,
+  "trade": 3,
+  "energy": 3,
+  "migration": null,
+  "territorial": null,
+  "values": null
+ },
+ "trendBasis": {
+  "n30": 2,
+  "nBase": 3,
+  "baseline": "days31-365",
+  "mean30": 1.0,
+  "meanBase": 1.0,
+  "delta": 0.0
+ },
+ "coherence": {
+  "mean60": 1.0,
+  "n60": 3,
+  "voted": "NEUTRAL",
+  "final": "NEUTRAL",
+  "clamped": true
+ },
+ "perceptionAtoB": "El gobierno de la India ha mantenido una postura de firmeza frente a Canadá, expulsando diplomáticos y exigiendo retiradas, pero simultáneamente ha buscado profundizar la cooperación mediante acuerdos energéticos y comerciales y anunciando una visita oficial.",
+ "perceptionBtoA": "Canadá ha expresado preocupaciones sobre supuestos vínculos indios con el asesinato de Nijjar y ha tomado medidas diplomáticas de expulsión, al mismo tiempo que ha destacado el avance de las negociaciones comerciales y la cooperación en energía.",
+ "summaryEs": "En los últimos años, India y Canadá han experimentado tensiones diplomáticas, incluyendo expulsiones mutuas de diplomáticos, pero también han avanzado en acuerdos de energía y relanzado negociaciones de un acuerdo comercial integral. Actualmente, mantienen canales de diálogo abierto y planean una visita de alto nivel, lo que indica una fase de mejora tras los roces anteriores.",
+ "leaders": [
+  {
+   "country": "IN",
+   "role": "head of state",
+   "name": "Draupadi Murmu",
+   "source": "wikidata"
+  },
+  {
+   "country": "IN",
+   "role": "head of government",
+   "name": "Narendra Modi",
+   "source": "wikidata"
+  },
+  {
+   "country": "CA",
+   "role": "head of government",
+   "name": "Mark Carney",
+   "source": "wikidata"
+  },
+  {
+   "country": "CA",
+   "role": "head of state",
+   "name": "Carlos III del Reino Unido",
+   "source": "wikidata"
+  }
+ ],
+ "stability": {
+  "agreement": 0.33,
+  "structuralAgreement": 1.0,
+  "runs": [
+   {
+    "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+    "overall": "NEUTRAL",
+    "structural": "RIVAL"
+   },
+   {
+    "model": "groq/qwen/qwen3.8-27b",
+    "overall": "TENSE",
+    "structural": "RIVAL"
+   },
+   {
+    "model": "gemini/gemini-3.5-flash-lite",
+    "overall": "PARTNER",
+    "structural": "RIVAL"
+   }
+  ],
+  "heldByHysteresis": {
+   "candidate": "NEUTRAL",
+   "kept": "TENSE",
+   "agreement": 0.33,
+   "move": 2,
+   "polarityDirection": 1
+  }
+ },
+ "facts": [
+  {
+   "eventDate": "2026-10-13",
+   "dateBasis": "stated",
+   "actor": "IN",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Prime Minister Narendra Modi announced plans to visit Canada in December.",
+   "type": "DECLARED",
+   "polarity": 1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E62",
+    "E70"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb29sVzlZVVlNMFlyZEU3WmlEcUVzdF9oaTRMTDVaX2JBUWl6RmhCN3VPUVlkZFAyYXRrY3Z3RDZqUEYtRlBiMWE5anR5ZnM3LXRORTllUUNPcEdvZzFxZ2JoNXhzdGczNFB4WURWN3dJT3pZczJMSzBZNVlLTmFMaUpMTEtfZkdHdHNpY2UwZ3VSVENNc2NIODFqb0dkbWRWc0tB?oc=5",
+     "domain": "reuters.com",
+     "date": "Tue, 13 Oct 2026 15:25:03 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYa0ZZU1Y0OVBDUnRqaXpsZmFJRVR0b1VEQ3l2NTUyRXU4QXdNODZwdHhHVnR2bmdwMXZsaVJtdHc0dEJzUGtpR3dIM2JLQ3hSZVJHTmw4a0p3R0hrOU5yVm9TYW5lVWFoYjlxWVNwS29oVjFPeVVTSWwzRQ?oc=5",
+     "domain": "cbc.ca",
+     "date": "Tue, 22 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 5,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-22",
+   "dateBasis": "stated",
+   "actor": "CA",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Canadian officials stated that trade talks with India were making great headway toward concluding an agreement by the end of the year.",
+   "type": "DECLARED",
+   "polarity": 1,
+   "axis": "trade",
+   "evidence": [
+    "E26",
+    "E48",
+    "E61"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcThPekF3YUVOZHRjdEJMcXBwMXhHMkRtTHRBUWs1RUVNY0l1RHBJbUFpOVVlb2xzNE95ZWE2NFVxaElIQmhKMEVrOFQ0Q253NHFtaVZUX0dOc2p4VjNnNHhhUVRaa3p1aUFWWFljWHhfdEpZMU1iNXlocjQ4MFJmbnVQbFNBWnY2RVBjNXl0YzR4eWVUWTdlLVFuRjc1Qldob1BVZ2VfSmpVamZOaXB4dE9WMWE1b1UtZVh3S19kTVFsRFdMMmJSclBQNjNkRUkxVE91SFRRcVgydlBZeE5EVzBZVDV1ZWhHWXc?oc=5",
+     "domain": "es.marketscreener.com",
+     "date": "Sat, 19 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMl9oZE1jdTY1X182U1NIUDkxdEVqa3k5TUM0UGw2M0VRQnpURWlSRzRkakpzTUFQSFZKNF9iOWZZNkZUTFBsazlYSVBMZ1VGemM3SV9fRk9lMXpDbVljaF9tQy1hLWJVVXF6THktLS1hZjV3SFA3VTh3bEdGR2FxS013a1lKUWo1dlVab0lOczNYU0ZGV0RQdHZhdG1BRW5zX2ZWQkw4T285SDhjOUlocnVncDFHdkJnNlFjSEZhbnY2U0dkc3I4dzJ5cw?oc=5",
+     "domain": "reuters.com",
+     "date": "Sun, 20 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaFlOUmNpYzNYZ3p0SjlFZmdmQzV1Vl9RTTZwWG1UQzVLcTF2SEVORDRYNGExQ2Mxay1aZlM5VTZ2U3BmTzJDRnZhZTBDcGdpN0xCZlFNUzFuMTY4d1Ftd0tMeS0ybld5SnRadGNKTmRqWWsyZnpUY0pWeXBNa1VrUXJIdlAyUjBRTDZvc0tIcmZsRE9JeHh5cWFuNXRBQlJCbzFGOVdpRl8?oc=5",
+     "domain": "bloomberg.com",
+     "date": "Tue, 22 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 26,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-08-28",
+   "dateBasis": "stated",
+   "actor": "joint",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "India and Canada held joint press and ministerial communications confirming ongoing negotiations for a Comprehensive Economic Partnership Agreement (CEPA).",
+   "type": "DECLARED",
+   "polarity": 1,
+   "axis": "trade",
+   "evidence": [
+    "E6",
+    "E32"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.prensa-latina.cu/2026/08/28/india-y-canada-negocian-acuerdo-integral-de-asociacion-economica",
+     "domain": "prensa-latina.cu",
+     "date": "Fri, 28 Aug 2026 06:01:23 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQckg3SWhZY04ycUhzWndYeFJ5TWlRbUlJWjNTd2R1OU1kMXhpOGpDRXBPNXdxWE9Qa2o5b3FZeExGWWQ5dTNxLXVZWnhxVkJDbVFBeUtUVnI1SkVhcVhVUmNVaEh4VnBENDRPU1FaWnhwY1Z4cHRmNG50UlJWQ3UtdnlRVVAySngwTVhtS3h3RUFIR3NzZ053Q3lJM3JSaHpFWG54djhkdGM?oc=5",
+     "domain": "prensa-latina.cu",
+     "date": "Fri, 28 Aug 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 51,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-03-02",
+   "dateBasis": "stated",
+   "actor": "joint",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "India and Canada signed eight agreements and pacts covering rare earths, uranium, technology, and renewable energy during Prime Minister Mark Carney's visit to New Delhi.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "energy",
+   "evidence": [
+    "E3",
+    "E4",
+    "E7"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.rfi.fr/es/economia/20260302-india-y-canad%C3%A1-anuncian-acuerdos-sobre-tierras-raras-y-uranio",
+     "domain": "rfi.fr",
+     "date": "Mon, 02 Mar 2026 11:15:23 GMT"
+    },
+    {
+     "url": "https://ici.radio-canada.ca/rci/es/noticia/2233774/india-y-canada-anuncian-acuerdos-sobre-tierras-raras-y-uranio",
+     "domain": "ici.radio-canada.ca",
+     "date": "Mon, 02 Mar 2026 00:00:00 GMT"
+    },
+    {
+     "url": "https://thediplomat.com/2026/03/canada-india-relations-stabilize-with-pm-carneys-visit",
+     "domain": "thediplomat.com",
+     "date": "Thu, 05 Mar 2026 00:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 230,
+   "bucket": "last12m",
+   "isGov": true
+  },
+  {
+   "eventDate": "2025-11-23",
+   "dateBasis": "stated",
+   "actor": "joint",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Indian Prime Minister Narendra Modi and Canadian Prime Minister Mark Carney met on the margins of the G20 in Johannesburg to formally relaunch CEPA trade negotiations.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "trade",
+   "evidence": [
+    "E1",
+    "E2",
+    "E13"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.dw.com/es/india-y-canad%C3%A1-negociar%C3%A1n-tlc-durante-visita-de-carney/a-76116112",
+     "domain": "dw.com",
+     "date": "Wed, 25 Feb 2026 11:38:17 GMT"
+    },
+    {
+     "url": "https://www.infobae.com/america/mundo/2025/11/25/india-y-canada-reactivaron-su-relacion-comercial-y-buscan-duplicar-el-comercio-bilateral-para-2030-en-medio-de-las-tensiones-con-eeuu",
+     "domain": "infobae.com",
+     "date": "Tue, 25 Nov 2025 05:59:38 GMT"
+    },
+    {
+     "url": "https://www.international.gc.ca/country-pays/india-inde/relations.aspx?lang=eng",
+     "domain": "international.gc.ca",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 329,
+   "bucket": "last12m",
+   "isGov": true
+  },
+  {
+   "eventDate": "2024-10",
+   "dateBasis": "stated",
+   "actor": "CA",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Canada expelled Indian High Commissioner Sanjay Kumar Verma along with five other diplomats.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E12",
+    "E17",
+    "E19"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93India_relations",
+     "domain": "en.wikipedia.org",
+     "date": ""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/2023%E2%80%9325_Canada%E2%80%93India_diplomatic_row",
+     "domain": "en.wikipedia.org",
+     "date": ""
+    },
+    {
+     "url": "https://www.dw.com/es/crisis-diplom%C3%A1tica-entre-india-y-canad%C3%A1-espionaje-interferencia-y-asesinato-de-un-l%C3%ADder-sij/a-70499601",
+     "domain": "dw.com",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 733,
+   "bucket": "older",
+   "isGov": true
+  },
+  {
+   "eventDate": "2024-10",
+   "dateBasis": "stated",
+   "actor": "IN",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "India retaliated against Canadian diplomatic actions by expelling six Canadian diplomats.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E12",
+    "E17"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93India_relations",
+     "domain": "en.wikipedia.org",
+     "date": ""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/2023%E2%80%9325_Canada%E2%80%93India_diplomatic_row",
+     "domain": "en.wikipedia.org",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 733,
+   "bucket": "older",
+   "isGov": true
+  },
+  {
+   "eventDate": "2023-09-18",
+   "dateBasis": "stated",
+   "actor": "CA",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Prime Minister Justin Trudeau stated in the House of Commons that there were credible potential links between Indian agents and the killing of Hardeep Singh Nijjar in British Columbia.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E9",
+    "E16",
+    "E18"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.eurasiareview.com/03032026-india-canada-relations-reset-following-carneys-india-visit-analysis",
+     "domain": "eurasiareview.com",
+     "date": "Tue, 03 Mar 2026 17:12:11 GMT"
+    },
+    {
+     "url": "https://international.canada.ca/en/global-affairs/corporate/reports/departmental-results/global-affairs-2023-2024-departmental-results",
+     "domain": "international.canada.ca",
+     "date": ""
+    },
+    {
+     "url": "https://www.asiapacific.ca/publication/resetting-canada-india-relations-navigating-security-trade",
+     "domain": "asiapacific.ca",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 1126,
+   "bucket": "older",
+   "isGov": true
+  },
+  {
+   "eventDate": "2023-10",
+   "dateBasis": "stated",
+   "actor": "IN",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "India demanded the withdrawal of 41 Canadian diplomats from the country, threatening to revoke their diplomatic immunities.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E22"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://elpais.com/internacional/2023-10-03/la-crisis-entre-la-india-y-canada-se-agudiza-nueva-delhi-exige-la-retirada-de-41-diplomaticos.html",
+     "domain": "elpais.com",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "typeCorrected": true,
+   "corroboration": 1,
+   "ageDays": 1099,
+   "bucket": "older",
+   "isGov": true
+  }
+ ],
+ "contextFacts": [
+  {
+   "eventDate": "2026-10-14",
+   "dateBasis": "stated",
+   "actor": "CA",
+   "actorKind": "non-government",
+   "kind": "event",
+   "fact": "Canadian holding company Fairfax acquired a majority stake in Indian IDBI Bank for approximately $5.5 billion.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "trade",
+   "evidence": [
+    "E29",
+    "E56",
+    "E66"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZGpyT21kT3FVRnVYeHFHNTZMdk1FR1lmTlB2Zk9TbXBSdkd0WDBES2RUaEJPZWdHYXZhU0V5ZHZGeXRkWWgzQVVJcE9sczVDMk1wczR6ZkJ1N2EzVm5JVFk3bVVVTEIzck1hSjd4Y3oyM2pGYkFFNjd4SDYwVzJITlM2UlF2Tm4tVjVMYmphTlg5M1BCdHlwZ0dfTlVUOV9zV0NPTEQzaWFqbDBPenRWeG56Rno1alNOTlZYby1LWXRMNWZ5SEdva284UDVicjd0SkEtaWhnQVg?oc=5",
+     "domain": "notimerica.com",
+     "date": "Wed, 14 Oct 2026 12:34:28 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PNm9kR2gwbDJROHo5REx2ekREd2pZRVhxWjlQMEdDaTJ5TFl5TnlJdG1UWlVBenhFNnVGNVFtcGllMDN5RWVrMWNQaWlCX1dXdWpXcUIyVC1IN1B0Q1kxNmR2dE1BVk1DOVMxUjB5MWdSeFNh0gF6QVVfeXFMUEptcW5rZ0RtbUFVSXlaQW1GSkd2YkR3Mlhna21iaE8weXRuMUxlNXQ0TTI1dnYtTGZjRWZTM1JKMmVocWNsbERIazJBWmVuS3Y2NVk4VjlUb0VFUjdNcmlkUGNzV3UzZ18wSkY3eTdPZDlzQ1JDX2s5QVE?oc=5",
+     "domain": "cnbc.com",
+     "date": "Thu, 15 Oct 2026 06:11:52 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRW9Gd1hTQ3NKTFN5LWFTYlFVNkttUVduTzlaUnJTX25jUm9SeFV3dTFFNnR5aG5Hb0g4Tmx6WnR6TlhqcVVzRWhnRVVxN19UVzA5bnR2UnBFMkRMY3lpbkgwU3hjeWNhWkV2VFJVM2JUbURpLWpYb2dLVkltaTFSbURJLXBTX3J0UTBPQXR6ZnpuTkpFS1M3STNiR2JtWTQ?oc=5",
+     "domain": "reuters.com",
+     "date": "Wed, 14 Oct 2026 12:48:15 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "actorCorrected": true,
+   "corroboration": 3,
+   "ageDays": 4,
+   "bucket": "recent",
+   "isGov": false
+  },
+  {
+   "eventDate": null,
+   "dateBasis": "stated",
+   "actor": "joint",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Canada and India established bilateral diplomatic relations.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E11"
+   ],
+   "contested": false,
+   "anchor": true,
+   "sources": [
+    {
+     "url": "https://www.canada.ca/en/global-affairs/news/2026/10/minister-anand-to-travel-to-india-and-the-united-arab-emirates.html",
+     "domain": "canada.ca",
+     "date": "Tue, 13 Oct 2026 10:02:00 GMT"
+    }
+   ],
+   "verdict": "PARTIAL",
+   "dateCorrected": true,
+   "corroboration": 2,
+   "ageDays": null,
+   "bucket": "undated",
+   "isGov": true
+  }
+ ],
+ "initiatives": [
+  {
+   "leaderCountry": "CA",
+   "leader": "Mark Carney",
+   "initiative": "Concluding a Comprehensive Economic Partnership Agreement (CEPA) and doubling bilateral trade by 2030",
+   "status": "ACTIVE",
+   "evidence": [
+    "E1",
+    "E2",
+    "E48"
+   ]
+  }
+ ],
+ "quality": {
+  "evidenceCollected": 71,
+  "evidenceRelevant": 53,
+  "independentDomains": 38,
+  "govFacts12m": 5,
+  "govFactsRecent": 3,
+  "factsKept": 11,
+  "contextOnly": 2,
+  "supportRatio": 0.91,
+  "coverage": 0.85,
+  "stillMissing": [
+   {
+    "event": "Minister Anand traveled/travels to India and the United Arab Emirates in October 2026.",
+    "evidence": [
+     "E11",
+     "E59"
+    ]
+   },
+   {
+    "event": "PM Carney spoke with Indian Prime Minister Narendra Modi by phone on October 13, 2026.",
+    "evidence": [
+     "E60"
+    ]
+   },
+   {
+    "event": "India launched raids regarding fake labels on food products, leading Canada to assess risks to imports in September 2026.",
+    "evidence": [
+     "E64"
+    ]
+   }
+  ],
+  "loops": 0,
+  "fixes": {
+   "type": 1,
+   "typeRule": 0,
+   "date": 1,
+   "actor": 1,
+   "undated": 1,
+   "recovered": 0,
+   "uncorroborated": 1,
+   "polarityDisagree": 0
+  },
+  "dropped": [],
+  "irrelevantExamples": [
+   {
+    "id": "E24",
+    "title": "España se desquita ante Canadá de su tropiezo con India - MARCA",
+    "why": "Spain-Canada focus not India"
+   },
+   {
+    "id": "E28",
+    "title": "Noticias de Israel y del mundo judío en español - Aurora Israel",
+    "why": "general Israel news irrelevant"
+   },
+   {
+    "id": "E30",
+    "title": "Las ventas de vino de Estados Unidos a Canadá se hunden cerca del 90% - Vinetur",
+    "why": "US-Canada wine sales irrelevant"
+   },
+   {
+    "id": "E31",
+    "title": "Remesas cripto de Canadá hacia Asia suben 141% y alcanzan USD $2.360 millones - Cryptonews",
+    "why": "No India-Canada link"
+   },
+   {
+    "id": "E33",
+    "title": "UE, Canadá y Brasil cierran filas por el multilateralismo frente al desorden global - www.",
+    "why": "No India involvement"
+   },
+   {
+    "id": "E34",
+    "title": "NSE has a Strong Moat, Investors have Option for an Extended Stay - TradingView",
+    "why": "No Canada mention"
+   },
+   {
+    "id": "E35",
+    "title": "India activa un acuerdo con Nueva Zelanda que rebaja aranceles al vino - Vinetur",
+    "why": "India-NZ trade only"
+   },
+   {
+    "id": "E36",
+    "title": "Canadá abre la venta directa de alcohol entre provincias en nueve territorios - Vinetur",
+    "why": "Canada domestic policy"
+   }
+  ]
+ },
+ "metrics": {
+  "calls": [
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.0,
+    "tokens_in": 1849,
+    "tokens_out": 759,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.9,
+    "tokens_in": 1406,
+    "tokens_out": 1200,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.2,
+    "tokens_in": 1109,
+    "tokens_out": 1427,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.7,
+    "tokens_in": 1013,
+    "tokens_out": 1122,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 1.9,
+    "tokens_in": 830,
+    "tokens_out": 686,
+    "fallbacks": 0
+   },
+   {
+    "stage": "extract",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 4.9,
+    "tokens_in": 7627,
+    "tokens_out": 1750,
+    "fallbacks": 0
+   },
+   {
+    "stage": "coverage",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 1.3,
+    "tokens_in": 2225,
+    "tokens_out": 183,
+    "fallbacks": 0
+   },
+   {
+    "stage": "verify",
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "seconds": 178.7,
+    "tokens_in": 4969,
+    "tokens_out": 8941,
+    "fallbacks": 2
+   },
+   {
+    "stage": "analyze",
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "seconds": 57.1,
+    "tokens_in": 1214,
+    "tokens_out": 1943,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "seconds": 0.8,
+    "tokens_in": 1171,
+    "tokens_out": 242,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "seconds": 1.4,
+    "tokens_in": 1125,
+    "tokens_out": 226,
+    "fallbacks": 0
+   }
+  ],
+  "collect": {
+   "errors": [],
+   "blocked": 4,
+   "wikipedia": "Canada–India relations",
+   "recent": 60,
+   "history": 11
+  },
+  "totalSeconds": 330.5,
+  "tokensIn": 24538,
+  "tokensOut": 18479
+ }
+}

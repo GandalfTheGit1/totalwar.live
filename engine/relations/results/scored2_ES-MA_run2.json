@@ -1,0 +1,628 @@
+{
+ "pair": "ES-MA",
+ "asOf": "2026-10-18",
+ "warnings": [],
+ "R": -41.9,
+ "band": "TENSE",
+ "bandFromScore": "TENSE",
+ "reliable": true,
+ "trend": "DETERIORATING",
+ "trendInfo": {
+  "now": -41.9,
+  "before": 32.8,
+  "delta": -74.7,
+  "days": 30
+ },
+ "timeline": {
+  "-365d": 40.1,
+  "-180d": 42.6,
+  "-90d": 40.2,
+  "-30d": 32.8,
+  "hoy": -41.9
+ },
+ "S_struct": 8.8,
+ "S_dyn": -50.7,
+ "memory": 0.0,
+ "rawStruct": 8.8,
+ "rawDyn": -33.6,
+ "states": [
+  {
+   "code": "FULL_DIPLOMATIC",
+   "sides": 2,
+   "source": "wikidata",
+   "evidence": "2 resident embassy(ies); P530=True",
+   "value": 10.0
+  },
+  {
+   "code": "TRADE_HIGH",
+   "source": "wits",
+   "evidence": "MA exports to ES: 22.5 %",
+   "value": 12.0
+  },
+  {
+   "code": "HUMAN_TIES",
+   "scale": 0.47,
+   "source": "un-desa",
+   "evidence": "MA-born in ES: 455,890 people (0.94 % of the destination); UN DESA 2024",
+   "value": 2.3499999999999996
+  },
+  {
+   "code": "BILATERAL_TREATIES",
+   "count": 1,
+   "source": "wikidata",
+   "evidence": "Morocco-Spain Bilateral Investment Treaty",
+   "value": 2.0
+  },
+  {
+   "code": "MEASURES_IN_FORCE",
+   "scale": 0.25,
+   "since": "2026-10",
+   "source": "derived",
+   "evidence": "1 measure(s) in force, 0 lifted and fading; weight 6.0 of 24",
+   "value": -7.5
+  },
+  {
+   "code": "FRIENDSHIP_TREATY",
+   "since": "1991-07",
+   "source": "derived",
+   "evidence": "Spain and Morocco signed the Treaty of Friendship, Good Neighborliness (1991-07)",
+   "value": 8.0
+  },
+  {
+   "code": "TERRITORIAL_DISPUTE_ACTIVE",
+   "source": "derived",
+   "replaces": "TERRITORIAL_DISPUTE_LOW",
+   "evidence": "5 incidents/positions in 24 months",
+   "value": -18.0
+  }
+ ],
+ "dataLog": {
+  "wikidata.diplomacy": {
+   "P530": true,
+   "residentEmbassySides": 2
+  },
+  "wikidata.memberships": {
+   "a": [
+    "EU",
+    "NATO",
+    "OECD"
+   ],
+   "b": [
+    "AFCFTA",
+    "ARAB_LEAGUE",
+    "AU",
+    "OIC"
+   ],
+   "shared": []
+  },
+  "wikidata.claims": {
+   "MA->ES": [
+    "Alhucemas Islands",
+    "Chafarinas Islands",
+    "plazas de soberanía",
+    "Peñón de Vélez de la Gomera",
+    "Peñón de Alhucemas",
+    "Perejil Islet",
+    "Carnero Islet"
+   ]
+  },
+  "wits": {
+   "shares_pct": {
+    "ES exports to MA": 3.051,
+    "ES imports from MA": 2.0817,
+    "MA exports to ES": 22.5394,
+    "MA imports from ES": 15.6758
+   },
+   "years": [
+    2023,
+    2023
+   ]
+  },
+  "project.specialPair": null,
+  "un-desa.migration": {
+   "available": true,
+   "MA-born in ES": 455890.0,
+   "ES-born in MA": 2324.0,
+   "scale": 0.47,
+   "share_pct": {
+    "MA in ES": 0.94,
+    "ES in MA": 0.01
+   }
+  },
+  "wikidata.treaties": [
+   "Morocco-Spain Bilateral Investment Treaty"
+  ],
+  "wikidata.sharedLanguages": []
+ },
+ "ablationNoProjectTradeWar": null,
+ "verification": [],
+ "measures": [
+  {
+   "date": "2026-10-15",
+   "code": "SUPPLY_CUT",
+   "until": null,
+   "fact": "Morocco reportedly cut its diesel shipments to Spain amid growing bilateral tensions."
+  }
+ ],
+ "classification": {
+  "A": "gemini/gemini-2.5-flash",
+  "B": "groq/qwen/qwen3.8-27b",
+  "C": "gemini/gemini-3.5-flash-lite",
+  "sameModelAB": false,
+  "degradedIndependence": false,
+  "waits": [],
+  "split": 2,
+  "agree": 16,
+  "conservative": 2,
+  "total": 20,
+  "signAgreeAB": 18
+ },
+ "topEvents": [
+  {
+   "code": "CORE_HOSTILE_POSITION",
+   "base": -15,
+   "mult": 0.7,
+   "ageDays": 5,
+   "halfLife": 365,
+   "value": -10.400772583950337,
+   "fact": "The Spanish monarch visited the enclave of Ceuta amid bilateral friction following a major migrant border surge.",
+   "actor": "ES"
+  },
+  {
+   "code": "CORE_HOSTILE_POSITION",
+   "base": -15,
+   "mult": 0.42,
+   "ageDays": 5,
+   "halfLife": 365,
+   "value": -6.240463550370201,
+   "fact": "The Spanish King proclaimed high and clear that Ceuta and Melilla are non-negotiable and their defense is an obligation.",
+   "actor": "ES"
+  },
+  {
+   "code": "SUPPLY_CUT",
+   "base": -15,
+   "mult": 0.42,
+   "ageDays": 3,
+   "halfLife": 120,
+   "value": -6.191769770835082,
+   "fact": "Morocco reportedly cut its diesel shipments to Spain amid growing bilateral tensions.",
+   "actor": "MA"
+  },
+  {
+   "code": "CORE_SUPPORT",
+   "base": 20,
+   "mult": 1.5,
+   "ageDays": 1675,
+   "halfLife": 730,
+   "value": 6.115074383177498,
+   "fact": "Spain formally endorsed Morocco's autonomy plan for Western Sahara in a letter from Prime Minister Pedro Sánchez to King Mohammed VI.",
+   "actor": "ES"
+  },
+  {
+   "code": "HARSH_RHETORIC",
+   "base": -6,
+   "mult": 1.0,
+   "ageDays": 9,
+   "halfLife": 45,
+   "value": -5.223303379776745,
+   "fact": "Moroccan King Mohammed VI stated that the migration cooperation model with Spain has hit its limit and warned against pressure or threats.",
+   "actor": "MA"
+  },
+  {
+   "code": "SOVEREIGNTY_VIOLATION",
+   "base": -12,
+   "mult": 0.42,
+   "ageDays": 6,
+   "halfLife": 120,
+   "value": -4.868319097781221,
+   "fact": "Spanish Prime Minister Pedro Sánchez stated that Moroccan navy vessels entered Spanish territorial waters during the Ceuta crisis.",
+   "actor": "ES"
+  },
+  {
+   "code": "HARSH_RHETORIC",
+   "base": -6,
+   "mult": 0.7,
+   "ageDays": 9,
+   "halfLife": 45,
+   "value": -3.656312365843721,
+   "fact": "King Mohammed VI denounced the instrumentalization of the Ceuta crisis in Spain and stated he will not accept blackmail.",
+   "actor": "MA"
+  },
+  {
+   "code": "CORE_HOSTILE_POSITION",
+   "base": -15,
+   "mult": 0.25,
+   "ageDays": 37,
+   "halfLife": 365,
+   "value": -3.5235174804963467,
+   "fact": "Spain moved closer to granting citizenship to Western Saharans with a new Sahrawi citizenship law.",
+   "actor": "ES"
+  },
+  {
+   "code": "SOVEREIGNTY_VIOLATION",
+   "base": -12,
+   "mult": 0.25,
+   "ageDays": 24,
+   "halfLife": 120,
+   "value": -2.6325449034074793,
+   "fact": "Spain asked Morocco to adjust drone altitudes after a drone interfered with a flight landing in Melilla.",
+   "actor": "ES"
+  },
+  {
+   "code": "SECURITY_COOPERATION",
+   "base": 3,
+   "mult": 0.6,
+   "ageDays": 16,
+   "halfLife": 90,
+   "value": 1.5913146515408851,
+   "fact": "Law enforcement agencies arrested five suspects in Spain, Morocco, and France for ordering violence from abroad.",
+   "actor": "joint"
+  },
+  {
+   "code": "SECTORAL_AGREEMENTS",
+   "base": 5,
+   "mult": 1.0,
+   "ageDays": 318,
+   "halfLife": 180,
+   "value": 1.469434882854511,
+   "fact": "Spain and Morocco signed fourteen cooperation agreements, including education and modernization accords, during the 13th High-Level Meeting.",
+   "actor": "joint"
+  }
+ ],
+ "byActor": {
+  "ES": -21.6,
+  "MA": -15.1,
+  "joint": 3.1
+ },
+ "classifiedFacts": [
+  {
+   "eventDate": "2026-10-13",
+   "actor": "ES",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "CORE_HOSTILE_POSITION",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "The Spanish monarch visited the enclave of Ceuta amid bilateral friction following a major migrant border surge.",
+   "cls": {
+    "how": "split",
+    "A": "CORE_HOSTILE_POSITION",
+    "B": "STATE_VISIT",
+    "judge": "CORE_HOSTILE_POSITION"
+   }
+  },
+  {
+   "eventDate": "2026-10-13",
+   "actor": "ES",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "CORE_HOSTILE_POSITION",
+   "coreInterest": true,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "The Spanish King proclaimed high and clear that Ceuta and Melilla are non-negotiable and their defense is an obligation.",
+   "cls": {
+    "how": "agree",
+    "A": "CORE_HOSTILE_POSITION",
+    "B": "CORE_HOSTILE_POSITION"
+   }
+  },
+  {
+   "eventDate": "2026-10-12",
+   "actor": "ES",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "SOVEREIGNTY_VIOLATION",
+   "coreInterest": true,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spanish Prime Minister Pedro Sánchez stated that Moroccan navy vessels entered Spanish territorial waters during the Ceuta crisis.",
+   "cls": {
+    "how": "agree",
+    "A": "SOVEREIGNTY_VIOLATION",
+    "B": "SOVEREIGNTY_VIOLATION"
+   }
+  },
+  {
+   "eventDate": "2026-10-09",
+   "actor": "MA",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "HARSH_RHETORIC",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Moroccan King Mohammed VI stated that the migration cooperation model with Spain has hit its limit and warned against pressure or threats.",
+   "cls": {
+    "how": "agree",
+    "A": "HARSH_RHETORIC",
+    "B": "HARSH_RHETORIC"
+   }
+  },
+  {
+   "eventDate": "2026-10-09",
+   "actor": "MA",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "HARSH_RHETORIC",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "King Mohammed VI denounced the instrumentalization of the Ceuta crisis in Spain and stated he will not accept blackmail.",
+   "cls": {
+    "how": "agree",
+    "A": "HARSH_RHETORIC",
+    "B": "HARSH_RHETORIC"
+   }
+  },
+  {
+   "eventDate": "2026-10-15",
+   "actor": "MA",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "SUPPLY_CUT",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Morocco reportedly cut its diesel shipments to Spain amid growing bilateral tensions.",
+   "cls": {
+    "how": "agree",
+    "A": "SUPPLY_CUT",
+    "B": "SUPPLY_CUT"
+   }
+  },
+  {
+   "eventDate": "2026-10-02",
+   "actor": "joint",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "SECURITY_COOPERATION",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Law enforcement agencies arrested five suspects in Spain, Morocco, and France for ordering violence from abroad.",
+   "cls": {
+    "how": "split",
+    "A": "SECURITY_COOPERATION",
+    "B": "NONE",
+    "judge": "SECURITY_COOPERATION"
+   }
+  },
+  {
+   "eventDate": "2026-09-28",
+   "actor": "ES",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "NONE",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 0,
+   "fact": "The Spanish government representative in Ceuta resigned over the border rush fallout.",
+   "cls": {
+    "how": "agree",
+    "A": "NONE",
+    "B": "NONE"
+   }
+  },
+  {
+   "eventDate": "2026-09-24",
+   "actor": "ES",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "SOVEREIGNTY_VIOLATION",
+   "coreInterest": true,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spain asked Morocco to adjust drone altitudes after a drone interfered with a flight landing in Melilla.",
+   "cls": {
+    "how": "agree",
+    "A": "SOVEREIGNTY_VIOLATION",
+    "B": "SOVEREIGNTY_VIOLATION"
+   }
+  },
+  {
+   "eventDate": "2026-09-03",
+   "actor": "ES",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "NONE",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spain declassified documents showing Morocco had been warned about impending migrant crossing plans prior to the border surge.",
+   "cls": {
+    "how": "agree",
+    "A": "NONE",
+    "B": "NONE"
+   }
+  },
+  {
+   "eventDate": "2026-09-11",
+   "actor": "ES",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "CORE_HOSTILE_POSITION",
+   "coreInterest": true,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spain moved closer to granting citizenship to Western Saharans with a new Sahrawi citizenship law.",
+   "cls": {
+    "how": "agree",
+    "A": "CORE_HOSTILE_POSITION",
+    "B": "CORE_HOSTILE_POSITION"
+   }
+  },
+  {
+   "eventDate": "2026-08-01",
+   "actor": "ES",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "NONE",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spain announced and began the installation of a containment barrier on the sea border of Ceuta following a mass migrant breach.",
+   "cls": {
+    "how": "agree",
+    "A": "NONE",
+    "B": "NONE"
+   }
+  },
+  {
+   "eventDate": "2025-12-04",
+   "actor": "joint",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "SECTORAL_AGREEMENTS",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Spain and Morocco signed fourteen cooperation agreements, including education and modernization accords, during the 13th High-Level Meeting.",
+   "cls": {
+    "how": "conservative",
+    "A": "SUMMIT",
+    "B": "SECTORAL_AGREEMENTS",
+    "judge": null
+   }
+  },
+  {
+   "eventDate": "2022-03-18",
+   "actor": "ES",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "CORE_SUPPORT",
+   "coreInterest": true,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Spain formally endorsed Morocco's autonomy plan for Western Sahara in a letter from Prime Minister Pedro Sánchez to King Mohammed VI.",
+   "cls": {
+    "how": "agree",
+    "A": "CORE_SUPPORT",
+    "B": "CORE_SUPPORT"
+   }
+  },
+  {
+   "eventDate": "2021-05-20",
+   "actor": "MA",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "AMBASSADOR_RECALL",
+   "coreInterest": false,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Morocco recalled its ambassador to Spain for consultations following the hospitalization of Polisario Front leader Brahim Ghali in Spain.",
+   "cls": {
+    "how": "agree",
+    "A": "AMBASSADOR_RECALL",
+    "B": "AMBASSADOR_RECALL"
+   }
+  },
+  {
+   "eventDate": "2020-12-21",
+   "actor": "ES",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "PROTEST_SUMMONS",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spain summoned the Moroccan ambassador after the Moroccan Prime Minister stated that Ceuta and Melilla are as Moroccan as the Sahara.",
+   "cls": {
+    "how": "agree",
+    "A": "PROTEST_SUMMONS",
+    "B": "PROTEST_SUMMONS"
+   }
+  },
+  {
+   "eventDate": "2019-02-11",
+   "actor": "joint",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "STATE_VISIT",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Spanish King Felipe VI and Queen Letizia conducted an official state visit to Morocco at the invitation of King Mohammed VI.",
+   "cls": {
+    "how": "agree",
+    "A": "STATE_VISIT",
+    "B": "STATE_VISIT"
+   }
+  },
+  {
+   "eventDate": "2007-11",
+   "actor": "MA",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "AMBASSADOR_RECALL",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Morocco recalled its ambassador to Madrid following the official visit of the Spanish King to Ceuta and Melilla.",
+   "cls": {
+    "how": "agree",
+    "A": "AMBASSADOR_RECALL",
+    "B": "AMBASSADOR_RECALL"
+   }
+  },
+  {
+   "eventDate": "2002-07-11",
+   "actor": "MA",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "BORDER_INCIDENT",
+   "coreInterest": true,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Moroccan gendarmes occupied the disputed islet of Perejil, triggering a naval standoff and diplomatic crisis with Spain.",
+   "cls": {
+    "how": "conservative",
+    "A": "SOVEREIGNTY_VIOLATION",
+    "B": "BORDER_INCIDENT",
+    "judge": null
+   }
+  },
+  {
+   "eventDate": "1991-07",
+   "actor": "joint",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "FRIENDSHIP_TREATY_SIGNED",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Spain and Morocco signed the Treaty of Friendship, Good Neighborliness and Cooperation.",
+   "cls": {
+    "how": "agree",
+    "A": "FRIENDSHIP_TREATY_SIGNED",
+    "B": "FRIENDSHIP_TREATY_SIGNED"
+   }
+  }
+ ],
+ "v6": {
+  "overall": "TENSE",
+  "structural": "RIVAL",
+  "trend": "IMPROVING"
+ }
+}

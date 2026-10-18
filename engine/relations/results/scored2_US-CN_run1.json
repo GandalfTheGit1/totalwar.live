@@ -1,0 +1,570 @@
+{
+ "pair": "US-CN",
+ "asOf": "2026-10-18",
+ "warnings": [],
+ "R": 13.2,
+ "band": "NEUTRAL",
+ "bandFromScore": "NEUTRAL",
+ "reliable": true,
+ "trend": "IMPROVING",
+ "trendInfo": {
+  "now": 13.2,
+  "before": -23.8,
+  "delta": 37.0,
+  "days": 30
+ },
+ "timeline": {
+  "-365d": -14.2,
+  "-180d": -13.1,
+  "-90d": -17.4,
+  "-30d": -23.8,
+  "hoy": 13.2
+ },
+ "S_struct": -11.9,
+ "S_dyn": 25.1,
+ "memory": 0.0,
+ "rawStruct": -12.0,
+ "rawDyn": 15.4,
+ "states": [
+  {
+   "code": "FULL_DIPLOMATIC",
+   "sides": 2,
+   "source": "wikidata",
+   "evidence": "2 resident embassy(ies); P530=True",
+   "value": 10.0
+  },
+  {
+   "code": "SHARED_FORUM",
+   "source": "wikidata",
+   "evidence": "shared: APEC, G20",
+   "value": 3.0
+  },
+  {
+   "code": "TRADE_HIGH",
+   "source": "wits",
+   "evidence": "CN exports to US: 14.8 %",
+   "value": 12.0
+  },
+  {
+   "code": "TECH_RESTRICTIONS",
+   "source": "project",
+   "evidence": "US->CN SECTORAL: BIS_ENTITY_LIST, EXPORT_CONTROLS_CHIPS, UFLPA, NS_CMIC",
+   "value": -10.0
+  },
+  {
+   "code": "STRATEGIC_RIVALRY",
+   "source": "project",
+   "evidence": "FRICTION_STRATEGIC_COMPETITION: Guerra tecnológica, aranceles cruzados y disputa de hegemonía en semic",
+   "value": -20.0
+  },
+  {
+   "code": "HUMAN_TIES",
+   "scale": 1.0,
+   "source": "un-desa",
+   "evidence": "CN-born in US: 1,418,440 people (0.42 % of the destination); UN DESA 2024",
+   "value": 5.0
+  },
+  {
+   "code": "TRADE_WAR",
+   "source": "project",
+   "evidence": "Guerra tecnológica, aranceles cruzados y disputa de hegemonía en semiconductores",
+   "value": -12.0
+  }
+ ],
+ "dataLog": {
+  "wikidata.diplomacy": {
+   "P530": true,
+   "residentEmbassySides": 2
+  },
+  "wikidata.memberships": {
+   "a": [
+    "APEC",
+    "FIVE_EYES",
+    "G20",
+    "NATO",
+    "OECD"
+   ],
+   "b": [
+    "APEC",
+    "BRICS",
+    "G20",
+    "SCO"
+   ],
+   "shared": [
+    "APEC",
+    "G20"
+   ]
+  },
+  "wikidata.claims": {},
+  "wits": {
+   "shares_pct": {
+    "US exports to CN": 7.3224,
+    "US imports from CN": 14.1399,
+    "CN exports to US": 14.8301,
+    "CN imports from US": 6.4596
+   },
+   "years": [
+    2023,
+    2023
+   ]
+  },
+  "project.sanctions": {
+   "US->CN": {
+    "level": "SECTORAL",
+    "regimes": [
+     "BIS_ENTITY_LIST",
+     "EXPORT_CONTROLS_CHIPS",
+     "UFLPA",
+     "NS_CMIC"
+    ],
+    "authorities": [
+     "US"
+    ],
+    "applies": true
+   }
+  },
+  "project.specialPair": {
+   "stance": "FRICTION_STRATEGIC_COMPETITION",
+   "note": "Guerra tecnológica, aranceles cruzados y disputa de hegemonía en semiconductores e IA."
+  },
+  "un-desa.migration": {
+   "available": true,
+   "CN-born in US": 1418440.0,
+   "US-born in CN": 32102.0,
+   "scale": 1.0,
+   "share_pct": {
+    "CN in US": 0.42,
+    "US in CN": 0.0
+   }
+  },
+  "wikidata.treaties": [],
+  "wikidata.sharedLanguages": []
+ },
+ "ablationNoProjectTradeWar": {
+  "R": 3.0,
+  "measuresInForce": {
+   "code": "MEASURES_IN_FORCE",
+   "scale": 0.75,
+   "since": "2023-04",
+   "source": "derived",
+   "evidence": "2 measure(s) in force, 2 lifted and fading; weight 18.0 of 24"
+  }
+ },
+ "verification": [],
+ "measures": [
+  {
+   "date": "2026-08-07",
+   "code": "SANCTIONS_TARGETED",
+   "until": null,
+   "fact": "The United States and China imposed reciprocal sanctions prior to the Trump-Xi meeting."
+  },
+  {
+   "date": "2025-06-16",
+   "code": "TRADE_RESTRICTION",
+   "until": "2025-10-15",
+   "fact": "The U.S. Department of Commerce implemented an additional 50 percent tariff on household a"
+  },
+  {
+   "date": "2025-04-04",
+   "code": "TRADE_RESTRICTION",
+   "until": "2025-10-15",
+   "fact": "China retaliated against U.S. measures by imposing a 34 percent duty on all U.S. goods, ex"
+  },
+  {
+   "date": "2023-04",
+   "code": "SANCTIONS_TARGETED",
+   "until": null,
+   "fact": "The U.S. Office of Foreign Assets Control (OFAC) sanctioned two companies and four individ"
+  }
+ ],
+ "classification": {
+  "A": "gemini/gemini-2.5-flash",
+  "B": "groq/qwen/qwen3.8-27b",
+  "C": "gemini/gemini-3.5-flash-lite",
+  "sameModelAB": false,
+  "degradedIndependence": false,
+  "waits": [],
+  "agree": 10,
+  "conservative": 3,
+  "split": 1,
+  "to-NONE": 1,
+  "total": 14,
+  "signAgreeAB": 13
+ },
+ "topEvents": [
+  {
+   "code": "STATE_VISIT",
+   "base": 12,
+   "mult": 1.0,
+   "ageDays": 24,
+   "halfLife": 120,
+   "value": 10.44660675955349,
+   "fact": "Chinese President Xi Jinping arrived in Washington for a state visit to the United States.",
+   "actor": "CN"
+  },
+  {
+   "code": "SANCTIONS_TARGETED",
+   "base": -12,
+   "mult": 0.56,
+   "ageDays": 72,
+   "halfLife": 240,
+   "value": -5.458336103513902,
+   "fact": "The United States and China imposed reciprocal sanctions prior to the Trump-Xi meeting.",
+   "actor": "joint"
+  },
+  {
+   "code": "SECTORAL_AGREEMENTS",
+   "base": 5,
+   "mult": 0.8,
+   "ageDays": 22,
+   "halfLife": 180,
+   "value": 3.6750854069633623,
+   "fact": "China and the United States established a communication channel and dialogue mechanism for incidents and safety regarding artificial intelligence.",
+   "actor": "joint"
+  },
+  {
+   "code": "DE_ESCALATION",
+   "base": 10,
+   "mult": 0.32,
+   "ageDays": 20,
+   "halfLife": 180,
+   "value": 2.96279907931933,
+   "fact": "The United States and China agreed to reduce tariffs on products worth 60,000 million dollars, ranging from coal to toys.",
+   "actor": "joint"
+  },
+  {
+   "code": "DE_ESCALATION",
+   "base": 10,
+   "mult": 0.32,
+   "ageDays": 24,
+   "halfLife": 180,
+   "value": 2.9175119633862945,
+   "fact": "China and the United States agreed to extend their trade war truce.",
+   "actor": "joint"
+  },
+  {
+   "code": "POLITICAL_DETENTION",
+   "base": -8,
+   "mult": 0.42,
+   "ageDays": 137,
+   "halfLife": 180,
+   "value": -1.9825402029080428,
+   "fact": "Chinese authorities detained a U.S. researcher, Min Zin, in Yunnan on suspicion of espionage.",
+   "actor": "CN"
+  },
+  {
+   "code": "SYMBOLIC_GESTURE",
+   "base": 2,
+   "mult": 0.7,
+   "ageDays": 21,
+   "halfLife": 60,
+   "value": 1.098417737055451,
+   "fact": "China sent two giant pandas to the United States as friendship envoys.",
+   "actor": "CN"
+  },
+  {
+   "code": "SECURITY_COOPERATION",
+   "base": 3,
+   "mult": 0.42,
+   "ageDays": 22,
+   "halfLife": 90,
+   "value": 1.0636174039424113,
+   "fact": "The United States and China reinforced military communication for crisis prevention.",
+   "actor": "joint"
+  },
+  {
+   "code": "MINISTERIAL_VISIT",
+   "base": 5,
+   "mult": 0.56,
+   "ageDays": 88,
+   "halfLife": 60,
+   "value": 1.0130884662082646,
+   "fact": "U.S. Secretary of State Marco Rubio met with Chinese Foreign Minister Wang Yi.",
+   "actor": "joint"
+  },
+  {
+   "code": "DE_ESCALATION",
+   "base": 10,
+   "mult": 0.4,
+   "ageDays": 368,
+   "halfLife": 180,
+   "value": 0.9696631446467181,
+   "fact": "The United States and China agreed to a one-year pause in their trade war during a meeting in Busan between Presidents Donald Trump and Xi Jinping.",
+   "actor": "joint"
+  },
+  {
+   "code": "TRADE_RESTRICTION",
+   "base": -12,
+   "mult": 0.4,
+   "ageDays": 489,
+   "halfLife": 180,
+   "value": -0.7302021082023545,
+   "fact": "The U.S. Department of Commerce implemented an additional 50 percent tariff on household appliances as part of expanded steel-derivative tariffs.",
+   "actor": "US"
+  },
+  {
+   "code": "TRADE_RESTRICTION",
+   "base": -12,
+   "mult": 0.42,
+   "ageDays": 562,
+   "halfLife": 180,
+   "value": -0.5788259515967296,
+   "fact": "China retaliated against U.S. measures by imposing a 34 percent duty on all U.S. goods, export curbs, and sanctions on U.S. companies.",
+   "actor": "CN"
+  }
+ ],
+ "byActor": {
+  "joint": 7.1,
+  "CN": 9.0,
+  "US": -0.7
+ },
+ "classifiedFacts": [
+  {
+   "eventDate": "2026-07-22",
+   "actor": "joint",
+   "actorLevel": "MINISTER",
+   "type": "IMPLEMENTED",
+   "code": "MINISTERIAL_VISIT",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "U.S. Secretary of State Marco Rubio met with Chinese Foreign Minister Wang Yi.",
+   "cls": {
+    "how": "agree",
+    "A": "MINISTERIAL_VISIT",
+    "B": "MINISTERIAL_VISIT"
+   }
+  },
+  {
+   "eventDate": "2026-08-07",
+   "actor": "joint",
+   "actorLevel": "MINISTER",
+   "type": "IMPLEMENTED",
+   "code": "SANCTIONS_TARGETED",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "The United States and China imposed reciprocal sanctions prior to the Trump-Xi meeting.",
+   "cls": {
+    "how": "agree",
+    "A": "SANCTIONS_TARGETED",
+    "B": "SANCTIONS_TARGETED"
+   }
+  },
+  {
+   "eventDate": "2026-09-28",
+   "actor": "joint",
+   "actorLevel": "MINISTER",
+   "type": "DECLARED",
+   "code": "DE_ESCALATION",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "The United States and China agreed to reduce tariffs on products worth 60,000 million dollars, ranging from coal to toys.",
+   "cls": {
+    "how": "agree",
+    "A": "DE_ESCALATION",
+    "B": "DE_ESCALATION"
+   }
+  },
+  {
+   "eventDate": "2026-09-27",
+   "actor": "CN",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "SYMBOLIC_GESTURE",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "China sent two giant pandas to the United States as friendship envoys.",
+   "cls": {
+    "how": "agree",
+    "A": "SYMBOLIC_GESTURE",
+    "B": "SYMBOLIC_GESTURE"
+   }
+  },
+  {
+   "eventDate": "2026-09-26",
+   "actor": "joint",
+   "actorLevel": "MINISTER",
+   "type": "IMPLEMENTED",
+   "code": "SECTORAL_AGREEMENTS",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "China and the United States established a communication channel and dialogue mechanism for incidents and safety regarding artificial intelligence.",
+   "cls": {
+    "how": "agree",
+    "A": "SECTORAL_AGREEMENTS",
+    "B": "SECTORAL_AGREEMENTS"
+   }
+  },
+  {
+   "eventDate": "2026-09-26",
+   "actor": "joint",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "SECURITY_COOPERATION",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "The United States and China reinforced military communication for crisis prevention.",
+   "cls": {
+    "how": "conservative",
+    "A": "SECURITY_COOPERATION",
+    "B": "DEFENSE_DEAL",
+    "judge": null
+   }
+  },
+  {
+   "eventDate": "2026-09-24",
+   "actor": "joint",
+   "actorLevel": "MINISTER",
+   "type": "DECLARED",
+   "code": "DE_ESCALATION",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "China and the United States agreed to extend their trade war truce.",
+   "cls": {
+    "how": "agree",
+    "A": "DE_ESCALATION",
+    "B": "DE_ESCALATION"
+   }
+  },
+  {
+   "eventDate": "2026-09-24",
+   "actor": "CN",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "STATE_VISIT",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Chinese President Xi Jinping arrived in Washington for a state visit to the United States.",
+   "cls": {
+    "how": "agree",
+    "A": "STATE_VISIT",
+    "B": "STATE_VISIT"
+   }
+  },
+  {
+   "eventDate": "2026-06-03",
+   "actor": "CN",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "POLITICAL_DETENTION",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Chinese authorities detained a U.S. researcher, Min Zin, in Yunnan on suspicion of espionage.",
+   "cls": {
+    "how": "conservative",
+    "A": "POLITICAL_DETENTION",
+    "B": "ESPIONAGE",
+    "judge": null
+   }
+  },
+  {
+   "eventDate": "2025-10",
+   "actor": "joint",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "DE_ESCALATION",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "The United States and China agreed to a one-year pause in their trade war during a meeting in Busan between Presidents Donald Trump and Xi Jinping.",
+   "cls": {
+    "how": "agree",
+    "A": "DE_ESCALATION",
+    "B": "DE_ESCALATION"
+   }
+  },
+  {
+   "eventDate": "2025-06-16",
+   "actor": "US",
+   "actorLevel": "MINISTER",
+   "type": "IMPLEMENTED",
+   "code": "TRADE_RESTRICTION",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "PARTIAL",
+   "polarity": -1,
+   "fact": "The U.S. Department of Commerce implemented an additional 50 percent tariff on household appliances as part of expanded steel-derivative tariffs.",
+   "cls": {
+    "how": "agree",
+    "A": "TRADE_RESTRICTION",
+    "B": "TRADE_RESTRICTION"
+   }
+  },
+  {
+   "eventDate": "2025-04-04",
+   "actor": "CN",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "TRADE_RESTRICTION",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "China retaliated against U.S. measures by imposing a 34 percent duty on all U.S. goods, export curbs, and sanctions on U.S. companies.",
+   "cls": {
+    "how": "conservative",
+    "A": "SANCTIONS_BROAD",
+    "B": "TRADE_RESTRICTION",
+    "judge": null
+   }
+  },
+  {
+   "eventDate": "2023-04",
+   "actor": "US",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "SANCTIONS_TARGETED",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "The U.S. Office of Foreign Assets Control (OFAC) sanctioned two companies and four individuals in China for supplying precursor chemicals for fentanyl production.",
+   "cls": {
+    "how": "agree",
+    "A": "SANCTIONS_TARGETED",
+    "B": "SANCTIONS_TARGETED"
+   }
+  },
+  {
+   "eventDate": "1949-10-01",
+   "actor": "joint",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "NONE",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 0,
+   "fact": "Establishment of the People's Republic of China, initiating the modern bilateral state history with the United States.",
+   "cls": {
+    "how": "split",
+    "A": "NORMALIZATION",
+    "B": "NONE",
+    "judge": "NONE"
+   }
+  }
+ ],
+ "v6": {
+  "overall": "NEUTRAL",
+  "structural": "RIVAL",
+  "trend": "IMPROVING"
+ }
+}

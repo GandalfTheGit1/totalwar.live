@@ -27,3 +27,8 @@ coverage/
 # IDE
 .vscode/
 .idea/
+
+# Bilateral relations engine (Python prototype)
+__pycache__/
+*.pyc
+engine/relations/model/quota_state.json
