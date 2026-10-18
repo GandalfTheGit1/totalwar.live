@@ -211,7 +211,7 @@ export function evaluateCountryMechanics(params: {
   const weakestRes = calcCountryWeakestLink({
     infr: getWbVal('LP.LPI.INFR.XQ'),
     trac: getWbVal('LP.LPI.TRAC.XQ'),
-    itin: getWbVal('LP.LPI.ITIN.XQ'),
+    itin: getWbVal('LP.LPI.ITRN.XQ'),
     cust: getWbVal('LP.LPI.CUST.XQ'),
   }, sovereignRisk);
 
