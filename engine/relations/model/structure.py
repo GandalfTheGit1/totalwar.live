@@ -1,10 +1,10 @@
 """Structural states of a country pair, taken from DATA instead of from an LLM.
 
 Sources
-  wikidata  diplomatic relation (P530), resident embassies, memberships (P463) in a verified list of blocs, territories claimed (P1336)
+  wikidata  diplomatic relation (P530), resident embassies and the holders of the post that directs each one (P2389, P39), memberships (P463) in a verified list of blocs, territories claimed (P1336)
   wits      World Bank WITS: share of each country's exports/imports that goes to / comes from the other (latest year available)
   project   hard-country-data.ts (sanctions regimes by country) and RAW_SPECIAL_PAIR_STATUS in the seed script (strategic rivalries, defence treaties)
-  derived   deterministic rules over the classified, verified facts (ambassador withdrawn and not restored, trade war, arms embargo, dispute escalation)
+  derived   deterministic rules over the classified, verified facts (embassy state per side, standing measures, arms embargo, dispute escalation)
 
 An absent datum is NOT evidence of absence: nothing is scored when a source is silent.
 """
@@ -17,8 +17,9 @@ sys.path.insert(0, HERE)
 import flow as F
 import scoring as S
 import measures as M
+import embassy as EMB
 
-PROJECT = os.path.expanduser('~/Desktop/world-geopolitical-engine/.claude/worktrees/project-new-features-review-f92aae')
+PROJECT = os.path.abspath(os.path.join(HERE, '..', '..', '..'))          # repository root (engine/relations/model -> ..)
 HARD_FILE = f'{PROJECT}/lib/services/geopolitical/hard-country-data.ts'
 SEED_FILE = f'{PROJECT}/scripts/seed_geopolitical_matrix.ts'
 CACHE_FILE = os.path.join(HERE, 'data_cache.json')
@@ -53,7 +54,7 @@ DATA_SOURCES = [
     ('BILATERAL_TREATIES', 'Wikidata (tratados bilaterales)', 'Tratados con como máximo 3 Estados parte entre los dos países, sin fecha de fin, cuyo título indica inversiones, cooperación, defensa, seguridad, información clasificada, fiscalidad, extradición o comercio. Se deduplican por título. Cobertura parcial de Wikidata.'),
     ('SHARED_LANGUAGE', 'Wikidata (P37)', 'Los dos países tienen al menos una lengua oficial en común.'),
     ('TRADE_WAR', 'Proyecto (tabla de pares especiales)', 'La nota del par menciona aranceles cruzados o guerra comercial: estado completo.'),
-    ('AMBASSADOR_ABSENT', 'Derivado de hechos', 'Embajador retirado (por su propio país) o expulsado (por el otro: embajador, alto comisionado o encargado de negocios), ejecutado en los últimos 36 meses y sin regreso ni normalización posterior; cuenta un lado por cada misión sin jefe.'),
+    ('AMBASSADOR_ABSENT (estado de embajada)', 'Hechos + Wikidata (P2389, P39) + reverificación', 'Estado de cada lado (el jefe de misión de un país en el otro): AUSENTE tras una retirada propia o una expulsión por el otro (embajador, alto comisionado, encargado de negocios), sin límite de tiempo, hasta que lo termina una restauración o normalización ejecutada, un titular que Wikidata registra en el cargo después, o la reverificación web; PRESENTE si hubo restauración o Wikidata tiene un titular seguro en esa fecha (inicio redondeado al final de su periodo; sin fecha de fin vale como máximo 6 años); DESCONOCIDO en otro caso (un hueco en Wikidata no se lee como ausencia). Solo AUSENTE puntúa (−10 por lado).'),
     ('TRADE_WAR (pares fuera de la tabla)', 'Derivado de hechos', 'Sin corte duro: cada acto de coerción económica ejecutado (aranceles, controles de exportación, sanciones, veto a inversiones) de los últimos 5 años aporta peso 0,5^(edad/1 año); hace falta al menos una de cada lado (represalia) o una conjunta; la intensidad es min(1, suma de pesos); cada desescalada posterior la reduce un 30 % si fue ejecutada o un 12 % si solo anunciada (las dos más fuertes); un acuerdo comercial o el levantamiento la da por terminada y se desvanece.'),
     ('FRIENDSHIP_TREATY', 'Derivado de hechos', 'Firma verificada y ejecutada de un tratado de amistad o buena vecindad (cualquier antigüedad) sin ruptura de relaciones posterior.'),
     ('ARMS_EMBARGO_IN_FORCE', 'Derivado de hechos', 'Embargo de armas ejecutado en los últimos 60 meses sin levantamiento posterior.'),
@@ -72,7 +73,7 @@ def _cache():
 
 def cached(key, fn, ttl=86400):
     c = _cache()
-    if key in c and time.time() - c[key][0] < ttl:
+    if key in c and (os.environ.get('WGE_OFFLINE') or time.time() - c[key][0] < ttl):     # WGE_OFFLINE=1: never refresh (reproducible runs)
         return c[key][1]
     val = fn()
     c = _cache()
@@ -115,6 +116,12 @@ def diplomacy(a, b):
     ops = {r['op']['value'].split('/')[-1] for r in emb if int(r['n']['value']) > 0}
     sides = (qa in ops) + (qb in ops)
     return bool(rel), sides
+
+
+def heads_in(sender, host):
+    """Tenures of the sender's heads of mission in the host (one cached query per SENDING country, so all pairs of that country reuse it)."""
+    rows = cached(f'wd-heads-{sender}', lambda: sparql(EMB.heads_query(QID[sender])), ttl=30 * 86400)
+    return EMB.tenures_from_rows(rows, QID[host])
 
 
 def claims(a, b):
@@ -270,6 +277,10 @@ def build_states(a, b):
     elif related:
         states.append(dict(code='NONRESIDENT_RELATIONS', source='wikidata', evidence='P530 present, no resident embassy found'))
 
+    ten = {a: heads_in(a, b), b: heads_in(b, a)}
+    log['wikidata.heads'] = {k: len(v) for k, v in ten.items()}
+    states.append(dict(code='EMBASSY_HEADS', source='wikidata', tenures=ten, evidence=f"Wikidata holders: {a} {len(ten[a])}, {b} {len(ten[b])}"))
+
     ma, mb = memberships(a), memberships(b)
     shared = ma & mb
     log['wikidata.memberships'] = dict(a=sorted(ma), b=sorted(mb), shared=sorted(shared))
@@ -356,21 +367,16 @@ def derive_states(a, b, facts, states, at):
     ok = lambda f: f.get('type') == 'IMPLEMENTED' and _d(f) and _d(f) <= at
     by = lambda *codes: sorted([f for f in facts if f.get('code') in codes and ok(f)], key=_d)
 
-    # ambassador absent: (a) a country recalled its own ambassador -> that side; (b) a country expelled / declared persona non grata the other's head of mission -> the OTHER side.
-    # Cancelled by a later restoration. Looks back 36 months.
-    restored = by('AMBASSADOR_RESTORED', 'NORMALIZATION')
-    absent = {}
-    for f in by('AMBASSADOR_RECALL'):
-        side = str(f.get('actor'))
-        if side in (a, b) and _d(f) >= months(36) and not any(_d(r) > _d(f) for r in restored):
-            absent.setdefault(side, _d(f))
-    for f in by('EXPULSION'):
-        actor = str(f.get('actor'))
-        if actor in (a, b) and HEAD_OF_MISSION.search(f.get('fact') or '') and _d(f) >= months(36) and not any(_d(r) > _d(f) for r in restored):
-            absent.setdefault(b if actor == a else a, _d(f))
+    # embassy state per side (embassy.py, protocol_embassy.py): ABSENT after a recall / expulsion of the head of mission until a restoration (event, Wikidata holder or
+    # re-verification), with no time limit; PRESENT / UNKNOWN otherwise. Only ABSENT is scored. RELATIONS_SEVERED gives NO_RELATIONS instead (below).
+    heads = next((s for s in states if s.get('code') == 'EMBASSY_HEADS'), {}).get('tenures', {})
+    status = EMB.pair_status(a, b, facts, heads, at)
+    out.append(dict(code='EMBASSY_STATUS', source='derived', sides=status,
+                    evidence='; '.join(f"{k}: {v['status']}" + (f" since {v['since']}" if v['since'] else '') + f" ({v['source']})" for k, v in status.items())))
+    absent = {k: v['since'] for k, v in status.items() if v['status'] == 'ABSENT'}
     if absent and not by('RELATIONS_SEVERED'):
-        out.append(dict(code='AMBASSADOR_ABSENT', sides=len(absent), since=min(absent.values()).isoformat()[:7], source='derived', sideDates={k: v.isoformat()[:7] for k, v in absent.items()},
-                        evidence='head of mission absent for ' + ', '.join(f'{k} ({v.isoformat()[:7]})' for k, v in absent.items()) + ', no later restoration'))
+        out.append(dict(code='AMBASSADOR_ABSENT', sides=len(absent), since=min(absent.values()), source='derived', sideDates=dict(absent),
+                        evidence='head of mission absent for ' + ', '.join(f'{k} (since {v})' for k, v in absent.items()) + ', no later restoration'))
 
     # standing coercive measures (tariffs, bans, export controls, sanctions, supply cuts, investment vetoes, visa restrictions): in force until a lifting act, then fade.
     # Not added when the project already describes a trade war for this pair (TRADE_WAR) so the same measures are not counted twice.

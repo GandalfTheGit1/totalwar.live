@@ -1,11 +1,12 @@
 """Offline reproduction of the calibration numbers from the cached data in this repo (no network, no LLM calls).
 Run:  cd engine/relations/calibration && python3 -I test_reproduce.py
 The figures are the ones reported in docs/calibracion.md for the CURRENT model (gold labels, default parameters)."""
-import sys, unittest
+import os, sys, unittest
+os.environ.setdefault('WGE_OFFLINE', '1')       # use the cached Wikidata/WITS answers whatever their age
 sys.path.insert(0, '.')
 from mag_env import L, VER, M, S, evaluate2   # registers every episode
 
-EXPECTED = {'ESMA': 0.0, 'INCA': 0.0, 'QASA': 0.0, 'AUCN': 61.8, 'JPKR': 30.0, 'CASA': 76.2}
+EXPECTED = {'ESMA': 0.0, 'INCA': 0.0, 'QASA': 0.0, 'AUCN': 61.8, 'JPKR': 30.0, 'CASA': 47.3}    # CA-SA was 76.2 before the embassy state of round 5
 
 
 class Reproduce(unittest.TestCase):

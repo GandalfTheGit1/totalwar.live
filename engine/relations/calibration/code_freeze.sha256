@@ -28,3 +28,27 @@ Checked by diff against the backups structure_v5.py / classify_score2_v6.py: aft
 integration inside classify_score2.run(), (c) the --no-verify flag. None of this is on the calibration code path (calib_lib uses derive_states values, measures.py, scoring.py, reconcile/tiebreak, all unchanged:
 scoring.py and measures.py hashes are identical). The development-case gold losses reproduced today with the current files (AUCN 61.8, JPKR 30.0, ES-MA/IN-CA/QA-SA 0.0) match those obtained before.
 The Qatar and Japan results were therefore produced with the 12:24Z files, not the later ones; only this note and the unchanged outputs support that equivalence.
+
+d69b4049675345aa447e515a46c68c5d49cdad42dd22dd4b86c7a73941703c86  scoring.py
+1f703ccfeb4b46f5c28f90ecc9e5ea37682af52d2342a6514eaf9bd723c52bdf  structure.py
+daccade41a987e330be78fca893127e317ec15274311b565e59898c9f464cd59  embassy.py
+f9f41a358bf062714896dce96d2bb4db4585fc671951c2910e41aa975e85ce5e  measures.py
+fee00fe2054accd28d440c803cd4c37d8d9170d85892ffd696fbb719b833bd1f  verify_states.py
+0836ab9603656931a41b9e9d463fd530b402c67f4385fca8b07c46235b953a31  classify_score2.py
+e089cceacca527d1ab5a4173c67a530845437a68206f7618704c526fd409e43e  classify_score.py
+5d95a47128b3ae33552fde6bf2d50242219a869f3001d4df8b380f56f45a0081  flow.py
+b8d6232e5d68afb68c0666b803345814eab0a49647e9cad8076113eb0f55dcbb  providers.py
+642f4f16844a0c253014e488f60a82f2c20f8e27a77b81dd3621ff8cb3744368  migration.py
+ee3978a87e8a085820fa431b7ba34a853d72fe1b0939409edcddaed86e75aed4  structure_v6.py
+189e244dbf33c2929b78eb45b8d6fc2c47256e63a73a71a096eef9f607e150ef  calib_lib.py
+001f65b1fc96363755abfd39870bd37908ab3f06d1fb6912527df7f467e3a3d9  extract_hist.py
+b4c885a4a31cc4dc027b27a62a136d964c132d3befc661838f0fed8fdd625317  mag_env.py
+3280690f8d9dc763aeba04b3c1516f1eb76125170b619d64285c96d91a55b398  mag_rec.py
+da9970563dd6dcb87cd67df60b0a5215869e71c91cfd0c41c6135e2755e0ebf1  embassy_eval.py
+329ce71fe02f6e878758d3c587e2915bef67fb3a36b8daa3c21eda34e71c2cb0  protocol_embassy.py
+MODEL FROZEN (round 5, embassy state adopted by the rule of protocol_embassy.py) at 2026-10-18T14:23:50Z: nothing about Israel-Turkey has been read, extracted or scored. Hashes are of the files in engine/relations/.
+POST-FREEZE CHANGE (round 5), made before any score of Israel-Turkey was computed or seen: classifier A (Gemini 2.5 Flash, and its Flash Lite fallback) answered one batch of the Israel-Turkey facts
+with a bare JSON list instead of {"facts": [...]}, which flow.llm_json could not read (all providers failed, 4 attempts, same shape). flow.llm_json now takes list_key and reads a bare list as {list_key: list};
+classify_score2.classify_batch passes list_key='facts'. Nothing in scoring, states, embassy rules or prompts changed; development-episode classifications are cached and unaffected.
+88de2d824e9b1a55c6ae7776d6c076005b5cae8b6857cf604cbacee8510ec1f2  flow.py
+3a1aa471af8d2b677ec5b7643c60fc8e8c2bc17477c83de3c497ca6c45017ab7  classify_score2.py

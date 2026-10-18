@@ -84,7 +84,7 @@ def classify_batch(a, b, items, providers, patience=0):
             'actorLevel = level of whoever PERFORMED the act, not who reported it: HEAD (head of state/government), MINISTER, OFFICIAL (ambassador, spokesperson, agency, police, armed forces), '
             'INSTITUTION (parliament, regional government, state broadcaster), COURT, NON_GOV; coreInterest = true only if the act touches the TARGET\'s sovereignty, territory or regime security.\n'
             'Return {"facts":[{"id":"F0","code":"..","actor":"..","actorLevel":"..","coreInterest":false}]}\n\nFACTS:\n' + lines)
-    out = F.llm_json('classify', sys_p, user, max_tokens=5000, temperature=0.0, providers=providers, patience=patience)
+    out = F.llm_json('classify', sys_p, user, max_tokens=5000, temperature=0.0, providers=providers, patience=patience, list_key='facts')
     return {x.get('id'): norm(x) for x in out.get('facts', [])}, out.get('_by')
 
 
@@ -224,7 +224,7 @@ def run(pair, tag='', force_b=None, verify=True):
                 for v in vlog if v['status'] == 'UNKNOWN']
     res = dict(pair=pair, asOf=str(TODAY), warnings=warnings, R=sc['R'], band='MINIMAL' if minimal else sc['band'], bandFromScore=sc['band'], reliable=not minimal, trend=tr, trendInfo=tinfo,
                timeline=timeline, S_struct=sc['S_struct'], S_dyn=sc['S_dyn'], memory=sc['memory'], rawStruct=sc['rawStruct'], rawDyn=sc['rawDyn'],
-               states=[dict(s, value=next((c['value'] for c in sc['states'] if c['code'] == s['code']), 0)) for s in states], dataLog=slog, ablationNoProjectTradeWar=ablation, verification=vlog, measures=[dict(date=f['eventDate'], code=f['code'], until=f.get('measureUntil'), fact=f['fact'][:90]) for f in final if M.is_measure(f)],
+               states=[dict(s, value=next((c['value'] for c in sc['states'] if c['code'] == s['code']), 0)) for s in states], dataLog=slog, ablationNoProjectTradeWar=ablation, verification=vlog, embassies=next((x['sides'] for x in states if x['code'] == 'EMBASSY_STATUS'), None), measures=[dict(date=f['eventDate'], code=f['code'], until=f.get('measureUntil'), fact=f['fact'][:90]) for f in final if M.is_measure(f)],
                classification=info, topEvents=sc['events'][:12], byActor=S.contributions_by_actor(final, TODAY),
                classifiedFacts=[{k: g.get(k) for k in ('eventDate', 'actor', 'actorLevel', 'type', 'code', 'coreInterest', 'corroboration', 'verdict', 'polarity', 'fact', 'cls')} for g in final],
                v6=dict(overall=d['overallStatus'], structural=d['structuralStatus'], trend=d['trend30d']))

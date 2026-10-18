@@ -173,9 +173,10 @@ def collect(a, b, days=60):
 
 
 # ─── LLM helpers ──────────────────────────────────────────────────────────────
-def llm_json(stage, system, user, max_tokens=4000, temperature=0.1, providers=None, patience=0):
+def llm_json(stage, system, user, max_tokens=4000, temperature=0.1, providers=None, patience=0, list_key=None):
     """Tries each (provider, model) in order. `patience` = max seconds to WAIT for a provider's per-minute cooldown to end
-    (and retry it, at most twice) before moving to the next provider; 0 = never wait (previous behaviour)."""
+    (and retry it, at most twice) before moving to the next provider; 0 = never wait (previous behaviour).
+    `list_key`: when the answer is a bare JSON list, it is read as {list_key: list} instead of failing."""
     errors = []
     for prov, model in (providers or STAGE_PROVIDERS[stage]):
         attempt, waits = 0, 0
@@ -184,7 +185,10 @@ def llm_json(stage, system, user, max_tokens=4000, temperature=0.1, providers=No
                 txt, pi, po, s = P.call(prov, system, user, max_tokens=max_tokens * 2 if prov in ('groq', 'openrouter') else max_tokens,
                                         model=model, temperature=temperature)
                 txt = re.sub(r'^```(json)?|```$', '', txt.strip(), flags=re.M).strip()
-                data = json.loads(txt[txt.find('{'):txt.rfind('}') + 1])
+                if list_key and txt.startswith('['):               # the model returned the bare list instead of {list_key: [...]}
+                    data = {list_key: json.loads(txt[:txt.rfind(']') + 1])}
+                else:
+                    data = json.loads(txt[txt.find('{'):txt.rfind('}') + 1])
                 data['_by'] = f'{prov}/{model or P.PROVIDERS.get(prov, {}).get("model", "default")}'
                 METRICS['calls'].append(dict(stage=stage, provider=prov, model=model or P.PROVIDERS.get(prov, {}).get('model', 'gemini-2.5-flash'),
                                              seconds=round(s, 1), tokens_in=pi, tokens_out=po, fallbacks=len(errors), waits=waits))

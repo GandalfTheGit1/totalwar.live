@@ -210,3 +210,61 @@ Fallos con etiquetas manuales: R(2018-09) = −129 (la cota inferior esperada er
 2. Si se retoma H2: que el valor retenido se libere por completo al levantar la medida, y que la medida sin emparejar no se retenga más de la vida del estado. Necesita casos nuevos; dos episodios de desarrollo ya se han usado dos veces.
 3. Los seguimientos de la ronda 3 siguen abiertos (un acto por hecho en la extracción, emparejamiento del levantamiento propio, «sigue vigente», regla de reinicio para rupturas económicas).
 4. Extracción: pedir al modelo que use el mes del apartado cuando el texto no da día (la segunda pasada lo hizo a mano).
+
+
+# Ronda 5: estado de embajada con tres valores (18-10-2026)
+
+Resultado corto: **adoptado.** Cada lado de un par (el jefe de misión de un país en el otro) tiene ahora un estado **presente / ausente / desconocido** que se calcula con hechos, titulares de Wikidata y la reverificación web, sin el corte de 36 meses. Mejora el caso que lo motivó y el episodio reservado nuevo, y no cambia los otros cinco episodios. Deja una regresión conocida en España–Marruecos (abajo).
+
+## Reglas (fijadas con hash antes de escribir el código: `protocol_embassy.py`, `329ce71f…`)
+- **Ausente:** tras una retirada propia o una expulsión del jefe de misión por el otro país (ejecutadas), **sin límite de tiempo**, hasta que haya una restauración o normalización ejecutada, un titular que Wikidata registra en el cargo **después** de la ausencia, o un «levantado» de la reverificación.
+- **Presente:** hubo restauración, o Wikidata tiene un titular seguro en esa fecha. El inicio se redondea al final de su periodo: con solo el año, cuenta desde el 31 de diciembre. Un mandato sin fecha de fin vale como máximo 6 años.
+- **Desconocido:** en cualquier otro caso. **Un hueco en Wikidata nunca se lee como ausencia.**
+- Solo «ausente» puntúa (−10 por lado, igual que antes). La ruptura de relaciones sigue dando `NO_RELATIONS`. Cada ejecución informa del estado por lado con su fuente (`event`, `wikidata`, `web`, `none`).
+
+## Cobertura de Wikidata (sondeo antes de diseñar)
+Wikidata recoge bien qué embajadas existen. El titular actual depende mucho del país: España tiene titular actual en 100 de sus 119 embajadas, Canadá en 4 de 99 y Senegal en 0 de 27. Casi dos tercios de las fechas de inicio de España solo tienen año. Hace falta una consulta por país emisor (1–5 s); a escala, son 198 consultas.
+
+## Desarrollo (los seis episodios ya vistos; regla de adopción del protocolo)
+| Episodio | Etiquetas manuales, antes → ahora | Realista Qwen | Realista Cohere |
+|---|---|---|---|
+| España–Marruecos, India–Canadá, Arabia Saudí–Catar | 0 → 0 | sin cambio | sin cambio |
+| Australia–China | 61,8 → 61,8 | 75,0 → 75,0 | 60,5 → 60,5 |
+| Japón–Corea del Sur | 30,0 → 30,0 | 21,1 → 21,1 | 16,3 → 16,3 |
+| **Canadá–Arabia Saudí** | **76,2 → 47,3** | **78,0 → 23,7** | **80,4 → 31,0** |
+Se cumplen las tres condiciones (a) baja Canadá–Arabia Saudí, (b) ningún otro sube, (c) la suma realista baja.
+
+En Arabia Saudí–Catar se ve el riesgo del diseño. La retirada de embajadores de 2014 queda «ausente» hasta la ruptura de 2017, porque la lista de hechos no recoge su regreso ocho meses después. No cambia la pérdida porque `NO_RELATIONS` toma el relevo en 2017, y en producción la reverificación lo buscaría.
+
+## Episodio reservado nuevo: Israel–Turquía 2018–2024
+- **Congelación:** el código se congeló con hash a las 14:23:50Z, antes de leer nada. Las anclas (14) se congelaron antes de extraer (`anchors_turkey.py`, `7c4d6488…`), y las etiquetas manuales de los 68 hechos antes de clasificar (`gold_turkey.json`, `6f9a48ff…`).
+- **Fuentes:** «Israel–Turkey relations» (rev 1378778169) y «Eitan Na'eh» (rev 1365717266). El segundo hacía falta porque el primero no menciona la expulsión de 2018.
+- **Cambio tras la congelación**, antes de ver ninguna puntuación: el clasificador A devolvió una lista JSON suelta y el lector fallaba. `flow.llm_json` ahora la acepta (`list_key`). Está anotado en `code_freeze.sha256` y no toca la puntuación.
+
+| | Etiquetas manuales | Realista Qwen | Realista Cohere |
+|---|---|---|---|
+| estado anterior (corte de 36 meses) | 39,2 (3 de 14 fallan) | 74,6 | 53,8 |
+| **estado nuevo** | **29,4** (3 de 14 fallan) | **64,8** | **44,1** |
+
+**Cumple el criterio fijado antes:** baja un 25 % con etiquetas manuales y no sube el realista.
+- **Lado israelí:** ausente desde la expulsión de mayo de 2018 hasta diciembre de 2022. La decisión de agosto de 2022 de devolver embajadores quedó como anunciada (el riesgo 2 escrito antes), así que la restauración llegó por el mandato de Irit Lillian en Wikidata, con solo el año. Vuelve a ausente con la retirada de octubre de 2023.
+- **Lado turco:** desconocido salvo el mandato de 2022–2023. Las fuentes no recogen la retirada turca de 2018.
+- **Fallan los mismos tres niveles en los dos modelos:** R(2018-06) = −15 frente a ≤ −20, R(2020-12) = −8 frente a ≤ −15 y R(2021-12) = +2 frente a ≤ −15. Durante la congelación R no baja lo bastante; el estado de embajada solo resta 10 por lado.
+
+## Estado de las embajadas hoy en los 5 pares
+Calculado con los hechos clasificados de la última corrida (no se volvieron a clasificar) y la reverificación web.
+
+| Par | Embajadas residentes | Lado 1 | Lado 2 |
+|---|---|---|---|
+| España–Marruecos | 2 | España: presente desde 2024-01 (Wikidata) | **Marruecos: ausente desde 2021-05**, reverificación desconocida → medio peso (−5) |
+| España–Israel | 2 | España: ausente desde 2026-03 (hecho) | Israel: ausente desde 2024-05, reverificación desconocida → 75 % del estado (igual que antes) |
+| EE. UU.–China | 2 | EE. UU.: presente desde 2025-04 (Wikidata, David Perdue) | China: desconocido |
+| India–Canadá | 2 | India: presente desde 2025-08 (restauración) | Canadá: desconocido |
+| Mongolia–Senegal | 0 | desconocido | desconocido |
+
+**Regresión conocida:** la embajadora de Marruecos volvió a Madrid en marzo de 2022, pero ese regreso no está en la lista de hechos de producción. Wikidata registra su mandato como continuo desde 2018, y la reverificación no lo confirmó: el juez citó un texto que no aparece en el fragmento. Antes, el corte de 36 meses lo ocultaba por casualidad; ahora le cuesta 5 puntos a España–Marruecos. Los 5 pares no se han vuelto a puntuar enteros: `results/` sigue siendo la corrida anterior.
+
+## Qué queda
+1. Hacer que la reverificación confirme mejor los regresos, o que la extracción busque explícitamente «vuelta del embajador» cuando hay una ausencia abierta. Hace falta un caso nuevo para validarlo.
+2. Llevar el estado al resto de los 198 países: una consulta de Wikidata por país emisor; el resto ya está en el flujo.
+3. Los niveles de la congelación (Israel–Turquía 2018–2021, Australia–China 2021) siguen siendo demasiado altos: es la base estructural positiva frente a estados que restan poco.
