@@ -206,7 +206,7 @@ def human_ties(a, b):
     if sc < HUMAN_MIN_SCALE:
         return None, log
     big = max(((sab or 0, f'{b}-born in {a}', pa), (sba or 0, f'{a}-born in {b}', pb)))
-    return dict(code='HUMAN_TIES', scale=round(sc, 2), source='un-desa', evidence=f'{big[1]}: {int(big[0]):,} people ({big[0] / big[2] * 100:.2f} % of the destination); UN DESA 2024'), log
+    return dict(code='HUMAN_TIES', scale=round(sc, 2), source='un-desa', evidence=f'{big[1]}: {int(big[0]):,} people' + (f' ({big[0] / big[2] * 100:.2f} % of the destination)' if big[2] else '') + '; UN DESA 2024'), log      # no population figure for Taiwan in the World Bank
 
 
 # ─── WITS ─────────────────────────────────────────────────────────────────────

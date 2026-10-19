@@ -13,6 +13,7 @@ import { useHoi4Mechanics } from '../hooks/useHoi4Mechanics';
 
 // Sidebar sub-components
 import { ValueNetworkSection } from './sidebar/ValueNetworkSection';
+import { BilateralRelationsSection } from './sidebar/BilateralRelationsSection';
 import { TradeDagSection } from './sidebar/TradeDagSection';
 import { FriendshoringSection } from './sidebar/FriendshoringSection';
 import { CriticalCommodityKey } from '@/lib/services/geographic/friendshoring-service';
@@ -147,7 +148,11 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
               <>
                 {(activeMode === 'relations' || (activeRelations && Object.keys(activeRelations).length > 0)) && (
                   <>
-                    <ValueNetworkSection activeRelations={activeRelations} />
+                    {activeRelations && Object.values(activeRelations).some((r: any) => r?.score) ? (
+                      <BilateralRelationsSection activeRelations={activeRelations} />
+                    ) : (
+                      <ValueNetworkSection activeRelations={activeRelations} />
+                    )}
                     <TradeDagSection 
                       countryCode={activeData?.iso || ''} 
                       countryName={activeData?.name || ''} 

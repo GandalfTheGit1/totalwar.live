@@ -3,6 +3,8 @@
  * @description Type definitions for the Geopolitical Risk and Value Network Monitor.
  */
 
+import type { BilateralScore } from '@/lib/services/bilateral-relations/types';
+
 export type RiskLevel = 'safe' | 'warning' | 'critical';
 
 export type AIExposureLevel = 'Alta' | 'Media' | 'Baja';
@@ -132,6 +134,8 @@ export interface RelationItem {
   tariffRisk?: 'LOW' | 'MEDIUM' | 'HIGH' | 'EXTREME';
   chokepointRisk?: boolean;
   summaryNote?: string;
+  /** Score from the bilateral relations engine (R, band, embassies, states), when the relation comes from it. */
+  score?: BilateralScore;
 }
 
 export type ActiveRelationsMap = Record<string, RelationItem>;
