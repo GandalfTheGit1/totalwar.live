@@ -5,7 +5,11 @@ likely to be happening between the two states, using only the structural data al
   +3 shared border (Wikidata P47)          +3 territorial claim between them        +3 special pair in the project (rivalry, alliance, trade war)
   +3 high trade (>= 10 % of one side's exports or imports)   +2 medium trade (>= 3 %)
   +2 one sanctions the other (project data)                    +2 both in the G20        +1 strong human ties (UN DESA scale >= 0.5)
-Ties are broken by total trade share. Output: world/out/priority.json [[pair, score, reasons]]."""
+Ties are broken by total trade share. Output: world/out/priority.json [[pair, score, reasons]].
+
+When the GDELT live pulse exists (world/out/gdelt_live.json), the list alternates between the structural ranking and the pairs whose press balance is most negative
+(pulse < 0): the pulse failed its pre-registered adoption test as a score (docs/gdelt.md) but, exploratorily, it surfaces pairs the structure cannot see (France-Niger #972 -> #10,
+Israel-Yemen #12,971 -> #80) while the structure keeps the ones the press under-reports; the two are complementary, so the queue interleaves them."""
 import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -38,6 +42,18 @@ def rank(pairs_file=os.path.join(HERE, 'out', 'pairs.json')):
                 why.append(label)
         out.append([r['pair'], sc, why])
     out.sort(key=lambda x: -x[1])
+    live = os.path.join(HERE, 'out', 'gdelt_live.json')
+    if os.path.exists(live):
+        table = json.load(open(live))['pulse']
+        pulse = [k for k, v in sorted(table.items(), key=lambda kv: kv[1]['P']) if v['P'] < 0 and v['shrink'] >= 1.0]       # full volume only: low-volume pairs are mostly noise
+        by = {r[0]: r for r in out}
+        merged, seen = [], set()
+        for a, b in zip(out, pulse + [None] * len(out)):
+            for r in (a, by.get(b) if b else None):
+                if r and r[0] not in seen:
+                    seen.add(r[0])
+                    merged.append(r if r is a else [r[0], r[1], r[2] + ['press pulse']])
+        out = merged
     json.dump(out, open(os.path.join(HERE, 'out', 'priority.json'), 'w'), separators=(',', ':'))
     return out, len(nb)
 

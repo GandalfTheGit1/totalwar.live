@@ -5,7 +5,7 @@ Revisión sin saber qué pares había visto mal el usuario. Para no corregir sol
 ## Resultado
 | | Antes | Después |
 |---|---|---|
-| Batería (89 pares, fijada antes de corregir) | 44 dentro de rango | **83** |
+| Batería (89 pares, fijada antes de corregir) | 44 dentro de rango | **83** (81 tras los bloques; 80 al superponer la capa de hechos de los 5 pares) |
 | Batería reservada (30 pares, fijada después, sin tocar nada) | — | **10** |
 | Pares tensos o peores | 596 (casi todos por sanciones de la ONU) | 132 (bandas: 678 socios, 18.496 neutrales, 124 tensos, 8 hostiles) |
 
