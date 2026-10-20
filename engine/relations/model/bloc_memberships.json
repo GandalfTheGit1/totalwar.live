@@ -1,0 +1,312 @@
+{
+ "about": "Membership of the blocs that feed bloc states (model/bloc_qids.json), reviewed against each organisation's official member list on 2026-10-20. Wikidata's 'member of' (P463) carries no status: observers and suspended members appear as members (Mexico and Venezuela in Mercosur, the suspended states in the African Union) and several blocs are incomplete or empty (USMCA lists only Mexico, CPTPP, RCEP and the EAEU have no members, the GCC has 3 of 6, CELAC 5 of 33, ASEAN wrongly includes Australia). For the blocs listed in 'members' this list replaces Wikidata; 'status' then removes suspended, observer, departed and non-party states for every bloc. Re-review when membership changes.",
+ "reviewed": "2026-10-20",
+ "members": {
+  "MERCOSUR": {
+   "list": [
+    "AR",
+    "BR",
+    "PY",
+    "UY",
+    "BO"
+   ],
+   "source": "Treaty of Asuncion members; Bolivia full member since 8 July 2024",
+   "since": "1991-11-29",
+   "memberSince": {
+    "BO": "2024-07-08"
+   }
+  },
+  "EAEU": {
+   "list": [
+    "AM",
+    "BY",
+    "KZ",
+    "KG",
+    "RU"
+   ],
+   "source": "Eurasian Economic Union member states",
+   "since": "2015-01-01",
+   "memberSince": {
+    "AM": "2015-01-02",
+    "KG": "2015-08-12"
+   }
+  },
+  "GCC": {
+   "list": [
+    "AE",
+    "BH",
+    "KW",
+    "OM",
+    "QA",
+    "SA"
+   ],
+   "source": "Gulf Cooperation Council member states",
+   "since": "1981-05-25",
+   "memberSince": {}
+  },
+  "CELAC": {
+   "list": [
+    "AG",
+    "AR",
+    "BS",
+    "BB",
+    "BZ",
+    "BO",
+    "BR",
+    "CL",
+    "CO",
+    "CR",
+    "CU",
+    "DM",
+    "DO",
+    "EC",
+    "SV",
+    "GD",
+    "GT",
+    "GY",
+    "HT",
+    "HN",
+    "JM",
+    "MX",
+    "NI",
+    "PA",
+    "PY",
+    "PE",
+    "KN",
+    "LC",
+    "VC",
+    "SR",
+    "TT",
+    "UY",
+    "VE"
+   ],
+   "source": "CELAC: the 33 Latin American and Caribbean states (Brazil returned in 2023)",
+   "since": "2011-12-03",
+   "memberSince": {}
+  },
+  "USMCA": {
+   "list": [
+    "CA",
+    "MX",
+    "US"
+   ],
+   "source": "USMCA / T-MEC parties (free trade since NAFTA, 1 Jan 1994; USMCA since 1 Jul 2020)",
+   "since": "1994-01-01",
+   "memberSince": {}
+  },
+  "CPTPP": {
+   "list": [
+    "AU",
+    "BN",
+    "CA",
+    "CL",
+    "GB",
+    "JP",
+    "MX",
+    "MY",
+    "NZ",
+    "PE",
+    "SG",
+    "VN"
+   ],
+   "source": "CPTPP parties for which it is in force (United Kingdom since 15 Dec 2024)",
+   "since": "2018-12-30",
+   "memberSince": {
+    "VN": "2019-01-14",
+    "PE": "2021-09-19",
+    "MY": "2022-11-29",
+    "CL": "2023-02-21",
+    "BN": "2023-07-12",
+    "GB": "2024-12-15"
+   }
+  },
+  "RCEP": {
+   "list": [
+    "AU",
+    "BN",
+    "CN",
+    "ID",
+    "JP",
+    "KH",
+    "KR",
+    "LA",
+    "MM",
+    "MY",
+    "NZ",
+    "PH",
+    "SG",
+    "TH",
+    "VN"
+   ],
+   "source": "RCEP parties (in force for all 15 by June 2023; Myanmar's status is contested)",
+   "since": "2022-01-01",
+   "memberSince": {
+    "KR": "2022-02-01",
+    "MY": "2022-03-18",
+    "ID": "2023-01-02",
+    "PH": "2023-06-02",
+    "MM": "2022-05-01"
+   }
+  },
+  "ASEAN": {
+   "list": [
+    "BN",
+    "ID",
+    "KH",
+    "LA",
+    "MM",
+    "MY",
+    "PH",
+    "SG",
+    "TH",
+    "TL",
+    "VN"
+   ],
+   "source": "ASEAN members; Timor-Leste admitted 26 Oct 2025; Australia is a dialogue partner, not a member",
+   "since": "1967-08-08",
+   "memberSince": {
+    "BN": "1984-01-07",
+    "VN": "1995-07-28",
+    "LA": "1997-07-23",
+    "MM": "1997-07-23",
+    "KH": "1999-04-30",
+    "TL": "2025-10-26"
+   }
+  },
+  "SCO": {
+   "list": [
+    "BY",
+    "CN",
+    "IN",
+    "IR",
+    "KG",
+    "KZ",
+    "PK",
+    "RU",
+    "TJ",
+    "UZ"
+   ],
+   "source": "SCO members; Iran since 4 Jul 2023, Belarus since 4 Jul 2024",
+   "since": "2001-06-15",
+   "memberSince": {
+    "IN": "2017-06-09",
+    "PK": "2017-06-09",
+    "IR": "2023-07-04",
+    "BY": "2024-07-04"
+   }
+  }
+ },
+ "status": [
+  {
+   "bloc": "MERCOSUR",
+   "country": "VE",
+   "status": "suspended",
+   "since": "2016-12-01",
+   "source": "Suspended in December 2016, indefinitely since August 2017"
+  },
+  {
+   "bloc": "MERCOSUR",
+   "country": "MX",
+   "status": "observer",
+   "source": "Mexico is an observer, not a member"
+  },
+  {
+   "bloc": "EAEU",
+   "country": "UZ",
+   "status": "observer",
+   "since": "2020-12-11",
+   "source": "EAEU observer state"
+  },
+  {
+   "bloc": "EAEU",
+   "country": "CU",
+   "status": "observer",
+   "since": "2020-12-11",
+   "source": "EAEU observer state"
+  },
+  {
+   "bloc": "AU",
+   "country": "ML",
+   "status": "suspended",
+   "since": "2021-06-01",
+   "source": "Suspended after the 2021 coup"
+  },
+  {
+   "bloc": "AU",
+   "country": "BF",
+   "status": "suspended",
+   "since": "2022-01-31",
+   "source": "Suspended after the 2022 coup"
+  },
+  {
+   "bloc": "AU",
+   "country": "NE",
+   "status": "suspended",
+   "since": "2023-08-22",
+   "source": "Suspended after the 2023 coup"
+  },
+  {
+   "bloc": "AU",
+   "country": "SD",
+   "status": "suspended",
+   "since": "2021-10-27",
+   "source": "Suspended after the 2021 coup"
+  },
+  {
+   "bloc": "AU",
+   "country": "MG",
+   "status": "suspended",
+   "since": "2025-10-15",
+   "source": "Suspended after the October 2025 military takeover"
+  },
+  {
+   "bloc": "OPEC",
+   "country": "AO",
+   "status": "left",
+   "since": "2024-01-01",
+   "source": "Angola left OPEC on 1 January 2024"
+  },
+  {
+   "bloc": "AFCFTA",
+   "country": "ER",
+   "status": "non-party",
+   "source": "Eritrea is the only African Union state that has not signed the AfCFTA"
+  }
+ ],
+ "associates": [
+  {
+   "bloc": "MERCOSUR",
+   "country": "CL",
+   "state": "FTA_IN_FORCE",
+   "since": "1996-10-01",
+   "source": "Chile-Mercosur ACE 35 (tariffs eliminated)"
+  },
+  {
+   "bloc": "MERCOSUR",
+   "country": "PE",
+   "state": "FTA_IN_FORCE",
+   "since": "2005-01-01",
+   "source": "Peru-Mercosur ACE 58 (phase-out completed)"
+  },
+  {
+   "bloc": "MERCOSUR",
+   "country": "CO",
+   "state": "PREFERENTIAL_TRADE",
+   "since": "2017-12-20",
+   "source": "Colombia-Mercosur ACE 72"
+  },
+  {
+   "bloc": "MERCOSUR",
+   "country": "EC",
+   "state": "PREFERENTIAL_TRADE",
+   "since": "2005-04-01",
+   "source": "Ecuador-Mercosur ACE 59"
+  }
+ ],
+ "blocState": {
+  "AFCFTA": {
+   "state": "PREFERENTIAL_TRADE",
+   "source": "The AfCFTA is in force but its tariff schedules apply only to a limited 'guided trade' set; it is not yet a working free-trade area"
+  }
+ }
+}

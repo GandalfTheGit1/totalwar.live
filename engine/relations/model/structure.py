@@ -26,6 +26,64 @@ CACHE_FILE = os.path.join(HERE, 'data_cache.json')
 BLOCS = json.load(open(os.path.join(HERE, 'bloc_qids.json')))
 ISO3 = {'ES': 'ESP', 'MA': 'MAR', 'IL': 'ISR', 'US': 'USA', 'CN': 'CHN', 'IN': 'IND', 'CA': 'CAN', 'AU': 'AUS', 'SA': 'SAU', 'QA': 'QAT', 'CU': 'CUB', 'MN': 'MNG', 'SN': 'SEN'}
 QID = {c: v['qid'] for c, v in F.COUNTRIES.items()}
+# Denmark and the Netherlands: the UN member items are the kingdoms, and Wikidata records most of their embassies and memberships on them
+# (Kingdom of Denmark: 91 embassies vs 6 on Denmark; Kingdom of the Netherlands: 113 vs 2). Both items are queried.
+ALIASES = {'DK': ['Q756617'], 'NL': ['Q29999']}
+
+
+def qids(code):
+    return [QID[code]] + ALIASES.get(code, [])
+
+
+def vals(code):
+    return ' '.join(f'wd:{q}' for q in qids(code))
+
+
+def akey(code):
+    """Cache-key suffix for states whose answers now include the alias item."""
+    return '-alias' if code in ALIASES else ''
+
+
+# An embassy counts only while it is in use: not dissolved (P576), no end time (P582), not 'decommissioned', 'out of service', 'permanently / temporarily closed',
+# 'hanging' or 'on hold' (P5817 state of use), and not typed 'defunct diplomatic mission'. Before this filter Russia's closed embassy in Kyiv or Israel's in
+# Tehran counted as open.
+ACTIVE_EMBASSY = ('FILTER NOT EXISTS { ?e wdt:P576 ?x0 } FILTER NOT EXISTS { ?e wdt:P582 ?x1 } '
+                  'FILTER NOT EXISTS { ?e wdt:P5817 ?su . VALUES ?su { wd:Q11639308 wd:Q56651571 wd:Q104664889 wd:Q115754746 wd:Q97317113 wd:Q55653430 } } '
+                  'FILTER NOT EXISTS { ?e wdt:P31 wd:Q80905563 }')
+G7 = {'US', 'GB', 'CA', 'JP', 'FR', 'DE', 'IT'}
+EU_ALIGNED = {'GB', 'NO', 'CH', 'IS', 'LI'}          # apply the EU's sanctions regimes (UK through its own mirror regimes)
+# Rivalry declared in an alliance's official doctrine: NATO Strategic Concept 2022 names Russia "the most significant and direct threat" to Allies.
+BLOC_THREAT = {'NATO': ({'RU'}, 'NATO Strategic Concept 2022: Russia is the most significant and direct threat')}
+REVIEWED_FILE = os.path.join(HERE, 'reviewed_facts.json')
+DEFENSE_TITLE = re.compile(r'mutual defen[cs]e|mutual cooperation and security|security treaty|joint defen[cs]e|defen[cs]e (treaty|pact|agreement)|mutual (aid|assistance)', re.I)
+
+
+def reviewed_facts():
+    """{(a, b): [fact]} from reviewed_facts.json (hand-reviewed structural facts with their source)."""
+    out = {}
+    try:
+        for f in json.load(open(REVIEWED_FILE))['facts']:
+            out.setdefault(tuple(f['pair'].split('-')), []).append(f)
+    except FileNotFoundError:
+        pass
+    return out
+
+
+_REVIEWED = None
+
+
+def sanctions_lifted():
+    try:
+        return json.load(open(REVIEWED_FILE)).get('sanctionsLifted', [])
+    except FileNotFoundError:
+        return []
+
+
+def reviewed_for(a, b):
+    global _REVIEWED
+    if _REVIEWED is None:
+        _REVIEWED = reviewed_facts()
+    return _REVIEWED.get(tuple(sorted((a, b))), [])
 WITS = 'https://wits.worldbank.org/API/V1/SDMX/V21/datasource/tradestats-trade'
 TRADE_HIGH_PCT, TRADE_MEDIUM_PCT = 10.0, 3.0
 HEAD_OF_MISSION = re.compile(r"ambassador|high commissioner|charg[ée] d.affaires|nuncio|head of (?:the )?mission", re.I)
@@ -40,16 +98,34 @@ BLOC_STATE = {'NATO': 'DEFENSE_ALLIANCE', 'CSTO': 'DEFENSE_ALLIANCE', 'EU': 'DEE
               'AFCFTA': 'FTA_IN_FORCE', 'EFTA': 'FTA_IN_FORCE', 'ASEAN': 'PREFERENTIAL_TRADE', 'GCC': 'PREFERENTIAL_TRADE',
               'BRICS': 'SHARED_FORUM', 'SCO': 'SHARED_FORUM', 'OECD': 'SHARED_FORUM', 'G20': 'SHARED_FORUM', 'APEC': 'SHARED_FORUM',
               'OPEC': 'SHARED_FORUM', 'ARAB_LEAGUE': 'SHARED_FORUM', 'AU': 'SHARED_FORUM', 'OIC': 'SHARED_FORUM', 'CELAC': 'SHARED_FORUM'}
+BLOC_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'bloc_memberships.json')
+try:
+    BLOC_REVIEW = json.load(open(BLOC_FILE))
+except FileNotFoundError:
+    BLOC_REVIEW = {'members': {}, 'status': [], 'associates': [], 'blocState': {}}
+BLOC_STATE.update({b: v['state'] for b, v in BLOC_REVIEW.get('blocState', {}).items()})      # AfCFTA counts as preferential trade, not a working FTA
+NOT_MEMBER = ('suspended', 'observer', 'left', 'non-party')
+
+
+def bloc_since(bloc, a, b):
+    """Date from which both are members of a reviewed bloc (entry into force for each member), so past dates are scored with the agreements of the time."""
+    m = BLOC_REVIEW.get('members', {}).get(bloc)
+    if not m or not m.get('since'):
+        return None
+    return max(m.get('memberSince', {}).get(c, m['since']) for c in (a, b))
 STATE_RANK = ['DEFENSE_ALLIANCE', 'DEEP_INTEGRATION', 'FTA_IN_FORCE', 'INTEL_ALLIANCE', 'PREFERENTIAL_TRADE', 'SHARED_FORUM']
 
 DATA_SOURCES = [
-    ('FULL_DIPLOMATIC / NONRESIDENT_RELATIONS', 'Wikidata', 'Relación diplomática (P530) y embajadas residentes de cada país en el otro. Dos embajadas = lado doble; si Wikidata calla no se puntúa nada.'),
-    ('DEFENSE_ALLIANCE, DEEP_INTEGRATION, INTEL_ALLIANCE, FTA_IN_FORCE, PREFERENTIAL_TRADE, SHARED_FORUM', 'Wikidata (P463)',
-     'Pertenencia vigente de ambos a la misma organización de una lista cerrada de 23 bloques, cuyos identificadores se verifican por etiqueta y descripción.'),
+    ('FULL_DIPLOMATIC / NONRESIDENT_RELATIONS', 'Wikidata', 'Relación diplomática (P530) y embajadas residentes en uso de cada país en el otro (se descartan las disueltas, con fecha de fin, «decommissioned», «out of service», cerradas o en suspenso). Dinamarca y Países Bajos se consultan también con el elemento del Reino. Dos embajadas = lado doble; si Wikidata calla no se puntúa nada.'),
+    ('NO_RELATIONS (datos)', 'Wikidata (P530 con fecha de fin)', 'Las declaraciones de relación de un lado sobre el otro tienen todas fecha de fin y el otro lado no tiene una abierta o alguna embajada no está en uso. Taiwán queda fuera: perder el reconocimiento formal no es hostilidad.'),
+    ('ARMED_CONFLICT, OCCUPATION, NO_RELATIONS, NON_RECOGNITION, PROXY_HOSTILITY, HISTORICAL_WAR, disputas militarizadas, alianzas bilaterales, aliado principal no OTAN', 'Hechos revisados (reviewed_facts.json)', 'Hechos estructurales que ninguna fuente libre recoge de forma fiable, revisados a mano con su fuente y fecha (conflictos candidatos de Wikidata, lista de Estados patrocinadores del terrorismo, no reconocimiento de Israel, etc.). Deben revisarse cuando cambie la situación; entre revisiones los cambios los capta la capa de hechos.'),
+    ('DEFENSE_ALLIANCE, DEEP_INTEGRATION, INTEL_ALLIANCE, FTA_IN_FORCE, PREFERENTIAL_TRADE, SHARED_FORUM', 'Wikidata (P463) + pertenencias revisadas (bloc_memberships.json)',
+     'Pertenencia vigente de ambos como miembros plenos a la misma organización de una lista cerrada de 23 bloques. Wikidata no distingue estados: las listas oficiales sustituyen a Wikidata en Mercosur, UEEA, CCG, CELAC, T-MEC, CPTPP, RCEP, ASEAN y OCS, y los suspendidos, observadores, salidos o no firmantes no cuentan (Venezuela y México en Mercosur, las suspensiones de la Unión Africana, Angola en la OPEP, Eritrea en la zona africana). Los asociados con acuerdo comercial (Chile, Perú, Colombia, Ecuador con Mercosur) reciben ese acuerdo con cada miembro. La zona de libre comercio africana cuenta como acuerdo preferencial. Un par con libre comercio no suma además el preferencial.'),
     ('HUMAN_TIES', 'ONU (UN DESA, migrantes por origen y destino 2024) + Banco Mundial (población)', f'Nacidos en un país que viven en el otro, en las dos direcciones. Valor completo con ≥ {HUMAN_FULL_ABS:,} personas o ≥ {HUMAN_FULL_SHARE:g} % de la población del país de destino; proporcional por debajo; se ignora bajo el {int(HUMAN_MIN_SCALE * 100)} %. Cuenta lugar de nacimiento, no nacionalidad.'),
     ('TRADE_HIGH / TRADE_MEDIUM', 'Banco Mundial WITS', f'Mayor de las cuatro cuotas bilaterales (exportaciones e importaciones de cada país con el otro): ≥ {TRADE_HIGH_PCT:g} % alta, ≥ {TRADE_MEDIUM_PCT:g} % media.'),
     ('TERRITORIAL_DISPUTE_LOW', 'Wikidata (P1336)', 'Territorios que uno reclama y administra el otro. Sube a ACTIVE o MILITARIZED por reglas sobre hechos recientes (abajo).'),
-    ('SANCTIONS_REGIME_* / TECH_RESTRICTIONS / ARMS_EMBARGO_IN_FORCE', 'Proyecto (hard-country-data.ts)', 'Regímenes por país sancionado, asignados a EE. UU., UE o ONU según el nombre del régimen; solo cuenta si el otro país de la pareja es el que sanciona.'),
+    ('SANCTIONS_REGIME_* / TECH_RESTRICTIONS / ARMS_EMBARGO_IN_FORCE', 'Proyecto (hard-country-data.ts)', 'Regímenes por país sancionado, asignados a EE. UU., UE o G7 según el nombre del régimen; solo cuenta si el otro país de la pareja es el que sanciona. Un régimen solo de la ONU no cuenta como acto bilateral.'),
+    ('DEFENSE_ALLIANCE (tratados)', 'Wikidata (tratados bilaterales)', 'Tratado bilateral en vigor cuyo título indica defensa mutua, asistencia mutua o seguridad (salvo los marcados como extinguidos en los hechos revisados).'),
     ('STRATEGIC_RIVALRY, DEFENSE_ALLIANCE bilateral', 'Proyecto (seed_geopolitical_matrix.ts)', 'Tabla de pares especiales: competencia estratégica o adversario sancionado ⇒ rivalidad; "defensa mutua" en la nota ⇒ alianza.'),
     ('BILATERAL_TREATIES', 'Wikidata (tratados bilaterales)', 'Tratados con como máximo 3 Estados parte entre los dos países, sin fecha de fin, cuyo título indica inversiones, cooperación, defensa, seguridad, información clasificada, fiscalidad, extradición o comercio. Se deduplican por título. Cobertura parcial de Wikidata.'),
     ('SHARED_LANGUAGE', 'Wikidata (P37)', 'Los dos países tienen al menos una lengua oficial en común.'),
@@ -103,24 +179,53 @@ def sparql(q):
 # ─── Wikidata ─────────────────────────────────────────────────────────────────
 def memberships(code):
     vals = ' '.join(f'wd:{q}' for q in BLOCS.values())
-    q = f'SELECT DISTINCT ?o WHERE {{ wd:{QID[code]} p:P463 ?s. ?s ps:P463 ?o. FILTER NOT EXISTS {{ ?s pq:P582 ?e }} VALUES ?o {{ {vals} }} }}'
-    have = {r['o']['value'].split('/')[-1] for r in cached(f'wd-member-{code}', lambda: sparql(q))}
-    return {k for k, v in BLOCS.items() if v in have}
+    q = f'SELECT DISTINCT ?o WHERE {{ VALUES ?c {{ {globals()["vals"](code)} }} ?c p:P463 ?s. ?s ps:P463 ?o. FILTER NOT EXISTS {{ ?s pq:P582 ?e }} VALUES ?o {{ {vals} }} }}'
+    have = {r['o']['value'].split('/')[-1] for r in cached(f'wd-member-{code}{akey(code)}', lambda: sparql(q))}
+    out = {k for k, v in BLOCS.items() if v in have}
+    # Reviewed membership (bloc_memberships.json): official lists replace Wikidata for the blocs listed there, and suspended / observer / departed /
+    # non-party states are removed for every bloc, because Wikidata records them as plain members.
+    for bloc, m in BLOC_REVIEW.get('members', {}).items():
+        out.discard(bloc)
+        if code in m['list']:
+            out.add(bloc)
+    for st in BLOC_REVIEW.get('status', []):
+        if st['country'] == code and st['status'] in NOT_MEMBER:
+            out.discard(st['bloc'])
+    return out
+
+
+def p530_status(a, b):
+    """Diplomatic-relation statements (P530, normal or preferred rank) in each direction: {a: 'open' | 'ended' | None, b: ...}.
+    'ended' = every statement of that side about the other has an end time (relations severed and not restored per Wikidata)."""
+    rows = cached(f'wd-p530b-{a}-{b}{akey(a)}{akey(b)}', lambda: sparql(f'''SELECT ?x ?y ?end WHERE {{ {{ VALUES ?x {{ {vals(a)} }} VALUES ?y {{ {vals(b)} }} }} UNION {{ VALUES ?x {{ {vals(b)} }} VALUES ?y {{ {vals(a)} }} }}
+        ?x p:P530 ?st . ?st ps:P530 ?y ; wikibase:rank ?rk . FILTER(?rk != wikibase:DeprecatedRank) OPTIONAL {{ ?st pq:P582 ?end }} }}'''))
+    side = {q: c for c in (a, b) for q in qids(c)}
+    out = {a: None, b: None}
+    for r in rows:
+        c = side.get(r['x']['value'].split('/')[-1])
+        if c:
+            out[c] = 'open' if ('end' not in r or out[c] == 'open') else 'ended'
+    return out
+
+
+def active_embassy_sides(a, b):
+    """Which of the two countries has an embassy in use in the other."""
+    emb = cached(f'wd-emb2-{a}-{b}{akey(a)}{akey(b)}', lambda: sparql(f'''SELECT ?op (COUNT(DISTINCT ?e) AS ?n) WHERE {{
+        {{ VALUES ?op {{ {vals(a)} }} VALUES ?loc {{ {vals(b)} }} }} UNION {{ VALUES ?op {{ {vals(b)} }} VALUES ?loc {{ {vals(a)} }} }}
+        ?e wdt:P31/wdt:P279* wd:Q3917681; wdt:P137 ?op; wdt:P17 ?loc. {ACTIVE_EMBASSY} }} GROUP BY ?op'''))
+    ops = {r['op']['value'].split('/')[-1] for r in emb if int(r['n']['value']) > 0}
+    return {c for c in (a, b) if set(qids(c)) & ops}
 
 
 def diplomacy(a, b):
-    qa, qb = QID[a], QID[b]
-    rel = cached(f'wd-p530-{a}-{b}', lambda: sparql(f'SELECT ?x WHERE {{ {{ wd:{qa} wdt:P530 wd:{qb} }} UNION {{ wd:{qb} wdt:P530 wd:{qa} }} BIND(1 AS ?x) }} LIMIT 1'))
-    emb = cached(f'wd-emb-{a}-{b}', lambda: sparql(f'''SELECT ?op (COUNT(DISTINCT ?e) AS ?n) WHERE {{ VALUES (?op ?loc) {{(wd:{qa} wd:{qb}) (wd:{qb} wd:{qa})}}
-        ?e wdt:P31/wdt:P279* wd:Q3917681; wdt:P137 ?op; wdt:P17 ?loc. FILTER NOT EXISTS {{ ?e wdt:P576 ?x }} }} GROUP BY ?op'''))
-    ops = {r['op']['value'].split('/')[-1] for r in emb if int(r['n']['value']) > 0}
-    sides = (qa in ops) + (qb in ops)
-    return bool(rel), sides
+    """(relations open per Wikidata, number of sides with an embassy in use, P530 status per side)."""
+    st = p530_status(a, b)
+    return 'open' in st.values(), len(active_embassy_sides(a, b)), st
 
 
 def heads_in(sender, host):
     """Tenures of the sender's heads of mission in the host (one cached query per SENDING country, so all pairs of that country reuse it)."""
-    rows = cached(f'wd-heads-{sender}', lambda: sparql(EMB.heads_query(QID[sender])), ttl=30 * 86400)
+    rows = cached(f'wd-heads-{sender}{akey(sender)}', lambda: sparql(EMB.heads_query(qids(sender))), ttl=30 * 86400)
     return EMB.tenures_from_rows(rows, QID[host])
 
 
@@ -154,10 +259,10 @@ def filter_treaties(rows):
 def treaties(a, b):
     q = f'''SELECT ?t ?tLabel (SAMPLE(?e) AS ?end) (COUNT(DISTINCT ?party) AS ?n) WHERE {{
       ?t wdt:P31/wdt:P279* wd:Q131569. VALUES ?pr {{ wdt:P1891 wdt:P6193 wdt:P17 }}
-      ?t ?pr wd:{QID[a]}. ?t ?pr2 wd:{QID[b]}. ?t ?pr3 ?party. FILTER(?pr3 IN (wdt:P1891, wdt:P6193, wdt:P17))
+      VALUES ?qa {{ {vals(a)} }} VALUES ?qb {{ {vals(b)} }} ?t ?pr ?qa. ?t ?pr2 ?qb. ?t ?pr3 ?party. FILTER(?pr3 IN (wdt:P1891, wdt:P6193, wdt:P17))
       OPTIONAL {{ ?t wdt:P576 ?e }} SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }}
       GROUP BY ?t ?tLabel HAVING(COUNT(DISTINCT ?party) <= 3) LIMIT 30'''
-    return filter_treaties(cached(f'wd-treaties-{a}-{b}', lambda: sparql(q)))
+    return filter_treaties(cached(f'wd-treaties-{a}-{b}{akey(a)}{akey(b)}', lambda: sparql(q)))
 
 
 def shared_languages(a, b):
@@ -259,6 +364,8 @@ def authorities(regimes):
     for r in regimes:
         if re.search(r'OFAC|BIS_|CAATSA|HELMS|UFLPA|NS_CMIC|FTO_|CAESAR|RENACER|ZDERA|CACR|PDVSA|MOGE|MAGNITSKY|TALIBAN|SECONDARY|JCPOA|CHIPS|EXPORT_CONTROLS|G7_', r):
             s.add('US')
+        if r.startswith('G7_'):
+            s.add('G7')
         if r.startswith('EU_') or '_EU' in r or r.startswith('EU'):
             s.add('EU')
         if r.startswith('UNSC'):
@@ -270,12 +377,25 @@ def authorities(regimes):
 def build_states(a, b):
     """Data-backed structural states + a log of what each source returned (including silences)."""
     states, log = [], {}
-    related, sides = diplomacy(a, b)
-    log['wikidata.diplomacy'] = dict(P530=related, residentEmbassySides=sides)
-    if sides >= 1:
-        states.append(dict(code='FULL_DIPLOMATIC', sides=sides, source='wikidata', evidence=f'{sides} resident embassy(ies); P530={related}'))
-    elif related:
-        states.append(dict(code='NONRESIDENT_RELATIONS', source='wikidata', evidence='P530 present, no resident embassy found'))
+    related, sides, p530 = diplomacy(a, b)
+    log['wikidata.diplomacy'] = dict(P530=related, residentEmbassySides=sides, p530=p530)
+    rev = [f for f in reviewed_for(a, b) if not f.get('reject')]
+    rejected = {f['code'] for f in reviewed_for(a, b) if f.get('reject')}
+    log['reviewed'] = [f['code'] for f in rev]
+    # Severed per Wikidata: relation statements exist and ALL have an end time (no side keeps an open one), and neither country has an embassy in use in
+    # the other. A looser rule (one side ended) misread 15 of 27 pairs whose restoration Wikidata never recorded (China with 11 states that recognise it
+    # today, Germany-Somalia, Saudi Arabia-Iran and -Qatar). Taiwan is left out: losing formal recognition is not hostility.
+    severed = ('TW' not in (a, b) and 'ended' in p530.values() and 'open' not in p530.values() and sides == 0)
+    no_rel = severed or any(f['code'] in ('NO_RELATIONS', 'NON_RECOGNITION') for f in rev)
+    if severed and not any(f['code'] == 'NO_RELATIONS' for f in rev):
+        states.append(dict(code='NO_RELATIONS', source='wikidata', evidence=f'relation statements ended: {p530}; embassies in use: {sides}'))
+    if not no_rel:
+        if sides >= 1:
+            states.append(dict(code='FULL_DIPLOMATIC', sides=sides, source='wikidata', evidence=f'{sides} resident embassy(ies) in use; P530={related}'))
+        elif related:
+            states.append(dict(code='NONRESIDENT_RELATIONS', source='wikidata', evidence='P530 present, no resident embassy in use'))
+    for f in rev:
+        states.append(dict(code=f['code'], since=f.get('since'), source='reviewed', evidence=f['source'][:120]))
 
     ten = {a: heads_in(a, b), b: heads_in(b, a)}
     log['wikidata.heads'] = {k: len(v) for k, v in ten.items()}
@@ -290,11 +410,23 @@ def build_states(a, b):
     for code, blks in implied.items():
         if code == 'SHARED_FORUM' and any(c in implied for c in ('DEFENSE_ALLIANCE', 'DEEP_INTEGRATION')):
             continue          # forums add nothing next to an alliance or deep integration
-        states.append(dict(code=code, source='wikidata', evidence='shared: ' + ', '.join(blks)))
+        dates = [bloc_since(blk, a, b) for blk in blks]
+        since = min(dates) if dates and all(dates) else None             # the state exists once the earliest of its blocs applies to both
+        states.append(dict(code=code, source='wikidata+reviewed', since=since, evidence='shared: ' + ', '.join(blks)))
+    # associated states: a trade agreement between the bloc and the associate applies to each bloc member (e.g. Chile-Mercosur ACE 35)
+    for asc in BLOC_REVIEW.get('associates', []):
+        for x, y, my in ((a, b, mb), (b, a, ma)):
+            if x == asc['country'] and asc['bloc'] in my:
+                states.append(dict(code=asc['state'], source='reviewed', since=asc.get('since'), evidence=f"{asc['bloc']} associate: {asc['source']}"))
 
+    for bloc, (targets, why) in BLOC_THREAT.items():
+        for member, target in ((a, b), (b, a)):
+            if target in targets and bloc in (ma if member == a else mb):
+                states.append(dict(code='STRATEGIC_RIVALRY', source='doctrine', evidence=why))
     cl = claims(a, b)
     log['wikidata.claims'] = cl
-    if cl:
+    escalated = any(f['code'] in ('TERRITORIAL_DISPUTE_ACTIVE', 'TERRITORIAL_DISPUTE_MILITARIZED') for f in rev)
+    if cl and 'TERRITORIAL_DISPUTE_LOW' not in rejected and not escalated:
         states.append(dict(code='TERRITORIAL_DISPUTE_LOW', source='wikidata', evidence='; '.join(f'{k}: {", ".join(v[:4])}{"…" if len(v) > 4 else ""}' for k, v in cl.items())))
 
     vals, years = trade_pair(a, b)
@@ -306,13 +438,16 @@ def build_states(a, b):
             states.append(dict(code=code, source='wits', evidence=f'{top}: {vals[top]:.1f} %'))
 
     hard = hard_data()
+    lifted = {x['target'] for x in sanctions_lifted()}
     eu = {c for c in (a, b) if 'EU' in memberships(c)}
     for tgt, other in ((a, b), (b, a)):
         h = hard.get(tgt)
-        if not h:
+        if not h or tgt in lifted:                  # the project's list can lag behind a lifting (Syria 2025): reviewed_facts.json 'sanctionsLifted'
             continue
         auth = authorities(h['regimes'])
-        applies = ('US' in auth and other == 'US') or ('EU' in auth and other in eu) or ('UN' in auth)
+        # A UN Security Council regime binds every member but is not a bilateral act: before this rule North Korea came out 'tense' with China and Russia
+        # and Somalia with Spain. It counts only when the other country also sanctions unilaterally (US, EU, G7).
+        applies = ('US' in auth and other == 'US') or ('EU' in auth and (other in eu or other in EU_ALIGNED)) or ('G7' in auth and other in G7)
         log.setdefault('project.sanctions', {})[f'{other}->{tgt}'] = dict(level=h['level'], regimes=h['regimes'], authorities=sorted(auth), applies=applies)
         if not applies:
             continue
@@ -339,6 +474,9 @@ def build_states(a, b):
     log['wikidata.treaties'] = tr
     if tr:
         states.append(dict(code='BILATERAL_TREATIES', count=min(3, len(tr)), source='wikidata', evidence='; '.join(t[:60] for t in tr[:3])))
+        defence = [t for t in tr if DEFENSE_TITLE.search(t)]
+        if defence and 'DEFENSE_ALLIANCE' not in rejected:
+            states.append(dict(code='DEFENSE_ALLIANCE', source='wikidata', evidence='defence treaty: ' + defence[0][:90]))
     langs = shared_languages(a, b)
     log['wikidata.sharedLanguages'] = langs
     if langs:
@@ -347,6 +485,10 @@ def build_states(a, b):
     if sp and re.search(r'aranceles cruzados|guerra comercial|trade war', sp['note'], re.I):
         states.append(dict(code='TRADE_WAR', source='project', evidence=sp['note'][:80]))
 
+    if any(s['code'] == 'FTA_IN_FORCE' for s in states):          # one trade agreement level: a free-trade area already covers the preferential one
+        states = [s for s in states if s['code'] != 'PREFERENTIAL_TRADE']
+    if 'DEFENSE_ALLIANCE' in rejected:              # e.g. a terminated treaty still listed without end date, or a frozen membership (Armenia in the CSTO)
+        states = [s for s in states if s['code'] != 'DEFENSE_ALLIANCE']
     seen, out = set(), []
     for s in states:                      # one state per code
         if s['code'] not in seen:
@@ -374,7 +516,7 @@ def derive_states(a, b, facts, states, at):
     out.append(dict(code='EMBASSY_STATUS', source='derived', sides=status,
                     evidence='; '.join(f"{k}: {v['status']}" + (f" since {v['since']}" if v['since'] else '') + f" ({v['source']})" for k, v in status.items())))
     absent = {k: v['since'] for k, v in status.items() if v['status'] == 'ABSENT'}
-    if absent and not by('RELATIONS_SEVERED'):
+    if absent and not by('RELATIONS_SEVERED') and not (have & {'NO_RELATIONS', 'NON_RECOGNITION'}):
         out.append(dict(code='AMBASSADOR_ABSENT', sides=len(absent), since=min(absent.values()), source='derived', sideDates=dict(absent),
                         evidence='head of mission absent for ' + ', '.join(f'{k} (since {v})' for k, v in absent.items()) + ', no later restoration'))
 

@@ -23,9 +23,11 @@ YEAR, MONTH, DAY = 9, 10, 11   # Wikidata time precision
 
 # ─── Wikidata ─────────────────────────────────────────────────────────────────
 def heads_query(qid):
-    """All resident embassies of one SENDING country, the position that directs each one, and that position's holders with dates and their precision."""
+    """All resident embassies of one SENDING country (one Wikidata id, or several for states recorded on two items), the position that directs each one,
+    and that position's holders with dates and their precision."""
+    ops = ' '.join(f'wd:{q}' for q in ([qid] if isinstance(qid, str) else qid))
     return f'''SELECT ?r ?h ?hLabel ?start ?sp ?end ?ep WHERE {{
-        ?e wdt:P31/wdt:P279* wd:Q3917681; wdt:P137 wd:{qid}; wdt:P17 ?r . FILTER NOT EXISTS {{ ?e wdt:P576 ?x }}
+        VALUES ?op {{ {ops} }} ?e wdt:P31/wdt:P279* wd:Q3917681; wdt:P137 ?op; wdt:P17 ?r . FILTER NOT EXISTS {{ ?e wdt:P576 ?x }}
         ?pos wdt:P2389 ?e . ?h p:P39 ?st . ?st ps:P39 ?pos .
         OPTIONAL {{ ?st pqv:P580 ?sv . ?sv wikibase:timeValue ?start; wikibase:timePrecision ?sp }}
         OPTIONAL {{ ?st pqv:P582 ?ev . ?ev wikibase:timeValue ?end; wikibase:timePrecision ?ep }}

@@ -17,6 +17,7 @@ import migration as MIG
 REG = json.load(open(os.path.join(HERE, 'countries.json')))
 CODES = [c['code'] for c in REG]
 BY_QID = {c['qid']: c['code'] for c in REG}
+BY_QID.update({q: code for code, qs in T.ALIASES.items() for q in qs})       # Kingdom of Denmark / of the Netherlands
 TREATY_PROPS = ('P1891', 'P6193', 'P17')
 
 
@@ -32,7 +33,7 @@ def setup():
 
 
 def values(codes=None):
-    return ' '.join(f'wd:{T.QID[c]}' for c in (codes or CODES))
+    return ' '.join(T.vals(c) for c in (codes or CODES))
 
 
 def code_of(uri):
@@ -41,12 +42,15 @@ def code_of(uri):
 
 # ─── one query for all states ───────────────────────────────────────────────────
 def relations():
-    rows = T.cached('bulk-p530', lambda: T.sparql(f'SELECT ?a ?b WHERE {{ VALUES ?a {{ {values()} }} VALUES ?b {{ {values()} }} ?a wdt:P530 ?b }}'), ttl=30 * 86400)
-    out = set()
+    """{(a, b) directed: 'open' | 'ended'} from the diplomatic-relation statements (P530, not deprecated): 'ended' when every statement of a about b has an
+    end time. Same reading as structure.p530_status, for all states at once."""
+    rows = T.cached('bulk-p530b', lambda: T.sparql(f'''SELECT ?a ?b ?end WHERE {{ VALUES ?a {{ {values()} }} VALUES ?b {{ {values()} }}
+        ?a p:P530 ?st . ?st ps:P530 ?b ; wikibase:rank ?rk . FILTER(?rk != wikibase:DeprecatedRank) OPTIONAL {{ ?st pq:P582 ?end }} }}'''), ttl=30 * 86400)
+    out = {}
     for r in rows:
         a, b = code_of(r['a']['value']), code_of(r['b']['value'])
         if a and b and a != b:
-            out.add(tuple(sorted((a, b))))
+            out[(a, b)] = 'open' if ('end' not in r or out.get((a, b)) == 'open') else 'ended'
     return out
 
 
@@ -75,8 +79,8 @@ def languages_all():
 # ─── one query per state ────────────────────────────────────────────────────────
 def embassies_of(sender):
     """{host code: number of resident embassies of `sender` there} (not dissolved), as in structure.diplomacy()."""
-    rows = T.cached(f'bulk-emb-{sender}', lambda: T.sparql(f'''SELECT ?loc (COUNT(DISTINCT ?e) AS ?n) WHERE {{
-        ?e wdt:P31/wdt:P279* wd:Q3917681; wdt:P137 wd:{T.QID[sender]}; wdt:P17 ?loc . FILTER NOT EXISTS {{ ?e wdt:P576 ?x }} }} GROUP BY ?loc'''), ttl=30 * 86400)
+    rows = T.cached(f'bulk-emb2-{sender}', lambda: T.sparql(f'''SELECT ?loc (COUNT(DISTINCT ?e) AS ?n) WHERE {{ VALUES ?op {{ {T.vals(sender)} }}
+        ?e wdt:P31/wdt:P279* wd:Q3917681; wdt:P137 ?op; wdt:P17 ?loc . {T.ACTIVE_EMBASSY} }} GROUP BY ?loc'''), ttl=30 * 86400)
     return {code_of(r['loc']['value']): int(r['n']['value']) for r in rows if code_of(r['loc']['value'])}
 
 
@@ -85,7 +89,7 @@ def treaties_of(code):
     The party count is filtered by Wikidata (GROUP BY ... HAVING), so multilateral treaties never come back (fetching them made the cache 700 MB)."""
     def fetch():
         q = f'''SELECT ?t ?tLabel (SAMPLE(?e) AS ?end) (GROUP_CONCAT(DISTINCT STR(?party); separator=" ") AS ?parties) WHERE {{
-            ?t wdt:P31/wdt:P279* wd:Q131569 . VALUES ?pr {{ wdt:P1891 wdt:P6193 wdt:P17 }} ?t ?pr wd:{T.QID[code]} .
+            ?t wdt:P31/wdt:P279* wd:Q131569 . VALUES ?pr {{ wdt:P1891 wdt:P6193 wdt:P17 }} VALUES ?me {{ {T.vals(code)} }} ?t ?pr ?me .
             VALUES ?pr3 {{ wdt:P1891 wdt:P6193 wdt:P17 }} ?t ?pr3 ?party . OPTIONAL {{ ?t wdt:P576 ?e }}
             SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }} GROUP BY ?t ?tLabel HAVING(COUNT(DISTINCT ?party) <= 3)'''
         out = []
@@ -95,7 +99,7 @@ def treaties_of(code):
                 if other and other != code:
                     out.append([other, r['t']['value'], r.get('tLabel', {}).get('value', ''), r.get('end', {}).get('value')])
         return out
-    return T.cached(f'bulk-treaties2-{code}', fetch, ttl=30 * 86400)
+    return T.cached(f'bulk-treaties2-{code}{T.akey(code)}', fetch, ttl=30 * 86400)
 
 
 def prefetch(log=print):
@@ -138,7 +142,8 @@ class Tables:
                 self.treaty[tuple(sorted((c, other)))].append(dict(t={'value': uri}, tLabel={'value': label}, **({'end': {'value': end}} if end else {})))
 
     def diplomacy(self, a, b):
-        return tuple(sorted((a, b))) in self.rel, int(b in self.emb.get(a, {})) + int(a in self.emb.get(b, {}))
+        st = {a: self.rel.get((a, b)), b: self.rel.get((b, a))}
+        return 'open' in st.values(), int(b in self.emb.get(a, {})) + int(a in self.emb.get(b, {})), st
 
     def claims_pair(self, a, b):
         return {f'{x}->{y}': self.claims[(x, y)] for x, y in ((a, b), (b, a)) if self.claims.get((x, y))}
