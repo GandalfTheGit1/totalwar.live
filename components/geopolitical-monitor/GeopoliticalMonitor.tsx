@@ -60,6 +60,9 @@ export default function GeopoliticalMonitor({
     activeLayer,
     handleLayerChange,
     layerData,
+    selectedResourceId,
+    selectResource,
+    clearResource,
     selectedCountry,
     hoveredCountry,
     tooltipPos,
@@ -190,6 +193,10 @@ export default function GeopoliticalMonitor({
         activeLayer={activeLayer}
         layerData={layerData}
         onResetLayer={() => handleLayerChange('none')}
+        activeResourceId={selectedResourceId}
+        onSelectResource={selectResource}
+        onClearResource={clearResource}
+        onSelectCountryByIso={handleSelectCountryByIso}
       />
 
       {/* ─── Mode Selector Tab ───────────────────────────────────────────── */}
@@ -275,6 +282,8 @@ export default function GeopoliticalMonitor({
           onOpenSimulationDrawer={openChokepointDrawer}
           blockedCount={blockedChokepoints.length}
           simulationResult={simulationResult}
+          activeResourceId={selectedResourceId}
+          onShowResourceOnMap={selectResource}
         />
       )}
 

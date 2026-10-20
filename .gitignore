@@ -17,6 +17,9 @@ next-env.d.ts
 # Testing
 coverage/
 
+# Caché de descargas de scripts de datos
+.cache/
+
 # Misc
 .DS_Store
 *.pem

@@ -24,6 +24,7 @@ import { SovereignPowerRadarSection } from './sidebar/SovereignPowerRadarSection
 import { CausalAnalysisSection } from './sidebar/CausalAnalysisSection';
 import { VideoBriefingSection } from './sidebar/VideoBriefingSection';
 import { Hoi4MechanicsPanel } from './hoi4-eu4/Hoi4MechanicsPanel';
+import { CountryResourcesSection } from './resources/CountryResourcesSection';
 
 interface GeopoliticalSidebarProps {
   isPanelOpen: boolean;
@@ -40,6 +41,9 @@ interface GeopoliticalSidebarProps {
   onOpenSimulationDrawer?: () => void;
   blockedCount?: number;
   simulationResult?: any;
+  /** Recurso pintado en el mapa y acción para pintar otro desde la lista del país. */
+  activeResourceId?: string | null;
+  onShowResourceOnMap?: (commodityId: string) => void;
 }
 
 export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
@@ -57,6 +61,8 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
   onOpenSimulationDrawer,
   blockedCount = 0,
   simulationResult,
+  activeResourceId = null,
+  onShowResourceOnMap,
 }) => {
   const [activeTab, setActiveTab] = useState<'geopolitical' | 'dalio'>('geopolitical');
 
@@ -162,6 +168,15 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
                   blockedCount={blockedCount}
                   simulationResult={simulationResult}
                 />
+
+                {activeData?.iso && (
+                  <CountryResourcesSection
+                    countryCode={activeData.iso}
+                    countryName={activeData.name || ''}
+                    activeResourceId={activeResourceId}
+                    onShowOnMap={onShowResourceOnMap}
+                  />
+                )}
 
                 <FriendshoringSection 
                   countryCode={activeData?.iso || 'US'}

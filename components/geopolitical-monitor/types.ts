@@ -17,7 +17,8 @@ export type RelationType =
   | 'ally' | 'conflict' | 'neutral'; // Legacy fallback
 
 // ─── Thematic Layers (T03.2) ──────────────────────────────────────────────────
-export type ThematicLayer = 'none' | 'tier-n' | 'resources' | 'maritime' | 'footprint';
+/** 'resource-search' colorea los productores del recurso elegido en el buscador de recursos. */
+export type ThematicLayer = 'none' | 'tier-n' | 'resources' | 'maritime' | 'footprint' | 'resource-search';
 
 export interface ThematicLayerCountryData {
   countryCode: string; // ISO-2 o ISO-3 compatible
