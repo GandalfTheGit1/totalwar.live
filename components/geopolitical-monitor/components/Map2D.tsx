@@ -13,10 +13,14 @@ import { MapDefs } from './map2d/MapDefs';
 import { CornerReticles } from './map2d/CornerReticles';
 import { ArcTooltip } from './map2d/ArcTooltip';
 import { ChokepointTooltip } from './map2d/ChokepointTooltip';
+import { ClaimTooltip } from './map2d/ClaimTooltip';
 import { computeCountryTacticalStyle } from './map2d/country-styler';
 import { renderSubstitutionArcs } from './map2d/render-arcs';
 import { renderCorporateFacilities } from './map2d/render-facilities';
 import { renderMaritimeLayer } from './map2d/render-maritime';
+import { renderClaimsLayer, ClaimGeoJSON } from './map2d/render-claims';
+import type { TerritorialClaim } from '@/lib/services/territorial-claims/types';
+import claimsData from '@/lib/data/territorial-claims/claims.json';
 import { useMapCamera } from './map2d/useMapCamera';
 import { useMapInit } from './map2d/useMapInit';
 
@@ -27,6 +31,8 @@ interface MapTooltipSetters {
   setArcTooltipPos: React.Dispatch<React.SetStateAction<TooltipPos>>;
   setHoveredChokepoint: React.Dispatch<React.SetStateAction<ChokepointMarkerData | null>>;
   setChokepointTooltipPos: React.Dispatch<React.SetStateAction<TooltipPos>>;
+  setHoveredClaim: React.Dispatch<React.SetStateAction<TerritorialClaim | null>>;
+  setClaimTooltipPos: React.Dispatch<React.SetStateAction<TooltipPos>>;
 }
 
 function applyCountryPolygonStyles(gElement: SVGGElement, props: Map2DProps) {
@@ -58,19 +64,42 @@ function renderAllDynamicLayers(
   props: Map2DProps,
   svgElement: SVGSVGElement | null,
   handlersRef: React.MutableRefObject<Map2DProps>,
-  setters: MapTooltipSetters
+  setters: MapTooltipSetters,
+  claimsGeo: ClaimGeoJSON | null,
+  claimsMeta: Record<string, TerritorialClaim>
 ) {
   const g = d3.select(gElement);
   const arcs = g.select<SVGGElement>('.arcs-layer');
   const markers = g.select<SVGGElement>('.markers-layer');
   const routes = g.select<SVGGElement>('.maritime-routes-layer');
   const chokepoints = g.select<SVGGElement>('.chokepoints-layer');
+  const claims = g.select<SVGGElement>('.claims-layer');
 
   arcs.selectAll('*').remove();
   markers.selectAll('*').remove();
   routes.selectAll('*').remove();
   chokepoints.selectAll('*').remove();
+  claims.selectAll('*').remove();
 
+  if (props.activeMode === 'claims' && claimsGeo) {
+    renderClaimsLayer(
+      claims,
+      projection,
+      claimsGeo,
+      claimsMeta,
+      props.selectedCountry,
+      (claim, event) => {
+        if (claim && event) {
+          setters.setHoveredClaim(claim);
+          setters.setClaimTooltipPos({ x: event.clientX, y: event.clientY });
+        } else {
+          setters.setHoveredClaim(null);
+        }
+        props.onClaimHover?.(claim, event);
+      },
+      props.onClaimClick
+    );
+  }
   if (props.activeLayer === 'resources' || (props.substitutionArcs && props.substitutionArcs.length > 0)) {
     renderSubstitutionArcs(arcs, projection, props.substitutionArcs, svgElement, handlersRef, setters.setHoveredArc, setters.setArcTooltipPos);
   }
@@ -87,14 +116,29 @@ function useMapTooltips() {
   const [arcTooltipPos, setArcTooltipPos] = useState<TooltipPos>({ x: 0, y: 0 });
   const [hoveredChokepoint, setHoveredChokepoint] = useState<ChokepointMarkerData | null>(null);
   const [chokepointTooltipPos, setChokepointTooltipPos] = useState<TooltipPos>({ x: 0, y: 0 });
+  const [hoveredClaim, setHoveredClaim] = useState<TerritorialClaim | null>(null);
+  const [claimTooltipPos, setClaimTooltipPos] = useState<TooltipPos>({ x: 0, y: 0 });
 
   const setters = useMemo<MapTooltipSetters>(
-    () => ({ setHoveredArc, setArcTooltipPos, setHoveredChokepoint, setChokepointTooltipPos }),
+    () => ({
+      setHoveredArc,
+      setArcTooltipPos,
+      setHoveredChokepoint,
+      setChokepointTooltipPos,
+      setHoveredClaim,
+      setClaimTooltipPos,
+    }),
     []
   );
 
   return {
-    hoveredArc, arcTooltipPos, hoveredChokepoint, chokepointTooltipPos, setters,
+    hoveredArc,
+    arcTooltipPos,
+    hoveredChokepoint,
+    chokepointTooltipPos,
+    hoveredClaim,
+    claimTooltipPos,
+    setters,
   };
 }
 
@@ -104,13 +148,15 @@ function useMapDynamicLayers(
   svgRef: React.RefObject<SVGSVGElement | null>,
   handlersRef: React.MutableRefObject<Map2DProps>,
   props: Map2DProps,
-  setters: MapTooltipSetters
+  setters: MapTooltipSetters,
+  claimsGeo: ClaimGeoJSON | null,
+  claimsMeta: Record<string, TerritorialClaim>
 ) {
   useEffect(() => {
     if (!gRef.current || !props.geoData.length) return;
     applyCountryPolygonStyles(gRef.current, props);
     if (projectionRef.current) {
-      renderAllDynamicLayers(gRef.current, projectionRef.current, props, svgRef.current, handlersRef, setters);
+      renderAllDynamicLayers(gRef.current, projectionRef.current, props, svgRef.current, handlersRef, setters, claimsGeo, claimsMeta);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps -- Stable refs omitted; individual reactive visual props tracked to avoid tearing down D3 canvas on tooltip hover
   }, [
@@ -127,6 +173,8 @@ function useMapDynamicLayers(
     props.substitutionArcs,
     props.showMaritimeRoutes,
     props.blockedChokepoints,
+    claimsGeo,
+    claimsMeta,
     projectionRef,
     setters,
   ]);
@@ -138,6 +186,29 @@ export const Map2D: React.FC<Map2DProps> = (props) => {
   const gRef = useRef<SVGGElement | null>(null);
   const tooltips = useMapTooltips();
 
+  const [claimsGeoState, setClaimsGeoState] = useState<ClaimGeoJSON | null>(props.claimsGeo || null);
+
+  useEffect(() => {
+    if (props.claimsGeo) {
+      setClaimsGeoState(props.claimsGeo);
+      return;
+    }
+    if (props.activeMode === 'claims' && !claimsGeoState) {
+      fetch('/data/territorial-claims/claims.geojson')
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data) => {
+          if (data) setClaimsGeoState(data);
+        })
+        .catch(() => {});
+    }
+  }, [props.activeMode, props.claimsGeo, claimsGeoState]);
+
+  const claimsMeta = useMemo(() => {
+    return Object.fromEntries(
+      ((claimsData as any).claims || []).map((c: TerritorialClaim) => [c.id, c])
+    ) as Record<string, TerritorialClaim>;
+  }, []);
+
   const handlersRef = useRef<Map2DProps>(props);
   useEffect(() => {
     handlersRef.current = props;
@@ -145,7 +216,7 @@ export const Map2D: React.FC<Map2DProps> = (props) => {
 
   const { zoomRef, projectionRef } = useMapCamera(svgRef, selectedCountry, isPanelOpen, containerDimensions);
   useMapInit(svgRef, gRef, geoData, containerDimensions, handlersRef, zoomRef, projectionRef);
-  useMapDynamicLayers(gRef, projectionRef, svgRef, handlersRef, props, tooltips.setters);
+  useMapDynamicLayers(gRef, projectionRef, svgRef, handlersRef, props, tooltips.setters, claimsGeoState, claimsMeta);
 
   return (
     <div className="relative w-full h-full overflow-hidden bg-[#020617]">
@@ -161,6 +232,9 @@ export const Map2D: React.FC<Map2DProps> = (props) => {
           isBlocked={(props.blockedChokepoints || []).includes(tooltips.hoveredChokepoint.id)}
           pos={tooltips.chokepointTooltipPos}
         />
+      )}
+      {tooltips.hoveredClaim && (
+        <ClaimTooltip claim={tooltips.hoveredClaim} pos={tooltips.claimTooltipPos} />
       )}
       <CornerReticles />
     </div>

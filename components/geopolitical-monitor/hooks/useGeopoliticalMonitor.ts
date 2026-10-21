@@ -24,6 +24,7 @@ import { useThematicLayerData } from './useThematicLayerData';
 
 import { UseGeopoliticalMonitorOptions } from './monitor/types';
 import { buildRealRelations, resolveIsoFromFeature } from './monitor/relations-builder';
+import { loadRelations, cancelEngineRelations } from './monitor/engine-relations';
 import { computeMonitorPoints } from './monitor/points-builder';
 import { useMonitorMaritime } from './monitor/useMonitorMaritime';
 import { useMonitorFacilities } from './monitor/useMonitorFacilities';
@@ -153,8 +154,9 @@ export function useGeopoliticalMonitor({
   const handleModeChange = useCallback((mode: MapMode) => {
     setActiveMode(mode);
     if (mode === 'relations' && countrySel.selectedCountry) {
-      setActiveRelations(buildRealRelations(countrySel.selectedCountry, geoJsonData));
+      loadRelations(countrySel.selectedCountry, geoJsonData, setActiveRelations, buildRealRelations);
     } else {
+      cancelEngineRelations();
       setActiveRelations({});
     }
   }, [countrySel.selectedCountry, geoJsonData]);
@@ -175,9 +177,11 @@ export function useGeopoliticalMonitor({
       facilities.facilities,
       facilities.selectedFacility,
       maritime.showMaritimeRoutes,
-      maritime.blockedChokepoints
+      maritime.blockedChokepoints,
+      activeMode,
+      countrySel.selectedCountry
     );
-  }, [activeLayer, facilities.facilities, facilities.selectedFacility, maritime.showMaritimeRoutes, maritime.blockedChokepoints]);
+  }, [activeLayer, facilities.facilities, facilities.selectedFacility, maritime.showMaritimeRoutes, maritime.blockedChokepoints, activeMode, countrySel.selectedCountry]);
 
   useMonitorGlobeSync(
     globeInstanceRef,

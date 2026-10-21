@@ -13,6 +13,7 @@ import { useHoi4Mechanics } from '../hooks/useHoi4Mechanics';
 
 // Sidebar sub-components
 import { ValueNetworkSection } from './sidebar/ValueNetworkSection';
+import { BilateralRelationsSection } from './sidebar/BilateralRelationsSection';
 import { TradeDagSection } from './sidebar/TradeDagSection';
 import { FriendshoringSection } from './sidebar/FriendshoringSection';
 import { CriticalCommodityKey } from '@/lib/services/geographic/friendshoring-service';
@@ -24,11 +25,12 @@ import { SovereignPowerRadarSection } from './sidebar/SovereignPowerRadarSection
 import { CausalAnalysisSection } from './sidebar/CausalAnalysisSection';
 import { VideoBriefingSection } from './sidebar/VideoBriefingSection';
 import { Hoi4MechanicsPanel } from './hoi4-eu4/Hoi4MechanicsPanel';
+import { TerritorialClaimsSection } from './sidebar/TerritorialClaimsSection';
 
 interface GeopoliticalSidebarProps {
   isPanelOpen: boolean;
   activeData: any; // Using any or global types if they exist: CountryRiskInfo | null
-  activeMode: 'risk' | 'relations' | 'news';
+  activeMode: 'risk' | 'relations' | 'claims' | 'news';
   activeRelations: any; // ActiveRelationsMap
   onClose: () => void;
   activeMacro: any; // CountryMacroData | null
@@ -145,9 +147,19 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
               <NewsPanel iso={activeData?.iso || 'N/A'} name={activeData?.name || ''} />
             ) : (
               <>
-                {(activeMode === 'relations' || (activeRelations && Object.keys(activeRelations).length > 0)) && (
+                {(activeMode === 'claims' || activeMode === 'relations' || (activeRelations && Object.keys(activeRelations).length > 0)) && (
                   <>
-                    <ValueNetworkSection activeRelations={activeRelations} />
+                    {activeMode === 'claims' && (
+                      <TerritorialClaimsSection countryCode={activeData?.iso || ''} />
+                    )}
+                    {activeRelations && Object.values(activeRelations).some((r: any) => r?.score) ? (
+                      <BilateralRelationsSection activeRelations={activeRelations} />
+                    ) : (
+                      <ValueNetworkSection activeRelations={activeRelations} />
+                    )}
+                    {activeMode === 'relations' && (
+                      <TerritorialClaimsSection countryCode={activeData?.iso || ''} />
+                    )}
                     <TradeDagSection 
                       countryCode={activeData?.iso || ''} 
                       countryName={activeData?.name || ''} 
