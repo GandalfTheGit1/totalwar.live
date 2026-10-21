@@ -18,7 +18,7 @@ const WB_INDICATORS = [
   'NY.GDP.TOTL.RT.ZS',
   'LP.LPI.INFR.XQ',
   'LP.LPI.TRAC.XQ',
-  'LP.LPI.ITIN.XQ',
+  'LP.LPI.ITRN.XQ',
   'LP.LPI.CUST.XQ',
 ];
 

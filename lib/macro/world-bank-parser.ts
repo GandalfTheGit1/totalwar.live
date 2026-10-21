@@ -49,6 +49,21 @@ export function buildWorldBankUrl(
 }
 
 /**
+ * Error raised when the World Bank API answers with an explicit error envelope
+ * (e.g. `[120] The provided parameter value is not valid` for an unknown indicator).
+ * Distinguishes request-level rejections from transport / rate-limit failures.
+ */
+export class WorldBankApiError extends Error {
+  readonly apiCode?: string;
+
+  constructor(message: string, apiCode?: string) {
+    super(message);
+    this.name = 'WorldBankApiError';
+    this.apiCode = apiCode;
+  }
+}
+
+/**
  * Validates whether the incoming payload matches an error envelope from the World Bank API.
  * Throws explicit descriptive error if an envelope is detected.
  */
@@ -62,10 +77,10 @@ function assertNoErrorEnvelope(envelope: unknown): void {
     const err = errorObj.message[0];
     const code = err.id ? `[${err.id}] ` : '';
     const key = err.key ? ` (${err.key})` : '';
-    throw new Error(`[WorldBank] API Error ${code}${err.value || 'Invalid request'}${key}`);
+    throw new WorldBankApiError(`[WorldBank] API Error ${code}${err.value || 'Invalid request'}${key}`, err.id);
   }
   if (typeof errorObj.message === 'string') {
-    throw new Error(`[WorldBank] API Error: ${errorObj.message}`);
+    throw new WorldBankApiError(`[WorldBank] API Error: ${errorObj.message}`);
   }
 }
 
