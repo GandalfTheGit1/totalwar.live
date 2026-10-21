@@ -1,0 +1,646 @@
+[
+ {
+  "eventDate": "2020-04",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Australia's Foreign Minister Marise Payne questioned China's COVID-19 transparency and demanded an international investigation.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN00"
+ },
+ {
+  "eventDate": "2020-04",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China's ambassador Cheng Jingye called Australia's path dangerous and suggested a Chinese boycott of Australian exports.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN01"
+ },
+ {
+  "eventDate": "2020-04",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Australia's Department of Foreign Affairs and Trade summoned China's ambassador Cheng Jingye to explain his comments.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN02"
+ },
+ {
+  "eventDate": "2020-04-29",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Australian Prime Minister Scott Morrison reiterated the call for an investigation into COVID-19 origins.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN03"
+ },
+ {
+  "eventDate": "2020-05",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China began imposing trade restrictions on Australia, starting with beef exports.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN04"
+ },
+ {
+  "eventDate": "2020-05-11",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China suspended beef imports from four Australian meat processors.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN05"
+ },
+ {
+  "eventDate": "2020-05-18",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China's Ministry of Commerce implemented an 80.5% tariff on Australian barley.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN06"
+ },
+ {
+  "eventDate": "2020-06",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China's foreign ministry spokesperson Hua Chunying criticised Prime Minister Morrison over a European Union report.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN07"
+ },
+ {
+  "eventDate": "2020-08-16",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China suspended beef imports from Australian meat processor John Dee.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN08"
+ },
+ {
+  "eventDate": "2020-08-18",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China's Ministry of Commerce initiated an anti-dumping investigation on Australian wine imports.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN09"
+ },
+ {
+  "eventDate": "2020-08-31",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China's General Administration of Customs suspended barley imports from CBH Grain.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN10"
+ },
+ {
+  "eventDate": "2020-10-16",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China ordered cotton mills to suspend imports of Australian cotton.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN11"
+ },
+ {
+  "eventDate": "2020-11-02",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China effectively suspended imports of Australian lobsters, timber, and barley from Emerald Grain.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN12"
+ },
+ {
+  "eventDate": "2020-11-17",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "An official from China's embassy in Canberra presented a list of 14 Chinese grievances against Australia.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN13"
+ },
+ {
+  "eventDate": "2020-11-25",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China confirmed it rejected coal imports from Australia for failing to meet environmental standards.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN14"
+ },
+ {
+  "eventDate": "2020-11-27",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China's Ministry of Commerce implemented a 206% tariff on Australian wine.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN15"
+ },
+ {
+  "eventDate": "2020-11-30",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China's foreign ministry rejected Australian Prime Minister Scott Morrison's demands to apologise for an offensive digital image.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN16"
+ },
+ {
+  "eventDate": "2020-11-30",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Australian Prime Minister Scott Morrison demanded a formal apology from China for posting an offensive image.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN17"
+ },
+ {
+  "eventDate": "2020-12-07",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China suspended beef imports from Australian meat processor Meramist Pty Ltd.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN18"
+ },
+ {
+  "eventDate": "2021-09-16",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Australia announced the AUKUS security partnership with the US and UK, drawing angry reactions from Beijing.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN19"
+ },
+ {
+  "eventDate": "2022-06",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Deputy Prime Minister and Defence Minister Richard Marles met Chinese Defence Minister Wei Fenghe at the Shangri-La Dialogue.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN20"
+ },
+ {
+  "eventDate": "2022-11",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Prime Minister Anthony Albanese met Chinese leader Xi Jinping during the G20 summit in Bali.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN21"
+ },
+ {
+  "eventDate": "2022-12",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Australian Foreign Minister Penny Wong visited China and met Chinese Foreign Minister Wang Yi.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN22"
+ },
+ {
+  "eventDate": "2023-02-08",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China resumed imports of Australian coal.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN23"
+ },
+ {
+  "eventDate": "2023-04-11",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Australia and China announced an agreement over barley tariffs in exchange for Australia suspending a WTO case.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN24"
+ },
+ {
+  "eventDate": "2023-04-12",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "Chinese Vice Minister of Foreign Affairs Ma Zhaoxu visited Australia.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN25"
+ },
+ {
+  "eventDate": "2023-05",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Australian Trade Minister Don Farrell visited Beijing, the first visit by an Australian trade minister to China since 2019.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "manual": true,
+  "note": "article text (E2)",
+  "id": "AUCN26"
+ },
+ {
+  "eventDate": "2023-05-18",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China resumed imports of Australian timber.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN27"
+ },
+ {
+  "eventDate": "2023-08-04",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China's Ministry of Commerce ruled it was no longer necessary to impose tariffs on Australian barley.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN28"
+ },
+ {
+  "eventDate": "2023-09",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Australia and China held a High-Level Dialogue in Beijing.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN29"
+ },
+ {
+  "eventDate": "2023-09",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Prime Minister Albanese met Chinese Premier Li Qiang on the sidelines of the East Asia Summit in Jakarta.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "manual": true,
+  "note": "article text (E2)",
+  "id": "AUCN30"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Australian Navy divers were injured by a Chinese destroyer's sonar system while operating in Japan's waters.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN31"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Prime Minister Anthony Albanese visited Shanghai and Beijing, meeting Premier Li Qiang and Xi Jinping.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN32"
+ },
+ {
+  "eventDate": "2023-12-12",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China resumed imports from three Australian meat processors.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN33"
+ },
+ {
+  "eventDate": "2024-03",
+  "actor": "AU",
+  "actorKind": "government",
+  "fact": "Foreign Minister Penny Wong met with Wang Yi in Canberra during the Australia-China Foreign and Strategic Dialogue.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN34"
+ },
+ {
+  "eventDate": "2024-03-28",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China's Ministry of Commerce ruled it was no longer necessary to impose tariffs on Australian wine.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN35"
+ },
+ {
+  "eventDate": "2024-05",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "A Chinese J-10 dropped flares close to an Australian MH60R Seahawk helicopter in international waters.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN36"
+ },
+ {
+  "eventDate": "2024-05-29",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China resumed imports from almost all previously banned Australian meat processors.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN37"
+ },
+ {
+  "eventDate": "2024-06",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Prime Minister Anthony Albanese hosted Chinese Premier Li Qiang during his state visit to Australia.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN38"
+ },
+ {
+  "eventDate": "2024-12-20",
+  "actor": "CN",
+  "actorKind": "government",
+  "fact": "China resumed imports of Australian lobsters.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "AUCN39"
+ }
+]

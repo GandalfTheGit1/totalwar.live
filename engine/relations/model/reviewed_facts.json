@@ -1,0 +1,907 @@
+{
+ "about": "Structural facts that no free machine-readable source records reliably (wars, occupations, ruptures, non-recognition, bilateral alliances). Each entry was reviewed by hand against the cited source on 2026-10-20 and must be re-reviewed when the situation changes; the events layer is what tracks change between reviews. Pairs are alphabetical ISO-2 codes. 'reject' entries cancel a fact that the automatic data rules would otherwise derive (e.g. a defence treaty still listed without end date).",
+ "reviewed": "2026-10-20",
+ "facts": [
+  {
+   "pair": "RU-UA",
+   "code": "ARMED_CONFLICT",
+   "since": "2022-02-24",
+   "source": "Wikidata Q110999040 full-scale Russo-Ukrainian war (Russia 'aggressor', Ukraine 'war victim'); ongoing"
+  },
+  {
+   "pair": "RU-UA",
+   "code": "OCCUPATION",
+   "since": "2014-02-20",
+   "source": "Crimea and parts of four oblasts occupied by Russia"
+  },
+  {
+   "pair": "RU-UA",
+   "code": "NO_RELATIONS",
+   "since": "2022-02-24",
+   "source": "Ukraine severed relations on 24 Feb 2022 (Wikidata P530 end time)"
+  },
+  {
+   "pair": "BY-UA",
+   "code": "PROXY_HOSTILITY",
+   "since": "2022-02-24",
+   "source": "Wikidata Q110999040: Belarus role 'staging area' of the invasion"
+  },
+  {
+   "pair": "CD-RW",
+   "code": "ARMED_CONFLICT",
+   "since": "2022-03-27",
+   "source": "Wikidata DRC-Rwanda conflict (M23, RDF troops per UN experts); ongoing despite the June 2025 Washington accord"
+  },
+  {
+   "pair": "IL-IR",
+   "code": "ARMED_CONFLICT",
+   "since": "2013-01-01",
+   "source": "Wikidata Iran-Israel conflict during the Syrian civil war (ongoing) and the June 2025 Twelve-Day War"
+  },
+  {
+   "pair": "ER-ET",
+   "code": "ARMED_CONFLICT",
+   "since": "2026-10-06",
+   "source": "Wikidata '2026 Eritrean invasion of Ethiopia' (after the reviewer's knowledge: taken from Wikidata, not independently verified)"
+  },
+  {
+   "pair": "US-VE",
+   "code": "ARMED_CONFLICT",
+   "since": "2025-09-02",
+   "source": "Wikidata 'United States military campaign against cartels' with Venezuela as a participant; US strikes since September 2025 (status after January 2026 to be re-reviewed)"
+  },
+  {
+   "pair": "GE-RU",
+   "code": "OCCUPATION",
+   "since": "2008-08-07",
+   "source": "Abkhazia and South Ossetia under Russian occupation"
+  },
+  {
+   "pair": "CY-TR",
+   "code": "OCCUPATION",
+   "since": "1974-07-20",
+   "source": "Northern Cyprus occupied by Turkey"
+  },
+  {
+   "pair": "IL-PS",
+   "code": "OCCUPATION",
+   "since": "1967-06-10",
+   "source": "West Bank and Gaza occupation; Gaza war 2023-2025"
+  },
+  {
+   "pair": "IL-SY",
+   "code": "OCCUPATION",
+   "since": "1967-06-10",
+   "source": "Golan Heights; buffer zone occupied since December 2024 (Wikidata ceasefire-line incidents, ongoing)"
+  },
+  {
+   "pair": "IL-LB",
+   "code": "OCCUPATION",
+   "since": "2025-02-18",
+   "source": "Israel kept five positions in southern Lebanon after the November 2024 ceasefire"
+  },
+  {
+   "pair": "CU-US",
+   "code": "PROXY_HOSTILITY",
+   "since": "2025-01-20",
+   "source": "US State Sponsor of Terrorism list (Cuba re-designated January 2025)"
+  },
+  {
+   "pair": "IR-US",
+   "code": "PROXY_HOSTILITY",
+   "since": "1984-01-19",
+   "source": "US State Sponsor of Terrorism list"
+  },
+  {
+   "pair": "KP-US",
+   "code": "PROXY_HOSTILITY",
+   "since": "2017-11-20",
+   "source": "US State Sponsor of Terrorism list"
+  },
+  {
+   "pair": "AM-AZ",
+   "code": "HISTORICAL_WAR",
+   "since": "2020-09-27",
+   "source": "2020 Nagorno-Karabakh war and September 2023 offensive"
+  },
+  {
+   "pair": "AM-AZ",
+   "code": "TERRITORIAL_DISPUTE_MILITARIZED",
+   "since": "2023-09-19",
+   "source": "September 2023 offensive (armed incident in the last 5 years); peace text initialled August 2025, not ratified"
+  },
+  {
+   "pair": "AM-AZ",
+   "code": "NO_RELATIONS",
+   "since": "1991-12-26",
+   "source": "Armenia and Azerbaijan have never established diplomatic relations"
+  },
+  {
+   "pair": "AM-TR",
+   "code": "NO_RELATIONS",
+   "since": "1991-12-26",
+   "source": "No diplomatic relations; border closed since 1993"
+  },
+  {
+   "pair": "CN-IN",
+   "code": "HISTORICAL_WAR",
+   "since": "1962-10-20",
+   "source": "1962 war; Galwan clash June 2020 (Wikidata)"
+  },
+  {
+   "pair": "IN-PK",
+   "code": "HISTORICAL_WAR",
+   "since": "1947-10-22",
+   "source": "Wars of 1947, 1965, 1971, 1999"
+  },
+  {
+   "pair": "IN-PK",
+   "code": "TERRITORIAL_DISPUTE_MILITARIZED",
+   "since": "2025-05-07",
+   "source": "May 2025 India-Pakistan military conflict over Kashmir"
+  },
+  {
+   "pair": "AF-PK",
+   "code": "TERRITORIAL_DISPUTE_MILITARIZED",
+   "since": "2025-10-11",
+   "source": "October 2025 Afghanistan-Pakistan border clashes (Durand Line)"
+  },
+  {
+   "pair": "KH-TH",
+   "code": "TERRITORIAL_DISPUTE_MILITARIZED",
+   "since": "2025-07-24",
+   "source": "Wikidata 2025 Cambodia-Thailand border conflict and clashes (ongoing)"
+  },
+  {
+   "pair": "KH-TH",
+   "code": "HISTORICAL_WAR",
+   "since": "2025-07-24",
+   "source": "July 2025 border war"
+  },
+  {
+   "pair": "GE-RU",
+   "code": "HISTORICAL_WAR",
+   "since": "2008-08-07",
+   "source": "Wikidata Russo-Georgian War"
+  },
+  {
+   "pair": "GE-RU",
+   "code": "NO_RELATIONS",
+   "since": "2008-08-29",
+   "source": "Georgia severed relations after the 2008 war (Georgian embassy in Moscow dissolved 29 Aug 2008, Wikidata)"
+  },
+  {
+   "pair": "KG-TJ",
+   "code": "HISTORICAL_WAR",
+   "since": "2021-04-28",
+   "source": "Wikidata 2021 Kyrgyzstan-Tajikistan clashes (border treaty March 2025)"
+  },
+  {
+   "pair": "DJ-ER",
+   "code": "HISTORICAL_WAR",
+   "since": "2008-06-10",
+   "source": "Wikidata Djiboutian-Eritrean border conflict"
+  },
+  {
+   "pair": "IL-LB",
+   "code": "HISTORICAL_WAR",
+   "since": "2024-10-01",
+   "source": "2024 Israeli invasion of Lebanon; Wikidata 2024 Beqaa Valley airstrikes"
+  },
+  {
+   "pair": "IR-US",
+   "code": "HISTORICAL_WAR",
+   "since": "2025-06-22",
+   "source": "Wikidata Twelve-Day War: US strikes on Iran 22 June 2025"
+  },
+  {
+   "pair": "KP-KR",
+   "code": "HISTORICAL_WAR",
+   "since": "1950-06-25",
+   "source": "Korean War, armistice only"
+  },
+  {
+   "pair": "ER-ET",
+   "code": "HISTORICAL_WAR",
+   "since": "1998-05-06",
+   "source": "1998-2000 war"
+  },
+  {
+   "pair": "IQ-IR",
+   "code": "HISTORICAL_WAR",
+   "since": "1980-09-22",
+   "source": "Iran-Iraq War"
+  },
+  {
+   "pair": "AR-GB",
+   "code": "HISTORICAL_WAR",
+   "since": "1982-04-02",
+   "source": "Falklands War"
+  },
+  {
+   "pair": "CN-VN",
+   "code": "HISTORICAL_WAR",
+   "since": "1979-02-17",
+   "source": "Sino-Vietnamese War"
+  },
+  {
+   "pair": "CN-PH",
+   "code": "TERRITORIAL_DISPUTE_ACTIVE",
+   "since": "2023-08-05",
+   "source": "Repeated coast guard incidents (water cannon, collisions) at Second Thomas Shoal and Scarborough Shoal"
+  },
+  {
+   "pair": "CN-JP",
+   "code": "TERRITORIAL_DISPUTE_ACTIVE",
+   "since": "2012-09-11",
+   "source": "Chinese coast guard presence in the Senkaku contiguous zone, record incursions"
+  },
+  {
+   "pair": "DZ-MA",
+   "code": "NO_RELATIONS",
+   "since": "2021-08-24",
+   "source": "Algeria severed relations"
+  },
+  {
+   "pair": "CA-IR",
+   "code": "NO_RELATIONS",
+   "since": "2012-09-07",
+   "source": "Canada severed relations"
+  },
+  {
+   "pair": "IR-US",
+   "code": "NO_RELATIONS",
+   "since": "1980-04-07",
+   "source": "No relations since 1980 (Wikidata: embassies dissolved 7 Apr 1980)"
+  },
+  {
+   "pair": "US-VE",
+   "code": "NO_RELATIONS",
+   "since": "2019-01-23",
+   "source": "Venezuela broke relations (Wikidata: Venezuelan embassy dissolved 23 Jan 2019); to be re-reviewed after 2026"
+  },
+  {
+   "pair": "KP-US",
+   "code": "NO_RELATIONS",
+   "since": "1948-09-09",
+   "source": "Never established"
+  },
+  {
+   "pair": "JP-KP",
+   "code": "NO_RELATIONS",
+   "since": "1948-09-09",
+   "source": "Never established"
+  },
+  {
+   "pair": "KP-KR",
+   "code": "NO_RELATIONS",
+   "since": "1948-09-09",
+   "source": "No diplomatic relations"
+  },
+  {
+   "pair": "IL-TR",
+   "code": "NO_RELATIONS",
+   "since": "2024-11-13",
+   "source": "Turkey severed relations (Wikidata P530 end time 13 Nov 2024)"
+  },
+  {
+   "pair": "AE-SD",
+   "code": "NO_RELATIONS",
+   "since": "2025-05-06",
+   "source": "Sudan severed relations with the UAE"
+  },
+  {
+   "pair": "KP-MY",
+   "code": "NO_RELATIONS",
+   "since": "2021-03-19",
+   "source": "North Korea severed relations with Malaysia"
+  },
+  {
+   "pair": "EG-IR",
+   "code": "NO_RELATIONS",
+   "since": "1980-04-30",
+   "source": "No full relations since 1980"
+  },
+  {
+   "pair": "IR-MA",
+   "code": "NO_RELATIONS",
+   "since": "2018-05-01",
+   "source": "Morocco severed relations"
+  },
+  {
+   "pair": "CO-IL",
+   "code": "NO_RELATIONS",
+   "since": "2024-05-02",
+   "source": "Colombia severed relations"
+  },
+  {
+   "pair": "BZ-IL",
+   "code": "NO_RELATIONS",
+   "since": "2023-11-14",
+   "source": "Belize suspended relations"
+  },
+  {
+   "pair": "BO-IL",
+   "code": "NO_RELATIONS",
+   "since": "2023-10-31",
+   "source": "Bolivia severed relations"
+  },
+  {
+   "pair": "AF-IL",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "DZ-IL",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "BD-IL",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "BN-IL",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-KM",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "DJ-IL",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "ID-IL",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-IR",
+   "code": "NO_RELATIONS",
+   "since": "1979-02-18",
+   "source": "Wikidata P530 end time 1979 (both directions)"
+  },
+  {
+   "pair": "IL-IQ",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-KW",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-LB",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-LY",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-MY",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-OM",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-PK",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-QA",
+   "code": "NO_RELATIONS",
+   "since": "2009-01-01",
+   "source": "Wikidata P530 end time 2009"
+  },
+  {
+   "pair": "IL-SA",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-SO",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-SY",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-TN",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "IL-YE",
+   "code": "NO_RELATIONS",
+   "since": "1948-05-14",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "CU-IL",
+   "code": "NO_RELATIONS",
+   "since": "1973-01-01",
+   "source": "Wikidata P530 end time 1973"
+  },
+  {
+   "pair": "IL-KP",
+   "code": "NO_RELATIONS",
+   "since": "1948-09-09",
+   "source": "Does not recognise Israel"
+  },
+  {
+   "pair": "RS-XK",
+   "code": "NON_RECOGNITION",
+   "since": "2008-02-17",
+   "source": "Serbia does not recognise Kosovo"
+  },
+  {
+   "pair": "CY-TR",
+   "code": "NON_RECOGNITION",
+   "since": "1974-07-20",
+   "source": "Turkey does not recognise the Republic of Cyprus"
+  },
+  {
+   "pair": "CN-TW",
+   "code": "NON_RECOGNITION",
+   "since": "1949-10-01",
+   "source": "The PRC claims Taiwan and does not recognise the ROC"
+  },
+  {
+   "pair": "IL-PS",
+   "code": "NON_RECOGNITION",
+   "since": "1988-11-15",
+   "source": "Israel does not recognise the State of Palestine"
+  },
+  {
+   "pair": "KP-KR",
+   "code": "NON_RECOGNITION",
+   "since": "2024-01-15",
+   "source": "North Korea declared the South a 'hostile state'; neither recognises the other's sovereignty over the peninsula"
+  },
+  {
+   "pair": "KR-US",
+   "code": "DEFENSE_ALLIANCE",
+   "since": "1953-10-01",
+   "source": "Mutual Defense Treaty between the US and the Republic of Korea"
+  },
+  {
+   "pair": "CN-KP",
+   "code": "DEFENSE_ALLIANCE",
+   "since": "1961-07-11",
+   "source": "Sino-North Korean Mutual Aid and Cooperation Friendship Treaty (renewed)"
+  },
+  {
+   "pair": "KP-RU",
+   "code": "DEFENSE_ALLIANCE",
+   "since": "2024-06-19",
+   "source": "Comprehensive Strategic Partnership Treaty, art. 4 mutual assistance; North Korean troops in Kursk"
+  },
+  {
+   "pair": "AZ-TR",
+   "code": "DEFENSE_ALLIANCE",
+   "since": "2021-06-15",
+   "source": "Shusha Declaration (mutual assistance clause)"
+  },
+  {
+   "pair": "AU-NZ",
+   "code": "DEFENSE_ALLIANCE",
+   "since": "1951-09-01",
+   "source": "ANZUS"
+  },
+  {
+   "pair": "AU-US",
+   "code": "DEFENSE_ALLIANCE",
+   "since": "1951-09-01",
+   "source": "ANZUS"
+  },
+  {
+   "pair": "TW-US",
+   "code": "DEFENSE_ALLIANCE",
+   "reject": true,
+   "source": "Sino-American Mutual Defense Treaty terminated on 1 January 1980 (Wikidata lists it without end date)"
+  },
+  {
+   "pair": "EG-JO",
+   "code": "DEFENSE_ALLIANCE",
+   "reject": true,
+   "source": "1967 Egypt-Jordan defence pact, defunct (Jordan-Israel peace 1994)"
+  },
+  {
+   "pair": "AR-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "1998-01-01",
+   "source": "US major non-NATO ally (22 USC 2321k)"
+  },
+  {
+   "pair": "AU-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "1989-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "BH-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2002-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "BR-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2019-07-31",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "CO-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2022-05-23",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "EG-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "1989-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "IL-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "1989-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "JP-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "1989-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "JO-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "1996-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "KE-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2024-06-24",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "KW-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2004-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "MA-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2004-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "NZ-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "1997-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "PK-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2004-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "PH-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2003-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "QA-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2022-03-10",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "KR-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "1989-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "TH-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2003-01-01",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "TN-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2015-07-10",
+   "source": "US major non-NATO ally"
+  },
+  {
+   "pair": "SA-US",
+   "code": "STRATEGIC_PARTNERSHIP",
+   "since": "2025-11-18",
+   "source": "US major non-NATO ally (designated November 2025)"
+  },
+  {
+   "pair": "CN-RU",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Border fully demarcated by the 2004/2008 agreements (Bolshoy Ussuriysky split)"
+  },
+  {
+   "pair": "AR-CL",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Overlapping Antarctic claims frozen by the Antarctic Treaty; no live dispute"
+  },
+  {
+   "pair": "CL-GB",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Overlapping Antarctic claims frozen by the Antarctic Treaty; no live dispute"
+  },
+  {
+   "pair": "AU-PG",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Bougainville is part of Papua New Guinea; Australia claims nothing (Wikidata error)"
+  },
+  {
+   "pair": "MN-TW",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Historical ROC claim on Outer Mongolia, not pursued"
+  },
+  {
+   "pair": "MM-TW",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Historical ROC claim, not pursued"
+  },
+  {
+   "pair": "RU-TW",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Historical ROC claim, not pursued"
+  },
+  {
+   "pair": "IN-TW",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Historical ROC claim, not pursued"
+  },
+  {
+   "pair": "FR-SY",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Colonial mandate, not a claim (Wikidata error)"
+  },
+  {
+   "pair": "DJ-FR",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "French Somaliland became Djibouti in 1977"
+  },
+  {
+   "pair": "MA-PT",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Morocco does not claim Madeira (Wikidata error)"
+  },
+  {
+   "pair": "MD-UA",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Transnistria is Moldovan territory; Ukraine claims nothing"
+  },
+  {
+   "pair": "CN-PK",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "China and Pakistan settled their border in 1963; they do not claim each other (Wikidata error)"
+  },
+  {
+   "pair": "IL-JO",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Jordan renounced its claim to the West Bank in 1988"
+  },
+  {
+   "pair": "JO-PS",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Jordan renounced its claim to the West Bank in 1988"
+  },
+  {
+   "pair": "EG-IL",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "The Philadelphi (Saladin) corridor is in Gaza; neither claims the other's territory (Wikidata error)"
+  },
+  {
+   "pair": "EG-PS",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "The Philadelphi (Saladin) corridor is not claimed by Egypt (Wikidata error)"
+  },
+  {
+   "pair": "GB-US",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Jarvis Island is a US territory without a live British claim"
+  },
+  {
+   "pair": "CY-GB",
+   "code": "TERRITORIAL_DISPUTE_LOW",
+   "reject": true,
+   "source": "Strovilia boundary of the British Sovereign Base Area, not a live dispute"
+  },
+  {
+   "pair": "GY-VE",
+   "code": "TERRITORIAL_DISPUTE_ACTIVE",
+   "since": "2023-12-03",
+   "source": "Venezuelan Essequibo referendum (Dec 2023) and 2024 annexation law; ICJ case pending"
+  },
+  {
+   "pair": "DZ-MA",
+   "code": "PROXY_HOSTILITY",
+   "since": "1976-02-27",
+   "source": "Algeria hosts, arms and backs the Polisario Front against Morocco; border closed since 1994, airspace closed 2021"
+  },
+  {
+   "pair": "JP-KP",
+   "code": "STRATEGIC_RIVALRY",
+   "since": "2022-12-16",
+   "source": "Japan National Security Strategy 2022: North Korea is an even more grave and imminent threat"
+  },
+  {
+   "pair": "BZ-CN",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Belize recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-GT",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Guatemala recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-HT",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Haiti recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-MH",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Marshall Islands recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-PW",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Palau recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-PY",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Paraguay recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-KN",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Saint Kitts and Nevis recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-LC",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Saint Lucia recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-VC",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Saint Vincent and the Grenadines recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-SZ",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Eswatini recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-TV",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Tuvalu recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "CN-VA",
+   "code": "NO_RELATIONS",
+   "since": null,
+   "source": "Holy See recognises the Republic of China (Taiwan), so it has no relations with the PRC (list of states recognising the ROC, 2025)"
+  },
+  {
+   "pair": "AM-RU",
+   "code": "DEFENSE_ALLIANCE",
+   "reject": true,
+   "source": "Armenia froze its participation in the CSTO in February 2024"
+  },
+  {
+   "pair": "AM-BY",
+   "code": "DEFENSE_ALLIANCE",
+   "reject": true,
+   "source": "Armenia froze its participation in the CSTO in February 2024"
+  },
+  {
+   "pair": "AM-KZ",
+   "code": "DEFENSE_ALLIANCE",
+   "reject": true,
+   "source": "Armenia froze its participation in the CSTO in February 2024"
+  },
+  {
+   "pair": "AM-KG",
+   "code": "DEFENSE_ALLIANCE",
+   "reject": true,
+   "source": "Armenia froze its participation in the CSTO in February 2024"
+  },
+  {
+   "pair": "AM-TJ",
+   "code": "DEFENSE_ALLIANCE",
+   "reject": true,
+   "source": "Armenia froze its participation in the CSTO in February 2024"
+  }
+ ],
+ "sanctionsLifted": [
+  {
+   "target": "SY",
+   "since": "2025-06-30",
+   "source": "US Executive Order of 30 June 2025 ended the Syria sanctions programme; the EU lifted its economic sanctions on 28 May 2025 (project data still lists COMPREHENSIVE)"
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+[
+ {
+  "eventDate": "2018-08",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian diplomats and the Canadian Embassy in Riyadh released statements calling for the release of all peaceful human rights activists detained in Saudi Arabia.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "CASA00"
+ },
+ {
+  "eventDate": "2018-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "The Saudi Ministry of Foreign Affairs published an official statement expressing disbelief in comments made by Freeland and the Canadian Embassy.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "CASA01"
+ },
+ {
+  "eventDate": "2018-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "The Saudi government suspended all new trade and investment relations with Canada.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "CASA02"
+ },
+ {
+  "eventDate": "2018-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia expelled Canada's ambassador, named Dennis Horak as persona non grata, and gave him 24 hours to leave the country.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "CASA03"
+ },
+ {
+  "eventDate": "2018-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia recalled its envoy to Canada temporarily.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "CASA04"
+ },
+ {
+  "eventDate": "2018-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia instructed staff to sell off all Canadian holdings, including equities, bonds and cash.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "CASA05"
+ },
+ {
+  "eventDate": "2018-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi students studying in Canada on Saudi Arabian scholarships were ordered to relocate to another country or risk losing financial assistance.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "CASA06"
+ },
+ {
+  "eventDate": "2018-08",
+  "actor": "SA",
+  "actorKind": "institution",
+  "fact": "The Saudi Grains Organization advised that it would no longer accept wheat or barley of Canadian origin.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "CASA07"
+ },
+ {
+  "eventDate": "2018-08-02",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian Minister of Foreign Affairs Chrystia Freeland issued a statement via Twitter expressing Canada's concern over the arrest of Samar Badawi.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA08"
+ },
+ {
+  "eventDate": "2018-08-06",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian Foreign Minister Freeland responded to the expulsion of Ambassador Horak at a press conference by stating Canada will always stand up for human rights.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA09"
+ },
+ {
+  "eventDate": "2018-08-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia announced that it would put a halt to its medical programs in Canada and move all Saudi patients to other countries.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA10"
+ },
+ {
+  "eventDate": "2018-08-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Foreign Minister Adel al-Jubeir stated that his country would not engage in negotiations until Canada retracted its original statement.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA11"
+ },
+ {
+  "eventDate": "2018-08-08",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Prime Minister Justin Trudeau told reporters that he refused to apologize for his country's involvement in promoting human rights.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA12"
+ },
+ {
+  "eventDate": "2018-08-13",
+  "actor": "SA",
+  "actorKind": "institution",
+  "fact": "The state airline Saudia terminated all its flights to Toronto Pearson International Airport.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "CASA13"
+ },
+ {
+  "eventDate": "2018-08-27",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "The Saudi Ministry of Education informed Saudi medical residents and fellows in Canada that they can continue in their positions.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA14"
+ },
+ {
+  "eventDate": "2023-05",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Canada and Saudi Arabia restored their diplomatic ties.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA15"
+ }
+]

@@ -1,0 +1,198 @@
+[
+ {
+  "eventDate": "2014-03",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia announced the recall of its ambassador to Qatar, citing interference with internal affairs.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1",
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA00"
+ },
+ {
+  "eventDate": "2017-06",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia severed diplomatic relations with Qatar and blocked Qatar's airspace, sea routes, and land crossing.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1",
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA01"
+ },
+ {
+  "eventDate": "2017-06",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia suspended Qatar's involvement in the Yemen military campaign.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA02"
+ },
+ {
+  "eventDate": "2017-06-05",
+  "actor": "SA",
+  "actorKind": "state",
+  "fact": "Saudi Arabia accused Qatar of backing terrorism and cut ties.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "REF"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "QASA03"
+ },
+ {
+  "eventDate": "2018-04",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia allowed a Qatari contingent to participate in the Joint Gulf Shield 1 Drill.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA04"
+ },
+ {
+  "eventDate": "2018-05",
+  "actor": "QA",
+  "actorKind": "government",
+  "fact": "Qatar declared that it would ban products imported from Saudi Arabia and the three blockading nations.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA05"
+ },
+ {
+  "eventDate": "2019-11",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia announced its participation in the Arabian Gulf Cup in Qatar, signaling a thaw.",
+  "type": "DECLARED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA06"
+ },
+ {
+  "eventDate": "2021-01-05",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Saudi Arabia and Qatar signed an agreement to restore full diplomatic relations and end the blockade.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA07"
+ },
+ {
+  "eventDate": "2021-01-05",
+  "actor": "QA",
+  "actorKind": "government",
+  "fact": "Qatar's Emir Sheikh Tamim bin Hamad Al Thani visited Al-Ula in Saudi Arabia for the GCC summit.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA08"
+ },
+ {
+  "eventDate": "2021-01-05",
+  "actor": "SA",
+  "actorKind": "state",
+  "fact": "Saudi Arabia agreed to reopen airspace and maritime borders with Qatar.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "REF"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "QASA09"
+ },
+ {
+  "eventDate": "2021-01-16",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Foreign Minister Faisal bin Farhan announced the re-opening of his country's embassy in Qatar.",
+  "type": "DECLARED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA10"
+ },
+ {
+  "eventDate": "2021-12-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia's Crown Prince Mohammed bin Salman arrived in Doha on a visit and was received by emir Sheikh Tamim.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "QASA11"
+ }
+]

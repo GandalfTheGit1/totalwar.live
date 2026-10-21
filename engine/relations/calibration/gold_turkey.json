@@ -1,0 +1,614 @@
+{
+ "The Turkish Ministry of Foreign Affairs expelled Israeli Ambassador Ei": {
+  "id": "ILTR00",
+  "date": "2018-05",
+  "code": "EXPULSION",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "The Israeli Ministry of Foreign Affairs protested a security check con": {
+  "id": "ILTR01",
+  "date": "2018-05",
+  "code": "CRITICISM",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "The Turkish navy drove out an Israeli oceanographic research vessel fr": {
+  "id": "ILTR02",
+  "date": "2019-12",
+  "code": "MILITARY_PRESSURE",
+  "actor": "TR",
+  "level": "INSTITUTION",
+  "core": false,
+  "amb": false
+ },
+ "Turkey signed a maritime deal with the Tripoli faction in Libya, allow": {
+  "id": "ILTR03",
+  "date": "2019-12",
+  "code": "NONE",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Israeli Foreign Minister Israel Katz announced Israel's opposition to ": {
+  "id": "ILTR04",
+  "date": "2019-12",
+  "code": "CRITICISM",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Mossad chief Yossi Cohen openly named Turkey as a new threat for regio": {
+  "id": "ILTR05",
+  "date": "2020-08",
+  "code": "HARSH_RHETORIC",
+  "actor": "IL",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Turkey hosted two Hamas leaders, triggering condemnation from Israel a": {
+  "id": "ILTR06",
+  "date": "2020-08",
+  "code": "CORE_HOSTILE_POSITION",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Israel condemned Turkey for hosting two Hamas leaders.": {
+  "id": "ILTR07",
+  "date": "2020-08",
+  "code": "CRITICISM",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Israeli diplomats reported that Turkey gave passports and identity car": {
+  "id": "ILTR08",
+  "date": "2020-09",
+  "code": "CRITICISM",
+  "actor": "IL",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Israeli Defense Minister Benny Gantz accused Turkey of inflaming war i": {
+  "id": "ILTR09",
+  "date": "2020-09",
+  "code": "CRITICISM",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan called Israel a terror state and said Turkey": {
+  "id": "ILTR10",
+  "date": "2021-05",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish Foreign Minister stated at the UN General Assembly that Israel": {
+  "id": "ILTR11",
+  "date": "2021-05",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish Foreign Minister stated at the UN Human Rights Council that Is": {
+  "id": "ILTR12",
+  "date": "2021-05",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkey proposed an \"international protection mechanism\" including a mi": {
+  "id": "ILTR13",
+  "date": "2021-05",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish Vice President Fuat Oktay urged Muslim countries to act and ta": {
+  "id": "ILTR14",
+  "date": "2021-05",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan told Russian President Putin that the intern": {
+  "id": "ILTR15",
+  "date": "2021-05",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan asked Pope Francis to support sanctions agai": {
+  "id": "ILTR16",
+  "date": "2021-05",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan called King Abdullah of Jordan for Turkey an": {
+  "id": "ILTR17",
+  "date": "2021-05",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkey's National Security Council condemned Israel's occupation of Pa": {
+  "id": "ILTR18",
+  "date": "2021-05",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "INSTITUTION",
+  "core": false,
+  "amb": false
+ },
+ "Israeli President Isaac Herzog visited Turkey to meet with President E": {
+  "id": "ILTR19",
+  "date": "2022-03",
+  "code": "STATE_VISIT",
+  "actor": "IL",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "The office of Israeli Prime Minister Yair Lapid announced that Israel ": {
+  "id": "ILTR20",
+  "date": "2022-08-17",
+  "code": "NORMALIZATION",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Israeli Prime Minister Lapid and Turkish President Erdoğan met at the ": {
+  "id": "ILTR21",
+  "date": "2022-09",
+  "code": "SIDELINES_MEETING",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Israel provided significant humanitarian aid to Turkey in the wake of ": {
+  "id": "ILTR22",
+  "date": "2023-02",
+  "code": "HUMANITARIAN_AID",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Israel sent a delegation of 17 search and rescue workers to Turkey aft": {
+  "id": "ILTR23",
+  "date": "2023-02-06",
+  "code": "HUMANITARIAN_AID",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Israel sent a larger 150-member delegation from the IDF to Turkey for ": {
+  "id": "ILTR24",
+  "date": "2023-02-07",
+  "code": "HUMANITARIAN_AID",
+  "actor": "IL",
+  "level": "INSTITUTION",
+  "core": false,
+  "amb": false
+ },
+ "The Israeli government sent over 30 tons of humanitarian equipment to ": {
+  "id": "ILTR25",
+  "date": "2023-02-07",
+  "code": "HUMANITARIAN_AID",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Israeli President Isaac Herzog reached out to President Erdoğan to off": {
+  "id": "ILTR26",
+  "date": "2023-02-07",
+  "code": "POSITIVE_STATEMENT",
+  "actor": "IL",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "United Hatzalah, an Israeli NGO, sent a delegation of doctors, medics,": {
+  "id": "ILTR27",
+  "date": "2023-02-07",
+  "code": "NONE",
+  "actor": "IL",
+  "level": "NON_GOV",
+  "core": false,
+  "amb": false
+ },
+ "IsraAID, an Israeli NGO, sent a delegation including trauma experts an": {
+  "id": "ILTR28",
+  "date": "2023-02-07",
+  "code": "NONE",
+  "actor": "IL",
+  "level": "NON_GOV",
+  "core": false,
+  "amb": false
+ },
+ "Israel deployed more than 430 search and rescue, disaster relief, and ": {
+  "id": "ILTR29",
+  "date": "2023-02-08",
+  "code": "HUMANITARIAN_AID",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Israel set up a field hospital in Gaziantep, Turkey, for earthquake re": {
+  "id": "ILTR30",
+  "date": "2023-02-08",
+  "code": "HUMANITARIAN_AID",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan called on Israelis and Palestinians to act w": {
+  "id": "ILTR31",
+  "date": "2023-10",
+  "code": "NONE",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan called the Israeli blockade and bombing of G": {
+  "id": "ILTR32",
+  "date": "2023-10-11",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan condemned civilian deaths by Hamas but state": {
+  "id": "ILTR33",
+  "date": "2023-10-25",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Israel withdrew its diplomats from Turkey to reassess relations after ": {
+  "id": "ILTR34",
+  "date": "2023-10-28",
+  "code": "AMBASSADOR_RECALL",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "Turkish President Erdoğan called Israel a \"terrorist state\" and accuse": {
+  "id": "ILTR35",
+  "date": "2023-11",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan stated Turkey would take steps to ensure Isr": {
+  "id": "ILTR36",
+  "date": "2023-11",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Israeli Prime Minister Netanyahu and Foreign Minister Cohen responded ": {
+  "id": "ILTR37",
+  "date": "2023-11",
+  "code": "HARSH_RHETORIC",
+  "actor": "IL",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkey officially dismissed Israeli accusations of hosting terrorist o": {
+  "id": "ILTR38",
+  "date": "2023-11",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan said Israel is committing a crime against hu": {
+  "id": "ILTR39",
+  "date": "2023-11",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan announced Turkey, with over 2,000 lawyers, w": {
+  "id": "ILTR40",
+  "date": "2023-11",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan said Turkey's efforts led to important steps": {
+  "id": "ILTR41",
+  "date": "2023-11",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan stated Turkey would keep Israel's nuclear we": {
+  "id": "ILTR42",
+  "date": "2023-11",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan talked with Iran's President Raisi about the": {
+  "id": "ILTR43",
+  "date": "2023-11",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Nationalist Movement Party's leader Devlet Bahçeli called for a trial ": {
+  "id": "ILTR44",
+  "date": "2023-11",
+  "code": "NONE",
+  "actor": "TR",
+  "level": "NON_GOV",
+  "core": false,
+  "amb": false
+ },
+ "Turkish Foreign Minister Hakan Fidan said Israel seeks more land, not ": {
+  "id": "ILTR45",
+  "date": "2024-02",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkey gave an oral presentation at the International Court of Justice": {
+  "id": "ILTR46",
+  "date": "2024-02",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan accused Israel of committing genocide and ba": {
+  "id": "ILTR47",
+  "date": "2024-03",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "People in Turkey gathered in Istanbul to protest trade relations betwe": {
+  "id": "ILTR48",
+  "date": "2024-03-02",
+  "code": "NONE",
+  "actor": "TR",
+  "level": "NON_GOV",
+  "core": false,
+  "amb": false
+ },
+ "Israeli Foreign Minister Israel Katz instructed the Foreign Ministry t": {
+  "id": "ILTR49",
+  "date": "2024-03-22",
+  "code": "PROTEST_SUMMONS",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish high officials, including the president and foreign minister, ": {
+  "id": "ILTR50",
+  "date": "2024-04",
+  "code": "CORE_HOSTILE_POSITION",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish Foreign Minister met the Hamas leader in Qatar.": {
+  "id": "ILTR51",
+  "date": "2024-04",
+  "code": "CORE_HOSTILE_POSITION",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Nationalist Movement Party's leader Devlet Bahçeli criticised Israel a": {
+  "id": "ILTR52",
+  "date": "2024-04",
+  "code": "NONE",
+  "actor": "TR",
+  "level": "NON_GOV",
+  "core": false,
+  "amb": false
+ },
+ "Turkey announced it stopped all trade with Israel and joined South Afr": {
+  "id": "ILTR53",
+  "date": "2024-05",
+  "code": "SANCTIONS_BROAD",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan said more than 1,000 Hamas members have rece": {
+  "id": "ILTR54",
+  "date": "2024-05",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkey announced it was immediately suspending all trade with Israel d": {
+  "id": "ILTR55",
+  "date": "2024-05-02",
+  "code": "SANCTIONS_BROAD",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Israeli Foreign Minister Israel Katz claimed the Turkish government ha": {
+  "id": "ILTR56",
+  "date": "2024-05-09",
+  "code": "NONE",
+  "actor": "IL",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish Minister of Trade Omar Bulat condemned Katz's claim about easi": {
+  "id": "ILTR57",
+  "date": "2024-05-09",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkey's National Security Council urged the international community t": {
+  "id": "ILTR58",
+  "date": "2024-07",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "INSTITUTION",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan called the Israeli prime minister Hitler and": {
+  "id": "ILTR59",
+  "date": "2024-07",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "The Turkish parliament denounced the Israeli Prime Minister's statemen": {
+  "id": "ILTR60",
+  "date": "2024-07",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "INSTITUTION",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan compared the ongoing Israeli operation with ": {
+  "id": "ILTR61",
+  "date": "2024-09",
+  "code": "HARSH_RHETORIC",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkey's National Intelligence Organization chief met with Hamas leade": {
+  "id": "ILTR62",
+  "date": "2024-09",
+  "code": "NONE",
+  "actor": "TR",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan said Israel, with Western help, is trying to": {
+  "id": "ILTR63",
+  "date": "2024-10",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan gave his support to the Iranian government a": {
+  "id": "ILTR64",
+  "date": "2024-10",
+  "code": "CRITICISM",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Mustafa Yeneroğlu presented a report to parliament on the sharp increa": {
+  "id": "ILTR65",
+  "date": "2024-10-07",
+  "code": "NONE",
+  "actor": "TR",
+  "level": "NON_GOV",
+  "core": false,
+  "amb": false
+ },
+ "Turkish Trade Minister Ömer Bolat denied claims that trade with Israel": {
+  "id": "ILTR66",
+  "date": "2024-10-08",
+  "code": "NONE",
+  "actor": "TR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Turkish President Erdoğan announced Turkey was severing all diplomatic": {
+  "id": "ILTR67",
+  "date": "2024-11-13",
+  "code": "RELATIONS_SEVERED",
+  "actor": "TR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ }
+}

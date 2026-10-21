@@ -1,0 +1,450 @@
+[
+ {
+  "eventDate": "2019-01-08",
+  "actor": "KR",
+  "actorKind": "institution",
+  "fact": "Daegu District Court approved a request to seize shares held by Nippon Steel in a joint venture.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR00"
+ },
+ {
+  "eventDate": "2019-01-18",
+  "actor": "KR",
+  "actorKind": "institution",
+  "fact": "Seoul High Court dismissed Nachi-Fujikoshi's appeal regarding compensation for South Korean women forced into labor.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR01"
+ },
+ {
+  "eventDate": "2019-06-19",
+  "actor": "KR",
+  "actorKind": "government",
+  "fact": "South Korea proposed joining funds with Japan to compensate forced labor victims, but Japan rejected the offer.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR02"
+ },
+ {
+  "eventDate": "2019-07-01",
+  "actor": "JP",
+  "actorKind": "government",
+  "fact": "Japanese METI applied updated licensing policies and export procedures on controlled items to South Korea.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR03"
+ },
+ {
+  "eventDate": "2019-07-08",
+  "actor": "KR",
+  "actorKind": "government",
+  "fact": "South Korea announced a plan to withdraw Japan's export restrictions during a WTO meeting in Geneva.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR04"
+ },
+ {
+  "eventDate": "2019-07-12",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Representatives from Japan and South Korea held a meeting in Tokyo to discuss worsening diplomatic relations.",
+  "type": "IMPLEMENTED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR05"
+ },
+ {
+  "eventDate": "2019-07-24",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Senior officials from Japan and South Korea took their high-tech export dispute to the WTO in Geneva.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR06"
+ },
+ {
+  "eventDate": "2019-08-02",
+  "actor": "JP",
+  "actorKind": "government",
+  "fact": "Japanese cabinet approved the removal of South Korea from its whitelist of favored trade partners.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR07"
+ },
+ {
+  "eventDate": "2019-08-08",
+  "actor": "JP",
+  "actorKind": "government",
+  "fact": "The Japanese government approved shipments of a key display and chip material to South Korea to ease tensions.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR08"
+ },
+ {
+  "eventDate": "2019-08-12",
+  "actor": "KR",
+  "actorKind": "government",
+  "fact": "The South Korean government initiated measures to remove Japan from South Korea's trade whitelist.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR09"
+ },
+ {
+  "eventDate": "2019-08-22",
+  "actor": "KR",
+  "actorKind": "government",
+  "fact": "South Korea decided to give Japan notice to terminate the General Security of Military Information Agreement.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR10"
+ },
+ {
+  "eventDate": "2019-08-28",
+  "actor": "JP",
+  "actorKind": "government",
+  "fact": "Japan enforced a partial amendment to its export trade control order removing South Korea from the whitelist.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR11"
+ },
+ {
+  "eventDate": "2019-08-29",
+  "actor": "JP",
+  "actorKind": "government",
+  "fact": "Japan approved the first hydrogen fluoride export to South Korea since tightening export controls.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR12"
+ },
+ {
+  "eventDate": "2019-09-11",
+  "actor": "KR",
+  "actorKind": "government",
+  "fact": "South Korea announced plans to file a WTO complaint over Japan's tighter export controls.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR13"
+ },
+ {
+  "eventDate": "2019-09-26",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Japanese Foreign Minister Motegi and South Korean Foreign Minister Kang met in New York City without making progress.",
+  "type": "IMPLEMENTED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR14"
+ },
+ {
+  "eventDate": "2019-10-11",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Japan and South Korea held consultations under the WTO Agreement in Geneva regarding export policies.",
+  "type": "IMPLEMENTED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR15"
+ },
+ {
+  "eventDate": "2019-10-24",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "South Korean Prime Minister Lee Nak-yeon met with Japanese Prime Minister Shinzō Abe in Tokyo.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR16"
+ },
+ {
+  "eventDate": "2019-11-04",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "South Korean President Moon Jae-in held a conversation with Prime Minister Shinzō Abe at the ASEAN summit in Bangkok.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR17"
+ },
+ {
+  "eventDate": "2019-11-19",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Japan and South Korea held the second round of bilateral consultations under the WTO Agreement.",
+  "type": "IMPLEMENTED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR18"
+ },
+ {
+  "eventDate": "2019-11-22",
+  "actor": "KR",
+  "actorKind": "government",
+  "fact": "South Korea decided to suspend its WTO petition against Japan and reversed its decision to terminate GSOMIA.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR19"
+ },
+ {
+  "eventDate": "2019-12-16",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Japanese METI and Korean MOTIE held the 7th Japan-Korea Export Control Policy Dialogue.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR20"
+ },
+ {
+  "eventDate": "2020-03-10",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Japanese METI and Korean MOTIE held the 8th Japan-Korea Export Control Dialogue via video conference.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR21"
+ },
+ {
+  "eventDate": "2020-08-19",
+  "actor": "KR",
+  "actorKind": "government",
+  "fact": "South Korean MOTIE eliminated antidumping duties on pneumatic valves from Japan following a WTO ruling.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR22"
+ },
+ {
+  "eventDate": "2020-11-30",
+  "actor": "joint",
+  "actorKind": "international",
+  "fact": "The WTO issued a ruling largely backing Japan regarding antidumping duties on Japanese stainless steel bars.",
+  "type": "IMPLEMENTED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR23"
+ },
+ {
+  "eventDate": "2023-03-03",
+  "actor": "KR",
+  "actorKind": "government",
+  "fact": "South Korea announced plans to compensate forced labor victims using public donations instead of Japanese corporate funds.",
+  "type": "DECLARED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR24"
+ },
+ {
+  "eventDate": "2023-03-16",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "South Korean President Yoon Suk-yeol visited Japan and met with Prime Minister Fumio Kishida to resolve disputes.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR25"
+ },
+ {
+  "eventDate": "2023-03-21",
+  "actor": "KR",
+  "actorKind": "government",
+  "fact": "South Korean President Yoon announced plans to restore Japan to South Korea's trade whitelist and normalized GSOMIA.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR26"
+ },
+ {
+  "eventDate": "2023-03-23",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Japan restored South Korea to its trade whitelist and South Korea withdrew its WTO complaint, ending the trade dispute.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "JPKR27"
+ }
+]

@@ -1,0 +1,1096 @@
+[
+ {
+  "eventDate": "2018-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "The Turkish Ministry of Foreign Affairs expelled Israeli Ambassador Eitan Na'eh in response to the killing of 60 Palestinians.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR00"
+ },
+ {
+  "eventDate": "2018-05",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "The Israeli Ministry of Foreign Affairs protested a security check conducted on Ambassador Na'eh as he left Turkey.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR01"
+ },
+ {
+  "eventDate": "2019-12",
+  "actor": "TR",
+  "actorKind": "armed forces",
+  "fact": "The Turkish navy drove out an Israeli oceanographic research vessel from Cypriot waters.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR02"
+ },
+ {
+  "eventDate": "2019-12",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkey signed a maritime deal with the Tripoli faction in Libya, allowing deployment of Turkish troops and declaring new sea borders.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR03"
+ },
+ {
+  "eventDate": "2019-12",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israeli Foreign Minister Israel Katz announced Israel's opposition to the Turkey-Libya maritime border accord, calling it \"illegal\".",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR04"
+ },
+ {
+  "eventDate": "2020-08",
+  "actor": "IL",
+  "actorKind": "institution",
+  "fact": "Mossad chief Yossi Cohen openly named Turkey as a new threat for regional peace.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR05"
+ },
+ {
+  "eventDate": "2020-08",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkey hosted two Hamas leaders, triggering condemnation from Israel and the United States.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR06"
+ },
+ {
+  "eventDate": "2020-08",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israel condemned Turkey for hosting two Hamas leaders.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR07"
+ },
+ {
+  "eventDate": "2020-09",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israeli diplomats reported that Turkey gave passports and identity cards to Hamas members in Istanbul.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR08"
+ },
+ {
+  "eventDate": "2020-09",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israeli Defense Minister Benny Gantz accused Turkey of inflaming war in the Nagorno-Karabakh region.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR09"
+ },
+ {
+  "eventDate": "2021-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan called Israel a terror state and said Turkey took initiatives for international action.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR10"
+ },
+ {
+  "eventDate": "2021-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish Foreign Minister stated at the UN General Assembly that Israel is solely responsible for the violence and must be held accountable.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR11"
+ },
+ {
+  "eventDate": "2021-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish Foreign Minister stated at the UN Human Rights Council that Israel's actions are \"crimes against humanity\".",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR12"
+ },
+ {
+  "eventDate": "2021-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkey proposed an \"international protection mechanism\" including a military force for Palestinians at an OIC meeting.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR13"
+ },
+ {
+  "eventDate": "2021-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish Vice President Fuat Oktay urged Muslim countries to act and take a clear stance.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR14"
+ },
+ {
+  "eventDate": "2021-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan told Russian President Putin that the international community should \"give Israel a strong and deterrent lesson.\"",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR15"
+ },
+ {
+  "eventDate": "2021-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan asked Pope Francis to support sanctions against Israel.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR16"
+ },
+ {
+  "eventDate": "2021-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan called King Abdullah of Jordan for Turkey and Jordan to work together to stop Israel's attacks.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR17"
+ },
+ {
+  "eventDate": "2021-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkey's National Security Council condemned Israel's occupation of Palestinian lands and attacks against Palestinians.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR18"
+ },
+ {
+  "eventDate": "2022-03",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israeli President Isaac Herzog visited Turkey to meet with President Erdoğan.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR19"
+ },
+ {
+  "eventDate": "2022-08-17",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "The office of Israeli Prime Minister Yair Lapid announced that Israel and Turkey decided to restore full diplomatic ties.",
+  "type": "DECLARED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR20"
+ },
+ {
+  "eventDate": "2022-09",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Israeli Prime Minister Lapid and Turkish President Erdoğan met at the United Nations General Assembly in New York.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR21"
+ },
+ {
+  "eventDate": "2023-02",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israel provided significant humanitarian aid to Turkey in the wake of the 2023 Turkey–Syria earthquake.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR22"
+ },
+ {
+  "eventDate": "2023-02-06",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israel sent a delegation of 17 search and rescue workers to Turkey after the earthquake.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR23"
+ },
+ {
+  "eventDate": "2023-02-07",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israel sent a larger 150-member delegation from the IDF to Turkey for earthquake relief.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR24"
+ },
+ {
+  "eventDate": "2023-02-07",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "The Israeli government sent over 30 tons of humanitarian equipment to Turkey for rescue missions.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR25"
+ },
+ {
+  "eventDate": "2023-02-07",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israeli President Isaac Herzog reached out to President Erdoğan to offer condolences on behalf of Israel.",
+  "type": "DECLARED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR26"
+ },
+ {
+  "eventDate": "2023-02-07",
+  "actor": "IL",
+  "actorKind": "non-government",
+  "fact": "United Hatzalah, an Israeli NGO, sent a delegation of doctors, medics, rescue operators, and psychotrauma specialists to Turkey.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "ILTR27"
+ },
+ {
+  "eventDate": "2023-02-07",
+  "actor": "IL",
+  "actorKind": "non-government",
+  "fact": "IsraAID, an Israeli NGO, sent a delegation including trauma experts and water purification systems to Turkey.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "ILTR28"
+ },
+ {
+  "eventDate": "2023-02-08",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israel deployed more than 430 search and rescue, disaster relief, and humanitarian aid workers to Turkey.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR29"
+ },
+ {
+  "eventDate": "2023-02-08",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israel set up a field hospital in Gaziantep, Turkey, for earthquake relief.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR30"
+ },
+ {
+  "eventDate": "2023-10",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan called on Israelis and Palestinians to act with restraint and refrain from hostile acts.",
+  "type": "DECLARED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR31"
+ },
+ {
+  "eventDate": "2023-10-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan called the Israeli blockade and bombing of Gaza a massacre and offered Turkish mediation.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR32"
+ },
+ {
+  "eventDate": "2023-10-25",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan condemned civilian deaths by Hamas but stated Hamas is a liberation group, not terrorist.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR33"
+ },
+ {
+  "eventDate": "2023-10-28",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israel withdrew its diplomats from Turkey to reassess relations after comments by President Erdoğan.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR34"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan called Israel a \"terrorist state\" and accused it of committing genocide against Palestinians.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR35"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan stated Turkey would take steps to ensure Israeli settlers are recognized as terrorists.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR36"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israeli Prime Minister Netanyahu and Foreign Minister Cohen responded that Turkey hosts and encourages terrorist organizations.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR37"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkey officially dismissed Israeli accusations of hosting terrorist organizations as unfounded.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR38"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan said Israel is committing a crime against humanity and genocide.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR39"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan announced Turkey, with over 2,000 lawyers, would file a legal complaint against Israel.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR40"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan said Turkey's efforts led to important steps towards designating Israeli settlers as terrorists at the Riyadh summit.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR41"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan stated Turkey would keep Israel's nuclear weapons issue on the world's agenda.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR42"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan talked with Iran's President Raisi about the importance of a unified Islamic stance against Israeli brutality.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR43"
+ },
+ {
+  "eventDate": "2023-11",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Nationalist Movement Party's leader Devlet Bahçeli called for a trial at the International Court of Justice against Israel's Prime Minister Benjamin Netanyahu.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "ILTR44"
+ },
+ {
+  "eventDate": "2024-02",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish Foreign Minister Hakan Fidan said Israel seeks more land, not security, and condemned Israel and the international community.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR45"
+ },
+ {
+  "eventDate": "2024-02",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkey gave an oral presentation at the International Court of Justice against Israel.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR46"
+ },
+ {
+  "eventDate": "2024-03",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan accused Israel of committing genocide and barbarities with Western support.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR47"
+ },
+ {
+  "eventDate": "2024-03-02",
+  "actor": "TR",
+  "actorKind": "non-government",
+  "fact": "People in Turkey gathered in Istanbul to protest trade relations between Turkey and Israel.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR48"
+ },
+ {
+  "eventDate": "2024-03-22",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israeli Foreign Minister Israel Katz instructed the Foreign Ministry to summon Turkey's envoy to Israel.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR49"
+ },
+ {
+  "eventDate": "2024-04",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish high officials, including the president and foreign minister, met with the Hamas chief in Istanbul.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR50"
+ },
+ {
+  "eventDate": "2024-04",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish Foreign Minister met the Hamas leader in Qatar.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "ILTR51"
+ },
+ {
+  "eventDate": "2024-04",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Nationalist Movement Party's leader Devlet Bahçeli criticised Israel and the United Nations, calling for a Palestinian state.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "ILTR52"
+ },
+ {
+  "eventDate": "2024-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkey announced it stopped all trade with Israel and joined South Africa's lawsuit against Israel at the ICJ.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR53"
+ },
+ {
+  "eventDate": "2024-05",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan said more than 1,000 Hamas members have received treatment in Turkish hospitals.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR54"
+ },
+ {
+  "eventDate": "2024-05-02",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkey announced it was immediately suspending all trade with Israel due to the \"worsening humanitarian tragedy.\"",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR55"
+ },
+ {
+  "eventDate": "2024-05-09",
+  "actor": "IL",
+  "actorKind": "government",
+  "fact": "Israeli Foreign Minister Israel Katz claimed the Turkish government had eased the trade ban with Israel.",
+  "type": "DECLARED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR56"
+ },
+ {
+  "eventDate": "2024-05-09",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish Minister of Trade Omar Bulat condemned Katz's claim about easing the trade ban, calling it \"completely fictional.\"",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR57"
+ },
+ {
+  "eventDate": "2024-07",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkey's National Security Council urged the international community to take action to stop Israel's \"atrocities.\"",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR58"
+ },
+ {
+  "eventDate": "2024-07",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan called the Israeli prime minister Hitler and said Turkey could enter Israel.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR59"
+ },
+ {
+  "eventDate": "2024-07",
+  "actor": "TR",
+  "actorKind": "institution",
+  "fact": "The Turkish parliament denounced the Israeli Prime Minister's statement to the US Congress and labelled him a war criminal.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR60"
+ },
+ {
+  "eventDate": "2024-09",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan compared the ongoing Israeli operation with the Srebrenica massacre.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR61"
+ },
+ {
+  "eventDate": "2024-09",
+  "actor": "TR",
+  "actorKind": "institution",
+  "fact": "Turkey's National Intelligence Organization chief met with Hamas leaders in Ankara regarding ceasefire negotiations with Israel.",
+  "type": "IMPLEMENTED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR62"
+ },
+ {
+  "eventDate": "2024-10",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan said Israel, with Western help, is trying to ignite a regional conflict.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR63"
+ },
+ {
+  "eventDate": "2024-10",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan gave his support to the Iranian government and people after Israeli strikes on Iran.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "ILTR64"
+ },
+ {
+  "eventDate": "2024-10-07",
+  "actor": "TR",
+  "actorKind": "institution",
+  "fact": "Mustafa Yeneroğlu presented a report to parliament on the sharp increase in exports to Palestinian territories.",
+  "type": "IMPLEMENTED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR65"
+ },
+ {
+  "eventDate": "2024-10-08",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish Trade Minister Ömer Bolat denied claims that trade with Israel was quietly continuing through Palestinian companies.",
+  "type": "DECLARED",
+  "polarity": 0,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR66"
+ },
+ {
+  "eventDate": "2024-11-13",
+  "actor": "TR",
+  "actorKind": "government",
+  "fact": "Turkish President Erdoğan announced Turkey was severing all diplomatic relations with Israel due to Israel's reluctance to end the Gaza war.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "ILTR67"
+ }
+]

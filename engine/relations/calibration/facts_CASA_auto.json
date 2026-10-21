@@ -1,0 +1,114 @@
+[
+ {
+  "eventDate": "2018-08-02",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian Minister of Foreign Affairs Chrystia Freeland issued a statement via Twitter expressing Canada's concern over the arrest of Samar Badawi.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA00"
+ },
+ {
+  "eventDate": "2018-08-06",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian Foreign Minister Freeland responded to the expulsion of Ambassador Horak at a press conference by stating Canada will always stand up for human rights.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA01"
+ },
+ {
+  "eventDate": "2018-08-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Arabia announced that it would put a halt to its medical programs in Canada and move all Saudi patients to other countries.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA02"
+ },
+ {
+  "eventDate": "2018-08-08",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "Saudi Foreign Minister Adel al-Jubeir stated that his country would not engage in negotiations until Canada retracted its original statement.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA03"
+ },
+ {
+  "eventDate": "2018-08-08",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Prime Minister Justin Trudeau told reporters that he refused to apologize for his country's involvement in promoting human rights.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA04"
+ },
+ {
+  "eventDate": "2018-08-27",
+  "actor": "SA",
+  "actorKind": "government",
+  "fact": "The Saudi Ministry of Education informed Saudi medical residents and fellows in Canada that they can continue in their positions.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA05"
+ },
+ {
+  "eventDate": "2023-05",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Canada and Saudi Arabia restored their diplomatic ties.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "CASA06"
+ }
+]
