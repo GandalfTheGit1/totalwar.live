@@ -30,7 +30,12 @@ coverage/
 # IDE
 .vscode/
 .idea/
+
+# Claude / AI agent files
 .claude/
+.agents/
+CLAUDE.md
+.claude.json
 
 # Bilateral relations engine (Python prototype)
 __pycache__/
