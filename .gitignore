@@ -40,3 +40,4 @@ engine/relations/world/world_cache.json
 engine/relations/world/out/
 
 engine/relations/world/gdelt/
+.vercel

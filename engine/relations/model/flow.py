@@ -56,7 +56,7 @@ BLOCK = ('facebook.com', 'youtube.com', 'youtu.be', 'tiktok.com', 'x.com', 'twit
 PRIMARY = re.compile(r'(\.gov(\.[a-z]{2})?$|\.gob\.|\.gouv\.|^pm\.gc\.ca|canada\.ca$|europa\.eu$|\.un\.org$|nato\.int$|fmprc\.gov|^state\.gov|whitehouse\.gov|lamoncloa)')
 GOV_KINDS = {'government', 'institution', 'international'}
 
-UA = {'User-Agent': 'diplomacy-flow-prototype/0.2 (research)'}
+UA = {'User-Agent': 'diplomacy-flow-prototype/0.2 (research; contact suxcesagency@gmail.com)'}
 METRICS = {'calls': [], 'collect': {}}
 
 
@@ -140,17 +140,55 @@ def collect(a, b, days=60):
             add('headline', 'recent', link.group(1) if link else '', domain(src.group(1)) if src else '', pd.group(1) if pd else '', t, t)
         time.sleep(3)
 
-    for title in [f'{B["en"]}–{A["en"]} relations', f'{A["en"]}–{B["en"]} relations']:
+    # Wikipedia background collection in both Spanish and English
+    wiki_found = {}
+    if A.get('es') and B.get('es'):
+        titles_es = [
+            f'Relaciones {A["es"]}-{B["es"]}',
+            f'Relaciones {B["es"]}-{A["es"]}',
+            f'Relaciones {A["es"]}–{B["es"]}',
+            f'Relaciones {B["es"]}–{A["es"]}',
+            f'Relaciones entre {A["es"]} y {B["es"]}',
+            f'Relaciones entre {B["es"]} y {A["es"]}',
+        ]
         try:
-            d = json.loads(http_get('https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&formatversion=2&titles=' + urllib.parse.quote(title)))
-            page = d['query']['pages'][0]
-            if not page.get('missing') and page.get('extract'):
-                add('wikipedia', 'background', 'https://en.wikipedia.org/wiki/' + urllib.parse.quote(page['title'].replace(' ', '_')),
-                    'en.wikipedia.org', 'background (may be stale)', page['title'], page['extract'][:6000])
-                METRICS['collect']['wikipedia'] = page['title']
-                break
+            url = 'https://es.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&formatversion=2&titles=' + urllib.parse.quote('|'.join(titles_es))
+            d = json.loads(http_get(url))
+            for page in d.get('query', {}).get('pages', []):
+                if not page.get('missing') and page.get('extract'):
+                    add('wikipedia', 'background', 'https://es.wikipedia.org/wiki/' + urllib.parse.quote(page['title'].replace(' ', '_')),
+                        'es.wikipedia.org', 'background (may be stale)', page['title'], page['extract'][:6000])
+                    wiki_found['es'] = page['title']
+                    break
         except Exception as e:
-            errs.append(f'wikipedia: {e}')
+            errs.append(f'wikipedia es: {e}')
+
+    if A.get('en') and B.get('en'):
+        titles_en = [
+            f'{B["en"]}–{A["en"]} relations',
+            f'{A["en"]}–{B["en"]} relations',
+            f'{B["en"]}-{A["en"]} relations',
+            f'{A["en"]}-{B["en"]} relations',
+        ]
+        try:
+            url = 'https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&formatversion=2&titles=' + urllib.parse.quote('|'.join(titles_en))
+            d = json.loads(http_get(url))
+            for page in d.get('query', {}).get('pages', []):
+                if not page.get('missing') and page.get('extract'):
+                    add('wikipedia', 'background', 'https://en.wikipedia.org/wiki/' + urllib.parse.quote(page['title'].replace(' ', '_')),
+                        'en.wikipedia.org', 'background (may be stale)', page['title'], page['extract'][:6000])
+                    wiki_found['en'] = page['title']
+                    break
+        except Exception as e:
+            errs.append(f'wikipedia en: {e}')
+
+    if wiki_found:
+        if 'es' in wiki_found:
+            METRICS['collect']['wikipedia_es'] = wiki_found['es']
+        if 'en' in wiki_found:
+            METRICS['collect']['wikipedia_en'] = wiki_found['en']
+        primary = wiki_found.get('es') if ('es' in (A.get('lang'), B.get('lang')) and wiki_found.get('es')) else (wiki_found.get('en') or wiki_found.get('es'))
+        METRICS['collect']['wikipedia'] = primary
 
     leaders = []
     for code, c in [(a, A), (b, B)]:
@@ -630,7 +668,14 @@ def run(a, b, prev=None):
     ev, leaders = collect(a, b)
     relevant, irrelevant = filter_evidence(a, b, ev)
     base = extract_once(a, b, ev, relevant)
-    background = next((e['text'] for e in ev if e['kind'] == 'wikipedia'), '')
+    A, B = COUNTRIES.get(a, {}), COUNTRIES.get(b, {})
+    if 'es' in (A.get('lang'), B.get('lang')):
+        w_texts = [e['text'] for e in ev if e['kind'] == 'wikipedia' and e.get('domain') == 'es.wikipedia.org']
+        w_texts += [e['text'] for e in ev if e['kind'] == 'wikipedia' and e.get('domain') != 'es.wikipedia.org']
+    else:
+        w_texts = [e['text'] for e in ev if e['kind'] == 'wikipedia' and e.get('domain') == 'en.wikipedia.org']
+        w_texts += [e['text'] for e in ev if e['kind'] == 'wikipedia' and e.get('domain') != 'en.wikipedia.org']
+    background = '\n\n'.join(w_texts) if w_texts else next((e['text'] for e in ev if e['kind'] == 'wikipedia'), '')
     runs = []
     for i in range(N_VOTES):
         provs = [ANALYZE_MODELS[i]] + [p for p in STAGE_PROVIDERS['analyze'] if p != ANALYZE_MODELS[i]]

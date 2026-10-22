@@ -38,133 +38,89 @@
   },
   "nodos": [
     {
-      "id": "calibracion-brier",
-      "nombre": "Calibración y backtesting causal dual",
-      "color": "#D55E00",
-      "meta_principal": "seguridad_riesgo_datos",
-      "forma": "redondeado",
-      "estado": "en_construccion",
-      "tamano": "S",
-      "dependencias": 0,
-      "demanda": "0/10",
-      "sistema": "equity",
-      "parte_arquitectura": [
-        "Motores causales",
-        "Backtesting y Brier"
-      ]
-    },
-    {
-      "id": "laboratorio-forense",
-      "nombre": "Laboratorio forense contable y muro de vencimiento de deuda",
-      "color": "#D55E00",
-      "meta_principal": "seguridad_riesgo_datos",
-      "forma": "rectangulo",
-      "estado": "terminada",
-      "tamano": "S",
-      "dependencias": 1,
-      "demanda": "0/10",
-      "sistema": "equity",
-      "parte_arquitectura": [
-        "Agente forense",
-        "Hard Kill Switch",
-        "SEC XBRL Ingest"
-      ]
-    },
-    {
-      "id": "regimen-credito-bonos",
-      "nombre": "Régimen de crédito y curvas de rendimiento soberanas",
-      "color": "#E69F00",
-      "meta_principal": "monetizacion",
-      "forma": "rectangulo",
-      "estado": "terminada",
-      "tamano": "S",
-      "dependencias": 1,
-      "demanda": "0/10",
-      "sistema": "equity",
-      "parte_arquitectura": [
-        "Fuentes Macro y Bonos",
-        "Motor de Régimen Crediticio"
-      ]
-    },
-    {
-      "id": "reclamaciones-territoriales",
-      "nombre": "Motor de reclamaciones territoriales y fricción bilateral",
-      "color": "#D55E00",
-      "meta_principal": "seguridad_riesgo_datos",
-      "forma": "rectangulo",
-      "estado": "terminada",
+      "id": "desarrollo-industrial-ciudades",
+      "nombre": "Monitor de desarrollo industrial y polos manufactureros urbanos",
+      "color": "#0072B2",
+      "meta_principal": "investigacion_mercado",
+      "forma": "circulo",
+      "estado": "idea",
       "tamano": "S",
       "dependencias": 0,
       "demanda": "0/10",
       "sistema": "global",
       "parte_arquitectura": [
-        "Motor de fricción soberana",
-        "Visualizador Cartográfico 2D/3D"
+        "Monitor geopolítico 3D",
+        "Capa geoespacial de recursos y manufactura"
       ]
     },
     {
-      "id": "calibracion-relaciones-gdelt",
-      "nombre": "Calibración histórica del modelo de relaciones bilaterales",
-      "color": "#D55E00",
-      "meta_principal": "seguridad_riesgo_datos",
-      "forma": "rectangulo",
-      "estado": "terminada",
+      "id": "finanzas-publicas-soberanas",
+      "nombre": "Monitor de finanzas públicas soberanas y salud fiscal",
+      "color": "#009E73",
+      "meta_principal": "seguidores",
+      "forma": "circulo",
+      "estado": "idea",
       "tamano": "S",
-      "dependencias": 1,
+      "dependencias": 0,
       "demanda": "0/10",
       "sistema": "global",
       "parte_arquitectura": [
-        "Calibración empírica",
-        "Banco de anclas históricas"
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar",
+        "Servicio de Ingestión Macro Soberana"
+      ]
+    },
+    {
+      "id": "entidades-postura-vecinal",
+      "nombre": "Monitor de entidades estratégicas, capacidades y postura vecinal",
+      "color": "#0072B2",
+      "meta_principal": "investigacion_mercado",
+      "forma": "circulo",
+      "estado": "idea",
+      "tamano": "S",
+      "dependencias": 1,
+      "demanda": "2.4/10",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Capa de Inteligencia Geoespacial y Táctica",
+        "Geopolitical Sidebar"
       ]
     }
   ],
   "conexiones": [
     {
       "tipo": "alimenta_meta",
-      "de": "calibracion-brier",
-      "a": "seguridad_riesgo_datos",
-      "principal": true
-    },
-    {
-      "tipo": "depende_de",
-      "de": "laboratorio-forense",
-      "a": "calibracion-brier"
-    },
-    {
-      "tipo": "alimenta_meta",
-      "de": "laboratorio-forense",
-      "a": "seguridad_riesgo_datos",
-      "principal": true
-    },
-    {
-      "tipo": "depende_de",
-      "de": "regimen-credito-bonos",
-      "a": "calibracion-brier"
-    },
-    {
-      "tipo": "alimenta_meta",
-      "de": "regimen-credito-bonos",
-      "a": "monetizacion",
+      "de": "desarrollo-industrial-ciudades",
+      "a": "investigacion_mercado",
       "principal": true
     },
     {
       "tipo": "alimenta_meta",
-      "de": "reclamaciones-territoriales",
-      "a": "seguridad_riesgo_datos",
-      "principal": true
-    },
-    {
-      "tipo": "depende_de",
-      "de": "calibracion-relaciones-gdelt",
-      "a": "reclamaciones-territoriales"
+      "de": "desarrollo-industrial-ciudades",
+      "a": "seguidores",
+      "principal": false
     },
     {
       "tipo": "alimenta_meta",
-      "de": "calibracion-relaciones-gdelt",
-      "a": "seguridad_riesgo_datos",
+      "de": "finanzas-publicas-soberanas",
+      "a": "seguidores",
       "principal": true
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "entidades-postura-vecinal",
+      "a": "investigacion_mercado",
+      "principal": true
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "entidades-postura-vecinal",
+      "a": "seguidores",
+      "principal": false
     }
   ],
-  "avisos": []
+  "avisos": [
+    "entidades-postura-vecinal depende de 'reclamaciones-territoriales', que no está definida: conexión omitida"
+  ]
 }

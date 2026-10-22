@@ -695,6 +695,48 @@ describe('GeoIndexedDbCache - Unit and Integration Tests (T03.7)', () => {
 
       vi.unstubAllGlobals();
     });
+
+    it('should handle network failure ("Failed to fetch") gracefully and allow retry', async () => {
+      const iso = 'NET';
+      const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      const consoleWarnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
+
+      const fetchSpy = vi.fn().mockRejectedValue(new TypeError('Failed to fetch'));
+      vi.stubGlobal('fetch', fetchSpy);
+
+      const activeData = { iso: 'NET', name: 'NetworkLand', risk: 40 };
+      const activeMacro = { dataConfidence: 'high' };
+
+      const { result } = renderHook(() => useLlmCausalAnalysis(true, activeData, activeMacro));
+
+      await waitFor(() => {
+        expect(result.current.llmError).toContain('No fue posible conectar con el servicio');
+      });
+
+      expect(result.current.llmLoading).toBe(false);
+      // Ensure raw Error instance was not dumped into console.error (which triggers Turbopack crash modal)
+      expect(consoleErrorSpy).not.toHaveBeenCalled();
+      expect(consoleWarnSpy).toHaveBeenCalled();
+
+      // Now recover on retry
+      fetchSpy.mockResolvedValueOnce({
+        ok: true,
+        json: async () => ({ analysis: 'Análisis causal recuperado tras reintento.' }),
+      });
+
+      act(() => {
+        result.current.retryAnalysis();
+      });
+
+      await waitFor(() => {
+        expect(result.current.llmAnalysis).toBe('Análisis causal recuperado tras reintento.');
+      });
+      expect(result.current.llmError).toBeNull();
+
+      consoleErrorSpy.mockRestore();
+      consoleWarnSpy.mockRestore();
+      vi.unstubAllGlobals();
+    });
   });
 
   describe('8. Hook Integration: useCountryVideos', () => {

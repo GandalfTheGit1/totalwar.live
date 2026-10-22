@@ -313,23 +313,30 @@ def claims(a, b):
     out = {}
     for x, y in ((a, b), (b, a)):
         rows = cached(f'wd-claims-{x}-{y}', lambda x=x, y=y: sparql(
-            f'SELECT DISTINCT ?tLabel WHERE {{ ?t wdt:P1336 wd:{QID[x]}; wdt:P17 wd:{QID[y]}. SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }} LIMIT 20'))
+            f'SELECT DISTINCT ?tLabel WHERE {{ ?t wdt:P1336 wd:{QID[x]}; wdt:P17 wd:{QID[y]}. SERVICE wikibase:label {{ bd:serviceParam wikibase:language "es,en". }} }} LIMIT 20'))
         if rows:
             out[f'{x}->{y}'] = [r['tLabel']['value'] for r in rows]
     return out
 
 
-TREATY_KEYWORDS = re.compile(r'investment|friendship|cooperation|co-operation|defen[cs]e|security|classified|extradition|taxation|double tax|trade|association|partnership|good.neighbo', re.I)
+TREATY_KEYWORDS = re.compile(
+    r'investment|inversi[oó]n|friendship|amistad|cooperat|co-operat|cooperaci[oó]n|defen[cs]e|defensa|security|seguridad|'
+    r'classified|extradit|extradici[oó]n|taxation|tributaci[oó]n|double tax|doble imposici[oó]n|trade|comercio|comercial|'
+    r'association|asociaci[oó]n|partnership|alianza|paz|peace|good.neighbo|buena vecindad',
+    re.I
+)
 
 
 def filter_treaties(rows):
     """Bilateral treaties from Wikidata rows [{tLabel,t,end?}]: keep modern-sounding titles, drop ended ones, dedupe by title."""
     seen, out = [], []
+    stopwords = {'agreement', 'between', 'government', 'republic', 'kingdom', 'treaty', 'convention', 'protocol',
+                 'acuerdo', 'entre', 'gobierno', 'republica', 'república', 'reino', 'tratado', 'convenio', 'protocolo'}
     for r in rows:
         title = r['tLabel']['value'] if 'tLabel' in r else ''
         if r.get('end', {}).get('value') or not TREATY_KEYWORDS.search(title) or re.match(r'^Q\d+$', title):
             continue
-        toks = set(re.findall(r'[a-z]{4,}', title.lower())) - {'agreement', 'between', 'government', 'republic', 'kingdom', 'treaty', 'convention', 'protocol'}
+        toks = set(re.findall(r'[a-z]{4,}', title.lower())) - stopwords
         if not any(len(toks & o) / max(1, len(toks | o)) >= 0.5 for o in seen):     # same agreement entered twice with different wording
             seen.append(toks)
             out.append(title)
@@ -340,13 +347,13 @@ def treaties(a, b):
     q = f'''SELECT ?t ?tLabel (SAMPLE(?e) AS ?end) (COUNT(DISTINCT ?party) AS ?n) WHERE {{
       ?t wdt:P31/wdt:P279* wd:Q131569. VALUES ?pr {{ wdt:P1891 wdt:P6193 wdt:P17 }}
       VALUES ?qa {{ {vals(a)} }} VALUES ?qb {{ {vals(b)} }} ?t ?pr ?qa. ?t ?pr2 ?qb. ?t ?pr3 ?party. FILTER(?pr3 IN (wdt:P1891, wdt:P6193, wdt:P17))
-      OPTIONAL {{ ?t wdt:P576 ?e }} SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }}
+      OPTIONAL {{ ?t wdt:P576 ?e }} SERVICE wikibase:label {{ bd:serviceParam wikibase:language "es,en". }} }}
       GROUP BY ?t ?tLabel HAVING(COUNT(DISTINCT ?party) <= 3) LIMIT 30'''
     return filter_treaties(cached(f'wd-treaties-{a}-{b}{akey(a)}{akey(b)}', lambda: sparql(q)))
 
 
 def shared_languages(a, b):
-    q = f'SELECT DISTINCT ?lLabel WHERE {{ wd:{QID[a]} wdt:P37 ?l. wd:{QID[b]} wdt:P37 ?l. SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }}'
+    q = f'SELECT DISTINCT ?lLabel WHERE {{ wd:{QID[a]} wdt:P37 ?l. wd:{QID[b]} wdt:P37 ?l. SERVICE wikibase:label {{ bd:serviceParam wikibase:language "es,en". }} }}'
     return [r['lLabel']['value'] for r in cached(f'wd-lang-{a}-{b}', lambda: sparql(q))]
 
 

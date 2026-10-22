@@ -372,6 +372,238 @@
         }
       ],
       "notas": "Estado terminada verificado: código en engine/relations/calibration/, scripts de prueba y 28 anclas validadas con pérdida 0."
+    },
+    {
+      "id": "desarrollo-industrial-ciudades",
+      "nombre": "Monitor de desarrollo industrial y polos manufactureros urbanos",
+      "resumen": "Mapea la densidad fabril, conectividad logística multimodal y capacidad industrial a nivel de ciudad en el globo 3D para identificar clusters de manufactura y captar demanda de investigación.",
+      "que_permite": [
+        "Con esto puedo visualizar la concentración de suelo industrial, zonas francas y polos manufactureros por ciudad en el visor geoespacial 3D.",
+        "Con esto puedo evaluar la proximidad y conectividad logística de una ciudad con puertos intermodales, terminales ferroviarias y redes de alta tensión.",
+        "Con esto puedo captar qué polos industriales despiertan mayor interés de búsqueda o análisis entre usuarios para guiar la investigación de mercado."
+      ],
+      "estado": "idea",
+      "meta_principal": "investigacion_mercado",
+      "metas_secundarias": [
+        "seguidores"
+      ],
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "monetizacion": "gratis",
+      "metrica_exito": {
+        "que_medir": "Consultas únicas por ciudad industrial y tasa de interacción con el panel de infraestructura",
+        "umbral": "500 consultas o interacciones únicas en los primeros 30 días",
+        "plazo": "30 días posteriores al despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Capa geoespacial de clusters industriales en el globo 3D (World Geopolitical Engine)",
+          "Panel lateral de desglose de infraestructura fabril y logística urbana"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin solicitudes de usuarios explícitas documentadas hasta la fecha"
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas ni evidencias de fricción documentadas"
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis teórica sin validación de uso recurrente"
+        },
+        "total": 0.0
+      },
+      "modelo": {
+        "planificador": "Claude 3.7 Sonnet o Gemini 2.5 Pro",
+        "ejecutor": "Gemini 3.8 Flash",
+        "verificador": "Claude 3.5 Sonnet / Antigravity Linter",
+        "razon": "Estructuración geoespacial de baja complejidad matemática; el planificador diseña el esquema GeoJSON y el ejecutor rápido implementa capas con fixtures de prueba.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Qué fuentes abiertas de zonificación industrial (OpenStreetMap Overpass, UNIDO, registros aduaneros) ofrecen cobertura global sin costes de licencia?",
+        "¿Cómo diseñar micro-eventos de analítica en la UI pública para convertir visitas en investigación de mercado estructurada?",
+        "¿Qué impacto tiene el renderizado de miles de polígonos industriales sobre los FPS de Three.js/WebGL en el globo 3D?",
+        "¿Cómo conectar estos datos como contexto cualitativo en el Equity System sin sesgo de anticipación?"
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/desarrollo-industrial-ciudades.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "Monitor geopolítico 3D",
+        "Capa geoespacial de recursos y manufactura"
+      ],
+      "referencias_internas": [],
+      "fuentes": [],
+      "notas": "Ficha creada a petición de William el 2026-10-22 tras analizar cómo ver el desarrollo industrial urbano y su utilidad en el sistema global."
+    },
+    {
+      "id": "finanzas-publicas-soberanas",
+      "nombre": "Monitor de finanzas públicas soberanas y salud fiscal",
+      "resumen": "Visualización cuantitativa de la salud fiscal de cada país en el globo interactivo: deuda sobre PIB, balance presupuestario neto (déficit/superávit), desglose de ingresos vs gastos públicos, coste de intereses y semáforo de sostenibilidad fiscal.",
+      "que_permite": [
+        "Con esto puedo consultar de forma inmediata la ratio de deuda pública sobre el PIB, el balance presupuestario neto y la carga de intereses de cualquier país seleccionado en el globo 3D.",
+        "Con esto puedo contrastar los ingresos públicos brutos frente al gasto público total de cada Estado con métricas homogéneas de fuentes multilaterales oficiales.",
+        "Con esto puedo evaluar el estrés de solvencia soberana mediante un semáforo visual de sostenibilidad fiscal sin tener que bucear por portales gubernamentales dispersos."
+      ],
+      "estado": "idea",
+      "meta_principal": "seguidores",
+      "metas_secundarias": [],
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "monetizacion": "gratis",
+      "metrica_exito": {
+        "que_medir": "Tasa de interacción y permanencia: porcentaje de usuarios que seleccionan un país y abren la sección fiscal, más tiempo medio de visualización.",
+        "umbral": "25% de los usuarios que seleccionan un país consultan finanzas públicas y al menos 45s de permanencia media (Suposición).",
+        "plazo": "60 días tras despliegue público en producción."
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Subsección \"Finanzas Públicas y Salud Fiscal\" en el panel lateral del país (components/geopolitical-monitor/components/sidebar/SovereignPublicFinancesSection.tsx)",
+          "Tarjeta sintética de semáforo fiscal y desglose Deuda/Déficit/Gasto en GeopoliticalSidebar"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones directas de usuarios; emulación experimental de mecánicas de juegos de estrategia geopolítica (Victoria 3 / HOI4) para testear retención."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis de pérdida de tiempo al consultar portales dispersos del Banco Mundial/FMI, sin entrevistas a usuarios aún."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis de que un panel fiscal intuitivo aumenta el engagement y el tiempo de sesión en el globo interactivo."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude 3.7 Sonnet / Gemini 3.8 Flash (High)",
+        "ejecutor": "Gemini 3.8 Flash",
+        "verificador": "Claude 3.7 Sonnet / Antigravity Agent",
+        "razon": "Error silencioso moderado en normalización de datos macroeconómicos soberanos; planificador robusto para diseñar esquema de datos homogéneo y ejecutor con pruebas unitarias para parsers y renderizado.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay evidencia real de demanda o solo intuición de engagement lúdico? Validar con métricas de clics reales o sondeos en la comunidad.",
+        "¿Qué API oficial conviene para datos globales homogéneos? Evaluar World Bank Open Data API (gratuita, sin API key, endpoint REST JSON) vs IMF Data API vs FRED vs Eurostat.",
+        "¿Cuál es la cobertura real de países? De los ~195 países del globo, determinar cuántos disponen de series fiscales actualizadas (<2 años) y cómo clasificar la \"Falta de Transparencia Fiscal\".",
+        "¿Cómo diseñar el pipeline de caché para latencia cero? Evaluar si precargar un dataset JSON estático base (como country-resources.json) enriquecido periódicamente vía ruta Next.js con IndexedDB L1/L2.",
+        "¿Desplaza trabajo crítico que sigue incompleto? Validar si implementar este panel distrae de cerrar las tareas prioritarias del motor geopolítico o de calibración."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/finanzas-publicas-soberanas.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar",
+        "Servicio de Ingestión Macro Soberana"
+      ],
+      "referencias_internas": [],
+      "fuentes": [
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/finanzas-publicas-soberanas.md",
+          "seccion": "Ficha Técnica Completa"
+        }
+      ],
+      "notas": "Ficha generada tras entrevista con William. Meta exclusiva de Seguidores mediante emulación de mecánicas de juegos (HOI4/Victoria 3) con acceso 100% público y gratuito."
+    },
+    {
+      "id": "entidades-postura-vecinal",
+      "nombre": "Monitor de entidades estratégicas, capacidades y postura vecinal",
+      "resumen": "Localiza las principales entidades estratégicas de un país (bases militares, centros de mando, complejos logísticos de defensa), evalúa sus capacidades operativas y monitorea sus actividades actuales para inferir la postura estratégica hacia sus países vecinos.",
+      "que_permite": [
+        "Con esto puedo geolocalizar en el globo 3D y mapa 2D las principales bases militares, cuarteles, centros de mando y nodos logísticos de defensa de cualquier país seleccionado.",
+        "Con esto puedo consultar las capacidades operativas, equipamiento, alcance táctico y nivel de preparación de cada entidad estratégica.",
+        "Con esto puedo auditar las actividades y maniobras militares actuales en zonas fronterizas para deducir la postura estratégica (defensiva, disuasoria o de proyección ofensiva) del país respecto a sus vecinos."
+      ],
+      "estado": "idea",
+      "meta_principal": "investigacion_mercado",
+      "metas_secundarias": [
+        "seguidores"
+      ],
+      "depende_de": [
+        "reclamaciones-territoriales"
+      ],
+      "separado_de": [
+        "score de empresas",
+        "calibracion-brier"
+      ],
+      "monetizacion": "gratis",
+      "metrica_exito": {
+        "que_medir": "Consultas únicas y tiempo de interacción en el módulo táctico por país y pares fronterizos, midiendo qué regiones calientes generan mayor tracción investigadora.",
+        "umbral": "400 consultas únicas en los primeros 45 días e identificación de al menos 5 patrones recurrentes de búsqueda regional (Suposición).",
+        "plazo": "45 días tras despliegue público en producción."
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Capa geoespacial de marcadores tácticos de entidades en el globo 3D y mapa 2D (TacticalEntitiesLayer)",
+          "Subsección 'Entidades Estratégicas y Postura Vecinal' en el panel lateral del país (components/geopolitical-monitor/components/sidebar/TacticalEntitiesPostureSection.tsx)",
+          "Tarjeta de auditoría de postura hacia fronteras vecinas (Vecinos inmediatos, distancia a frontera, nivel de tensión)"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin solicitudes de usuarios documentadas; hipótesis de diseño táctico para enganchar al usuario"
+        },
+        "frustracion": {
+          "puntos": 1.2,
+          "etiqueta": "Hipótesis",
+          "fuente": "Hipótesis de pérdida de tiempo y esfuerzo recopilando y cruzando manualmente datos dispersos de bases, capacidades y maniobras militares"
+        },
+        "conviene": {
+          "puntos": 1.2,
+          "etiqueta": "Hipótesis",
+          "fuente": "Hipótesis de alta retención al proporcionar inteligencia geoespacial clara sobre intenciones y posturas fronterizas"
+        },
+        "total": 2.4
+      },
+      "modelo": {
+        "planificador": "Claude 3.7 Sonnet / Gemini 3.8 Flash (High)",
+        "ejecutor": "Gemini 3.8 Flash",
+        "verificador": "Claude 3.7 Sonnet / Antigravity Agent",
+        "razon": "Riesgo de error silencioso en la deducción de posturas estratégicas (riesgo de alucinación geopolítica); planificador estructurado para definir taxonomía determinista de capacidades/posturas y ejecutor ágil con fixtures de prueba.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay evidencia real de demanda o solo intuición de engagement con inteligencia táctica OSINT? Testear con encuestas a usuarios o métricas de clics reales.",
+        "¿Qué fuentes abiertas (OSINT, IISS Military Balance, bases públicas de defensa, ACLED/GDELT para eventos) ofrecen datos de localización de bases y maniobras con licencia compatible y sin costes?",
+        "¿Cómo evitar el sesgo de clasificación y alucinación al inferir la postura estratégica hacia vecinos? Diseñar un motor de reglas determinista basado en distancia geográfica a la frontera, masa crítica desplegada y reclamaciones territoriales activas.",
+        "¿Cómo optimizar el renderizado WebGL/Three.js de decenas de marcadores de entidades con rangos de alcance (círculos de cobertura) sin degradar los FPS en móviles?",
+        "¿Desplaza trabajo crítico que sigue incompleto en el motor de calibración o en el pipeline de relaciones bilaterales?"
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/entidades-postura-vecinal.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Capa de Inteligencia Geoespacial y Táctica",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [],
+      "fuentes": [
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/entidades-postura-vecinal.md",
+          "seccion": "Ficha Técnica Completa"
+        }
+      ],
+      "notas": "Ficha creada a petición de William el 2026-10-22. Meta principal de Investigación de mercado (aprender qué fronteras y despliegues busca la comunidad) con UI pública y gratuita en el globo 3D."
     }
   ],
   "definicion_seguridad_riesgo_datos": "Mejorar la seguridad que hay respecto a los datos que se traen a la mesa para los clientes y de esa forma, aumentar el valor de la empresa al tener mejores datos disponibles y representación de estos. Mejorar los Datos y prevenir que se filtren, dan una ventaja a la empresa."

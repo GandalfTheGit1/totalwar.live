@@ -56,7 +56,7 @@ def relations():
 
 def claims_all():
     rows = T.cached('bulk-p1336', lambda: T.sparql(f'''SELECT DISTINCT ?x ?y ?tLabel WHERE {{ VALUES ?x {{ {values()} }} VALUES ?y {{ {values()} }}
-        ?t wdt:P1336 ?x; wdt:P17 ?y. SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }}'''), ttl=30 * 86400)
+        ?t wdt:P1336 ?x; wdt:P17 ?y. SERVICE wikibase:label {{ bd:serviceParam wikibase:language "es,en". }} }}'''), ttl=30 * 86400)
     out = defaultdict(list)
     for r in rows:
         x, y = code_of(r['x']['value']), code_of(r['y']['value'])
@@ -67,7 +67,7 @@ def claims_all():
 
 def languages_all():
     rows = T.cached('bulk-p37', lambda: T.sparql(f'''SELECT ?c ?lLabel WHERE {{ VALUES ?c {{ {values()} }} ?c wdt:P37 ?l .
-        SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }}'''), ttl=30 * 86400)
+        SERVICE wikibase:label {{ bd:serviceParam wikibase:language "es,en". }} }}'''), ttl=30 * 86400)
     out = defaultdict(set)
     for r in rows:
         c = code_of(r['c']['value'])
@@ -91,7 +91,7 @@ def treaties_of(code):
         q = f'''SELECT ?t ?tLabel (SAMPLE(?e) AS ?end) (GROUP_CONCAT(DISTINCT STR(?party); separator=" ") AS ?parties) WHERE {{
             ?t wdt:P31/wdt:P279* wd:Q131569 . VALUES ?pr {{ wdt:P1891 wdt:P6193 wdt:P17 }} VALUES ?me {{ {T.vals(code)} }} ?t ?pr ?me .
             VALUES ?pr3 {{ wdt:P1891 wdt:P6193 wdt:P17 }} ?t ?pr3 ?party . OPTIONAL {{ ?t wdt:P576 ?e }}
-            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }} GROUP BY ?t ?tLabel HAVING(COUNT(DISTINCT ?party) <= 3)'''
+            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "es,en". }} }} GROUP BY ?t ?tLabel HAVING(COUNT(DISTINCT ?party) <= 3)'''
         out = []
         for r in T.sparql(q):
             for p in r['parties']['value'].split():

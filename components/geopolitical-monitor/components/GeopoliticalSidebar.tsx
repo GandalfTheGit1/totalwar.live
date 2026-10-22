@@ -72,7 +72,7 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
   const { countryMechanics } = useHoi4Mechanics({}, activeData?.iso || null);
 
   // Causal Analysis Hook
-  const { llmAnalysis, llmLoading, llmError } = useLlmCausalAnalysis(isPanelOpen, activeData, activeMacro);
+  const { llmAnalysis, llmLoading, llmError, retryAnalysis } = useLlmCausalAnalysis(isPanelOpen, activeData, activeMacro);
 
   // Video Briefing Hook
   const { 
@@ -209,6 +209,7 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
                     llmAnalysis={llmAnalysis}
                     activeMacro={activeMacro}
                     activeData={activeData}
+                    onRetry={retryAnalysis}
                   />
                 </div>
 

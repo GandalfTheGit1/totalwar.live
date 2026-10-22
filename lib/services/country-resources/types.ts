@@ -23,6 +23,18 @@ export type ResourceUnit = 't' | 'kg' | 'ct' | 'Mm3' | 'm3' | 'TWh' | 'head' | '
 /** Calidad del dato tal como la marca la fuente: oficial, estimado o provisional. */
 export type ResourceDataFlag = 'official' | 'estimated' | 'provisional';
 
+/** Enlace a artículo de ranking de producción en Wikipedia. */
+export interface WikipediaLinkInfo {
+  title: string;
+  url: string;
+  isRedirect?: boolean;
+}
+
+export interface CommodityWikipedia {
+  es?: WikipediaLinkInfo;
+  en?: WikipediaLinkInfo;
+}
+
 export interface CommodityDefinition {
   id: string;
   nameEs: string;
@@ -34,6 +46,8 @@ export interface CommodityDefinition {
   aliases?: string[];
   /** Aclaración corta: base de medida (p. ej. "contenido de Li2O") o solapamiento con otra serie. */
   note?: string;
+  /** Artículos de ranking de producción en Wikipedia (ES/EN) */
+  wikipedia?: CommodityWikipedia;
 }
 
 export interface CommodityStats extends CommodityDefinition {

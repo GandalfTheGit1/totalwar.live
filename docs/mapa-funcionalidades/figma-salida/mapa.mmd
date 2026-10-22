@@ -2,32 +2,26 @@
 %% Tamaño = número de dependencias. Línea continua = depende de. Línea punteada = alimenta una meta.
 flowchart LR
     subgraph sec_equity["Equity system"]
-        calibracion_brier("Calibración y backtesting causal dual | demanda 0/10 | 0 dep.")
-        laboratorio_forense["Laboratorio forense contable y muro de vencimiento de deuda | demanda 0/10 | 1 dep."]
-        regimen_credito_bonos["Régimen de crédito y curvas de rendimiento soberanas | demanda 0/10 | 1 dep."]
+        vacio_equity["Reservado: sin funcionalidades definidas"]
     end
     subgraph sec_global["Global system (globo geopolítico)"]
-        reclamaciones_territoriales["Motor de reclamaciones territoriales y fricción bilateral | demanda 0/10 | 0 dep."]
-        calibracion_relaciones_gdelt["Calibración histórica del modelo de relaciones bilaterales | demanda 0/10 | 1 dep."]
+        desarrollo_industrial_ciudades(("Monitor de desarrollo industrial y polos manufactureros urbanos | demanda 0/10 | 0 dep."))
+        finanzas_publicas_soberanas(("Monitor de finanzas públicas soberanas y salud fiscal | demanda 0/10 | 0 dep."))
+        entidades_postura_vecinal(("Monitor de entidades estratégicas, capacidades y postura vecinal | demanda 2.4/10 | 1 dep."))
     end
-    meta_monetizacion(["Monetización"])
-    meta_seguridad_riesgo_datos(["Seguridad y riesgo de datos"])
-    calibracion_brier -.-> meta_seguridad_riesgo_datos
-    laboratorio_forense --> calibracion_brier
-    laboratorio_forense -.-> meta_seguridad_riesgo_datos
-    regimen_credito_bonos --> calibracion_brier
-    regimen_credito_bonos -.-> meta_monetizacion
-    reclamaciones_territoriales -.-> meta_seguridad_riesgo_datos
-    calibracion_relaciones_gdelt --> reclamaciones_territoriales
-    calibracion_relaciones_gdelt -.-> meta_seguridad_riesgo_datos
-    classDef c_seguridad_riesgo_datos_S fill:#D55E00,stroke:#222,color:#000,font-size:12px
-    classDef c_monetizacion_S fill:#E69F00,stroke:#222,color:#000,font-size:12px
-    classDef m_monetizacion fill:#E69F00,stroke:#222,color:#000,stroke-width:4px
-    classDef m_seguridad_riesgo_datos fill:#D55E00,stroke:#222,color:#000,stroke-width:4px
-    class calibracion_brier c_seguridad_riesgo_datos_S
-    class laboratorio_forense c_seguridad_riesgo_datos_S
-    class regimen_credito_bonos c_monetizacion_S
-    class reclamaciones_territoriales c_seguridad_riesgo_datos_S
-    class calibracion_relaciones_gdelt c_seguridad_riesgo_datos_S
-    class meta_monetizacion m_monetizacion
-    class meta_seguridad_riesgo_datos m_seguridad_riesgo_datos
+    meta_investigacion_mercado(["Investigación de mercado"])
+    meta_seguidores(["Seguidores"])
+    desarrollo_industrial_ciudades -.-> meta_investigacion_mercado
+    desarrollo_industrial_ciudades -.-> meta_seguidores
+    finanzas_publicas_soberanas -.-> meta_seguidores
+    entidades_postura_vecinal -.-> meta_investigacion_mercado
+    entidades_postura_vecinal -.-> meta_seguidores
+    classDef c_investigacion_mercado_S fill:#0072B2,stroke:#222,color:#000,font-size:12px
+    classDef c_seguidores_S fill:#009E73,stroke:#222,color:#000,font-size:12px
+    classDef m_investigacion_mercado fill:#0072B2,stroke:#222,color:#000,stroke-width:4px
+    classDef m_seguidores fill:#009E73,stroke:#222,color:#000,stroke-width:4px
+    class desarrollo_industrial_ciudades c_investigacion_mercado_S
+    class finanzas_publicas_soberanas c_seguidores_S
+    class entidades_postura_vecinal c_investigacion_mercado_S
+    class meta_investigacion_mercado m_investigacion_mercado
+    class meta_seguidores m_seguidores

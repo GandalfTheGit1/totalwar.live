@@ -114,6 +114,19 @@ describe('CountryResourcesSection', () => {
     render(<CountryResourcesSection countryCode="AQ" countryName="Antártida" />);
     expect(await screen.findByTestId('resources-empty')).toBeInTheDocument();
   });
+
+  it('no muestra enlaces, badges ni menciones de Wikipedia en los recursos', async () => {
+    mockApi();
+    const { container } = render(<CountryResourcesSection countryCode="ESP" countryName="España" />);
+    await screen.findAllByTestId('resource-row');
+    expect(screen.queryByTitle(/Wikipedia/i)).not.toBeInTheDocument();
+    expect(screen.queryByLabelText(/Wikipedia/i)).not.toBeInTheDocument();
+    expect(container.textContent).not.toMatch(/wikipedia/i);
+    const links = container.querySelectorAll('a');
+    for (const link of links) {
+      expect(link.getAttribute('href')).not.toMatch(/wikipedia\.org/i);
+    }
+  });
 });
 
 describe('ResourceSearchBar', () => {
@@ -147,6 +160,18 @@ describe('ResourceSearchBar', () => {
     fireEvent.change(input, { target: { value: 'xyzzy' } });
     expect(await screen.findByText(/Ningún recurso coincide/)).toBeInTheDocument();
   });
+
+  it('no muestra badge ni mención de Wikipedia en los resultados', async () => {
+    mockApi();
+    const { container } = render(<ResourceSearchBar onSelectResource={vi.fn()} />);
+    const input = screen.getByRole('combobox', { name: 'Buscar recurso' });
+    fireEvent.focus(input);
+    fireEvent.change(input, { target: { value: 'aceite' } });
+    await screen.findAllByRole('option');
+    expect(screen.queryByText(/^Wiki$/i)).not.toBeInTheDocument();
+    expect(screen.queryByTitle(/Wikipedia/i)).not.toBeInTheDocument();
+    expect(container.textContent).not.toMatch(/wiki/i);
+  });
 });
 
 describe('ResourceProducersPanel', () => {
@@ -164,6 +189,18 @@ describe('ResourceProducersPanel', () => {
     fireEvent.click(screen.getByTestId('resource-clear-button'));
     expect(onClose).toHaveBeenCalled();
   });
+
+  it('no muestra contenedor ni enlaces a Wikipedia', async () => {
+    mockApi();
+    const { container } = render(<ResourceProducersPanel commodityId="wmd:cobalt" />);
+    await screen.findByTestId('resource-producers-title');
+    expect(screen.queryByTestId('resource-wikipedia-links')).not.toBeInTheDocument();
+    expect(container.textContent).not.toMatch(/wikipedia/i);
+    const links = container.querySelectorAll('a');
+    for (const link of links) {
+      expect(link.getAttribute('href')).not.toMatch(/wikipedia\.org/i);
+    }
+  });
 });
 
 describe('buildResourceLayerMap', () => {
@@ -175,5 +212,7 @@ describe('buildResourceLayerMap', () => {
     expect(map.CD.label).toMatch(/^Cobalto: /);
     expect(map.CD.sublabel).toMatch(/puesto 1 de/);
     expect(map.CD.intensity).toBeGreaterThan(80);
+    expect(map.CD.sublabel).not.toMatch(/wikipedia/i);
+    expect(map.CD.label).not.toMatch(/wikipedia/i);
   });
 });

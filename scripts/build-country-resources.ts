@@ -134,6 +134,32 @@ async function main() {
 
   console.log('\n3. Cálculo de cuotas y puestos');
   const dataset = assembleDataset([wmd, qcl, fo, fishstat, ember, eurostat], sources, minYear);
+
+  // Fusionar artículos de Wikipedia si el archivo de auditoría existe
+  const wikiFile = path.join(ROOT, 'lib', 'data', 'wikipedia-production-articles.json');
+  try {
+    const wikiRaw = await fs.readFile(wikiFile, 'utf8');
+    const wikiData = JSON.parse(wikiRaw);
+    const wikiMap = new Map<string, any>();
+    for (const r of wikiData.results || []) {
+      if (!r.hasArticle) continue;
+      const entry: Record<string, any> = {};
+      if (r.es?.exists && r.es?.url && r.es?.title) entry.es = { title: r.es.title, url: r.es.url, isRedirect: r.es.isRedirect };
+      if (r.en?.exists && r.en?.url && r.en?.title) entry.en = { title: r.en.title, url: r.en.url, isRedirect: r.en.isRedirect };
+      if (entry.es || entry.en) wikiMap.set(r.id, entry);
+    }
+    let attached = 0;
+    for (const c of dataset.commodities) {
+      const w = wikiMap.get(c.id);
+      if (w) { c.wikipedia = w; attached++; }
+    }
+    if (attached > 0) {
+      console.log(`  ✓ Enlaces de Wikipedia integrados en ${attached} recursos`);
+    }
+  } catch {
+    // Si no existe aún el archivo de Wikipedia, continuar normalmente
+  }
+
   const records = Object.values(dataset.countries).reduce((n, list) => n + list.length, 0);
   console.log(`  ✓ ${dataset.commodities.length} recursos con productores, ${Object.keys(dataset.countries).length} países, ${records} registros`);
 

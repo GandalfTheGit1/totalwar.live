@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { geoCache, geoCacheKeys, GEO_CACHE_TTLS } from '@/lib/cache/geo-indexeddb-cache';
 
 export function useLlmCausalAnalysis(
@@ -10,6 +10,13 @@ export function useLlmCausalAnalysis(
   const [llmLoading, setLlmLoading] = useState(false);
   const [llmError, setLlmError] = useState<string | null>(null);
   const lastAnalysisIsoRef = useRef<string | null>(null);
+  const [retryTrigger, setRetryTrigger] = useState(0);
+
+  const retryAnalysis = useCallback(() => {
+    lastAnalysisIsoRef.current = null;
+    setLlmError(null);
+    setRetryTrigger((prev) => prev + 1);
+  }, []);
 
   useEffect(() => {
     // 0. Guard: Only compute causal analysis if sidebar panel is actually open
@@ -48,6 +55,7 @@ export function useLlmCausalAnalysis(
 
     const controller = new AbortController();
     let isCancelled = false;
+    let timeoutId: ReturnType<typeof setTimeout> | null = null;
 
     // 2. Async path: Check IndexedDB L2 before network call
     (async () => {
@@ -69,6 +77,11 @@ export function useLlmCausalAnalysis(
         setLlmLoading(true);
         setLlmError(null);
 
+        // Guard against hung requests with a 15-second client timeout
+        timeoutId = setTimeout(() => {
+          controller.abort();
+        }, 15000);
+
         const res = await fetch('/api/dev/geo-macro-analysis', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -83,6 +96,8 @@ export function useLlmCausalAnalysis(
             macro: activeMacro,
           }),
         });
+
+        if (timeoutId) clearTimeout(timeoutId);
 
         if (controller.signal.aborted || isCancelled) return;
 
@@ -128,18 +143,35 @@ export function useLlmCausalAnalysis(
         setLlmLoading(false);
         setLlmError(null);
       } catch (err: any) {
-        if (err?.name === 'AbortError' || controller.signal.aborted || isCancelled) return;
-        console.error('[GeoSidebar] LLM analysis failed:', err);
-        setLlmError(err?.message || 'No fue posible generar el análisis causal en este momento.');
+        if (timeoutId) clearTimeout(timeoutId);
+
+        const isAborted =
+          err?.name === 'AbortError' ||
+          err?.message?.includes('aborted') ||
+          controller.signal.aborted ||
+          isCancelled;
+        if (isAborted) return;
+
+        // Log formatted warning to browser console without passing the Error instance directly to console.error,
+        // which prevents Next.js Turbopack dev client from halting with a modal overlay ("Console TypeError: Failed to fetch")
+        console.warn(`[GeoSidebar] LLM analysis request failed for ${iso}:`, err?.message || String(err));
+
+        const friendlyMessage =
+          err?.name === 'TypeError' || err?.message === 'Failed to fetch'
+            ? 'No fue posible conectar con el servicio de análisis causal en este momento.'
+            : err?.message || 'No fue posible generar el análisis causal en este momento.';
+
+        setLlmError(friendlyMessage);
         setLlmLoading(false);
       }
     })();
 
     return () => {
       isCancelled = true;
+      if (timeoutId) clearTimeout(timeoutId);
       controller.abort();
     };
-  }, [isPanelOpen, activeData?.iso, activeData?.name, activeMacro]);
+  }, [isPanelOpen, activeData?.iso, activeData?.name, activeMacro, retryTrigger]);
 
   useEffect(() => {
     if (!isPanelOpen) {
@@ -147,5 +179,5 @@ export function useLlmCausalAnalysis(
     }
   }, [isPanelOpen]);
 
-  return { llmAnalysis, llmLoading, llmError };
+  return { llmAnalysis, llmLoading, llmError, retryAnalysis };
 }

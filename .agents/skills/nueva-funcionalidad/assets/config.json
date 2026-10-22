@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "nota": "Todos los umbrales, pesos y techos de este archivo son Suposición: no están calibrados. Cámbialos aquí, no en el código.",
+
+  "estados": {
+    "idea":           {"nombre": "Idea",            "forma_mermaid": "circulo"},
+    "en_construccion":{"nombre": "En construcción", "forma_mermaid": "redondeado"},
+    "terminada":      {"nombre": "Terminada",       "forma_mermaid": "rectangulo"},
+    "descartada":     {"nombre": "Descartada",      "forma_mermaid": "hexagono"}
+  },
+
+  "formas_mermaid": {
+    "circulo":    ["((", "))"],
+    "redondeado": ["(", ")"],
+    "rectangulo": ["[", "]"],
+    "hexagono":   ["{{", "}}"],
+    "meta":       ["([", "])"]
+  },
+
+  "metas": {
+    "seguidores":             {"nombre": "Seguidores",                  "color": "#009E73"},
+    "investigacion_mercado":  {"nombre": "Investigación de mercado",    "color": "#0072B2"},
+    "monetizacion":           {"nombre": "Monetización",                "color": "#E69F00"},
+    "seguridad_riesgo_datos": {"nombre": "Seguridad y riesgo de datos", "color": "#D55E00"},
+    "sin_meta":               {"nombre": "Sin meta definida",           "color": "#BDBDBD"}
+  },
+
+  "tamano_por_dependencias": [
+    {"hasta": 1,   "nombre": "S",  "font_px": 12},
+    {"hasta": 3,   "nombre": "M",  "font_px": 15},
+    {"hasta": 5,   "nombre": "L",  "font_px": 18},
+    {"hasta": 999, "nombre": "XL", "font_px": 22}
+  ],
+
+  "demanda": {
+    "escala": "10 = el mercado lo pide expresamente, es una frustración actual y les conviene",
+    "criterios": {
+      "expresa":    {"nombre": "Lo piden expresamente",   "max": 4},
+      "frustracion":{"nombre": "Es una frustración actual","max": 3},
+      "conviene":   {"nombre": "Les conviene",             "max": 3}
+    },
+    "techo_por_evidencia": {
+      "Hecho": 1.0,
+      "Inferencia": 0.6,
+      "Hipótesis": 0.4,
+      "Suposición": 0.4,
+      "Evidencia insuficiente": 0.0
+    },
+    "alerta_demanda_alta": 7
+  },
+
+  "sistemas": {
+    "equity": {"nombre": "Equity system"},
+    "global": {"nombre": "Global system (globo geopolítico)"}
+  },
+
+  "figma": {
+    "archivo": "https://www.figma.com/board/FeKYNwhegpmFKhtVX7yHY6/Equity-Platform-%E2%80%94-Agent-Architecture",
+    "fileKey": "FeKYNwhegpmFKhtVX7yHY6",
+    "tipo": "FigJam",
+    "ubicacion": "misma pagina del tablero (hoy vacío)",
+    "secciones": "una por sistema (equity y global)",
+    "conectar_arquitectura": false,
+    "nota": "Decisiones de William del 2026-10-22. Borró las dos copias de la arquitectura, así que el tablero está vacío y parte_arquitectura se registra en la ficha pero no se dibuja como conexión. Si vuelve a dibujar la arquitectura, cambiar conectar_arquitectura a true y ampliar el script."
+  },
+
+  "ui_donde": ["dev", "publica", "ninguna_justificada"],
+  "monetizacion_valores": ["gratis", "pago", "por_decidir"]
+}

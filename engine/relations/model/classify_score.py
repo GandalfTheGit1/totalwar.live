@@ -14,15 +14,34 @@ PROVIDERS = [('gemini', 'gemini-2.5-flash'), ('groq', 'openai/gpt-oss-120b'), ('
 TODAY = F.TODAY
 
 
-def wikipedia_lead(title):
+def wikipedia_lead(title, lang=None):
     if not title:
         return ''
-    try:
-        d = json.loads(F.http_get('https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=1&explaintext=1&redirects=1&format=json&formatversion=2&titles='
-                                  + urllib.parse.quote(title)))
-        return d['query']['pages'][0].get('extract', '')[:5000]
-    except Exception:
+    if isinstance(title, dict):
+        lang = title.get('lang', lang)
+        title = title.get('title', '')
+    if not title:
         return ''
+
+    if lang:
+        domains = [f'{lang}.wikipedia.org']
+        fallback = 'en.wikipedia.org' if lang != 'en' else 'es.wikipedia.org'
+        domains.append(fallback)
+    elif title.startswith('Relaciones '):
+        domains = ['es.wikipedia.org', 'en.wikipedia.org']
+    else:
+        domains = ['en.wikipedia.org', 'es.wikipedia.org']
+
+    for dom in domains:
+        try:
+            url = f'https://{dom}/w/api.php?action=query&prop=extracts&exintro=1&explaintext=1&redirects=1&format=json&formatversion=2&titles=' + urllib.parse.quote(title)
+            d = json.loads(F.http_get(url))
+            page = d['query']['pages'][0]
+            if not page.get('missing') and page.get('extract'):
+                return page['extract'][:5000]
+        except Exception:
+            continue
+    return ''
 
 
 def catalog_text():
