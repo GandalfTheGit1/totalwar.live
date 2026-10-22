@@ -310,7 +310,7 @@
         "Con esto puedo comparar y seleccionar empíricamente los modelos de IA (clasificador A y B) evaluando estabilidad y sesgo sistemático."
       ],
       "estado": "terminada",
-      "meta_principal": "sin_meta",
+      "meta_principal": "seguridad_riesgo_datos",
       "metas_secundarias": [],
       "depende_de": [
         "reclamaciones-territoriales"
@@ -373,5 +373,6 @@
       ],
       "notas": "Estado terminada verificado: código en engine/relations/calibration/, scripts de prueba y 28 anclas validadas con pérdida 0."
     }
-  ]
+  ],
+  "definicion_seguridad_riesgo_datos": "Mejorar la seguridad que hay respecto a los datos que se traen a la mesa para los clientes y de esa forma, aumentar el valor de la empresa al tener mejores datos disponibles y representación de estos. Mejorar los Datos y prevenir que se filtren, dan una ventaja a la empresa."
 }

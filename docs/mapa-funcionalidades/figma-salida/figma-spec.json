@@ -105,8 +105,8 @@
     {
       "id": "calibracion-relaciones-gdelt",
       "nombre": "Calibración histórica del modelo de relaciones bilaterales",
-      "color": "#BDBDBD",
-      "meta_principal": "sin_meta",
+      "color": "#D55E00",
+      "meta_principal": "seguridad_riesgo_datos",
       "forma": "rectangulo",
       "estado": "terminada",
       "tamano": "S",
@@ -162,7 +162,7 @@
     {
       "tipo": "alimenta_meta",
       "de": "calibracion-relaciones-gdelt",
-      "a": "sin_meta",
+      "a": "seguridad_riesgo_datos",
       "principal": true
     }
   ],
