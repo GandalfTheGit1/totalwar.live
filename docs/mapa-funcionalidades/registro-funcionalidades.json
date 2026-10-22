@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "nota": "Registro de funcionalidades del Oráculo de Caja Transparente. Extraído de la documentación oficial según las reglas de oraculo-ficha-funcionalidad. Lote de prueba y calibración acordado.",
+  "funcionalidades": [
+    {
+      "id": "calibracion-brier",
+      "nombre": "Calibración y backtesting causal dual",
+      "resumen": "Audita la precisión predictiva con Brier Score y ejecuta backtesting causal en dos modos: Time-Travel con fecha de corte y Minero de Ingeniería Inversa en el S&P 500.",
+      "que_permite": [
+        "Con esto puedo congelar el reloj en una fecha pasada específica para evaluar si la banda predictiva anticipó el desenlace real sin sesgo de retrospectiva.",
+        "Con esto puedo escanear movimientos bruscos históricos en el S&P 500 y aislar las causas focales para construir árboles causales en el grafo."
+      ],
+      "estado": "en_construccion",
+      "meta_principal": "sin_meta",
+      "metas_secundarias": [],
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "monetizacion": "por_decidir",
+      "metrica_exito": {
+        "que_medir": "",
+        "umbral": "",
+        "plazo": ""
+      },
+      "ui": {
+        "donde": "dev",
+        "pantallas": [
+          "Terminal de backtesting causal en app/dev/backtest-terminal"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        }
+      },
+      "modelo": {
+        "planificador": "",
+        "ejecutor": "",
+        "verificador": "",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿A qué meta del negocio contribuye directamente la calibración?",
+        "Verificar si la migración de prediction_calibration_log cubre el modo 2 (minero inverso) o solo modo 1."
+      ],
+      "plan": "",
+      "sistema": "equity",
+      "parte_arquitectura": [
+        "Motores causales",
+        "Backtesting y Brier"
+      ],
+      "referencias_internas": [
+        "M41",
+        "T41"
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/tareas/fase-3-motor-monte-carlo/calibracion/M41-calibracion-brier-score-backtesting-causal-dual-time-tr.md",
+          "seccion": "Objetivo Causal, Lo que FALTA por hacer y Lista de Tareas"
+        }
+      ],
+      "notas": "Estado en_construccion: especificación matemática y tablas SQL listas; faltan scripts T41.2-T41.4 e interfaz visual T41.5."
+    },
+    {
+      "id": "laboratorio-forense",
+      "nombre": "Laboratorio forense contable y muro de vencimiento de deuda",
+      "resumen": "Suite determinista para detectar manipulación contable (Beneish M-Score, Dechow F-Score), autopsia de costos en 4 niveles, genealogía de deuda a 8 trimestres y muro de vencimiento SEC XBRL con kill switch automático.",
+      "que_permite": [
+        "Con esto puedo detectar manipulación contable mediante 7 criterios deterministas de 0 tokens de LLM con Hard Kill Switch automático.",
+        "Con esto puedo desglosar la autopsia de costos en 4 niveles y rastrear la genealogía del 60% de deuda estructural en 8 trimestres de earnings calls.",
+        "Con esto puedo extraer el muro de vencimientos de deuda a 5 años desde notas XBRL de SEC EDGAR para evaluar riesgo de refinanciación."
+      ],
+      "estado": "terminada",
+      "meta_principal": "sin_meta",
+      "metas_secundarias": [],
+      "depende_de": [
+        "calibracion-brier"
+      ],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "monetizacion": "por_decidir",
+      "metrica_exito": {
+        "que_medir": "",
+        "umbral": "",
+        "plazo": ""
+      },
+      "ui": {
+        "donde": "dev",
+        "pantallas": [
+          "Laboratorio de fraude y radar contable en app/dev/fraud-analysis",
+          "Tarjeta de muro de vencimiento de deuda CompanyDebtWallCard"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        }
+      },
+      "modelo": {
+        "planificador": "",
+        "ejecutor": "",
+        "verificador": "",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "Definir si en el MVP público la suite forense se ofrece de acceso libre (gratis) como gancho de entrada.",
+        "Evaluar latencia del endpoint pre-gate de 16 tests contables en entornos de producción con alta concurrencia."
+      ],
+      "plan": "",
+      "sistema": "equity",
+      "parte_arquitectura": [
+        "Agente forense",
+        "Hard Kill Switch",
+        "SEC XBRL Ingest"
+      ],
+      "referencias_internas": [
+        "M31",
+        "T31"
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/tareas/fase-1-investigacion-finanzas-sentimiento/finanzas-forense/M31-laboratorio-forense-contable-autopsia-de-costos-deuda.md",
+          "seccion": "Objetivo Causal, Archivos Clave, Lo que YA está hecho"
+        }
+      ],
+      "notas": "Estado terminada verificado: código en app/dev/fraud-analysis, lib/scoring/forensic-criteria.ts y 63 tests automatizados en verde en __tests__/forensic-cost-debt-m31.test.ts y __tests__/forensic-category-stress.test.ts."
+    },
+    {
+      "id": "regimen-credito-bonos",
+      "nombre": "Régimen de crédito y curvas de rendimiento soberanas",
+      "resumen": "Filtro de contexto y motor multifactorial que integra curvas del Tesoro de EE.UU. (XML), BCE (SDMX) y spreads de FRED para clasificar el entorno de crédito en Normal, Tensión o Distress sin entrar al score.",
+      "que_permite": [
+        "Con esto puedo visualizar las curvas de rendimiento del Tesoro de EE.UU. y del BCE en tiempo real junto con spreads corporativos de FRED.",
+        "Con esto puedo clasificar el régimen de crédito en tres estados (Normal, Tensión, Distress) como filtro de contexto antes de evaluar tesis.",
+        "Con esto puedo simular escenarios de shock what-if en la curva de tipos y spreads para evaluar resiliencia soberana."
+      ],
+      "estado": "terminada",
+      "meta_principal": "sin_meta",
+      "metas_secundarias": [],
+      "depende_de": [
+        "calibracion-brier"
+      ],
+      "separado_de": [
+        "score de empresas",
+        "detector-no-visto"
+      ],
+      "monetizacion": "por_decidir",
+      "metrica_exito": {
+        "que_medir": "",
+        "umbral": "",
+        "plazo": ""
+      },
+      "ui": {
+        "donde": "dev",
+        "pantallas": [
+          "Dashboard de curvas soberanas y spreads en app/dev/sovereign-yields",
+          "Panel de régimen crediticio credit-regime-engine"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        }
+      },
+      "modelo": {
+        "planificador": "",
+        "ejecutor": "",
+        "verificador": "",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "Límites de cuotas y términos de uso comercial de la API de FRED y SDMX del BCE.",
+        "Conectar lib/dalio-model.ts a series vivas de FRED sin valores estáticos (T15.1)."
+      ],
+      "plan": "",
+      "sistema": "equity",
+      "parte_arquitectura": [
+        "Fuentes Macro y Bonos",
+        "Motor de Régimen Crediticio"
+      ],
+      "referencias_internas": [
+        "M15",
+        "T15"
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/tareas/fase-2-contexto-flujos-y-complementos/macro-geopolitica/M15-modelo-macroeconomico-de-ray-dalio-deuda-soberana-capex.md",
+          "seccion": "Objetivo Causal, Lo que YA está hecho, T15.4"
+        }
+      ],
+      "notas": "Estado terminada verificado: código en lib/bonds/, lib/dalio-model.ts, dashboard en app/dev/sovereign-yields y tests en __tests__/bond-parsers.test.ts, __tests__/credit-regime-engine.test.ts y __tests__/bond-components.test.tsx."
+    },
+    {
+      "id": "reclamaciones-territoriales",
+      "nombre": "Motor de reclamaciones territoriales y fricción bilateral",
+      "resumen": "Calcula el impacto de 60 disputas territoriales activas, latentes y militarizadas sobre las relaciones bilaterales y las proyecta en el mapa 2D y globo 3D.",
+      "que_permite": [
+        "Con esto puedo cuantificar la fricción bilateral de 60 reclamaciones territoriales mediante factores de relevancia (core, major, minor) y descuento por alianzas.",
+        "Con esto puedo visualizar geometrías simplificadas de reclamaciones con tramas rayadas en el mapa 2D y marcadores táctiles en el globo 3D.",
+        "Con esto puedo auditar pares bilaterales clave (Grecia-Turquía, China-Filipinas, Afganistán-Pakistán) contra un banco de 89 pares de referencia."
+      ],
+      "estado": "terminada",
+      "meta_principal": "sin_meta",
+      "metas_secundarias": [],
+      "depende_de": [],
+      "separado_de": [],
+      "monetizacion": "por_decidir",
+      "metrica_exito": {
+        "que_medir": "",
+        "umbral": "",
+        "plazo": ""
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Modo claims en MapModeSelector",
+          "Globo 3D y Mapa 2D con tramas rayadas",
+          "Sección TerritorialClaimsSection en barra lateral"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        }
+      },
+      "modelo": {
+        "planificador": "",
+        "ejecutor": "",
+        "verificador": "",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Cómo se conecta este motor con el diagnóstico macro del Equity system?",
+        "Evaluar impacto de rendimiento WebGL en dispositivos móviles al proyectar 60 tramas simultáneas en el globo."
+      ],
+      "plan": "",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "Motor de fricción soberana",
+        "Visualizador Cartográfico 2D/3D"
+      ],
+      "referencias_internas": [
+        "relaciones-reclamaciones",
+        "audit_claims"
+      ],
+      "fuentes": [
+        {
+          "archivo": "engine/relations/docs/reclamaciones.md",
+          "seccion": "Problema, Qué se hizo y Validación"
+        }
+      ],
+      "notas": "Estado terminada verificado: código en engine/relations/model/, world/export_claims_geo.py, frontend en components/ y validación en __tests__/territorial-claims.test.tsx con 36/36 pares evaluados con éxito."
+    },
+    {
+      "id": "calibracion-relaciones-gdelt",
+      "nombre": "Calibración histórica del modelo de relaciones bilaterales",
+      "resumen": "Auditoría empírica con 28 anclas históricas congeladas sobre episodios España-Marruecos e India-Canadá para validar parámetros del modelo de puntuación y selección de LLMs.",
+      "que_permite": [
+        "Con esto puedo verificar si los parámetros de vida media y saturación dinámica del modelo bilateral cumplen las 28 anclas históricas congeladas sin sobreajuste.",
+        "Con esto puedo comparar y seleccionar empíricamente los modelos de IA (clasificador A y B) evaluando estabilidad y sesgo sistemático."
+      ],
+      "estado": "terminada",
+      "meta_principal": "sin_meta",
+      "metas_secundarias": [],
+      "depende_de": [
+        "reclamaciones-territoriales"
+      ],
+      "separado_de": [],
+      "monetizacion": "por_decidir",
+      "metrica_exito": {
+        "que_medir": "",
+        "umbral": "",
+        "plazo": ""
+      },
+      "ui": {
+        "donde": "dev",
+        "pantallas": [
+          "Scripts de calibración y reportes de pérdida en engine/relations/calibration/"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": ""
+        }
+      },
+      "modelo": {
+        "planificador": "",
+        "ejecutor": "",
+        "verificador": "",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "Las anclas y etiquetas reflejan el criterio del analista, no una verdad independiente.",
+        "El peso de lo anunciado y el límite superior de vidas medias siguen no identificados estadísticamente."
+      ],
+      "plan": "",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "Calibración empírica",
+        "Banco de anclas históricas"
+      ],
+      "referencias_internas": [
+        "relaciones-calibracion",
+        "anchors"
+      ],
+      "fuentes": [
+        {
+          "archivo": "engine/relations/docs/calibracion.md",
+          "seccion": "Qué se hizo y qué NO demuestra, Resultado 1 y 2"
+        }
+      ],
+      "notas": "Estado terminada verificado: código en engine/relations/calibration/, scripts de prueba y 28 anclas validadas con pérdida 0."
+    }
+  ]
+}
