@@ -1,0 +1,170 @@
+{
+  "leyenda": {
+    "color": {
+      "seguidores": "#009E73",
+      "investigacion_mercado": "#0072B2",
+      "monetizacion": "#E69F00",
+      "seguridad_riesgo_datos": "#D55E00",
+      "sin_meta": "#BDBDBD"
+    },
+    "forma": {
+      "idea": "circulo",
+      "en_construccion": "redondeado",
+      "terminada": "rectangulo",
+      "descartada": "hexagono"
+    },
+    "tamano": [
+      {
+        "hasta": 1,
+        "nombre": "S",
+        "font_px": 12
+      },
+      {
+        "hasta": 3,
+        "nombre": "M",
+        "font_px": 15
+      },
+      {
+        "hasta": 5,
+        "nombre": "L",
+        "font_px": 18
+      },
+      {
+        "hasta": 999,
+        "nombre": "XL",
+        "font_px": 22
+      }
+    ]
+  },
+  "nodos": [
+    {
+      "id": "calibracion-brier",
+      "nombre": "Calibración y backtesting causal dual",
+      "color": "#BDBDBD",
+      "meta_principal": "sin_meta",
+      "forma": "redondeado",
+      "estado": "en_construccion",
+      "tamano": "S",
+      "dependencias": 0,
+      "demanda": "0/10",
+      "sistema": "equity",
+      "parte_arquitectura": [
+        "Motores causales",
+        "Backtesting y Brier"
+      ]
+    },
+    {
+      "id": "laboratorio-forense",
+      "nombre": "Laboratorio forense contable y muro de vencimiento de deuda",
+      "color": "#BDBDBD",
+      "meta_principal": "sin_meta",
+      "forma": "rectangulo",
+      "estado": "terminada",
+      "tamano": "S",
+      "dependencias": 1,
+      "demanda": "0/10",
+      "sistema": "equity",
+      "parte_arquitectura": [
+        "Agente forense",
+        "Hard Kill Switch",
+        "SEC XBRL Ingest"
+      ]
+    },
+    {
+      "id": "regimen-credito-bonos",
+      "nombre": "Régimen de crédito y curvas de rendimiento soberanas",
+      "color": "#BDBDBD",
+      "meta_principal": "sin_meta",
+      "forma": "rectangulo",
+      "estado": "terminada",
+      "tamano": "S",
+      "dependencias": 1,
+      "demanda": "0/10",
+      "sistema": "equity",
+      "parte_arquitectura": [
+        "Fuentes Macro y Bonos",
+        "Motor de Régimen Crediticio"
+      ]
+    },
+    {
+      "id": "reclamaciones-territoriales",
+      "nombre": "Motor de reclamaciones territoriales y fricción bilateral",
+      "color": "#BDBDBD",
+      "meta_principal": "sin_meta",
+      "forma": "rectangulo",
+      "estado": "terminada",
+      "tamano": "S",
+      "dependencias": 0,
+      "demanda": "0/10",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "Motor de fricción soberana",
+        "Visualizador Cartográfico 2D/3D"
+      ]
+    },
+    {
+      "id": "calibracion-relaciones-gdelt",
+      "nombre": "Calibración histórica del modelo de relaciones bilaterales",
+      "color": "#BDBDBD",
+      "meta_principal": "sin_meta",
+      "forma": "rectangulo",
+      "estado": "terminada",
+      "tamano": "S",
+      "dependencias": 1,
+      "demanda": "0/10",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "Calibración empírica",
+        "Banco de anclas históricas"
+      ]
+    }
+  ],
+  "conexiones": [
+    {
+      "tipo": "alimenta_meta",
+      "de": "calibracion-brier",
+      "a": "sin_meta",
+      "principal": true
+    },
+    {
+      "tipo": "depende_de",
+      "de": "laboratorio-forense",
+      "a": "calibracion-brier"
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "laboratorio-forense",
+      "a": "sin_meta",
+      "principal": true
+    },
+    {
+      "tipo": "depende_de",
+      "de": "regimen-credito-bonos",
+      "a": "calibracion-brier"
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "regimen-credito-bonos",
+      "a": "sin_meta",
+      "principal": true
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "reclamaciones-territoriales",
+      "a": "sin_meta",
+      "principal": true
+    },
+    {
+      "tipo": "depende_de",
+      "de": "calibracion-relaciones-gdelt",
+      "a": "reclamaciones-territoriales"
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "calibracion-relaciones-gdelt",
+      "a": "sin_meta",
+      "principal": true
+    }
+  ],
+  "avisos": []
+}
