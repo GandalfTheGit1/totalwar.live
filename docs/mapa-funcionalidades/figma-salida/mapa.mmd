@@ -10,20 +10,28 @@ flowchart LR
         reclamaciones_territoriales["Motor de reclamaciones territoriales y fricción bilateral | demanda 0/10 | 0 dep."]
         calibracion_relaciones_gdelt["Calibración histórica del modelo de relaciones bilaterales | demanda 0/10 | 1 dep."]
     end
+    meta_monetizacion(["Monetización"])
+    meta_seguridad_riesgo_datos(["Seguridad y riesgo de datos"])
     meta_sin_meta(["Sin meta definida"])
-    calibracion_brier -.-> meta_sin_meta
+    calibracion_brier -.-> meta_seguridad_riesgo_datos
     laboratorio_forense --> calibracion_brier
-    laboratorio_forense -.-> meta_sin_meta
+    laboratorio_forense -.-> meta_seguridad_riesgo_datos
     regimen_credito_bonos --> calibracion_brier
-    regimen_credito_bonos -.-> meta_sin_meta
-    reclamaciones_territoriales -.-> meta_sin_meta
+    regimen_credito_bonos -.-> meta_monetizacion
+    reclamaciones_territoriales -.-> meta_seguridad_riesgo_datos
     calibracion_relaciones_gdelt --> reclamaciones_territoriales
     calibracion_relaciones_gdelt -.-> meta_sin_meta
+    classDef c_seguridad_riesgo_datos_S fill:#D55E00,stroke:#222,color:#000,font-size:12px
+    classDef c_monetizacion_S fill:#E69F00,stroke:#222,color:#000,font-size:12px
     classDef c_sin_meta_S fill:#BDBDBD,stroke:#222,color:#000,font-size:12px
+    classDef m_monetizacion fill:#E69F00,stroke:#222,color:#000,stroke-width:4px
+    classDef m_seguridad_riesgo_datos fill:#D55E00,stroke:#222,color:#000,stroke-width:4px
     classDef m_sin_meta fill:#BDBDBD,stroke:#222,color:#000,stroke-width:4px
-    class calibracion_brier c_sin_meta_S
-    class laboratorio_forense c_sin_meta_S
-    class regimen_credito_bonos c_sin_meta_S
-    class reclamaciones_territoriales c_sin_meta_S
+    class calibracion_brier c_seguridad_riesgo_datos_S
+    class laboratorio_forense c_seguridad_riesgo_datos_S
+    class regimen_credito_bonos c_monetizacion_S
+    class reclamaciones_territoriales c_seguridad_riesgo_datos_S
     class calibracion_relaciones_gdelt c_sin_meta_S
+    class meta_monetizacion m_monetizacion
+    class meta_seguridad_riesgo_datos m_seguridad_riesgo_datos
     class meta_sin_meta m_sin_meta

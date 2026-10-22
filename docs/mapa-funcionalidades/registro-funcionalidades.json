@@ -11,7 +11,7 @@
         "Con esto puedo escanear movimientos bruscos históricos en el S&P 500 y aislar las causas focales para construir árboles causales en el grafo."
       ],
       "estado": "en_construccion",
-      "meta_principal": "sin_meta",
+      "meta_principal": "seguridad_riesgo_datos",
       "metas_secundarias": [],
       "depende_de": [],
       "separado_de": [
@@ -84,7 +84,7 @@
         "Con esto puedo extraer el muro de vencimientos de deuda a 5 años desde notas XBRL de SEC EDGAR para evaluar riesgo de refinanciación."
       ],
       "estado": "terminada",
-      "meta_principal": "sin_meta",
+      "meta_principal": "seguridad_riesgo_datos",
       "metas_secundarias": [],
       "depende_de": [
         "calibracion-brier"
@@ -161,7 +161,7 @@
         "Con esto puedo simular escenarios de shock what-if en la curva de tipos y spreads para evaluar resiliencia soberana."
       ],
       "estado": "terminada",
-      "meta_principal": "sin_meta",
+      "meta_principal": "monetizacion",
       "metas_secundarias": [],
       "depende_de": [
         "calibracion-brier"
@@ -238,7 +238,7 @@
         "Con esto puedo auditar pares bilaterales clave (Grecia-Turquía, China-Filipinas, Afganistán-Pakistán) contra un banco de 89 pares de referencia."
       ],
       "estado": "terminada",
-      "meta_principal": "sin_meta",
+      "meta_principal": "seguridad_riesgo_datos",
       "metas_secundarias": [],
       "depende_de": [],
       "separado_de": [],

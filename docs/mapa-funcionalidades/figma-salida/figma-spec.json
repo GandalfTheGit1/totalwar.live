@@ -40,8 +40,8 @@
     {
       "id": "calibracion-brier",
       "nombre": "Calibración y backtesting causal dual",
-      "color": "#BDBDBD",
-      "meta_principal": "sin_meta",
+      "color": "#D55E00",
+      "meta_principal": "seguridad_riesgo_datos",
       "forma": "redondeado",
       "estado": "en_construccion",
       "tamano": "S",
@@ -56,8 +56,8 @@
     {
       "id": "laboratorio-forense",
       "nombre": "Laboratorio forense contable y muro de vencimiento de deuda",
-      "color": "#BDBDBD",
-      "meta_principal": "sin_meta",
+      "color": "#D55E00",
+      "meta_principal": "seguridad_riesgo_datos",
       "forma": "rectangulo",
       "estado": "terminada",
       "tamano": "S",
@@ -73,8 +73,8 @@
     {
       "id": "regimen-credito-bonos",
       "nombre": "Régimen de crédito y curvas de rendimiento soberanas",
-      "color": "#BDBDBD",
-      "meta_principal": "sin_meta",
+      "color": "#E69F00",
+      "meta_principal": "monetizacion",
       "forma": "rectangulo",
       "estado": "terminada",
       "tamano": "S",
@@ -89,8 +89,8 @@
     {
       "id": "reclamaciones-territoriales",
       "nombre": "Motor de reclamaciones territoriales y fricción bilateral",
-      "color": "#BDBDBD",
-      "meta_principal": "sin_meta",
+      "color": "#D55E00",
+      "meta_principal": "seguridad_riesgo_datos",
       "forma": "rectangulo",
       "estado": "terminada",
       "tamano": "S",
@@ -123,7 +123,7 @@
     {
       "tipo": "alimenta_meta",
       "de": "calibracion-brier",
-      "a": "sin_meta",
+      "a": "seguridad_riesgo_datos",
       "principal": true
     },
     {
@@ -134,7 +134,7 @@
     {
       "tipo": "alimenta_meta",
       "de": "laboratorio-forense",
-      "a": "sin_meta",
+      "a": "seguridad_riesgo_datos",
       "principal": true
     },
     {
@@ -145,13 +145,13 @@
     {
       "tipo": "alimenta_meta",
       "de": "regimen-credito-bonos",
-      "a": "sin_meta",
+      "a": "monetizacion",
       "principal": true
     },
     {
       "tipo": "alimenta_meta",
       "de": "reclamaciones-territoriales",
-      "a": "sin_meta",
+      "a": "seguridad_riesgo_datos",
       "principal": true
     },
     {
