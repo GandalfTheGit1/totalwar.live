@@ -45,6 +45,18 @@ const LAYER_META: Record<
     description: 'Estrechos navales y cuellos de botella de tránsito marítimo',
     badgeStyle: 'bg-sky-500/15 text-sky-300 border-sky-500/30',
   },
+  military: {
+    badge: 'RANKING MILITAR',
+    title: 'Potencia militar',
+    description: 'Más intenso = mejor posición en el ranking',
+    badgeStyle: 'bg-sky-500/15 text-sky-300 border-sky-500/30',
+  },
+  stability: {
+    badge: 'ESTABILIDAD',
+    title: 'Riesgo de conflicto interno',
+    description: 'Más intenso = más cerca de revueltas o conflicto interno',
+    badgeStyle: 'bg-rose-500/15 text-rose-300 border-rose-500/30',
+  },
   footprint: {
     badge: 'HUELLA CORPORATIVA',
     title: 'Red Operativa & Expansión',
@@ -222,7 +234,7 @@ export const GeopoliticalHUD: React.FC<GeopoliticalHUDProps> = ({
   const { showWorldTensionIndex } = useSettings();
   const theWholeScene = GeopoliticalKnowledgeService.getTheWholeScene();
   return (
-    <div className={`absolute top-16 left-4 z-20 pointer-events-none flex flex-col gap-3 max-w-sm ${className}`}>
+    <div className={`absolute top-[calc(var(--topbar-h,56px)+8px)] left-4 z-20 pointer-events-none flex flex-col gap-3 max-w-sm ${className}`}>
       <div className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-700/80 p-4 rounded-xl shadow-2xl pointer-events-auto">
         {/* Title Header */}
         <div className="flex items-center justify-between gap-3 mb-1.5">
@@ -350,7 +362,7 @@ export const GeopoliticalHUD: React.FC<GeopoliticalHUDProps> = ({
 
       {/* Dynamic Overlay Elements */}
       {showWorldTensionIndex && (
-        <div className="fixed top-16 right-4 pointer-events-auto">
+        <div className="fixed top-[calc(var(--topbar-h,56px)+8px)] right-4 pointer-events-auto">
           <WorldTensionWidget />
         </div>
       )}

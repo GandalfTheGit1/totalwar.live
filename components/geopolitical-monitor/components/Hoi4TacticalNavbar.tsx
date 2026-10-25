@@ -31,6 +31,8 @@ export interface Hoi4TacticalNavbarProps {
   blockedCount: number;
   onOpenSimulationDrawer: () => void;
   worldTension?: { tensionIndex: number; source?: string } | null;
+  /** Oculta tensión y DEFCON cuando la Top information bar ya los muestra. */
+  hideTelemetry?: boolean;
   className?: string;
 }
 
@@ -43,6 +45,7 @@ export const Hoi4TacticalNavbar: React.FC<Hoi4TacticalNavbarProps> = ({
   blockedCount,
   onOpenSimulationDrawer,
   worldTension,
+  hideTelemetry = false,
   className = '',
 }) => {
   const tension = worldTension?.tensionIndex ?? 42;
@@ -115,6 +118,7 @@ export const Hoi4TacticalNavbar: React.FC<Hoi4TacticalNavbarProps> = ({
         {/* ─── 2. Displays de Telemetría Táctica (Tensión Mundial & DEFCON) ─── */}
         <div className="flex items-center gap-2 sm:gap-3 flex-wrap font-mono">
           {/* Telemetría: World Tension */}
+          {!hideTelemetry && (
           <div
             data-testid="hoi4-world-tension-badge"
             className="flex items-center gap-2 px-2.5 py-1 rounded bg-slate-900/90 border border-slate-700/80 shadow-inner text-[11px]"
@@ -139,7 +143,10 @@ export const Hoi4TacticalNavbar: React.FC<Hoi4TacticalNavbarProps> = ({
             </div>
           </div>
 
+          )}
+
           {/* Telemetría: Indicador DEFCON */}
+          {!hideTelemetry && (
           <div
             data-testid="hoi4-defcon-badge"
             className={`flex items-center gap-1.5 px-2.5 py-1 rounded border font-bold text-[11px] ${defconConfig.badgeClass}`}
@@ -148,6 +155,7 @@ export const Hoi4TacticalNavbar: React.FC<Hoi4TacticalNavbarProps> = ({
             <ShieldAlert className="w-3.5 h-3.5 shrink-0" />
             <span className="tracking-wider">{defconConfig.label}</span>
           </div>
+          )}
 
           {/* Telemetría: Chokepoints Activos */}
           <button

@@ -24,6 +24,7 @@ import {
 } from './thematic/resources-maritime-generator';
 import { getFootprintLayerData } from './thematic/footprint-generator';
 import { resolveThematicCountryData } from './thematic/feature-resolver';
+import { getMilitaryLayerData, getStabilityLayerData } from './thematic/topbar-generators';
 
 export type {
   CorporateFootprintCountryConfig,
@@ -57,6 +58,10 @@ export function getThematicLayerData(
       return getMaritimeLayerData();
     case 'footprint':
       return getFootprintLayerData(footprintConfig);
+    case 'military':
+      return getMilitaryLayerData();
+    case 'stability':
+      return getStabilityLayerData();
     case 'none':
     default:
       return {};

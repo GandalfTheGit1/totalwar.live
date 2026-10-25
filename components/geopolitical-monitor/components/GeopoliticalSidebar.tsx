@@ -77,7 +77,7 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
 
   return (
     <div
-      className={`fixed right-0 top-14 bottom-0 w-full sm:w-[460px] transform ${
+      className={`fixed right-0 top-[var(--topbar-h,56px)] bottom-0 w-full sm:w-[460px] transform ${
         isPanelOpen ? 'translate-x-0' : 'translate-x-full'
       } transition-transform duration-300 z-30 bg-zinc-900/95 backdrop-blur-2xl border-l border-zinc-700/80 flex flex-col shadow-2xl overflow-hidden`}
     >

@@ -13,7 +13,7 @@ export interface MapModeSelectorProps {
 
 export const MapModeSelector: React.FC<MapModeSelectorProps> = ({ activeMode, onModeChange, className = '' }) => {
   return (
-    <div className={`absolute top-16 left-1/2 -translate-x-1/2 z-20 pointer-events-auto ${className}`}>
+    <div className={`absolute top-[calc(var(--topbar-h,56px)+8px)] left-1/2 -translate-x-1/2 z-20 pointer-events-auto ${className}`}>
       <div className="flex items-center bg-zinc-900/80 backdrop-blur-xl border border-zinc-700/80 p-1 rounded-xl shadow-2xl">
         <button
           onClick={() => onModeChange('risk')}

@@ -5,7 +5,7 @@
 
 'use client';
 
-import React from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { AlertTriangle, Globe as GlobeIcon } from 'lucide-react';
 import { useGeopoliticalMonitor } from './hooks/useGeopoliticalMonitor';
 import { GeopoliticalHUD } from './components/GeopoliticalHUD';
@@ -18,6 +18,12 @@ import { FacilityTacticalPopover } from './components/FacilityTacticalPopover';
 import { Hoi4TacticalNavbar } from './components/Hoi4TacticalNavbar';
 import { ChokepointSimulationDrawer } from './components/ChokepointSimulationDrawer';
 import { useHoi4Mechanics } from './hooks/useHoi4Mechanics';
+import {
+  TopInformationBar, TopBarDrawer, useTopBarScene, computeCells, computeDefconLevel,
+  type TopBarContext,
+} from './components/top-bar';
+import { resolveIsoFromFeature } from './hooks/monitor/relations-builder';
+import { getSovereignProfileCached, resolveSupportedIso2 } from './utils/sovereign-cache';
 import { ThematicLayer } from './types';
 import { resolveThematicCountryData } from './hooks/useThematicLayerData';
 
@@ -99,6 +105,7 @@ export default function GeopoliticalMonitor({
     handleSelectCountryByIso,
     // Comercio Marítimo & Simulación de Chokepoints (T03.5)
     showMaritimeRoutes,
+    setShowMaritimeRoutes,
     toggleMaritimeRoutes,
     blockedChokepoints,
     setBlockedChokepoints,
@@ -116,10 +123,56 @@ export default function GeopoliticalMonitor({
   // Cómputo de World Tension (GDELT / Hoi4 Mechanics)
   const { worldTension } = useHoi4Mechanics({});
 
+  // ─── Top information bar: datos reales del país seleccionado ─────────
+  const selectedIso = selectedCountry ? resolveIsoFromFeature(selectedCountry) : null;
+  const iso2 = resolveSupportedIso2(selectedIso);
+  const profile = useMemo(() => (iso2 ? getSovereignProfileCached(iso2) : null), [iso2]);
+  const tension = worldTension?.tensionIndex ?? 45;
+  const defcon = computeDefconLevel(tension, blockedChokepoints.length);
+  const cells = useMemo(
+    () => computeCells({ iso2, profile, macro: activeMacro, blockedCount: blockedChokepoints.length }),
+    [iso2, profile, activeMacro, blockedChokepoints.length]
+  );
+  const { activeDomain, openDomain } = useTopBarScene({
+    activeMode,
+    handleModeChange,
+    activeLayer,
+    handleLayerChange,
+    showMaritimeRoutes,
+    setShowMaritimeRoutes,
+  });
+  const topBarContext: TopBarContext = {
+    iso2,
+    countryName: profile?.nameEs ?? selectedCountry?.properties?.ADMIN ?? null,
+    profile,
+    macro: activeMacro,
+    isMacroLoading,
+    blockedChokepoints,
+    toggleChokepoint,
+    simulationResult,
+    selectedCommodity,
+    setSelectedCommodity,
+    worldTension,
+    defcon,
+  };
+
+  // Altura real de las barras superiores, para que HUD y selectores no queden tapados.
+  const topRef = useRef<HTMLDivElement>(null);
+  const [topbarH, setTopbarH] = useState(56);
+  useEffect(() => {
+    const el = topRef.current;
+    if (!el || typeof ResizeObserver === 'undefined') return;
+    const ro = new ResizeObserver(() => setTopbarH(Math.round(el.getBoundingClientRect().height)));
+    ro.observe(el);
+    setTopbarH(Math.round(el.getBoundingClientRect().height));
+    return () => ro.disconnect();
+  }, []);
+
   return (
     <div
       ref={containerRef}
       onPointerMove={handlePointerMove}
+      style={{ '--topbar-h': `${topbarH}px` } as React.CSSProperties}
       className="relative w-full h-full bg-[#020617] text-zinc-100 overflow-hidden font-sans select-none"
     >
       {/* ─── Loading State Overlay ────────────────────────────────────────── */}
@@ -150,6 +203,16 @@ export default function GeopoliticalMonitor({
       )}
 
       {/* ─── Hearts of Iron IV Tactical Command Navbar (T03.5) ───────────── */}
+      <div ref={topRef} className="relative z-40 w-full">
+      <TopInformationBar
+        cells={cells}
+        activeDomain={activeDomain}
+        onSelectDomain={openDomain}
+        tension={tension}
+        defcon={defcon}
+        countryLabel={iso2 ?? null}
+        countryFlag={profile?.flag}
+      />
       <Hoi4TacticalNavbar
         is2DMode={is2DMode}
         onToggle2DMode={setIs2DMode}
@@ -159,7 +222,12 @@ export default function GeopoliticalMonitor({
         blockedCount={blockedChokepoints.length}
         onOpenSimulationDrawer={openChokepointDrawer}
         worldTension={worldTension}
+        hideTelemetry
       />
+      </div>
+
+      {/* ─── Drawer del botón activo de la Top information bar ───────────── */}
+      <TopBarDrawer domain={activeDomain} ctx={topBarContext} onClose={() => openDomain(null)} />
 
       {/* ─── Chokepoint Blockade Simulation Drawer (T03.5) ───────────────── */}
       <ChokepointSimulationDrawer
@@ -176,6 +244,7 @@ export default function GeopoliticalMonitor({
       />
 
       {/* ─── Floating Top Controls & HUD ─────────────────────────────────── */}
+      {!activeDomain && (
       <GeopoliticalHUD
         geoDataCount={geoJsonData.length}
         is2DMode={is2DMode}
@@ -191,6 +260,7 @@ export default function GeopoliticalMonitor({
         layerData={layerData}
         onResetLayer={() => handleLayerChange('none')}
       />
+      )}
 
       {/* ─── Mode Selector Tab ───────────────────────────────────────────── */}
       <MapModeSelector activeMode={activeMode} onModeChange={handleModeChange} />
@@ -205,7 +275,7 @@ export default function GeopoliticalMonitor({
 
       {/* ─── Footprint Ticker Filter (Visible when Footprint layer is active) ─ */}
       {activeMode === 'risk' && activeLayer === 'footprint' && (
-        <div className="absolute top-40 left-1/2 -translate-x-1/2 z-20 pointer-events-auto">
+        <div className="absolute top-[calc(var(--topbar-h,56px)+104px)] left-1/2 -translate-x-1/2 z-20 pointer-events-auto">
           <div className="flex items-center gap-1 bg-zinc-950/85 backdrop-blur-xl border border-zinc-700/80 px-2 py-1 rounded-xl shadow-xl max-w-[calc(100vw-2rem)] overflow-x-auto text-[10px] font-mono">
             <span className="text-zinc-400 font-bold px-1.5 py-0.5 flex items-center gap-1">
               <span>🏢</span>
