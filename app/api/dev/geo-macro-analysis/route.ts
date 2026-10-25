@@ -25,6 +25,70 @@ interface ServerCachedAnalysis {
 const serverAnalysisCache = new Map<string, ServerCachedAnalysis>();
 const SERVER_CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
 
+function generateDeterministicDalioAnalysis(params: {
+  countryName: string;
+  cleanIso: string;
+  shortPhase: string;
+  gdpGrowth: string;
+  inflation: string;
+  pmiComposite?: number | null;
+  rvsGStatus: string;
+  yieldCurveSignal: string;
+  m2Growth: string;
+  leversSummary: string;
+  deleveragingStatus: string;
+  riskScore?: number | null;
+}): string {
+  const {
+    countryName,
+    cleanIso,
+    shortPhase,
+    gdpGrowth,
+    inflation,
+    pmiComposite,
+    rvsGStatus,
+    yieldCurveSignal,
+    m2Growth,
+    leversSummary,
+    deleveragingStatus,
+    riskScore,
+  } = params;
+
+  const sentences: string[] = [];
+
+  const pmiDetail = pmiComposite !== null && pmiComposite !== undefined
+    ? `un PMI compuesto de ${pmiComposite} (${pmiComposite >= 50 ? 'expansión' : 'contracción'})`
+    : 'actividad económica sin datos de PMI';
+  sentences.push(
+    `La economía de ${countryName} (${cleanIso}) se encuentra en la fase de "${shortPhase}", condicionada por un crecimiento del PIB de ${gdpGrowth}, una inflación del ${inflation} y ${pmiDetail}.`
+  );
+
+  sentences.push(
+    `Bajo la regla Dalio de tasa de interés frente a crecimiento nominal (r vs g), la dinámica de deuda se diagnostica como: ${rvsGStatus}.`
+  );
+
+  const curveText = yieldCurveSignal === 'inversion' || yieldCurveSignal === 'invertida'
+    ? 'la curva de rendimientos invertida anticipa tensiones en el ciclo de crédito'
+    : yieldCurveSignal === 'normal' || yieldCurveSignal === 'empinada'
+      ? 'la curva de rendimientos respalda la intermediación financiera'
+      : `la señal de la curva de tipos se mantiene en estado "${yieldCurveSignal}"`;
+  sentences.push(
+    `El impulso de crédito muestra una variación de masa monetaria M2 de ${m2Growth}, mientras ${curveText}.`
+  );
+
+  sentences.push(
+    `El régimen de ajuste se clasifica como "${deleveragingStatus}", apoyado en las siguientes palancas dominantes: ${leversSummary}.`
+  );
+
+  if (riskScore !== null && riskScore !== undefined) {
+    sentences.push(
+      `Con una puntuación de riesgo soberano de ${riskScore}/100, la capacidad de amortiguar perturbaciones macrofinancieras depende de la estabilidad de sus flujos externos.`
+    );
+  }
+
+  return sentences.join(' ');
+}
+
 async function POST_HANDLER(request: NextRequest) {
   try {
     const body = await request.json();
@@ -164,42 +228,63 @@ REGLAS OBLIGATORIAS:
 
 Genera ahora la deducción causal estructurada en español (4-6 frases, texto plano):`;
 
-    const rawAnalysis = await callLlm({
-      systemPrompt,
-      userPrompt,
-      temperature: 0.2,
-      maxTokens: 700,
-      tier: 'MEDIUM',
-    });
+    let cleanAnalysis = '';
+    let isFallback = false;
 
-    let cleanAnalysis = rawAnalysis ? rawAnalysis.trim() : '';
+    try {
+      const rawAnalysis = await callLlm({
+        systemPrompt,
+        userPrompt,
+        temperature: 0.2,
+        maxTokens: 700,
+        tier: 'MEDIUM',
+      });
 
-    // Strip markdown code fences if present
-    cleanAnalysis = cleanAnalysis.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
+      cleanAnalysis = rawAnalysis ? rawAnalysis.trim() : '';
 
-    // If LLM returned a JSON object string instead of raw text, extract the text payload
-    if (cleanAnalysis.startsWith('{') && cleanAnalysis.endsWith('}')) {
-      try {
-        const parsed = JSON.parse(cleanAnalysis);
-        if (parsed && typeof parsed === 'object') {
-          const val = parsed.analisis || parsed.analysis || parsed.text || parsed.result || Object.values(parsed)[0];
-          if (typeof val === 'string') {
-            cleanAnalysis = val.trim();
+      // Strip markdown code fences if present
+      cleanAnalysis = cleanAnalysis.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
+
+      // If LLM returned a JSON object string instead of raw text, extract the text payload
+      if (cleanAnalysis.startsWith('{') && cleanAnalysis.endsWith('}')) {
+        try {
+          const parsed = JSON.parse(cleanAnalysis);
+          if (parsed && typeof parsed === 'object') {
+            const val = parsed.analisis || parsed.analysis || parsed.text || parsed.result || Object.values(parsed)[0];
+            if (typeof val === 'string') {
+              cleanAnalysis = val.trim();
+            }
+          }
+        } catch {
+          const match = cleanAnalysis.match(/"(?:analisis|analysis|text|result)":\s*"([\s\S]*?)"\s*\}/i);
+          if (match && match[1]) {
+            cleanAnalysis = match[1].replace(/\\"/g, '"').replace(/\\n/g, '\n').trim();
           }
         }
-      } catch {
-        const match = cleanAnalysis.match(/"(?:analisis|analysis|text|result)":\s*"([\s\S]*?)"\s*\}/i);
-        if (match && match[1]) {
-          cleanAnalysis = match[1].replace(/\\"/g, '"').replace(/\\n/g, '\n').trim();
-        }
       }
+    } catch (llmError: any) {
+      console.warn(`[GeoMacroAnalysis] LLM call failed for ${countryName} (${cleanIso}), using deterministic Dalio fallback:`, llmError?.message);
     }
 
     if (!cleanAnalysis) {
-      throw new Error('El modelo de lenguaje no devolvió ningún análisis válido.');
+      isFallback = true;
+      cleanAnalysis = generateDeterministicDalioAnalysis({
+        countryName,
+        cleanIso,
+        shortPhase,
+        gdpGrowth,
+        inflation,
+        pmiComposite,
+        rvsGStatus,
+        yieldCurveSignal,
+        m2Growth,
+        leversSummary,
+        deleveragingStatus: cycle?.deleveragingStatus || 'Estabilización macroeconómica',
+        riskScore,
+      });
     }
 
-    console.log(`[GeoMacroAnalysis] ✅ Analysis generated for ${countryName} (${cleanAnalysis.length} chars)`);
+    console.log(`[GeoMacroAnalysis] ✅ Analysis generated for ${countryName} (${cleanAnalysis.length} chars, fallback: ${isFallback})`);
 
     const generatedAt = new Date().toISOString();
 

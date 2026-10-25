@@ -61,6 +61,25 @@ export function MapDefs() {
       <SingleGlowFilter id="glow-emerald" />
       <SingleGlowFilter id="glow-rose" />
       <SingleGlowFilter id="glow-amber" />
+      {/* Diagonal hatch patterns for territorial claims by status */}
+      <pattern id="hatch-occupied" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="0" x2="0" y2="8" stroke="#f43f5e" strokeWidth="2.5" strokeOpacity="0.85" />
+      </pattern>
+      <pattern id="hatch-militarized" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="0" x2="0" y2="8" stroke="#f97316" strokeWidth="2" strokeOpacity="0.8" />
+      </pattern>
+      <pattern id="hatch-active" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="0" x2="0" y2="8" stroke="#eab308" strokeWidth="1.8" strokeOpacity="0.8" />
+      </pattern>
+      <pattern id="hatch-latent" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="0" x2="0" y2="8" stroke="#06b6d4" strokeWidth="1.5" strokeOpacity="0.7" />
+      </pattern>
+      <pattern id="hatch-frozen" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="0" x2="0" y2="8" stroke="#64748b" strokeWidth="1.5" strokeOpacity="0.7" />
+      </pattern>
+      <pattern id="hatch-resolved" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="0" x2="0" y2="8" stroke="#10b981" strokeWidth="1.5" strokeOpacity="0.6" />
+      </pattern>
     </defs>
   );
 }

@@ -3,6 +3,9 @@
  * @description Type definitions for the Geopolitical Risk and Value Network Monitor.
  */
 
+import type { BilateralScore } from '@/lib/services/bilateral-relations/types';
+import type { Tone } from '@/lib/services/bilateral-relations/valence';
+
 export type RiskLevel = 'safe' | 'warning' | 'critical';
 
 export type AIExposureLevel = 'Alta' | 'Media' | 'Baja';
@@ -17,8 +20,9 @@ export type RelationType =
   | 'ally' | 'conflict' | 'neutral'; // Legacy fallback
 
 // ─── Thematic Layers (T03.2) ──────────────────────────────────────────────────
+/** 'resource-search' colorea los productores del recurso elegido en el buscador de recursos. */
 export type ThematicLayer =
-  | 'none' | 'tier-n' | 'resources' | 'maritime' | 'footprint'
+  | 'none' | 'tier-n' | 'resources' | 'maritime' | 'footprint' | 'resource-search'
   | 'military' | 'stability';
 
 export interface ThematicLayerCountryData {
@@ -134,6 +138,10 @@ export interface RelationItem {
   tariffRisk?: 'LOW' | 'MEDIUM' | 'HIGH' | 'EXTREME';
   chokepointRisk?: boolean;
   summaryNote?: string;
+  /** Score from the bilateral relations engine (R, band, embassies, states), when the relation comes from it. */
+  score?: BilateralScore;
+  /** Two-channel tone (colour = position, opacity = ties) computed from the score; the map paints with it when present. */
+  tone?: Tone;
 }
 
 export type ActiveRelationsMap = Record<string, RelationItem>;

@@ -14,6 +14,17 @@ import type {
 import { getRiskAppearance } from '../../utils/geo-helpers';
 import { resolveThematicCountryData } from '../../hooks/useThematicLayerData';
 import type { CountryTacticalStyle } from './types';
+import type { Tone } from '@/lib/services/bilateral-relations/valence';
+
+/** Style of a partner painted with the two-channel tone (colour = position, opacity = ties). Only strong positions get a glow. */
+function toneStyle(t: Tone, hover: boolean): CountryTacticalStyle {
+  return {
+    fillColor: hover ? t.hoverFillColor : t.fillColor,
+    strokeColor: t.strokeColor,
+    strokeWidth: hover ? '2px' : t.strokeWidth,
+    filter: t.glow ? `url(#glow-${t.glow})` : 'none',
+  };
+}
 
 const THEMATIC_PALETTE: Record<string, { fill: string; stroke: string; width: string; filter: string }> = {
   critical: { fill: 'rgba(239, 68, 68, 0.7)', stroke: '#ef4444', width: '1.2px', filter: 'url(#glow-rose)' },
@@ -53,6 +64,7 @@ function getRelationsBaseStyle(
   if (!selectedCountry) return null;
   const rel = activeRelations?.[d.polyId];
   if (rel) {
+    if (rel.tone) return toneStyle(rel.tone, false);
     if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') {
       return { fillColor: 'rgba(16, 185, 129, 0.32)', strokeColor: '#10b981', strokeWidth: '1.5px', filter: 'url(#glow-emerald)' };
     }
@@ -90,6 +102,7 @@ function getHoverRelationsStyle(d: GeoFeature, activeRelations: ActiveRelationsM
   if (!rel) {
     return { fillColor: 'rgba(148, 163, 184, 0.25)', strokeColor: 'rgba(148, 163, 184, 0.6)', strokeWidth: '1.2px', filter: 'none' };
   }
+  if (rel.tone) return toneStyle(rel.tone, true);
   if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') {
     return { fillColor: 'rgba(16, 185, 129, 0.55)', strokeColor: '#10b981', strokeWidth: '2px', filter: 'url(#glow-emerald)' };
   }
@@ -124,6 +137,9 @@ function getHoverCountryStyle(
   }
   if (activeMode === 'relations' && selectedCountry) {
     return getHoverRelationsStyle(d, activeRelations);
+  }
+  if (activeMode === 'claims') {
+    return { fillColor: 'rgba(245, 158, 11, 0.3)', strokeColor: '#f59e0b', strokeWidth: '1.5px', filter: 'url(#glow-amber)' };
   }
   return { fillColor: 'rgba(56, 189, 248, 0.25)', strokeColor: '#7dd3fc', strokeWidth: '1.4px', filter: 'url(#glow-cyan)' };
 }
@@ -180,6 +196,24 @@ export function computeCountryTacticalStyle(
   if (activeMode === 'relations' && selectedCountry) {
     const relStyle = getRelationsBaseStyle(d, activeRelations, selectedCountry);
     if (relStyle) baseStyle = relStyle;
+  }
+
+  if (activeMode === 'claims') {
+    if (selectedCountry) {
+      const rel = activeRelations?.[d.polyId];
+      const states = rel?.score?.states || (rel as any)?.states;
+      const hasDispute = states?.some(([code]: [string, number]) => code.startsWith('TERRITORIAL_DISPUTE') || code === 'OCCUPATION');
+      const hasStance = states?.some(([code]: [string, number]) => code.startsWith('CLAIM_STANCE'));
+      if (hasDispute) {
+        baseStyle = { fillColor: 'rgba(244, 63, 94, 0.35)', strokeColor: '#f43f5e', strokeWidth: '1.5px', filter: 'url(#glow-rose)' };
+      } else if (hasStance) {
+        baseStyle = { fillColor: 'rgba(129, 140, 248, 0.35)', strokeColor: '#818cf8', strokeWidth: '1.3px', filter: 'url(#glow-indigo)' };
+      } else if (selectedCountry.polyId !== d.polyId) {
+        baseStyle = { fillColor: 'rgba(15, 23, 42, 0.4)', strokeColor: 'rgba(51, 65, 85, 0.25)', strokeWidth: '0.5px', filter: 'none' };
+      }
+    } else {
+      baseStyle = { fillColor: 'rgba(15, 23, 42, 0.65)', strokeColor: 'rgba(71, 85, 105, 0.4)', strokeWidth: '0.6px', filter: 'none' };
+    }
   }
 
   if (selectedCountry && selectedCountry.polyId === d.polyId) {

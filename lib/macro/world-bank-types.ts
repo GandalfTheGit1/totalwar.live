@@ -78,7 +78,7 @@ export interface WorldBankMacroProfile {
   lpiOverall: number | null;                     // LP.LPI.OVRL.XQ
   lpiInfrastructure: number | null;              // LP.LPI.INFR.XQ
   lpiTrackingTracing: number | null;             // LP.LPI.TRAC.XQ
-  lpiShipments: number | null;                   // LP.LPI.ITIN.XQ
+  lpiShipments: number | null;                   // LP.LPI.ITRN.XQ
   lpiCustoms: number | null;                     // LP.LPI.CUST.XQ
   rawIndicators: Record<string, number | null>;
 }
@@ -91,7 +91,7 @@ export const WORLD_BANK_INDICATORS = {
   LPI_OVERALL: 'LP.LPI.OVRL.XQ',
   LPI_INFRASTRUCTURE: 'LP.LPI.INFR.XQ',
   LPI_TRACKING: 'LP.LPI.TRAC.XQ',
-  LPI_SHIPMENTS: 'LP.LPI.ITIN.XQ',
+  LPI_SHIPMENTS: 'LP.LPI.ITRN.XQ',
   LPI_CUSTOMS: 'LP.LPI.CUST.XQ',
 
   // Macro, Debt & Reserves

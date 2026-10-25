@@ -10,9 +10,12 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "build:resources": "tsx scripts/build-country-resources.ts",
+    "check:wikipedia": "tsx scripts/check-wikipedia-resources.ts"
   },
   "dependencies": {
+    "@next/third-parties": "^16.4.2",
     "@supabase/supabase-js": "^2.107.0",
     "cheerio": "^1.2.0",
     "clsx": "^2.1.1",

@@ -13,6 +13,7 @@ import { useHoi4Mechanics } from '../hooks/useHoi4Mechanics';
 
 // Sidebar sub-components
 import { ValueNetworkSection } from './sidebar/ValueNetworkSection';
+import { BilateralRelationsSection } from './sidebar/BilateralRelationsSection';
 import { TradeDagSection } from './sidebar/TradeDagSection';
 import { FriendshoringSection } from './sidebar/FriendshoringSection';
 import { CriticalCommodityKey } from '@/lib/services/geographic/friendshoring-service';
@@ -24,11 +25,13 @@ import { SovereignPowerRadarSection } from './sidebar/SovereignPowerRadarSection
 import { CausalAnalysisSection } from './sidebar/CausalAnalysisSection';
 import { VideoBriefingSection } from './sidebar/VideoBriefingSection';
 import { Hoi4MechanicsPanel } from './hoi4-eu4/Hoi4MechanicsPanel';
+import { TerritorialClaimsSection } from './sidebar/TerritorialClaimsSection';
+import { CountryResourcesSection } from './resources/CountryResourcesSection';
 
 interface GeopoliticalSidebarProps {
   isPanelOpen: boolean;
   activeData: any; // Using any or global types if they exist: CountryRiskInfo | null
-  activeMode: 'risk' | 'relations' | 'news';
+  activeMode: 'risk' | 'relations' | 'claims' | 'news';
   activeRelations: any; // ActiveRelationsMap
   onClose: () => void;
   activeMacro: any; // CountryMacroData | null
@@ -40,6 +43,9 @@ interface GeopoliticalSidebarProps {
   onOpenSimulationDrawer?: () => void;
   blockedCount?: number;
   simulationResult?: any;
+  /** Recurso pintado en el mapa y acción para pintar otro desde la lista del país. */
+  activeResourceId?: string | null;
+  onShowResourceOnMap?: (commodityId: string) => void;
 }
 
 export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
@@ -57,6 +63,8 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
   onOpenSimulationDrawer,
   blockedCount = 0,
   simulationResult,
+  activeResourceId = null,
+  onShowResourceOnMap,
 }) => {
   const [activeTab, setActiveTab] = useState<'geopolitical' | 'dalio'>('geopolitical');
 
@@ -64,7 +72,7 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
   const { countryMechanics } = useHoi4Mechanics({}, activeData?.iso || null);
 
   // Causal Analysis Hook
-  const { llmAnalysis, llmLoading, llmError } = useLlmCausalAnalysis(isPanelOpen, activeData, activeMacro);
+  const { llmAnalysis, llmLoading, llmError, retryAnalysis } = useLlmCausalAnalysis(isPanelOpen, activeData, activeMacro);
 
   // Video Briefing Hook
   const { 
@@ -145,9 +153,19 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
               <NewsPanel iso={activeData?.iso || 'N/A'} name={activeData?.name || ''} />
             ) : (
               <>
-                {(activeMode === 'relations' || (activeRelations && Object.keys(activeRelations).length > 0)) && (
+                {(activeMode === 'claims' || activeMode === 'relations' || (activeRelations && Object.keys(activeRelations).length > 0)) && (
                   <>
-                    <ValueNetworkSection activeRelations={activeRelations} />
+                    {activeMode === 'claims' && (
+                      <TerritorialClaimsSection countryCode={activeData?.iso || ''} />
+                    )}
+                    {activeRelations && Object.values(activeRelations).some((r: any) => r?.score) ? (
+                      <BilateralRelationsSection activeRelations={activeRelations} />
+                    ) : (
+                      <ValueNetworkSection activeRelations={activeRelations} />
+                    )}
+                    {activeMode === 'relations' && (
+                      <TerritorialClaimsSection countryCode={activeData?.iso || ''} />
+                    )}
                     <TradeDagSection 
                       countryCode={activeData?.iso || ''} 
                       countryName={activeData?.name || ''} 
@@ -162,6 +180,15 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
                   blockedCount={blockedCount}
                   simulationResult={simulationResult}
                 />
+
+                {activeData?.iso && (
+                  <CountryResourcesSection
+                    countryCode={activeData.iso}
+                    countryName={activeData.name || ''}
+                    activeResourceId={activeResourceId}
+                    onShowOnMap={onShowResourceOnMap}
+                  />
+                )}
 
                 <FriendshoringSection 
                   countryCode={activeData?.iso || 'US'}
@@ -182,6 +209,7 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
                     llmAnalysis={llmAnalysis}
                     activeMacro={activeMacro}
                     activeData={activeData}
+                    onRetry={retryAnalysis}
                   />
                 </div>
 

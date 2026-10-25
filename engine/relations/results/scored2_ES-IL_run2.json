@@ -1,0 +1,500 @@
+{
+ "pair": "ES-IL",
+ "asOf": "2026-10-18",
+ "warnings": [
+  "mission since 2024-05 (head of mission of IL absent since 2024-05): could not be verified (ongoing claim without a snippet published in the last 12 months); counted at half weight"
+ ],
+ "R": -26.1,
+ "band": "TENSE",
+ "bandFromScore": "TENSE",
+ "reliable": true,
+ "trend": "STABLE",
+ "trendInfo": {
+  "now": -26.1,
+  "before": -19.7,
+  "delta": -6.4,
+  "days": 30
+ },
+ "timeline": {
+  "-365d": 8.2,
+  "-180d": -13.6,
+  "-90d": -6.3,
+  "-30d": -19.7,
+  "hoy": -26.1
+ },
+ "S_struct": 2.7,
+ "S_dyn": -28.8,
+ "memory": 2.7,
+ "rawStruct": 2.7,
+ "rawDyn": -17.8,
+ "states": [
+  {
+   "code": "FULL_DIPLOMATIC",
+   "sides": 2,
+   "source": "wikidata",
+   "evidence": "2 resident embassy(ies); P530=False",
+   "value": 10.0
+  },
+  {
+   "code": "SHARED_FORUM",
+   "source": "wikidata",
+   "evidence": "shared: OECD",
+   "value": 3.0
+  },
+  {
+   "code": "BILATERAL_TREATIES",
+   "count": 1,
+   "source": "wikidata",
+   "evidence": "Agreement on protection of classified information between Is",
+   "value": 2.0
+  },
+  {
+   "code": "AMBASSADOR_ABSENT",
+   "sides": 2,
+   "since": "2024-05",
+   "source": "derived",
+   "sideDates": {
+    "IL": "2024-05",
+    "ES": "2026-03"
+   },
+   "evidence": "head of mission absent for IL (2024-05), ES (2026-03), no later restoration",
+   "scale": 0.75,
+   "value": -15.0
+  }
+ ],
+ "dataLog": {
+  "wikidata.diplomacy": {
+   "P530": false,
+   "residentEmbassySides": 2
+  },
+  "wikidata.memberships": {
+   "a": [
+    "EU",
+    "NATO",
+    "OECD"
+   ],
+   "b": [
+    "OECD"
+   ],
+   "shared": [
+    "OECD"
+   ]
+  },
+  "wikidata.claims": {},
+  "wits": {
+   "shares_pct": {
+    "ES exports to IL": 0.4891,
+    "ES imports from IL": 0.2235,
+    "IL exports to ES": 1.6277,
+    "IL imports from ES": 2.0671
+   },
+   "years": [
+    2023,
+    2023
+   ]
+  },
+  "project.specialPair": null,
+  "un-desa.migration": {
+   "available": true,
+   "IL-born in ES": null,
+   "ES-born in IL": 1063.0,
+   "scale": 0.01,
+   "share_pct": {
+    "IL in ES": null,
+    "ES in IL": 0.01
+   }
+  },
+  "wikidata.treaties": [
+   "Agreement on protection of classified information between Israel and Spain"
+  ],
+  "wikidata.sharedLanguages": []
+ },
+ "ablationNoProjectTradeWar": null,
+ "verification": [
+  {
+   "status": "UNKNOWN",
+   "reason": "ongoing claim without a snippet published in the last 12 months",
+   "kind": "mission",
+   "claim": "head of mission of IL absent since 2024-05",
+   "since": "2024-05",
+   "snippets": 10
+  }
+ ],
+ "measures": [],
+ "classification": {
+  "A": "gemini/gemini-2.5-flash",
+  "B": "groq/qwen/qwen3.8-27b",
+  "C": null,
+  "sameModelAB": false,
+  "degradedIndependence": false,
+  "waits": [],
+  "agree": 16,
+  "total": 16,
+  "signAgreeAB": 16
+ },
+ "topEvents": [
+  {
+   "code": "HARSH_RHETORIC",
+   "base": -6,
+   "mult": 1.0,
+   "ageDays": 24,
+   "halfLife": 45,
+   "value": -4.145738639903328,
+   "fact": "Spanish Prime Minister Pedro Sánchez slammed Israel's actions in Gaza (referring to genocide) and called for UNSC reform during a UN speech.",
+   "actor": "ES"
+  },
+  {
+   "code": "AMBASSADOR_RECALL",
+   "base": -15,
+   "mult": 0.6,
+   "ageDays": 221,
+   "halfLife": 180,
+   "value": -3.8427715816843064,
+   "fact": "Spain permanently withdrew its ambassador to Israel and left diplomatic representation under a charge d'affaires.",
+   "actor": "ES"
+  },
+  {
+   "code": "PROTEST_SUMMONS",
+   "base": -6,
+   "mult": 0.6,
+   "ageDays": 20,
+   "halfLife": 60,
+   "value": -2.857321893542759,
+   "fact": "Israel summoned the Spanish charge d'affaires following statements by Spanish Minister Sira Rego supporting a Palestinian state from the river to the sea.",
+   "actor": "IL"
+  },
+  {
+   "code": "DIPLOMATIC_BOYCOTT",
+   "base": -5,
+   "mult": 0.7,
+   "ageDays": 23,
+   "halfLife": 60,
+   "value": -2.6833246031718008,
+   "fact": "Spain was the only major country to participate in the boycott of Netanyahu at the UN General Assembly.",
+   "actor": "ES"
+  },
+  {
+   "code": "HARSH_RHETORIC",
+   "base": -6,
+   "mult": 0.6,
+   "ageDays": 38,
+   "halfLife": 45,
+   "value": -2.0049308264824863,
+   "fact": "An Israeli diplomat/ambassador warned Spain that not working with or defending Israel on defense has a price for Spanish citizens.",
+   "actor": "IL"
+  },
+  {
+   "code": "CRITICISM",
+   "base": -3,
+   "mult": 1.0,
+   "ageDays": 48,
+   "halfLife": 30,
+   "value": -0.9896309330796706,
+   "fact": "Spanish Prime Minister Pedro Sánchez accused Israel of spreading disinformation regarding the Ceuta migrant crisis.",
+   "actor": "ES"
+  },
+  {
+   "code": "CRITICISM",
+   "base": -3,
+   "mult": 0.6,
+   "ageDays": 38,
+   "halfLife": 30,
+   "value": -0.748114106528509,
+   "fact": "The Israeli ambassador to Spain accused the Spanish government of using Israel as a smoke screen for the Ceuta crisis.",
+   "actor": "IL"
+  },
+  {
+   "code": "CRITICISM",
+   "base": -3,
+   "mult": 0.42,
+   "ageDays": 40,
+   "halfLife": 30,
+   "value": -0.5000313313699829,
+   "fact": "Israel blamed Sánchez for the rise of antisemitism in Spain.",
+   "actor": "IL"
+  }
+ ],
+ "byActor": {
+  "IL": -6.1,
+  "ES": -11.7
+ },
+ "classifiedFacts": [
+  {
+   "eventDate": "2026-10-14",
+   "actor": "third-party",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "NONE",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "The US proposed tariffs on Spanish vessels and sanctions on exports due to Spain's commercial veto/blockade on Israel regarding ships destined for Israel.",
+   "cls": {
+    "how": "agree",
+    "A": "NONE",
+    "B": "NONE"
+   }
+  },
+  {
+   "eventDate": "2026-10-16",
+   "actor": "ES",
+   "actorLevel": "COURT",
+   "type": "IMPLEMENTED",
+   "code": "NONE",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "The Spanish National Court dismissed a complaint against Netanyahu over the detention of a Spanish UNIFIL blue helmet in Lebanon.",
+   "cls": {
+    "how": "agree",
+    "A": "NONE",
+    "B": "NONE"
+   }
+  },
+  {
+   "eventDate": "2026-09-28",
+   "actor": "IL",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "PROTEST_SUMMONS",
+   "coreInterest": false,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Israel summoned the Spanish charge d'affaires following statements by Spanish Minister Sira Rego supporting a Palestinian state from the river to the sea.",
+   "cls": {
+    "how": "agree",
+    "A": "PROTEST_SUMMONS",
+    "B": "PROTEST_SUMMONS"
+   }
+  },
+  {
+   "eventDate": "2026-09-25",
+   "actor": "ES",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "DIPLOMATIC_BOYCOTT",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spain was the only major country to participate in the boycott of Netanyahu at the UN General Assembly.",
+   "cls": {
+    "how": "agree",
+    "A": "DIPLOMATIC_BOYCOTT",
+    "B": "DIPLOMATIC_BOYCOTT"
+   }
+  },
+  {
+   "eventDate": "2026-09-24",
+   "actor": "ES",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "HARSH_RHETORIC",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spanish Prime Minister Pedro Sánchez slammed Israel's actions in Gaza (referring to genocide) and called for UNSC reform during a UN speech.",
+   "cls": {
+    "how": "agree",
+    "A": "HARSH_RHETORIC",
+    "B": "HARSH_RHETORIC"
+   }
+  },
+  {
+   "eventDate": "2026-09-22",
+   "actor": "ES",
+   "actorLevel": "INSTITUTION",
+   "type": "DECLARED",
+   "code": "NONE",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "RTVE proposed maintaining Spain's withdrawal from Eurovision in 2027 due to Israel's participation.",
+   "cls": {
+    "how": "agree",
+    "A": "NONE",
+    "B": "NONE"
+   }
+  },
+  {
+   "eventDate": "2026-09-10",
+   "actor": "IL",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "HARSH_RHETORIC",
+   "coreInterest": false,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "An Israeli diplomat/ambassador warned Spain that not working with or defending Israel on defense has a price for Spanish citizens.",
+   "cls": {
+    "how": "agree",
+    "A": "HARSH_RHETORIC",
+    "B": "HARSH_RHETORIC"
+   }
+  },
+  {
+   "eventDate": "2026-09-10",
+   "actor": "IL",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "CRITICISM",
+   "coreInterest": false,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "The Israeli ambassador to Spain accused the Spanish government of using Israel as a smoke screen for the Ceuta crisis.",
+   "cls": {
+    "how": "agree",
+    "A": "CRITICISM",
+    "B": "CRITICISM"
+   }
+  },
+  {
+   "eventDate": "2026-09-08",
+   "actor": "IL",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "CRITICISM",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Israel blamed Sánchez for the rise of antisemitism in Spain.",
+   "cls": {
+    "how": "agree",
+    "A": "CRITICISM",
+    "B": "CRITICISM"
+   }
+  },
+  {
+   "eventDate": "2026-08-31",
+   "actor": "ES",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "CRITICISM",
+   "coreInterest": false,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spanish Prime Minister Pedro Sánchez accused Israel of spreading disinformation regarding the Ceuta migrant crisis.",
+   "cls": {
+    "how": "agree",
+    "A": "CRITICISM",
+    "B": "CRITICISM"
+   }
+  },
+  {
+   "eventDate": "2026-08-26",
+   "actor": "ES",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "CRITICISM",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spain condemned Israeli forces' attacks on UNRWA facilities in occupied East Jerusalem.",
+   "cls": {
+    "how": "agree",
+    "A": "CRITICISM",
+    "B": "CRITICISM"
+   }
+  },
+  {
+   "eventDate": "2026-08-21",
+   "actor": "ES",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "CRITICISM",
+   "coreInterest": true,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spain condemned Israel's decision to advance settlements in the occupied West Bank.",
+   "cls": {
+    "how": "agree",
+    "A": "CRITICISM",
+    "B": "CRITICISM"
+   }
+  },
+  {
+   "eventDate": "2026-04-10",
+   "actor": "IL",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "CRITICISM",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Israeli Prime Minister Netanyahu accused Spain of hostility toward Israel.",
+   "cls": {
+    "how": "agree",
+    "A": "CRITICISM",
+    "B": "CRITICISM"
+   }
+  },
+  {
+   "eventDate": "2026-03-11",
+   "actor": "ES",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "AMBASSADOR_RECALL",
+   "coreInterest": false,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Spain permanently withdrew its ambassador to Israel and left diplomatic representation under a charge d'affaires.",
+   "cls": {
+    "how": "agree",
+    "A": "AMBASSADOR_RECALL",
+    "B": "AMBASSADOR_RECALL"
+   }
+  },
+  {
+   "eventDate": "2024-05",
+   "actor": "IL",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "AMBASSADOR_RECALL",
+   "coreInterest": false,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Israel recalled its ambassador to Spain following Spain's recognition of the State of Palestine.",
+   "cls": {
+    "how": "agree",
+    "A": "AMBASSADOR_RECALL",
+    "B": "AMBASSADOR_RECALL"
+   }
+  },
+  {
+   "eventDate": "1986-01-17",
+   "actor": "joint",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "NORMALIZATION",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Spain and Israel established formal diplomatic relations.",
+   "cls": {
+    "how": "agree",
+    "A": "NORMALIZATION",
+    "B": "NORMALIZATION"
+   }
+  }
+ ],
+ "v6": {
+  "overall": "HOSTILE",
+  "structural": "RIVAL",
+  "trend": "IMPROVING"
+ }
+}

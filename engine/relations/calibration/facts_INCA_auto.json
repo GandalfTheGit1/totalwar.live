@@ -1,0 +1,425 @@
+[
+ {
+  "eventDate": "2018-02",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian Prime Minister Justin Trudeau spent a week on a state visit to India in February 2018.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA00"
+ },
+ {
+  "eventDate": "2018-02",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "India and Canada signed a new education agreement and established the India-Canada Consular Dialogue during Trudeau's visit.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA01"
+ },
+ {
+  "eventDate": "2020-12",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian Prime Minister Justin Trudeau expressed concerns regarding the handling of farmer protests in India.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA02"
+ },
+ {
+  "eventDate": "2020-12",
+  "actor": "IN",
+  "actorKind": "government",
+  "fact": "India protested against Justin Trudeau's remarks, calling them an unacceptable interference in internal affairs.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA03"
+ },
+ {
+  "eventDate": "2023-03",
+  "actor": "IN",
+  "actorKind": "government",
+  "fact": "India summoned Canada's High Commissioner to convey strong concern over Sikh protesters and a security breach.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA04"
+ },
+ {
+  "eventDate": "2023-09",
+  "actor": "IN",
+  "actorKind": "government",
+  "fact": "Indian Prime Minister Narendra Modi conveyed concerns about protests in Canada to Prime Minister Trudeau at the G20 summit.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA05"
+ },
+ {
+  "eventDate": "2023-09",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canada announced it had postponed an October trade mission to India.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA06"
+ },
+ {
+  "eventDate": "2023-09",
+  "actor": "CA",
+  "actorKind": "state",
+  "fact": "Canada paused talks on a proposed trade treaty with India.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "INCA07"
+ },
+ {
+  "eventDate": "2023-09-18",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Prime Minister Trudeau addressed the House of Commons regarding potential links between Indian agents and the killing of Hardeep Singh Nijjar.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA08"
+ },
+ {
+  "eventDate": "2023-09-18",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian Foreign Minister Melanie Joly announced the expulsion of senior Indian diplomat Pavan Kumar Rai.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA09"
+ },
+ {
+  "eventDate": "2023-09-19",
+  "actor": "IN",
+  "actorKind": "government",
+  "fact": "India expelled a top Canadian diplomat, Olivier Sylvestere, with a five-day notice.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA10"
+ },
+ {
+  "eventDate": "2023-09-20",
+  "actor": "IN",
+  "actorKind": "government",
+  "fact": "India warned its citizens to exercise utmost caution due to growing anti-India activities in Canada.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA11"
+ },
+ {
+  "eventDate": "2023-09-21",
+  "actor": "IN",
+  "actorKind": "government",
+  "fact": "India temporarily suspended visa services for all Canadian nationals due to security threats.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA12"
+ },
+ {
+  "eventDate": "2023-09-24",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canada updated its travel advisory for India, urging citizens to remain vigilant and exercise caution.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA13"
+ },
+ {
+  "eventDate": "2023-10-18",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "41 Canadian diplomats and their family members left India after being asked to withdraw.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA14"
+ },
+ {
+  "eventDate": "2023-10-20",
+  "actor": "IN",
+  "actorKind": "state",
+  "fact": "India issued a statement stating that the continued interference of Canadian diplomats warranted a parity in mutual diplomatic presence.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "INCA15"
+ },
+ {
+  "eventDate": "2024-04",
+  "actor": "IN",
+  "actorKind": "government",
+  "fact": "India summoned the Canadian deputy high commissioner over separatist slogans at a Vaisakhi event.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA16"
+ },
+ {
+  "eventDate": "2024-06",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Modi and Trudeau met briefly at the G7 summit in Italy, signaling a resumption of dialogue.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA17"
+ },
+ {
+  "eventDate": "2024-10-12",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian officials informed Indian NSA Ajit Doval that Indian High Commissioner Sanjay Kumar Verma was a person of interest.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA18"
+ },
+ {
+  "eventDate": "2024-10-14",
+  "actor": "CA",
+  "actorKind": "state",
+  "fact": "Canada served notices of expulsion to Indian High Commissioner Sanjay Kumar Verma and five other diplomats.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "INCA19"
+ },
+ {
+  "eventDate": "2024-10-14",
+  "actor": "IN",
+  "actorKind": "state",
+  "fact": "India announced a tit-for-tat expulsion of six Canadian diplomats.",
+  "type": "IMPLEMENTED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "INCA20"
+ },
+ {
+  "eventDate": "2024-10-29",
+  "actor": "IN",
+  "actorKind": "government",
+  "fact": "India issued a formal protest calling claims of Amit Shah's involvement in violent acts absurd and baseless.",
+  "type": "DECLARED",
+  "polarity": -1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA21"
+ },
+ {
+  "eventDate": "2025-06-17",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Canadian Prime Minister Mark Carney met with Indian Prime Minister Narendra Modi at the G7 summit to reaffirm ties.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA22"
+ },
+ {
+  "eventDate": "2025-08",
+  "actor": "joint",
+  "actorKind": "government",
+  "fact": "Both nations appointed new envoys to restore diplomatic relations.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E2"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA23"
+ },
+ {
+  "eventDate": "2026-02",
+  "actor": "CA",
+  "actorKind": "government",
+  "fact": "Canadian Prime Minister Mark Carney made a state visit to India and met with Prime Minister Modi.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "id": "INCA24",
+  "corrected": "date set to 2026-02: the text says 'early 2026' (extractor wrote a month)"
+ },
+ {
+  "eventDate": "2026-02",
+  "actor": "IN",
+  "actorKind": "state",
+  "fact": "India and Canada signed multiple MOUs worth billions of dollars relating to energy, minerals, pharmaceuticals, and academics.",
+  "type": "IMPLEMENTED",
+  "polarity": 1,
+  "evidence": [
+   "E1"
+  ],
+  "corroboration": 2,
+  "verdict": "SUPPORTED",
+  "contested": false,
+  "kind": "event",
+  "pass2": true,
+  "id": "INCA25",
+  "corrected": "date set to 2026-02: the text says 'early 2026' (extractor wrote a month)"
+ }
+]

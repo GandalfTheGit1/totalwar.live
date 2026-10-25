@@ -87,6 +87,7 @@ export function useGlobeStyling(
         if (isHovered) {
           // Hover sobre país con relación: color de relación más brillante
           if (rel) {
+            if (rel.tone) return rel.tone.hoverFillColor;
             if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') return 'rgba(16, 185, 129, 0.88)';
             if (rel.type === 'ECONOMIC_PARTNER' || (rel.type as string) === 'economic_partner') return 'rgba(129, 140, 248, 0.88)';
             if (rel.type === 'FRICTION_STRATEGIC_COMPETITION' || rel.type === 'SANCTIONED_ADVERSARIAL' || rel.type === 'conflict')
@@ -98,6 +99,7 @@ export function useGlobeStyling(
           return 'rgba(148, 163, 184, 0.4)';
         }
         if (rel) {
+          if (rel.tone) return rel.tone.fillColor;
           if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') return 'rgba(16, 185, 129, 0.65)';
           if (rel.type === 'ECONOMIC_PARTNER' || (rel.type as string) === 'economic_partner') return 'rgba(129, 140, 248, 0.65)';
           if (rel.type === 'FRICTION_STRATEGIC_COMPETITION' || rel.type === 'SANCTIONED_ADVERSARIAL' || rel.type === 'conflict')
@@ -108,7 +110,20 @@ export function useGlobeStyling(
         return 'rgba(51, 65, 85, 0.35)';
       }
 
-      // Fuera de modo relaciones: hover con tinte cyan sutil (no blanco)
+      if (activeMode === 'claims') {
+        if (selectedCountry) {
+          const rel = (polyId && activeRelations?.[polyId]) || (feat.polyId && activeRelations?.[feat.polyId]);
+          const hasDispute = rel?.states?.some(([code]: [string, number]) => code.startsWith('TERRITORIAL_DISPUTE') || code === 'OCCUPATION');
+          const hasStance = rel?.states?.some(([code]: [string, number]) => code.startsWith('CLAIM_STANCE'));
+          if (hasDispute) return isHovered ? 'rgba(244, 63, 94, 0.88)' : 'rgba(225, 29, 72, 0.65)';
+          if (hasStance) return isHovered ? 'rgba(129, 140, 248, 0.88)' : 'rgba(129, 140, 248, 0.65)';
+          return isHovered ? 'rgba(148, 163, 184, 0.4)' : 'rgba(51, 65, 85, 0.25)';
+        }
+        if (isHovered) return 'rgba(245, 158, 11, 0.5)';
+        return (polyId && countryMockData[polyId]?.baseColor) || (feat.polyId && countryMockData[feat.polyId]?.baseColor) || 'rgba(15, 23, 42, 0.25)';
+      }
+
+      // Fuera de modo relaciones y reclamos: hover con tinte cyan sutil (no blanco)
       if (isHovered) return 'rgba(56, 189, 248, 0.45)';
 
       return (polyId && countryMockData[polyId]?.baseColor) || (feat.polyId && countryMockData[feat.polyId]?.baseColor) || 'rgba(15, 23, 42, 0.1)';
@@ -159,6 +174,7 @@ export function useGlobeStyling(
       if (activeMode === 'relations' && selectedCountry) {
         const rel = (polyId && activeRelations?.[polyId]) || (feat.polyId && activeRelations?.[feat.polyId]);
         if (rel) {
+          if (rel.tone) return rel.tone.strokeColor;
           if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') return '#10b981';
           if (rel.type === 'ECONOMIC_PARTNER' || (rel.type as string) === 'economic_partner') return '#818cf8';
           if (rel.type === 'FRICTION_STRATEGIC_COMPETITION' || rel.type === 'SANCTIONED_ADVERSARIAL' || rel.type === 'conflict')
@@ -168,6 +184,20 @@ export function useGlobeStyling(
         }
         return 'rgba(100, 116, 139, 0.4)';
       }
+
+      if (activeMode === 'claims') {
+        if (selectedCountry) {
+          const rel = (polyId && activeRelations?.[polyId]) || (feat.polyId && activeRelations?.[feat.polyId]);
+          const hasDispute = rel?.states?.some(([code]: [string, number]) => code.startsWith('TERRITORIAL_DISPUTE') || code === 'OCCUPATION');
+          const hasStance = rel?.states?.some(([code]: [string, number]) => code.startsWith('CLAIM_STANCE'));
+          if (hasDispute) return '#e11d48';
+          if (hasStance) return '#818cf8';
+          return 'rgba(51, 65, 85, 0.25)';
+        }
+        if (isHovered) return '#f59e0b';
+        return (polyId && countryMockData[polyId]?.baseStroke) || (feat.polyId && countryMockData[feat.polyId]?.baseStroke) || 'rgba(51, 65, 85, 0.4)';
+      }
+
       return (polyId && countryMockData[polyId]?.baseStroke) || (feat.polyId && countryMockData[feat.polyId]?.baseStroke) || 'rgba(51, 65, 85, 0.5)';
     },
     [selectedCountry, hoveredCountry, activeMode, activeRelations, countryMockData, activeLayer, layerData]

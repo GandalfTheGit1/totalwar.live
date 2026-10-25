@@ -10,6 +10,7 @@ import { GeopoliticalKnowledgeService } from '@/lib/services/geopolitical-knowle
 import { getCountryCentroid } from '@/lib/services/geographic/friendshoring-service';
 import { MapMode } from '../../components/MapModeSelector';
 import { resolveIsoFromFeature, buildRealRelations } from './relations-builder';
+import { loadRelations } from './engine-relations';
 
 export function useMonitorCountrySelection(
   geoJsonData: GeoFeature[],
@@ -69,7 +70,7 @@ export function useMonitorCountrySelection(
       setHoveredCountry(null);
 
       if (activeMode === 'relations') {
-        setActiveRelations(buildRealRelations(polygon, geoJsonData));
+        loadRelations(polygon, geoJsonData, setActiveRelations, buildRealRelations);
       }
 
       if (iso && iso !== '-99') {

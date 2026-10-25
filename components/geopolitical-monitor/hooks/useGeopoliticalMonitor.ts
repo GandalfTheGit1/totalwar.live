@@ -11,8 +11,11 @@ import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import {
   ActiveRelationsMap,
   ThematicLayer,
+  ThematicLayerMap,
   CountryMacroData,
 } from '../types';
+import { useResourceProducers } from './useCountryResources';
+import { buildResourceLayerMap } from '../components/resources/resource-layer';
 import { FriendshoringService, CriticalCommodityKey, SubstitutionArc } from '@/lib/services/geographic/friendshoring-service';
 import { MapMode } from '../components/MapModeSelector';
 
@@ -24,6 +27,7 @@ import { useThematicLayerData } from './useThematicLayerData';
 
 import { UseGeopoliticalMonitorOptions } from './monitor/types';
 import { buildRealRelations, resolveIsoFromFeature } from './monitor/relations-builder';
+import { loadRelations, cancelEngineRelations } from './monitor/engine-relations';
 import { computeMonitorPoints } from './monitor/points-builder';
 import { useMonitorMaritime } from './monitor/useMonitorMaritime';
 import { useMonitorFacilities } from './monitor/useMonitorFacilities';
@@ -47,9 +51,19 @@ export function useGeopoliticalMonitor({
   const [searchFilter, setSearchFilter] = useState('');
   const [selectedCommodity, setSelectedCommodity] = useState<CriticalCommodityKey | null>(initialCommodity);
 
-  const layerData = useThematicLayerData(activeLayer);
+  // Buscador de recursos: el recurso elegido se pinta como capa temática propia.
+  const [selectedResourceId, setSelectedResourceId] = useState<string | null>(null);
+  const { data: resourceProducers } = useResourceProducers(selectedResourceId);
+  const resourceLayerData = useMemo<ThematicLayerMap>(
+    () => (resourceProducers ? buildResourceLayerMap(resourceProducers.commodity, resourceProducers.producers) : {}),
+    [resourceProducers]
+  );
+
+  const thematicLayerData = useThematicLayerData(activeLayer);
+  const layerData = activeLayer === 'resource-search' ? resourceLayerData : thematicLayerData;
   const handleLayerChange = useCallback((layer: ThematicLayer) => {
     setActiveLayer(layer);
+    if (layer !== 'resource-search') setSelectedResourceId(null);
   }, []);
 
   const getPolygonColorRef = useRef<any>(null);
@@ -153,8 +167,9 @@ export function useGeopoliticalMonitor({
   const handleModeChange = useCallback((mode: MapMode) => {
     setActiveMode(mode);
     if (mode === 'relations' && countrySel.selectedCountry) {
-      setActiveRelations(buildRealRelations(countrySel.selectedCountry, geoJsonData));
+      loadRelations(countrySel.selectedCountry, geoJsonData, setActiveRelations, buildRealRelations);
     } else {
+      cancelEngineRelations();
       setActiveRelations({});
     }
   }, [countrySel.selectedCountry, geoJsonData]);
@@ -169,15 +184,30 @@ export function useGeopoliticalMonitor({
     }
   }, [countrySel, facilities, globeInstanceRef]);
 
+  /** Muestra en el mapa a los productores de un recurso (fuerza el modo riesgo, que es el que pinta capas). */
+  const selectResource = useCallback((commodityId: string) => {
+    setSelectedResourceId(commodityId);
+    setActiveMode('risk');
+    setActiveRelations({});
+    setActiveLayer('resource-search');
+  }, []);
+
+  const clearResource = useCallback(() => {
+    setSelectedResourceId(null);
+    setActiveLayer((layer) => (layer === 'resource-search' ? 'none' : layer));
+  }, []);
+
   const pointsData = useMemo(() => {
     return computeMonitorPoints(
       activeLayer,
       facilities.facilities,
       facilities.selectedFacility,
       maritime.showMaritimeRoutes,
-      maritime.blockedChokepoints
+      maritime.blockedChokepoints,
+      activeMode,
+      countrySel.selectedCountry
     );
-  }, [activeLayer, facilities.facilities, facilities.selectedFacility, maritime.showMaritimeRoutes, maritime.blockedChokepoints]);
+  }, [activeLayer, facilities.facilities, facilities.selectedFacility, maritime.showMaritimeRoutes, maritime.blockedChokepoints, activeMode, countrySel.selectedCountry]);
 
   useMonitorGlobeSync(
     globeInstanceRef,
@@ -229,6 +259,9 @@ export function useGeopoliticalMonitor({
     setActiveLayer,
     handleLayerChange,
     layerData,
+    selectedResourceId,
+    selectResource,
+    clearResource,
     selectedCountry: countrySel.selectedCountry,
     hoveredCountry: countrySel.hoveredCountry,
     tooltipPos: countrySel.tooltipPos,

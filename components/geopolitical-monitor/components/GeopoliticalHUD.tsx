@@ -11,6 +11,8 @@ import { CountryMockDataMap, GeoFeature, ThematicLayer, ThematicLayerMap } from 
 import { GeopoliticalKnowledgeService } from '@/lib/services/geopolitical-knowledge-service';
 import { useSettings } from '@/lib/settings-context';
 import { WorldTensionWidget } from './hoi4-eu4/WorldTensionWidget';
+import { ResourceSearchBar } from './resources/ResourceSearchBar';
+import { ResourceProducersPanel } from './resources/ResourceProducersPanel';
 
 export interface LayerLegendPanelProps {
   activeLayer: ThematicLayer;
@@ -62,6 +64,12 @@ const LAYER_META: Record<
     title: 'Red Operativa & Expansión',
     description: 'Sedes centrales, manufactura consolidada y expansión',
     badgeStyle: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30',
+  },
+  'resource-search': {
+    badge: 'RECURSO',
+    title: 'Productores del recurso buscado',
+    description: 'Países productores coloreados por su cuota de la producción mundial',
+    badgeStyle: 'bg-purple-500/15 text-purple-300 border-purple-500/30',
   },
 };
 
@@ -212,6 +220,11 @@ export interface GeopoliticalHUDProps {
   activeLayer?: ThematicLayer;
   layerData?: ThematicLayerMap;
   onResetLayer?: () => void;
+  /** Buscador de recursos */
+  activeResourceId?: string | null;
+  onSelectResource?: (commodityId: string) => void;
+  onClearResource?: () => void;
+  onSelectCountryByIso?: (isoCode: string) => void;
   className?: string;
 }
 
@@ -229,8 +242,13 @@ export const GeopoliticalHUD: React.FC<GeopoliticalHUDProps> = ({
   activeLayer = 'none',
   layerData = {},
   onResetLayer,
+  activeResourceId = null,
+  onSelectResource,
+  onClearResource,
+  onSelectCountryByIso,
   className = '',
 }) => {
+  const showResourcePanel = activeMode === 'risk' && activeLayer === 'resource-search' && !!activeResourceId;
   const { showWorldTensionIndex } = useSettings();
   const theWholeScene = GeopoliticalKnowledgeService.getTheWholeScene();
   return (
@@ -349,10 +367,29 @@ export const GeopoliticalHUD: React.FC<GeopoliticalHUDProps> = ({
             </div>
           )}
         </div>
+
+        {/* Buscador de recursos: pinta en el mapa a los países productores */}
+        {onSelectResource && (
+          <div className="mt-2">
+            <ResourceSearchBar
+              activeResourceId={activeResourceId}
+              onSelectResource={onSelectResource}
+              onClearResource={onClearResource}
+            />
+          </div>
+        )}
       </div>
 
+      {showResourcePanel && activeResourceId && (
+        <ResourceProducersPanel
+          commodityId={activeResourceId}
+          onSelectCountry={onSelectCountryByIso}
+          onClose={onClearResource}
+        />
+      )}
+
       {/* Panel Táctico de Leyenda de Capas (T03.2 Ronda 3) */}
-      {activeMode === 'risk' && activeLayer && activeLayer !== 'none' && (
+      {activeMode === 'risk' && activeLayer && activeLayer !== 'none' && !showResourcePanel && (
         <LayerLegendPanel
           activeLayer={activeLayer}
           layerData={layerData}

@@ -17,6 +17,10 @@ next-env.d.ts
 # Testing
 coverage/
 
+# Caché de descargas de scripts de datos
+.cache/
+
+
 # Misc
 .DS_Store
 *.pem
@@ -27,3 +31,19 @@ coverage/
 # IDE
 .vscode/
 .idea/
+
+# Claude / AI agent files
+.claude/
+.agents/
+CLAUDE.md
+.claude.json
+
+# Bilateral relations engine (Python prototype)
+__pycache__/
+*.pyc
+engine/relations/model/quota_state.json
+engine/relations/world/world_cache.json
+engine/relations/world/out/
+
+engine/relations/world/gdelt/
+.vercel

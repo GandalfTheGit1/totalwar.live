@@ -40,6 +40,9 @@ export interface Map2DProps {
   onBackgroundClick: () => void;
   isPanelOpen: boolean;
   containerDimensions: { width: number; height: number };
+  claimsGeo?: any;
+  onClaimHover?: (claim: any, event?: any) => void;
+  onClaimClick?: (claim: any) => void;
 }
 
 export interface TooltipPos {

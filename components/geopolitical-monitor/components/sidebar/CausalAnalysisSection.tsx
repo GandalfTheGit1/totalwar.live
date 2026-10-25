@@ -1,5 +1,5 @@
 import React from 'react';
-import { Info, Loader2 } from 'lucide-react';
+import { Info, Loader2, RotateCw } from 'lucide-react';
 
 interface CausalAnalysisSectionProps {
   llmLoading: boolean;
@@ -7,9 +7,17 @@ interface CausalAnalysisSectionProps {
   llmAnalysis: string | null;
   activeMacro: any;
   activeData: any;
+  onRetry?: () => void;
 }
 
-export function CausalAnalysisSection({ llmLoading, llmError, llmAnalysis, activeMacro, activeData }: CausalAnalysisSectionProps) {
+export function CausalAnalysisSection({
+  llmLoading,
+  llmError,
+  llmAnalysis,
+  activeMacro,
+  activeData,
+  onRetry,
+}: CausalAnalysisSectionProps) {
   return (
     <div className="bg-zinc-850/60 p-4 rounded-xl border border-zinc-700/60">
       <h4 className="text-[11px] text-zinc-300 uppercase tracking-widest mb-2.5 font-bold font-mono flex items-center gap-2">
@@ -28,7 +36,18 @@ export function CausalAnalysisSection({ llmLoading, llmError, llmAnalysis, activ
       )}
 
       {!llmLoading && llmError && (
-        <p className="text-xs text-rose-400 font-mono">{llmError}</p>
+        <div className="space-y-2.5">
+          <p className="text-xs text-rose-400 font-mono leading-relaxed">{llmError}</p>
+          {onRetry && (
+            <button
+              type="button"
+              onClick={onRetry}
+              className="inline-flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-mono text-zinc-300 bg-zinc-800/80 hover:bg-zinc-700/80 hover:text-white rounded border border-zinc-700/80 transition-colors cursor-pointer"
+            >
+              <RotateCw className="w-3 h-3 text-teal-400" /> Reintentar análisis
+            </button>
+          )}
+        </div>
       )}
 
       {!llmLoading && !llmError && llmAnalysis && (

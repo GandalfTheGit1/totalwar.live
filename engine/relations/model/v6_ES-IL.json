@@ -1,0 +1,893 @@
+{
+ "pair": "ES-IL",
+ "asOf": "2026-10-18",
+ "structuralStatus": "RIVAL",
+ "overallStatus": "HOSTILE",
+ "trend30d": "IMPROVING",
+ "confidence": "MEDIUM",
+ "axes": {
+  "security": -3,
+  "trade": -2,
+  "energy": null,
+  "migration": null,
+  "territorial": -2,
+  "values": -3
+ },
+ "trendBasis": {
+  "n30": 6,
+  "nBase": 6,
+  "baseline": "prev30",
+  "mean30": -0.56,
+  "meanBase": -1.0,
+  "delta": 0.44
+ },
+ "coherence": {
+  "mean60": -0.73,
+  "n60": 12,
+  "voted": "HOSTILE",
+  "final": "HOSTILE",
+  "clamped": false
+ },
+ "perceptionAtoB": "El gobierno español trata a Israel con una postura de condena firme y hostilidad diplomática, manifestada mediante el retiro de su embajador, la participación en boicots internacionales y la acusación de genocidio.",
+ "perceptionBtoA": "El gobierno israelí percibe a España como un actor hostil y adversario, respondiendo con la retirada de su embajador, la convocatoria de cargos diplomáticos y advertencias de consecuencias económicas y de seguridad.",
+ "summaryEs": "La relación entre España e Israel se ha deteriorado significativamente, pasando de una cooperación estable a un conflicto diplomático sostenido marcado por la retirada mutua de embajadores. En los últimos meses, la tensión ha escalado con boicots políticos, acusaciones de genocidio por parte de España y advertencias de sanciones comerciales y de seguridad por parte de Israel. La situación actual refleja una hostilidad institucional profunda, con canales diplomáticos reducidos a un nivel mínimo y una retórica pública de confrontación.",
+ "leaders": [
+  {
+   "country": "ES",
+   "role": "head of government",
+   "name": "Pedro Sánchez",
+   "source": "wikidata"
+  },
+  {
+   "country": "ES",
+   "role": "head of state",
+   "name": "Felipe VI de España",
+   "source": "wikidata"
+  },
+  {
+   "country": "IL",
+   "role": "head of state",
+   "name": "Isaac Herzog",
+   "source": "wikidata"
+  },
+  {
+   "country": "IL",
+   "role": "head of government",
+   "name": "Benjamín Netanyahu",
+   "source": "wikidata"
+  }
+ ],
+ "stability": {
+  "agreement": 0.67,
+  "structuralAgreement": 0.67,
+  "runs": [
+   {
+    "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+    "overall": "TENSE",
+    "structural": "NEUTRAL"
+   },
+   {
+    "model": "groq/qwen/qwen3.8-27b",
+    "overall": "HOSTILE",
+    "structural": "RIVAL"
+   },
+   {
+    "model": "gemini/gemini-3.5-flash-lite",
+    "overall": "HOSTILE",
+    "structural": "RIVAL"
+   }
+  ],
+  "heldByHysteresis": null
+ },
+ "facts": [
+  {
+   "eventDate": "2026-10-14",
+   "dateBasis": "stated",
+   "actor": "third-party",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "The US proposed tariffs on Spanish vessels and sanctions on exports due to Spain's commercial veto/blockade on Israel regarding ships destined for Israel.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "trade",
+   "evidence": [
+    "E28",
+    "E48"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSDdRUFFManlvUnNGVXFuZkpoR3VtTEhsQWM0b2x2SEV6OW9ubnFtRzA0Vi1YSHNTRTdNSW9LenNNX3kwNlNGNmtjRnFNaE9qN2ppVWpDSGk0a3R3aDRnRHR3bDZTT1FCeWlsU01ONlA4S18zdW96MHlMU3FIckJTYTZGb3dmU0dJUTczdmJzLWFYcGkzU0NaTVpLa2tGU05wX09KdVJSNXU5WWRrd05ST0VDY0pLME9lZzhNaktVY3pmb2N3WUE?oc=5",
+     "domain": "rtve.es",
+     "date": "Wed, 14 Oct 2026 17:19:48 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOUmlzUHloZVJLTHF3UFZxeXVBQ0xyVTJUckJMa1NlbzNMT1R5dHRGSVg4ZERhd3lFa19sTGRJc1BzRi1Hcy15c1ZncnZIN1c5WHAxY2pHYmVBTXBqUkhJQ21QanpKMmkxdUo0TWJXSlNnSFZHZFlkcllJT2ZCWDNUakR6dzdVMlBfbFdkYk5tSjdwX0dNeHBaeVprUldNZGpzVF9TOS1RMUdiR3FxY0doOG9MZmhnbkVzTjRtQk4tSTIyNHJobmQyMFJyR2N5MV85LUFsZHlBTng4ckR6ZmRvR0VEQjBpeUFNVi10QkJXdlZReGhwOGFpcUxabFpXZ9IBgwJBVV95cUxNdExfSk11anIya2FHY0swTlYtOExuNXJmbXRJMnVUUE8tbi13dUlNMkV3U3VOMXpETkhudFE0QmNLNmpPcGxzWHlpZmFWNTVwRHNmX2ppOWdMWHY0dzFUcnV5S2RjWDUyR0J0YUlkQjlPTjBWbUpiNTRNSkxBc25kYUM4U2lrNDAzcFNSLXdvOENBWHVWTEZ6ZTl1V0J3WE1ZbnhLTVJrQlo1a1Jra1BNTVAzaTY5dEdfTzE2akZmU3lhSzlQUF9iWGJ2Yk9TNlAzYXc3QmJsVHhCZHJTQmpsdkstVGNCOUxDX2ZEcWlkSUl6bnFSZzRTcE5qa3pxRS1uT0lN?oc=5",
+     "domain": "elespanol.com",
+     "date": "Wed, 14 Oct 2026 15:21:01 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "actorCorrected": true,
+   "corroboration": 2,
+   "ageDays": 4,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-10-16",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "institution",
+   "kind": "event",
+   "fact": "The Spanish National Court dismissed a complaint against Netanyahu over the detention of a Spanish UNIFIL blue helmet in Lebanon.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E32"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZk9fbGJBRDhGbGxjQ1JySGpLbkZCVTE1cTJUNlI2YnlyU01uYTVkaml5VV9aRTUtNVh2SXZjQlJVWGwxNVc3M2JYUEZRQ0pPWjJzVkk2a1ZuNnQ2RW1UQ3hUcktKMjhRTG41S2tnb0NBVVpXbnN2dExVaUNNcjAwVTFydEdfanVsQUplOE5XMmJTSzdHUVhWNVVvV0NuX0dwWDBjZ2xqMXl4ZkpQZ3BDa1ZYSE9ZdTZxbWptQk9CcVJhdjM0MXQ1a2J2WlhycGJVUW5wRTVBdXFiS1IxeHRtN3FZZUhqZ0lRcGpv0gH_AUFVX3lxTFA4RUFIVkI1ZXlUWEVuMDlWTEVkT2lKUjlSMXRhUUJaaGNDaVFJbW90NmZNVlctVnpUMUxrY09BVEloYzBEcU5KaFVFbEROS0NIcnh0MzNCdUJUWVhWREgtSlpWQ0hUV3ZueXgwamx5SGNhUzRUNFpyM19Mb3VmS08xdlVqei1aUTJNMFhQYVVsMzNFcE1vUDJNV0p4bWV6OU1BUHE3RnhFQnJtSTgxcnpzX2ZGTldLS1FxN2VjQ1hQc0xvZE1kVUkwNUZYOXFBRldKMkRZMlBiZmE0MGV4bEY4NE5XU3BTaVgxS005Nm5SRWRhMF9MdmtxeXVQNWc5aw?oc=5",
+     "domain": "elpais.com",
+     "date": "Fri, 16 Oct 2026 07:45:35 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 2,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-28",
+   "dateBasis": "stated",
+   "actor": "IL",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Israel summoned the Spanish charge d'affaires following statements by Spanish Minister Sira Rego supporting a Palestinian state from the river to the sea.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E44",
+    "E49",
+    "E73"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUXRBa0NocmlXT3VLMTVjYWlZa1U1b2dXZ0RHLUpIbjNtbHFERkdtSjE1MTZYMjdZU0Q2Rko5RFY5QTI3bWZsaFVkZjBwQ0dWa2JhaUx6aHlVMEoxeFE0ZnJmRnJnZDl3cFhqU1dYN29LZ29tT1UxaUZ5QWdOZFZPdzhuQTExNFNFOVAtS3FCOHh0ZWJYVW9waWExd1ByWHJQSVRhTmYzalJ0cHFwdGl1ZjhFOU8xZmlpVElHTW80c3N6RXhoR19rRl9R0gHeAUFVX3lxTFBnQ09tZXRmQTNHZzl2Mm1HVUNrb0FOQlQ1dl9LYzJON3VVODlhZDBwNldBLXFHbjZJZzRrdTlMTEVlZklCb1o0UDFGQU5wSHJ6dWw0VFpZZlVaOXB0RmszeFRKaFdSVDdYdFhpMjZzUlliYTF5dmVQdmtFT3V2WVhFMmRMazVCOXZOTk1fa3d0WjZZWE95MWVsZmlNZHRwdmdtUWhhYUVzM2thUG1GYkxKZmJsdzNjOHlvZzRzMjRDZnJKMHF2dzctc1BXU004YWQ0dWlydTFPT1BhV3ZEZw?oc=5",
+     "domain": "elpais.com",
+     "date": "Mon, 28 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxON0pIUUNPUHAybktMMFh2YWJmZFRoaEs5NnMtbHZyeHlJVkNxYUNBT010Y0hSX2Y0YnhXTWJYaENGY0pzV1d0dWFRR28yZnFFcEJFRTdNbkhaWkxaVDE0ZDNjakFjdFJndDdUeHZOR0gtUDlzMFAtN1RVZ2t3T0dEaURxamhlN1czblVCcFQ2dEV5U0FITWtjTnpWVTJ3cWJSSlF6a1B0WDVfcEU0dW1JZXJycTFhUWhYRDZ6SzdhV2lyWFFuU29GVUJZeHJGOENpYmVEWEdscW1sMG54N1BONDMwOGsteG9TVkFYYzVJRkh0a28?oc=5",
+     "domain": "mundoobrero.es",
+     "date": "Mon, 28 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSmpQa2pYU2pfM0hPbjJpaE95LThGa01oRm1LbnRhbHY3aElXNXF3S3VKZV9fNGRSc1Jsci0xblFVLUxWTXZKSnFXcU50UWNULTZmRjJPRkhqN3VuUkV3LXRYZjQtS2V5R3hVeEt2MUNwclJyWl9fZ0g4NFdNVGhjTFc5cjQyMktBZmp4UktGMV8xVEU4NEFzNWZnYmRyU0dIMEtVUVJ2VThOeDAzLU1CS2FTbmRTSVRJdWcxdmdZTExINkc3LU5VYkR5dzhTdE82dkxvWXJEOFJmb0l5X2Vsc3h2NVA?oc=5",
+     "domain": "aa.com.tr",
+     "date": "Mon, 28 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 20,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-25",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Spain was the only major country to participate in the boycott of Netanyahu at the UN General Assembly.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E27"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRTRFTVRMT1JrM09idDB6TmQ5ODJRVW9pOGpob2RLdkM2V2FETVU0ei1DR25saHJDSmNzb1BrLTNtOXhySVltdDhiRzZrOE9KQmczWUs5ZGdSRjlucXJBcjlvMHpyejdkYnJHLXlaNmlOallVS015LWJYUUQ5YXBYODMxYWNKZkEzVlcwTmd2NkdxM1psQ3FGcWtXaVlkQnZIb3RQdEZTQXZ1R2VUZHpzU0hHT2l2UHlqZXJfalNETmxiU3F4a3daZi12SkHSAdIBQVVfeXFMTmtuLXNhdjR4U3ZfbjhqREFtMXRvNlcwWWZZcDJYc0RFb0d2NWFNaGczVTFBNXFsWnBzSG4tNWlROVFHWjFWS0F1NmdLNTM0cXdSalp6UUU5XzJhY1RHZ2x3OUhKSTNDMWw0aWZmanVJQVh0SDFmMVhBMHlCTjZOOWN4SDJlakRKQjA5VjNLSEtucTM2cHUxUHhvV1JSc1F1Z3JJV2xTREZVRndYTUI1ZEg5VzdIZmlNWXRQd2d2bTNBUUhYcWJWZ01QY3dqRkVsSV9R?oc=5",
+     "domain": "20minutos.es",
+     "date": "Fri, 25 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 23,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-24",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Spanish Prime Minister Pedro Sánchez slammed Israel's actions in Gaza (referring to genocide) and called for UNSC reform during a UN speech.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E57",
+    "E63"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ2d0d1dQbVlpSmZncVFZZ0lqU2RvUTB0MzI2dnR2WWZyam1IcDRkVVYyZ1cwQlRGNjA2S05TZXd2MGdyUlFISUZEeTJGNEhOVk5pVlVKUVhfa3p4WldRSng5YTB3aGp3Q21YS1ZLT0RRTnY3QUhVbWJMaVE2eUg1SlZjWHNHQUlUVU4tYVpvOFhYNnFPZjZZU1BIUUNHZzZGTWc?oc=5",
+     "domain": "dailysabah.com",
+     "date": "Thu, 24 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY0pHQXMyYy1Yb2Ixb2hXLWVRc0tFV285bDRIVFM1ZGdzWF8zWU80cHlGUFpLN1c5ZXA1UVBRd015S3RGblZGRzhkZkRFeFR5eGtpTjBMaHhNdDRfaUs3Tlh3OVNScWxyVDlYSWMzR05TZ25HSVJiZW80ZFlLekVROUluUno2c3lETmhub1JTVF9kc0p2QzVMQXlBRWRWWGRlY2xKMVJXWHpTN0dxRkl2b3lWSERrZktMYzllcUYxa1A?oc=5",
+     "domain": "middleeasteye.net",
+     "date": "Thu, 24 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 24,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-22",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "institution",
+   "kind": "official_statement",
+   "fact": "RTVE proposed maintaining Spain's withdrawal from Eurovision in 2027 due to Israel's participation.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "values",
+   "evidence": [
+    "E43",
+    "E46"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVFhYU045X1Q5XzdZT0tQSlR2NVdTMkw4aDlXalFkTDloUlBISUdqMk5iclVZUmlFMWhqUnFmclJ1WHd0akJUZzBQbVZhRkhCWGlCMUlQal95clFHRDd6SU1NUjYzdnR6c3ZfY2VhY29WanlxaUNnY1hqaGFuVjQ3cWpITEN5NTFieE95T01GYVF6SXJ3czN5dnVVMFhTbjdVUFRNbGlZdHQzVlhBeUw2czQtLWlpZ3o2QXQzb0pyWDNuV2JGeUJJV1RScWx3Zw?oc=5",
+     "domain": "rtve.es",
+     "date": "Tue, 22 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTWNHU0Zvd3J6bzJGMlQ3RnNiU0R0SU9ISS12NElUZWFyWlJTbzVabmJPMVVFSThZWFNtVk90aWFxbER6RjZ0NHpQVU9NNUhrV3Rwa0NSREtDVTJqM1VVN09KUXlGOS1ONUFuZVRXbndPa2g4LWhyOEpTb1I0bVQ3dmNEZWdyMlk2UEdIcE5pUjdlbEhkc1ctdkU2Vm9tUmlYcU5LeXRoN1p4ckU3cjNVVkFuNVUwZC1GWE9XbVZTODAxV1pO0gHEAUFVX3lxTE1qYlBOZ19rc3RSMGg5Q2x3ZFdSLXVERGJRTmZHSjlSX1VKbmRzQ2NaUnEyMXdjelB2VVVoeUNaS0FVUGtKMWNFTHJXdmdJdVRKZEtGeGtOeUp0X1ZZMjRqSDd0SldkVEp1RThkMDF3QjdSQ3RmOTdQZHp0aTN2YlNoQk03aGMyVWFCaFlPdkc4Sjd4S05tUV9sNnJFVHhJXzh0U0F6enFLdENBR1hhaGpiU1g3UXFYUFp1SXFIYlo4N0tyeXI?oc=5",
+     "domain": "antena3.com",
+     "date": "Tue, 22 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 2,
+   "ageDays": 26,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-10",
+   "dateBasis": "stated",
+   "actor": "IL",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "An Israeli diplomat/ambassador warned Spain that not working with or defending Israel on defense has a price for Spanish citizens.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "security",
+   "evidence": [
+    "E29",
+    "E37",
+    "E41"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVlZweERGR1hxNmRPNEpVOE56cFpnU0xBREFkbmxXckk3cVZRaFVIblJOWl96NTdocTJoS05UWkRjd1dIYlpGRTJCb05FYjlMb2Nrek15TFRSbUR6cjkzWm92T0lKMHlZWFBJbUpyTXI3T01NckdRblNRQmloaWI1Uy1mQTlUVFFGdXRsU21nNjZpRkJnenNrdHo5aGEyLXpuaGU3QWNXTVNoVFVWSkRjYUJpSlZNTnU2QnfSAb8BQVVfeXFMT21NVTFrMFVWelJyQW9TQjluZXM5dlhSc1BNT1VFVkNteXlsblZrWEdOcUlvTEs1UUZ2VmpFX0lGbVBEb012bG5rZ3V5VmY1OXljdDNCZHhpMTJVVlh0Wjd6c3RxTDVIS0hYNktJcjV6VVpoS1RnU3plVDA5UlVmeXI5YURLVUtkY3A4LUlvRjd4WDFBenlZbVZmNjNrMFpSNEdHM2V4dXBmUWZaWkZMc01lSzFKVzhxNTEyMWpXODg?oc=5",
+     "domain": "noticiasdenavarra.com",
+     "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVERydlFoRDBQNGREWE43NGpVc2VabUpSOHdSd2RnMXFQd0VoNllsZ0pmUlhoN2JOc3lFZ3hiMGdWYnNndDk3R2dvTDdXQkswVGIzelNjTElUcXlxc3ZSTC0wQUlnOWVDdFNoS3RIcWJOdmdaREdsQmstZ1R2dGJpSDJzR09kbk1RcjZGemh6UHRNN3PSAZgBQVVfeXFMTzVmSWlpQ1FyUVBRdDlZajZkRjYtN0FTSTFwbm5ISThCMUFJTHg1UGl2X1hscXNESTUyNWp2WjRDUWlKNUFWLV9xYkNfUGdDa3dZdHA1UXlBNlVDcTEtZ1h1bGlZNVU1Uy00cEx3QTNScDhuc01fVlI1QmZxdlpXRWk4cG5yQWdhLWh4OEswZEQyV01xY2hPQnQ?oc=5",
+     "domain": "elfarodeceuta.es",
+     "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOenBZVl9aZ1pTTG9tZkhkVmRPVU1wUnNRUDRycUFmd1lOOThVVEJoSk1VY1hBaFpuTnZfa2ZmZERIRmVLazNqdFB3dWJKNnBCc0IyQ2JWLUxFMnoyb3RBeVVkTDhCbWNLX0JHOFE4eUYzeTVDdGxhMzlhM3E1aXU3MTRR0gGCAUFVX3lxTE83VjdZZ1Y5OHJ3RHEtLVp4Q1prUjB3TlhHWFBfVHNkOUw4TUFNcThVbXlsTDhvYktmQjdwOUFaTDhRYklzV1lpQ3RjQ0FXbHExaXVnemRYTDBuYlhNb0toYjhJZnR6UmV0RzR2c004dVp6bW9FREFGaFl6el8tLUkyeWc?oc=5",
+     "domain": "elmundo.es",
+     "date": "Fri, 11 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 38,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-10",
+   "dateBasis": "stated",
+   "actor": "IL",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "The Israeli ambassador to Spain accused the Spanish government of using Israel as a smoke screen for the Ceuta crisis.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E33",
+    "E40",
+    "E45"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRXNRNVB0aUkzVGJucGtHa24zanFHNHZETnhiQlY2MmltNGlQZ21ncEdqakZLMXJuUHpwMmRNQnNhSWtKVTlDUWlyNldxOTA5VF8zZ3dyRHZ5cXNxbUFZcUZhcXRoekVTcVRxZEVMQjRmWFVLZDZuT0JoMGNMdV9wSHdPTExCN1VJWVdlQThTLS0yQ3NqdWNrOFRvaHI1eGRXd2VRVnBrNnhXMzBt0gGsAUFVX3lxTFB5TGlWel9ESENaaTAxU3JkSmtXNUc5djl2SzkxTW1qMDlXemQ1dHFQcnpZbnV5NFlfZFJxMHJRU1JRemdTaHZLM3prOUY5RUZfaU1CcmllNHVKbWtxdC1IZGNWY29Vc2R5dzhvUFpmLXo5cF9OWG5GQU5lbXRkUUVrQ1lRSFlCelYtT1dCYnBURGFxUmpWMHRYNzBneVNuTjc4VGRSNFdBMlRQVmE?oc=5",
+     "domain": "elperiodico.com",
+     "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSUVqNWg4VGQ5Y05taU1VckpoV0FTRUV0bkRBejU5S3R4V3hIcE9HLTA0NjhKcEpUU3FPc1ZRUjktdXJET1BqSUQyX2N0b3ZkU2N5M0hwRDIxSWEwMFpzRXpoSjBXSXF4NGFsNnh3YjVheGFMbjlCUmg3bDd4RjhZNldzcXpTQnFEMXRNdHBIRDA2NnJsdW0xZDlGS0N0eF80bEpQT1Z0bGdfVS1qTFZMZ2hIb3lNeGltNVlj0gHAAUFVX3lxTE1BVXh1MktjT2JxMzhmTl9SQWtTN1dKczVPZTd0S25LRDZQU2hLZnFGY19WOTdmTWFyUjBsYnNDOEVFa3k3OFlLd1k3MGxzamlrQ2pvWTUyd2ZhV1ZZc0hEX1lUV0F5TmF5aVB5M1c0S0IyeFU0OURkR0FVMk55bFllbUZqSjl3WmFBM1ZZU2MwLTR5aW1HNWM0NTR2cGFpVElZRzVoTlF0VGRSUGRwdlpJNG5Wc3NGMVJsa2t1akZPTA?oc=5",
+     "domain": "lavanguardia.com",
+     "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaUpUOEdOMG85ZkhtdGgzeTFoU3dhN1VGYm54VlB5U1lCanhIQVVrdEV2c043ZmhJQUtKU3h1UU9Ic2drdThmSUJfUVl5T25FWklfMTNJdlgwdWNmU0x1Mi11eU1wMHBLSXl5b3lhSjZCTG1nRGpGRnFFWTVLOXlDMk5CdlJvVHBuRU1odlFRMTVoWVZjYVZPZm1UNFEyQWVHcUhZeEoycHl1U0dkNTQxTkJRTVZ3RzVTTFlfaUdwM1hDRFMxUlFvc1NhSEdKbUwzUXVhNFNnMk13OW84Q21RXy1wYw?oc=5",
+     "domain": "20minutos.es",
+     "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 38,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-09-08",
+   "dateBasis": "stated",
+   "actor": "IL",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Israel blamed Sánchez for the rise of antisemitism in Spain.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "values",
+   "evidence": [
+    "E60"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeVYzZkdRWS1QMm15U1RCQ19FeEhkVUlFdjItVmJJSUdPRXVBWWFMYkduN1czMmI2R0hFSVZUYkJpeVRabEhRR25TRU1td09SLThuelY4NTJtLThsVlhnQW4yVGZoTFRtQWxpZ05FWkx1dnNUOUVyU0NLWDNJbHp5by1MWGxXS1lBbDRGOTBISWdiWS1DanVxRHlXWjNNNzJjSU51LVg4aWp5VzBYX3k3TzE1YzRjdkdHQVJiYVZabllZSXRRZnh2enQ3MHBRNERoS0tZ?oc=5",
+     "domain": "atalayar.com",
+     "date": "Tue, 08 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 40,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-08-31",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Spanish Prime Minister Pedro Sánchez accused Israel of spreading disinformation regarding the Ceuta migrant crisis.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E51",
+    "E52",
+    "E58"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU19RanFHMGY1elppelE3bUFHZHdxanVXQy03REpldkRCc3l1TnIwSG1GSHVOT1o4Z0ZvMkw1eWIyZ0x6QUl0T0VaSmtNVTgzZHp3ZFNXMzFpZjU0Tlc0T1FrbXRMdmRCbmVWTzNfTElFMThuZlNVcHFiMFJhenZQS2NBTXNxQU1TRnNfamZlRWotMElkd3dmdHpRVk1kMFpiMmp0OWxScmgtZkVMeG1Yb21TQdIBuAFBVV95cUxOZHlrTjJ6NEt1cnBqVGpqdkxQbk5TeXVSZGM1OEx0RGQ2Ml9EakpQX29lMHNRNGJRc3NTUFI5eWhpaE9MZE03aVg1YThBWkZoNVQyNi1Ib1FOVlFVNWJVX0Nfa0ZqWWxLWDBhSTR1aFFCTUVXRXhGd1lCM3dsbk8yWWEtZWF6Q1Z1NGZvSVJRWTgzS0lVS3ZSMG9sNlpXdkpDeHVwUWd2SXhaT2w2YjdQZm1KVXZtM2df?oc=5",
+     "domain": "aljazeera.com",
+     "date": "Mon, 31 Aug 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUklDRlRQMU9kQnZqbVBwNVNaY25DQWt4M2pRcHd1MlYxazFMcER0dF9GVTNCUV9BNTliTHRQdi1VZ0VBSUxMREVtQTNObHBleWlFSER2VnV3S3lmOS1takNmUUJDNGl3NzJkb202Q0NOaEcweWxUNTF4T3ZZN0xJZlNWb19xc3hKa0xiUGpyZEJ2Ym5WM2tGWnNwdjJMVFFXeG0yRGJLVERZdGVsZXc?oc=5",
+     "domain": "reuters.com",
+     "date": "Mon, 31 Aug 2026 07:00:00 GMT"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ013bDM3d0NJbFdoNEhVaXdwWUNqdzIzbUk2SnhKdDlGc0ZDaW1fYUNJX1BhTzgzS0gwN0E0SXhsUU8wTUxFS2VhYnlJQ3lNOTFXU2s4am5uajZld00xRzlUWjRoUFJSZ1B5dG5zaGlMMjh0Z3dFZkNlUmxGT0pJd1VGdEJPcnV1MTdqVWg5dHpvdnFmTmdXdEFTQzdLeWxhWGVHUDUxQnhZODJjc2JXdW9UdlJyYjVMV0530gHAAUFVX3lxTE52QWx1a2FlRl9aaVYzR21rMGFCWEhmaDZ3WmpVYllFcU51ZmtLU1FRTkd6RE1xMUJqQnlvaVlaSXBRbzZqaWpKSGwtSnVMbmM4Z0RDQVpTM0ZuNzZUVjBmcHNOa2ptS2tSSV94X1pOYlZUOVZsZ0FfOHN5eUhGMHhwUFlRT1lQOTlaNC1Gb2tvUk11VWpRcjdiNUVGYi1fOEZpS2RVRFNQZUE4OUJzQy1kYVJsUWF0RlMtVGdONElCcA?oc=5",
+     "domain": "timesofisrael.com",
+     "date": "Mon, 31 Aug 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 48,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-08-26",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Spain condemned Israeli forces' attacks on UNRWA facilities in occupied East Jerusalem.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "values",
+   "evidence": [
+    "E65"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOekhyN0FyOTRranp5QUR6ZkZpUUhDUnV0Nlo3LTVuZ2lueEhPY0pPMGFYRVNMU3NpOVM0c2tybjUwQnVJTHZRVThhZkFQak8tbld4ZjJBeHdjeEY4Q2tFRU9ZOEN2cDFlbFl2LUh2RVhWOS03Y21CNDhxa1YxazJ1c3U5V2lLLS1nVVpKRTRvOXJTTkV3MHlDNEF1VXpXUDJZYnlVWW9GYmluOHVQRkpfREtOazV0VXd4Z2RkNmx5MXBPQzRuVTVVZVJ3c0lqUkJWYWpV?oc=5",
+     "domain": "aa.com.tr",
+     "date": "Wed, 26 Aug 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 53,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-08-21",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Spain condemned Israel's decision to advance settlements in the occupied West Bank.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "territorial",
+   "evidence": [
+    "E54"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnN1aVlFQW9sM0E0eWN6bXk2M184Z2QtU3o3MWJlcUpaQzVadXdWTXhaZ0ZnV01TVXQtVjlOblFzX2JDVlFNVXFWaTR6dXVwd0s0WkMzZ0t0aHROUVpvNXlGQ1I2N1RRbVVyVmxWSjRWc0cwTUtqLUY4bHAwem16NDdVbWdEWEh6TG1mRUQ3Q1hmT3ZVbGRsUUI4clRBMlVodV9Ca0JoWlBrVGJRLUFLdU5SWGVhQjg?oc=5",
+     "domain": "aa.com.tr",
+     "date": "Fri, 21 Aug 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 58,
+   "bucket": "recent",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-04-10",
+   "dateBasis": "stated",
+   "actor": "IL",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Israeli Prime Minister Netanyahu accused Spain of hostility toward Israel.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E12"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://english.alarabiya.net/News/middle-east/2026/04/10/netanyahu-accuses-spain-of-hostility-toward-israel-",
+     "domain": "english.alarabiya.net",
+     "date": "Fri, 10 Apr 2026 14:20:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 191,
+   "bucket": "last12m",
+   "isGov": true
+  },
+  {
+   "eventDate": "2026-03-11",
+   "dateBasis": "stated",
+   "actor": "ES",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Spain permanently withdrew its ambassador to Israel and left diplomatic representation under a charge d'affaires.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E4",
+    "E9",
+    "E11"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://www.elmundo.es/espana/2026/03/14/69b40c57fdddffec2f8b4578.html",
+     "domain": "elmundo.es",
+     "date": "Sat, 14 Mar 2026 21:47:30 GMT"
+    },
+    {
+     "url": "https://english.news.cn/20260311/55f13c3fbed54ff7a2ecb640576462e1/c.html",
+     "domain": "english.news.cn",
+     "date": "Wed, 11 Mar 2026 00:00:00 GMT"
+    },
+    {
+     "url": "https://www.politico.eu/article/spain-downgrades-diplomatic-ties-israel",
+     "domain": "politico.eu",
+     "date": "Wed, 11 Mar 2026 15:10:56 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 221,
+   "bucket": "last12m",
+   "isGov": true
+  },
+  {
+   "eventDate": "2024-05",
+   "dateBasis": "stated",
+   "actor": "IL",
+   "actorKind": "government",
+   "kind": "official_statement",
+   "fact": "Israel recalled its ambassador to Spain following Spain's recognition of the State of Palestine.",
+   "type": "IMPLEMENTED",
+   "polarity": -1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E2",
+    "E11",
+    "E21"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://diariojudio.com/2026/01/16/espana-e-israel-cumplen-40-anos-de-relaciones-en-un-clima-de-tension/515198",
+     "domain": "diariojudio.com",
+     "date": "Fri, 16 Jan 2026 20:13:17 GMT"
+    },
+    {
+     "url": "https://www.politico.eu/article/spain-downgrades-diplomatic-ties-israel",
+     "domain": "politico.eu",
+     "date": "Wed, 11 Mar 2026 15:10:56 GMT"
+    },
+    {
+     "url": "https://www.euronews.com/2026/03/11/spain-formally-dismisses-ambassador-to-israel-amid-tensions-with-tel-aviv",
+     "domain": "euronews.com",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 3,
+   "ageDays": 886,
+   "bucket": "older",
+   "isGov": true
+  },
+  {
+   "eventDate": "1986-01-17",
+   "dateBasis": "stated",
+   "actor": "joint",
+   "actorKind": "government",
+   "kind": "event",
+   "fact": "Spain and Israel established formal diplomatic relations.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E25"
+   ],
+   "contested": false,
+   "anchor": true,
+   "sources": [
+    {
+     "url": "https://agora.edu.es/descarga/articulo/2494769.pdf",
+     "domain": "agora.edu.es",
+     "date": ""
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": 14884,
+   "bucket": "ancient",
+   "isGov": true
+  }
+ ],
+ "contextFacts": [
+  {
+   "eventDate": "2026-09-24",
+   "dateBasis": "stated",
+   "actor": "non-government",
+   "actorKind": "non-government",
+   "kind": "official_statement",
+   "fact": "Spanish Jews condemned Sira Rego's statements regarding Israel as antisemitic.",
+   "type": "DECLARED",
+   "polarity": -1,
+   "axis": "values",
+   "evidence": [
+    "E50"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbzBUbkZpVnl2YUVmOHNydDVGSWZ2UkZ5SnVkLV9HUWRJcVFicHZ2YWlPSGM0OUdDcmFJSHhUVmZKRXFaZ0ttVER6ak5LWHp3TDVZTXl1YjgxSTItTkxSd2lzLVpoWUxPOGdmaUtpazc1UXNfZURSaFBMcTUtMV9wcUNvNHlheVlxbGdtcENuSEczNkJiVE9tVFc0MWYtcFViRG95UXNOTWkxRUN2Y1pRSVBXblAzcEs0MXRXbGJfd2Rhb0xUdTlUV3c5Rks?oc=5",
+     "domain": "europapress.es",
+     "date": "Thu, 24 Sep 2026 07:00:00 GMT"
+    }
+   ],
+   "verdict": "SUPPORTED",
+   "corroboration": 1,
+   "ageDays": 24,
+   "bucket": "recent",
+   "isGov": false
+  },
+  {
+   "eventDate": null,
+   "dateBasis": "stated",
+   "actor": "third-party",
+   "actorKind": "non-government",
+   "kind": "event",
+   "fact": "Spain and Israel commemorated 40 years of diplomatic relations with an event led by former Spanish Prime Minister Felipe González.",
+   "type": "IMPLEMENTED",
+   "polarity": 1,
+   "axis": "diplomatic",
+   "evidence": [
+    "E3"
+   ],
+   "contested": false,
+   "anchor": false,
+   "sources": [
+    {
+     "url": "https://agenciaajn.com/noticia/espana-e-israel-conmemoran-40-anos-de-relaciones-diplomaticas-con-un-acto-encabezado-por-el-expresidente-espanol-felipe-gonzalez-293223",
+     "domain": "agenciaajn.com",
+     "date": "Thu, 05 Feb 2026 13:14:04 GMT"
+    }
+   ],
+   "verdict": "PARTIAL",
+   "dateCorrected": true,
+   "corroboration": 1,
+   "uncorroborated": true,
+   "ageDays": null,
+   "bucket": "undated",
+   "isGov": false
+  }
+ ],
+ "initiatives": [],
+ "quality": {
+  "evidenceCollected": 75,
+  "evidenceRelevant": 61,
+  "independentDomains": 47,
+  "govFacts12m": 14,
+  "govFactsRecent": 12,
+  "factsKept": 18,
+  "contextOnly": 2,
+  "supportRatio": 0.94,
+  "coverage": 1.0,
+  "stillMissing": [],
+  "loops": 1,
+  "fixes": {
+   "type": 0,
+   "typeRule": 0,
+   "date": 1,
+   "actor": 1,
+   "undated": 1,
+   "recovered": 0,
+   "uncorroborated": 4,
+   "polarityDisagree": 1
+  },
+  "dropped": [],
+  "irrelevantExamples": [
+   {
+    "id": "E17",
+    "title": "Spain’s Migrant Crisis Follows Years of Israeli Warnings, US Pushback",
+    "why": "No bilateral content"
+   },
+   {
+    "id": "E26",
+    "title": "España, a la Ronda 2 por la vía rápida - RFEF",
+    "why": "Sports federation news"
+   },
+   {
+    "id": "E30",
+    "title": "España - Israel: a qué hora y dónde ver hoy el partido de la Ronda 1 del Europeo Sub-17 20",
+    "why": "Football match schedule"
+   },
+   {
+    "id": "E31",
+    "title": "España-Israel | Información del partido | Europeo sub-17 de la UEFA 2027 - UEFA.com",
+    "why": "U-17 football match"
+   },
+   {
+    "id": "E34",
+    "title": "Marc Santos, titular en la victoria de España Sub-17 frente a Israel - Levante UD | Web Of",
+    "why": "U-17 match victory"
+   },
+   {
+    "id": "E35",
+    "title": "Europa sí escucha a Netanyahu - Cadena SER",
+    "why": "General Europe commentary"
+   },
+   {
+    "id": "E36",
+    "title": "Seis bombazos sacuden el tablero: Irán, Israel, Yemen, España y Wall Street con el Dow Jon",
+    "why": "Broad market focus"
+   },
+   {
+    "id": "E42",
+    "title": "España brilla en su debut en la Ronda 1 (8-0) - RFEF",
+    "why": "Spain football debut"
+   }
+  ]
+ },
+ "metrics": {
+  "calls": [
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.6,
+    "tokens_in": 1918,
+    "tokens_out": 948,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.5,
+    "tokens_in": 1526,
+    "tokens_out": 986,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.5,
+    "tokens_in": 1135,
+    "tokens_out": 1245,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.2,
+    "tokens_in": 1079,
+    "tokens_out": 1235,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.7,
+    "tokens_in": 1054,
+    "tokens_out": 1672,
+    "fallbacks": 0
+   },
+   {
+    "stage": "extract",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 2.9,
+    "tokens_in": 8661,
+    "tokens_out": 759,
+    "fallbacks": 0
+   },
+   {
+    "stage": "coverage",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 2.1,
+    "tokens_in": 2595,
+    "tokens_out": 697,
+    "fallbacks": 0
+   },
+   {
+    "stage": "extract",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 4.5,
+    "tokens_in": 9709,
+    "tokens_out": 2000,
+    "fallbacks": 0
+   },
+   {
+    "stage": "coverage",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 0.8,
+    "tokens_in": 3026,
+    "tokens_out": 13,
+    "fallbacks": 0
+   },
+   {
+    "stage": "coverage",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "seconds": 0.8,
+    "tokens_in": 3026,
+    "tokens_out": 19,
+    "fallbacks": 0
+   },
+   {
+    "stage": "verify",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 10.1,
+    "tokens_in": 4476,
+    "tokens_out": 4475,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "seconds": 108.7,
+    "tokens_in": 1542,
+    "tokens_out": 3351,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "seconds": 0.9,
+    "tokens_in": 1494,
+    "tokens_out": 299,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "seconds": 1.4,
+    "tokens_in": 1459,
+    "tokens_out": 258,
+    "fallbacks": 0
+   }
+  ],
+  "collect": {
+   "errors": [],
+   "blocked": 0,
+   "wikipedia": "Israel–Spain relations",
+   "recent": 64,
+   "history": 11
+  },
+  "totalSeconds": 172.3,
+  "tokensIn": 42700,
+  "tokensOut": 17957
+ }
+}

@@ -1,9 +1,9 @@
 'use client';
 
 import React from 'react';
-import { Activity, Network, Newspaper } from 'lucide-react';
+import { Activity, Flag, Network, Newspaper } from 'lucide-react';
 
-export type MapMode = 'risk' | 'relations' | 'news';
+export type MapMode = 'risk' | 'relations' | 'claims' | 'news';
 
 export interface MapModeSelectorProps {
   activeMode: MapMode;
@@ -37,6 +37,18 @@ export const MapModeSelector: React.FC<MapModeSelectorProps> = ({ activeMode, on
         >
           <Network className="w-3.5 h-3.5" />
           RELACIONES
+        </button>
+        <div className="w-px h-4 bg-zinc-700 mx-1"></div>
+        <button
+          onClick={() => onModeChange('claims')}
+          className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded-lg transition-all ${
+            activeMode === 'claims'
+              ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold'
+              : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800'
+          }`}
+        >
+          <Flag className="w-3.5 h-3.5" />
+          RECLAMOS
         </button>
         <div className="w-px h-4 bg-zinc-700 mx-1"></div>
         <button

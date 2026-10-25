@@ -1,0 +1,209 @@
+{
+ "pair": "MN-SN",
+ "asOf": "2026-10-18",
+ "structuralStatus": "MINIMAL",
+ "overallStatus": "MINIMAL",
+ "trend30d": "UNKNOWN",
+ "confidence": "LOW",
+ "axes": {
+  "security": null,
+  "trade": null,
+  "energy": null,
+  "migration": null,
+  "territorial": null,
+  "values": null
+ },
+ "trendBasis": {
+  "n30": 0,
+  "nBase": 0,
+  "baseline": "days31-365",
+  "mean30": 0.0,
+  "meanBase": 0.0,
+  "delta": null
+ },
+ "coherence": {
+  "mean60": 0.0,
+  "n60": 0,
+  "voted": "MINIMAL",
+  "final": "MINIMAL",
+  "clamped": false
+ },
+ "perceptionAtoB": null,
+ "perceptionBtoA": null,
+ "summaryEs": "Evidencia insuficiente: 0 hechos gubernamentales verificados en los últimos 12 meses y 0 fuentes independientes (mínimo 3 y 3). No se emite valoración.",
+ "leaders": [
+  {
+   "country": "MN",
+   "role": "head of state",
+   "name": "Ukhnaagiin Khürelsükh",
+   "source": "wikidata"
+  },
+  {
+   "country": "MN",
+   "role": "head of government",
+   "name": "Uchral Nyam-Osor",
+   "source": "wikidata"
+  },
+  {
+   "country": "SN",
+   "role": "head of government",
+   "name": "Bassirou Diomaye Diakhar Faye",
+   "source": "wikidata"
+  },
+  {
+   "country": "SN",
+   "role": "head of state",
+   "name": "Bassirou Diomaye Diakhar Faye",
+   "source": "wikidata"
+  }
+ ],
+ "stability": {
+  "agreement": 1.0,
+  "structuralAgreement": 1.0,
+  "runs": [
+   {
+    "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+    "overall": "MINIMAL",
+    "structural": "MINIMAL"
+   },
+   {
+    "model": "groq/qwen/qwen3.8-27b",
+    "overall": "MINIMAL",
+    "structural": "MINIMAL"
+   },
+   {
+    "model": "gemini/gemini-3.5-flash-lite",
+    "overall": "MINIMAL",
+    "structural": "MINIMAL"
+   }
+  ],
+  "heldByHysteresis": null
+ },
+ "facts": [],
+ "contextFacts": [],
+ "initiatives": [],
+ "quality": {
+  "evidenceCollected": 30,
+  "evidenceRelevant": 0,
+  "independentDomains": 0,
+  "govFacts12m": 0,
+  "govFactsRecent": 0,
+  "factsKept": 0,
+  "contextOnly": 0,
+  "supportRatio": 0.0,
+  "coverage": 1.0,
+  "stillMissing": [],
+  "loops": 0,
+  "fixes": {
+   "type": 0,
+   "typeRule": 0,
+   "date": 0,
+   "actor": 0,
+   "undated": 0,
+   "recovered": 0,
+   "uncorroborated": 0,
+   "polarityDisagree": 0
+  },
+  "dropped": [],
+  "irrelevantExamples": [
+   {
+    "id": "E1",
+    "title": "IFCD | Results of the last application cycle | Diversity of Cultural Expressions",
+    "why": "No bilateral content"
+   },
+   {
+    "id": "E2",
+    "title": "Foreign relations of Mongolia - Wikipedia",
+    "why": "No bilateral content"
+   },
+   {
+    "id": "E3",
+    "title": "eVISA Online Services",
+    "why": "No bilateral content"
+   },
+   {
+    "id": "E4",
+    "title": "Senegal — Cronología | CountryReports",
+    "why": "No bilateral content"
+   },
+   {
+    "id": "E5",
+    "title": "Mongolia: Accelerating Sustainable Infrastructure Investments",
+    "why": "No bilateral content"
+   },
+   {
+    "id": "E6",
+    "title": "EU and Mongolia hold Joint Committee in Brussels | EEAS",
+    "why": "No bilateral content"
+   },
+   {
+    "id": "E7",
+    "title": "News :: MFA",
+    "why": "No bilateral content"
+   },
+   {
+    "id": "E8",
+    "title": "The Organized Crime Index",
+    "why": "No bilateral content"
+   }
+  ]
+ },
+ "metrics": {
+  "calls": [
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.0,
+    "tokens_in": 1791,
+    "tokens_out": 744,
+    "fallbacks": 0
+   },
+   {
+    "stage": "filter",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.7,
+    "tokens_in": 1283,
+    "tokens_out": 1002,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "seconds": 17.6,
+    "tokens_in": 571,
+    "tokens_out": 343,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "seconds": 0.6,
+    "tokens_in": 551,
+    "tokens_out": 153,
+    "fallbacks": 0
+   },
+   {
+    "stage": "analyze",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "seconds": 1.0,
+    "tokens_in": 522,
+    "tokens_out": 144,
+    "fallbacks": 0
+   }
+  ],
+  "collect": {
+   "errors": [],
+   "blocked": 12,
+   "recent": 19,
+   "history": 11
+  },
+  "totalSeconds": 63.1,
+  "tokensIn": 4718,
+  "tokensOut": 2386
+ }
+}

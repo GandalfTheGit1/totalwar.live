@@ -1,0 +1,126 @@
+{
+  "leyenda": {
+    "color": {
+      "seguidores": "#009E73",
+      "investigacion_mercado": "#0072B2",
+      "monetizacion": "#E69F00",
+      "seguridad_riesgo_datos": "#D55E00",
+      "sin_meta": "#BDBDBD"
+    },
+    "forma": {
+      "idea": "circulo",
+      "en_construccion": "redondeado",
+      "terminada": "rectangulo",
+      "descartada": "hexagono"
+    },
+    "tamano": [
+      {
+        "hasta": 1,
+        "nombre": "S",
+        "font_px": 12
+      },
+      {
+        "hasta": 3,
+        "nombre": "M",
+        "font_px": 15
+      },
+      {
+        "hasta": 5,
+        "nombre": "L",
+        "font_px": 18
+      },
+      {
+        "hasta": 999,
+        "nombre": "XL",
+        "font_px": 22
+      }
+    ]
+  },
+  "nodos": [
+    {
+      "id": "desarrollo-industrial-ciudades",
+      "nombre": "Monitor de desarrollo industrial y polos manufactureros urbanos",
+      "color": "#0072B2",
+      "meta_principal": "investigacion_mercado",
+      "forma": "circulo",
+      "estado": "idea",
+      "tamano": "S",
+      "dependencias": 0,
+      "demanda": "0/10",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "Monitor geopolítico 3D",
+        "Capa geoespacial de recursos y manufactura"
+      ]
+    },
+    {
+      "id": "finanzas-publicas-soberanas",
+      "nombre": "Monitor de finanzas públicas soberanas y salud fiscal",
+      "color": "#009E73",
+      "meta_principal": "seguidores",
+      "forma": "circulo",
+      "estado": "idea",
+      "tamano": "S",
+      "dependencias": 0,
+      "demanda": "0/10",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar",
+        "Servicio de Ingestión Macro Soberana"
+      ]
+    },
+    {
+      "id": "entidades-postura-vecinal",
+      "nombre": "Monitor de entidades estratégicas, capacidades y postura vecinal",
+      "color": "#0072B2",
+      "meta_principal": "investigacion_mercado",
+      "forma": "circulo",
+      "estado": "idea",
+      "tamano": "S",
+      "dependencias": 1,
+      "demanda": "2.4/10",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Capa de Inteligencia Geoespacial y Táctica",
+        "Geopolitical Sidebar"
+      ]
+    }
+  ],
+  "conexiones": [
+    {
+      "tipo": "alimenta_meta",
+      "de": "desarrollo-industrial-ciudades",
+      "a": "investigacion_mercado",
+      "principal": true
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "desarrollo-industrial-ciudades",
+      "a": "seguidores",
+      "principal": false
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "finanzas-publicas-soberanas",
+      "a": "seguidores",
+      "principal": true
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "entidades-postura-vecinal",
+      "a": "investigacion_mercado",
+      "principal": true
+    },
+    {
+      "tipo": "alimenta_meta",
+      "de": "entidades-postura-vecinal",
+      "a": "seguidores",
+      "principal": false
+    }
+  ],
+  "avisos": [
+    "entidades-postura-vecinal depende de 'reclamaciones-territoriales', que no está definida: conexión omitida"
+  ]
+}

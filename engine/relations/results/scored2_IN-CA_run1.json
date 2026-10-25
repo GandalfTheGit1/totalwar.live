@@ -1,0 +1,376 @@
+{
+ "pair": "IN-CA",
+ "asOf": "2026-10-18",
+ "warnings": [],
+ "R": 24.4,
+ "band": "NEUTRAL",
+ "bandFromScore": "NEUTRAL",
+ "reliable": true,
+ "trend": "STABLE",
+ "trendInfo": {
+  "now": 24.4,
+  "before": 22.0,
+  "delta": 2.4,
+  "days": 30
+ },
+ "timeline": {
+  "-365d": 14.1,
+  "-180d": 26.5,
+  "-90d": 23.4,
+  "-30d": 22.0,
+  "hoy": 24.4
+ },
+ "S_struct": 18.9,
+ "S_dyn": 5.5,
+ "memory": 0.0,
+ "rawStruct": 19.1,
+ "rawDyn": 3.3,
+ "states": [
+  {
+   "code": "FULL_DIPLOMATIC",
+   "sides": 2,
+   "source": "wikidata",
+   "evidence": "2 resident embassy(ies); P530=True",
+   "value": 10.0
+  },
+  {
+   "code": "SHARED_FORUM",
+   "source": "wikidata",
+   "evidence": "shared: G20",
+   "value": 3.0
+  },
+  {
+   "code": "HUMAN_TIES",
+   "scale": 0.63,
+   "source": "un-desa",
+   "evidence": "IN-born in CA: 503,784 people (1.26 % of the destination); UN DESA 2024",
+   "value": 3.15
+  },
+  {
+   "code": "SHARED_LANGUAGE",
+   "source": "wikidata",
+   "evidence": "English",
+   "value": 3.0
+  }
+ ],
+ "dataLog": {
+  "wikidata.diplomacy": {
+   "P530": true,
+   "residentEmbassySides": 2
+  },
+  "wikidata.memberships": {
+   "a": [
+    "BRICS",
+    "G20",
+    "SCO"
+   ],
+   "b": [
+    "APEC",
+    "FIVE_EYES",
+    "G20",
+    "NATO",
+    "OECD"
+   ],
+   "shared": [
+    "G20"
+   ]
+  },
+  "wikidata.claims": {},
+  "wits": {
+   "shares_pct": {
+    "IN exports to CA": 0.8713,
+    "IN imports from CA": 1.0632,
+    "CA exports to IN": 0.6701,
+    "CA imports from IN": 0.9977
+   },
+   "years": [
+    2023,
+    2023
+   ]
+  },
+  "project.specialPair": null,
+  "un-desa.migration": {
+   "available": true,
+   "CA-born in IN": 1416.0,
+   "IN-born in CA": 503784.0,
+   "scale": 0.63,
+   "share_pct": {
+    "CA in IN": 0.0,
+    "IN in CA": 1.26
+   }
+  },
+  "wikidata.treaties": [],
+  "wikidata.sharedLanguages": [
+   "English"
+  ]
+ },
+ "ablationNoProjectTradeWar": null,
+ "verification": [
+  {
+   "status": "LIFTED",
+   "date": "2025-08-29",
+   "url": "https://www.aa.com.tr/en/americas/canada-india-name-new-high-commissioners-to-restore-diplomatic-ties/3672225",
+   "quote": "Canada, India name new high commissioners to restore diplomatic ties",
+   "kind": "mission",
+   "claim": "head of mission of IN absent since 2024-10",
+   "since": "2024-10",
+   "snippets": 10
+  }
+ ],
+ "measures": [],
+ "classification": {
+  "A": "gemini/gemini-2.5-flash",
+  "B": "groq/qwen/qwen3.8-27b",
+  "C": null,
+  "sameModelAB": false,
+  "degradedIndependence": false,
+  "waits": [],
+  "conservative": 3,
+  "agree": 6,
+  "total": 9,
+  "signAgreeAB": 9
+ },
+ "topEvents": [
+  {
+   "code": "SECTORAL_AGREEMENTS",
+   "base": 5,
+   "mult": 1.0,
+   "ageDays": 230,
+   "halfLife": 180,
+   "value": 2.0621514858382564,
+   "fact": "India and Canada signed eight agreements and pacts covering rare earths, uranium, technology, and renewable energy during Prime Minister Mark Carney's visit to New Delhi.",
+   "actor": "joint"
+  },
+  {
+   "code": "POSITIVE_STATEMENT",
+   "base": 2,
+   "mult": 1.0,
+   "ageDays": 5,
+   "halfLife": 30,
+   "value": 1.7817974362806785,
+   "fact": "Prime Minister Narendra Modi announced plans to visit Canada in December.",
+   "actor": "IN"
+  },
+  {
+   "code": "EXPULSION",
+   "base": -20,
+   "mult": 0.6,
+   "ageDays": 733,
+   "halfLife": 240,
+   "value": -1.4447259301050654,
+   "fact": "Canada expelled Indian High Commissioner Sanjay Kumar Verma along with five other diplomats.",
+   "actor": "CA"
+  },
+  {
+   "code": "AMBASSADOR_RESTORED",
+   "base": 12,
+   "mult": 0.42,
+   "ageDays": 415,
+   "halfLife": 180,
+   "value": 1.0195045246461116,
+   "fact": "Head of mission restored (web-verified): Canada, India name new high commissioners to restore diplomatic ties",
+   "actor": "joint"
+  },
+  {
+   "code": "EXPULSION",
+   "base": -20,
+   "mult": 0.42,
+   "ageDays": 733,
+   "halfLife": 240,
+   "value": -1.0113081510735458,
+   "fact": "India retaliated against Canadian diplomatic actions by expelling six Canadian diplomats.",
+   "actor": "IN"
+  },
+  {
+   "code": "TRADE_TALKS_LAUNCHED",
+   "base": 6,
+   "mult": 1.0,
+   "ageDays": 329,
+   "halfLife": 120,
+   "value": 0.8970720913030528,
+   "fact": "Indian Prime Minister Narendra Modi and Canadian Prime Minister Mark Carney met on the margins of the G20 in Johannesburg to formally relaunch CEPA trade negotiations.",
+   "actor": "joint"
+  }
+ ],
+ "byActor": {
+  "IN": 0.8,
+  "joint": 4.0,
+  "CA": -1.4
+ },
+ "classifiedFacts": [
+  {
+   "eventDate": "2026-10-13",
+   "actor": "IN",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "POSITIVE_STATEMENT",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Prime Minister Narendra Modi announced plans to visit Canada in December.",
+   "cls": {
+    "how": "conservative",
+    "A": "STATE_VISIT",
+    "B": "POSITIVE_STATEMENT",
+    "judge": null
+   }
+  },
+  {
+   "eventDate": "2026-09-22",
+   "actor": "CA",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "NEGOTIATION_ROUND",
+   "coreInterest": false,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Canadian officials stated that trade talks with India were making great headway toward concluding an agreement by the end of the year.",
+   "cls": {
+    "how": "agree",
+    "A": "NEGOTIATION_ROUND",
+    "B": "NEGOTIATION_ROUND"
+   }
+  },
+  {
+   "eventDate": "2026-08-28",
+   "actor": "joint",
+   "actorLevel": "MINISTER",
+   "type": "DECLARED",
+   "code": "NEGOTIATION_ROUND",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "India and Canada held joint press and ministerial communications confirming ongoing negotiations for a Comprehensive Economic Partnership Agreement (CEPA).",
+   "cls": {
+    "how": "agree",
+    "A": "NEGOTIATION_ROUND",
+    "B": "NEGOTIATION_ROUND"
+   }
+  },
+  {
+   "eventDate": "2026-03-02",
+   "actor": "joint",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "SECTORAL_AGREEMENTS",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "India and Canada signed eight agreements and pacts covering rare earths, uranium, technology, and renewable energy during Prime Minister Mark Carney's visit to New Delhi.",
+   "cls": {
+    "how": "agree",
+    "A": "SECTORAL_AGREEMENTS",
+    "B": "SECTORAL_AGREEMENTS"
+   }
+  },
+  {
+   "eventDate": "2025-11-23",
+   "actor": "joint",
+   "actorLevel": "HEAD",
+   "type": "IMPLEMENTED",
+   "code": "TRADE_TALKS_LAUNCHED",
+   "coreInterest": false,
+   "corroboration": 3,
+   "verdict": "SUPPORTED",
+   "polarity": 1,
+   "fact": "Indian Prime Minister Narendra Modi and Canadian Prime Minister Mark Carney met on the margins of the G20 in Johannesburg to formally relaunch CEPA trade negotiations.",
+   "cls": {
+    "how": "agree",
+    "A": "TRADE_TALKS_LAUNCHED",
+    "B": "TRADE_TALKS_LAUNCHED"
+   }
+  },
+  {
+   "eventDate": "2024-10",
+   "actor": "CA",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "EXPULSION",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Canada expelled Indian High Commissioner Sanjay Kumar Verma along with five other diplomats.",
+   "cls": {
+    "how": "agree",
+    "A": "EXPULSION",
+    "B": "EXPULSION"
+   }
+  },
+  {
+   "eventDate": "2024-10",
+   "actor": "IN",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "EXPULSION",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "India retaliated against Canadian diplomatic actions by expelling six Canadian diplomats.",
+   "cls": {
+    "how": "agree",
+    "A": "EXPULSION",
+    "B": "EXPULSION"
+   }
+  },
+  {
+   "eventDate": "2023-09-18",
+   "actor": "CA",
+   "actorLevel": "HEAD",
+   "type": "DECLARED",
+   "code": "CRITICISM",
+   "coreInterest": false,
+   "corroboration": 2,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "Prime Minister Justin Trudeau stated in the House of Commons that there were credible potential links between Indian agents and the killing of Hardeep Singh Nijjar in British Columbia.",
+   "cls": {
+    "how": "conservative",
+    "A": "HARSH_RHETORIC",
+    "B": "CRITICISM",
+    "judge": null
+   }
+  },
+  {
+   "eventDate": "2023-10",
+   "actor": "IN",
+   "actorLevel": "OFFICIAL",
+   "type": "DECLARED",
+   "code": "HARSH_RHETORIC",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": -1,
+   "fact": "India demanded the withdrawal of 41 Canadian diplomats from the country, threatening to revoke their diplomatic immunities.",
+   "cls": {
+    "how": "conservative",
+    "A": "EXPULSION",
+    "B": "HARSH_RHETORIC",
+    "judge": null
+   }
+  },
+  {
+   "eventDate": "2025-08-29",
+   "actor": "joint",
+   "actorLevel": "OFFICIAL",
+   "type": "IMPLEMENTED",
+   "code": "AMBASSADOR_RESTORED",
+   "coreInterest": false,
+   "corroboration": 1,
+   "verdict": "SUPPORTED",
+   "polarity": null,
+   "fact": "Head of mission restored (web-verified): Canada, India name new high commissioners to restore diplomatic ties",
+   "cls": null
+  }
+ ],
+ "v6": {
+  "overall": "NEUTRAL",
+  "structural": "RIVAL",
+  "trend": "STABLE"
+ }
+}

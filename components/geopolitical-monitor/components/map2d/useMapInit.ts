@@ -99,6 +99,7 @@ export function useMapInit(
 
     initGraticules(g, path);
     initCountries(g, geoData, path, handlersRef);
+    g.append('g').attr('class', 'claims-layer');
     g.append('g').attr('class', 'maritime-routes-layer pointer-events-none');
     g.append('g').attr('class', 'chokepoints-layer');
     g.append('g').attr('class', 'arcs-layer pointer-events-none');

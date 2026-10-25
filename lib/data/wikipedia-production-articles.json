@@ -1,0 +1,7736 @@
+{
+  "meta": {
+    "generatedAt": "2026-10-22T12:53:19.294Z",
+    "totalCommodities": 342,
+    "coverage": {
+      "totalWithArticle": 63,
+      "totalWithEs": 38,
+      "totalWithEn": 59,
+      "totalWithBoth": 34,
+      "totalMissing": 279,
+      "percentCoverage": 18.42
+    },
+    "statsByCategory": {
+      "agriculture": {
+        "total": 175,
+        "withEs": 15,
+        "withEn": 23,
+        "withEither": 25,
+        "withBoth": 13,
+        "missing": 150
+      },
+      "electricity": {
+        "total": 6,
+        "withEs": 5,
+        "withEn": 5,
+        "withEither": 5,
+        "withBoth": 5,
+        "missing": 1
+      },
+      "energy": {
+        "total": 8,
+        "withEs": 7,
+        "withEn": 7,
+        "withEither": 7,
+        "withBoth": 7,
+        "missing": 1
+      },
+      "fisheries": {
+        "total": 48,
+        "withEs": 0,
+        "withEn": 0,
+        "withEither": 0,
+        "withBoth": 0,
+        "missing": 48
+      },
+      "forestry": {
+        "total": 6,
+        "withEs": 0,
+        "withEn": 0,
+        "withEither": 0,
+        "withBoth": 0,
+        "missing": 6
+      },
+      "livestock": {
+        "total": 42,
+        "withEs": 1,
+        "withEn": 0,
+        "withEither": 1,
+        "withBoth": 0,
+        "missing": 41
+      },
+      "metals": {
+        "total": 36,
+        "withEs": 10,
+        "withEn": 18,
+        "withEither": 19,
+        "withBoth": 9,
+        "missing": 17
+      },
+      "minerals": {
+        "total": 21,
+        "withEs": 0,
+        "withEn": 6,
+        "withEither": 6,
+        "withBoth": 0,
+        "missing": 15
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "fao:809",
+      "nameEs": "Abacá",
+      "nameEn": "Abaca, manila hemp, raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:244",
+      "nameEs": "Aceite de cacahuete",
+      "nameEn": "Groundnut oil",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:252",
+      "nameEs": "Aceite de coco",
+      "nameEn": "Coconut oil",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:271",
+      "nameEs": "Aceite de colza",
+      "nameEn": "Rapeseed or canola oil, crude",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:268",
+      "nameEs": "Aceite de girasol",
+      "nameEn": "Sunflower-seed oil, crude",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:261",
+      "nameEs": "Aceite de oliva",
+      "nameEn": "Olive oil",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:257",
+      "nameEs": "Aceite de palma",
+      "nameEn": "Palm oil",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:258",
+      "nameEs": "Aceite de palmiste",
+      "nameEn": "Oil of palm kernel",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:237",
+      "nameEs": "Aceite de soja",
+      "nameEn": "Soya bean oil",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:260",
+      "nameEs": "Aceitunas",
+      "nameEn": "Olives",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:572",
+      "nameEs": "Aguacates",
+      "nameEn": "Avocados",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de aguacate",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_aguacate",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by avocado production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_avocado_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:406",
+      "nameEs": "Ajos",
+      "nameEn": "Green garlic",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:526",
+      "nameEs": "Albaricoques",
+      "nameEn": "Apricots",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by apricot production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_apricot_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:366",
+      "nameEs": "Alcachofas",
+      "nameEn": "Artichokes",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by artichoke production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_artichoke_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:89",
+      "nameEs": "Alforfón",
+      "nameEn": "Buckwheat",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:461",
+      "nameEs": "Algarrobas",
+      "nameEn": "Locust beans (carobs)",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:767",
+      "nameEs": "Algodón (fibra)",
+      "nameEn": "Cotton lint, ginned",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:328",
+      "nameEs": "Algodón sin desmotar",
+      "nameEn": "Seed cotton, unginned",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:221",
+      "nameEs": "Almendras",
+      "nameEn": "Almonds, in shell",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:101",
+      "nameEs": "Alpiste",
+      "nameEn": "Canary seed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:210",
+      "nameEs": "Altramuces",
+      "nameEn": "Lupins",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:217",
+      "nameEs": "Anacardos",
+      "nameEn": "Cashew nuts, in shell",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:711",
+      "nameEs": "Anís, cilantro, comino y similares",
+      "nameEn": "Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:552",
+      "nameEs": "Arándanos",
+      "nameEn": "Blueberries",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:554",
+      "nameEs": "Arándanos rojos",
+      "nameEn": "Cranberries",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:27",
+      "nameEs": "Arroz",
+      "nameEn": "Rice",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de arroz",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_arroz",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by rice production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_rice_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:225",
+      "nameEs": "Avellanas",
+      "nameEn": "Hazelnuts, in shell",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:75",
+      "nameEs": "Avena",
+      "nameEn": "Oats",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de avena",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_avena",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:162",
+      "nameEs": "Azúcar en bruto",
+      "nameEn": "Raw cane or beet sugar (centrifugal only)",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:486",
+      "nameEs": "Bananas",
+      "nameEn": "Bananas",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:122",
+      "nameEs": "Batatas",
+      "nameEn": "Sweet potatoes",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:399",
+      "nameEs": "Berenjenas",
+      "nameEn": "Eggplants (aubergines)",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by eggplant production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_eggplant_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:242",
+      "nameEs": "Cacahuetes",
+      "nameEn": "Groundnuts, excluding shelled",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:661",
+      "nameEs": "Cacao",
+      "nameEn": "Cocoa beans",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de cacao",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_cacao",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by cocoa production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_cocoa_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:656",
+      "nameEs": "Café",
+      "nameEn": "Coffee, green",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de café",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_caf%C3%A9",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by coffee production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_coffee_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:394",
+      "nameEs": "Calabazas",
+      "nameEn": "Pumpkins, squash and gourds",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:693",
+      "nameEs": "Canela",
+      "nameEn": "Cinnamon and cinnamon-tree flowers, raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:156",
+      "nameEs": "Caña de azúcar",
+      "nameEn": "Sugar cane",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:777",
+      "nameEs": "Cáñamo (fibra)",
+      "nameEn": "True hemp, raw or retted",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:587",
+      "nameEs": "Caquis",
+      "nameEn": "Persimmons",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:280",
+      "nameEs": "Cártamo",
+      "nameEn": "Safflower seed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:220",
+      "nameEs": "Castañas",
+      "nameEn": "Chestnuts, in shell",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:836",
+      "nameEs": "Caucho natural",
+      "nameEn": "Natural rubber in primary forms",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:195",
+      "nameEs": "Caupí",
+      "nameEn": "Cow peas, dry",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:44",
+      "nameEs": "Cebada",
+      "nameEn": "Barley",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by barley production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_barley_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:403",
+      "nameEs": "Cebollas",
+      "nameEn": "Onions and shallots, dry (excluding dehydrated)",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de cebolla",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_cebolla",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "Onion",
+        "url": "https://en.wikipedia.org/wiki/Onion",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:402",
+      "nameEs": "Cebolletas",
+      "nameEn": "Onions and shallots, green",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:71",
+      "nameEs": "Centeno",
+      "nameEn": "Rye",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:531",
+      "nameEs": "Cerezas",
+      "nameEn": "Cherries",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by cherry production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_cherry_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:536",
+      "nameEs": "Ciruelas",
+      "nameEn": "Plums and sloes",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:698",
+      "nameEs": "Clavo",
+      "nameEn": "Cloves (whole stems), raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:249",
+      "nameEs": "Cocos",
+      "nameEn": "Coconuts, in shell",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by coconut production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_coconut_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:358",
+      "nameEs": "Coles",
+      "nameEn": "Cabbages",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:393",
+      "nameEs": "Coliflores y brócolis",
+      "nameEn": "Cauliflowers and broccoli",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:270",
+      "nameEs": "Colza",
+      "nameEn": "Rape or colza seed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:577",
+      "nameEs": "Dátiles",
+      "nameEn": "Dates",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:367",
+      "nameEs": "Espárragos",
+      "nameEn": "Asparagus",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:373",
+      "nameEs": "Espinacas",
+      "nameEn": "Spinach",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:813",
+      "nameEs": "Fibra de coco",
+      "nameEn": "Coir, raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:778",
+      "nameEs": "Fibra de kapok",
+      "nameEn": "Kapok fibre, raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:800",
+      "nameEs": "Fibras de agave",
+      "nameEn": "Agave fibres, raw, n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:94",
+      "nameEs": "Fonio",
+      "nameEn": "Fonio",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:547",
+      "nameEs": "Frambuesas",
+      "nameEn": "Raspberries",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:544",
+      "nameEs": "Fresas",
+      "nameEn": "Strawberries",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:310",
+      "nameEs": "Fruto de kapok",
+      "nameEn": "Kapok fruit",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:254",
+      "nameEs": "Fruto de palma aceitera",
+      "nameEn": "Oil palm fruit",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:591",
+      "nameEs": "Fruto del anacardo",
+      "nameEn": "Cashewapple",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:191",
+      "nameEs": "Garbanzos",
+      "nameEn": "Chick peas, dry",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:550",
+      "nameEs": "Grosellas",
+      "nameEn": "Currants",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:549",
+      "nameEs": "Grosellas espinosas",
+      "nameEn": "Gooseberries",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:197",
+      "nameEs": "Guandú",
+      "nameEn": "Pigeon peas, dry",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:530",
+      "nameEs": "Guindas",
+      "nameEn": "Sour cherries",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:203",
+      "nameEs": "Guisante bambara",
+      "nameEn": "Bambara beans, dry",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:187",
+      "nameEs": "Guisantes secos",
+      "nameEn": "Peas, dry",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:417",
+      "nameEs": "Guisantes verdes",
+      "nameEn": "Peas, green",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:181",
+      "nameEs": "Habas secas",
+      "nameEn": "Broad beans and horse beans, dry",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:420",
+      "nameEs": "Habas verdes",
+      "nameEn": "Broad beans and horse beans, green",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:569",
+      "nameEs": "Higos",
+      "nameEn": "Figs",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:720",
+      "nameEs": "Jengibre",
+      "nameEn": "Ginger, raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:277",
+      "nameEs": "Jojoba",
+      "nameEn": "Jojoba seeds",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:176",
+      "nameEs": "Judías secas",
+      "nameEn": "Beans, dry",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:423",
+      "nameEs": "Judías verdes",
+      "nameEn": "String beans",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:263",
+      "nameEs": "Karité",
+      "nameEn": "Karite nuts (sheanuts)",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:782",
+      "nameEs": "Kenaf",
+      "nameEn": "Kenaf, and other textile bast fibres, raw or retted",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:592",
+      "nameEs": "Kiwis",
+      "nameEn": "Kiwi fruit",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:372",
+      "nameEs": "Lechugas y achicorias",
+      "nameEn": "Lettuce and chicory",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:201",
+      "nameEs": "Lentejas",
+      "nameEn": "Lentils, dry",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:497",
+      "nameEs": "Limones y limas",
+      "nameEn": "Lemons and limes",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:333",
+      "nameEs": "Linaza",
+      "nameEn": "Linseed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:771",
+      "nameEs": "Lino",
+      "nameEn": "Flax, raw or retted",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:677",
+      "nameEs": "Lúpulo",
+      "nameEn": "Hop cones",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:56",
+      "nameEs": "Maíz",
+      "nameEn": "Maize (corn)",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de maíz",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_ma%C3%ADz",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by corn production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_corn_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:446",
+      "nameEs": "Maíz verde",
+      "nameEn": "Green corn (maize)",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:495",
+      "nameEs": "Mandarinas y clementinas",
+      "nameEn": "Tangerines, mandarins, clementines",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:571",
+      "nameEs": "Mangos y guayabas",
+      "nameEn": "Mangoes, guavas and mangosteens",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:515",
+      "nameEs": "Manzanas",
+      "nameEn": "Apples",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Producción mundial de manzana",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3AProducci%C3%B3n_mundial_de_manzana",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by apple production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_apple_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:534",
+      "nameEs": "Melocotones y nectarinas",
+      "nameEn": "Peaches and nectarines",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:568",
+      "nameEs": "Melones",
+      "nameEn": "Cantaloupes and other melons",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:523",
+      "nameEs": "Membrillos",
+      "nameEn": "Quinces",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:748",
+      "nameEs": "Menta",
+      "nameEn": "Peppermint, spearmint",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:103",
+      "nameEs": "Mezcla de granos",
+      "nameEn": "Mixed grain",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:79",
+      "nameEs": "Mijo",
+      "nameEn": "Millet",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:292",
+      "nameEs": "Mostaza",
+      "nameEn": "Mustard seed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:490",
+      "nameEs": "Naranjas",
+      "nameEn": "Oranges",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:222",
+      "nameEs": "Nueces",
+      "nameEn": "Walnuts, in shell",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:226",
+      "nameEs": "Nueces de areca",
+      "nameEn": "Areca nuts",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:216",
+      "nameEs": "Nueces de Brasil",
+      "nameEn": "Brazil nuts, in shell",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:224",
+      "nameEs": "Nueces de cola",
+      "nameEn": "Kola nuts",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:275",
+      "nameEs": "Nueces de tung",
+      "nameEn": "Tung nuts",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:702",
+      "nameEs": "Nuez moscada y cardamomo",
+      "nameEn": "Nutmeg, mace, cardamoms, raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:137",
+      "nameEs": "Ñames",
+      "nameEn": "Yams",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:430",
+      "nameEs": "Okra",
+      "nameEn": "Okra",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:558",
+      "nameEs": "Otras bayas",
+      "nameEn": "Other berries and fruits of the genus vaccinium n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:723",
+      "nameEs": "Otras especias",
+      "nameEn": "Other stimulant, spice and aromatic crops, n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:821",
+      "nameEs": "Otras fibras",
+      "nameEn": "Other fibre crops, raw, n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:619",
+      "nameEs": "Otras frutas",
+      "nameEn": "Other fruits, n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:541",
+      "nameEs": "Otras frutas de hueso",
+      "nameEn": "Other stone fruits",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:542",
+      "nameEs": "Otras frutas de pepita",
+      "nameEn": "Other pome fruits",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:603",
+      "nameEs": "Otras frutas tropicales",
+      "nameEn": "Other tropical fruits, n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:463",
+      "nameEs": "Otras hortalizas",
+      "nameEn": "Other vegetables, fresh n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:414",
+      "nameEs": "Otras judías verdes",
+      "nameEn": "Other beans, green",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:211",
+      "nameEs": "Otras legumbres",
+      "nameEn": "Other pulses n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:339",
+      "nameEs": "Otras oleaginosas",
+      "nameEn": "Other oil seeds, n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:149",
+      "nameEs": "Otras raíces y tubérculos",
+      "nameEn": "Edible roots and tubers with high starch or inulin content, n.e.c., fresh",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:108",
+      "nameEs": "Otros cereales",
+      "nameEn": "Cereals n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:512",
+      "nameEs": "Otros cítricos",
+      "nameEn": "Other citrus fruit, n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:161",
+      "nameEs": "Otros cultivos azucareros",
+      "nameEn": "Other sugar crops n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:234",
+      "nameEs": "Otros frutos secos",
+      "nameEn": "Other nuts (excluding wild edible nuts and groundnuts), in shell, n.e.c.",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:256",
+      "nameEs": "Palmiste",
+      "nameEn": "Palm kernels",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:600",
+      "nameEs": "Papayas",
+      "nameEn": "Papayas",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by papaya production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_papaya_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:116",
+      "nameEs": "Patatas",
+      "nameEn": "Potatoes",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de patata",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_patata",
+        "isRedirect": true,
+        "redirectTarget": "Anexo:Producción mundial de papa",
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by production of potatoes",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_potato_production",
+        "isRedirect": true,
+        "redirectTarget": "List of countries by potato production",
+        "fragment": null,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:754",
+      "nameEs": "Pelitre",
+      "nameEn": "Pyrethrum, dried flowers",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:397",
+      "nameEs": "Pepinos",
+      "nameEn": "Cucumbers and gherkins",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:521",
+      "nameEs": "Peras",
+      "nameEn": "Pears",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by pear production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_pear_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:687",
+      "nameEs": "Pimienta",
+      "nameEn": "Pepper (Piper spp.), raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:689",
+      "nameEs": "Pimientos y chiles secos",
+      "nameEn": "Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:401",
+      "nameEs": "Pimientos y chiles verdes",
+      "nameEn": "Chillies and peppers, green (Capsicum spp. and Pimenta spp.)",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:574",
+      "nameEs": "Piñas",
+      "nameEn": "Pineapples",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by pineapple production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_pineapple_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:267",
+      "nameEs": "Pipas de girasol",
+      "nameEn": "Sunflower seed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:223",
+      "nameEs": "Pistachos",
+      "nameEn": "Pistachios, in shell",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:489",
+      "nameEs": "Plátanos macho",
+      "nameEn": "Plantains and cooking bananas",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:507",
+      "nameEs": "Pomelos",
+      "nameEn": "Pomelos and grapefruits",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:407",
+      "nameEs": "Puerros",
+      "nameEn": "Leeks and other alliaceous vegetables",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:92",
+      "nameEs": "Quinua",
+      "nameEn": "Quinoa",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de quinua",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_quinua",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:459",
+      "nameEs": "Raíz de achicoria",
+      "nameEn": "Chicory roots",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:788",
+      "nameEs": "Ramio",
+      "nameEn": "Ramie, raw or retted",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:157",
+      "nameEs": "Remolacha azucarera",
+      "nameEn": "Sugar beet",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:265",
+      "nameEs": "Ricino",
+      "nameEn": "Castor oil seeds",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:567",
+      "nameEs": "Sandías",
+      "nameEn": "Watermelons",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:329",
+      "nameEs": "Semilla de algodón",
+      "nameEn": "Cotton seed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:296",
+      "nameEs": "Semilla de amapola",
+      "nameEn": "Poppy seed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:305",
+      "nameEs": "Semilla de árbol del sebo",
+      "nameEn": "Tallowtree seeds",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:336",
+      "nameEs": "Semilla de cáñamo",
+      "nameEn": "Hempseed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:311",
+      "nameEs": "Semilla de kapok",
+      "nameEn": "Kapokseed in shell",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:299",
+      "nameEs": "Semilla de melón",
+      "nameEn": "Melonseed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:289",
+      "nameEs": "Sésamo",
+      "nameEn": "Sesame seed",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:449",
+      "nameEs": "Setas y trufas",
+      "nameEn": "Mushrooms and truffles",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:789",
+      "nameEs": "Sisal",
+      "nameEn": "Sisal, raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:236",
+      "nameEs": "Soja",
+      "nameEn": "Soya beans",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de soja",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_soja",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by production of soya beans",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_soybean_production",
+        "isRedirect": true,
+        "redirectTarget": "List of countries by soybean production",
+        "fragment": null,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:83",
+      "nameEs": "Sorgo",
+      "nameEn": "Sorghum",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:826",
+      "nameEs": "Tabaco",
+      "nameEn": "Unmanufactured tobacco",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:136",
+      "nameEs": "Taro",
+      "nameEn": "Taro",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:667",
+      "nameEs": "Té",
+      "nameEn": "Tea leaves",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Té",
+        "url": "https://es.wikipedia.org/wiki/T%C3%A9",
+        "isRedirect": false,
+        "matchType": "langlink"
+      },
+      "en": {
+        "exists": true,
+        "title": "Tea",
+        "url": "https://en.wikipedia.org/wiki/Tea",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:388",
+      "nameEs": "Tomates",
+      "nameEn": "Tomatoes",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Producción mundial de tomate",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3AProducci%C3%B3n_mundial_de_tomate",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by tomato production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_tomato_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:15",
+      "nameEs": "Trigo",
+      "nameEn": "Wheat",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de trigo",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_trigo",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by wheat production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_wheat_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:97",
+      "nameEs": "Triticale",
+      "nameEn": "Triticale",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:560",
+      "nameEs": "Uvas",
+      "nameEn": "Grapes",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de uva",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_uva",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by grape production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_grape_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:692",
+      "nameEs": "Vainilla",
+      "nameEn": "Vanilla, raw",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:205",
+      "nameEs": "Vezas",
+      "nameEn": "Vetches",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:564",
+      "nameEs": "Vino",
+      "nameEn": "Wine",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by wine production",
+        "url": "https://en.wikipedia.org/wiki/List_of_wine-producing_regions#Countries",
+        "isRedirect": true,
+        "redirectTarget": "List of wine-producing regions",
+        "fragment": "Countries",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fao:135",
+      "nameEs": "Yautía",
+      "nameEn": "Yautia",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:671",
+      "nameEs": "Yerba mate",
+      "nameEn": "Maté leaves",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:125",
+      "nameEs": "Yuca",
+      "nameEn": "Cassava, fresh",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:780",
+      "nameEs": "Yute",
+      "nameEn": "Jute, raw or retted",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:426",
+      "nameEs": "Zanahorias y nabos",
+      "nameEn": "Carrots and turnips",
+      "category": "agriculture",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "ember:bioenergy",
+      "nameEs": "Bioenergía",
+      "nameEn": "Bioenergy power",
+      "category": "electricity",
+      "unit": "TWh",
+      "source": "ember",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de electricidad a partir de fuentes renovables",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_electricidad_a_partir_de_fuentes_renovables",
+        "isRedirect": false,
+        "matchType": "langlink"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by renewable electricity production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_renewable_electricity_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "ember:wind",
+      "nameEs": "Energía eólica",
+      "nameEn": "Wind power",
+      "category": "electricity",
+      "unit": "TWh",
+      "source": "ember",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de electricidad",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_electricidad",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "Wind power by country",
+        "url": "https://en.wikipedia.org/wiki/Wind_power_by_country",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "ember:hydro",
+      "nameEs": "Energía hidroeléctrica",
+      "nameEn": "Hydro power",
+      "category": "electricity",
+      "unit": "TWh",
+      "source": "ember",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de electricidad",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_electricidad",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by renewable electricity production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_renewable_electricity_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "ember:nuclear",
+      "nameEs": "Energía nuclear",
+      "nameEn": "Nuclear power",
+      "category": "electricity",
+      "unit": "TWh",
+      "source": "ember",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de electricidad",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_electricidad",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "Nuclear power by country",
+        "url": "https://en.wikipedia.org/wiki/Nuclear_power_by_country",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "ember:solar",
+      "nameEs": "Energía solar",
+      "nameEn": "Solar power",
+      "category": "electricity",
+      "unit": "TWh",
+      "source": "ember",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de electricidad",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_electricidad",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by photovoltaics production",
+        "url": "https://en.wikipedia.org/wiki/Growth_of_photovoltaics#Deployment by country",
+        "isRedirect": true,
+        "redirectTarget": "Growth of photovoltaics",
+        "fragment": "Deployment by country",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "ember:other-renewables",
+      "nameEs": "Geotermia y otras renovables",
+      "nameEn": "Geothermal and other renewables",
+      "category": "electricity",
+      "unit": "TWh",
+      "source": "ember",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:oil-sands",
+      "nameEs": "Arenas bituminosas",
+      "nameEn": "Oil Sands",
+      "category": "energy",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de petróleo",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_petr%C3%B3leo",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by oil extraction",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_oil_extraction",
+        "isRedirect": false,
+        "matchType": "langlink"
+      }
+    },
+    {
+      "id": "wmd:coking-coal",
+      "nameEs": "Carbón de coque",
+      "nameEn": "Coking Coal",
+      "category": "energy",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de carbón",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_carb%C3%B3n",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "Coal",
+        "url": "https://en.wikipedia.org/wiki/Coal",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:steam-coal",
+      "nameEs": "Carbón térmico",
+      "nameEn": "Steam Coal",
+      "category": "energy",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de carbón",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_carb%C3%B3n",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "Coal",
+        "url": "https://en.wikipedia.org/wiki/Coal",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:oil-shales",
+      "nameEs": "Esquisto bituminoso",
+      "nameEn": "Oil Shales",
+      "category": "energy",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:natural-gas",
+      "nameEs": "Gas natural",
+      "nameEn": "Natural Gas",
+      "category": "energy",
+      "unit": "Mm3",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de gas natural",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_gas_natural",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by natural gas production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_natural_gas_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:lignite",
+      "nameEs": "Lignito",
+      "nameEn": "Lignite",
+      "category": "energy",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de carbón",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_carb%C3%B3n",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "Coal",
+        "url": "https://en.wikipedia.org/wiki/Coal",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:petroleum",
+      "nameEs": "Petróleo",
+      "nameEn": "Petroleum",
+      "category": "energy",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de petróleo",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_petr%C3%B3leo",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by oil production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_oil_extraction",
+        "isRedirect": true,
+        "redirectTarget": "List of countries by oil extraction",
+        "fragment": null,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:uranium",
+      "nameEs": "Uranio",
+      "nameEn": "Uranium",
+      "category": "energy",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de uranio",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_uranio",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by uranium production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_uranium_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "fish:aquaculture",
+      "nameEs": "Acuicultura",
+      "nameEn": "Aquaculture",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:seaweed",
+      "nameEs": "Algas",
+      "nameEn": "Seaweeds and aquatic plants",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:brown-seaweeds",
+      "nameEs": "Algas pardas",
+      "nameEn": "Brown seaweeds",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:red-seaweeds",
+      "nameEs": "Algas rojas",
+      "nameEn": "Red seaweeds",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:green-seaweeds",
+      "nameEs": "Algas verdes",
+      "nameEn": "Green seaweeds",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:clams-cockles-arkshells",
+      "nameEs": "Almejas, berberechos, arcas",
+      "nameEn": "Clams, cockles, arkshells",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:river-eels",
+      "nameEs": "Anguilas",
+      "nameEn": "River eels",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:herrings-sardines-anchovies",
+      "nameEs": "Arenques, sardinas, anchoas",
+      "nameEn": "Herrings, sardines, anchovies",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:sea-squirts-and-other-tunicates",
+      "nameEs": "Ascidias y otros tunicados",
+      "nameEn": "Sea-squirts and other tunicates",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:tunas-bonitos-billfishes",
+      "nameEs": "Atunes, bonitos, agujas",
+      "nameEn": "Tunas, bonitos, billfishes",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:cods-hakes-haddocks",
+      "nameEs": "Bacalaos, merluzas, eglefinos",
+      "nameEn": "Cods, hakes, haddocks",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:lobsters-spiny-rock-lobsters",
+      "nameEs": "Bogavantes, langostas",
+      "nameEn": "Lobsters, spiny-rock lobsters",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:squids-cuttlefishes-octopuses",
+      "nameEs": "Calamares, jibias, pulpos",
+      "nameEn": "Squids, cuttlefishes, octopuses",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:king-crabs-squat-lobsters",
+      "nameEs": "Cangrejos reales, galateidos",
+      "nameEn": "King crabs, squat-lobsters",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:crabs-sea-spiders",
+      "nameEs": "Cangrejos, centollas",
+      "nameEn": "Crabs, sea-spiders",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:carps-barbels-and-other-cyprinids",
+      "nameEs": "Carpas, barbos y otros ciprínidos",
+      "nameEn": "Carps, barbels and other cyprinids",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:corals",
+      "nameEs": "Corales",
+      "nameEn": "Corals",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:freshwater-crustaceans",
+      "nameEs": "Crustáceos de agua dulce",
+      "nameEn": "Freshwater crustaceans",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:miscellaneous-marine-crustaceans",
+      "nameEs": "Crustáceos marinos diversos",
+      "nameEn": "Miscellaneous marine crustaceans",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:miscellaneous-aquatic-plants",
+      "nameEs": "Diversas plantas acuáticas",
+      "nameEn": "Miscellaneous aquatic plants",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:sea-urchins-and-other-echinoderms",
+      "nameEs": "Erizos de mar y otros equinodermos",
+      "nameEn": "Sea-urchins and other echinoderms",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:sponges",
+      "nameEs": "Esponjas",
+      "nameEn": "Sponges",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:sturgeons-paddlefishes",
+      "nameEs": "Esturiones, sollos",
+      "nameEn": "Sturgeons, paddlefishes",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:shrimps-prawns",
+      "nameEs": "Gambas, camarones",
+      "nameEn": "Shrimps, prawns",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:miscellaneous-aquatic-invertebrates",
+      "nameEs": "Invertebrados acuáticos diversos",
+      "nameEn": "Miscellaneous aquatic invertebrates",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:krill-planktonic-crustaceans",
+      "nameEs": "Krill, crustáceos planctónicos",
+      "nameEn": "Krill, planktonic crustaceans",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:horseshoe-crabs-and-other-arachnoids",
+      "nameEs": "Límulos y otros arácnidos",
+      "nameEn": "Horseshoe crabs and other arachnoids",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:mussels",
+      "nameEs": "Mejillones",
+      "nameEn": "Mussels",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:freshwater-molluscs",
+      "nameEs": "Moluscos de agua dulce",
+      "nameEn": "Freshwater molluscs",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:miscellaneous-marine-molluscs",
+      "nameEs": "Moluscos marinos diversos",
+      "nameEn": "Miscellaneous marine molluscs",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:abalones-winkles-conchs",
+      "nameEs": "Orejas de mar, bígaros, estrombos",
+      "nameEn": "Abalones, winkles, conchs",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:oysters",
+      "nameEs": "Ostras",
+      "nameEn": "Oysters",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:miscellaneous-coastal-fishes",
+      "nameEs": "Peces costeros diversos",
+      "nameEn": "Miscellaneous coastal fishes",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:miscellaneous-freshwater-fishes",
+      "nameEs": "Peces de agua dulce diversos",
+      "nameEn": "Miscellaneous freshwater fishes",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:miscellaneous-demersal-fishes",
+      "nameEs": "Peces demersales diversos",
+      "nameEn": "Miscellaneous demersal fishes",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:miscellaneous-diadromous-fishes",
+      "nameEs": "Peces diádromos diversos",
+      "nameEn": "Miscellaneous diadromous fishes",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:marine-fishes-not-identified",
+      "nameEs": "Peces marinos no identificados",
+      "nameEn": "Marine fishes not identified",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:miscellaneous-pelagic-fishes",
+      "nameEs": "Peces pelágicos diversos",
+      "nameEn": "Miscellaneous pelagic fishes",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:pearls-mother-of-pearl-shells",
+      "nameEs": "Perlas, madreperlas, conchas",
+      "nameEn": "Pearls, mother-of-pearl, shells",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:capture",
+      "nameEs": "Pesca de captura",
+      "nameEn": "Capture fisheries",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:flounders-halibuts-soles",
+      "nameEs": "Platijas, halibuts, lenguados",
+      "nameEn": "Flounders, halibuts, soles",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:frogs-and-other-amphibians",
+      "nameEs": "Ranas y otros anfibios",
+      "nameEn": "Frogs and other amphibians",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:shads",
+      "nameEs": "Sábalos",
+      "nameEn": "Shads",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:salmons-trouts-smelts",
+      "nameEs": "Salmones, truchas, eperlanos",
+      "nameEn": "Salmons, trouts, smelts",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:sharks-rays-chimaeras",
+      "nameEs": "Tiburones, rayas, quimeras",
+      "nameEn": "Sharks, rays, chimaeras",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:tilapias-and-other-cichlids",
+      "nameEs": "Tilapias y otros cíclidos",
+      "nameEn": "Tilapias and other cichlids",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:turtles",
+      "nameEs": "Tortugas",
+      "nameEn": "Turtles",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fish:scallops-pectens",
+      "nameEs": "Vieiras",
+      "nameEn": "Scallops, pectens",
+      "category": "fisheries",
+      "unit": "t",
+      "source": "fishstat",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fo:1630",
+      "nameEs": "Carbón vegetal",
+      "nameEn": "Wood charcoal",
+      "category": "forestry",
+      "unit": "t",
+      "source": "faostat-fo",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fo:1864",
+      "nameEs": "Leña",
+      "nameEn": "Wood fuel",
+      "category": "forestry",
+      "unit": "m3",
+      "source": "faostat-fo",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fo:1872",
+      "nameEs": "Madera aserrada",
+      "nameEn": "Sawnwood",
+      "category": "forestry",
+      "unit": "m3",
+      "source": "faostat-fo",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fo:1861",
+      "nameEs": "Madera en rollo",
+      "nameEn": "Roundwood",
+      "category": "forestry",
+      "unit": "m3",
+      "source": "faostat-fo",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fo:1865",
+      "nameEs": "Madera en rollo industrial",
+      "nameEn": "Industrial roundwood",
+      "category": "forestry",
+      "unit": "m3",
+      "source": "faostat-fo",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fo:1875",
+      "nameEs": "Pulpa de madera",
+      "nameEn": "Wood pulp",
+      "category": "forestry",
+      "unit": "t",
+      "source": "faostat-fo",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1107",
+      "nameEs": "Asnos",
+      "nameEn": "Asses",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1096",
+      "nameEs": "Caballos",
+      "nameEn": "Horses",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:866",
+      "nameEs": "Cabaña bovina",
+      "nameEn": "Cattle",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por población de ganado vacuno",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_poblaci%C3%B3n_de_ganado_vacuno",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1016",
+      "nameEs": "Cabaña caprina",
+      "nameEn": "Goats",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:946",
+      "nameEs": "Cabaña de búfalos",
+      "nameEn": "Buffalo",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:976",
+      "nameEs": "Cabaña ovina",
+      "nameEn": "Sheep",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1034",
+      "nameEs": "Cabaña porcina",
+      "nameEn": "Swine / pigs",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1126",
+      "nameEs": "Camellos",
+      "nameEn": "Camels",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1185",
+      "nameEs": "Capullos de seda",
+      "nameEn": "Silk-worm cocoons suitable for reeling",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1176",
+      "nameEs": "Caracoles",
+      "nameEn": "Snails, fresh, chilled, frozen, dried, salted or in brine, except sea snails",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:947",
+      "nameEs": "Carne de búfalo",
+      "nameEn": "Meat of buffalo, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1097",
+      "nameEs": "Carne de caballo",
+      "nameEn": "Horse meat, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1127",
+      "nameEs": "Carne de camello",
+      "nameEn": "Meat of camels, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1017",
+      "nameEs": "Carne de caprino",
+      "nameEn": "Meat of goat, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1163",
+      "nameEs": "Carne de caza",
+      "nameEn": "Game meat, fresh, chilled or frozen",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1035",
+      "nameEs": "Carne de cerdo",
+      "nameEn": "Meat of pig with the bone, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1141",
+      "nameEs": "Carne de conejo",
+      "nameEn": "Meat of rabbits and hares, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1073",
+      "nameEs": "Carne de ganso",
+      "nameEn": "Meat of geese, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:977",
+      "nameEs": "Carne de ovino",
+      "nameEn": "Meat of sheep, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1069",
+      "nameEs": "Carne de pato",
+      "nameEn": "Meat of ducks, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1080",
+      "nameEs": "Carne de pavo",
+      "nameEn": "Meat of turkeys, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1058",
+      "nameEs": "Carne de pollo",
+      "nameEn": "Meat of chickens, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:867",
+      "nameEs": "Carne de vacuno",
+      "nameEn": "Meat of cattle with the bone, fresh or chilled",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1183",
+      "nameEs": "Cera de abejas",
+      "nameEn": "Beeswax",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1181",
+      "nameEs": "Colmenas",
+      "nameEn": "Bees",
+      "category": "livestock",
+      "unit": "hive",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1140",
+      "nameEs": "Conejos y liebres",
+      "nameEn": "Rabbits and hares",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1072",
+      "nameEs": "Gansos",
+      "nameEn": "Geese",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1062",
+      "nameEs": "Huevos de gallina",
+      "nameEn": "Hen eggs in shell, fresh",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1091",
+      "nameEs": "Huevos de otras aves",
+      "nameEn": "Eggs from other birds in shell, fresh, n.e.c.",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:987",
+      "nameEs": "Lana",
+      "nameEn": "Shorn wool, greasy, including fleece-washed shorn wool",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:951",
+      "nameEs": "Leche de búfala",
+      "nameEn": "Raw milk of buffalo",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1020",
+      "nameEs": "Leche de cabra",
+      "nameEn": "Raw milk of goats",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1130",
+      "nameEs": "Leche de camella",
+      "nameEn": "Raw milk of camel",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:982",
+      "nameEs": "Leche de oveja",
+      "nameEn": "Raw milk of sheep",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:882",
+      "nameEs": "Leche de vaca",
+      "nameEn": "Raw milk of cattle",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1157",
+      "nameEs": "Llamas, alpacas y otros camélidos",
+      "nameEn": "Other camelids",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1182",
+      "nameEs": "Miel",
+      "nameEn": "Natural honey",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1110",
+      "nameEs": "Mulos y burdéganos",
+      "nameEn": "Mules and hinnies",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1068",
+      "nameEs": "Patos",
+      "nameEn": "Ducks",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1079",
+      "nameEs": "Pavos",
+      "nameEn": "Turkeys",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao-stock:1057",
+      "nameEs": "Pollos y gallinas",
+      "nameEn": "Chickens",
+      "category": "livestock",
+      "unit": "head",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "fao:1186",
+      "nameEs": "Seda cruda",
+      "nameEn": "Raw silk (not thrown)",
+      "category": "livestock",
+      "unit": "t",
+      "source": "faostat-qcl",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:aluminium",
+      "nameEs": "Aluminio",
+      "nameEn": "Aluminium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de aluminio",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_aluminio",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by aluminium production",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production#Aluminimum",
+        "isRedirect": true,
+        "redirectTarget": "Lists of countries by mineral production",
+        "fragment": "Aluminimum",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:antimony",
+      "nameEs": "Antimonio",
+      "nameEn": "Antimony",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:arsenic",
+      "nameEs": "Arsénico",
+      "nameEn": "Arsenic",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:bauxite",
+      "nameEs": "Bauxita",
+      "nameEn": "Bauxite",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by bauxite production",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production#Aluminium",
+        "isRedirect": true,
+        "redirectTarget": "Lists of countries by mineral production",
+        "fragment": "Aluminium",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:beryllium",
+      "nameEs": "Berilio",
+      "nameEn": "Beryllium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:bismuth",
+      "nameEs": "Bismuto",
+      "nameEn": "Bismuth",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Bismuto",
+        "url": "https://es.wikipedia.org/wiki/Bismuto",
+        "isRedirect": false,
+        "matchType": "langlink"
+      },
+      "en": {
+        "exists": true,
+        "title": "Bismuth",
+        "url": "https://en.wikipedia.org/wiki/Bismuth",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:cadmium",
+      "nameEs": "Cadmio",
+      "nameEn": "Cadmium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:cobalt",
+      "nameEs": "Cobalto",
+      "nameEn": "Cobalt",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:copper",
+      "nameEs": "Cobre",
+      "nameEn": "Copper",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de cobre",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_cobre",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by copper production",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production#Copper",
+        "isRedirect": true,
+        "redirectTarget": "Lists of countries by mineral production",
+        "fragment": "Copper",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:chromium",
+      "nameEs": "Cromo",
+      "nameEn": "Chromium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Cromo",
+        "url": "https://es.wikipedia.org/wiki/Cromo",
+        "isRedirect": false,
+        "matchType": "langlink"
+      },
+      "en": {
+        "exists": true,
+        "title": "Chromium",
+        "url": "https://en.wikipedia.org/wiki/Chromium",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:tin",
+      "nameEs": "Estaño",
+      "nameEn": "Tin",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de estaño",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_esta%C3%B1o",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by tin production",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production#Tin",
+        "isRedirect": true,
+        "redirectTarget": "Lists of countries by mineral production",
+        "fragment": "Tin",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:gallium",
+      "nameEs": "Galio",
+      "nameEn": "Gallium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by gas production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_natural_gas_production",
+        "isRedirect": true,
+        "redirectTarget": "List of countries by natural gas production",
+        "fragment": null,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:germanium",
+      "nameEs": "Germanio",
+      "nameEn": "Germanium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:iron",
+      "nameEs": "Hierro",
+      "nameEn": "Iron",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by iron production",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production#Iron",
+        "isRedirect": true,
+        "redirectTarget": "Lists of countries by mineral production",
+        "fragment": "Iron",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:indium",
+      "nameEs": "Indio",
+      "nameEn": "Indium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:lithium",
+      "nameEs": "Litio",
+      "nameEn": "Lithium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by lithium production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_lithium_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:manganese",
+      "nameEs": "Manganeso",
+      "nameEn": "Manganese",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by manganese production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_manganese_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:mercury",
+      "nameEs": "Mercurio",
+      "nameEn": "Mercury",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by mercury production",
+        "url": "https://en.wikipedia.org/wiki/Mercury_(element)#Occurrence",
+        "isRedirect": true,
+        "redirectTarget": "Mercury (element)",
+        "fragment": "Occurrence",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:molybdenum",
+      "nameEs": "Molibdeno",
+      "nameEn": "Molybdenum",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:niobium",
+      "nameEs": "Niobio",
+      "nameEn": "Niobium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:nickel",
+      "nameEs": "Níquel",
+      "nameEn": "Nickel",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by nickel production",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production#Nickel",
+        "isRedirect": true,
+        "redirectTarget": "Lists of countries by mineral production",
+        "fragment": "Nickel",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:gold",
+      "nameEs": "Oro",
+      "nameEn": "Gold",
+      "category": "metals",
+      "unit": "kg",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de oro",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_oro",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by gold production",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production#Gold",
+        "isRedirect": true,
+        "redirectTarget": "Lists of countries by mineral production",
+        "fragment": "Gold",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:palladium",
+      "nameEs": "Paladio",
+      "nameEn": "Palladium",
+      "category": "metals",
+      "unit": "kg",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by palladium production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_palladium_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:silver",
+      "nameEs": "Plata",
+      "nameEn": "Silver",
+      "category": "metals",
+      "unit": "kg",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de plata",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_plata",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by silver production",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production#Silver",
+        "isRedirect": true,
+        "redirectTarget": "Lists of countries by mineral production",
+        "fragment": "Silver",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:platinum",
+      "nameEs": "Platino",
+      "nameEn": "Platinum",
+      "category": "metals",
+      "unit": "kg",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Platino",
+        "url": "https://es.wikipedia.org/wiki/Platino",
+        "isRedirect": false,
+        "matchType": "langlink"
+      },
+      "en": {
+        "exists": true,
+        "title": "Platinum",
+        "url": "https://en.wikipedia.org/wiki/Platinum",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:lead",
+      "nameEs": "Plomo",
+      "nameEn": "Lead",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de plomo",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_plomo",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:rhenium",
+      "nameEs": "Renio",
+      "nameEn": "Rhenium",
+      "category": "metals",
+      "unit": "kg",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:rhodium",
+      "nameEs": "Rodio",
+      "nameEn": "Rhodium",
+      "category": "metals",
+      "unit": "kg",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:selenium",
+      "nameEs": "Selenio",
+      "nameEn": "Selenium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:tantalum",
+      "nameEs": "Tantalio",
+      "nameEn": "Tantalum",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:tellurium",
+      "nameEs": "Telurio",
+      "nameEn": "Tellurium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:rare-earths",
+      "nameEs": "Tierras raras",
+      "nameEn": "Rare Earths",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:titanium",
+      "nameEs": "Titanio",
+      "nameEn": "Titanium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "Titanium production by country",
+        "url": "https://en.wikipedia.org/wiki/Titanium_production_by_country",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:vanadium",
+      "nameEs": "Vanadio",
+      "nameEn": "Vanadium",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:tungsten",
+      "nameEs": "Wolframio",
+      "nameEn": "Tungsten",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:zinc",
+      "nameEs": "Zinc",
+      "nameEn": "Zinc",
+      "category": "metals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": true,
+      "es": {
+        "exists": true,
+        "title": "Anexo:Países por producción de zinc",
+        "url": "https://es.wikipedia.org/wiki/Anexo%3APa%C3%ADses_por_producci%C3%B3n_de_zinc",
+        "isRedirect": false,
+        "matchType": "canonical"
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by zinc production",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production#Zinc",
+        "isRedirect": true,
+        "redirectTarget": "Lists of countries by mineral production",
+        "fragment": "Zinc",
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:asbestos",
+      "nameEs": "Amianto",
+      "nameEn": "Asbestos",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:sulfur",
+      "nameEs": "Azufre",
+      "nameEn": "Sulfur",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:baryte",
+      "nameEs": "Baritina",
+      "nameEn": "Baryte",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:bentonite",
+      "nameEs": "Bentonita",
+      "nameEn": "Bentonite",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by bentonite production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_bentonite_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:kaolin",
+      "nameEs": "Caolín",
+      "nameEn": "Kaolin",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:zircon",
+      "nameEs": "Circón",
+      "nameEn": "Zircon",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:diamonds-gem",
+      "nameEs": "Diamantes de gema",
+      "nameEn": "Diamonds",
+      "category": "minerals",
+      "unit": "ct",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by diamond production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_diamond_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:diamonds-industrial",
+      "nameEs": "Diamantes industriales",
+      "nameEn": "Diamonds",
+      "category": "minerals",
+      "unit": "ct",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by diamond production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_diamond_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:diatomite",
+      "nameEs": "Diatomita",
+      "nameEn": "Diatomite",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:feldspar",
+      "nameEs": "Feldespato",
+      "nameEn": "Feldspar",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by feldspar production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_feldspar_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:fluorspar",
+      "nameEs": "Fluorita",
+      "nameEn": "Fluorspar",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by fluorite production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_fluorite_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:graphite",
+      "nameEs": "Grafito",
+      "nameEn": "Graphite",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:magnesite",
+      "nameEs": "Magnesita",
+      "nameEn": "Magnesite",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:boron",
+      "nameEs": "Minerales de boro",
+      "nameEn": "Boron Minerals",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:perlite",
+      "nameEs": "Perlita",
+      "nameEn": "Perlite",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:potash",
+      "nameEs": "Potasa",
+      "nameEn": "Potash",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:phosphate",
+      "nameEs": "Roca fosfórica",
+      "nameEn": "Phosphate Rock",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:salt",
+      "nameEs": "Sal",
+      "nameEn": "Salt",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": true,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": true,
+        "title": "List of countries by salt production",
+        "url": "https://en.wikipedia.org/wiki/List_of_countries_by_salt_production",
+        "isRedirect": false,
+        "matchType": "canonical"
+      }
+    },
+    {
+      "id": "wmd:talc",
+      "nameEs": "Talco",
+      "nameEn": "Talc, Steatite & Pyrophyllite",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:vermiculite",
+      "nameEs": "Vermiculita",
+      "nameEn": "Vermiculite",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    },
+    {
+      "id": "wmd:gypsum",
+      "nameEs": "Yeso y anhidrita",
+      "nameEn": "Gypsum and Anhydrite",
+      "category": "minerals",
+      "unit": "t",
+      "source": "wmd",
+      "hasArticle": false,
+      "hasBoth": false,
+      "es": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      },
+      "en": {
+        "exists": false,
+        "title": null,
+        "url": null,
+        "isRedirect": false
+      }
+    }
+  ]
+}

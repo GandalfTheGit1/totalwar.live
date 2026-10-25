@@ -1,0 +1,4 @@
+7f61d758bb95f68e5db78dce668e36fc7f85fb3249dbb707af13a5b658134a3f  gold_holdout.json
+f171a12945461491914ae90c5f47510f8ffdfd79d8d7658fc3d9a9430b66332e  facts_AUCN_complete.json
+f5c8a05dd2bad7b411e0bf04a4a290716487303d18231116833e981710ea32c6  facts_AUCN_auto.json
+held-out gold frozen at 2026-10-18T11:59:48Z (no classifier run on AU-CN facts yet)

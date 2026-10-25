@@ -15,6 +15,7 @@ import {
   normalizeCountryCode,
   buildWorldBankUrl,
   parseWorldBankResponse,
+  WorldBankApiError,
 } from './world-bank-parser';
 
 // Re-export types and parsers for 100% backward compatibility
@@ -73,7 +74,9 @@ export async function fetchWorldBankCountryIndicators(
 
 /**
  * Fetches multiple indicators in sequential batch requests with quota-protection delays (Rule 5).
- * Immediately halts if circuit breaker or 429/403 is encountered.
+ * Indicators the API rejects with an error envelope (e.g. retired/unknown codes) are skipped
+ * and omitted from the result, so one bad indicator cannot sink the whole batch.
+ * Immediately halts if circuit breaker, 403, network or HTTP errors are encountered.
  */
 export async function fetchWorldBankIndicatorsBatch(
   countryCode: string,
@@ -83,6 +86,7 @@ export async function fetchWorldBankIndicatorsBatch(
   const result: Record<string, WorldBankObservation[]> = {};
   const delayMs = options.delayBetweenRequestsMs ?? 50;
   const uniqueIndicatorIds = Array.from(new Set(indicatorIds.map(id => id.trim()).filter(Boolean)));
+  let lastApiError: WorldBankApiError | null = null;
 
   for (let i = 0; i < uniqueIndicatorIds.length; i++) {
     const indicatorId = uniqueIndicatorIds[i];
@@ -90,15 +94,25 @@ export async function fetchWorldBankIndicatorsBatch(
       const records = await fetchWorldBankIndicator(countryCode, indicatorId, options);
       result[indicatorId] = records;
     } catch (err: any) {
-      console.error(`[WorldBank] Batch request halted at indicator "${indicatorId}":`, err?.message || err);
-      // Circuit breaker or rate limits must bubble up immediately (Rule 5)
-      throw err;
+      if (err instanceof WorldBankApiError) {
+        console.warn(`[WorldBank] Skipping indicator "${indicatorId}" rejected by API:`, err.message);
+        lastApiError = err;
+      } else {
+        console.error(`[WorldBank] Batch request halted at indicator "${indicatorId}":`, err?.message || err);
+        // Circuit breaker or rate limits must bubble up immediately (Rule 5)
+        throw err;
+      }
     }
 
     // Delay between iterations to protect rate limits
     if (i < uniqueIndicatorIds.length - 1 && delayMs > 0) {
       await new Promise(resolve => setTimeout(resolve, delayMs));
     }
+  }
+
+  // Every indicator rejected: surface the failure instead of returning an empty batch
+  if (lastApiError && Object.keys(result).length === 0) {
+    throw lastApiError;
   }
 
   return result;

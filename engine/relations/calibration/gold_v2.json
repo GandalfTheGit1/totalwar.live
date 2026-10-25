@@ -1,0 +1,434 @@
+{
+ "Spain summoned the Moroccan ambassador to convey expectations of respe": {
+  "id": "ESMA00",
+  "date": "2020-12-21",
+  "code": "PROTEST_SUMMONS",
+  "actor": "ES",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Morocco summoned the Spanish ambassador to express repudiation over th": {
+  "id": "ESMA01",
+  "date": "2021-04",
+  "code": "PROTEST_SUMMONS",
+  "actor": "MA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "The Spanish Ministry of Foreign Affairs justified Brahim Ghali's entry": {
+  "id": "ESMA02",
+  "date": "2021-04",
+  "code": "NONE",
+  "actor": "ES",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Spanish officials announced that Polisario Front leader Brahim Ghali w": {
+  "id": "ESMA03",
+  "date": "2021-04-22",
+  "code": "CORE_HOSTILE_POSITION",
+  "actor": "ES",
+  "level": "OFFICIAL",
+  "core": true,
+  "amb": true
+ },
+ "Morocco granted asylum to pro-Catalan independence politician Carles P": {
+  "id": "ESMA04",
+  "date": "2021-04-30",
+  "code": "CORE_HOSTILE_POSITION",
+  "actor": "MA",
+  "level": "OFFICIAL",
+  "core": true,
+  "amb": true
+ },
+ "Moroccan border forces relaxed controls at the Ceuta border and about ": {
+  "id": "ESMA05",
+  "date": "2021-05-17",
+  "code": "MIGRATION_WEAPONIZATION",
+  "actor": "MA",
+  "level": "OFFICIAL",
+  "core": true,
+  "amb": true
+ },
+ "Spanish Prime Minister Pedro Sánchez announced that illegally arrived ": {
+  "id": "ESMA06",
+  "date": "2021-05-18",
+  "code": "NONE",
+  "actor": "ES",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "The Spanish Ministry of Defense moved 200 police officers and deployed": {
+  "id": "ESMA07",
+  "date": "2021-05-18",
+  "code": "NONE",
+  "actor": "ES",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "The Spanish government announced that it had processed the expulsion o": {
+  "id": "ESMA08",
+  "date": "2021-05-18",
+  "code": "NONE",
+  "actor": "ES",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Morocco recalled its ambassador to Spain for consultations.": {
+  "id": "ESMA09",
+  "date": "2021-05-18",
+  "code": "AMBASSADOR_RECALL",
+  "actor": "MA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "The government delegate in Melilla announced the deployment of Armed F": {
+  "id": "ESMA10",
+  "date": "2021-05-20",
+  "code": "NONE",
+  "actor": "ES",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Moroccan Foreign Minister Nasser Bourita confirmed discomfort over Gha": {
+  "id": "ESMA11",
+  "date": "2021-05-20",
+  "code": "CRITICISM",
+  "actor": "MA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Spanish Prime Minister Sánchez said Morocco had failed to control its ": {
+  "id": "ESMA12",
+  "date": "2021-05-25",
+  "code": "CRITICISM",
+  "actor": "ES",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Spanish Prime Minister Pedro Sánchez sent a letter to King Mohammed VI": {
+  "id": "ESMA13",
+  "date": "2022-03-14",
+  "code": "CORE_SUPPORT",
+  "actor": "ES",
+  "level": "HEAD",
+  "core": true,
+  "amb": false
+ },
+ "Morocco's ambassador Karima Benyaich returned to Madrid after Spain ba": {
+  "id": "ESMA14",
+  "date": "2022-03-20",
+  "code": "AMBASSADOR_RESTORED",
+  "actor": "MA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Spanish Prime Minister Pedro Sánchez visited Morocco and participated ": {
+  "id": "ESMA15",
+  "date": "2022-04",
+  "code": "STATE_VISIT",
+  "actor": "ES",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Spain and Morocco signed a series of multiple agreements to boost trad": {
+  "id": "ESMA16",
+  "date": "2023-02",
+  "code": "SECTORAL_AGREEMENTS",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": true
+ },
+ "Both countries agreed to cooperate on repatriations of illegal migrant": {
+  "id": "ESMA17",
+  "date": "2023-06-22",
+  "code": "SECURITY_COOPERATION",
+  "actor": "joint",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Canadian Prime Minister Justin Trudeau spent a week on a state visit t": {
+  "id": "INCA00",
+  "date": "2018-02",
+  "code": "STATE_VISIT",
+  "actor": "CA",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "India and Canada signed a new education agreement and established the ": {
+  "id": "INCA01",
+  "date": "2018-02",
+  "code": "SECTORAL_AGREEMENTS",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": true
+ },
+ "Canadian Prime Minister Justin Trudeau expressed concerns regarding th": {
+  "id": "INCA02",
+  "date": "2020-12",
+  "code": "CRITICISM",
+  "actor": "CA",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "India protested against Justin Trudeau's remarks, calling them an unac": {
+  "id": "INCA03",
+  "date": "2020-12",
+  "code": "CRITICISM",
+  "actor": "IN",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "India summoned Canada's High Commissioner to convey strong concern ove": {
+  "id": "INCA04",
+  "date": "2023-03",
+  "code": "PROTEST_SUMMONS",
+  "actor": "IN",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Indian Prime Minister Narendra Modi conveyed concerns about protests i": {
+  "id": "INCA05",
+  "date": "2023-09",
+  "code": "CRITICISM",
+  "actor": "IN",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Canada announced it had postponed an October trade mission to India.": {
+  "id": "INCA06",
+  "date": "2023-09",
+  "code": "TALKS_SUSPENDED",
+  "actor": "CA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Canada paused talks on a proposed trade treaty with India.": {
+  "id": "INCA07",
+  "date": "2023-09",
+  "code": "TALKS_SUSPENDED",
+  "actor": "CA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Prime Minister Trudeau addressed the House of Commons regarding potent": {
+  "id": "INCA08",
+  "date": "2023-09-18",
+  "code": "HARSH_RHETORIC",
+  "actor": "CA",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Canadian Foreign Minister Melanie Joly announced the expulsion of seni": {
+  "id": "INCA09",
+  "date": "2023-09-18",
+  "code": "EXPULSION",
+  "actor": "CA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "India expelled a top Canadian diplomat, Olivier Sylvestere, with a fiv": {
+  "id": "INCA10",
+  "date": "2023-09-19",
+  "code": "EXPULSION",
+  "actor": "IN",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "India warned its citizens to exercise utmost caution due to growing an": {
+  "id": "INCA11",
+  "date": "2023-09-20",
+  "code": "CRITICISM",
+  "actor": "IN",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": true
+ },
+ "India temporarily suspended visa services for all Canadian nationals d": {
+  "id": "INCA12",
+  "date": "2023-09-21",
+  "code": "VISA_RESTRICTION",
+  "actor": "IN",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Canada updated its travel advisory for India, urging citizens to remai": {
+  "id": "INCA13",
+  "date": "2023-09-24",
+  "code": "NONE",
+  "actor": "CA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": true
+ },
+ "41 Canadian diplomats and their family members left India after being ": {
+  "id": "INCA14",
+  "date": "2023-10-18",
+  "code": "EXPULSION",
+  "actor": "IN",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": true
+ },
+ "India issued a statement stating that the continued interference of Ca": {
+  "id": "INCA15",
+  "date": "2023-10-20",
+  "code": "CRITICISM",
+  "actor": "IN",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "India summoned the Canadian deputy high commissioner over separatist s": {
+  "id": "INCA16",
+  "date": "2024-04",
+  "code": "PROTEST_SUMMONS",
+  "actor": "IN",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Modi and Trudeau met briefly at the G7 summit in Italy, signaling a re": {
+  "id": "INCA17",
+  "date": "2024-06",
+  "code": "SIDELINES_MEETING",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Canadian officials informed Indian NSA Ajit Doval that Indian High Com": {
+  "id": "INCA18",
+  "date": "2024-10-12",
+  "code": "HARSH_RHETORIC",
+  "actor": "CA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": true
+ },
+ "Canada served notices of expulsion to Indian High Commissioner Sanjay ": {
+  "id": "INCA19",
+  "date": "2024-10-14",
+  "code": "EXPULSION",
+  "actor": "CA",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "India announced a tit-for-tat expulsion of six Canadian diplomats.": {
+  "id": "INCA20",
+  "date": "2024-10-14",
+  "code": "EXPULSION",
+  "actor": "IN",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "India issued a formal protest calling claims of Amit Shah's involvemen": {
+  "id": "INCA21",
+  "date": "2024-10-29",
+  "code": "PROTEST_SUMMONS",
+  "actor": "IN",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Canada's Deputy Foreign Minister Morrison told MPs he had given Home M": {
+  "id": "INCA22",
+  "date": "2024-10-29",
+  "code": "HARSH_RHETORIC",
+  "actor": "CA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Canada's Privy Council Office said it knew of no evidence linking Prim": {
+  "id": "INCA23",
+  "date": "2024-11-22",
+  "code": "POSITIVE_STATEMENT",
+  "actor": "CA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Canadian Prime Minister Mark Carney met with Indian Prime Minister Nar": {
+  "id": "INCA24",
+  "date": "2025-06-17",
+  "code": "SUMMIT",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": true
+ },
+ "Both nations appointed new envoys to restore diplomatic relations.": {
+  "id": "INCA25",
+  "date": "2025-08",
+  "code": "AMBASSADOR_RESTORED",
+  "actor": "joint",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Canada listed the Lawrence Bishnoi gang, which an RCMP report said act": {
+  "id": "INCA26",
+  "date": "2025-09",
+  "code": "NONE",
+  "actor": "CA",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": true
+ },
+ "Modi and Carney met on the margins of the G20 and formally relaunched ": {
+  "id": "INCA27",
+  "date": "2025-11-23",
+  "code": "TRADE_TALKS_LAUNCHED",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Canadian Prime Minister Mark Carney made a state visit to India and me": {
+  "id": "INCA28",
+  "date": "2026-02",
+  "code": "STATE_VISIT",
+  "actor": "CA",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "India and Canada signed multiple MOUs worth billions of dollars relati": {
+  "id": "INCA29",
+  "date": "2026-02",
+  "code": "SECTORAL_AGREEMENTS",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ }
+}

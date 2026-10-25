@@ -1,0 +1,254 @@
+{
+ "Daegu District Court approved a request to seize shares held by Nippon": {
+  "id": "JPKR00",
+  "date": "2019-01-08",
+  "code": "NONE",
+  "actor": "KR",
+  "level": "COURT",
+  "core": false,
+  "amb": false
+ },
+ "Seoul High Court dismissed Nachi-Fujikoshi's appeal regarding compensa": {
+  "id": "JPKR01",
+  "date": "2019-01-18",
+  "code": "NONE",
+  "actor": "KR",
+  "level": "COURT",
+  "core": false,
+  "amb": false
+ },
+ "South Korea proposed joining funds with Japan to compensate forced lab": {
+  "id": "JPKR02",
+  "date": "2019-06-19",
+  "code": "POSITIVE_STATEMENT",
+  "actor": "KR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "Japanese METI applied updated licensing policies and export procedures": {
+  "id": "JPKR03",
+  "date": "2019-07-01",
+  "code": "EXPORT_CONTROLS",
+  "actor": "JP",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "South Korea announced a plan to withdraw Japan's export restrictions d": {
+  "id": "JPKR04",
+  "date": "2019-07-08",
+  "code": "CRITICISM",
+  "actor": "KR",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Representatives from Japan and South Korea held a meeting in Tokyo to ": {
+  "id": "JPKR05",
+  "date": "2019-07-12",
+  "code": "NEGOTIATION_ROUND",
+  "actor": "joint",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": true
+ },
+ "Senior officials from Japan and South Korea took their high-tech expor": {
+  "id": "JPKR06",
+  "date": "2019-07-24",
+  "code": "CRITICISM",
+  "actor": "KR",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": true
+ },
+ "Japanese cabinet approved the removal of South Korea from its whitelis": {
+  "id": "JPKR07",
+  "date": "2019-08-02",
+  "code": "EXPORT_CONTROLS",
+  "actor": "JP",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "The Japanese government approved shipments of a key display and chip m": {
+  "id": "JPKR08",
+  "date": "2019-08-08",
+  "code": "DE_ESCALATION",
+  "actor": "JP",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "The South Korean government initiated measures to remove Japan from So": {
+  "id": "JPKR09",
+  "date": "2019-08-12",
+  "code": "EXPORT_CONTROLS",
+  "actor": "KR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "South Korea decided to give Japan notice to terminate the General Secu": {
+  "id": "JPKR10",
+  "date": "2019-08-22",
+  "code": "RELATIONS_DOWNGRADE",
+  "actor": "KR",
+  "level": "HEAD",
+  "core": false,
+  "amb": true
+ },
+ "Japan enforced a partial amendment to its export trade control order r": {
+  "id": "JPKR11",
+  "date": "2019-08-28",
+  "code": "EXPORT_CONTROLS",
+  "actor": "JP",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Japan approved the first hydrogen fluoride export to South Korea since": {
+  "id": "JPKR12",
+  "date": "2019-08-29",
+  "code": "NONE",
+  "actor": "JP",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": true
+ },
+ "South Korea announced plans to file a WTO complaint over Japan's tight": {
+  "id": "JPKR13",
+  "date": "2019-09-11",
+  "code": "CRITICISM",
+  "actor": "KR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Japanese Foreign Minister Motegi and South Korean Foreign Minister Kan": {
+  "id": "JPKR14",
+  "date": "2019-09-26",
+  "code": "MINISTERIAL_VISIT",
+  "actor": "joint",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ },
+ "Japan and South Korea held consultations under the WTO Agreement in Ge": {
+  "id": "JPKR15",
+  "date": "2019-10-11",
+  "code": "NEGOTIATION_ROUND",
+  "actor": "joint",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "South Korean Prime Minister Lee Nak-yeon met with Japanese Prime Minis": {
+  "id": "JPKR16",
+  "date": "2019-10-24",
+  "code": "MINISTERIAL_VISIT",
+  "actor": "joint",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "South Korean President Moon Jae-in held a conversation with Prime Mini": {
+  "id": "JPKR17",
+  "date": "2019-11-04",
+  "code": "SIDELINES_MEETING",
+  "actor": "joint",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Japan and South Korea held the second round of bilateral consultations": {
+  "id": "JPKR18",
+  "date": "2019-11-19",
+  "code": "NEGOTIATION_ROUND",
+  "actor": "joint",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "South Korea decided to suspend its WTO petition against Japan and reve": {
+  "id": "JPKR19",
+  "date": "2019-11-22",
+  "code": "DE_ESCALATION",
+  "actor": "KR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Japanese METI and Korean MOTIE held the 7th Japan-Korea Export Control": {
+  "id": "JPKR20",
+  "date": "2019-12-16",
+  "code": "NEGOTIATION_ROUND",
+  "actor": "joint",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "Japanese METI and Korean MOTIE held the 8th Japan-Korea Export Control": {
+  "id": "JPKR21",
+  "date": "2020-03-10",
+  "code": "NEGOTIATION_ROUND",
+  "actor": "joint",
+  "level": "OFFICIAL",
+  "core": false,
+  "amb": false
+ },
+ "South Korean MOTIE eliminated antidumping duties on pneumatic valves f": {
+  "id": "JPKR22",
+  "date": "2020-08-19",
+  "code": "DE_ESCALATION",
+  "actor": "KR",
+  "level": "MINISTER",
+  "core": false,
+  "amb": true
+ },
+ "The WTO issued a ruling largely backing Japan regarding antidumping du": {
+  "id": "JPKR23",
+  "date": "2020-11-30",
+  "code": "NONE",
+  "actor": "joint",
+  "level": "INSTITUTION",
+  "core": false,
+  "amb": false
+ },
+ "South Korea announced plans to compensate forced labor victims using p": {
+  "id": "JPKR24",
+  "date": "2023-03-03",
+  "code": "CORE_SUPPORT",
+  "actor": "KR",
+  "level": "HEAD",
+  "core": true,
+  "amb": true
+ },
+ "South Korean President Yoon Suk-yeol visited Japan and met with Prime ": {
+  "id": "JPKR25",
+  "date": "2023-03-16",
+  "code": "STATE_VISIT",
+  "actor": "KR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "South Korean President Yoon announced plans to restore Japan to South ": {
+  "id": "JPKR26",
+  "date": "2023-03-21",
+  "code": "DE_ESCALATION",
+  "actor": "KR",
+  "level": "HEAD",
+  "core": false,
+  "amb": false
+ },
+ "Japan restored South Korea to its trade whitelist and South Korea with": {
+  "id": "JPKR27",
+  "date": "2023-03-23",
+  "code": "DE_ESCALATION",
+  "actor": "joint",
+  "level": "MINISTER",
+  "core": false,
+  "amb": false
+ }
+}
