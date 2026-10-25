@@ -104,6 +104,8 @@ def load():
         code = ('CUSTOMS_UNION' if re.match(r'^CU\b', typ) else 'FTA_IN_FORCE' if re.match(r'^FTA\b', typ) else 'PREFERENTIAL_TRADE' if typ in ('PSA', 'EIA', 'PSA & EIA') else None)
         if code and 'african continental' in r.get('RTA Name', '').lower():
             code = 'PREFERENTIAL_TRADE'          # the AfCFTA is not yet a working free-trade area
+        if code and 'comesa' in r.get('RTA Name', '').lower():
+            code = 'PREFERENTIAL_TRADE'          # COMESA is notified as a customs union but never operated one (audit_trade_v4.py)
         if not code:
             continue
         start = min([d for d in (_serial(r.get('Date of Entry into Force (G)')), _serial(r.get('Date of Entry into Force (S)'))) if d] or [None]) if (r.get('Date of Entry into Force (G)') or r.get('Date of Entry into Force (S)')) else None
