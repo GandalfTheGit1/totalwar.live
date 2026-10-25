@@ -1,5 +1,5 @@
 {
- "about": "Membership of the blocs that feed bloc states (model/bloc_qids.json), reviewed against each organisation's official member list on 2026-10-20. Wikidata's 'member of' (P463) carries no status: observers and suspended members appear as members (Mexico and Venezuela in Mercosur, the suspended states in the African Union) and several blocs are incomplete or empty (USMCA lists only Mexico, CPTPP, RCEP and the EAEU have no members, the GCC has 3 of 6, CELAC 5 of 33, ASEAN wrongly includes Australia). For the blocs listed in 'members' this list replaces Wikidata; 'status' then removes suspended, observer, departed and non-party states for every bloc. Re-review when membership changes.",
+ "about": "Membership of the blocs that feed bloc states (model/bloc_qids.json), reviewed against each organisation's official member list on 2026-10-20. Wikidata's 'member of' (P463) carries no status: observers and suspended members appear as members (Mexico and Venezuela in Mercosur, the suspended states in the African Union) and several blocs are incomplete or empty (USMCA lists only Mexico, CPTPP, RCEP and the EAEU have no members, the GCC has 3 of 6, CELAC 5 of 33, ASEAN wrongly includes Australia). For the blocs listed in 'members' this list replaces Wikidata; 'status' then removes suspended, observer, departed and non-party states for every bloc. Re-review when membership changes. Added 2026-10-21: nine regional blocs (ECOWAS, SADC, EAC, CARICOM, CAN, Pacific Alliance, AES, SAARC, PIF) with lists taken from each organisation's member list from memory of the public sources; member-specific accession dates are not modelled for them (one entry date per bloc). To be re-checked against the official lists.",
  "reviewed": "2026-10-20",
  "members": {
   "MERCOSUR": {
@@ -194,6 +194,138 @@
     "IR": "2023-07-04",
     "BY": "2024-07-04"
    }
+  },
+  "ECOWAS": {
+   "list": [
+    "BJ",
+    "CV",
+    "CI",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "LR",
+    "NG",
+    "SN",
+    "SL",
+    "TG"
+   ],
+   "since": "1975-05-28",
+   "source": "ECOWAS member states after Mali, Burkina Faso and Niger left on 29 Jan 2025; trade liberalisation scheme and free movement, common external tariff only partly applied"
+  },
+  "SADC": {
+   "list": [
+    "BW",
+    "SZ",
+    "LS",
+    "MG",
+    "MW",
+    "MU",
+    "MZ",
+    "NA",
+    "SC",
+    "ZA",
+    "TZ",
+    "ZM",
+    "ZW"
+   ],
+   "since": "2008-08-17",
+   "source": "SADC Free Trade Area participants (13); Angola, DR Congo and Comoros are SADC members not yet in the free-trade area"
+  },
+  "EAC": {
+   "list": [
+    "BI",
+    "CD",
+    "KE",
+    "RW",
+    "SO",
+    "SS",
+    "TZ",
+    "UG"
+   ],
+   "since": "2005-01-01",
+   "source": "East African Community customs union (in force 1 Jan 2005); Burundi and Rwanda joined it in 2009, South Sudan 2016, DR Congo 2022, Somalia 2024"
+  },
+  "CARICOM": {
+   "list": [
+    "AG",
+    "BB",
+    "BZ",
+    "DM",
+    "GD",
+    "GY",
+    "JM",
+    "KN",
+    "LC",
+    "VC",
+    "SR",
+    "TT"
+   ],
+   "since": "2006-01-30",
+   "source": "CARICOM Single Market and Economy participants (12); Haiti is provisional and the Bahamas is not in the single market"
+  },
+  "CAN": {
+   "list": [
+    "BO",
+    "CO",
+    "EC",
+    "PE"
+   ],
+   "since": "1993-01-01",
+   "source": "Andean Community: four members (Venezuela left in 2006, Chile in 1976); free-trade zone since 1993"
+  },
+  "PACIFIC_ALLIANCE": {
+   "list": [
+    "CL",
+    "CO",
+    "MX",
+    "PE"
+   ],
+   "since": "2012-06-06",
+   "source": "Pacific Alliance (trade protocol in force 2016)"
+  },
+  "AES": {
+   "list": [
+    "BF",
+    "ML",
+    "NE"
+   ],
+   "since": "2023-09-16",
+   "source": "Alliance of Sahel States: Liptako-Gourma Charter (mutual defence, 16 Sep 2023), confederation since 6 Jul 2024"
+  },
+  "SAARC": {
+   "list": [
+    "AF",
+    "BD",
+    "BT",
+    "IN",
+    "MV",
+    "NP",
+    "PK",
+    "LK"
+   ],
+   "since": "1985-12-08",
+   "source": "SAARC member states (Afghanistan since 2007)"
+  },
+  "PIF": {
+   "list": [
+    "AU",
+    "FJ",
+    "KI",
+    "MH",
+    "FM",
+    "NR",
+    "NZ",
+    "PW",
+    "PG",
+    "WS",
+    "SB",
+    "TO",
+    "TV",
+    "VU"
+   ],
+   "since": "1971-08-05",
+   "source": "Pacific Islands Forum members that are states in the registry (the Cook Islands, Niue and the French territories are not)"
   }
  },
  "status": [
@@ -307,6 +439,42 @@
   "AFCFTA": {
    "state": "PREFERENTIAL_TRADE",
    "source": "The AfCFTA is in force but its tariff schedules apply only to a limited 'guided trade' set; it is not yet a working free-trade area"
+  },
+  "ECOWAS": {
+   "state": "PREFERENTIAL_TRADE",
+   "source": "regional bloc: PREFERENTIAL_TRADE"
+  },
+  "SADC": {
+   "state": "FTA_IN_FORCE",
+   "source": "regional bloc: FTA_IN_FORCE"
+  },
+  "EAC": {
+   "state": "FTA_IN_FORCE",
+   "source": "regional bloc: FTA_IN_FORCE"
+  },
+  "CARICOM": {
+   "state": "FTA_IN_FORCE",
+   "source": "regional bloc: FTA_IN_FORCE"
+  },
+  "CAN": {
+   "state": "FTA_IN_FORCE",
+   "source": "regional bloc: FTA_IN_FORCE"
+  },
+  "PACIFIC_ALLIANCE": {
+   "state": "PREFERENTIAL_TRADE",
+   "source": "regional bloc: PREFERENTIAL_TRADE"
+  },
+  "AES": {
+   "state": "DEFENSE_ALLIANCE",
+   "source": "regional bloc: DEFENSE_ALLIANCE"
+  },
+  "SAARC": {
+   "state": "SHARED_FORUM",
+   "source": "regional bloc: SHARED_FORUM"
+  },
+  "PIF": {
+   "state": "SHARED_FORUM",
+   "source": "regional bloc: SHARED_FORUM"
   }
  }
 }

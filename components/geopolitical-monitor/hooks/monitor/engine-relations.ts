@@ -12,6 +12,7 @@ import { GeoFeature, ActiveRelationsMap, RelationType } from '../../types';
 import { resolveIsoFromFeature } from './relations-builder';
 import { GeopoliticalKnowledgeService } from '@/lib/services/geopolitical-knowledge-service';
 import type { CountryRelationsPayload, RelationBand } from '@/lib/services/bilateral-relations/types';
+import { toneOf } from '@/lib/services/bilateral-relations/valence';
 
 export const BAND_TO_TYPE: Record<RelationBand, RelationType> = {
   ALLIED: 'STRATEGIC_ALLY',
@@ -52,11 +53,14 @@ export function buildEngineRelations(payload: CountryRelationsPayload, geoJsonDa
     const code = iso ? GeopoliticalKnowledgeService.resolveCountryCode(iso) : null;
     const p = code ? byCode.get(code) : undefined;
     if (!p || p.coverage === 'none') continue;
+    const tone = toneOf(p.valence, p.ties, p.coverage);
+    if (!tone) continue;
     out[f.polyId] = {
       type: BAND_TO_TYPE[p.band],
       polygon: f,
       summaryNote: `${BAND_LABEL_ES[p.band]} · R ${p.R > 0 ? '+' : ''}${Math.round(p.R)}`,
       score: p,
+      tone,
     };
   }
   return out;

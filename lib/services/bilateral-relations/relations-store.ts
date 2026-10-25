@@ -10,6 +10,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { splitRelation } from './valence';
 import type { BilateralScore, CountryRelationsPayload, EmbassySide, RelationBand, CoverageLevel } from './types';
 
 type CompactEmbassy = [EmbassySide['status'], string | null, EmbassySide['source'] | null, string | null];
@@ -60,7 +61,8 @@ export function getCountryRelations(code: string, data: RelationsFile | null = l
     const rec = data.pairs[key];
     if (!rec) continue;
     const [R, band, sStruct, coverage, eventsAnalysed, states, embassies] = rec;
-    partners.push({ partner: other, partnerNameEs: nameEs, partnerIso3: iso3, R, band, sStruct, coverage, eventsAnalysed, states, embassies: expandEmbassies(embassies) });
+    const { ties, valence } = splitRelation(states, R);
+    partners.push({ partner: other, partnerNameEs: nameEs, partnerIso3: iso3, R, band, sStruct, ties, valence, coverage, eventsAnalysed, states, embassies: expandEmbassies(embassies) });
   }
   partners.sort((x, y) => y.R - x.R);
   return { country: c, countryNameEs: me[0], generatedAt: data.meta.generatedAt, layer: data.meta.layer, partners };

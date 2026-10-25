@@ -28,6 +28,10 @@ export interface BilateralScore {
   band: RelationBand;
   /** Structural part of R (data-backed states). */
   sStruct: number;
+  /** Sum of the ties states (embassies, trade, migration, treaties, language, forums): how connected the two countries are. */
+  ties: number;
+  /** R minus the ties: which side the pair is on (alliances, agreements, sanctions, disputes, ruptures; plus the dynamic part when the events layer exists). */
+  valence: number;
   coverage: CoverageLevel;
   /** false while the pair has only the structural layer (no news / leaders' actions analysed yet). */
   eventsAnalysed: boolean;

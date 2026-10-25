@@ -4,6 +4,7 @@
  */
 
 import type { BilateralScore } from '@/lib/services/bilateral-relations/types';
+import type { Tone } from '@/lib/services/bilateral-relations/valence';
 
 export type RiskLevel = 'safe' | 'warning' | 'critical';
 
@@ -136,6 +137,8 @@ export interface RelationItem {
   summaryNote?: string;
   /** Score from the bilateral relations engine (R, band, embassies, states), when the relation comes from it. */
   score?: BilateralScore;
+  /** Two-channel tone (colour = position, opacity = ties) computed from the score; the map paints with it when present. */
+  tone?: Tone;
 }
 
 export type ActiveRelationsMap = Record<string, RelationItem>;

@@ -94,8 +94,8 @@ ECON_COERCION = ('TRADE_RESTRICTION', 'EXPORT_CONTROLS', 'SANCTIONS_TARGETED', '
 
 # bloc -> state it implies for two members (each state counted once per pair)
 BLOC_STATE = {'NATO': 'DEFENSE_ALLIANCE', 'CSTO': 'DEFENSE_ALLIANCE', 'EU': 'DEEP_INTEGRATION', 'FIVE_EYES': 'INTEL_ALLIANCE',
-              'USMCA': 'FTA_IN_FORCE', 'CPTPP': 'FTA_IN_FORCE', 'RCEP': 'FTA_IN_FORCE', 'MERCOSUR': 'FTA_IN_FORCE', 'EAEU': 'FTA_IN_FORCE',
-              'AFCFTA': 'FTA_IN_FORCE', 'EFTA': 'FTA_IN_FORCE', 'ASEAN': 'PREFERENTIAL_TRADE', 'GCC': 'PREFERENTIAL_TRADE',
+              'USMCA': 'FTA_IN_FORCE', 'CPTPP': 'FTA_IN_FORCE', 'RCEP': 'FTA_IN_FORCE', 'MERCOSUR': 'CUSTOMS_UNION', 'EAEU': 'CUSTOMS_UNION',
+              'AFCFTA': 'FTA_IN_FORCE', 'EFTA': 'FTA_IN_FORCE', 'ASEAN': 'PREFERENTIAL_TRADE', 'GCC': 'CUSTOMS_UNION',
               'BRICS': 'SHARED_FORUM', 'SCO': 'SHARED_FORUM', 'OECD': 'SHARED_FORUM', 'G20': 'SHARED_FORUM', 'APEC': 'SHARED_FORUM',
               'OPEC': 'SHARED_FORUM', 'ARAB_LEAGUE': 'SHARED_FORUM', 'AU': 'SHARED_FORUM', 'OIC': 'SHARED_FORUM', 'CELAC': 'SHARED_FORUM'}
 BLOC_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'bloc_memberships.json')
@@ -113,20 +113,21 @@ def bloc_since(bloc, a, b):
     if not m or not m.get('since'):
         return None
     return max(m.get('memberSince', {}).get(c, m['since']) for c in (a, b))
-STATE_RANK = ['DEFENSE_ALLIANCE', 'DEEP_INTEGRATION', 'FTA_IN_FORCE', 'INTEL_ALLIANCE', 'PREFERENTIAL_TRADE', 'SHARED_FORUM']
+STATE_RANK = ['DEFENSE_ALLIANCE', 'DEEP_INTEGRATION', 'CUSTOMS_UNION', 'FTA_IN_FORCE', 'INTEL_ALLIANCE', 'PREFERENTIAL_TRADE', 'SHARED_FORUM']
 
 DATA_SOURCES = [
     ('FULL_DIPLOMATIC / NONRESIDENT_RELATIONS', 'Wikidata', 'Relación diplomática (P530) y embajadas residentes en uso de cada país en el otro (se descartan las disueltas, con fecha de fin, «decommissioned», «out of service», cerradas o en suspenso). Dinamarca y Países Bajos se consultan también con el elemento del Reino. Dos embajadas = lado doble; si Wikidata calla no se puntúa nada.'),
     ('NO_RELATIONS (datos)', 'Wikidata (P530 con fecha de fin)', 'Las declaraciones de relación de un lado sobre el otro tienen todas fecha de fin y el otro lado no tiene una abierta o alguna embajada no está en uso. Taiwán queda fuera: perder el reconocimiento formal no es hostilidad.'),
     ('ARMED_CONFLICT, OCCUPATION, NO_RELATIONS, NON_RECOGNITION, PROXY_HOSTILITY, HISTORICAL_WAR, disputas militarizadas, alianzas bilaterales, aliado principal no OTAN', 'Hechos revisados (reviewed_facts.json)', 'Hechos estructurales que ninguna fuente libre recoge de forma fiable, revisados a mano con su fuente y fecha (conflictos candidatos de Wikidata, lista de Estados patrocinadores del terrorismo, no reconocimiento de Israel, etc.). Deben revisarse cuando cambie la situación; entre revisiones los cambios los capta la capa de hechos.'),
     ('DEFENSE_ALLIANCE, DEEP_INTEGRATION, INTEL_ALLIANCE, FTA_IN_FORCE, PREFERENTIAL_TRADE, SHARED_FORUM', 'Wikidata (P463) + pertenencias revisadas (bloc_memberships.json)',
-     'Pertenencia vigente de ambos como miembros plenos a la misma organización de una lista cerrada de 23 bloques. Wikidata no distingue estados: las listas oficiales sustituyen a Wikidata en Mercosur, UEEA, CCG, CELAC, T-MEC, CPTPP, RCEP, ASEAN y OCS, y los suspendidos, observadores, salidos o no firmantes no cuentan (Venezuela y México en Mercosur, las suspensiones de la Unión Africana, Angola en la OPEP, Eritrea en la zona africana). Los asociados con acuerdo comercial (Chile, Perú, Colombia, Ecuador con Mercosur) reciben ese acuerdo con cada miembro. La zona de libre comercio africana cuenta como acuerdo preferencial. Un par con libre comercio no suma además el preferencial.'),
+     'Pertenencia vigente de ambos como miembros plenos a la misma organización de una lista cerrada de 32 bloques (23 más CEDEAO, SADC, Comunidad de África Oriental, CARICOM, Comunidad Andina, Alianza del Pacífico, Alianza de Estados del Sahel, SAARC y Foro de las Islas del Pacífico, con listas oficiales). Wikidata no distingue estados: las listas oficiales sustituyen a Wikidata en Mercosur, UEEA, CCG, CELAC, T-MEC, CPTPP, RCEP, ASEAN y OCS, y los suspendidos, observadores, salidos o no firmantes no cuentan (Venezuela y México en Mercosur, las suspensiones de la Unión Africana, Angola en la OPEP, Eritrea en la zona africana). Los asociados con acuerdo comercial (Chile, Perú, Colombia, Ecuador con Mercosur) reciben ese acuerdo con cada miembro. La zona de libre comercio africana cuenta como acuerdo preferencial. Un par con libre comercio no suma además el preferencial.'),
     ('HUMAN_TIES', 'ONU (UN DESA, migrantes por origen y destino 2024) + Banco Mundial (población)', f'Nacidos en un país que viven en el otro, en las dos direcciones. Valor completo con ≥ {HUMAN_FULL_ABS:,} personas o ≥ {HUMAN_FULL_SHARE:g} % de la población del país de destino; proporcional por debajo; se ignora bajo el {int(HUMAN_MIN_SCALE * 100)} %. Cuenta lugar de nacimiento, no nacionalidad.'),
     ('TRADE_HIGH / TRADE_MEDIUM', 'Banco Mundial WITS', f'Mayor de las cuatro cuotas bilaterales (exportaciones e importaciones de cada país con el otro): ≥ {TRADE_HIGH_PCT:g} % alta, ≥ {TRADE_MEDIUM_PCT:g} % media.'),
     ('TERRITORIAL_DISPUTE_LOW', 'Wikidata (P1336)', 'Territorios que uno reclama y administra el otro. Sube a ACTIVE o MILITARIZED por reglas sobre hechos recientes (abajo).'),
     ('SANCTIONS_REGIME_* / TECH_RESTRICTIONS / ARMS_EMBARGO_IN_FORCE', 'Proyecto (hard-country-data.ts)', 'Regímenes por país sancionado, asignados a EE. UU., UE o G7 según el nombre del régimen; solo cuenta si el otro país de la pareja es el que sanciona. Un régimen solo de la ONU no cuenta como acto bilateral.'),
     ('DEFENSE_ALLIANCE (tratados)', 'Wikidata (tratados bilaterales)', 'Tratado bilateral en vigor cuyo título indica defensa mutua, asistencia mutua o seguridad (salvo los marcados como extinguidos en los hechos revisados).'),
     ('STRATEGIC_RIVALRY, DEFENSE_ALLIANCE bilateral', 'Proyecto (seed_geopolitical_matrix.ts)', 'Tabla de pares especiales: competencia estratégica o adversario sancionado ⇒ rivalidad; "defensa mutua" en la nota ⇒ alianza.'),
+    ('INVESTMENT_TREATY', 'Wikidata (tratados bilaterales de inversión)', 'Tratados cuyo título solo habla de inversiones. Se descartan entre dos miembros de la UE (acuerdo de extinción de 5-5-2020). +1: su presencia dice poco del vínculo político.'),
     ('BILATERAL_TREATIES', 'Wikidata (tratados bilaterales)', 'Tratados con como máximo 3 Estados parte entre los dos países, sin fecha de fin, cuyo título indica inversiones, cooperación, defensa, seguridad, información clasificada, fiscalidad, extradición o comercio. Se deduplican por título. Cobertura parcial de Wikidata.'),
     ('SHARED_LANGUAGE', 'Wikidata (P37)', 'Los dos países tienen al menos una lengua oficial en común.'),
     ('TRADE_WAR', 'Proyecto (tabla de pares especiales)', 'La nota del par menciona aranceles cruzados o guerra comercial: estado completo.'),
@@ -239,6 +240,11 @@ def claims(a, b):
     return out
 
 
+WTO_TRADE = os.environ.get('WGE_WTO', '1') == '1'        # set WGE_WTO=0 to score without the WTO list
+EU27 = set('AT BE BG CY CZ DE DK EE ES FI FR GR HR HU IE IT LT LU LV MT NL PL PT RO SE SI SK'.split())
+TRADE_LADDER = ['CUSTOMS_UNION', 'FTA_IN_FORCE', 'PREFERENTIAL_TRADE']
+INVESTMENT_ONLY = re.compile(r'investment', re.I)
+OTHER_TREATY = re.compile(r'friendship|cooperation|co-operation|defen[cs]e|security|classified|extradition|taxation|double tax|trade|association|partnership|good.neighbo', re.I)
 TREATY_KEYWORDS = re.compile(r'investment|friendship|cooperation|co-operation|defen[cs]e|security|classified|extradition|taxation|double tax|trade|association|partnership|good.neighbo', re.I)
 
 
@@ -470,8 +476,12 @@ def build_states(a, b):
     if ht:
         states.append(ht)
 
-    tr = treaties(a, b)
-    log['wikidata.treaties'] = tr
+    tr_all = treaties(a, b)
+    log['wikidata.treaties'] = tr_all
+    bit = [t for t in tr_all if INVESTMENT_ONLY.search(t) and not OTHER_TREATY.search(t)]       # investment promotion and protection treaties
+    tr = [t for t in tr_all if t not in bit]
+    if bit and not (a in EU27 and b in EU27):          # intra-EU BITs were terminated by the agreement of 5 May 2020
+        states.append(dict(code='INVESTMENT_TREATY', source='wikidata', evidence=bit[0][:90]))
     if tr:
         states.append(dict(code='BILATERAL_TREATIES', count=min(3, len(tr)), source='wikidata', evidence='; '.join(t[:60] for t in tr[:3])))
         defence = [t for t in tr if DEFENSE_TITLE.search(t)]
@@ -485,8 +495,16 @@ def build_states(a, b):
     if sp and re.search(r'aranceles cruzados|guerra comercial|trade war', sp['note'], re.I):
         states.append(dict(code='TRADE_WAR', source='project', evidence=sp['note'][:80]))
 
-    if any(s['code'] == 'FTA_IN_FORCE' for s in states):          # one trade agreement level: a free-trade area already covers the preferential one
-        states = [s for s in states if s['code'] != 'PREFERENTIAL_TRADE']
+    if WTO_TRADE:                                  # trade agreements notified to the WTO (model/wto_rta.py), added to those derived from bloc membership
+        import wto_rta
+        have = {x['code'] for x in states}
+        wto = wto_rta.pair_states(a, b)
+        log['wto-rta'] = dict(found=[w['code'] for w in wto], alsoFromBlocs=sorted({w['code'] for w in wto} & have))
+        states += [w for w in wto if w['code'] not in have]
+    # one trade-integration level per pair, the highest wins: customs union > free-trade area > preferential; deep integration (EU) replaces all three
+    present = {s['code'] for s in states}
+    keep = None if 'DEEP_INTEGRATION' in present else next((c for c in TRADE_LADDER if c in present), None)
+    states = [s for s in states if s['code'] not in TRADE_LADDER or s['code'] == keep]
     if 'DEFENSE_ALLIANCE' in rejected:              # e.g. a terminated treaty still listed without end date, or a frozen membership (Armenia in the CSTO)
         states = [s for s in states if s['code'] != 'DEFENSE_ALLIANCE']
     seen, out = set(), []

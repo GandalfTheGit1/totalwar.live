@@ -14,6 +14,17 @@ import type {
 import { getRiskAppearance } from '../../utils/geo-helpers';
 import { resolveThematicCountryData } from '../../hooks/useThematicLayerData';
 import type { CountryTacticalStyle } from './types';
+import type { Tone } from '@/lib/services/bilateral-relations/valence';
+
+/** Style of a partner painted with the two-channel tone (colour = position, opacity = ties). Only strong positions get a glow. */
+function toneStyle(t: Tone, hover: boolean): CountryTacticalStyle {
+  return {
+    fillColor: hover ? t.hoverFillColor : t.fillColor,
+    strokeColor: t.strokeColor,
+    strokeWidth: hover ? '2px' : t.strokeWidth,
+    filter: t.glow ? `url(#glow-${t.glow})` : 'none',
+  };
+}
 
 const THEMATIC_PALETTE: Record<string, { fill: string; stroke: string; width: string; filter: string }> = {
   critical: { fill: 'rgba(239, 68, 68, 0.7)', stroke: '#ef4444', width: '1.2px', filter: 'url(#glow-rose)' },
@@ -53,6 +64,7 @@ function getRelationsBaseStyle(
   if (!selectedCountry) return null;
   const rel = activeRelations?.[d.polyId];
   if (rel) {
+    if (rel.tone) return toneStyle(rel.tone, false);
     if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') {
       return { fillColor: 'rgba(16, 185, 129, 0.32)', strokeColor: '#10b981', strokeWidth: '1.5px', filter: 'url(#glow-emerald)' };
     }
@@ -90,6 +102,7 @@ function getHoverRelationsStyle(d: GeoFeature, activeRelations: ActiveRelationsM
   if (!rel) {
     return { fillColor: 'rgba(148, 163, 184, 0.25)', strokeColor: 'rgba(148, 163, 184, 0.6)', strokeWidth: '1.2px', filter: 'none' };
   }
+  if (rel.tone) return toneStyle(rel.tone, true);
   if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') {
     return { fillColor: 'rgba(16, 185, 129, 0.55)', strokeColor: '#10b981', strokeWidth: '2px', filter: 'url(#glow-emerald)' };
   }

@@ -6,8 +6,9 @@ os.environ.setdefault('WGE_OFFLINE', '1')       # use the cached Wikidata/WITS a
 sys.path.insert(0, '.')
 from mag_env import L, VER, M, S, evaluate2   # registers every episode
 
-EXPECTED = {'ESMA': 0.0, 'INCA': 0.0, 'QASA': 0.0, 'AUCN': 73.7,        # 61.8 before the reviewed bloc memberships: RCEP (in force for both since Jan 2022) now counts as a free-trade area
-            'JPKR': 30.0, 'CASA': 47.3}    # CA-SA was 76.2 before the embassy state of round 5
+EXPECTED = {'ESMA': 0.0, 'INCA': 0.0, 'QASA': 4.2, 'AUCN': 71.7,        # 61.8 before the reviewed bloc memberships (RCEP, Jan 2022, counts as a free-trade area); 73.7 after; 71.7 once the bilateral ChAFTA (WTO list, Dec 2015) counts
+            'JPKR': 30.0, 'CASA': 47.3}      # QASA 0.0 -> 4.2: the GCC is now a customs union (+18) instead of preferential (+6); within audit_trade_v2's limit of 5 for a zero-loss episode
+    # CA-SA was 76.2 before the embassy state of round 5
 
 
 class Reproduce(unittest.TestCase):

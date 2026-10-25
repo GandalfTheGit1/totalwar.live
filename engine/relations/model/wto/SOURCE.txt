@@ -1,0 +1,3 @@
+Source: WTO Regional Trade Agreements Information System (RTA-IS), "AllRTAs" export.
+URL: https://rtais.wto.org/UI/ExportAllRTAList.aspx   Downloaded: 2026-10-21 (207,351 bytes; 662 agreements, 416 in force). Sheets: AllRTAs, RTA Changes.
+Read with the standard library only (zip + XML); the file is data, never executed. Refresh by downloading the same URL over rta_all.xlsx.

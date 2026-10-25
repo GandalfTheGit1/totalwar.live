@@ -1,32 +1,35 @@
 import React, { useMemo, useState } from 'react';
 import { Scale, ChevronDown, ChevronRight, Building2, Info } from 'lucide-react';
 import { ActiveRelationsMap } from '../../types';
-import type { BilateralScore, RelationBand, EmbassySide } from '@/lib/services/bilateral-relations/types';
-import { BAND_LABEL_ES } from '../../hooks/monitor/engine-relations';
+import type { BilateralScore, EmbassySide } from '@/lib/services/bilateral-relations/types';
+import { TONE_STOPS, toneColor, toneAlpha, positionLabelEs } from '@/lib/services/bilateral-relations/valence';
 
-/** Same colours as the globe / 2D map for each band (see engine-relations.ts and country-styler.ts). */
-const BAND_STYLE: Record<RelationBand, { dot: string; text: string }> = {
-  ALLIED: { dot: 'bg-emerald-500', text: 'text-emerald-300' },
-  PARTNER: { dot: 'bg-indigo-400', text: 'text-indigo-300' },
-  NEUTRAL: { dot: 'bg-amber-500', text: 'text-amber-300' },
-  TENSE: { dot: 'bg-rose-500', text: 'text-rose-300' },
-  HOSTILE: { dot: 'bg-rose-600', text: 'text-rose-400' },
-  CONFLICT: { dot: 'bg-rose-700', text: 'text-rose-500' },
+/** The map paints each partner with colour = position (V) and opacity = ties (T); the panel uses the same colours (see valence.ts). */
+const rgb = (v: number) => {
+  const c = toneColor(v);
+  return `rgb(${c[0]}, ${c[1]}, ${c[2]})`;
 };
 
 const STATE_LABEL: Record<string, string> = {
   FULL_DIPLOMATIC: 'Relaciones diplomáticas plenas',
   NONRESIDENT_RELATIONS: 'Relaciones sin embajada residente',
   NO_RELATIONS: 'Sin relaciones diplomáticas',
+  NON_RECOGNITION: 'No reconocimiento',
   AMBASSADOR_ABSENT: 'Embajador ausente',
   DEFENSE_ALLIANCE: 'Alianza de defensa',
   DEEP_INTEGRATION: 'Integración profunda (UE, etc.)',
+  INTEL_ALLIANCE: 'Alianza de inteligencia',
+  STRATEGIC_PARTNERSHIP: 'Asociación estratégica',
+  FTA_IN_FORCE: 'Libre comercio en vigor',
+  CUSTOMS_UNION: 'Unión aduanera',
+  PREFERENTIAL_TRADE: 'Acuerdo comercial preferencial',
   SHARED_FORUM: 'Foros compartidos',
   TRADE_HIGH: 'Comercio alto',
   TRADE_MEDIUM: 'Comercio medio',
   HUMAN_TIES: 'Lazos humanos (migración)',
   SHARED_LANGUAGE: 'Lengua oficial común',
   BILATERAL_TREATIES: 'Tratados bilaterales',
+  INVESTMENT_TREATY: 'Tratado de inversiones',
   FRIENDSHIP_TREATY: 'Tratado de amistad',
   TERRITORIAL_DISPUTE_LOW: 'Disputa territorial latente',
   TERRITORIAL_DISPUTE_ACTIVE: 'Disputa territorial activa',
@@ -38,6 +41,10 @@ const STATE_LABEL: Record<string, string> = {
   SANCTIONS_REGIME_BROAD: 'Sanciones amplias',
   TECH_RESTRICTIONS: 'Restricciones tecnológicas',
   ARMS_EMBARGO_IN_FORCE: 'Embargo de armas',
+  PROXY_HOSTILITY: 'Hostilidad indirecta (apoyo a grupos hostiles)',
+  OCCUPATION: 'Ocupación',
+  ARMED_CONFLICT: 'Conflicto armado',
+  HISTORICAL_WAR: 'Guerra reciente',
 };
 
 const EMBASSY_LABEL: Record<EmbassySide['status'], { label: string; cls: string }> = {
@@ -48,26 +55,45 @@ const EMBASSY_LABEL: Record<EmbassySide['status'], { label: string; cls: string 
 
 const fmt = (v: number) => `${v > 0 ? '+' : v < 0 ? '−' : ''}${Math.abs(Math.round(v))}`;
 
+/** Position classes of the counts, with a representative value for the dot colour. */
+const CLASSES: ReadonlyArray<{ label: string; test: (v: number) => boolean; sample: number }> = [
+  { label: 'Alianza', test: (v) => v >= 30, sample: 30 },
+  { label: 'Cooperación', test: (v) => v >= 10 && v < 30, sample: 10 },
+  { label: 'Preferencial', test: (v) => v >= 5 && v < 10, sample: 5 },
+  { label: 'Sin posición', test: (v) => v > -5 && v < 5, sample: 0 },
+  { label: 'Fricción', test: (v) => v > -25 && v <= -5, sample: -10 },
+  { label: 'Rivalidad', test: (v) => v <= -25, sample: -25 },
+];
+
 function PairRow({ p, open, onToggle }: { p: BilateralScore; open: boolean; onToggle: () => void }) {
-  const st = BAND_STYLE[p.band];
   return (
     <div className="border border-zinc-700/50 rounded bg-zinc-800/50">
       <button type="button" onClick={onToggle} className="w-full flex items-center justify-between gap-2 px-2 py-1.5 text-left" aria-expanded={open}>
         <span className="flex items-center gap-2 min-w-0">
           {open ? <ChevronDown className="w-3 h-3 text-zinc-500 shrink-0" /> : <ChevronRight className="w-3 h-3 text-zinc-500 shrink-0" />}
-          <span className={`w-2 h-2 rounded-sm shrink-0 ${st.dot}`} />
+          <span className="w-2 h-2 rounded-sm shrink-0" style={{ backgroundColor: rgb(p.valence), opacity: toneAlpha(p.ties) + 0.2 }} />
           <span className="text-xs text-zinc-200 truncate">{p.partnerNameEs}</span>
         </span>
         <span className="flex items-center gap-2 shrink-0">
-          <span className={`text-[10px] font-mono uppercase ${st.text}`}>{BAND_LABEL_ES[p.band]}</span>
+          <span className="text-[10px] font-mono text-zinc-400">{positionLabelEs(p.valence)}</span>
           <span className="text-xs font-mono font-bold text-zinc-100 w-9 text-right">{fmt(p.R)}</span>
         </span>
       </button>
       {open && (
         <div className="px-3 pb-2.5 pt-1 border-t border-zinc-700/50 space-y-2 text-[11px]">
-          <div className="flex justify-between text-zinc-400">
-            <span>Estructura</span>
-            <span className="font-mono text-zinc-200">{fmt(p.sStruct)}</span>
+          <div className="grid grid-cols-3 gap-2 text-zinc-400">
+            <div>
+              <span className="block text-[10px] uppercase tracking-widest text-zinc-500 font-mono">Posición</span>
+              <span className="font-mono text-zinc-100">{fmt(p.valence)}</span>
+            </div>
+            <div>
+              <span className="block text-[10px] uppercase tracking-widest text-zinc-500 font-mono">Vínculos</span>
+              <span className="font-mono text-zinc-100">{fmt(p.ties)}</span>
+            </div>
+            <div>
+              <span className="block text-[10px] uppercase tracking-widest text-zinc-500 font-mono">Estructura</span>
+              <span className="font-mono text-zinc-100">{fmt(p.sStruct)}</span>
+            </div>
           </div>
           <div>
             <p className="text-[10px] uppercase tracking-widest text-zinc-500 font-mono mb-1 flex items-center gap-1">
@@ -109,18 +135,35 @@ function PairRow({ p, open, onToggle }: { p: BilateralScore; open: boolean; onTo
   );
 }
 
+function Group({ title, items, open, setOpen }: { title: string; items: BilateralScore[]; open: string | null; setOpen: (c: string | null) => void }) {
+  if (items.length === 0) return null;
+  return (
+    <>
+      <p className="mt-3.5 mb-1.5 text-[10px] text-zinc-400 uppercase tracking-widest font-bold font-mono">{title}</p>
+      <div className="space-y-1">
+        {items.map((p) => (
+          <PairRow key={p.partner} p={p} open={open === p.partner} onToggle={() => setOpen(open === p.partner ? null : p.partner)} />
+        ))}
+      </div>
+    </>
+  );
+}
+
 export function BilateralRelationsSection({ activeRelations }: { activeRelations?: ActiveRelationsMap | null }) {
   const [open, setOpen] = useState<string | null>(null);
-  const scores = useMemo(
-    () => Object.values(activeRelations || {}).map((r) => r.score).filter((s): s is BilateralScore => !!s).sort((a, b) => b.R - a.R),
-    [activeRelations]
-  );
+  const scores = useMemo(() => Object.values(activeRelations || {}).map((r) => r.score).filter((s): s is BilateralScore => !!s), [activeRelations]);
+  const groups = useMemo(() => {
+    const byPosition = (a: BilateralScore, b: BilateralScore) => b.valence - a.valence || b.ties - a.ties;
+    return {
+      favorable: scores.filter((s) => s.valence >= 5).sort(byPosition).slice(0, 6),
+      adverse: scores.filter((s) => s.valence <= -5).sort((a, b) => a.valence - b.valence || b.ties - a.ties).slice(0, 6),
+      connected: scores.filter((s) => s.valence > -5 && s.valence < 5).sort((a, b) => b.ties - a.ties).slice(0, 6),
+    };
+  }, [scores]);
   if (scores.length === 0) return null;
 
-  const counts = scores.reduce<Record<string, number>>((acc, s) => ((acc[s.band] = (acc[s.band] || 0) + 1), acc), {});
-  const best = scores.slice(0, 6);
-  const worst = scores.slice(-6).reverse().filter((s) => !best.includes(s));
   const structuralOnly = scores.every((s) => !s.eventsAnalysed);
+  const gradient = `linear-gradient(to right, ${TONE_STOPS.map(([v, c]) => `rgb(${c[0]}, ${c[1]}, ${c[2]}) ${((v + 60) / 120) * 100}%`).join(', ')})`;
 
   return (
     <div className="p-4 bg-zinc-850/80 rounded-xl border border-teal-500/20 shadow-[0_0_20px_rgba(20,184,166,0.06)]" data-testid="bilateral-relations-section">
@@ -128,15 +171,27 @@ export function BilateralRelationsSection({ activeRelations }: { activeRelations
         <span className="text-sm font-bold text-zinc-100 flex items-center gap-2">
           <Scale className="w-4 h-4 text-teal-400" /> Relaciones bilaterales
         </span>
-        <span className="text-xs text-zinc-400 mt-0.5 block">Puntuación R de −200 a +200 con {scores.length} países con datos</span>
+        <span className="text-xs text-zinc-400 mt-0.5 block">Posición (color) y vínculos (intensidad) con {scores.length} países con datos</span>
+      </div>
+
+      <div className="mt-3" data-testid="bilateral-legend">
+        <div className="h-2 rounded" style={{ background: gradient }} />
+        <div className="relative h-3 mt-0.5 text-[9px] font-mono text-zinc-500">
+          {[-60, -25, 0, 10, 30, 60].map((v) => (
+            <span key={v} className="absolute -translate-x-1/2" style={{ left: `${((v + 60) / 120) * 100}%` }}>
+              {v > 0 ? `+${v}` : v}
+            </span>
+          ))}
+        </div>
+        <p className="mt-1 text-[10px] text-zinc-500">Color = posición (rivalidad ← → alianza). Más opaco = más vínculos (embajadas, comercio, migración, tratados).</p>
       </div>
 
       <div className="mt-3 grid grid-cols-3 gap-1.5 text-[10px] font-mono">
-        {(['ALLIED', 'PARTNER', 'NEUTRAL', 'TENSE', 'HOSTILE', 'CONFLICT'] as RelationBand[]).map((b) => (
-          <div key={b} className="flex items-center gap-1.5 bg-zinc-800/60 px-1.5 py-1 rounded border border-zinc-700/40">
-            <span className={`w-2 h-2 rounded-sm ${BAND_STYLE[b].dot}`} />
-            <span className="text-zinc-300">{BAND_LABEL_ES[b]}</span>
-            <span className="ml-auto text-zinc-400">{counts[b] || 0}</span>
+        {CLASSES.map((cl) => (
+          <div key={cl.label} className="flex items-center gap-1.5 bg-zinc-800/60 px-1.5 py-1 rounded border border-zinc-700/40">
+            <span className="w-2 h-2 rounded-sm" style={{ backgroundColor: rgb(cl.sample) }} />
+            <span className="text-zinc-300">{cl.label}</span>
+            <span className="ml-auto text-zinc-400">{scores.filter((s) => cl.test(s.valence)).length}</span>
           </div>
         ))}
       </div>
@@ -148,24 +203,10 @@ export function BilateralRelationsSection({ activeRelations }: { activeRelations
         </p>
       )}
 
-      <p className="mt-3.5 mb-1.5 text-[10px] text-zinc-400 uppercase tracking-widest font-bold font-mono">Mejores relaciones</p>
-      <div className="space-y-1">
-        {best.map((p) => (
-          <PairRow key={p.partner} p={p} open={open === p.partner} onToggle={() => setOpen(open === p.partner ? null : p.partner)} />
-        ))}
-      </div>
-
-      {worst.length > 0 && (
-        <>
-          <p className="mt-3.5 mb-1.5 text-[10px] text-zinc-400 uppercase tracking-widest font-bold font-mono">Peores relaciones</p>
-          <div className="space-y-1">
-            {worst.map((p) => (
-              <PairRow key={p.partner} p={p} open={open === p.partner} onToggle={() => setOpen(open === p.partner ? null : p.partner)} />
-            ))}
-          </div>
-        </>
-      )}
-      <p className="mt-3 text-[10px] text-zinc-500">Los países en gris no tienen datos suficientes: no se muestran como neutrales.</p>
+      <Group title="Posiciones favorables" items={groups.favorable} open={open} setOpen={setOpen} />
+      <Group title="Posiciones adversas" items={groups.adverse} open={open} setOpen={setOpen} />
+      <Group title="Más conectados, sin posición registrada" items={groups.connected} open={open} setOpen={setOpen} />
+      <p className="mt-3 text-[10px] text-zinc-500">Los países en gris no tienen vínculos ni posición registrados: no se muestran como neutrales.</p>
     </div>
   );
 }

@@ -87,6 +87,7 @@ export function useGlobeStyling(
         if (isHovered) {
           // Hover sobre país con relación: color de relación más brillante
           if (rel) {
+            if (rel.tone) return rel.tone.hoverFillColor;
             if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') return 'rgba(16, 185, 129, 0.88)';
             if (rel.type === 'ECONOMIC_PARTNER' || (rel.type as string) === 'economic_partner') return 'rgba(129, 140, 248, 0.88)';
             if (rel.type === 'FRICTION_STRATEGIC_COMPETITION' || rel.type === 'SANCTIONED_ADVERSARIAL' || rel.type === 'conflict')
@@ -98,6 +99,7 @@ export function useGlobeStyling(
           return 'rgba(148, 163, 184, 0.4)';
         }
         if (rel) {
+          if (rel.tone) return rel.tone.fillColor;
           if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') return 'rgba(16, 185, 129, 0.65)';
           if (rel.type === 'ECONOMIC_PARTNER' || (rel.type as string) === 'economic_partner') return 'rgba(129, 140, 248, 0.65)';
           if (rel.type === 'FRICTION_STRATEGIC_COMPETITION' || rel.type === 'SANCTIONED_ADVERSARIAL' || rel.type === 'conflict')
@@ -159,6 +161,7 @@ export function useGlobeStyling(
       if (activeMode === 'relations' && selectedCountry) {
         const rel = (polyId && activeRelations?.[polyId]) || (feat.polyId && activeRelations?.[feat.polyId]);
         if (rel) {
+          if (rel.tone) return rel.tone.strokeColor;
           if (rel.type === 'ALLIED' || rel.type === 'STRATEGIC_ALLY' || rel.type === 'ally') return '#10b981';
           if (rel.type === 'ECONOMIC_PARTNER' || (rel.type as string) === 'economic_partner') return '#818cf8';
           if (rel.type === 'FRICTION_STRATEGIC_COMPETITION' || rel.type === 'SANCTIONED_ADVERSARIAL' || rel.type === 'conflict')
