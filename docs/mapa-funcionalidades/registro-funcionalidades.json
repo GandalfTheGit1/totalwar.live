@@ -604,6 +604,92 @@
         }
       ],
       "notas": "Ficha creada a petición de William el 2026-10-22. Meta principal de Investigación de mercado (aprender qué fronteras y despliegues busca la comunidad) con UI pública y gratuita en el globo 3D."
+    },
+    {
+      "id": "arbol-tecnologico-historico",
+      "nombre": "Árbol tecnológico histórico por país actualizado con noticias",
+      "resumen": "Árbol estilo HoI4 con áreas tecnológicas y niveles verificables por país; cada desbloqueo es un evento fechado con fuente, lo que permite ver con un deslizador de años cómo evolucionó cada país, y las noticias lo actualizan automáticamente cuando dos fuentes independientes lo confirman.",
+      "que_permite": [
+        "Con esto puedo ver en qué nivel estaba un país en cada área tecnológica (semiconductores, IA, espacio, nuclear, energía, biotecnología, telecomunicaciones, defensa, cuántica, robótica) en cualquier año.",
+        "Con esto puedo comparar la velocidad de avance entre países (años entre un nivel y el siguiente) y ver qué nodos están bloqueados por sanciones o fueron adquiridos por licencia o compra.",
+        "Con esto puedo saber qué países y áreas consulta más la gente para guiar la investigación de mercado."
+      ],
+      "estado": "idea",
+      "meta_principal": "investigacion_mercado",
+      "metas_secundarias": [
+        "seguidores"
+      ],
+      "depende_de": [
+        "calibracion-relaciones-gdelt"
+      ],
+      "separado_de": [
+        "score de empresas",
+        "calibracion-brier"
+      ],
+      "monetizacion": "gratis",
+      "metrica_exito": {
+        "que_medir": "Consultas únicas por país y por área del árbol, y ranking de los 5 pares país-área más vistos",
+        "umbral": "400 consultas únicas en 45 días y un ranking estable de 5 pares país-área (Suposición)",
+        "plazo": "45 días tras el despliegue público del piloto"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Panel de árbol tecnológico por país con deslizador de años (sustituye la foto fija del pilar tecnológico)",
+          "Mapa coroplético por área: quién tenía cada nivel en el año elegido",
+          "Comparador de dos países lado a lado",
+          "Área dev: registro de desbloqueos automáticos por noticias con botón de revertir"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Nadie lo ha pedido todavía con sus palabras; es intuición de William (2026-10-25)"
+        },
+        "frustracion": {
+          "puntos": 1.2,
+          "etiqueta": "Hipótesis",
+          "fuente": "Intuición de William: hoy hay que cruzar a mano Wikipedia, informes y noticias para reconstruir la trayectoria tecnológica de un país"
+        },
+        "conviene": {
+          "puntos": 1.2,
+          "etiqueta": "Hipótesis",
+          "fuente": "Intuición de William: formato visual tipo HoI4 con uso recurrente esperado entre aficionados a la geopolítica y analistas"
+        },
+        "total": 2.4
+      },
+      "modelo": {
+        "planificador": "Claude Opus 5.5",
+        "ejecutor": "Claude Sonnet 5.5 o Gemini 3.8 Flash, solo con pruebas por paso",
+        "verificador": "Modelo distinto del ejecutor (Claude Opus 5.5 si ejecuta Gemini; Gemini 3.8 si ejecuta Claude)",
+        "razon": "Error silencioso alto: la actualización automática con noticias puede desbloquear nodos falsos (anuncios tomados como logros, notas de agencia duplicadas contadas como dos fuentes). Decisión de diseño difícil de revertir: el esquema del log de eventos. Por eso el planificador y el verificador deben ser capaces.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay evidencia real de demanda? Publicar un mapa estático ('quién tenía EUV en 2015 frente a 2026') en redes y medir la respuesta antes de construir todo.",
+        "¿Qué cuenta como 'dos fuentes independientes'? Las notas de agencia (Reuters, AP, EFE) republicadas por muchos medios son una sola fuente; hay que deduplicar por origen.",
+        "¿Cómo distinguir de forma automática un anuncio de un logro? Si no se logra con fiabilidad, el modo automático solo debería mover nodos a 'anunciado'.",
+        "Licencias y términos de uso de Wikidata, TOP500, WIPO, UNESCO, OCDE, Banco Mundial y GDELT: verificarlos con cada fuente.",
+        "Sesgo de anticipación: guardar la fecha del hecho y la fecha en que se pudo conocer (publicación), por separado.",
+        "¿Reutiliza el pipeline de GDELT de la calibración de relaciones? Verificar en el código que existe y qué filtros temáticos admite.",
+        "¿Desplaza trabajo crítico? Hay otras 3 fichas del sistema global en estado idea; decidir el orden.",
+        "Qué modelo clasifica mejor las noticias como evidencia de un nodo: probar dos configuraciones sobre 50 noticias etiquetadas a mano."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/arbol-tecnologico-historico.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "Monitor geopolítico 3D",
+        "Radar de poder soberano: pilar tecnológico"
+      ],
+      "referencias_internas": [
+        "components/geopolitical-monitor/components/sidebar/sovereign-power/TechInnovationPanel.tsx",
+        "lib/types/sovereign-power.ts (TechDimensionDossier)",
+        "lib/services/sovereign-power/profiles/procedural.ts (buildProceduralTechDossier: tecnologías inventadas por fórmula, a eliminar)",
+        "lib/services/sovereign-power/wargame-simulator.ts (techShock)"
+      ],
+      "fuentes": [],
+      "notas": "Ficha creada a petición de William el 2026-10-25. Decisiones: piloto con 7 países curados; noticias aplican automáticamente con 2 fuentes independientes; árbol público y registro de revisión en dev. Contexto, no señal: no entra al score de empresas."
     }
   ],
   "definicion_seguridad_riesgo_datos": "Mejorar la seguridad que hay respecto a los datos que se traen a la mesa para los clientes y de esa forma, aumentar el valor de la empresa al tener mejores datos disponibles y representación de estos. Mejorar los Datos y prevenir que se filtren, dan una ventaja a la empresa."
