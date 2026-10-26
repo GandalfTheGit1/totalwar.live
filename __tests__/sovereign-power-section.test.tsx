@@ -1,5 +1,5 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { render, screen, fireEvent, cleanup, within } from '@testing-library/react';
+import { describe, it, expect, vi, afterEach } from 'vitest';
+import { render, screen, fireEvent, cleanup } from '@testing-library/react';
 import React from 'react';
 import { SovereignPowerRadarSection } from '@/components/dev/geopolitical-monitor/components/sidebar/SovereignPowerRadarSection';
 import { SovereignRadarChart } from '@/components/dev/geopolitical-monitor/components/sidebar/sovereign-power/SovereignRadarChart';
@@ -241,13 +241,16 @@ describe('SovereignPowerRadarSection & UI Components (T03.8 & T03.9)', () => {
     expect(screen.getByText(/ESPIRAL DEUDA/i)).toBeInTheDocument();
   });
 
-  it('should render TechInnovationPanel with subsector telemetry and WIPO rank', () => {
+  it('should render TechInnovationPanel with subsector telemetry and WIPO rank (excluding eliminated Económico / fintech)', () => {
     const profile = SovereignPowerService.getCountrySovereignProfile('US');
     render(<TechInnovationPanel dossier={profile.dossiers.tech} />);
 
     expect(screen.getByText(/Pilar Tecnológico & Capacidades Críticas/i)).toBeInTheDocument();
     expect(screen.getByText(/Rank Patentes OMPI\/WIPO: #2/i)).toBeInTheDocument();
-    expect(screen.getByText(/Fintech & Fedwire/i)).toBeInTheDocument();
+    // Written rationale (Paso 5 / Sección 6): "Económico / fintech" ("Fintech & Fedwire") was explicitly removed from the tech pillar
+    // because it belongs in public finance rather than physical/industrial technology trees.
+    expect(screen.queryByText(/Fintech & Fedwire/i)).not.toBeInTheDocument();
+    expect(screen.getByText(/Robótica Aeroespacial/i)).toBeInTheDocument();
     expect(screen.getByText(/Guerra Asimétrica & Drones/i)).toBeInTheDocument();
     expect(screen.getByText(/Diseño Fabless Dominante/i)).toBeInTheDocument();
     expect(screen.getByText(/Hegemonía Frontier AI/i)).toBeInTheDocument();

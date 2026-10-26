@@ -20,19 +20,76 @@ import { DEFCON_LEVELS } from '../benchmarks';
 import { calculateCompositePowerIndex, calculateGeopoliticalLeverage } from '../calculations';
 import { buildProceduralCabinetDossier } from './procedural-cabinet';
 
-function buildProceduralTechDossier(techScore: number, strategicRole: string): TechDimensionDossier {
+import { getCountryTechTreeAt, isPilotCountryCode } from '../../../data/tech-tree';
+
+function buildProceduralTechDossier(country: GeopoliticalCountry): TechDimensionDossier {
+  if (isPilotCountryCode(country.code)) {
+    const tree = getCountryTechTreeAt(country.code, 2026);
+    const semiNodes = tree.areas.semiconductors.nodos.filter((n) => n.estado !== 'no_alcanzado');
+    const highestSemi = semiNodes[semiNodes.length - 1];
+    return {
+      score: tree.scoreTecnologico,
+      hasVerifiedTechTree: true,
+      blockedNodesCount: tree.nodosBloqueadosPorSancion.length,
+      subsectors: {
+        economic: { score: 0, label: 'Eliminado (Finanzas Públicas)', technologies: [] },
+        industrial: {
+          score: tree.areas.robotics_manufacturing.scoreArea,
+          label: 'Robótica y Manufactura Avanzada',
+          technologies: tree.areas.robotics_manufacturing.nodos
+            .filter((n) => n.estado !== 'no_alcanzado')
+            .map((n) => n.nombre),
+        },
+        military: {
+          score: tree.areas.defense_missiles_drones.scoreArea,
+          label: 'Defensa (Misiles y Drones)',
+          technologies: tree.areas.defense_missiles_drones.nodos
+            .filter((n) => n.estado !== 'no_alcanzado')
+            .map((n) => n.nombre),
+        },
+        semiconductors: {
+          score: tree.areas.semiconductors.scoreArea,
+          label: 'Semiconductores',
+          fabricationNode: highestSemi ? `${highestSemi.nombre} (${highestSemi.estado})` : 'Sin datos verificados',
+          capabilities: semiNodes.map((n) => n.resumen || n.nombre),
+        },
+        artificialIntelligence: {
+          score: tree.areas.ai_compute.scoreArea,
+          label: 'IA y Cómputo',
+          computeTier: `Nivel ${tree.areas.ai_compute.maxNivelAlcanzado}/5`,
+          models: tree.areas.ai_compute.nodos
+            .filter((n) => n.estado !== 'no_alcanzado')
+            .map((n) => n.nombre),
+        },
+      },
+      rAndDPercentGdp: 2.3,
+      summary: `Perfil tecnológico verificado en el piloto histórico (${country.nameEs}).`,
+    };
+  }
+
   return {
-    score: techScore,
+    score: 0,
+    hasVerifiedTechTree: false,
+    blockedNodesCount: 0,
     subsectors: {
-      economic: { score: techScore, label: 'Banca Digital & Fintech', technologies: ['Sistemas de pago nacionales', 'Infraestructura electrónica'] },
-      industrial: { score: Math.max(10, techScore - 5), label: 'Capacidad Fabril', technologies: ['Manufactura intermedia', 'Automatización estándar'] },
-      military: { score: Math.max(10, techScore - 10), label: 'Sistemas Defensivos', technologies: ['Armamento convencional', 'Comunicaciones tácticas'] },
-      semiconductors: { score: Math.max(5, Math.round(techScore * 0.4)), label: 'Consumo de Chips', fabricationNode: 'Sin fundición de frontera propia', capabilities: ['Empaquetado y ensamblaje periférico'] },
-      artificialIntelligence: { score: Math.max(10, Math.round(techScore * 0.5)), label: 'Adopción de IA', computeTier: 'Tier 3 / Cloud público subcontratado', models: ['Modelos open-source adaptados'] }
+      economic: { score: 0, label: 'Sin datos verificados', technologies: [] },
+      industrial: { score: 0, label: 'Sin datos verificados', technologies: [] },
+      military: { score: 0, label: 'Sin datos verificados', technologies: [] },
+      semiconductors: {
+        score: 0,
+        label: 'Sin datos verificados',
+        fabricationNode: 'Sin datos verificados para este país',
+        capabilities: [],
+      },
+      artificialIntelligence: {
+        score: 0,
+        label: 'Sin datos verificados',
+        computeTier: 'Sin datos verificados para este país',
+        models: [],
+      },
     },
-    wipoPatentRank: 25,
-    rAndDPercentGdp: 1.2,
-    summary: `Capacidad tecnológica centrada en ${strategicRole}.`
+    rAndDPercentGdp: 0,
+    summary: 'Sin datos verificados para este país',
   };
 }
 
@@ -136,7 +193,10 @@ export function buildProceduralProfile(country: GeopoliticalCountry): CountrySov
 
   const stabilityScore = Math.round(Math.max(10, Math.min(95, 100 - (riskFactor * 8.5))));
   const militaryScore = Math.round(Math.max(15, Math.min(85, (isNato ? 65 : isBrics ? 60 : 35) + (10 - riskFactor) * 2)));
-  const techScore = Math.round(Math.max(15, Math.min(90, (isFiveEyes ? 80 : isEU ? 75 : 40) + (10 - riskFactor) * 3)));
+  const techDossier = buildProceduralTechDossier(country);
+  const techScore = isPilotCountryCode(country.code)
+    ? techDossier.score
+    : Math.round(Math.max(15, Math.min(90, (isFiveEyes ? 80 : isEU ? 75 : 40) + (10 - riskFactor) * 3)));
   const currencyScore = Math.round(Math.max(15, Math.min(80, (isEU ? 75 : 35) + (10 - riskFactor) * 2.5)));
   const tradeScore = Math.round(Math.max(20, Math.min(88, 50 + (10 - riskFactor) * 3)));
   const cabinetScore = Math.round(Math.max(20, Math.min(85, stabilityScore * 0.9)));
@@ -160,7 +220,7 @@ export function buildProceduralProfile(country: GeopoliticalCountry): CountrySov
     geopoliticalLeverageIndex: calculateGeopoliticalLeverage(baseScores),
     defconStatus: DEFCON_LEVELS[riskFactor > 6 ? 2 : riskFactor > 4 ? 3 : 4],
     dossiers: {
-      tech: buildProceduralTechDossier(techScore, country.strategicRole),
+      tech: techDossier,
       cabinet: buildProceduralCabinetDossier(country, cabinetScore, riskFactor),
       currency: buildProceduralCurrencyDossier(country, currencyScore, riskFactor),
       trade: buildProceduralTradeDossier(tradeScore, riskFactor),

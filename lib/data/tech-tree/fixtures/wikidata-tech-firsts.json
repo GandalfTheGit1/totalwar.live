@@ -1,0 +1,118 @@
+{
+  "head": {
+    "vars": [
+      "item",
+      "itemLabel",
+      "countryCode",
+      "areaId",
+      "nivel",
+      "estado",
+      "via",
+      "inceptionDate",
+      "publicationDate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "item": { "type": "uri", "value": "http://www.wikidata.org/entity/Q80811" },
+        "itemLabel": { "xml:lang": "es", "type": "literal", "value": "Sputnik 1 (Primer satélite artificial)" },
+        "countryCode": { "type": "literal", "value": "RU" },
+        "areaId": { "type": "literal", "value": "space" },
+        "nivel": { "datatype": "http://www.w3.org/2001/XMLSchema#integer", "type": "literal", "value": "1" },
+        "estado": { "type": "literal", "value": "produccion" },
+        "via": { "type": "literal", "value": "propio" },
+        "inceptionDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1957-10-04T00:00:00Z" },
+        "publicationDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1957-10-04T00:00:00Z" }
+      },
+      {
+        "item": { "type": "uri", "value": "http://www.wikidata.org/entity/Q18931" },
+        "itemLabel": { "xml:lang": "es", "type": "literal", "value": "Explorer 1 (Primer satélite orbital de EE. UU.)" },
+        "countryCode": { "type": "literal", "value": "US" },
+        "areaId": { "type": "literal", "value": "space" },
+        "nivel": { "datatype": "http://www.w3.org/2001/XMLSchema#integer", "type": "literal", "value": "1" },
+        "estado": { "type": "literal", "value": "produccion" },
+        "via": { "type": "literal", "value": "propio" },
+        "inceptionDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1958-01-31T00:00:00Z" },
+        "publicationDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1958-02-01T00:00:00Z" }
+      },
+      {
+        "item": { "type": "uri", "value": "http://www.wikidata.org/entity/Q714764" },
+        "itemLabel": { "xml:lang": "es", "type": "literal", "value": "Dong Fang Hong 1 (Primer satélite orbital chino)" },
+        "countryCode": { "type": "literal", "value": "CN" },
+        "areaId": { "type": "literal", "value": "space" },
+        "nivel": { "datatype": "http://www.w3.org/2001/XMLSchema#integer", "type": "literal", "value": "1" },
+        "estado": { "type": "literal", "value": "produccion" },
+        "via": { "type": "literal", "value": "propio" },
+        "inceptionDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1970-04-24T00:00:00Z" },
+        "publicationDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1970-04-25T00:00:00Z" }
+      },
+      {
+        "item": { "type": "uri", "value": "http://www.wikidata.org/entity/Q912699" },
+        "itemLabel": { "xml:lang": "es", "type": "literal", "value": "Ohsumi (Primer satélite orbital japonés)" },
+        "countryCode": { "type": "literal", "value": "JP" },
+        "areaId": { "type": "literal", "value": "space" },
+        "nivel": { "datatype": "http://www.w3.org/2001/XMLSchema#integer", "type": "literal", "value": "1" },
+        "estado": { "type": "literal", "value": "produccion" },
+        "via": { "type": "literal", "value": "propio" },
+        "inceptionDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1970-02-11T00:00:00Z" },
+        "publicationDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1970-02-11T00:00:00Z" }
+      },
+      {
+        "item": { "type": "uri", "value": "http://www.wikidata.org/entity/Q1368410" },
+        "itemLabel": { "xml:lang": "es", "type": "literal", "value": "Central Nuclear de Óbninsk (Primera central electronuclear conectada a red)" },
+        "countryCode": { "type": "literal", "value": "RU" },
+        "areaId": { "type": "literal", "value": "nuclear" },
+        "nivel": { "datatype": "http://www.w3.org/2001/XMLSchema#integer", "type": "literal", "value": "2" },
+        "estado": { "type": "literal", "value": "produccion" },
+        "via": { "type": "literal", "value": "propio" },
+        "inceptionDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1954-06-27T00:00:00Z" },
+        "publicationDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1954-06-27T00:00:00Z" }
+      },
+      {
+        "item": { "type": "uri", "value": "http://www.wikidata.org/entity/Q1537664" },
+        "itemLabel": { "xml:lang": "es", "type": "literal", "value": "Central Nuclear de Shippingport (Primera central comercial PWR EE. UU.)" },
+        "countryCode": { "type": "literal", "value": "US" },
+        "areaId": { "type": "literal", "value": "nuclear" },
+        "nivel": { "datatype": "http://www.w3.org/2001/XMLSchema#integer", "type": "literal", "value": "2" },
+        "estado": { "type": "literal", "value": "produccion" },
+        "via": { "type": "literal", "value": "propio" },
+        "inceptionDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1957-12-18T00:00:00Z" },
+        "publicationDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "1957-12-18T00:00:00Z" }
+      },
+      {
+        "item": { "type": "uri", "value": "http://www.wikidata.org/entity/Q297378" },
+        "itemLabel": { "xml:lang": "es", "type": "literal", "value": "ASML NXE:3350B / Litografía EUV en producción de obleas" },
+        "countryCode": { "type": "literal", "value": "NL" },
+        "areaId": { "type": "literal", "value": "semiconductors" },
+        "nivel": { "datatype": "http://www.w3.org/2001/XMLSchema#integer", "type": "literal", "value": "5" },
+        "estado": { "type": "literal", "value": "produccion" },
+        "via": { "type": "literal", "value": "propio" },
+        "inceptionDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "2015-03-15T00:00:00Z" },
+        "publicationDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "2015-04-20T00:00:00Z" }
+      },
+      {
+        "item": { "type": "uri", "value": "http://www.wikidata.org/entity/Q154826" },
+        "itemLabel": { "xml:lang": "es", "type": "literal", "value": "Carl Zeiss SMT / Espejos multicapa para litografía EUV" },
+        "countryCode": { "type": "literal", "value": "DE" },
+        "areaId": { "type": "literal", "value": "semiconductors" },
+        "nivel": { "datatype": "http://www.w3.org/2001/XMLSchema#integer", "type": "literal", "value": "5" },
+        "estado": { "type": "literal", "value": "exportacion" },
+        "via": { "type": "literal", "value": "propio" },
+        "inceptionDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "2015-03-15T00:00:00Z" },
+        "publicationDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "2015-04-20T00:00:00Z" }
+      },
+      {
+        "item": { "type": "uri", "value": "http://www.wikidata.org/entity/Q713418" },
+        "itemLabel": { "xml:lang": "es", "type": "literal", "value": "TSMC / Producción comercial masiva en nodos de fundición avanzada (28nm-3nm)" },
+        "countryCode": { "type": "literal", "value": "TW" },
+        "areaId": { "type": "literal", "value": "semiconductors" },
+        "nivel": { "datatype": "http://www.w3.org/2001/XMLSchema#integer", "type": "literal", "value": "2" },
+        "estado": { "type": "literal", "value": "exportacion" },
+        "via": { "type": "literal", "value": "propio" },
+        "inceptionDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "2011-10-24T00:00:00Z" },
+        "publicationDate": { "datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "2011-10-25T00:00:00Z" }
+      }
+    ]
+  }
+}

@@ -85,7 +85,7 @@ export const DimensionDetailView: React.FC<DimensionDetailViewProps> = ({
 
       {/* ── Modular Dimension Panels ── */}
       {selectedDimension === 'techInnovation' && (
-        <TechInnovationPanel dossier={dossiers.tech} />
+        <TechInnovationPanel dossier={dossiers.tech} countryCode={profile.countryCode} />
       )}
 
       {selectedDimension === 'politicalCabinet' && (

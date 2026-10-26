@@ -73,6 +73,8 @@ export interface TechDimensionDossier {
   wipoPatentRank?: number;
   rAndDPercentGdp: number;
   summary: string;
+  hasVerifiedTechTree?: boolean;
+  blockedNodesCount?: number;
 }
 
 // ─── 2. Política y Gabinete ────────────────────────────────────────────────────

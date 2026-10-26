@@ -1,0 +1,502 @@
+[
+  {
+    "id": "news_01",
+    "title": "Japan's Rapidus powers up EUV lithography scanner for 2nm prototype wafer trials in Hokkaido",
+    "summary": "Confirmed by Nikkei and Reuters: 2nm GAA test wafers enter trial run.",
+    "expectedRelevant": true,
+    "expectedCountry": "JP",
+    "expectedArea": "semiconductors",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_02",
+    "title": "TSMC announces roadmap to explore 1.4nm chip plant by 2030",
+    "summary": "Taiwan foundry proposes future investment plan for next decade.",
+    "expectedRelevant": true,
+    "expectedCountry": "TW",
+    "expectedArea": "semiconductors",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "anunciado"
+  },
+  {
+    "id": "news_03",
+    "title": "TSMC starts commercial volume production of 3nm chips in Tainan",
+    "summary": "Even though article mentions mass production, auto-news rule must cap at prototipo.",
+    "expectedRelevant": true,
+    "expectedCountry": "TW",
+    "expectedArea": "semiconductors",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_04",
+    "title": "China's SMIC ships 7nm smartphone processors using DUV multi-patterning",
+    "summary": "Teardown confirms commercial 7nm FinFET chip manufactured in Shanghai.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "semiconductors",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_05",
+    "title": "ASML completes first High-NA EUV lithography scanner prototype in Veldhoven",
+    "summary": "Dutch toolmaker powers up EXE:5000 EUV lithography system in Netherlands.",
+    "expectedRelevant": true,
+    "expectedCountry": "NL",
+    "expectedArea": "semiconductors",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_06",
+    "title": "US Intel completes 28nm mature node automotive wafer run",
+    "summary": "Mature 28nm foundry line tested in United States.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "semiconductors",
+    "expectedNivel": 2,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_07",
+    "title": "Germany's Zeiss expands OSAT chip packaging test facility in Dresden",
+    "summary": "Semiconductor packaging line tested in Germany.",
+    "expectedRelevant": true,
+    "expectedCountry": "DE",
+    "expectedArea": "semiconductors",
+    "expectedNivel": 1,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_08",
+    "title": "Russia announces plan to build domestic 28nm lithography facility by 2030",
+    "summary": "Moscow ministry proposes roadmap for mature semiconductor fab.",
+    "expectedRelevant": true,
+    "expectedCountry": "RU",
+    "expectedArea": "semiconductors",
+    "expectedNivel": 2,
+    "expectedCappedStatus": "anunciado"
+  },
+  {
+    "id": "news_09",
+    "title": "US Oak Ridge Frontier exascale supercomputer tops TOP500 list at 1.1 ExaFLOPS",
+    "summary": "United States deploys exascale computing system in top 10 TOP500.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "ai_compute",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_10",
+    "title": "OpenAI and US labs release new GPT-4o multimodal foundation model",
+    "summary": "Frontier LLM foundation model deployed in United States.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "ai_compute",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_11",
+    "title": "Nvidia unveils Blackwell B200 AI accelerator architecture and CUDA stack in USA",
+    "summary": "Next-generation AI accelerator chip tested.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "ai_compute",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_12",
+    "title": "China's DeepSeek trains frontier foundation model LLM on domestic clusters",
+    "summary": "Chinese lab releases open-weights foundation model.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "ai_compute",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_13",
+    "title": "Huawei tests Ascend 910C AI accelerator chip in Beijing data centers",
+    "summary": "Domestic AI chip prototype tested by Chinese cloud operators.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "ai_compute",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_14",
+    "title": "Japan's RIKEN Fugaku supercomputer certified on TOP500 at 442 PFLOPS",
+    "summary": "Exascale-class top 10 TOP500 supercomputer operational in Japan.",
+    "expectedRelevant": true,
+    "expectedCountry": "JP",
+    "expectedArea": "ai_compute",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_15",
+    "title": "Germany inaugurates new SuperMUC supercomputer on TOP500 list",
+    "summary": "German academic supercomputer enters TOP500 ranking.",
+    "expectedRelevant": true,
+    "expectedCountry": "DE",
+    "expectedArea": "ai_compute",
+    "expectedNivel": 2,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_16",
+    "title": "SpaceX completes reusable rocket booster catch and vertical landing in USA",
+    "summary": "Starship and Falcon 9 orbital reusable rocket recovery demonstrated.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "space",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_17",
+    "title": "China's LandSpace completes 10km VTVL reusable rocket vertical landing test",
+    "summary": "Zhuque-3 prototype reusable rocket tested at Jiuquan.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "space",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_18",
+    "title": "Japan's JAXA SLIM lander achieves pinpoint lunar landing on the Moon",
+    "summary": "Japanese spacecraft completes soft lunar landing.",
+    "expectedRelevant": true,
+    "expectedCountry": "JP",
+    "expectedArea": "space",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_19",
+    "title": "China expands Tiangong space station with new experiment module",
+    "summary": "CNSA docks module to orbital space station.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "space",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_20",
+    "title": "Russia launches new GLONASS-K2 navigation satellite into orbit",
+    "summary": "Roscosmos updates GLONASS GNSS constellation.",
+    "expectedRelevant": true,
+    "expectedCountry": "RU",
+    "expectedArea": "space",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_21",
+    "title": "Taiwan launches Formosat earth observation satellite into orbit",
+    "summary": "Taiwanese satellite begins orbital operations.",
+    "expectedRelevant": true,
+    "expectedCountry": "TW",
+    "expectedArea": "space",
+    "expectedNivel": 1,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_22",
+    "title": "Germany announces plan to fund North Sea orbital launch pad by 2030",
+    "summary": "Berlin proposes roadmap for future carrier rocket launch.",
+    "expectedRelevant": true,
+    "expectedCountry": "DE",
+    "expectedArea": "space",
+    "expectedNivel": 2,
+    "expectedCappedStatus": "anunciado"
+  },
+  {
+    "id": "news_23",
+    "title": "US Lawrence Livermore achieves net energy gain in fusion ignition experiment",
+    "summary": "National Ignition Facility demonstrates Q>1 fusion ignition in USA.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "nuclear",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_24",
+    "title": "China connects Hualong One Gen III+ nuclear reactor unit to power grid",
+    "summary": "Domestic Generation III+ nuclear reactor enters operation in China.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "nuclear",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_25",
+    "title": "Russia's Rosatom tests VVER-1200 and BN-800 fast breeder nuclear reactor fuel",
+    "summary": "Generation III+/IV reactor fuel cycle tested in Russia.",
+    "expectedRelevant": true,
+    "expectedCountry": "RU",
+    "expectedArea": "nuclear",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_26",
+    "title": "US expands domestic centrifuge cascade for HALEU uranium enrichment",
+    "summary": "Uranium enrichment facility tested in Ohio, United States.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "nuclear",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_27",
+    "title": "China's CATL begins commercial production of condensed solid-state and sodium-ion battery cells",
+    "summary": "Next-gen solid-state and sodium-ion batteries tested in China.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "energy_batteries",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_28",
+    "title": "Japan announces roadmap to commercialize solid-state battery EVs by 2030",
+    "summary": "Japanese automakers propose investment plan for solid-state battery.",
+    "expectedRelevant": true,
+    "expectedCountry": "JP",
+    "expectedArea": "energy_batteries",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "anunciado"
+  },
+  {
+    "id": "news_29",
+    "title": "China commissions new 1100 kV UHVDC power transmission line and grid-scale BESS",
+    "summary": "Ultra-high voltage UHVDC line energized in China.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "energy_batteries",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_30",
+    "title": "China refines battery-grade lithium and LFP Blade cathode precursors at scale",
+    "summary": "BYD and CATL expand LFP Blade cell and lithium refining.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "energy_batteries",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_31",
+    "title": "US opens new Nevada gigafactory GWh cell plant for electric vehicles",
+    "summary": "Gigafactory cell line starts operation in United States.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "energy_batteries",
+    "expectedNivel": 2,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_32",
+    "title": "Germany's BioNTech completes clinical trial of personalized mRNA vaccine",
+    "summary": "Mainz biotech tests new mRNA platform in Germany.",
+    "expectedRelevant": true,
+    "expectedCountry": "DE",
+    "expectedArea": "biotech",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_33",
+    "title": "US approves CRISPR gene editing therapy for sickle cell disease",
+    "summary": "Clinical CRISPR gene editing therapy cleared in United States.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "biotech",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_34",
+    "title": "US lab demonstrates de novo protein design platform using AI biofoundry",
+    "summary": "Automated biofoundry synthesizes novel de novo proteins in USA.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "biotech",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_35",
+    "title": "Japan approves new monoclonal antibody biologic treatment in Tokyo",
+    "summary": "Novel monoclonal antibody therapy developed in Japan.",
+    "expectedRelevant": true,
+    "expectedCountry": "JP",
+    "expectedArea": "biotech",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_36",
+    "title": "US SpaceX tests Starlink direct-to-cell satellite connectivity on standard LTE phones",
+    "summary": "Direct-to-cell orbital telecom link demonstrated in United States.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "telecom",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_37",
+    "title": "China's Huawei deploys domestic 5G RAN manufacturing for base stations",
+    "summary": "Sovereign 5G RAN base station production expanded in China.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "telecom",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_38",
+    "title": "Germany activates 5G standalone network across industrial corridors",
+    "summary": "Commercial 5G SA network tested in Germany.",
+    "expectedRelevant": true,
+    "expectedCountry": "DE",
+    "expectedArea": "telecom",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_39",
+    "title": "China conducts flight test of DF-17 hypersonic glide vehicle",
+    "summary": "Hypersonic HGV missile tested by PLA in China.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "defense_missiles_drones",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_40",
+    "title": "Russia deploys Zircon hypersonic missile on northern fleet frigate",
+    "summary": "Hypersonic missile system tested in Russia.",
+    "expectedRelevant": true,
+    "expectedCountry": "RU",
+    "expectedArea": "defense_missiles_drones",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_41",
+    "title": "US Air Force tests stealth fighter and autonomous drone swarm in California",
+    "summary": "5th gen stealth fighter and autonomous swarm tested in USA.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "defense_missiles_drones",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_42",
+    "title": "US Google demonstrates logical qubit below quantum error correction threshold",
+    "summary": "Willow processor achieves logical qubit error suppression in United States.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "quantum",
+    "expectedNivel": 4,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_43",
+    "title": "China's USTC tests 66-qubit Zuchongzhi programmable quantum processor",
+    "summary": "Superconducting 66-qubit quantum processor demonstrated in China.",
+    "expectedRelevant": true,
+    "expectedCountry": "CN",
+    "expectedArea": "quantum",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_44",
+    "title": "Netherlands QuTech demonstrates multi-node quantum network with QKD entanglement",
+    "summary": "Dutch Delft lab links three quantum nodes in Netherlands.",
+    "expectedRelevant": true,
+    "expectedCountry": "NL",
+    "expectedArea": "quantum",
+    "expectedNivel": 2,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_45",
+    "title": "Japan's FANUC and Harmonic Drive expand harmonic drive reducer and 5-axis CNC output",
+    "summary": "Precision robotics reducers and 5-axis CNC manufactured in Japan.",
+    "expectedRelevant": true,
+    "expectedCountry": "JP",
+    "expectedArea": "robotics_manufacturing",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_46",
+    "title": "Russia's Sukhoi Superjet civil aviation manufacturing suffers regression under export ban sanctions",
+    "summary": "Sanctions halt imported avionics and 5-axis CNC spare parts in Russia.",
+    "expectedRelevant": true,
+    "expectedCountry": "RU",
+    "expectedArea": "robotics_manufacturing",
+    "expectedNivel": 3,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_47",
+    "title": "US tests bipedal humanoid robot in automotive factory assembly line",
+    "summary": "Embodied AI humanoid robot deployed in United States plant trial.",
+    "expectedRelevant": true,
+    "expectedCountry": "US",
+    "expectedArea": "robotics_manufacturing",
+    "expectedNivel": 5,
+    "expectedCappedStatus": "prototipo"
+  },
+  {
+    "id": "news_48",
+    "title": "Central bank governors meet in Basel to discuss quarterly inflation targets and FX swaps",
+    "summary": "Macroeconomic monetary policy meeting with no technology tree milestone.",
+    "expectedRelevant": false,
+    "expectedCountry": null,
+    "expectedArea": null,
+    "expectedNivel": null,
+    "expectedCappedStatus": "no_alcanzado"
+  },
+  {
+    "id": "news_49",
+    "title": "Tokyo Stock Exchange closes higher on retail consumer earnings and tourism boom",
+    "summary": "Equities rally on hotel bookings in Japan.",
+    "expectedRelevant": false,
+    "expectedCountry": "JP",
+    "expectedArea": null,
+    "expectedNivel": null,
+    "expectedCappedStatus": "no_alcanzado"
+  },
+  {
+    "id": "news_50",
+    "title": "European football championship qualifiers draw record television audience in Germany",
+    "summary": "Sports broadcast ratings rise in Berlin and Munich.",
+    "expectedRelevant": false,
+    "expectedCountry": "DE",
+    "expectedArea": null,
+    "expectedNivel": null,
+    "expectedCappedStatus": "no_alcanzado"
+  }
+]

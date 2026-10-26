@@ -83,22 +83,41 @@ function applyCurrencyShock(
   }
 }
 
+import { getCountryTechTreeAt, isPilotCountryCode } from '../../data/tech-tree';
+
 /**
- * Applies tech shock (chip embargoes, AI export bans, or R&D acceleration).
+ * Applies tech shock (chip embargoes, AI export bans, or R&D acceleration)
+ * and reads sanctioned/blocked nodes from the historical technology tree.
  */
 function applyTechShock(
   warped: SovereignRadarScores, 
   baseScores: SovereignRadarScores, 
   shockPercent: number, 
-  logs: string[]
+  logs: string[],
+  countryCode?: string
 ): void {
   if (shockPercent === 0) return;
-  const techMultiplier = 1 + (shockPercent / 100);
+
+  let blockedCount = 0;
+  let blockedNames: string[] = [];
+  if (countryCode && isPilotCountryCode(countryCode)) {
+    const tree = getCountryTechTreeAt(countryCode, 2026);
+    blockedCount = tree.nodosBloqueadosPorSancion.length;
+    blockedNames = tree.nodosBloqueadosPorSancion.map((n) => `${n.areaId}:L${n.nivel}`);
+  }
+
+  // If the country already has sanctioned/blocked tech nodes, negative tech shocks carry an extra penalty
+  const sanctionAmplifier = shockPercent < 0 && blockedCount > 0 ? 1 + Math.min(0.25, blockedCount * 0.05) : 1;
+  const effectiveShock = shockPercent * sanctionAmplifier;
+  const techMultiplier = 1 + (effectiveShock / 100);
   warped.techInnovation = Math.round(Math.min(100, Math.max(5, baseScores.techInnovation * techMultiplier)));
 
   if (shockPercent < 0) {
     warped.militaryCapacity = Math.max(5, warped.militaryCapacity - Math.round(Math.abs(shockPercent) * 0.12));
     logs.push(`[EMBARGO TECNOLÓGICO]: Veto de semiconductores e IA aplicada (${shockPercent}%). Obsolescencia en sistemas de guiado.`);
+    if (blockedCount > 0) {
+      logs.push(`[NODOS BLOQUEADOS EN ÁRBOL]: ${blockedCount} nodo(s) sancionados detectados (${blockedNames.join(', ')}). Amplificación de vulnerabilidad activa.`);
+    }
   } else {
     logs.push(`[SALTO I+D DISRUPTIVO]: Aceleración en clusters de supercómputo y litografía (+${shockPercent}%).`);
   }
@@ -165,7 +184,7 @@ export function simulateWargame(
   applyDefenseShock(warped, baseScores, shocks.defenseShock, tacticalLogs);
   applyTradeShock(warped, baseScores, shocks.tradeShock, tacticalLogs);
   applyCurrencyShock(warped, baseScores, shocks.currencyShock, tacticalLogs);
-  applyTechShock(warped, baseScores, shocks.techShock, tacticalLogs);
+  applyTechShock(warped, baseScores, shocks.techShock, tacticalLogs, resolvedCode);
 
   const baseCountry = resolvedCode ? GEOPOLITICAL_45_COUNTRIES.find(c => c.code === resolvedCode) : null;
   const baselineRisk = baseCountry ? baseCountry.sovereignRiskBase : 3.0;
