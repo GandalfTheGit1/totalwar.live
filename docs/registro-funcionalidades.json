@@ -11,17 +11,14 @@
         "Con esto puedo escanear movimientos bruscos históricos en el S&P 500 y aislar las causas focales para construir árboles causales en el grafo."
       ],
       "estado": "en_construccion",
-      "meta_principal": "seguridad_riesgo_datos",
-      "metas_secundarias": [],
       "depende_de": [],
       "separado_de": [
         "score de empresas"
       ],
-      "monetizacion": "por_decidir",
       "metrica_exito": {
-        "que_medir": "",
-        "umbral": "",
-        "plazo": ""
+        "que_medir": "Brier por señal sobre los ~200 eventos históricos",
+        "umbral": "Brier menor que el de la tasa base (Suposición)",
+        "plazo": "Primera corrida completa"
       },
       "ui": {
         "donde": "dev",
@@ -72,7 +69,9 @@
           "seccion": "Objetivo Causal, Lo que FALTA por hacer y Lista de Tareas"
         }
       ],
-      "notas": "Estado en_construccion: especificación matemática y tablas SQL listas; faltan scripts T41.2-T41.4 e interfaz visual T41.5."
+      "notas": "Estado en_construccion: especificación matemática y tablas SQL listas; faltan scripts T41.2-T41.4 e interfaz visual T41.5.",
+      "meta": "Saber si cada señal discrimina el movimiento a 1-3 meses mejor que la tasa base",
+      "eje": "calidad"
     },
     {
       "id": "laboratorio-forense",
@@ -84,19 +83,16 @@
         "Con esto puedo extraer el muro de vencimientos de deuda a 5 años desde notas XBRL de SEC EDGAR para evaluar riesgo de refinanciación."
       ],
       "estado": "terminada",
-      "meta_principal": "seguridad_riesgo_datos",
-      "metas_secundarias": [],
       "depende_de": [
         "calibracion-brier"
       ],
       "separado_de": [
         "score de empresas"
       ],
-      "monetizacion": "por_decidir",
       "metrica_exito": {
-        "que_medir": "",
-        "umbral": "",
-        "plazo": ""
+        "que_medir": "Casos históricos de fraude conocidos señalados y falsos positivos sobre empresas limpias",
+        "umbral": "≥70 % de los casos señalados y ≤20 % de falsos positivos (Suposición)",
+        "plazo": "Primera validación con casos históricos"
       },
       "ui": {
         "donde": "dev",
@@ -149,7 +145,9 @@
           "seccion": "Objetivo Causal, Archivos Clave, Lo que YA está hecho"
         }
       ],
-      "notas": "Estado terminada verificado: código en app/dev/fraud-analysis, lib/scoring/forensic-criteria.ts y 63 tests automatizados en verde en __tests__/forensic-cost-debt-m31.test.ts y __tests__/forensic-category-stress.test.ts."
+      "notas": "Estado terminada verificado: código en app/dev/fraud-analysis, lib/scoring/forensic-criteria.ts y 63 tests automatizados en verde en __tests__/forensic-cost-debt-m31.test.ts y __tests__/forensic-category-stress.test.ts.",
+      "meta": "Detectar manipulación contable real con pocos falsos positivos",
+      "eje": "calidad"
     },
     {
       "id": "regimen-credito-bonos",
@@ -161,8 +159,6 @@
         "Con esto puedo simular escenarios de shock what-if en la curva de tipos y spreads para evaluar resiliencia soberana."
       ],
       "estado": "terminada",
-      "meta_principal": "monetizacion",
-      "metas_secundarias": [],
       "depende_de": [
         "calibracion-brier"
       ],
@@ -170,11 +166,10 @@
         "score de empresas",
         "detector-no-visto"
       ],
-      "monetizacion": "por_decidir",
       "metrica_exito": {
-        "que_medir": "",
-        "umbral": "",
-        "plazo": ""
+        "que_medir": "Series con fuente oficial citada y fecha de última actualización",
+        "umbral": "100 % con fuente citada y ≥95 % actualizadas en ≤1 día hábil (Suposición)",
+        "plazo": "Primer mes en producción"
       },
       "ui": {
         "donde": "dev",
@@ -226,7 +221,9 @@
           "seccion": "Objetivo Causal, Lo que YA está hecho, T15.4"
         }
       ],
-      "notas": "Estado terminada verificado: código en lib/bonds/, lib/dalio-model.ts, dashboard en app/dev/sovereign-yields y tests en __tests__/bond-parsers.test.ts, __tests__/credit-regime-engine.test.ts y __tests__/bond-components.test.tsx."
+      "notas": "Estado terminada verificado: código en lib/bonds/, lib/dalio-model.ts, dashboard en app/dev/sovereign-yields y tests en __tests__/bond-parsers.test.ts, __tests__/credit-regime-engine.test.ts y __tests__/bond-components.test.tsx.",
+      "meta": "Que el régimen de crédito se calcule solo con datos oficiales trazables y al día",
+      "eje": "fiabilidad"
     },
     {
       "id": "reclamaciones-territoriales",
@@ -238,15 +235,12 @@
         "Con esto puedo auditar pares bilaterales clave (Grecia-Turquía, China-Filipinas, Afganistán-Pakistán) contra un banco de 89 pares de referencia."
       ],
       "estado": "terminada",
-      "meta_principal": "seguridad_riesgo_datos",
-      "metas_secundarias": [],
       "depende_de": [],
       "separado_de": [],
-      "monetizacion": "por_decidir",
       "metrica_exito": {
-        "que_medir": "",
-        "umbral": "",
-        "plazo": ""
+        "que_medir": "Disputas con fuente citada sobre las 60 registradas",
+        "umbral": "100 % de las 60 con fuente citada (Suposición)",
+        "plazo": "Antes del despliegue público"
       },
       "ui": {
         "donde": "publica",
@@ -299,7 +293,9 @@
           "seccion": "Problema, Qué se hizo y Validación"
         }
       ],
-      "notas": "Estado terminada verificado: código en engine/relations/model/, world/export_claims_geo.py, frontend en components/ y validación en __tests__/territorial-claims.test.tsx con 36/36 pares evaluados con éxito."
+      "notas": "Estado terminada verificado: código en engine/relations/model/, world/export_claims_geo.py, frontend en components/ y validación en __tests__/territorial-claims.test.tsx con 36/36 pares evaluados con éxito.",
+      "meta": "Cubrir las disputas territoriales relevantes con fuente verificable",
+      "eje": "cobertura"
     },
     {
       "id": "calibracion-relaciones-gdelt",
@@ -310,17 +306,14 @@
         "Con esto puedo comparar y seleccionar empíricamente los modelos de IA (clasificador A y B) evaluando estabilidad y sesgo sistemático."
       ],
       "estado": "terminada",
-      "meta_principal": "seguridad_riesgo_datos",
-      "metas_secundarias": [],
       "depende_de": [
         "reclamaciones-territoriales"
       ],
       "separado_de": [],
-      "monetizacion": "por_decidir",
       "metrica_exito": {
-        "que_medir": "",
-        "umbral": "",
-        "plazo": ""
+        "que_medir": "Anclas históricas (de 28) en las que el modelo acierta la dirección",
+        "umbral": "≥80 % de las 28 anclas (Suposición)",
+        "plazo": "Primera corrida completa"
       },
       "ui": {
         "donde": "dev",
@@ -371,7 +364,9 @@
           "seccion": "Qué se hizo y qué NO demuestra, Resultado 1 y 2"
         }
       ],
-      "notas": "Estado terminada verificado: código en engine/relations/calibration/, scripts de prueba y 28 anclas validadas con pérdida 0."
+      "notas": "Estado terminada verificado: código en engine/relations/calibration/, scripts de prueba y 28 anclas validadas con pérdida 0.",
+      "meta": "Que el modelo de relaciones bilaterales acierte la dirección de los episodios históricos congelados",
+      "eje": "calidad"
     },
     {
       "id": "desarrollo-industrial-ciudades",
@@ -383,19 +378,14 @@
         "Con esto puedo captar qué polos industriales despiertan mayor interés de búsqueda o análisis entre usuarios para guiar la investigación de mercado."
       ],
       "estado": "idea",
-      "meta_principal": "investigacion_mercado",
-      "metas_secundarias": [
-        "seguidores"
-      ],
       "depende_de": [],
       "separado_de": [
         "score de empresas"
       ],
-      "monetizacion": "gratis",
       "metrica_exito": {
-        "que_medir": "Consultas únicas por ciudad industrial y tasa de interacción con el panel de infraestructura",
-        "umbral": "500 consultas o interacciones únicas en los primeros 30 días",
-        "plazo": "30 días posteriores al despliegue público"
+        "que_medir": "Ciudades con densidad fabril, logística y capacidad con fuente, sobre el listado objetivo",
+        "umbral": "≥80 % del listado objetivo con datos completos y fuente (Suposición)",
+        "plazo": "Antes del despliegue público"
       },
       "ui": {
         "donde": "publica",
@@ -443,7 +433,9 @@
       ],
       "referencias_internas": [],
       "fuentes": [],
-      "notas": "Ficha creada a petición de William el 2026-10-22 tras analizar cómo ver el desarrollo industrial urbano y su utilidad en el sistema global."
+      "notas": "Ficha creada a petición de William el 2026-10-22 tras analizar cómo ver el desarrollo industrial urbano y su utilidad en el sistema global.",
+      "meta": "Cubrir las ciudades industriales del listado objetivo con datos completos",
+      "eje": "cobertura"
     },
     {
       "id": "finanzas-publicas-soberanas",
@@ -455,17 +447,14 @@
         "Con esto puedo evaluar el estrés de solvencia soberana mediante un semáforo visual de sostenibilidad fiscal sin tener que bucear por portales gubernamentales dispersos."
       ],
       "estado": "idea",
-      "meta_principal": "seguidores",
-      "metas_secundarias": [],
       "depende_de": [],
       "separado_de": [
         "score de empresas"
       ],
-      "monetizacion": "gratis",
       "metrica_exito": {
-        "que_medir": "Tasa de interacción y permanencia: porcentaje de usuarios que seleccionan un país y abren la sección fiscal, más tiempo medio de visualización.",
-        "umbral": "25% de los usuarios que seleccionan un país consultan finanzas públicas y al menos 45s de permanencia media (Suposición).",
-        "plazo": "60 días tras despliegue público en producción."
+        "que_medir": "Países con deuda/PIB y balance fiscal con fuente y año ≤2 años, sobre 198",
+        "umbral": "≥90 % de los países (Suposición)",
+        "plazo": "Antes del despliegue público"
       },
       "ui": {
         "donde": "publica",
@@ -520,7 +509,9 @@
           "seccion": "Ficha Técnica Completa"
         }
       ],
-      "notas": "Ficha generada tras entrevista con William. Meta exclusiva de Seguidores mediante emulación de mecánicas de juegos (HOI4/Victoria 3) con acceso 100% público y gratuito."
+      "notas": "Ficha generada tras entrevista con William. Meta exclusiva de Seguidores mediante emulación de mecánicas de juegos (HOI4/Victoria 3) con acceso 100% público y gratuito.",
+      "meta": "Tener indicadores fiscales actuales para casi todos los países del globo",
+      "eje": "cobertura"
     },
     {
       "id": "entidades-postura-vecinal",
@@ -532,10 +523,6 @@
         "Con esto puedo auditar las actividades y maniobras militares actuales en zonas fronterizas para deducir la postura estratégica (defensiva, disuasoria o de proyección ofensiva) del país respecto a sus vecinos."
       ],
       "estado": "idea",
-      "meta_principal": "investigacion_mercado",
-      "metas_secundarias": [
-        "seguidores"
-      ],
       "depende_de": [
         "reclamaciones-territoriales"
       ],
@@ -543,11 +530,10 @@
         "score de empresas",
         "calibracion-brier"
       ],
-      "monetizacion": "gratis",
       "metrica_exito": {
-        "que_medir": "Consultas únicas y tiempo de interacción en el módulo táctico por país y pares fronterizos, midiendo qué regiones calientes generan mayor tracción investigadora.",
-        "umbral": "400 consultas únicas en los primeros 45 días e identificación de al menos 5 patrones recurrentes de búsqueda regional (Suposición).",
-        "plazo": "45 días tras despliegue público en producción."
+        "que_medir": "Entidades con fuente y fecha citadas sobre el total mostrado",
+        "umbral": "100 % con fuente y fecha (Suposición)",
+        "plazo": "Antes del despliegue público"
       },
       "ui": {
         "donde": "publica",
@@ -603,7 +589,9 @@
           "seccion": "Ficha Técnica Completa"
         }
       ],
-      "notas": "Ficha creada a petición de William el 2026-10-22. Meta principal de Investigación de mercado (aprender qué fronteras y despliegues busca la comunidad) con UI pública y gratuita en el globo 3D."
+      "notas": "Ficha creada a petición de William el 2026-10-22. Meta principal de Investigación de mercado (aprender qué fronteras y despliegues busca la comunidad) con UI pública y gratuita en el globo 3D.",
+      "meta": "Que cada entidad estratégica mostrada tenga fuente y fecha verificables",
+      "eje": "fiabilidad"
     },
     {
       "id": "arbol-tecnologico-historico",
@@ -615,10 +603,6 @@
         "Con esto puedo saber qué países y áreas consulta más la gente para guiar la investigación de mercado."
       ],
       "estado": "idea",
-      "meta_principal": "investigacion_mercado",
-      "metas_secundarias": [
-        "seguidores"
-      ],
       "depende_de": [
         "calibracion-relaciones-gdelt"
       ],
@@ -626,11 +610,10 @@
         "score de empresas",
         "calibracion-brier"
       ],
-      "monetizacion": "gratis",
       "metrica_exito": {
-        "que_medir": "Consultas únicas por país y por área del árbol, y ranking de los 5 pares país-área más vistos",
-        "umbral": "400 consultas únicas en 45 días y un ranking estable de 5 pares país-área (Suposición)",
-        "plazo": "45 días tras el despliegue público del piloto"
+        "que_medir": "Desbloqueos con fuente y fecha citadas sobre el total",
+        "umbral": "100 % con fuente y fecha (Suposición)",
+        "plazo": "Antes del despliegue público del piloto"
       },
       "ui": {
         "donde": "publica",
@@ -689,7 +672,91 @@
         "lib/services/sovereign-power/wargame-simulator.ts (techShock)"
       ],
       "fuentes": [],
-      "notas": "Ficha creada a petición de William el 2026-10-25. Decisiones: piloto con 7 países curados; noticias aplican automáticamente con 2 fuentes independientes; árbol público y registro de revisión en dev. Contexto, no señal: no entra al score de empresas."
+      "notas": "Ficha creada a petición de William el 2026-10-25. Decisiones: piloto con 7 países curados; noticias aplican automáticamente con 2 fuentes independientes; árbol público y registro de revisión en dev. Contexto, no señal: no entra al score de empresas.",
+      "meta": "Que cada desbloqueo del árbol sea un evento fechado y verificable",
+      "eje": "fiabilidad"
+    },
+    {
+      "id": "demografia-pais",
+      "nombre": "Monitor demográfico por país",
+      "resumen": "Panel demográfico de cada país en el globo: población total, estructura por edad, crecimiento, urbanización y dependencia demográfica, con fuente y año en cada dato. Es contexto para los demás módulos, no una señal.",
+      "que_permite": [
+        "Con esto puedo ver la población, la edad mediana y el crecimiento de cualquier país seleccionado en el globo.",
+        "Con esto puedo normalizar y contextualizar otros módulos (deuda, industria, postura vecinal) por habitante o por población activa.",
+        "Con esto puedo identificar qué países envejecen o crecen rápido y qué fuente respalda cada dato."
+      ],
+      "estado": "idea",
+      "meta": "Tener datos demográficos actuales para casi todos los países del globo, con fuente y año",
+      "eje": "cobertura",
+      "depende_de": [
+        "finanzas-publicas-soberanas"
+      ],
+      "separado_de": [
+        "score de empresas",
+        "calibracion-brier"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con población total, estructura por edad y urbanización con fuente y año ≤3 años, sobre 198",
+        "umbral": "≥90 % de los países (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Subsección \"Demografía\" en el panel lateral del país",
+          "Tarjeta resumen: población, edad mediana, crecimiento, urbanización, con fuente y año"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. La idea nace de una pregunta propia de William sobre su utilidad."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas ni búsquedas que muestren que hoy sufran por no tenerlo."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis de que contextualiza otros módulos; sin prueba con usuarios."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Sonnet",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Claude Opus",
+        "razon": "Tarea de ingestión y normalización de indicadores públicos con riesgo bajo de error silencioso; verificar unidades y años con datos reales.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay evidencia real de demanda o solo intuición propia? Preguntar a usuarios del globo qué país-dato consultan.",
+        "¿Qué licencia y términos de uso tienen World Bank Open Data, ONU World Population Prospects y el Censo de EE. UU.? INFORMACIÓN INCOMPLETA hasta verificarlo con cada fuente.",
+        "¿Cuál es la cobertura real de países y años en las series de edad y urbanización?",
+        "¿Cómo se relaciona con la dimensión existente \"Fractura Demográfica/Social\" del panel: se reemplaza, se complementa o se alimenta de ella?",
+        "¿Desplaza trabajo crítico que sigue incompleto (calibración, relaciones)?"
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/demografia-pais.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar",
+        "Servicio de Ingestión Macro Soberana"
+      ],
+      "referencias_internas": [
+        "lib/macro/world-bank-client.ts (ya tiene SP.POP.TOTL y urbanización)",
+        "components/geopolitical-monitor/components/DimensionSection.tsx (dimensión Fractura Demográfica/Social)"
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/demografia-pais.md",
+          "seccion": "Ficha Técnica Completa"
+        }
+      ],
+      "notas": "Ficha creada tras entrevista con William el 2026-10-27. Meta de cobertura elegida entre cobertura, fiabilidad, calidad o descartar."
     }
   ],
   "definicion_seguridad_riesgo_datos": "Mejorar la seguridad que hay respecto a los datos que se traen a la mesa para los clientes y de esa forma, aumentar el valor de la empresa al tener mejores datos disponibles y representación de estos. Mejorar los Datos y prevenir que se filtren, dan una ventaja a la empresa."

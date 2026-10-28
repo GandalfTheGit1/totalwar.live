@@ -1,27 +1,27 @@
-%% Mapa de funcionalidades. Color = meta principal. Forma = estado.
-%% Tamaño = número de dependencias. Línea continua = depende de. Línea punteada = alimenta una meta.
+%% Mapa de funcionalidades. Color = eje de la meta. Forma = estado.
+%% Tamaño = número de dependencias. Línea continua = depende de. La meta no se dibuja como conexión: va en el color y en la etiqueta. Línea gruesa = pertenece al proyecto.
 flowchart LR
     subgraph sec_equity["Equity system"]
-        vacio_equity["Reservado: sin funcionalidades definidas"]
+        proy_equity(["Proyecto Equity system"])
     end
     subgraph sec_global["Global system (globo geopolítico)"]
-        desarrollo_industrial_ciudades(("Monitor de desarrollo industrial y polos manufactureros urbanos | demanda 0/10 | 0 dep."))
-        finanzas_publicas_soberanas(("Monitor de finanzas públicas soberanas y salud fiscal | demanda 0/10 | 0 dep."))
-        entidades_postura_vecinal(("Monitor de entidades estratégicas, capacidades y postura vecinal | demanda 2.4/10 | 1 dep."))
+        proy_global(["Proyecto Global system (globo geopolítico)"])
+        desarrollo_industrial_ciudades["Monitor de desarrollo industrial y polos manufactureros urbanos | Cobertura de datos (empresas, mercados, países) | demanda 0/10 | 0 dep."]
+        finanzas_publicas_soberanas["Monitor de finanzas públicas soberanas y salud fiscal | Cobertura de datos (empresas, mercados, países) | demanda 0/10 | 0 dep."]
+        entidades_postura_vecinal["Monitor de entidades estratégicas, capacidades y postura vecinal | Fiabilidad y trazabilidad de fuentes | demanda 2.4/10 | 1 dep."]
+        arbol_tecnologico_historico["Árbol tecnológico histórico por país actualizado con noticias | Fiabilidad y trazabilidad de fuentes | demanda 2.4/10 | 1 dep."]
+        demografia_pais["Monitor demográfico por país | Cobertura de datos (empresas, mercados, países) | demanda 0/10 | 1 dep."]
     end
-    meta_investigacion_mercado(["Investigación de mercado"])
-    meta_seguidores(["Seguidores"])
-    desarrollo_industrial_ciudades -.-> meta_investigacion_mercado
-    desarrollo_industrial_ciudades -.-> meta_seguidores
-    finanzas_publicas_soberanas -.-> meta_seguidores
-    entidades_postura_vecinal -.-> meta_investigacion_mercado
-    entidades_postura_vecinal -.-> meta_seguidores
-    classDef c_investigacion_mercado_S fill:#0072B2,stroke:#222,color:#000,font-size:12px
-    classDef c_seguidores_S fill:#009E73,stroke:#222,color:#000,font-size:12px
-    classDef m_investigacion_mercado fill:#0072B2,stroke:#222,color:#000,stroke-width:4px
-    classDef m_seguidores fill:#009E73,stroke:#222,color:#000,stroke-width:4px
-    class desarrollo_industrial_ciudades c_investigacion_mercado_S
-    class finanzas_publicas_soberanas c_seguidores_S
-    class entidades_postura_vecinal c_investigacion_mercado_S
-    class meta_investigacion_mercado m_investigacion_mercado
-    class meta_seguidores m_seguidores
+    desarrollo_industrial_ciudades ==> proy_global
+    finanzas_publicas_soberanas ==> proy_global
+    entidades_postura_vecinal ==> proy_global
+    arbol_tecnologico_historico ==> proy_global
+    demografia_pais ==> proy_global
+    demografia_pais --> finanzas_publicas_soberanas
+    classDef c_cobertura_S fill:#009E73,stroke:#222,color:#000,font-size:12px
+    classDef c_fiabilidad_S fill:#D55E00,stroke:#222,color:#000,font-size:12px
+    class desarrollo_industrial_ciudades c_cobertura_S
+    class finanzas_publicas_soberanas c_cobertura_S
+    class entidades_postura_vecinal c_fiabilidad_S
+    class arbol_tecnologico_historico c_fiabilidad_S
+    class demografia_pais c_cobertura_S

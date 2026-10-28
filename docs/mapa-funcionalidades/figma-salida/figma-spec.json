@@ -1,16 +1,16 @@
 {
   "leyenda": {
     "color": {
-      "seguidores": "#009E73",
-      "investigacion_mercado": "#0072B2",
-      "monetizacion": "#E69F00",
-      "seguridad_riesgo_datos": "#D55E00",
-      "sin_meta": "#BDBDBD"
+      "calidad": "#0072B2",
+      "fiabilidad": "#D55E00",
+      "cobertura": "#009E73",
+      "eficiencia": "#E69F00",
+      "otro": "#BDBDBD"
     },
     "forma": {
-      "idea": "circulo",
+      "idea": "rectangulo",
       "en_construccion": "redondeado",
-      "terminada": "rectangulo",
+      "terminada": "subrutina",
       "descartada": "hexagono"
     },
     "tamano": [
@@ -40,9 +40,10 @@
     {
       "id": "desarrollo-industrial-ciudades",
       "nombre": "Monitor de desarrollo industrial y polos manufactureros urbanos",
-      "color": "#0072B2",
-      "meta_principal": "investigacion_mercado",
-      "forma": "circulo",
+      "color": "#009E73",
+      "meta": "Cubrir las ciudades industriales del listado objetivo con datos completos",
+      "eje": "cobertura",
+      "forma": "rectangulo",
       "estado": "idea",
       "tamano": "S",
       "dependencias": 0,
@@ -57,8 +58,9 @@
       "id": "finanzas-publicas-soberanas",
       "nombre": "Monitor de finanzas públicas soberanas y salud fiscal",
       "color": "#009E73",
-      "meta_principal": "seguidores",
-      "forma": "circulo",
+      "meta": "Tener indicadores fiscales actuales para casi todos los países del globo",
+      "eje": "cobertura",
+      "forma": "rectangulo",
       "estado": "idea",
       "tamano": "S",
       "dependencias": 0,
@@ -73,9 +75,10 @@
     {
       "id": "entidades-postura-vecinal",
       "nombre": "Monitor de entidades estratégicas, capacidades y postura vecinal",
-      "color": "#0072B2",
-      "meta_principal": "investigacion_mercado",
-      "forma": "circulo",
+      "color": "#D55E00",
+      "meta": "Que cada entidad estratégica mostrada tenga fuente y fecha verificables",
+      "eje": "fiabilidad",
+      "forma": "rectangulo",
       "estado": "idea",
       "tamano": "S",
       "dependencias": 1,
@@ -86,41 +89,77 @@
         "Capa de Inteligencia Geoespacial y Táctica",
         "Geopolitical Sidebar"
       ]
+    },
+    {
+      "id": "arbol-tecnologico-historico",
+      "nombre": "Árbol tecnológico histórico por país actualizado con noticias",
+      "color": "#D55E00",
+      "meta": "Que cada desbloqueo del árbol sea un evento fechado y verificable",
+      "eje": "fiabilidad",
+      "forma": "rectangulo",
+      "estado": "idea",
+      "tamano": "S",
+      "dependencias": 1,
+      "demanda": "2.4/10",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "Monitor geopolítico 3D",
+        "Radar de poder soberano: pilar tecnológico"
+      ]
+    },
+    {
+      "id": "demografia-pais",
+      "nombre": "Monitor demográfico por país",
+      "color": "#009E73",
+      "meta": "Tener datos demográficos actuales para casi todos los países del globo, con fuente y año",
+      "eje": "cobertura",
+      "forma": "rectangulo",
+      "estado": "idea",
+      "tamano": "S",
+      "dependencias": 1,
+      "demanda": "0/10",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar",
+        "Servicio de Ingestión Macro Soberana"
+      ]
     }
   ],
   "conexiones": [
     {
-      "tipo": "alimenta_meta",
+      "tipo": "pertenece_a",
       "de": "desarrollo-industrial-ciudades",
-      "a": "investigacion_mercado",
-      "principal": true
+      "a": "global"
     },
     {
-      "tipo": "alimenta_meta",
-      "de": "desarrollo-industrial-ciudades",
-      "a": "seguidores",
-      "principal": false
-    },
-    {
-      "tipo": "alimenta_meta",
+      "tipo": "pertenece_a",
       "de": "finanzas-publicas-soberanas",
-      "a": "seguidores",
-      "principal": true
+      "a": "global"
     },
     {
-      "tipo": "alimenta_meta",
+      "tipo": "pertenece_a",
       "de": "entidades-postura-vecinal",
-      "a": "investigacion_mercado",
-      "principal": true
+      "a": "global"
     },
     {
-      "tipo": "alimenta_meta",
-      "de": "entidades-postura-vecinal",
-      "a": "seguidores",
-      "principal": false
+      "tipo": "pertenece_a",
+      "de": "arbol-tecnologico-historico",
+      "a": "global"
+    },
+    {
+      "tipo": "pertenece_a",
+      "de": "demografia-pais",
+      "a": "global"
+    },
+    {
+      "tipo": "depende_de",
+      "de": "demografia-pais",
+      "a": "finanzas-publicas-soberanas"
     }
   ],
   "avisos": [
-    "entidades-postura-vecinal depende de 'reclamaciones-territoriales', que no está definida: conexión omitida"
+    "entidades-postura-vecinal depende de 'reclamaciones-territoriales', que no está definida: conexión omitida",
+    "arbol-tecnologico-historico depende de 'calibracion-relaciones-gdelt', que no está definida: conexión omitida"
   ]
 }
