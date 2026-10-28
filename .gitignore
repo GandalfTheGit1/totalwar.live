@@ -47,3 +47,6 @@ engine/relations/world/out/
 
 engine/relations/world/gdelt/
 .vercel
+
+# Datos locales del simulador de apuestas
+.data/
