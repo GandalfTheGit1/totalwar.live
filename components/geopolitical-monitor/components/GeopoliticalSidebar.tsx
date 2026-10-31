@@ -26,6 +26,7 @@ import { CausalAnalysisSection } from './sidebar/CausalAnalysisSection';
 import { VideoBriefingSection } from './sidebar/VideoBriefingSection';
 import { Hoi4MechanicsPanel } from './hoi4-eu4/Hoi4MechanicsPanel';
 import { TerritorialClaimsSection } from './sidebar/TerritorialClaimsSection';
+import { BloombergOriginalsSection } from './sidebar/BloombergOriginalsSection';
 import { CountryResourcesSection } from './resources/CountryResourcesSection';
 
 interface GeopoliticalSidebarProps {
@@ -223,6 +224,10 @@ export const GeopoliticalSidebar: React.FC<GeopoliticalSidebarProps> = ({
                   setSelectedVideoIndex={setSelectedVideoIndex}
                   activeData={activeData}
                 />
+
+                {activeData?.iso && (
+                  <BloombergOriginalsSection countryCode={activeData.iso} countryName={activeData.name || ''} />
+                )}
 
                 <Hoi4MechanicsPanel selectedCountryCode={activeData?.iso || null} />
               </>

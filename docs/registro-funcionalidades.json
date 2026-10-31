@@ -757,6 +757,88 @@
         }
       ],
       "notas": "Ficha creada tras entrevista con William el 2026-10-27. Meta de cobertura elegida entre cobertura, fiabilidad, calidad o descartar."
+    },
+    {
+      "id": "bloomberg-originals-pais",
+      "nombre": "Contexto de inversión por país desde Bloomberg Originals",
+      "resumen": "Índice de los videos del canal de YouTube Bloomberg Originals (últimos 2 años) etiquetados por país, empresas, sectores y ángulo de inversión (favorable, riesgo, mixto, neutral), servido por país en /api/bloomberg-originals/[code]. Contexto, no señal: no entra al score ni predice precios.",
+      "que_permite": [
+        "Con esto puedo abrir un país y ver qué historias de negocio cubrió Bloomberg, cuáles son a favor y cuáles son riesgos, con fecha y enlace al video.",
+        "Con esto puedo ver qué empresas y sectores aparecen ligados a cada país, incluidas las extranjeras cuyo negocio depende de él.",
+        "Con esto puedo decidir si un país merece análisis a fondo antes de mirar sus empresas."
+      ],
+      "estado": "en_construccion",
+      "meta": "Dar a cada país del globo una capa de contexto cualitativo de inversión (temas, empresas, riesgos) trazable a video y fecha",
+      "eje": "cobertura",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas",
+        "calibracion-brier"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con al menos 1 video vinculado con ángulo favorable o de riesgo, y precisión del etiquetado de país en una muestra revisada a mano de 50 videos",
+        "umbral": "≥40 países con contexto y ≥90 % de precisión de país en la muestra (Suposición)",
+        "plazo": "Antes de añadir la subsección al panel del país"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Subsección \"Bloomberg Originals\" en el panel lateral del país: contadores a favor / riesgo / mixto, empresas citadas, sectores, filtro por ángulo y lista de videos con tesis, fecha aproximada y enlace",
+          "API /api/bloomberg-originals/[code]"
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios; nace de la necesidad propia de William de filtrar países para invertir."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas que muestren la frustración de buscar contexto país en videos."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis de que ahorra tiempo de investigación; sin prueba con usuarios."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Rotación del proyecto (Gemini/Groq vía callLlm) para el etiquetado por lotes",
+        "verificador": "Revisión manual de una muestra de 50 videos",
+        "razon": "Etiquetar títulos cortos es barato y tolerante a errores puntuales; el riesgo es el país mal asignado, que se mide con una muestra manual.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay evidencia real de demanda o solo intuición propia? Preguntar a usuarios del globo si consultarían contexto de inversión por país.",
+        "Términos de uso de YouTube y de Bloomberg para indexar títulos y enlazar videos: INFORMACIÓN INCOMPLETA. Hoy solo se guardan título, enlace y etiquetas propias, no el contenido.",
+        "Solo se etiqueta por título: ¿mejora la precisión si se añaden descripción o transcripción (youtube_transcript_api ya existe en el repo) sin riesgo de bloqueo de IP?",
+        "Fechas aproximadas (\"hace N meses\"): ¿hace falta fecha exacta para registro por fecha y un futuro test de sesgo de anticipación?",
+        "¿Desplaza trabajo crítico que sigue incompleto (calibración)?"
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/bloomberg-originals-pais.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "scripts/build-bloomberg-originals.ts",
+        "lib/services/bloomberg-originals/store.ts",
+        "app/api/bloomberg-originals/[code]/route.ts",
+        "components/geopolitical-monitor/components/sidebar/BloombergOriginalsSection.tsx",
+        "lib/services/youtube/ (scraper RSS y transcripciones ya existentes)"
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/bloomberg-originals-pais.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Creada el 2026-10-31. William eligió: meta de cobertura, dataset + API sin UI en esta tanda, últimos 2 años, presentación como temas a favor / en contra."
     }
   ],
   "definicion_seguridad_riesgo_datos": "Mejorar la seguridad que hay respecto a los datos que se traen a la mesa para los clientes y de esa forma, aumentar el valor de la empresa al tener mejores datos disponibles y representación de estos. Mejorar los Datos y prevenir que se filtren, dan una ventaja a la empresa."
