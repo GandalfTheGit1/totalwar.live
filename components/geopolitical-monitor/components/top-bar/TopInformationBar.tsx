@@ -8,7 +8,7 @@
  */
 
 import React from 'react';
-import { Globe } from 'lucide-react';
+import { Globe, TrendingUp } from 'lucide-react';
 import { DOMAINS, GROUP_LABEL } from './domains';
 import type { CellDomain, DomainDef, Level, TopBarCells, TopBarDomain } from './types';
 
@@ -128,6 +128,16 @@ export const TopInformationBar: React.FC<TopInformationBarProps> = ({
       ))}
 
       <div className="ml-auto flex items-center gap-2.5">
+        <a
+          href="/markets"
+          data-testid="topbar-markets-link"
+          title="Mercados de predicción"
+          aria-label="Mercados de predicción (apuestas simuladas)"
+          className="flex items-center gap-1.5 rounded border border-[var(--hairline)] bg-[var(--surface-2)] px-2.5 py-1.5 text-sm font-medium text-[var(--ink)] hover:bg-[var(--surface-3)] focus-visible:outline-2 focus-visible:outline-[var(--focus-ring)]"
+        >
+          <TrendingUp className="h-4 w-4 text-[var(--accent)]" aria-hidden="true" />
+          <span className="hidden xl:inline">Mercados</span>
+        </a>
         <div
           data-testid="topbar-defcon"
           className="rounded border bg-[var(--void)] px-2.5 py-1.5 font-mono text-sm font-medium"

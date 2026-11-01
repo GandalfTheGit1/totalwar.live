@@ -14,6 +14,8 @@ export interface PmOutcome {
 export interface PmMarket {
   id: string;
   question: string;
+  /** Short name inside a multi-market event (Gamma `groupItemTitle`, e.g. a candidate), else the question. */
+  label: string;
   slug: string;
   endDate: string | null;
   active: boolean;

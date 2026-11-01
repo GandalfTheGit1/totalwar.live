@@ -13,14 +13,53 @@ const TIMEOUT_MS = 12_000;
 
 type Json = Record<string, any>;
 
-async function getJson<T>(url: string, revalidateSeconds: number): Promise<T> {
-  const res = await fetch(url, {
-    headers: { Accept: 'application/json' },
-    signal: AbortSignal.timeout(TIMEOUT_MS),
-    next: { revalidate: revalidateSeconds },
-  } as RequestInit);
-  if (!res.ok) throw new Error(`Polymarket ${res.status} for ${url}`);
-  return (await res.json()) as T;
+const ATTEMPTS = 3;
+
+export class PolymarketUnavailableError extends Error {
+  constructor(url: string, cause: unknown) {
+    super(`Polymarket unreachable: ${url}`);
+    this.name = 'PolymarketUnavailableError';
+    this.cause = cause;
+  }
+}
+
+async function getJson<T>(url: string): Promise<T> {
+  let lastError: unknown;
+  // Connection resets are frequent on some networks; retry those, never HTTP errors.
+  for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
+    let res: Response;
+    try {
+      // Gamma pages can exceed Next's 2 MB fetch-cache limit, so caching happens on the normalized result instead.
+      res = await fetch(url, {
+        headers: { Accept: 'application/json' },
+        signal: AbortSignal.timeout(TIMEOUT_MS),
+        cache: 'no-store',
+      });
+    } catch (err) {
+      lastError = err;
+      if (attempt < ATTEMPTS) await new Promise((r) => setTimeout(r, 300 * attempt));
+      continue;
+    }
+    if (!res.ok) throw new Error(`Polymarket ${res.status} for ${url}`);
+    return (await res.json()) as T;
+  }
+  throw new PolymarketUnavailableError(url, lastError);
+}
+
+const memo = new Map<string, { expires: number; value: Promise<unknown> }>();
+
+/** Shares one in-flight/recent request per key for `ttlSeconds`; failures are not kept. */
+function cached<T>(key: string, ttlSeconds: number, load: () => Promise<T>): Promise<T> {
+  const now = Date.now();
+  const hit = memo.get(key);
+  if (hit && hit.expires > now) return hit.value as Promise<T>;
+  const value = load();
+  memo.set(key, { expires: now + ttlSeconds * 1000, value });
+  value.catch(() => memo.delete(key));
+  if (memo.size > 200) {
+    for (const [k, v] of memo) if (v.expires <= now) memo.delete(k);
+  }
+  return value;
 }
 
 /** Gamma returns arrays either as real arrays or as JSON-encoded strings. */
@@ -72,6 +111,7 @@ export function normalizeMarket(m: Json): PmMarket {
   return {
     id: String(m.id),
     question: String(m.question ?? ''),
+    label: String(m.groupItemTitle || m.question || ''),
     slug: String(m.slug ?? ''),
     endDate: m.endDate ?? null,
     active: m.active !== false,
@@ -125,8 +165,8 @@ export async function listEvents({ tag, limit = 30, offset = 0 }: ListEventsOpti
     offset: String(Math.max(offset, 0)),
   });
   if (tag) params.set('tag_slug', tag);
-  const raw = await getJson<Json[]>(`${GAMMA}/events?${params}`, 30);
-  return raw.map(normalizeEvent);
+  const url = `${GAMMA}/events?${params}`;
+  return cached(url, 30, async () => (await getJson<Json[]>(url)).map(normalizeEvent));
 }
 
 export async function searchEvents(query: string, limit = 20): Promise<PmEvent[]> {
@@ -135,15 +175,14 @@ export async function searchEvents(query: string, limit = 20): Promise<PmEvent[]
     events_status: 'active',
     limit_per_type: String(Math.min(Math.max(limit, 1), 50)),
   });
-  const raw = await getJson<{ events?: Json[] }>(`${GAMMA}/public-search?${params}`, 60);
-  return (raw.events ?? []).map(normalizeEvent);
+  const url = `${GAMMA}/public-search?${params}`;
+  return cached(url, 60, async () => ((await getJson<{ events?: Json[] }>(url)).events ?? []).map(normalizeEvent));
 }
 
 /** Fresh snapshot of one market — never cached, it is the price a paper bet fills at. */
 export async function getMarket(marketId: string): Promise<PmMarket> {
   if (!/^\d+$/.test(marketId)) throw new Error('Invalid market id');
-  const raw = await getJson<Json>(`${GAMMA}/markets/${marketId}`, 0);
-  return normalizeMarket(raw);
+  return normalizeMarket(await getJson<Json>(`${GAMMA}/markets/${marketId}`));
 }
 
 export type HistoryInterval = '1d' | '1w' | '1m' | 'max';
@@ -157,6 +196,6 @@ export async function getPriceHistory(tokenId: string, interval: HistoryInterval
   if (!/^\d+$/.test(tokenId)) throw new Error('Invalid token id');
   const fidelity = interval === '1d' ? 15 : interval === '1w' ? 60 : 360;
   const params = new URLSearchParams({ market: tokenId, interval, fidelity: String(fidelity) });
-  const raw = await getJson<{ history?: PricePoint[] }>(`${CLOB}/prices-history?${params}`, 120);
-  return raw.history ?? [];
+  const url = `${CLOB}/prices-history?${params}`;
+  return cached(url, 120, async () => (await getJson<{ history?: PricePoint[] }>(url)).history ?? []);
 }

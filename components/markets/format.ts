@@ -16,7 +16,9 @@ export function cents(price: number | null): string {
 
 export function percent(n: number, digits = 1): string {
   const sign = n > 0 ? '+' : '';
-  return `${sign}${n.toFixed(digits)}%`;
+  // Small moves get more precision so they don't read as "-0.0%".
+  const d = n !== 0 && Math.abs(n) < 1 ? Math.max(digits, 2) : digits;
+  return `${sign}${n.toFixed(d)}%`;
 }
 
 export function signedUsd(n: number): string {

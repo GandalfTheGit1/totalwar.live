@@ -96,9 +96,48 @@ export class SupabasePaperStore implements PaperStore {
   }
 }
 
+const MISSING_TABLE = /paper_accounts.*(schema cache|does not exist)/i;
+
+/**
+ * Uses the primary store until it reports that the `paper_accounts` table is missing
+ * (migration not applied yet), then switches to the fallback for the life of the process.
+ */
+export class FallbackPaperStore implements PaperStore {
+  private useFallback = false;
+
+  constructor(
+    private readonly primary: PaperStore,
+    private readonly fallback: PaperStore
+  ) {}
+
+  private async run<T>(task: (store: PaperStore) => Promise<T>): Promise<T> {
+    if (this.useFallback) return task(this.fallback);
+    try {
+      return await task(this.primary);
+    } catch (err) {
+      if (!(err instanceof Error) || !MISSING_TABLE.test(err.message)) throw err;
+      console.warn('[paper-betting] Supabase table paper_accounts missing; using local files. Apply supabase/migrations/20261026000000_paper_accounts.sql.');
+      this.useFallback = true;
+      return task(this.fallback);
+    }
+  }
+
+  load(playerId: string) {
+    return this.run((s) => s.load(playerId));
+  }
+
+  save(account: PaperAccount) {
+    return this.run((s) => s.save(account));
+  }
+}
+
 let singleton: PaperStore | null = null;
 
 export function getPaperStore(): PaperStore {
-  if (!singleton) singleton = isSupabaseConfigured ? new SupabasePaperStore() : new FilePaperStore();
+  if (!singleton) {
+    singleton = isSupabaseConfigured
+      ? new FallbackPaperStore(new SupabasePaperStore(), new FilePaperStore())
+      : new FilePaperStore();
+  }
   return singleton;
 }

@@ -7,6 +7,7 @@ import { randomUUID } from 'crypto';
 import { NextRequest, NextResponse } from 'next/server';
 import { PLAYER_ID_PATTERN } from './paper-store';
 import { PaperBetError } from './paper-engine';
+import { PolymarketUnavailableError } from './polymarket-client';
 
 export const PLAYER_COOKIE = 'wge_player';
 const ONE_YEAR = 60 * 60 * 24 * 365;
@@ -35,6 +36,9 @@ export function errorResponse(err: unknown): NextResponse {
   if (err instanceof PaperBetError) {
     const status = err.code === 'position_not_found' ? 404 : 422;
     return NextResponse.json({ error: err.message, code: err.code }, { status });
+  }
+  if (err instanceof PolymarketUnavailableError) {
+    return NextResponse.json({ error: 'Polymarket no responde ahora mismo. Inténtalo de nuevo.', code: 'upstream' }, { status: 503 });
   }
   console.error('[paper-betting]', err);
   return NextResponse.json({ error: 'Error interno del simulador de apuestas.' }, { status: 502 });
