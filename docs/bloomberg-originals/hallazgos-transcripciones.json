@@ -1,0 +1,4298 @@
+{
+ "stats": {
+  "videos": 20,
+  "sin_transcripcion": 0,
+  "elementos": 133,
+  "literal": 133,
+  "aproximada": 0,
+  "descartados": 0,
+  "termino_en_sistema": 56
+ },
+ "videos": [
+  {
+   "id": "1nBjb9VBuvc",
+   "title": "Inside Mexico City’s Housing Theft Crisis",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "MX"
+     ],
+     "companies": [],
+     "claim": "En Ciudad de México se 'roban' en promedio 11 viviendas al día por despojo (ocupación y escrituras falsificadas).",
+     "quote": "Criminals will stake out a property, monitoring when it will be vacant for an extended period of time.",
+     "why_important": "Mide la inseguridad jurídica de la propiedad residencial, riesgo directo para promotoras, REITs y hipotecarias expuestas a CDMX.",
+     "system_gap": "Módulo macro/riesgo país (lib/macro, geopolitical-countries) sin indicadores de seguridad de la propiedad ni delitos patrimoniales para MX.",
+     "search_terms": [
+      "despojo",
+      "dispossession",
+      "property rights"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "MX"
+     ],
+     "companies": [],
+     "claim": "Casi 100.000 casos de robo/despojo de propiedad en CDMX y Estado de México en la última década; entre un tercio y la mitad son disputas familiares, el resto invasiones.",
+     "quote": "Over the past decade, cases of property theft in Mexico City and Mexico State have added up to almost 100,000.",
+     "why_important": "Dimensiona el riesgo legal del activo inmobiliario en la mayor área metropolitana de México.",
+     "system_gap": "Falta serie de delitos patrimoniales por subnacional en lib/macro; los datos oficiales solo existen desde 2015 por cambio metodológico.",
+     "search_terms": [
+      "despojo",
+      "property theft",
+      "inmobiliar"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "MX"
+     ],
+     "companies": [],
+     "claim": "Los procesos judiciales tardan de 8 meses a 2 años con documentación en regla, pero más de 5 años en muchos casos, con mezcla de tribunales penales y civiles y apelaciones.",
+     "quote": "If everything is in order, it usually takes, in our experience, from eight months to two years. However, that's not the case in many of the cases that we see, and that might take more than five years.",
+     "why_important": "La lentitud judicial inmoviliza el capital y eleva el coste de resolver disputas de propiedad; afecta valoración y financiación de activos.",
+     "system_gap": "Dataset de eficiencia judicial/ejecución de contratos y derechos de propiedad por país (tipo Doing Business / Rule of Law) ausente en lib/macro.",
+     "search_terms": [
+      "contract enforcement",
+      "registro público",
+      "land registry"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "MX"
+     ],
+     "companies": [],
+     "claim": "Causas estructurales: gentrificación que encarece las propiedades, cultura de no registrar inmuebles o vender sin notario, y corrupción entre funcionarios, notarios y jueces.",
+     "quote": "public officials, notaries, judges that can all come in together",
+     "why_important": "Indica que el riesgo es sistémico y no se resolverá solo con más atención política; relevante para tesis inmobiliarias en CDMX.",
+     "system_gap": "El riesgo soberano de MX no desagrega corrupción institucional ni informalidad de la propiedad (registro/notarios).",
+     "search_terms": [
+      "notar",
+      "corrupción",
+      "gentrif"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "corrupción": [
+        "lib/services/sovereign-power/profiles/russia.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "MX"
+     ],
+     "companies": [],
+     "claim": "La jefa de gobierno Clara Brugada ofreció 100 abogados gratuitos a víctimas y hubo detenciones; la presidenta Sheinbaum ha sido preguntada en sus conferencias matutinas.",
+     "quote": "They have also offered the 100 lawyers to help out pro bono to several victims.",
+     "why_important": "Respuesta política aún limitada y reactiva; el backlog se espera que siga creciendo, lo que sostiene el riesgo a medio plazo.",
+     "system_gap": "Seguimiento de medidas de política pública locales/federales sobre seguridad de la propiedad no existe en el sistema.",
+     "search_terms": [
+      "Brugada",
+      "Sheinbaum",
+      "despojo"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "3kGQ7gsrOeA",
+   "title": "The Most Profitable Subway on Earth",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "HK"
+     ],
+     "companies": [
+      {
+       "name": "MTR Corporation",
+       "ticker": "66"
+      }
+     ],
+     "claim": "En 2025 MTR obtuvo unos 14.600 millones de HKD de beneficio, tres cuartas partes procedentes de bienes raíces y no de tarifas.",
+     "quote": "in 2025, the MTR made roughly 14.6 billion Hong Kong dollars in profit, three-quarters of it from real estate rather than train fares.",
+     "why_important": "Muestra que el valor de MTR depende del negocio inmobiliario y no del transporte, y por tanto del ciclo de propiedad de Hong Kong.",
+     "system_gap": "bloomberg-originals/videos.json solo guarda una tesis de una frase; faltan beneficio, mezcla de ingresos y datos por empresa listada de Hong Kong.",
+     "search_terms": [
+      "MTR Corporation",
+      "land value capture"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "HK"
+     ],
+     "companies": [
+      {
+       "name": "MTR Corporation",
+       "ticker": "66"
+      }
+     ],
+     "claim": "El gobierno de Hong Kong da a MTR terreno junto a las estaciones con descuento en vez de efectivo, y MTR lo licita a promotores privados (captura de valor del suelo).",
+     "quote": "Instead of cash, government is giving us land.",
+     "why_important": "Es el mecanismo de financiación del ferrocarril; si el suelo rinde menos, la financiación de nuevas líneas se resiente.",
+     "system_gap": "Falta un dataset de modelos de financiación de infraestructura por país (captura de valor del suelo, concesiones) en lib/data.",
+     "search_terms": [
+      "land value capture",
+      "land premium"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "HK"
+     ],
+     "companies": [
+      {
+       "name": "MTR Corporation",
+       "ticker": "66"
+      }
+     ],
+     "claim": "MTR paga al gobierno unos 6.000 millones de HKD al año en dividendos y gestiona 16 centros comerciales, torres de oficinas y 1.600 tiendas de estación.",
+     "quote": "the MTR pays roughly six billion Hong Kong dollars a year back to the government in dividends.",
+     "why_important": "Indica la rentabilidad por dividendo y la dependencia fiscal del gobierno respecto a una empresa cotizada con alto peso inmobiliario.",
+     "system_gap": "No hay dividendos ni activos inmobiliarios de empresas públicas de Hong Kong en lib/data.",
+     "search_terms": [
+      "MTR Corporation",
+      "dividend"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "HK"
+     ],
+     "companies": [
+      {
+       "name": "MTR Corporation",
+       "ticker": "66"
+      }
+     ],
+     "claim": "La primera estación del Northern Metropolis (Kwu Tung) cuesta ya un 70% más que lo estimado y no se compensa con derechos de desarrollo tan lucrativos como antes.",
+     "quote": "the first station being built for the Metropolis at Kwu Tung already costs about 70% more than original estimates.",
+     "why_important": "Sobrecostes sin ingresos inmobiliarios compensatorios erosionan el retorno de MTR y rompen su regla histórica de que el suelo paga el tren.",
+     "system_gap": "Falta un registro de riesgos de proyectos de infraestructura por país (sobrecostes, deuda) en lib/data.",
+     "search_terms": [
+      "Northern Metropolis",
+      "Kwu Tung"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "HK"
+     ],
+     "companies": [
+      {
+       "name": "MTR Corporation",
+       "ticker": "66"
+      }
+     ],
+     "claim": "MTR ha pedido prestados unos 140.000 millones de HKD para los proyectos futuros.",
+     "quote": "So far we have borrowed about 140 billion Hong Kong dollars for the coming projects.",
+     "why_important": "Apalancamiento elevado en un contexto de menor demanda de propiedad y alquileres a la baja.",
+     "system_gap": "No existen datos de deuda por empresa listada de Hong Kong; solo hay deuda soberana en lib/macro.",
+     "search_terms": [
+      "MTR Corporation",
+      "Hong Kong debt"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "HK",
+      "CN"
+     ],
+     "companies": [
+      {
+       "name": "MTR Corporation",
+       "ticker": "66"
+      }
+     ],
+     "claim": "El Northern Metropolis es un plan gubernamental de nuevo polo tecnológico para integrar Hong Kong con China continental, con medio millón de viviendas y siete estaciones nuevas.",
+     "quote": "a massive government plan to build a new tech hub to better integrate Hong Kong with mainland China, including the goal to build half a million new homes.",
+     "why_important": "Política industrial y de vivienda que condiciona constructoras, promotores y MTR, con motivación de integración política con China.",
+     "system_gap": "Falta un dataset de políticas industriales y megaproyectos por país y su vínculo con relaciones bilaterales (HK-CN).",
+     "search_terms": [
+      "Northern Metropolis",
+      "Hong Kong mainland integration"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "HK",
+      "CN"
+     ],
+     "companies": [],
+     "claim": "Los residentes de Hong Kong hacen más de 90 millones de viajes al año a Shenzhen, desviando gasto del comercio local, y los alquileres de tiendas MTR se ajustan a la baja.",
+     "quote": "residents now make more than 90 million trips a year to Shenzhen in mainland China, shifting spending across the border and away from local retailers.",
+     "why_important": "La fuga de consumo hacia China continental presiona retail y alquileres de Hong Kong, un riesgo para inmobiliarias y comercio minorista.",
+     "system_gap": "Falta indicador de flujos de consumo y turismo transfronterizo HK-CN en lib/macro o bilateral-relations.",
+     "search_terms": [
+      "Shenzhen",
+      "cross-border"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "Shenzhen": [
+        "lib/data/corporate-facilities/apple.ts",
+        "lib/services/geographic/sec-properties/types.ts"
+       ],
+       "cross-border": [
+        "lib/services/geopolitical/supply-chain-evaluator.ts",
+        "lib/services/sovereign-power/profiles/china.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "5VV11Zx_fzc",
+   "title": "Why Copper Miners Are Turning to Microbes | Bloomberg Primer",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [],
+     "companies": [],
+     "claim": "El precio del cobre se ha más que duplicado en los últimos 10 años por la demanda de electrificación (coches eléctricos, turbinas eólicas).",
+     "quote": "And its value has more than doubled over the last 10 years.",
+     "why_important": "Confirma un superciclo de precio estructural del cobre que mejora la rentabilidad de mineros y países exportadores (Chile, Perú, RDC) y encarece a los consumidores industriales.",
+     "system_gap": "lib/data/critical-commodities/metals.ts tiene perfil de cobre (orígenes vulnerables, cuotas) pero no serie de precios ni tendencia de precio/demanda.",
+     "search_terms": [
+      "copper",
+      "cobre"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/data/critical-commodities/metals.ts (cobre existe, sin dato de precio/tendencia)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "copper": [
+        "lib/data/wikipedia-production-articles.json",
+        "lib/data/natural-resources.json",
+        "lib/data/country-resources.json"
+       ],
+       "cobre": [
+        "lib/data/wikipedia-production-articles.json",
+        "lib/data/geopolitical-global-matrix.json",
+        "lib/data/natural-resources.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [],
+     "companies": [],
+     "claim": "La demanda mundial de electricidad se duplicaría hacia 2050, y sin cobre no habría redes, renovables, vehículos eléctricos ni centros de datos.",
+     "quote": "The global demand for electricity is expected to double by 2050.",
+     "why_important": "Es el motor de demanda de largo plazo del cobre; sostiene la tesis de inversión en mineras de cobre y en infraestructura eléctrica.",
+     "system_gap": "El perfil de cobre menciona la transición energética de forma cualitativa; falta proyección cuantitativa de demanda de cobre y de electricidad a 2050.",
+     "search_terms": [
+      "2050",
+      "demanda de cobre"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "2050": [
+        "lib/data/natural-resources.json",
+        "lib/data/country-resources.json",
+        "lib/data/territorial-claims/claims.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [],
+     "companies": [],
+     "claim": "La oferta de cobre es estructuralmente limitada: no se descubren minas nuevas fácilmente y abrir una cuesta mucho dinero y años, y la mayoría de mineras son reacias a invertir miles de millones en minas nuevas.",
+     "quote": "Opening a new mine costs a pretty penny, and it takes years to build.",
+     "why_important": "Un déficit de oferta con plazos largos de inversión sostiene precios altos y da poder de mercado a los productores actuales; riesgo de escasez para industrias electrificadas.",
+     "system_gap": "Falta en critical-commodities un indicador de pipeline de proyectos mineros, plazos de puesta en marcha y capex por país.",
+     "search_terms": [
+      "new mine",
+      "pipeline minero",
+      "capex minero"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [],
+     "companies": [],
+     "claim": "El cobre restante en la superficie está en menas de baja ley (0,25-0,3% de cobre), y los métodos tradicionales recuperan aproximadamente la mitad.",
+     "quote": "Most of the copper that's left on the surface of the planet is trapped in low-grade ores. I am talking rocks that are like 0.25 to 0.3% copper.",
+     "why_important": "La caída de la ley del mineral eleva costes y consumo de energía/agua por tonelada, y define qué minas y países seguirán siendo rentables.",
+     "system_gap": "country-resources.json y metals.ts dan producción y cuota de cobre pero no ley media del mineral ni tasa de recuperación por país/mina.",
+     "search_terms": [
+      "low-grade",
+      "ore grade",
+      "ley del mineral"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [],
+     "companies": [
+      {
+       "name": "Endolith",
+       "ticker": null
+      }
+     ],
+     "claim": "La lixiviación en pilas tradicional recupera solo un 20-50% del cobre; la biominería (microbios) busca elevar esa recuperación sin abrir minas nuevas, aunque aún no está probada a escala real.",
+     "quote": "Traditionally, heap leaches get about 20 to 50% of copper out. Endolith says they can get more",
+     "why_important": "Si la biominería funciona, aumenta la oferta de cobre de minas existentes con menor capex y menor huella de carbono; es una opción tecnológica para mineras y una amenaza para los proyectos greenfield.",
+     "system_gap": "No hay dataset de tecnologías de extracción ni de tasas de recuperación en lixiviación; ninguna mención a biominería.",
+     "search_terms": [
+      "biomining",
+      "heap leach",
+      "Endolith"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "La mina Carlota (EE. UU.) produce un 60% menos cobre que en su pico y está previsto que cierre a finales de la década salvo que se actúe.",
+     "quote": "This is Carlota Mine. It's producing about 60% less copper than it did during peak output. Unless something is done, it's set to shut down by the end of the decade.",
+     "why_important": "Ejemplo de agotamiento de minas maduras en EE. UU.; refuerza la dependencia de importaciones y el valor de tecnologías que alarguen la vida de minas existentes.",
+     "system_gap": "metals.ts lista activos estratégicos de cobre de EE. UU. sin vida útil de mina, curva de producción ni fecha de cierre.",
+     "search_terms": [
+      "Carlota",
+      "mine closure",
+      "cierre de mina"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "empresa",
+     "countries": [
+      "US",
+      "AU",
+      "GB"
+     ],
+     "companies": [
+      {
+       "name": "Rio Tinto",
+       "ticker": "RIO"
+      },
+      {
+       "name": "BHP",
+       "ticker": "BHP"
+      },
+      {
+       "name": "Endolith",
+       "ticker": null
+      },
+      {
+       "name": "Amazon Web Services",
+       "ticker": "AMZN"
+      }
+     ],
+     "claim": "Rio Tinto respalda Nuton (soluciones microbianas) y AWS ha comprado su cobre para centros de datos en EE. UU.; Endolith (fundada en 2023, algo más de 20 M$ levantados, subvención del DOE) tiene a BHP y Rio Tinto como socios.",
+     "quote": "Nuton, a venture backed by mining giant, Rio Tinto, is developing their own microbial solutions. Amazon Web Services has bought their copper for US data centres.",
+     "why_important": "Vincula directamente la demanda de centros de datos de los hiperescalares con la oferta de cobre y con la estrategia tecnológica de las grandes mineras (Rio Tinto, BHP).",
+     "system_gap": "Rio Tinto y BHP aparecen en metals.ts / natural-resources.json solo como activos; faltan sus programas de biominería (Nuton), contratos de compra de cobre de hiperescalares (AWS) y la relación mineras-centros de datos en corporate-facilities.",
+     "search_terms": [
+      "Nuton",
+      "Rio Tinto",
+      "Amazon Web Services"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "Rio Tinto en lib/data/critical-commodities/metals.ts y lib/data/natural-resources.json; Nuton/AWS-cobre no encontrados"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "Rio Tinto": [
+        "lib/data/natural-resources.json",
+        "lib/data/critical-commodities/metals.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "7PAZrSHoIhk",
+   "title": "The End of Thatcher’s Britain?",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "GB"
+     ],
+     "companies": [],
+     "claim": "El coste de endeudamiento a largo plazo del Reino Unido ha subido al nivel más alto desde 1998 y los inversores exigen una prima creciente frente a EE. UU., Francia, Italia y Alemania.",
+     "quote": "The cost of long-term UK government borrowing had been falling. Now it's risen to the highest level since 1998.",
+     "why_important": "Un rendimiento de gilts en máximos de 27 años encarece la deuda pública y privada, presiona valoraciones de empresas británicas y limita el margen fiscal del gobierno.",
+     "system_gap": "lib/macro/static-data.ts solo tiene un rendimiento estático del gilt a 10 años (4,28%); falta la serie histórica, el máximo desde 1998 y la prima/spread frente a Bund, OAT, BTP y Treasury.",
+     "search_terms": [
+      "gilt",
+      "Reino Unido (Gilt)"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/macro/static-data.ts (solo dato estático 4.28%, sin histórico ni prima)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "gilt": [
+        "lib/macro/static-data.ts"
+       ],
+       "Reino Unido (Gilt)": [
+        "lib/macro/static-data.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "GB"
+     ],
+     "companies": [],
+     "claim": "La deuda pública británica ronda el 94-96% del PIB (44% en 1979) y el pago de intereses cuesta aproximadamente una vez y media el presupuesto de defensa.",
+     "quote": "Now national debt is between about 94 and 96%. And debt interest alone is costing roughly one and a half times the entire defense budget.",
+     "why_important": "Una carga de intereses superior al gasto en defensa deja poco espacio fiscal, eleva el riesgo de subidas de impuestos o recortes y condiciona el riesgo soberano del Reino Unido.",
+     "system_gap": "Riesgo soberano / macro por país: falta deuda/PIB e intereses/PIB o intereses vs. defensa para GB, y comparación con el gasto militar de lib/services/sovereign-power.",
+     "search_terms": [
+      "debt interest",
+      "debt-to-gdp",
+      "deuda"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "deuda": [
+        "lib/services/sovereign-power/wargame-simulator.ts",
+        "lib/services/sovereign-power/profiles/taiwan.ts",
+        "lib/services/sovereign-power/profiles/china.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "GB"
+     ],
+     "companies": [],
+     "claim": "El primer ministro Andy Burnham plantea romper con cuatro décadas de ortodoxia de libre mercado, incluida la derogación del veto thatcheriano a la propiedad pública de las compañías de agua.",
+     "quote": "Prime Minister Andy Burnham now argues that Britain must break with four decades of free-market orthodoxy. The repeal of Margaret Thatcher's ideological ban on public ownership of water companies.",
+     "why_important": "Un giro hacia mayor control público de utilities e industria cambia el riesgo regulatorio y de expropiación para inversores en empresas británicas.",
+     "system_gap": "Falta un módulo de régimen de política económica por país (agenda del gobierno, giro nacionalizador/liberalizador) para GB; solo hay riesgo soberano base 1-10.",
+     "search_terms": [
+      "Burnham",
+      "nationalization",
+      "privatization"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "nationalization": [
+        "engine/relations/model/verify_cache.json"
+       ],
+       "privatization": [
+        "lib/data/natural-resources.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "GB"
+     ],
+     "companies": [
+      {
+       "name": "Thames Water",
+       "ticker": null
+      }
+     ],
+     "claim": "Nacionalizar el agua sería extraordinariamente caro: incluso recibiendo Thames Water gratis, el Estado tendría que financiar con miles de millones de libras la inversión que hoy aportan inversores privados.",
+     "quote": "Even if it got hold of Thames Water, for example, for free, the government would then have to pony up billions of pounds for the necessary investment",
+     "why_important": "Define el riesgo para acreedores y accionistas de las utilities de agua del Reino Unido y la tensión adicional sobre la deuda pública y los costes de endeudamiento.",
+     "system_gap": "Sin datos de utilities reguladas británicas (agua, energía, redes) ni de riesgo de nacionalización; ninguna empresa británica de agua en lib/data.",
+     "search_terms": [
+      "Thames Water",
+      "water companies",
+      "utilities"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "utilities": [
+        "lib/data/natural-resources.json",
+        "lib/services/geopolitical/tier-n-helpers.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "GB"
+     ],
+     "companies": [
+      {
+       "name": "British Steel",
+       "ticker": null
+      }
+     ],
+     "claim": "Se baraja la nacionalización de British Steel, en dificultades, y Burnham quiere una estrategia industrial doméstica con reindustrialización, aunque no hay una gran bolsa de dinero disponible.",
+     "quote": "There's been potential nationalization of British steel, which is in trouble. Burnham does seem to want to pursue a domestic industrial strategy, and he has talked about re-industrialization.",
+     "why_important": "Señala una posible intervención estatal en el sector siderúrgico y una política industrial activa, con implicaciones para proveedores, cadena de suministro y finanzas públicas.",
+     "system_gap": "Sin cobertura de la siderurgia británica ni de política industrial del Reino Unido en cadenas de valor (trade-dag) o recursos críticos.",
+     "search_terms": [
+      "British Steel",
+      "steel",
+      "industrial strategy"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "steel": [
+        "lib/data/natural-resources.json",
+        "lib/data/bilateral-relations/relations.json",
+        "engine/relations/model/v6_US-CN.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "GB"
+     ],
+     "companies": [],
+     "claim": "La nacionalización ferroviaria es casi gratuita porque los operadores solo tienen contratos de servicio: al expirar, el Estado asume la operación sin comprar infraestructura.",
+     "quote": "The nationalization of rail is very simple. It's free effectively because there is no infrastructure to buy. All that the rail operators have is a service contract.",
+     "why_important": "Indica qué operadores ferroviarios pierden contratos sin compensación relevante y cuál es la parte realmente cara del giro estatalista, útil para valorar exposición sectorial.",
+     "system_gap": "Sin datos de infraestructura y operadores de transporte ferroviario del Reino Unido ni del calendario de expiración de contratos.",
+     "search_terms": [
+      "rail",
+      "railway",
+      "ferroviario"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "rail": [
+        "lib/data/natural-resources.json",
+        "lib/services/sovereign-power/profiles/china.ts"
+       ],
+       "ferroviario": [
+        "lib/services/maritime-chokepoints/chokepoints-data.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "GB"
+     ],
+     "companies": [],
+     "claim": "Si los mercados perciben que Burnham se endeuda de forma irresponsable para financiar sus promesas, le cobrarán más por la deuda, lo que limita su margen de maniobra.",
+     "quote": "if the bond markets get a sense that he's borrowing money irresponsibly, they will charge him more for that borrowing.",
+     "why_important": "El mercado de bonos actúa como límite a la política fiscal: un episodio de estrés en gilts afectaría a la libra, a la banca y a empresas apalancadas del Reino Unido.",
+     "system_gap": "Falta un indicador de espacio fiscal (headroom) y de sensibilidad del coste de deuda a anuncios de política para GB en lib/macro.",
+     "search_terms": [
+      "fiscal headroom",
+      "bond market",
+      "gilt"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "gilt": [
+        "lib/macro/static-data.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Gw606P4B5V0",
+   "title": "How L’Oreal Is Adapting to Meet the New Beauty Era | Quantum Marketing",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "FR"
+     ],
+     "companies": [
+      {
+       "name": "L'Oréal",
+       "ticker": "OR"
+      }
+     ],
+     "claim": "La economía de influencers superó los 33.000 millones de dólares el año pasado y los microinfluencers generan engagement casi triple que los macroinfluencers; L'Oréal trabaja con cerca de medio millón de creadores.",
+     "quote": "The influencer economy is booming and surpassed 33 billion dollars last year.",
+     "why_important": "Muestra que el marketing de belleza se desplaza hacia creadores y comunidades pequeñas, lo que afecta a los costes de adquisición de clientes y a la ventaja de escala de los grandes grupos como L'Oréal.",
+     "system_gap": "Bloomberg Originals / datos de empresas: no hay métricas de canal de marketing ni de gasto en creadores por empresa de bienes de consumo.",
+     "search_terms": [
+      "influencer",
+      "creator economy",
+      "L'Oréal"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "FR"
+     ],
+     "companies": [
+      {
+       "name": "L'Oréal",
+       "ticker": "OR"
+      }
+     ],
+     "claim": "Hacia 2040 el 43% de la población mundial tendrá pelo rizado o afro y hacia 2050 una de cada seis personas tendrá más de 65 años, lo que L'Oréal usa para orientar innovación (cuidado capilar específico y ciencia de longevidad).",
+     "quote": "by 2040, 43% of the world will have curly or coily hair.",
+     "why_important": "Tendencias demográficas de largo plazo que definen la demanda de categorías de belleza (envejecimiento, cuidado del cuero cabelludo) y los mercados de crecimiento del sector.",
+     "system_gap": "Macro por país / datos demográficos: no hay proyecciones de envejecimiento ni estructura de demanda sectorial ligadas a empresas de consumo.",
+     "search_terms": [
+      "longevity",
+      "aging population",
+      "demograph"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "empresa",
+     "countries": [
+      "FR"
+     ],
+     "companies": [
+      {
+       "name": "L'Oréal",
+       "ticker": "OR"
+      },
+      {
+       "name": "ModiFace",
+       "ticker": null
+      }
+     ],
+     "claim": "L'Oréal adquirió ModiFace en 2018 y escaló la prueba virtual con realidad aumentada a todas sus marcas, plataformas y minoristas, además de diagnóstico de piel con reconocimiento de imagen entrenado con miles de imágenes anotadas por dermatólogos.",
+     "quote": "back in 2018, we L'Oreal actually acquired a company called Modiface, and Modiface was kind of leading in this beauty augmented reality and virtual try-on technology",
+     "why_important": "Indica una ventaja tecnológica propia (AR e IA de diagnóstico) que puede sostener fidelidad de clientes y márgenes frente a competidores.",
+     "system_gap": "Instalaciones corporativas / cadenas de valor: L'Oréal y el sector cosmético no tienen módulo de activos tecnológicos ni adquisiciones.",
+     "search_terms": [
+      "Modiface",
+      "cosmetic",
+      "L'Oréal"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "FR"
+     ],
+     "companies": [
+      {
+       "name": "L'Oréal",
+       "ticker": "OR"
+      }
+     ],
+     "claim": "Los LLM y chatbots se convierten en la puerta de entrada al descubrimiento de belleza (OpenAI llegaría a 1.000 millones de usuarios en 2026); L'Oréal busca posicionarse en la capa de respuestas con 280.000 profesionales sanitarios y 850 publicaciones como respaldo de autoridad.",
+     "quote": "if LLMs are becoming the front door to beauty discovery, then what what do we do anyway? Billions of consumers are chatting and asking questions",
+     "why_important": "Riesgo de disrupción del canal de adquisición (de redes sociales y buscadores a asistentes de IA) que puede erosionar la ventaja de marca o reforzarla a quien tenga datos científicos creíbles.",
+     "system_gap": "Módulo de empresas de consumo: falta análisis de riesgo de disrupción de canal por IA generativa y de activos de credibilidad científica.",
+     "search_terms": [
+      "answer layer",
+      "generative AI",
+      "LLM"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "LLM": [
+        "lib/data/bilateral-relations/relations.json",
+        "lib/data/tech-tree/definition.ts",
+        "lib/data/tech-tree/fixtures/labeled-news-50.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "FR"
+     ],
+     "companies": [
+      {
+       "name": "L'Oréal",
+       "ticker": "OR"
+      }
+     ],
+     "claim": "L'Oréal decidió no usar caras, cuerpos, pelo o piel realistas generados por IA para mostrar beneficios del producto en su comunicación externa, y limita la IA a fondos y automatización de producción de contenido.",
+     "quote": "we are not going to use AI-generated, lifelike face, body, hair, or skin to enhance the product benefits in our external communication because real people use a shampoo.",
+     "why_important": "Política de marca que protege la confianza del consumidor y reduce riesgo reputacional y regulatorio por publicidad engañosa, a costa de menos ahorro de costes en producción.",
+     "system_gap": "Módulo de gobernanza corporativa/ESG: no hay registro de políticas de uso de IA por empresa.",
+     "search_terms": [
+      "AI-generated",
+      "AI policy",
+      "L'Oréal"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "HIqfMDSxrXU",
+   "title": "Qualcomm Wants to Make the Invisible Visible  | Quantum Marketing",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Qualcomm",
+       "ticker": "QCOM"
+      }
+     ],
+     "claim": "Qualcomm está diversificando más allá del móvil: ha entrado en el mercado de centros de datos (con una nueva marca de producto) y en robótica (familia Dragonwing).",
+     "quote": "that's what led us to introducing Dragonfly, which is our latest product. It goes along with our entrance into the data center space.",
+     "why_important": "Cambia la tesis de QCOM de proveedor de chips móviles a jugador en infraestructura de IA y robótica, con nuevos mercados y competidores (NVDA, AMD) y mayor exposición al ciclo de capex de hiperescalares.",
+     "system_gap": "corporate-facilities/fabless-chips.ts solo registra sedes e I+D de QCOM (San Diego, Hyderabad); faltan líneas de negocio (centros de datos, robótica, auto) y su peso en ingresos.",
+     "search_terms": [
+      "Dragonwing",
+      "Dragonfly",
+      "data center"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "data center": [
+        "lib/data/corporate-facilities/apple.ts",
+        "lib/data/corporate-facilities/hyperscale-auto.ts",
+        "lib/data/corporate-facilities/microsoft-google.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Qualcomm",
+       "ticker": "QCOM"
+      }
+     ],
+     "claim": "Según su CMO, la marca Snapdragon eleva los precios medios de venta (ASP) de Qualcomm porque los consumidores la perciben como premium.",
+     "quote": "We have found that if we can drive pull for Snapdragon in these devices, our average selling prices tend to be higher because consumers view Snapdragon as premium.",
+     "why_important": "Indica poder de fijación de precios y márgenes sostenibles en un negocio de componentes, un factor de moat relevante para valorar QCOM.",
+     "system_gap": "El sistema no tiene métricas de ASP, márgenes ni poder de marca de las fabless (solo ubicaciones de instalaciones en corporate-facilities).",
+     "search_terms": [
+      "Snapdragon",
+      "ASP",
+      "average selling price"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "Snapdragon": [
+        "lib/data/corporate-facilities/fabless-chips.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Qualcomm",
+       "ticker": "QCOM"
+      }
+     ],
+     "claim": "Qualcomm defiende que la IA en el dispositivo (edge) ahorra costes frente a la IA en la nube, cuyo coste de tokens y capex de los hiperescalares se traslada al usuario.",
+     "quote": "the more you can process closer to the device or on device or on prem, the more economically valuable it is to the user, right? You're saving cost.",
+     "why_important": "Es la tesis central de QCOM en la era de la IA: si el coste de inferencia en la nube sube, la IA en el dispositivo gana demanda; contrasta con la tesis de centros de datos de NVDA/hiperescalares.",
+     "system_gap": "No hay módulo que modele el reparto IA en el borde vs nube ni el coste de inferencia; solo aparece 'edge AI' como descripción en fabless-chips.ts.",
+     "search_terms": [
+      "on-device AI",
+      "edge AI",
+      "inference cost"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "HffLUwKl8TY",
+   "title": "Can Japan’s Economy Afford Takaichi’s Big Bet?",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "politica",
+     "countries": [
+      "JP"
+     ],
+     "companies": [],
+     "claim": "El gobierno de Takaichi plantea una inversión pública y privada de 370 billones de yenes en 14 años (hasta 2040) repartida en 17 sectores estratégicos: IA, defensa, energía, semiconductores, tecnología alimentaria y contenidos como manga y anime.",
+     "quote": "a 370 trillion yen investment, public and private, over 14 years. She has laid out 17 crucial sectors, including artificial intelligence, defense, energy, and semiconductors",
+     "why_important": "Define qué sectores japoneses recibirán capital y respaldo político en la próxima década (chips, defensa, energía, IA); orienta la selección de empresas, aunque es un objetivo y no un cheque del Estado.",
+     "system_gap": "lib/services/sovereign-power/profiles/japan.ts y lib/data/trade-dag/semiconductors.ts no recogen la política industrial vigente de Japón (importe, plazo ni los 17 sectores); falta un dataset de políticas industriales por país.",
+     "search_terms": [
+      "Takaichi",
+      "370 trillion",
+      "industrial policy"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "JP"
+     ],
+     "companies": [],
+     "claim": "Takaichi se compromete a bajar el impuesto al consumo sobre alimentos y bebidas sin alcohol del 8% al 1% durante dos años desde abril de 2027, lo que preocupa a los mercados por el aumento de la deuda pública.",
+     "quote": "cut the consumption tax on food and soft drinks for two years from 8% to 1%. But this plan, which is set to start in April of 2027, also has markets concerned about mounting government debt.",
+     "why_important": "Un recorte fiscal con fecha concreta afecta al consumo interno, a la oferta de bonos del Estado (JGB) y al coste de financiación; es un catalizador de riesgo soberano y de rendimientos.",
+     "system_gap": "lib/macro/static-data.ts tiene el rendimiento del JGB a 10 años pero no los cambios fiscales previstos ni su calendario; falta un registro de medidas fiscales y su impacto en emisión de deuda.",
+     "search_terms": [
+      "consumption tax",
+      "JGB",
+      "fiscal"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "JGB": [
+        "lib/macro/static-data.ts"
+       ],
+       "fiscal": [
+        "lib/data/geopolitical-global-matrix.json",
+        "lib/data/natural-resources.json",
+        "lib/data/geopolitical-countries/europe.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "JP"
+     ],
+     "companies": [],
+     "claim": "La deuda pública de Japón supera el doble de su PIB y su servicio absorbe alrededor de una quinta parte del presupuesto anual; financiar el plan de 370 billones exigiría emitir más bonos.",
+     "quote": "Still, servicing that debt swallows up about a fifth of",
+     "why_important": "El peso del servicio de la deuda limita el margen fiscal y expone la economía a subidas de tipos; es un factor central del riesgo soberano de Japón y de sus bancos y aseguradoras.",
+     "system_gap": "lib/services/sovereign-power/profiles/japan.ts solo guarda debtToGdpPercent (260); falta la carga de intereses sobre el presupuesto y las necesidades de emisión extra de bonos.",
+     "search_terms": [
+      "debt service",
+      "debtToGdpPercent",
+      "bond issuance"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/services/sovereign-power/profiles/japan.ts (solo debtToGdpPercent, no servicio de la deuda)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "debt service": [
+        "lib/macro/bis-client.ts",
+        "lib/macro/fred/types.ts"
+       ],
+       "debtToGdpPercent": [
+        "lib/services/sovereign-power/profiles/taiwan.ts",
+        "lib/services/sovereign-power/profiles/united-states.ts",
+        "lib/services/sovereign-power/profiles/china.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "relacion_bilateral",
+     "countries": [
+      "JP",
+      "CN"
+     ],
+     "companies": [],
+     "claim": "Tras decir Takaichi que una guerra por Taiwán sería una amenaza existencial para Japón, China respondió con una campaña diplomática para aislarla; Pekín es el mayor socio comercial de Japón y su máximo diplomático describe la relación en mínimos.",
+     "quote": "When Takaichi said that a war over Taiwan would be an existential threat for Japan",
+     "why_important": "El deterioro Japón-China amenaza el principal vínculo comercial de Japón y a las empresas con exposición a ambos mercados; añade riesgo de represalias económicas.",
+     "system_gap": "engine/relations/model y lib/data/bilateral-relations/relations.json deberían reflejar el enfriamiento JP-CN de 2026 (disparador: declaraciones sobre Taiwán, ausencia de contacto de alto nivel) como evento reciente.",
+     "search_terms": [
+      "existential threat",
+      "Takaichi",
+      "Taiwan"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "Taiwan": [
+        "lib/data/countries.json",
+        "lib/data/geopolitical-global-matrix.json",
+        "lib/data/corporate-facilities/fabless-chips.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "JP",
+      "US"
+     ],
+     "companies": [],
+     "claim": "El yen cotizó por encima de 160 por dólar en julio de 2026, cerca de su mínimo en cuatro décadas, y Japón y el Tesoro de EE. UU. intervinieron de forma coordinada por primera vez en unos 15 años; Bessent dice que no dudará en volver a hacerlo. Japón posee más de un billón de dólares en deuda estadounidense.",
+     "quote": "A coordinated intervention for the first time in about 15 years.",
+     "why_important": "Un yen débil encarece importaciones de energía y alimentos, alimenta la inflación y condiciona los márgenes de importadores y exportadores; una intervención conjunta o una venta de Treasuries por Japón tendría efectos globales.",
+     "system_gap": "El sistema solo tiene el código JPY en el perfil de Japón; falta un módulo de divisas con tipo de cambio, intervenciones y tenencias de deuda extranjera por país.",
+     "search_terms": [
+      "intervention",
+      "USDJPY",
+      "yen"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "intervention": [
+        "engine/relations/model/verify_cache.json"
+       ],
+       "yen": [
+        "lib/services/sovereign-power/profiles/japan.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "JP"
+     ],
+     "companies": [],
+     "claim": "Japón depende en gran medida del petróleo de Oriente Medio y la guerra de EE. UU. e Israel con Irán encareció energía y materiales, incluso interrumpiendo el suministro de tinta para envases; el gobierno subvenciona combustible y diversifica proveedores.",
+     "quote": "Japan was hugely reliant on oil from the Middle East. They were very vulnerable to rising oil prices.",
+     "why_important": "La dependencia energética convierte cualquier choque en Ormuz en inflación e inestabilidad de márgenes para la industria japonesa; la diversificación de suministro es una variable de riesgo clave.",
+     "system_gap": "El perfil de Japón cita la dependencia de crudo por Ormuz pero no el impacto del conflicto de 2026 en precios y cadenas, ni las subvenciones y la diversificación de suministro de petróleo.",
+     "search_terms": [
+      "Ormuz",
+      "oil dependence",
+      "subsid"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/services/sovereign-power/profiles/japan.ts (solo criticalDependencies genérica)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "Ormuz": [
+        "lib/data/geopolitical-global-matrix.json",
+        "lib/data/geopolitical-countries/middle-east-africa.ts",
+        "lib/data/critical-commodities/energy-tech.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "JP"
+     ],
+     "companies": [],
+     "claim": "El gasto en defensa de Japón pasó de alrededor del 1% del PIB durante décadas a cerca del 2% desde 2022 y Takaichi quiere superarlo y reformar las directrices de defensa.",
+     "quote": "Japan has had defense spending of around 1% of GDP for decades. That changed in 2022 under previous Prime Minister Kishida.",
+     "why_important": "Un mayor presupuesto de defensa abre oportunidades para el sector de defensa y la industria pesada japonesa, pero aumenta la presión sobre la deuda.",
+     "system_gap": "lib/services/sovereign-power/profiles/japan.ts tiene defenseBudgetGdpPercent: 1.6; está desactualizado frente al ~2% actual y no registra la intención de elevarlo ni la revisión de directrices.",
+     "search_terms": [
+      "defenseBudgetGdpPercent",
+      "defense guideline"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/services/sovereign-power/profiles/japan.ts (valor 1.6, desactualizado)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "defenseBudgetGdpPercent": [
+        "lib/services/sovereign-power/profiles/taiwan.ts",
+        "lib/services/sovereign-power/profiles/united-states.ts",
+        "lib/services/sovereign-power/profiles/china.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "JP"
+     ],
+     "companies": [],
+     "claim": "Las muertes superan a los nacimientos en Japón y la población centenaria supera los seis dígitos, mientras Takaichi endurece las reglas de inmigración pese a que el país necesita más trabajadores extranjeros.",
+     "quote": "Japan currently needs more foreign workers, yet Takaichi has tightened immigration rules and promised tougher enforcement.",
+     "why_important": "Una fuerza laboral en contracción con menos inmigración limita el crecimiento potencial y la capacidad de financiar el envejecimiento; condiciona el crecimiento a largo plazo y el sector de automatización.",
+     "system_gap": "No hay dataset de demografía por país (envejecimiento, fuerza laboral, políticas migratorias) en lib/data ni lib/macro; falta para Japón y otros países envejecidos.",
+     "search_terms": [
+      "aging population",
+      "immigration",
+      "workforce"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "KiB3YHyDcbs",
+   "title": "How Airbnb Hopes to Build Brand Loyalty | Quantum Marketing",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Airbnb",
+       "ticker": "ABNB"
+      }
+     ],
+     "claim": "Según la propia compañía, más de 2.500 millones de huéspedes se han alojado en Airbnb desde 2008, en casi todos los países del mundo.",
+     "quote": "the company says more than two and a half billion guests have checked into an Airbnb in almost every country around the world",
+     "why_important": "Indica la escala y la huella global de la plataforma (cifra autodeclarada), relevante para estimar su exposición turística por país.",
+     "system_gap": "corporate-facilities y country-resources no incluyen plataformas turísticas ni exposición de Airbnb por país; bloomberg-originals/videos.json solo guarda título y tesis.",
+     "search_terms": [
+      "airbnb",
+      "ABNB"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Airbnb",
+       "ticker": "ABNB"
+      }
+     ],
+     "claim": "Airbnb ha tenido que enfrentarse a regulaciones municipales y a la insatisfacción de usuarios en sus 20 años de historia; su modelo depende de recuperar la confianza de huéspedes y anfitriones.",
+     "quote": "Airbnb has faced its fair share of adversaries, from battling city regulations to navigating user dissatisfaction",
+     "why_important": "La regulación local del alquiler de corta duración es un riesgo recurrente para el negocio y varía por ciudad y país.",
+     "system_gap": "No hay dataset de regulación de alquiler turístico por país/ciudad ni riesgo regulatorio sectorial en lib/data ni lib/macro.",
+     "search_terms": [
+      "airbnb",
+      "short-term rental",
+      "alquiler turístico"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Airbnb",
+       "ticker": "ABNB"
+      }
+     ],
+     "claim": "Airbnb quiere ampliar su negocio del alojamiento a todo el viaje (experiencias, servicios bajo demanda) para vender más a clientes existentes, que viajan unas pocas veces al año; las Experiences lanzadas en 2016 no tuvieron tracción.",
+     "quote": "Originally launched in 2016, experiences failed to. Gain traction.",
+     "why_important": "Marca la estrategia de crecimiento por ingresos por cliente y el riesgo de ejecución previo en su línea de experiencias.",
+     "system_gap": "El sistema no modela empresas de turismo/plataformas ni su estrategia de diversificación; falta ficha de empresa para ABNB.",
+     "search_terms": [
+      "airbnb",
+      "experiences",
+      "turismo"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "turismo": [
+        "lib/data/natural-resources.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Lcj0KqB4-40",
+   "title": "How K. Don Cornwell’s Private Equity Firm Is Changing the NFL | The Deal",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Seattle Seahawks (familia Khosla)",
+       "ticker": null
+      },
+      {
+       "name": "Dynasty Equity",
+       "ticker": null
+      }
+     ],
+     "claim": "La familia de Vinod Khosla compró los Seattle Seahawks al patrimonio de Paul Allen por 9.500 millones de dólares, con Dynasty Equity como inversor minoritario.",
+     "quote": "Vinod Khosla and his family buying the Seattle Seahawks from the estate of Paul Allen for $9.5 billion",
+     "why_important": "Es una referencia de valoración reciente para franquicias de la NFL y muestra que el capital institucional ya participa en el deporte profesional estadounidense.",
+     "system_gap": "No existe ningún dataset de valoraciones de franquicias deportivas ni de transacciones de capital privado en deporte (lib/data); solo hay título y tesis en bloomberg-originals/videos.json.",
+     "search_terms": [
+      "Seahawks",
+      "Khosla",
+      "Dynasty Equity"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "NFL",
+       "ticker": null
+      }
+     ],
+     "claim": "La NFL limita al 10% la participación de capital privado en un equipo y solo unas cinco firmas están aprobadas como fuente de financiación.",
+     "quote": "because there's a rule that private equity can only up to 10% of a team",
+     "why_important": "El tope regulatorio de la liga define el techo de retorno y la competencia entre fondos para entrar en franquicias; los inversores nunca pueden ser propietarios de control.",
+     "system_gap": "El módulo de regulación/políticas por país no recoge reglas de propiedad de ligas deportivas ni límites a capital institucional; falta un dataset de sector deportes.",
+     "search_terms": [
+      "NFL",
+      "private equity sports",
+      "franchise ownership cap"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "NFL",
+       "ticker": null
+      }
+     ],
+     "claim": "La oficina de la liga (contratos de medios, convenios laborales) puede generar hasta el 75% de la economía de la NFL.",
+     "quote": "So it's a huge part of the economics. In the NFL, it could be up to 75% of the economics.",
+     "why_important": "Indica que el valor de una franquicia depende de la negociación centralizada de derechos de medios, por lo que el riesgo clave es el de la liga, no el del equipo individual.",
+     "system_gap": "No hay datos de derechos de medios ni de estructura de ingresos de ligas deportivas en el sistema.",
+     "search_terms": [
+      "NFL",
+      "media rights",
+      "league office"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "empresa",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "TMRW Sports",
+       "ticker": null
+      },
+      {
+       "name": "Dynasty Equity",
+       "ticker": null
+      },
+      {
+       "name": "PGA Tour",
+       "ticker": null
+      }
+     ],
+     "claim": "TMRW Sports (golf y flag football profesional, con PGA Tour, LPGA y NFL) tiene un modelo de baja intensidad de capital: un solo recinto de 75 millones de dólares y propiedad de la economía a nivel de liga.",
+     "quote": "It wasn't about building 20 stadiums around the country. It was one $75 million venue.",
+     "why_important": "Ofrece exposición a economía de liga completa (plataforma, fans, patrocinadores) con bajo capex y socios institucionales, un perfil distinto a poseer un equipo.",
+     "system_gap": "El sistema no tiene empresas de deporte/entretenimiento ni sus métricas de unidad económica (capex, ingresos de liga).",
+     "search_terms": [
+      "TMRW",
+      "PGA Tour",
+      "flag football"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Ares Management",
+       "ticker": "ARES"
+      },
+      {
+       "name": "Apollo Global Management",
+       "ticker": "APO"
+      },
+      {
+       "name": "KKR",
+       "ticker": "KKR"
+      }
+     ],
+     "claim": "Los grandes gestores de capital privado (Ares, Apollo, KKR) han entrado en el deporte, consolidándolo como clase de activo.",
+     "quote": "big brand names, if you think about whether it's Ares, Apollo, KKR, they've all jumped into sports",
+     "why_important": "La entrada de grandes fondos eleva la liquidez y las valoraciones de franquicias y es una señal de flujo de capital institucional hacia el sector.",
+     "system_gap": "No hay cobertura de gestores de capital privado ni de sus tesis sectoriales en lib/data ni lib/services.",
+     "search_terms": [
+      "KKR",
+      "Apollo Global",
+      "Ares Management"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Amazon",
+       "ticker": "AMZN"
+      },
+      {
+       "name": "Alphabet",
+       "ticker": "GOOGL"
+      },
+      {
+       "name": "Netflix",
+       "ticker": "NFLX"
+      }
+     ],
+     "claim": "Amazon, Google y Netflix entran en el deporte en directo, y la demanda de eventos presenciales (como el Mundial de este verano) impulsa el sector.",
+     "quote": "when you have this combination of Amazon and Google and Netflix all coming into sports, plus consumers really wanting to be together",
+     "why_important": "La competencia de plataformas tecnológicas por derechos deportivos respalda los precios de los derechos de medios y, con ellos, las valoraciones de ligas y equipos.",
+     "system_gap": "corporate-facilities cubre AMZN y GOOGL solo como instalaciones; falta su exposición a derechos de streaming deportivo y la demanda de eventos en vivo.",
+     "search_terms": [
+      "Netflix",
+      "streaming rights",
+      "sports media"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "NFL",
+       "ticker": null
+      }
+     ],
+     "claim": "El flag football será deporte olímpico en Los Ángeles 2028 y la NFL planea lanzar ligas profesionales masculina y femenina.",
+     "quote": "in 2028 in Los Angeles, flag football, both on the men's and women's side will be an Olympic sport.",
+     "why_important": "Abre un nuevo mercado de crecimiento (juvenil, femenino, internacional) con catalizador olímpico para patrocinadores, medios y operadores de ligas.",
+     "system_gap": "No existe calendario de catalizadores sectoriales (eventos como JJ. OO. 2028) ni dataset de deportes emergentes por país.",
+     "search_terms": [
+      "flag football",
+      "LA28",
+      "Olympics 2028"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Dynasty Equity",
+       "ticker": null
+      }
+     ],
+     "claim": "La presencia de capital privado en las cuatro grandes ligas da una vía de salida a familias adineradas, atrayendo más compradores y sosteniendo las valoraciones.",
+     "quote": "So what you've seen since private equity has been allowed into the four major leagues is that more wealthy families are coming in",
+     "why_important": "La liquidez de salida reduce la prima de iliquidez de las franquicias y puede seguir empujando los precios al alza, aunque también implica riesgo de burbuja de valoración.",
+     "system_gap": "Sin dataset de valoraciones y múltiplos de franquicias deportivas ni de flujos de capital institucional al sector.",
+     "search_terms": [
+      "sports franchise valuation",
+      "private equity sports"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "UgYnjB2es2s",
+   "title": "Why Brazil Can’t Hide From Its Debt",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "BR"
+     ],
+     "companies": [],
+     "claim": "La deuda pública de Brasil, que había bajado tras la pandemia, vuelve a crecer y el FMI estima que superará el 100% del PIB a finales de la década; el servicio de la deuda supera el 8% del PIB por los tipos de interés de doble dígito.",
+     "quote": "But with double-digit interest rates, Brazil pays far more to service its borrowing. That cost is now over 8% of GDP.",
+     "why_important": "Un servicio de deuda superior al 8% del PIB con deuda camino del 100% limita el margen fiscal y eleva el riesgo soberano y la prima de los bonos brasileños.",
+     "system_gap": "Macro por país (lib/macro) y riesgo soberano base (lib/data/geopolitical-countries) no incluyen proyección de deuda/PIB del FMI ni coste del servicio de deuda para Brasil.",
+     "search_terms": [
+      "debt service",
+      "debt-to-GDP",
+      "deuda pública"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "debt service": [
+        "lib/macro/bis-client.ts",
+        "lib/macro/fred/types.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "BR"
+     ],
+     "companies": [],
+     "claim": "Más del 80% de los hogares brasileños tiene algún tipo de deuda y los tipos rotativos de las tarjetas de crédito superan el 400% anual, lo que alimenta un riesgo de desaceleración o recesión del consumo.",
+     "quote": "The rotating interest rates of credit cards in Brazil reach over 400% a year. So this is a snowball that for some people is impossible to get out of.",
+     "why_important": "El sobreendeudamiento de los hogares frena el consumo, principal motor del crecimiento, y presiona a bancos, minoristas y emisores de crédito.",
+     "system_gap": "No hay dataset de endeudamiento de hogares ni de tipos de tarjeta para Brasil; solo aparecen series FRED de EE. UU. en lib/macro/fred/types.ts.",
+     "search_terms": [
+      "household debt",
+      "credit card",
+      "endividamento"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "household debt": [
+        "lib/macro/fred/types.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "BR"
+     ],
+     "companies": [],
+     "claim": "Las empresas brasileñas con pagos atrasados deben cerca de 239.000 millones de reales (unos 46.000 millones de dólares), un récord; el 90% de los nueve millones de negocios morosos son pequeñas y microempresas, y el agro está en niveles récord de impago.",
+     "quote": "Across Brazil, companies behind on their payments now owe nearly 239 billion reais, or about $46 billion, a record high.",
+     "why_important": "Un máximo histórico de morosidad empresarial, con el agro (clave en las exportaciones) renegociando deuda contraída en la pandemia, indica riesgo de crédito para bancos y proveedores agrícolas.",
+     "system_gap": "Macro/BIS no incluye morosidad corporativa ni deuda del agro brasileño; el módulo de recursos (country-resources.json) solo cubre producción, no apalancamiento.",
+     "search_terms": [
+      "corporate defaults",
+      "inadimplência",
+      "recuperação judicial"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "empresa",
+     "countries": [
+      "BR"
+     ],
+     "companies": [
+      {
+       "name": "Raizen",
+       "ticker": null
+      },
+      {
+       "name": "Casas Bahia",
+       "ticker": null
+      }
+     ],
+     "claim": "Raizen ha reestructurado su deuda este año y Casas Bahia, una de las cadenas minoristas más populares de Brasil, ha pedido protección por quiebra.",
+     "quote": "We had Casas Bahia, one of the most popular retail chains in Brazil just very recently filing for bankruptcy protection.",
+     "why_important": "Son casos de alto perfil de estrés financiero en energía/biocombustibles y retail; señalan contagio del apalancamiento a grandes emisores y a la renta fija corporativa local.",
+     "system_gap": "Sin empresas brasileñas en corporate-facilities, trade-dag ni sovereign-power; falta un registro de emisores en estrés para Brasil.",
+     "search_terms": [
+      "Raizen",
+      "Casas Bahia",
+      "bankruptcy protection"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "BR"
+     ],
+     "companies": [],
+     "claim": "Las apuestas en línea, legalizadas en 2018, mueven hasta 30.000 millones de reales (5.800 millones de dólares) al mes según el Banco Central, lo que agrava el sobreendeudamiento de los hogares.",
+     "quote": "According to Central Bank estimates, Brazilians wager as much as 30 billion reais or 5.8 billion dollars a month.",
+     "why_important": "Es una fuga de renta disponible que reduce el consumo y la capacidad de pago, y abre un sector regulatorio nuevo con riesgo político.",
+     "system_gap": "No existe ningún dato sobre apuestas en línea ni regulación de juego en Brasil en los módulos de macro o políticas.",
+     "search_terms": [
+      "online gambling",
+      "apostas",
+      "betting"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "betting": [
+        "lib/services/prediction-markets/player-session.ts",
+        "lib/services/prediction-markets/paper-service.ts",
+        "lib/services/prediction-markets/types.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "otro",
+     "countries": [
+      "BR"
+     ],
+     "companies": [],
+     "claim": "Pix, el sistema de pago instantáneo gestionado por el Estado, ha sustituido al efectivo e incorpora un componente de crédito instantáneo; junto con las fintechs ha ampliado el acceso al crédito, y entre 2020 y 2024 las tarjetas activas crecieron aproximadamente tres cuartas partes.",
+     "quote": "Between 2020 and 2024, the number of active credit cards in Brazil jumped by roughly three quarters, while the number of people using them increased by 37 million.",
+     "why_important": "Explica el origen del auge de crédito y la oportunidad/riesgo para fintechs y bancos brasileños frente a un ciclo de morosidad.",
+     "system_gap": "Falta infraestructura de pagos digitales (Pix) y penetración de crédito/fintech de Brasil en macro e infraestructura; fintech solo aparece en el árbol tecnológico y perfiles de otros países.",
+     "search_terms": [
+      "Pix",
+      "fintech",
+      "instant payment"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "fintech": [
+        "lib/data/tech-tree/definition.ts",
+        "lib/services/sovereign-power/profiles/taiwan.ts",
+        "lib/services/sovereign-power/profiles/united-states.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "BR"
+     ],
+     "companies": [],
+     "claim": "Más del 50% del presupuesto federal brasileño se destina a pensiones y gasto obligatorio constitucional; el gobierno de Lula impulsa gasto social (Bolsa Familia) que puede alimentar la inflación, mientras su rival Flavio Bolsonaro promete reformar las reglas fiscales con pocos detalles.",
+     "quote": "So over 50% of Brazil's federal budget is spent on pensions, something you cannot cut.",
+     "why_important": "La rigidez presupuestaria y el riesgo electoral sobre la regla fiscal determinan la trayectoria de la deuda y la dirección de los tipos y del real.",
+     "system_gap": "geopolitical-countries tiene un riesgo soberano base 1-10 pero no rigidez presupuestaria, calendario electoral ni postura fiscal de candidatos para Brasil.",
+     "search_terms": [
+      "Bolsa Familia",
+      "fiscal rule",
+      "Bolsonaro"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "BR"
+     ],
+     "companies": [],
+     "claim": "El banco central brasileño recorta tipos antes de las elecciones y se espera que los reduzca más hasta 2028, tras haber pasado de mínimos récord a dos dígitos en año y medio.",
+     "quote": "the central bank has been cutting interest rates ahead of the elections and is expected to further reduce them into 2028.",
+     "why_important": "La senda de tipos define el coste de la deuda pública y privada y el atractivo de la renta fija y variable brasileña.",
+     "system_gap": "Los rendimientos soberanos y FRED en lib/macro no cubren la tasa de política (Selic) ni su senda esperada para Brasil.",
+     "search_terms": [
+      "Selic",
+      "policy rate",
+      "banco central do brasil"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "XNZN6gYhpLU",
+   "title": "How Kalshi Became the Biggest Prediction Market | The Circuit with Emily Chang",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Kalshi",
+       "ticker": null
+      }
+     ],
+     "claim": "Durante el Mundial Kalshi registró 27.000 millones de dólares de volumen de negociación y sumó tres millones de usuarios nuevos.",
+     "quote": "During the World Cup, Kalshi recorded $27 billion in trading volume and added three million new users.",
+     "why_important": "Mide la escala real del mercado de predicción líder en EE. UU. y su crecimiento, base para valorar a la plataforma y a sus competidores (Polymarket) y a las casas de apuestas tradicionales.",
+     "system_gap": "lib/services/prediction-markets solo integra Polymarket (cliente y paper trading); no hay datos de Kalshi ni de volúmenes/usuarios del sector.",
+     "search_terms": [
+      "Kalshi",
+      "prediction market volume"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Kalshi",
+       "ticker": null
+      }
+     ],
+     "claim": "El 75% del volumen de Kalshi sigue siendo deportes según Bloomberg; la empresa dice que bajó del 95% a comienzos de año a unos dos tercios o 70%.",
+     "quote": "we are at 95% at the beginning of the year. We're much lower now. I think it's like two thirds or 70%.",
+     "why_important": "Revela una fuerte concentración de ingresos en una sola categoría sujeta a litigio estatal; sin deportes el negocio sería mucho menor.",
+     "system_gap": "Falta un dataset de plataformas de mercados de predicción con mezcla de volumen por categoría y dependencia del segmento deportivo.",
+     "search_terms": [
+      "Kalshi",
+      "sports betting"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Kalshi",
+       "ticker": null
+      }
+     ],
+     "claim": "44 estados firmaron una carta que tilda a los mercados de predicción de nuevo casino y 20 litigan sobre si las leyes estatales de apuestas deportivas se aplican; la CFTC demandó a los estados en una disputa de competencia regulatoria.",
+     "quote": "44 states have signed a letter calling prediction markets a new form of casino, and 20 are fighting in court over whether state sports betting laws apply.",
+     "why_important": "El riesgo legal federal frente a estatal (posible llegada al Tribunal Supremo) determina la viabilidad del modelo y afecta a operadores de juego regulados por los estados.",
+     "system_gap": "Ningún módulo recoge riesgo regulatorio sectorial por jurisdicción (estados de EE. UU., CFTC) ni litigios abiertos sobre mercados de predicción.",
+     "search_terms": [
+      "CFTC",
+      "event contract",
+      "state gambling"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Kalshi",
+       "ticker": null
+      }
+     ],
+     "claim": "La comisión de la CFTC, el regulador de los mercados de predicción, ha quedado reducida de cinco miembros a uno solo, un nombramiento de Trump.",
+     "quote": "Under President Trump, the five-person commission is now down to one man.",
+     "why_important": "Un regulador vaciado implica supervisión débil hoy pero riesgo de giro regulatorio cuando cambie la administración, lo que afecta a la sostenibilidad del sector.",
+     "system_gap": "Falta capa de capacidad institucional/regulatoria de EE. UU. (composición de la CFTC) en el riesgo político de país.",
+     "search_terms": [
+      "CFTC",
+      "Selig"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Kalshi",
+       "ticker": null
+      },
+      {
+       "name": "Polymarket",
+       "ticker": null
+      }
+     ],
+     "claim": "Un estudio halló que con 3.500 dólares se puede mover en cinco centavos o más el 97% de los mercados de predicción relacionados con las elecciones de medio mandato.",
+     "quote": "A recent study found that for $3,500, you can move 97% of midterm related prediction markets by five cents or more.",
+     "why_important": "Las cuotas de estos mercados se usan como señal de riesgo político; si son baratas de manipular, las probabilidades pierden fiabilidad como insumo de inversión.",
+     "system_gap": "El módulo de prediction-markets usa precios de Polymarket como señal sin medir liquidez ni coste de manipulación ni advertir de ese sesgo.",
+     "search_terms": [
+      "Polymarket",
+      "manipulation",
+      "midterm"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/services/prediction-markets (Polymarket presente, sin análisis de manipulación/liquidez)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "Polymarket": [
+        "lib/services/prediction-markets/polymarket-client.ts",
+        "lib/services/prediction-markets/paper-service.ts",
+        "lib/services/prediction-markets/types.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Kalshi",
+       "ticker": null
+      },
+      {
+       "name": "Polymarket",
+       "ticker": null
+      }
+     ],
+     "claim": "Donald Trump Jr. es inversor en Polymarket y asesor remunerado de Kalshi, de la que recibió en 2025 una participación de 300.000 dólares que ahora podría valer millones.",
+     "quote": "In 2025, he received a $300,000 equity stake in Kalshi that's now potentially worth millions.",
+     "why_important": "Conflicto de intereses político-empresarial que sostiene el apoyo federal actual y se vuelve vulnerabilidad si cambia la administración.",
+     "system_gap": "No hay registro de vínculos político-empresariales ni de dependencia regulatoria de empresas respecto a la administración en el poder.",
+     "search_terms": [
+      "Trump Jr",
+      "Kalshi"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Kalshi",
+       "ticker": null
+      }
+     ],
+     "claim": "Kalshi cobra una comisión del 0,8% por operación y su modelo es ser bolsa peer-to-peer; el 75% de los clientes pierde dinero.",
+     "quote": "We take 0.8%, they take something similar. That doesn't make New York Stock Exchange gambling.",
+     "why_important": "Define el modelo de ingresos (comisión sobre volumen) y la dependencia del volumen, clave para estimar ingresos y el riesgo reputacional de pérdidas minoristas.",
+     "system_gap": "Sin ficha de modelo de negocio de plataformas de mercados de predicción (comisión, estructura bolsa vs casa de apuestas).",
+     "search_terms": [
+      "Kalshi",
+      "transaction fee"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Kalshi",
+       "ticker": null
+      }
+     ],
+     "claim": "Usuarios de 18 a 21 años, demasiado jóvenes para entrar en un casino en la mayoría de estados, operaron 5.000 millones de dólares en Kalshi este año; el límite legal actual es 18 y subirlo a 21 sería aceptado por la empresa.",
+     "quote": "users between 18 and 21 who would be too young to walk into a casino in most states traded $5 billion on Kalshi.",
+     "why_important": "Un endurecimiento de la edad mínima o salvaguardas para jóvenes recortaría una porción relevante del volumen y reforzaría el caso de los reguladores estatales.",
+     "system_gap": "Falta indicador de exposición regulatoria por segmento de usuarios (edad) en el sector de mercados de predicción/apuestas.",
+     "search_terms": [
+      "Kalshi",
+      "18 and 21"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bPSeumz6sgI",
+   "title": "Trade Wars, Fighting Corruption and Rethinking Globalization | Leaders with Francine Lacqua",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "politica",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "El Tribunal Supremo de EE. UU. anuló los aranceles globales basados en la ley IEEPA, que sustentan entre el 60 y el 75% de la política arancelaria actual de EE. UU.",
+     "quote": "Trump's IEEPA tariffs, which about 60 to 75% of the tariff policy right now in the United States is based off of",
+     "why_important": "Cambia el régimen arancelario del mayor mercado de consumo: afecta márgenes de importadores y exportadores, posibles reembolsos y la necesidad de la Casa Blanca de recurrir a otras bases legales para los aranceles.",
+     "system_gap": "Módulos macro y de relaciones bilaterales no tienen régimen arancelario por país ni estado legal de los aranceles de EE. UU. (IEEPA, fallo del Supremo, base legal sustitutiva).",
+     "search_terms": [
+      "IEEPA",
+      "tariff",
+      "arancel"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "tariff": [
+        "lib/data/geopolitical-trees.ts",
+        "lib/services/sovereign-power/wargame-simulator.ts",
+        "engine/relations/model/v6_US-CN.json"
+       ],
+       "arancel": [
+        "lib/data/geopolitical-trees.ts",
+        "engine/relations/model/gen_doc.py"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "CN"
+     ],
+     "companies": [],
+     "claim": "Según estimaciones de la Semiconductor Industry Association, China va camino de invertir 142.000 millones de dólares en fabricación de chips, en el marco de décadas de política industrial.",
+     "quote": "China's on track to invest $142 billion into chip making.",
+     "why_important": "Dimensiona la subvención estatal china a semiconductores: presiona los márgenes de competidores (TSMC, Intel, Samsung) y anticipa sobrecapacidad en nodos maduros y disputas en la OMC.",
+     "system_gap": "Cadena de valor de semiconductores (trade-dag) y perfil soberano de China no incluyen el monto de inversión/subsidio estatal en fabricación de chips.",
+     "search_terms": [
+      "Semiconductor Industry Association",
+      "142 billion",
+      "subsid"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [],
+     "companies": [],
+     "claim": "Cerca del 25% del comercio mundial ya no se rige por las reglas de la OMC, mientras que alrededor de tres cuartas partes sí, lo que mide el grado de fragmentación comercial.",
+     "quote": "what do we do with say the 25% that is not going on according to WTO rules?",
+     "why_important": "Indica cuánto comercio queda expuesto a medidas unilaterales, acuerdos bilaterales y subsidios sin disciplina, es decir, a riesgo regulatorio y de represalias para empresas exportadoras.",
+     "system_gap": "Relaciones bilaterales y bloques no incorporan membresía/estatus en la OMC ni indicadores de fragmentación comercial (porcentaje de comercio bajo reglas OMC).",
+     "search_terms": [
+      "WTO",
+      "OMC",
+      "fragmentación comercial"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "WTO": [
+        "lib/data/geopolitical-global-matrix.json",
+        "lib/data/geopolitical-countries/asia-pacific.ts",
+        "engine/relations/model/verify_cache.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [],
+     "companies": [],
+     "claim": "El comercio digitalmente entregado (cine, música, educación, salud) crece alrededor de 6% anual y ronda 4 billones de dólares, dentro de un comercio mundial de unos 33 billones.",
+     "quote": "growing the fastest at about 6% per year. It's about $ 4 trillion now,",
+     "why_important": "Es el segmento del comercio que más rápido crece; señala dónde se concentran los ingresos de plataformas y servicios exportables frente al comercio de bienes.",
+     "system_gap": "Macro por país no tiene exportaciones de servicios digitales ni peso del comercio digital; solo comercio de bienes e indicadores generales del Banco Mundial.",
+     "search_terms": [
+      "digital trade",
+      "digitally delivered",
+      "servicios digitales"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US",
+      "BR",
+      "IN"
+     ],
+     "companies": [],
+     "claim": "La moratoria de la OMC sobre aranceles a transmisiones electrónicas no se renovó en la última conferencia ministerial, con EE. UU. y la UE enfrentados a Brasil, India y otros países en desarrollo; el comercio digital podría quedar sujeto a impuestos nacionales.",
+     "quote": "A longstanding moratorium on imposing duties on electronic transmissions, a vague definition that could apply to nearly every online transaction that crosses a border wasn't renewed",
+     "why_important": "Riesgo regulatorio para plataformas, nube y servicios digitales transfronterizos: posibles aranceles y tasas digitales en grandes mercados emergentes.",
+     "system_gap": "Relaciones bilaterales y módulo de políticas no recogen disputas de comercio digital ni la moratoria de la OMC sobre transmisiones electrónicas.",
+     "search_terms": [
+      "moratorium",
+      "electronic transmissions",
+      "impuesto digital"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "ZA",
+      "NG",
+      "EG"
+     ],
+     "companies": [],
+     "claim": "África aporta solo ~3% de las exportaciones mundiales y apenas ~15% de su comercio formal es intra-africano; exporta materias primas y reimporta manufacturas, pese al área de libre comercio continental (AfCFTA, 54 países, lanzada en 2021).",
+     "quote": "only about 15% of the continent's formal trade actually takes place from one African country to another.",
+     "why_important": "Mide el potencial y el retraso de la integración regional africana: oportunidad de manufactura y logística si el AfCFTA avanza, y riesgo por fricciones (visas, divisas, transporte) para empresas con exposición en África.",
+     "system_gap": "El motor de relaciones registra la membresía del AfCFTA, pero no cifras de comercio intra-regional ni cuota de exportaciones africanas ni barreras comerciales entre vecinos.",
+     "search_terms": [
+      "AfCFTA",
+      "intra-African",
+      "comercio intrarregional"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "engine/relations/model/bloc_memberships.json (solo membresía AFCFTA, sin datos de comercio)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "AfCFTA": [
+        "engine/relations/model/bloc_memberships.json",
+        "engine/relations/model/structure_v4.py",
+        "engine/relations/model/structure_v6.py"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "NG"
+     ],
+     "companies": [],
+     "claim": "Una auditoría del programa de subsidio a la gasolina importada en Nigeria halló unos 2.400 millones de dólares en fraude, ejemplo de corrupción fiscal ligada a subsidios energéticos.",
+     "quote": "And we found about $2.4 billion worth of fraud.",
+     "why_important": "Señala riesgo de gobernanza y presión fiscal en un productor de petróleo que importa combustible refinado, relevante para el riesgo soberano y para importadores y marketers.",
+     "system_gap": "Riesgo soberano base de Nigeria y datos de recursos no incluyen subsidios a combustibles ni episodios de fraude/corrupción cuantificados.",
+     "search_terms": [
+      "fuel subsidy",
+      "subsidio combustible",
+      "Nigeria subsid"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "CN",
+      "IN",
+      "BR",
+      "US"
+     ],
+     "companies": [],
+     "claim": "China entró a la OMC en 2001 como país en desarrollo y conserva ese estatus, aunque cedió algunos beneficios; EE. UU. exige acabar con ello y India y Brasil se resisten a cambiar las reglas porque también se benefician.",
+     "quote": "China has since given up some benefits like extended transition periods, but not its developing country status.",
+     "why_important": "Define el campo de negociación de la reforma de la OMC y de las reglas de subsidios, con implicaciones para aranceles, ayudas estatales y litigios comerciales entre las grandes economías.",
+     "system_gap": "Relaciones bilaterales y perfiles soberanos no registran el estatus en la OMC (país en desarrollo vs. desarrollado) ni posiciones sobre la reforma de reglas de subsidios.",
+     "search_terms": [
+      "developing country status",
+      "WTO",
+      "OMC"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "WTO": [
+        "lib/data/geopolitical-global-matrix.json",
+        "lib/data/geopolitical-countries/asia-pacific.ts",
+        "engine/relations/model/verify_cache.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "coyHcx1An_s",
+   "title": "The Strategy Behind Lectric’s eBike Success | Quantum Marketing",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Lectric eBikes",
+       "ticker": null
+      }
+     ],
+     "claim": "Lectric vende 150.000 bicicletas eléctricas al año, un 50% más que su competidor más cercano en EE. UU.",
+     "quote": "Electric says they sell 150,000 bikes per year, which is 50% more than their closest competitor.",
+     "why_important": "Indica liderazgo en volumen en el segmento de e-bikes de EE. UU. y permite estimar cuota de mercado de una marca privada rentable frente a rivales financiados por capital riesgo.",
+     "system_gap": "Bloomberg Originals / datos sectoriales de consumo y movilidad: solo hay una tesis de una frase; faltan volúmenes de ventas y cuota por empresa en e-bikes.",
+     "search_terms": [
+      "Lectric",
+      "e-bike",
+      "ebike"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Lectric eBikes",
+       "ticker": null
+      }
+     ],
+     "claim": "Lectric ha construido una marca directa al consumidor de 1.000 millones de dólares sin financiación de capital riesgo.",
+     "quote": "You built a $1 billion direct to consumer brand without any VC funding",
+     "why_important": "Muestra un modelo de negocio autofinanciado y escalable en bienes de consumo, con valor potencial como objetivo de adquisición o referencia de valoración.",
+     "system_gap": "Datos de empresas privadas de consumo/movilidad: el sistema no registra tamaño de negocio ni modelo de financiación de Lectric.",
+     "search_terms": [
+      "Lectric",
+      "direct to consumer"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "El mercado de e-bikes de EE. UU. creció con fuerza entre 2015 y 2022 pero se estabilizó, y los fabricantes afrontan demanda débil, presión sobre precios y más competencia.",
+     "quote": "the category has since entered a more challenging phase. As manufacturers navigate slowing demand, pricing pressure, and growing competition",
+     "why_important": "Indica saturación y compresión de márgenes en la categoría tras el auge pandémico, lo que afecta a fabricantes e importadores de e-bikes.",
+     "system_gap": "Indicadores sectoriales de movilidad eléctrica ligera y consumo en EE. UU. (ventas anuales de e-bikes, precios); el módulo macro solo cubre indicadores agregados.",
+     "search_terms": [
+      "e-bike",
+      "ebike",
+      "micromobility"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "empresa",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Lectric eBikes",
+       "ticker": null
+      }
+     ],
+     "claim": "Lectric aplica un suelo y un techo de margen: cuando el margen supera el techo, reinvierte en producto; ha sido rentable todo el tiempo y compite con rivales respaldados por capital riesgo.",
+     "quote": "we have a margin floor which most companies have, but we also have a margin ceiling where if we get above the margin ceiling, that means we reinvest in a product",
+     "why_important": "Describe una política de asignación de capital que sacrifica margen por cuota y apalancamiento operativo, relevante para valorar su ventaja frente a competidores deficitarios.",
+     "system_gap": "Perfiles de empresas de consumo: el sistema no guarda políticas de margen, rentabilidad ni estrategia competitiva de empresas fuera de las 12 con instalaciones corporativas.",
+     "search_terms": [
+      "Lectric",
+      "margin ceiling"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "empresa",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Lectric eBikes",
+       "ticker": null
+      },
+      {
+       "name": "Monarch",
+       "ticker": null
+      },
+      {
+       "name": "Juiced",
+       "ticker": null
+      }
+     ],
+     "claim": "Lectric ha adquirido las marcas Monarch y Juiced para ampliar su cartera, incluida una línea juvenil de e-bikes inspiradas en motos de cross.",
+     "quote": "You've got brands like Monarch and Juiced you have added into your portfolio.",
+     "why_important": "Indica consolidación del sector y expansión hacia nuevos segmentos de clientes, señal de que los líderes absorben a rivales debilitados.",
+     "system_gap": "Datos de M&A y consolidación sectorial en movilidad eléctrica ligera: no hay registro de adquisiciones ni de marcas del portafolio de Lectric.",
+     "search_terms": [
+      "Juiced",
+      "Monarch",
+      "Lectric"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "Monarch": [
+        "engine/relations/model/classify_score2.py",
+        "engine/relations/model/verify_cache.json",
+        "engine/relations/model/v6_ES-MA.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cvv5iPwKRyQ",
+   "title": "Inside Athletic Brewing’s Plan to Shake Up the Beer Industry | Quantum Marketing",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Athletic Brewing Company",
+       "ticker": null
+      }
+     ],
+     "claim": "En la última década Athletic y su equipo han llevado la categoría de cerveza sin alcohol en EE. UU. de 100 millones a más de mil millones de dólares anuales de ingresos.",
+     "quote": "Over the last decade, Shufelt and team have helped drive the non-alcoholic beer category from 100 million to over a billion dollars annually in revenue.",
+     "why_important": "Muestra un crecimiento de unas 10 veces en la categoría y la posición de Athletic como líder, útil para dimensionar el mercado de bebidas sin alcohol y su potencial frente a las cerveceras tradicionales.",
+     "system_gap": "Bloomberg Originals (lib/data/bloomberg-originals/videos.json) solo guarda una tesis de una frase; falta un dataset sectorial de bebidas con tamaño de mercado y crecimiento por categoría.",
+     "search_terms": [
+      "Athletic Brewing",
+      "non-alcoholic beer"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Athletic Brewing Company",
+       "ticker": null
+      }
+     ],
+     "claim": "Athletic tiene un conocimiento de marca de solo ~25% a nivel nacional y una distribución inferior al 40%, lo que limita su crecimiento actual.",
+     "quote": "Currently, the company says awareness for Athletic hovers around 25% nationally, with distribution under 40%.",
+     "why_important": "Indica a la vez el recorrido de crecimiento (baja penetración) y el riesgo de ejecución frente a grandes cerveceras con distribución establecida.",
+     "system_gap": "No hay métricas de penetración, cuota o distribución por empresa de consumo; el módulo de empresas solo cubre tecnología y cadenas industriales.",
+     "search_terms": [
+      "Athletic Brewing",
+      "brand awareness"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Athletic Brewing Company",
+       "ticker": null
+      }
+     ],
+     "claim": "Más de tres de cada cuatro consumidores que prueban Athletic siguen comprándola, y más del 30% de quienes compran en el pasillo de cerveza sin alcohol no lo habían pisado en seis meses.",
+     "quote": "Over three out of four consumers who try Athletic stay with Athletic.",
+     "why_important": "Una retención del 75% apunta a un producto con demanda recurrente, y la entrada de compradores nuevos indica expansión del mercado total de cerveza y no solo sustitución del alcohol.",
+     "system_gap": "Falta un dataset de indicadores de consumo y retención de marca por empresa o sector de bienes de consumo.",
+     "search_terms": [
+      "retention rate",
+      "Athletic Brewing"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Tras el pico de la pandemia de COVID-19, el consumo mundial de alcohol cae año tras año por mayor conciencia de riesgos para la salud y presión financiera, favoreciendo la moderación.",
+     "quote": "After spiking during the COVID-19 pandemic, global alcohol consumption has declined year over year.",
+     "why_important": "Es un viento de cola estructural para bebidas sin alcohol y un riesgo de demanda para las cerveceras y destiladoras tradicionales.",
+     "system_gap": "No existen tendencias de consumo de alcohol por país en lib/data/country-resources.json ni en lib/macro; haría falta una serie de consumo de alcohol per cápita por país.",
+     "search_terms": [
+      "alcohol consumption",
+      "moderation"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "empresa",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Athletic Brewing Company",
+       "ticker": null
+      }
+     ],
+     "claim": "Athletic compite en cerveza sin alcohol contra los mayores cerveceros del mundo, tanto grandes grupos como internacionales, mientras es la marca líder en EE. UU. desde su fundación en 2017.",
+     "quote": "Then within non-alcoholic beer itself, there are macro and international brewers. We're competing against the biggest brewers in the world.",
+     "why_important": "Define el panorama competitivo: una empresa privada líder frente a incumbentes con escala y distribución, relevante para valorar el riesgo de que entren a la categoría.",
+     "system_gap": "El sistema no tiene empresas del sector bebidas ni cerveceras (ni sus marcas sin alcohol) en lib/data/corporate-facilities ni trade-dag.",
+     "search_terms": [
+      "brewer",
+      "cerveza"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "infraestructura",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Athletic Brewing Company",
+       "ticker": null
+      }
+     ],
+     "claim": "Athletic construye y opera sus propias cervecerías y controla la calidad con equipo propio a tiempo completo; su cervecería insignia tiene unos 150.000 pies cuadrados de producción.",
+     "quote": "That's why it's like so important for us to build our all our own breweries, own all our own quality.",
+     "why_important": "La integración vertical da control de calidad y marca, pero implica capex y riesgo operativo al escalar la capacidad.",
+     "system_gap": "lib/data/corporate-facilities no incluye plantas de empresas de consumo/bebidas; faltan capacidad y ubicación de cervecerías.",
+     "search_terms": [
+      "brewery",
+      "Athletic Brewing"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jLlBm-fYi9s",
+   "title": "Why Does the US Economy Feel Worse Than It Looks?",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "La inflación de EE. UU. pasó del 2,4% a comienzos de 2026 al 3,7% en septiembre, tras más de seis meses de guerra entre EE. UU./Israel e Irán.",
+     "quote": "Fast-forward to 2026, the inflation rate was 2.4%, but more than six months into the US-Israel war with Iran, inflation has heated up. In September, it was 3.7%.",
+     "why_important": "Una reaceleración de la inflación ligada a energía limita la capacidad de la Fed para recortar tipos y presiona márgenes y valoraciones de empresas estadounidenses.",
+     "system_gap": "lib/macro/fred/americas.ts solo mapea el ID de serie CPIAUCSL; no hay lectura actual de inflación EE. UU. ni su vínculo con el shock energético del conflicto con Irán.",
+     "search_terms": [
+      "CPIAUCSL",
+      "inflation",
+      "Iran war"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/macro/fred/americas.ts (solo el ID de serie, sin el dato)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "CPIAUCSL": [
+        "lib/macro/fred/americas.ts"
+       ],
+       "inflation": [
+        "lib/data/tech-tree/fixtures/labeled-news-50.json",
+        "lib/macro/fred/types.ts"
+       ],
+       "Iran war": [
+        "engine/relations/model/verify_cache.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US",
+      "IR"
+     ],
+     "companies": [],
+     "claim": "La guerra de EE. UU./Israel con Irán está disparando los precios de la energía; el diésel es el combustible más afectado y un transportista independiente pasó de 800-1.200 a 1.700-1.800 dólares semanales en combustible.",
+     "quote": "Before the Iran war, I was at $800- $1,200 a week at fuel. I'm up to about $1,700-$1,800 now a week.",
+     "why_important": "El diésel mueve el transporte y la distribución de bienes; su encarecimiento traslada costes a toda la economía y golpea a logística, retail y consumo.",
+     "system_gap": "lib/services/maritime-chokepoints y lib/data/natural-resources.json no modelan el impacto del conflicto con Irán sobre el precio del diésel ni su transmisión a costes de transporte en EE. UU.",
+     "search_terms": [
+      "diesel",
+      "Iran war",
+      "fuel prices"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "diesel": [
+        "engine/relations/model/v6_ES-MA.json"
+       ],
+       "Iran war": [
+        "engine/relations/model/verify_cache.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Frente a antes de la pandemia, los alimentos suben más del 30%, el alquiler más de un tercio, el seguro de coche casi un 50% y la energía aún más.",
+     "quote": "groceries are up over 30%. Rent's up by over a third. You've seen car insurance rise by nearly 50% and energy prices are even higher than that.",
+     "why_important": "Mide la erosión del poder adquisitivo y explica la caída de confianza del consumidor, que afecta a ventas minoristas y a la sostenibilidad del gasto.",
+     "system_gap": "lib/macro no tiene desglose de inflación por componentes (alimentos, vivienda, seguros, energía) para EE. UU.",
+     "search_terms": [
+      "groceries",
+      "rent inflation",
+      "car insurance"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Los salarios ajustados por inflación vuelven a caer en los últimos meses y la duración del desempleo ronda los seis meses, algo que históricamente coincide con recesión.",
+     "quote": "in the last few months, inflation adjusted wages have started to decline again.",
+     "why_important": "Salarios reales a la baja y desempleo más prolongado, pese a una tasa de paro baja, son señales adelantadas de debilidad del consumo, motor de la economía estadounidense.",
+     "system_gap": "lib/macro/fred/americas.ts no incluye series de salario real ni duración del desempleo para EE. UU.",
+     "search_terms": [
+      "real wages",
+      "unemployment duration",
+      "UEMPMEAN"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "El precio mediano de la vivienda en EE. UU. subió cerca de un 50% y los tipos hipotecarios pasaron de menos del 4% a más del 7%, duplicando aproximadamente la cuota mensual frente a 2019; la construcción residencial estaría casi en recesión.",
+     "quote": "the median price of a home in the US has gone up by about 50% and mortgage rates have gone up from below 4% to above 7%.",
+     "why_important": "Asequibilidad de la vivienda hundida y construcción residencial débil afectan a constructoras, materiales y banca hipotecaria, y alimentan el populismo económico electoral.",
+     "system_gap": "lib/macro no tiene series de precio de vivienda ni tipo hipotecario a 30 años (p. ej. MORTGAGE30US) ni indicadores de construcción residencial de EE. UU.",
+     "search_terms": [
+      "mortgage",
+      "MORTGAGE30US",
+      "housing prices"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Según un análisis de Bloomberg Economics, la inversión relacionada con IA aportó cerca de un punto porcentual al crecimiento del PIB de EE. UU. en 2025, aproximadamente la mitad del crecimiento total.",
+     "quote": "AI-related investment added roughly one percentage point to GDP growth in 2025, about half of overall economic growth.",
+     "why_important": "El crecimiento estadounidense depende en gran medida del capex en IA: favorece a proveedores de chips, centros de datos y construcción no residencial, pero concentra el riesgo si el ciclo se revierte.",
+     "system_gap": "lib/macro/sector-base-rates.ts y lib/data/corporate-facilities no cuantifican la contribución del capex en IA al PIB de EE. UU. ni la dependencia del crecimiento respecto a él.",
+     "search_terms": [
+      "AI investment GDP",
+      "capex",
+      "data center"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/macro/sector-base-rates.ts (aparece capex, sin la cifra de contribución al PIB)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "capex": [
+        "lib/macro/sector-base-rates.ts"
+       ],
+       "data center": [
+        "lib/data/corporate-facilities/apple.ts",
+        "lib/data/corporate-facilities/hyperscale-auto.ts",
+        "lib/data/corporate-facilities/microsoft-google.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "La demanda de inversión en IA encarece software y ordenadores, añade presión a la inflación general y genera rechazo local a los centros de datos y temor a la sustitución de empleos.",
+     "quote": "AI and this demand and need to put billions of dollars into investment in it has driven up the costs of everything from software to computers",
+     "why_important": "Los costes de IA contribuyen a la inflación y el rechazo social a los centros de datos puede frenar proyectos y retrasar el despliegue de capacidad de los hiperescalares.",
+     "system_gap": "lib/data/corporate-facilities (centros de datos de hiperescalares) no registra riesgo de oposición local ni el efecto de la inversión en IA sobre precios de hardware y software.",
+     "search_terms": [
+      "data center opposition",
+      "AI inflation",
+      "hyperscale"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/data/corporate-facilities/hyperscale-auto.ts (instalaciones, sin riesgo social ni efecto en precios)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "hyperscale": [
+        "lib/data/curated-corporate-facilities.ts",
+        "lib/data/corporate-facilities/apple.ts",
+        "lib/data/corporate-facilities/hyperscale-auto.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "US",
+      "RU"
+     ],
+     "companies": [],
+     "claim": "La administración Trump busca un acuerdo con Rusia para aumentar la oferta de diésel en el mercado, y se espera que los mayores reembolsos fiscales que amortiguaron el consumo se agoten.",
+     "quote": "making a deal with Russia to try to get more supply of diesel on the market",
+     "why_important": "Un posible acuerdo energético EE. UU.-Rusia afectaría a sanciones, flujos de diésel y precios, con implicaciones para refinadores, transporte y relaciones bilaterales.",
+     "system_gap": "lib/data/bilateral-relations/relations.json no refleja cooperación energética EE. UU.-Rusia sobre diésel ni el vínculo con las políticas de contención de precios.",
+     "search_terms": [
+      "Russia diesel",
+      "sanctions",
+      "energy deal"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "sanctions": [
+        "lib/data/bilateral-relations/relations.json",
+        "lib/data/tech-tree/config.ts",
+        "lib/data/tech-tree/seeds/ru-eu-asia-events.ts"
+       ],
+       "energy deal": [
+        "engine/relations/model/verify_cache.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "qcGtWW8uERI",
+   "title": "China’s Quest for ‘Infinite’ Energy",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "CN"
+     ],
+     "companies": [],
+     "claim": "China añadió en 2025 más de 500 GW de capacidad eléctrica en 12 meses, equivalente a todo el sistema eléctrico de la India.",
+     "quote": "It added enough power to match India's entire electricity system, more than 500 gigawatts in just 12 months.",
+     "why_important": "Marca la escala del ciclo de inversión energética chino y la ventaja de coste/abundancia eléctrica para su industria (IA, robótica, manufactura).",
+     "system_gap": "lib/data/country-resources.json tiene electricidad renovable/nuclear por país pero no capacidad instalada añadida por año ni series de adiciones de GW.",
+     "search_terms": [
+      "installed capacity",
+      "capacity_gw",
+      "gigawatts"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "CN"
+     ],
+     "companies": [],
+     "claim": "Recortes (curtailment) de eolica y solar en China: la capacidad instalada de solar y eolica ronda el 50% pero la generacion apenas supera el 20%, y en el primer semestre de 2026 la energia desperdiciada podria haber abastecido a Francia.",
+     "quote": "China's installed capacity of all solar and wind is about 50% but the generation from solar and wind is actually only just over 20%.",
+     "why_important": "La brecha capacidad-generacion y el curtailment erosionan el retorno de proyectos renovables chinos y de sus fabricantes/operadores; indica cuello de botella en red, no en generacion.",
+     "system_gap": "No existe indicador de curtailment ni de factor de utilizacion renovable para China en lib/macro ni country-resources; falta el desfase capacidad vs generacion.",
+     "search_terms": [
+      "curtailment",
+      "wind and solar",
+      "utilization"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "curtailment": [
+        "lib/data/natural-resources.json"
+       ],
+       "utilization": [
+        "lib/services/hoi4-eu4-mechanics.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "infraestructura",
+     "countries": [
+      "CN"
+     ],
+     "companies": [],
+     "claim": "China es lider global en almacenamiento en baterias: aumento su capacidad de ion-litio un 84% entre 2024 y 2025 y tiende miles de km de lineas de larga distancia desde el Gobi a los centros urbanos, pero ambos activos estan infrautilizados.",
+     "quote": "It's also become the global leader in battery storage, increasing its lithium ion battery capacity by 84% between 2024 and 2025",
+     "why_important": "Define la demanda de baterias y transmision (UHV) y el riesgo de activos varados si no se usan; relevante para fabricantes de baterias y operadores de red.",
+     "system_gap": "trade-dag cubre baterias EV (CATL, BYD) pero no almacenamiento estacionario a escala de red ni lineas de transmision de larga distancia; falta capacidad de almacenamiento por pais.",
+     "search_terms": [
+      "battery storage",
+      "energy storage",
+      "transmission"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "transmission": [
+        "lib/data/tech-tree/fixtures/labeled-news-50.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "CN"
+     ],
+     "companies": [],
+     "claim": "Pekin se ha comprometido a tener un mercado electrico nacional unificado en 2030, rompiendo las barreras provinciales y pasando de un despacho controlado por la red a mercados mayoristas.",
+     "quote": "It says it will have a unified national power market by 2030, moving it one step closer to the energy abundance Chinese officials hope will power the future economy.",
+     "why_important": "La liberalizacion del mercado electrico cambia precios, margenes de generadores y valor del carbon como respaldo; es un catalizador regulatorio con fecha para utilities y renovables.",
+     "system_gap": "No hay modulo de politica energetica/reforma de mercado electrico por pais; falta el hito 2030 y el estado de la reforma en China.",
+     "search_terms": [
+      "unified national power market",
+      "power market",
+      "electricity market reform"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "CN"
+     ],
+     "companies": [
+      {
+       "name": "State Grid",
+       "ticker": null
+      }
+     ],
+     "claim": "La red china la operan un par de gigantes estatales con despacho centralizado a la antigua y cada provincia es responsable de su propio suministro, lo que impide compartir energia en picos de demanda.",
+     "quote": "You don't have one unified power market, but in fact, every province is responsible for securing its own energy supply.",
+     "why_important": "Fragmentacion provincial y control estatal de la red limitan la absorcion de renovables y elevan el riesgo de apagones regionales como los de 2021-2022.",
+     "system_gap": "Sin perfiles de empresas de red estatales ni del riesgo de suministro provincial en lib/data o lib/services; el poder soberano de China no incluye energia electrica.",
+     "search_terms": [
+      "State Grid",
+      "Southern Grid",
+      "provincial"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "CN"
+     ],
+     "companies": [],
+     "claim": "El carbon sigue siendo dificil de apagar: China es con diferencia el mayor consumidor y productor mundial y parte de su generacion esta bloqueada en contratos anuales, lo que fuerza recortes de renovables a final de ano.",
+     "quote": "Towards the end of the year, if solar and wind generation has been quite high, it's going to be curtailed in the last few months because these coal power plants need to fulfill their contracts.",
+     "why_important": "La rigidez contractual del carbon limita la transicion y el retorno de renovables; sugiere estacionalidad en el recorte y dependencia prolongada del carbon.",
+     "system_gap": "country-resources.json tiene produccion de carbon pero no contratos anuales, flexibilidad del parque ni el rol del carbon como respaldo en China.",
+     "search_terms": [
+      "coal",
+      "annual contracts",
+      "curtailed"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "coal": [
+        "lib/data/wikipedia-production-articles.json",
+        "lib/data/natural-resources.json",
+        "lib/data/country-resources.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "empresa",
+     "countries": [
+      "CN"
+     ],
+     "companies": [
+      {
+       "name": "Seres (AITO)",
+       "ticker": null
+      }
+     ],
+     "claim": "Seres opera en Chongqing una Super Factory con 3.000 robots y sus vehiculos AITO superaron un millon de entregas en 46 meses, un record en el mercado de VE chino.",
+     "quote": "According to Seres, its luxury AITO vehicles passed one million deliveries in just 46 months, a record for China's EV market.",
+     "why_important": "Ejemplifica la manufactura electrificada y automatizada que impulsa la demanda de electricidad y posiciona a Seres como fabricante de VE de alto crecimiento.",
+     "system_gap": "trade-dag y corporate-facilities no incluyen a Seres/AITO ni su cuota ni sus fabricas; solo BYD y CATL entre los actores de VE chinos.",
+     "search_terms": [
+      "Seres",
+      "AITO",
+      "Chongqing"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "Seres": [
+        "lib/data/geopolitical-global-matrix.json",
+        "lib/data/geopolitical-countries/middle-east-africa.ts",
+        "lib/data/tech-tree/seeds/ru-eu-asia-events.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "CN"
+     ],
+     "companies": [],
+     "claim": "China apuesta por IA, robotica y manufactura avanzada, que requieren mucha energia, con el objetivo de crear una capa de electricidad limpia casi infinita y barata como ventaja competitiva industrial.",
+     "quote": "So it wants to create this layer of almost infinite, cheap, clean electricity that its industries can tap into.",
+     "why_important": "Una ventaja de coste energetico estructural favorece a centros de datos, EV y manufactura china frente a competidores con electricidad cara; tesis de largo plazo si resuelve el cuello de botella de red.",
+     "system_gap": "No hay comparativa de coste de electricidad industrial por pais ni vinculo entre abundancia energetica y competitividad de datacenters/manufactura en lib/macro.",
+     "search_terms": [
+      "electricity price",
+      "industrial electricity",
+      "data center power"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s2AD7DD8_PQ",
+   "title": "How Batteries Power Some of the World’s Biggest Ferries | Bloomberg Primer",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [],
+     "companies": [],
+     "claim": "El transporte marítimo internacional emitió en 2024 unos 740 millones de toneladas de CO2 equivalente, cerca del 1,4% de las emisiones globales, más que Alemania o Corea del Sur.",
+     "quote": "international shipping accounted for about 740 million tons of carbon dioxide equivalent. That's the measure that we use to calculate all greenhouse gases. To put it in context, that was roughly 1.4% of all global emissions.",
+     "why_important": "Dimensiona la presión regulatoria de descarbonización sobre navieras, astilleros y proveedores de combustibles y baterías, con impacto en costes de flete y capex de flota.",
+     "system_gap": "lib/services/maritime-chokepoints y lib/macro modelan fletes y congestión, pero no emisiones del transporte marítimo ni riesgo regulatorio de descarbonización (IMO, UE) sobre las navieras.",
+     "search_terms": [
+      "decarbon",
+      "shipping emission",
+      "greenhouse"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "empresa",
+     "countries": [
+      "AU",
+      "SE",
+      "NL"
+     ],
+     "companies": [
+      {
+       "name": "INCAT",
+       "ticker": null
+      },
+      {
+       "name": "Candela",
+       "ticker": null
+      },
+      {
+       "name": "Damen",
+       "ticker": null
+      }
+     ],
+     "claim": "INCAT (astillero australiano de aluminio), Candela (Suecia) y Damen (Países Bajos) lideran la fabricación de ferris eléctricos.",
+     "quote": "There are a couple of manufacturers within the shipping industry that have really taken a lead with the production of electric ferries. Candela in Sweden, also Darman in the Netherlands.",
+     "why_important": "Identifica a los astilleros posicionados en un nicho de electrificación naval en crecimiento; son los candidatos de inversión o de cadena de suministro de baterías marinas.",
+     "system_gap": "trade-dag no tiene una cadena de valor de construcción naval ni de propulsión eléctrica marítima; corporate-facilities no incluye astilleros.",
+     "search_terms": [
+      "incat",
+      "candela",
+      "shipbuild"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "CN"
+     ],
+     "companies": [],
+     "claim": "A finales de 2024 el gobierno chino indicó que tenía casi 500 embarcaciones eléctricas operando, la mayoría ferris.",
+     "quote": "We saw China's government at the end of 2024 indicate they had almost 500 electric powered vessels on the water. The majority of those were ferries.",
+     "why_important": "China lidera la adopción de buques eléctricos, lo que refuerza la demanda doméstica de baterías (CATL, BYD) y su ventaja en la cadena de valor marítima verde.",
+     "system_gap": "El nodo de baterías EV en lib/data/trade-dag cubre vehículos, pero no la demanda de baterías para buques ni el despliegue naval eléctrico de China.",
+     "search_terms": [
+      "electric vessel",
+      "electric ferr",
+      "electric ship"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "infraestructura",
+     "countries": [
+      "UY",
+      "AR"
+     ],
+     "companies": [
+      {
+       "name": "Buquebus",
+       "ticker": null
+      },
+      {
+       "name": "INCAT",
+       "ticker": null
+      }
+     ],
+     "claim": "El ferri eléctrico Hull 096 de Buquebus cruzará el Río de la Plata entre Uruguay y Argentina con baterías de más de 40 MWh, 2.100 pasajeros y 225 coches, con inversión total de 184 millones de dólares.",
+     "quote": "Total investment in Hull 096 of $184 million included financing from Banco Santander, Uruguay and the World Bank's International Finance Corporation.",
+     "why_important": "Es un caso de referencia de financiación mixta (banca privada e IFC) para electrificación marítima en mercados emergentes, y muestra el capex real de un buque eléctrico grande.",
+     "system_gap": "El sistema no tiene datos de inversión en infraestructura de transporte en Uruguay ni de proyectos financiados por IFC; lib/macro no cubre capex de proyectos de transporte.",
+     "search_terms": [
+      "buquebus",
+      "Banco Santander",
+      "Colonia"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "UY"
+     ],
+     "companies": [],
+     "claim": "Uruguay invirtió además 20 millones de dólares en mejoras de red y carga para barcos en el puerto de Colonia.",
+     "quote": "Uruguay also invested in a project worth $20 million in order to make grid updates and to add charging for ships in the port of Colonia.",
+     "why_important": "Muestra que la electrificación naval depende de inversión pública en puertos y red eléctrica, un factor de gasto público y de ventaja logística para los países que lo hagan primero.",
+     "system_gap": "lib/macro incluye congestión portuaria y LPI, pero no la capacidad de carga eléctrica de puertos ni subsidios públicos a transporte marítimo limpio.",
+     "search_terms": [
+      "Colonia",
+      "port charging",
+      "shore power"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [],
+     "companies": [],
+     "claim": "Las baterías no sirven para el transporte oceánico de larga distancia, que seguirá dependiendo de combustibles alternativos (hidrógeno, quizá nuclear); solo ferris y rutas cortas se electrifican.",
+     "quote": "The longer distance ships that are crossing the, crossing oceans will never go electric.",
+     "why_important": "Acota el mercado de baterías marinas a rutas cortas y evita sobrevalorar tesis de electrificación total; la descarbonización de la carga oceánica depende de otros combustibles.",
+     "system_gap": "Las materias primas críticas y chokepoints no distinguen entre segmentos de flota ni modelan la transición de combustibles marítimos.",
+     "search_terms": [
+      "hydrogen",
+      "marine fuel",
+      "LNG"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "LNG": [
+        "lib/data/country-centroids.ts",
+        "lib/data/natural-resources.json",
+        "lib/data/country-resources.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [],
+     "companies": [],
+     "claim": "El mercado de ferris eléctricos es mínimo frente a la flota mundial (menos del 1% de los buques), aunque los ferris transportaron más de 4.000 millones de pasajeros al año y sostienen 60.000 millones de dólares de PIB.",
+     "quote": "ferries carried more than four billion passengers annually and supported $60 billion in GDP globally.",
+     "why_important": "Da el tamaño real del mercado y su relevancia económica; ayuda a no sobrestimar los ingresos de los fabricantes a corto plazo.",
+     "system_gap": "No existe un dataset de tamaño de mercado ni de flota naval por tipo de buque.",
+     "search_terms": [
+      "ferry",
+      "ferries",
+      "fleet"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "fleet": [
+        "lib/data/tech-tree/fixtures/labeled-news-50.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "wraPuftwsxQ",
+   "title": "The AI Elections Have Arrived",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "La oposición local a los centros de datos crece en EE. UU.: vecinos frenaron en tribunales un proyecto de más de 35 centros de datos en casi 2.000 acres junto al parque de Manassas.",
+     "quote": "residents fought to prevent a project that would've included more than 35 data centers on nearly 2,000 square acres of land near Manassas National Battlefield Park",
+     "why_important": "El rechazo vecinal y judicial retrasa o cancela proyectos de infraestructura de IA, elevando el riesgo de ejecución y de calendario para promotores, eléctricas e hiperescaladores.",
+     "system_gap": "corporate-facilities lista centros de datos de hiperescaladores, pero no tiene riesgo de oposición local/permisos ni proyectos bloqueados por país o estado.",
+     "search_terms": [
+      "data center",
+      "Manassas",
+      "NIMBY"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/data/corporate-facilities/hyperscale-auto.ts (solo ubicaciones, sin riesgo de oposición)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "data center": [
+        "lib/data/corporate-facilities/apple.ts",
+        "lib/data/corporate-facilities/hyperscale-auto.ts",
+        "lib/data/corporate-facilities/microsoft-google.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Los centros de datos se asocian entre los vecinos con daño ambiental, uso de agua y subidas de la factura eléctrica, lo que alimenta el rechazo político.",
+     "quote": "They are associated with environmental damage, water usage, electricity bills going up.",
+     "why_important": "El coste eléctrico y el uso de agua pueden traducirse en regulación, tarifas especiales o moratorias que afectan a márgenes de operadores de centros de datos y a eléctricas.",
+     "system_gap": "country-resources y macro no relacionan demanda eléctrica de IA/centros de datos con precios de electricidad ni con presión regulatoria.",
+     "search_terms": [
+      "electricity bills",
+      "water usage",
+      "data center"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "data center": [
+        "lib/data/corporate-facilities/apple.ts",
+        "lib/data/corporate-facilities/hyperscale-auto.ts",
+        "lib/data/corporate-facilities/microsoft-google.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "La industria invierte alrededor de un billón de dólares solo este año en construir centros de datos, y centenares de miles de millones más en empresas del ecosistema de IA.",
+     "quote": "an industry that's putting a trillion dollars just into building data centers this year and probably hundreds of billions more into the various companies that are working in and around AI",
+     "why_important": "Dimensiona el capex de IA como motor del crecimiento de EE. UU. y de la demanda de chips, energía y construcción, y por tanto de la exposición a un posible giro regulatorio o de sentimiento.",
+     "system_gap": "corporate-facilities y trade-dag no incluyen cifras de capex agregado en centros de datos ni su peso en el crecimiento económico.",
+     "search_terms": [
+      "capex",
+      "data center",
+      "AI investment"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "capex": [
+        "lib/macro/sector-base-rates.ts"
+       ],
+       "data center": [
+        "lib/data/corporate-facilities/apple.ts",
+        "lib/data/corporate-facilities/hyperscale-auto.ts",
+        "lib/data/corporate-facilities/microsoft-google.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Los grupos políticos alineados con la IA han recaudado cerca de 300 millones de dólares para las elecciones de mitad de mandato de EE. UU., con más de 11.000 millones gastados en publicidad en el ciclo.",
+     "quote": "AI aligned political groups have raised close to $300 million for the midterms.",
+     "why_important": "Indica la capacidad de la industria de IA para influir en la legislación federal y estatal, determinante para el marco regulatorio al que se enfrentan las empresas de IA cotizadas.",
+     "system_gap": "No existe un módulo de influencia política/lobby sectorial ni de financiación de campañas por industria en el sistema.",
+     "search_terms": [
+      "super PAC",
+      "midterm",
+      "lobby"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Anthropic",
+       "ticker": null
+      },
+      {
+       "name": "OpenAI",
+       "ticker": null
+      }
+     ],
+     "claim": "Dos bandos financian la regulación de la IA: Leading the Future (unos 140 millones, a favor de normas federales ligeras) y Public First Action (unos 83 millones respaldados por Anthropic, a favor de salvaguardas estrictas).",
+     "quote": "Public First Action has received significant backing from AI giant Anthropic, with an estimated $83 million overall.",
+     "why_important": "El resultado de esta pugna decide si las empresas de IA operarán con estándares federales ligeros o con salvaguardas estrictas, con impacto en costes de cumplimiento y valoración del sector.",
+     "system_gap": "Falta un dataset de posturas regulatorias y financiación política de empresas de IA (super PACs, bandos pro/anti-regulación).",
+     "search_terms": [
+      "Leading the Future",
+      "Public First",
+      "Anthropic"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Aumenta la presión por regulación de la IA a nivel estatal y local en EE. UU., lo que apunta a un mosaico normativo en lugar de un marco federal único.",
+     "quote": "as AI's footprint grows, pressure for government action, particularly at the state and local level, is only increasing.",
+     "why_important": "Un mosaico de reglas estatales encarece el cumplimiento y la ubicación de infraestructura de IA, y condiciona dónde se invierte dentro de EE. UU.",
+     "system_gap": "El sistema carece de un tracker de regulación de IA por jurisdicción (federal, estatal, local) y por país.",
+     "search_terms": [
+      "AI regulation",
+      "AI safety",
+      "state law"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "xZPPWP0ZKCI",
+   "title": "Why AI Is Sucking Up the World’s Wealth",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Los inversores extranjeros ya poseen el 20% de toda la renta variable estadounidense, con el capital concentrado en muy pocas manos tecnológicas americanas por el auge de la IA.",
+     "quote": "foreign investors now count for 20% of all US equity holdings.",
+     "why_important": "Mide la dependencia de las valoraciones de EE. UU. del capital extranjero y la exposición de otros países si caen las tecnológicas de IA.",
+     "system_gap": "Módulo macro (lib/macro) sin datos de posiciones extranjeras en acciones/bonos de EE. UU. (TIC, IIP); falta serie de tenencias foráneas por país de origen.",
+     "search_terms": [
+      "foreign investors",
+      "TIC",
+      "equity holdings"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "relacion_bilateral",
+     "countries": [
+      "KR",
+      "JP",
+      "TW",
+      "US"
+     ],
+     "companies": [],
+     "claim": "Corea del Sur, Japón y Taiwán, principales productores de chips, GPU y memorias para los centros de datos de IA en EE. UU., reciclan sus superávits comprando acciones y bonos corporativos estadounidenses, financiando el propio boom de IA (flujo circular).",
+     "quote": "Some of those savings then find their way back into US equities and corporate bonds, helping finance the very AI boom that created them. That's the circular flow.",
+     "why_important": "Si cae la valoración de la IA, las economías asiáticas exportadoras sufren una doble pérdida: activos en EE. UU. devaluados y menores exportaciones.",
+     "system_gap": "trade-dag y relaciones bilaterales no modelan flujos financieros de retorno (inversión de cartera) entre exportadores de chips y EE. UU.; falta enlace financiero junto al comercial.",
+     "search_terms": [
+      "circular flow",
+      "portfolio investment",
+      "current account"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "current account": [
+        "lib/services/sovereign-power/wargame-simulator.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [],
+     "companies": [],
+     "claim": "En 2025 las economías con superávit por cuenta corriente sumaron unos 2,5 billones de dólares, con déficits equivalentes en el lado opuesto; la brecha es la mayor desde 2008.",
+     "quote": "In 2025, economies running current account surpluses recorded about $2.5 trillion between them.",
+     "why_important": "Los desequilibrios globales elevados precedieron la crisis financiera de 2008 y señalan vulnerabilidad sistémica y búsqueda de activos de mayor riesgo.",
+     "system_gap": "lib/macro no incluye saldo de cuenta corriente por país (World Bank BN.CAB.XOKA.CD) ni agregado global de superávit/déficit; solo se menciona en el simulador de guerra comercial.",
+     "search_terms": [
+      "current account",
+      "BN.CAB",
+      "global imbalances"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/services/sovereign-power/wargame-simulator.ts (solo mención en comentario, sin dato)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "current account": [
+        "lib/services/sovereign-power/wargame-simulator.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "La succión de capital hacia la IA dificulta la colocación de bonos del Tesoro; EE. UU. paga ya 1 billón de dólares anuales en intereses sobre más de 40 billones de deuda.",
+     "quote": "now paying $1 trillion a year in interest on more than $40 trillion of US debt.",
+     "why_important": "Menor demanda de Treasuries implica mayores rendimientos y coste fiscal, afectando riesgo soberano de EE. UU. y valoración de activos globales.",
+     "system_gap": "Macro EE. UU. (FRED) tiene tipo de interés de pagos federales en tipos, pero no la deuda total ni la carga de intereses ni la composición de compradores extranjeros del Tesoro.",
+     "search_terms": [
+      "interest payments",
+      "federal debt",
+      "treasury demand"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/macro/fred/types.ts (solo campo de pagos de intereses, sin la cifra de deuda ni demanda extranjera)"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "interest payments": [
+        "lib/macro/fred/types.ts"
+       ],
+       "federal debt": [
+        "lib/macro/fred/types.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "relacion_bilateral",
+     "countries": [],
+     "companies": [],
+     "claim": "Los países que votan igual en la ONU invierten más entre sí, mientras los que votan en direcciones opuestas reducen la inversión mutua; la geopolítica condiciona los flujos de capital.",
+     "quote": "countries that vote the same way in the United Nations, they're more likely to invest in each other.",
+     "why_important": "Permite usar la afinidad diplomática como predictor de flujos de inversión directa y cartera entre pares de países.",
+     "system_gap": "engine/relations/model puntúa relaciones bilaterales pero sin afinidad de voto en la ONU ni correlación con inversión cruzada; falta ese indicador y el dato de IED bilateral.",
+     "search_terms": [
+      "UN voting",
+      "voting alignment",
+      "bilateral investment"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "bilateral investment": [
+        "engine/relations/model/test_wikipedia_bilingual.py"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [],
+     "companies": [],
+     "claim": "La inversión transfronteriza creció del 27% del PIB mundial en 1980 al 141% en 2008, pero desde la crisis financiera se ha estancado pese a haber más dinero que nunca.",
+     "quote": "They grew from 27% of global GDP in 1980 to 141% in 2008. But since the financial crisis, things have slowed down.",
+     "why_important": "Indica fragmentación de la globalización financiera: el capital no llega a mercados emergentes que necesitan infraestructura, lo que afecta oportunidades y riesgos de financiación.",
+     "system_gap": "lib/macro carece de serie de inversión transfronteriza/IED y de integración financiera por país; faltan stocks de activos y pasivos externos (IIP) sobre PIB.",
+     "search_terms": [
+      "cross-border",
+      "FDI",
+      "external assets"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "cross-border": [
+        "lib/services/geopolitical/supply-chain-evaluator.ts",
+        "lib/services/sovereign-power/profiles/china.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Una caída fuerte de las valoraciones de IA podría revelar exposiciones ocultas y golpear dos veces a las economías asiáticas: por la desvalorización de sus activos en EE. UU. y por el deterioro de su balanza comercial.",
+     "quote": "Asia economies can be hit twice where the amount they've invested into US companies gets devalued and at the same time, their trade balance and economy along with it weakens as well.",
+     "why_important": "Riesgo de contagio concentrado en exportadores de semiconductores; relevante para empresas de Corea, Japón y Taiwán expuestas al ciclo de gasto en IA.",
+     "system_gap": "Falta escenario de estrés de burbuja de IA en wargame-simulator/trade-dag que combine pérdida de valoración de cartera exterior y caída de exportaciones de chips.",
+     "search_terms": [
+      "AI bubble",
+      "valuation shock",
+      "contagion"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "US",
+      "CN"
+     ],
+     "companies": [],
+     "claim": "La administración Trump apuesta a fondo por la IA como competencia existencial con China y a la vez se muestra más proteccionista, buscando reducir el déficit comercial; ambas políticas alimentan los desequilibrios globales.",
+     "quote": "He really believes that the US is in an existential competition with China over leadership of this important technology.",
+     "why_important": "La política industrial y arancelaria de EE. UU. concentra capital en IA y condiciona flujos globales, afectando exposición país y sectores.",
+     "system_gap": "Sin módulo de política industrial/comercial de EE. UU. (aranceles, estrategia IA) que vincule déficit comercial y gasto en IA con riesgo soberano de terceros.",
+     "search_terms": [
+      "protectionist",
+      "tariff",
+      "AI race"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "tariff": [
+        "lib/data/geopolitical-trees.ts",
+        "lib/services/sovereign-power/wargame-simulator.ts",
+        "engine/relations/model/v6_US-CN.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  },
+  {
+   "id": "zaeHzTS6Pck",
+   "title": "The Man Who Built Blackstone Into a $1.3 Trillion Empire | Leaders with Francine Lacqua",
+   "transcript": true,
+   "elements": [
+    {
+     "kind": "empresa",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Blackstone",
+       "ticker": "BX"
+      }
+     ],
+     "claim": "Blackstone gestiona 1,3 billones de dólares y en julio de 2026 poseía más de 12.500 activos inmobiliarios y 250 empresas participadas; salió a bolsa en 2007.",
+     "quote": "today   it manages $1.3 trillion. In July 2026, it held more   than 12,500 real estate assets and 250 portfolio companies. It went public in 2007.",
+     "why_important": "Blackstone es el mayor gestor de activos alternativos del mundo; su escala y exposición a inmobiliario y empresas privadas lo convierte en termómetro del capital privado estadounidense.",
+     "system_gap": "lib/data/bloomberg-originals o un dataset de gestores de activos alternativos: no hay ninguna ficha de Blackstone con AUM, activos y participadas.",
+     "search_terms": [
+      "Blackstone"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "infraestructura",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Blackstone",
+       "ticker": "BX"
+      }
+     ],
+     "claim": "Blackstone compró un gran operador de centros de datos en 2021 por 10.000 millones de dólares que ahora es 15 veces mayor, y se declara el mayor propietario de centros de datos del mundo, con los seis hiperescaladores como clientes.",
+     "quote": "we bought a very large data center, a company in 2021, for $10 billion. It's now 15 times larger. We're the largest owner of   data centers in the world.",
+     "why_important": "Muestra que la infraestructura de IA (centros de datos) está concentrada en capital privado y que los hiperescaladores dependen de ella; es una vía de exposición a la IA distinta de las cotizadas tecnológicas.",
+     "system_gap": "lib/data/corporate-facilities solo cubre instalaciones de cotizadas tech (AAPL, MSFT, GOOGL...); falta la capa de propietarios/operadores privados de centros de datos y su capacidad.",
+     "search_terms": [
+      "data center",
+      "hyperscaler",
+      "Blackstone"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "data center": [
+        "lib/data/corporate-facilities/apple.ts",
+        "lib/data/corporate-facilities/hyperscale-auto.ts",
+        "lib/data/corporate-facilities/microsoft-google.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "riesgo",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Blackstone",
+       "ticker": "BX"
+      }
+     ],
+     "claim": "El crédito privado vale 1,8 billones de dólares y podría duplicarse para 2030, pero hay preocupación por la exposición a software; el fondo BCRED de Blackstone y otros limitaron retiradas tras solicitudes por encima de los límites preestablecidos.",
+     "quote": "Now it's worth $1.8 trillion and could double in size by 2030. Today, some investors are   worried about risks building in private credit, with software companies   a particular focus.",
+     "why_important": "Un riesgo sistémico de banca en la sombra: préstamos ilíquidos sin precio de mercado, con redenciones limitadas, pueden provocar ventas forzadas y contagio a gestores y a empresas de software endeudadas.",
+     "system_gap": "lib/macro/bis-client.ts solo trae crédito bancario al sector privado (BIS); falta un indicador de crédito privado no bancario (tamaño, redenciones, rendimiento ~9%, impagos).",
+     "search_terms": [
+      "private credit",
+      "BCRED",
+      "shadow bank"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "lib/macro/bis-client.ts menciona 'private credit' solo como crédito bancario BIS; no cubre fondos de crédito privado"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "private credit": [
+        "lib/macro/bis-client.ts"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "cifra",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "OpenAI",
+       "ticker": null
+      },
+      {
+       "name": "Anthropic",
+       "ticker": null
+      }
+     ],
+     "claim": "OpenAI está valorada en 852.000 millones de dólares tras una ronda de 122.000 millones, y Anthropic negocia captar 30.000 millones a una valoración de 900.000 millones.",
+     "quote": "OpenAI is now valued at $852 billion. The AI company closed a $122   billion funding round intended to help with its costly   push for more chips, data centers, and talent.",
+     "why_important": "Las valoraciones privadas de IA arrastran demanda de chips, energía y centros de datos; si no se materializa el retorno, hay riesgo de burbuja en toda la cadena (NVDA, TSM, ASML, eléctricas).",
+     "system_gap": "Falta un dataset de valoraciones y rondas de las empresas de IA privadas; el sistema solo tiene OpenAI de forma marginal en corporate-facilities y fixtures de noticias.",
+     "search_terms": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "OpenAI aparece solo en lib/data/corporate-facilities/microsoft-google.ts y fixtures de tech-tree, sin valoraciones"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "OpenAI": [
+        "lib/data/corporate-facilities/microsoft-google.ts",
+        "lib/data/tech-tree/seeds/us-cn-events.ts",
+        "lib/data/tech-tree/fixtures/labeled-news-50.json"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "recurso",
+     "countries": [
+      "US"
+     ],
+     "companies": [],
+     "claim": "Schwarzman afirma que el boom de centros de datos de IA hará que el mundo desarrollado se quede corto de electricidad, y Blackstone ha invertido mucho en ese sector antes que otros.",
+     "quote": "we learned that, you know, certainly the   developed world is going to be short electricity. Now we've become huge   investors in that area before other people did it.",
+     "why_important": "La escasez de electricidad es un cuello de botella para la IA y una oportunidad en generación, redes y almacenamiento en países desarrollados.",
+     "system_gap": "lib/data/country-resources.json tiene generación renovable/nuclear, pero no demanda eléctrica de centros de datos ni déficit proyectado por país.",
+     "search_terms": [
+      "electricity shortage",
+      "data center power demand"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "politica",
+     "countries": [
+      "US",
+      "CN"
+     ],
+     "companies": [],
+     "claim": "Trump firmó una orden para imponer un arancel global del 10% bajo la Sección 122 sobre los aranceles normales ya vigentes.",
+     "quote": "Today I will sign an   order to impose a 10% global tariff under Section 122 over and above our normal tariffs   already being charged.",
+     "why_important": "Un arancel global adicional del 10% encarece importaciones y cambia márgenes de empresas dependientes de cadenas globales de suministro, con efecto en todos los socios comerciales de EE. UU.",
+     "system_gap": "Falta un dataset de aranceles vigentes por país/producto (tipo, base legal, fecha); lib/services/trade-dag no modela aranceles aplicados.",
+     "search_terms": [
+      "Section 122",
+      "global tariff"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "relacion_bilateral",
+     "countries": [
+      "US",
+      "CN"
+     ],
+     "companies": [],
+     "claim": "Según Schwarzman, EE. UU. y China suman aproximadamente el 42% de la economía mundial y buscan normalizar su relación tras reuniones recientes Xi-Trump en Pekín, aunque la tensión sobre tierras raras y comercio continúa.",
+     "quote": "These are two countries that understand that together they have approximately 42% of the world's economy.",
+     "why_important": "El ciclo de escalada o distensión entre las dos mayores economías determina aranceles, controles de exportación y acceso a minerales críticos, y afecta a casi cualquier empresa global.",
+     "system_gap": "engine/relations/model/v6_US-CN.json tiene la puntuación del par, pero no el evento reciente (cumbre Xi-Trump en Pekín, tregua de tierras raras) ni los controles de exportación de minerales críticos como eventos fechados.",
+     "search_terms": [
+      "rare earth",
+      "export controls"
+     ],
+     "system_check": {
+      "found": false,
+      "where": "El par US-CN existe en engine/relations/model/v6_US-CN.json, pero sin la cumbre ni la tregua de tierras raras"
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {
+       "rare earth": [
+        "lib/data/critical-commodities/minerals.ts"
+       ],
+       "export controls": [
+        "lib/data/tech-tree/seeds/ru-eu-asia-events.ts",
+        "engine/relations/model/structure_v6.py",
+        "engine/relations/model/structure.py"
+       ]
+      },
+      "veredicto": "verificado"
+     }
+    },
+    {
+     "kind": "oportunidad",
+     "countries": [
+      "US"
+     ],
+     "companies": [
+      {
+       "name": "Blackstone",
+       "ticker": "BX"
+      }
+     ],
+     "claim": "En 2025 EE. UU. construyó el mismo número de viviendas que en 1960 con una población más que duplicada; Blackstone posee unas 60.000 viviendas y planea ofrecer préstamos para construir 50.000 viviendas al año.",
+     "quote": "Last year, 2025, we built the same number of houses in the United   States as we did in 1960.",
+     "why_important": "El déficit de oferta de vivienda sostiene los precios y abre oportunidades en promoción, crédito a la construcción y alquiler, pero también riesgo político por la regulación de grandes inversores.",
+     "system_gap": "No hay datos de mercado de vivienda por país (oferta, déficit, inversores institucionales, regulación) en lib/macro ni lib/data.",
+     "search_terms": [
+      "housing starts",
+      "Invitation Homes"
+     ],
+     "system_check": {
+      "found": false,
+      "where": null
+     },
+     "check": {
+      "cita": "literal",
+      "similitud": 1.0,
+      "terminos_en_sistema": {},
+      "veredicto": "verificado"
+     }
+    }
+   ]
+  }
+ ]
+}

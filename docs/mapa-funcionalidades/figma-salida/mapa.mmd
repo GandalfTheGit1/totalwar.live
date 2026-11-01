@@ -11,6 +11,7 @@ flowchart LR
         entidades_postura_vecinal["Monitor de entidades estratégicas, capacidades y postura vecinal | Fiabilidad y trazabilidad de fuentes | demanda 2.4/10 | 1 dep."]
         arbol_tecnologico_historico["Árbol tecnológico histórico por país actualizado con noticias | Fiabilidad y trazabilidad de fuentes | demanda 2.4/10 | 1 dep."]
         demografia_pais["Monitor demográfico por país | Cobertura de datos (empresas, mercados, países) | demanda 0/10 | 1 dep."]
+        bloomberg_originals_pais("Contexto de inversión por país desde Bloomberg Originals | Cobertura de datos (empresas, mercados, países) | demanda 0/10 | 0 dep.")
     end
     desarrollo_industrial_ciudades ==> proy_global
     finanzas_publicas_soberanas ==> proy_global
@@ -18,6 +19,7 @@ flowchart LR
     arbol_tecnologico_historico ==> proy_global
     demografia_pais ==> proy_global
     demografia_pais --> finanzas_publicas_soberanas
+    bloomberg_originals_pais ==> proy_global
     classDef c_cobertura_S fill:#009E73,stroke:#222,color:#000,font-size:12px
     classDef c_fiabilidad_S fill:#D55E00,stroke:#222,color:#000,font-size:12px
     class desarrollo_industrial_ciudades c_cobertura_S
@@ -25,3 +27,4 @@ flowchart LR
     class entidades_postura_vecinal c_fiabilidad_S
     class arbol_tecnologico_historico c_fiabilidad_S
     class demografia_pais c_cobertura_S
+    class bloomberg_originals_pais c_cobertura_S

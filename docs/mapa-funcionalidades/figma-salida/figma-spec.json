@@ -124,6 +124,23 @@
         "Geopolitical Sidebar",
         "Servicio de Ingestión Macro Soberana"
       ]
+    },
+    {
+      "id": "bloomberg-originals-pais",
+      "nombre": "Contexto de inversión por país desde Bloomberg Originals",
+      "color": "#009E73",
+      "meta": "Dar a cada país del globo una capa de contexto cualitativo de inversión (temas, empresas, riesgos) trazable a video y fecha",
+      "eje": "cobertura",
+      "forma": "redondeado",
+      "estado": "en_construccion",
+      "tamano": "S",
+      "dependencias": 0,
+      "demanda": "0/10",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ]
     }
   ],
   "conexiones": [
@@ -156,6 +173,11 @@
       "tipo": "depende_de",
       "de": "demografia-pais",
       "a": "finanzas-publicas-soberanas"
+    },
+    {
+      "tipo": "pertenece_a",
+      "de": "bloomberg-originals-pais",
+      "a": "global"
     }
   ],
   "avisos": [
