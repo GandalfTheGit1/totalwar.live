@@ -28,10 +28,16 @@ export const IndicatorSearchBar: React.FC<IndicatorSearchBarProps> = ({
   const [touched, setTouched] = useState(false);
   const { data, loading, error } = useIndicatorCatalog(touched);
 
-  const results = useMemo(
-    () => (data ? searchIndicators(data.indicators, query, 8) : []),
-    [data, query]
-  );
+  const typing = query.trim().length > 0;
+  // Sin texto: sugerencias con los indicadores que ya se pueden pintar, los de más países primero.
+  const results = useMemo(() => {
+    if (!data) return [];
+    if (typing) return searchIndicators(data.indicators, query, 8);
+    return data.indicators
+      .filter((i) => i.countryCount)
+      .sort((a, b) => (b.countryCount ?? 0) - (a.countryCount ?? 0))
+      .map((indicator) => ({ indicator, matched: indicator.name, score: 0 }));
+  }, [data, query, typing]);
   const active = useMemo(
     () => (activeIndicator && data ? data.indicators.find((i) => i.slug === activeIndicator) ?? null : null),
     [activeIndicator, data]
@@ -52,7 +58,7 @@ export const IndicatorSearchBar: React.FC<IndicatorSearchBarProps> = ({
     else if (e.key === 'Escape') { setOpen(false); }
   };
 
-  const showDropdown = open && query.trim().length > 0;
+  const showDropdown = open;
   const highlightedSlug = selectable[Math.min(highlight, selectable.length - 1)]?.indicator.slug;
 
   return (
@@ -93,7 +99,12 @@ export const IndicatorSearchBar: React.FC<IndicatorSearchBarProps> = ({
         >
           {loading && <div className="px-2.5 py-1.5 text-[11px] text-zinc-400">Cargando catálogo…</div>}
           {error && <div className="px-2.5 py-1.5 text-[11px] text-rose-400">{error}</div>}
-          {data && results.length === 0 && (
+          {data && !typing && (
+            <div className="px-2.5 pt-1 pb-1.5 text-[10px] font-mono uppercase tracking-wider text-zinc-500">
+              Disponibles en el mapa · escribe para buscar entre {data.indicators.length}
+            </div>
+          )}
+          {data && typing && results.length === 0 && (
             <div className="px-2.5 py-1.5 text-[11px] text-zinc-400">Ningún indicador coincide con «{query}».</div>
           )}
           {results.map(({ indicator, matched }) => {
@@ -119,7 +130,7 @@ export const IndicatorSearchBar: React.FC<IndicatorSearchBarProps> = ({
                   {viaAlias && <span className="text-[10px] text-zinc-500 truncate">({matched})</span>}
                 </span>
                 <span className="font-mono text-[10px] text-zinc-400 shrink-0">
-                  {indicator.category} · {hasData ? `${indicator.countryCount} países` : 'sin datos'}
+                  {hasData ? '' : `${indicator.category} · `}{hasData ? `${indicator.countryCount} países` : 'sin datos'}
                 </span>
               </button>
             );
