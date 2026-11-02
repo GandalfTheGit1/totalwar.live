@@ -444,7 +444,8 @@
       "que_permite": [
         "Con esto puedo consultar de forma inmediata la ratio de deuda pública sobre el PIB, el balance presupuestario neto y la carga de intereses de cualquier país seleccionado en el globo 3D.",
         "Con esto puedo contrastar los ingresos públicos brutos frente al gasto público total de cada Estado con métricas homogéneas de fuentes multilaterales oficiales.",
-        "Con esto puedo evaluar el estrés de solvencia soberana mediante un semáforo visual de sostenibilidad fiscal sin tener que bucear por portales gubernamentales dispersos."
+        "Con esto puedo evaluar el estrés de solvencia soberana mediante un semáforo visual de sostenibilidad fiscal sin tener que bucear por portales gubernamentales dispersos.",
+        "Con esto puedo ver las necesidades de financiación del Estado, quién compra su deuda, las reglas y medidas fiscales anunciadas con su impacto, la rigidez presupuestaria y los subsidios."
       ],
       "estado": "idea",
       "depende_de": [],
@@ -507,9 +508,13 @@
         {
           "archivo": "docs/mapa-funcionalidades/fichas/finanzas-publicas-soberanas.md",
           "seccion": "Ficha Técnica Completa"
+        },
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Salud fiscal soberana: deuda, intereses, financiación y política fiscal"
         }
       ],
-      "notas": "Ficha generada tras entrevista con William. Meta exclusiva de Seguidores mediante emulación de mecánicas de juegos (HOI4/Victoria 3) con acceso 100% público y gratuito.",
+      "notas": "Ficha generada tras entrevista con William. Meta exclusiva de Seguidores mediante emulación de mecánicas de juegos (HOI4/Victoria 3) con acceso 100% público y gratuito. Ampliada el 2026-11-02 con 9 hechos de Bloomberg Originals (financiación, compradores de deuda, medidas fiscales, subsidios).",
       "meta": "Tener indicadores fiscales actuales para casi todos los países del globo",
       "eje": "cobertura"
     },
@@ -840,6 +845,1483 @@
         }
       ],
       "notas": "Creada el 2026-10-31. William eligió: meta de cobertura, dataset + API sin UI en esta tanda, últimos 2 años, presentación como temas a favor / en contra."
+    },
+    {
+      "id": "riesgo-climatico-fisico",
+      "nombre": "Capa de riesgo climático físico por país",
+      "resumen": "El usuario ve por país la exposición a calor extremo, sequía, inundación, ciclones y desastres, sus pérdidas económicas estimadas, la brecha de protección aseguradora y el coste de adaptación; una capa del mapa colorea el riesgo y lo cruza con instalaciones y cultivos.",
+      "que_permite": [
+        "Con esto puedo el usuario ve por país la exposición a calor extremo, sequía, inundación, ciclones y desastres, sus pérdidas económicas estimadas, la brecha de protección aseguradora y el coste de adaptación; una capa del mapa colorea el riesgo y lo cruza con instalaciones y cultivos.",
+        "Con esto puedo el clima físico destruye activos, corta producción agrícola y presiona las cuentas públicas; saber qué países y regiones están expuestos y mal asegurados evita invertir en empresas cuyos activos o proveedores pueden quedar fuera de servicio."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con índice de exposición climática y pérdidas económicas con fuente y año ≤3 años, sobre 198",
+        "umbral": "≥150 países (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Nueva sección sidebar/ClimateRiskSection.tsx",
+          "capa temática 'climate' en Map2D (map2d/country-styler.ts)",
+          "indicador en top-bar StabilityPanel."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: ND-GAIN, INFORM Risk (JRC), EM-DAT, World Bank Climate Change Knowledge Portal, Swiss Re sigma (brecha aseguradora), NGFS (escenarios), FAO (cultivos).",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/riesgo-climatico-fisico.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/climate-risk/physical-risk.json: {country, amenazas[{tipo, indice, tendencia}], perdidas_pct_pib, brecha_aseguradora_pct, coste_adaptacion_pct_pib, cultivos_expuestos[], escenarios_calor[], fuente, fecha}.",
+        "Nuevo lib/services/climate-risk/climate-risk-service.ts (normaliza índices, calcula exposición de instalaciones de corporate-facilities por coordenadas y escenarios de impacto en PIB).",
+        "Nuevo app/api/climate-risk/[code]/route.ts."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Capa de riesgo climático físico por país"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/riesgo-climatico-fisico.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 9 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Que cada país muestre su exposición climática física y lo que cuesta",
+      "eje": "cobertura"
+    },
+    {
+      "id": "logistica-chokepoints-corredores",
+      "nombre": "Riesgo logístico: chokepoints con tráfico parcial, rutas alternativas, vías fluviales y corredores",
+      "resumen": "El simulador de chokepoints pasa de bloqueo sí/no a porcentaje de tráfico con curva de recuperación, muestra rutas alternativas con su capacidad real, peajes y primas de seguro de guerra, y añade vías fluviales interiores, corredores terrestres y la transición de combustibles y electrificación de puertos.",
+      "que_permite": [
+        "Con esto puedo el simulador de chokepoints pasa de bloqueo sí/no a porcentaje de tráfico con curva de recuperación, muestra rutas alternativas con su capacidad real, peajes y primas de seguro de guerra, y añade vías fluviales interiores, corredores terrestres y la transición de combustibles y electrificación de puertos.",
+        "Con esto puedo la mayoría de disrupciones son parciales y duraderas, no cierres totales; medir capacidad de desvío y coste extra de flete permite estimar el impacto real en márgenes de importadores, navieras y productores que dependen de una ruta."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Error medio del % de tráfico simulado frente a IMF PortWatch en 3 crisis reales (Mar Rojo 2024, Panamá 2023, Ormuz 2026)",
+        "umbral": "≤20 puntos porcentuales (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "ChokepointSimulationDrawer (control de % de tráfico y rutas alternativas), map2d/render-maritime.ts y ChokepointTooltip.tsx, top-bar PortsPanel, sidebar TacticalLogisticsSection."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: IMF PortWatch (tránsitos diarios), Autoridad del Canal de Panamá (calado y tránsitos), Lloyd's List / Joint War Committee (primas), UNCTAD, IMO (normativa de emisiones), Rhine/Mississippi gauges (USACE, WSV).",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/logistica-chokepoints-corredores.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Ampliar lib/services/maritime-chokepoints/chokepoints-data.ts (capacidad_pct, nivel_agua, peaje, prima_seguro_guerra) y trade-routes-data.ts (rutas alternativas con capacidad); nuevos inland-waterways-data.ts y land-corridors-data.ts en la misma carpeta; normativa de emisiones marítimas en presets-data.ts.",
+        "Ampliar lib/services/maritime-chokepoints/simulation-engine.ts y freight-calculations.ts (bloqueo parcial, curva de recuperación, desvío limitado por capacidad) vía maritime-chokepoint-service.ts.",
+        "Nuevo app/api/chokepoints/[id]/route.ts (estado actual y simulación) + app/api/dev/port-congestion y baltic-dry-index existentes."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Riesgo logístico: chokepoints con tráfico parcial, rutas alternativas, vías fluviales y corredores"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/logistica-chokepoints-corredores.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 9 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Que el simulador de chokepoints reproduzca crisis reales con tráfico parcial",
+      "eje": "calidad"
+    },
+    {
+      "id": "balance-energetico-dependencia",
+      "nombre": "Balance energético y dependencia de importaciones por proveedor",
+      "resumen": "Por país el usuario ve producción, consumo y déficit por combustible, de qué proveedores importa y en qué cuota, días de reservas estratégicas, infraestructura transfronteriza (gasoductos, interconexiones, nucleares) y acuerdos de cooperación o topes de precio.",
+      "que_permite": [
+        "Con esto puedo por país el usuario ve producción, consumo y déficit por combustible, de qué proveedores importa y en qué cuota, días de reservas estratégicas, infraestructura transfronteriza (gasoductos, interconexiones, nucleares) y acuerdos de cooperación o topes de precio.",
+        "Con esto puedo la dependencia de un proveedor concreto convierte una crisis diplomática o una sanción en un shock de costes para toda la industria del país; es la vía más directa por la que la geopolítica llega a los márgenes."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con balance por combustible y top-3 proveedores con cuota, fuente y año ≤2 años",
+        "umbral": "≥120 países (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Nueva sección sidebar/EnergySecuritySection.tsx",
+          "top-bar EnergyPanel",
+          "arcos de importación energética en map2d/render-arcs.ts."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: IEA World Energy Balances, Energy Institute Statistical Review, JODI Oil/Gas, Eurostat, UN Comtrade (HS 27), Global Energy Monitor (gasoductos y proyectos).",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/balance-energetico-dependencia.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/energy/energy-balance.json: {country, combustible, produccion, consumo, importaciones[{proveedor, cuota}], reservas_dias, infra_transfronteriza[], proyectos_estrategicos[], acuerdos[]}. country-resources.json sigue con producción.",
+        "Nuevo lib/services/energy/energy-security-service.ts (dependencia por proveedor, escenarios de corte).",
+        "Nuevo app/api/energy/[code]/route.ts."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Balance energético y dependencia de importaciones por proveedor"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/balance-energetico-dependencia.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 10 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Saber de quién depende energéticamente cada país y cuánto aguanta",
+      "eje": "cobertura"
+    },
+    {
+      "id": "sistema-electrico-pais",
+      "nombre": "Sistema eléctrico: capacidad, red, precios industriales y sensibilidad al clima",
+      "resumen": "El usuario ve capacidad instalada y adiciones anuales por tecnología, factor de utilización y curtailment, almacenamiento y transmisión, papel del carbón como respaldo, operadores de red, reformas del mercado y un comparador del precio de electricidad industrial entre países, con su sensibilidad al calor y la sequía.",
+      "que_permite": [
+        "Con esto puedo el usuario ve capacidad instalada y adiciones anuales por tecnología, factor de utilización y curtailment, almacenamiento y transmisión, papel del carbón como respaldo, operadores de red, reformas del mercado y un comparador del precio de electricidad industrial entre países, con su sensibilidad al calor y la sequía.",
+        "Con esto puedo el coste y la fiabilidad de la electricidad deciden dónde se instalan fábricas y centros de datos y quién gana en renovables, redes y almacenamiento; una red saturada es un límite físico al crecimiento."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con capacidad por tecnología y precio de electricidad industrial con fuente y año ≤2 años",
+        "umbral": "≥80 países (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Nueva sección sidebar/PowerSystemSection.tsx",
+          "comparador en top-bar EnergyPanel."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: Ember (capacidad, generación, precios), IEA, IRENA, ENTSO-E / EIA (curtailment y transmisión), Eurostat (precios industriales), reguladores nacionales.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/sistema-electrico-pais.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/energy/power-system.json: {country, capacidad_por_tecnologia, adiciones_anuales, factor_utilizacion, curtailment_pct, almacenamiento_gw, km_transmision, precio_industrial_eur_mwh, sensibilidad_calor_sequia, reformas[]}. Reutiliza renovable/nuclear de natural-resources.json.",
+        "Nuevo lib/services/energy/power-system-service.ts (comparador de precios y margen de reserva).",
+        "Nuevo app/api/energy/[code]/power/route.ts."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Sistema eléctrico: capacidad, red, precios industriales y sensibilidad al clima"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/sistema-electrico-pais.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 10 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Comparar la capacidad y el precio eléctrico de cada país",
+      "eje": "cobertura"
+    },
+    {
+      "id": "centros-datos-ia",
+      "nombre": "Mapa de centros de datos: capacidad, demanda eléctrica y competitividad por país",
+      "resumen": "El usuario ve los centros de datos por país y operador (MW en servicio y en construcción), la demanda eléctrica proyectada frente a la capacidad de la red, el déficit esperado y un índice de competitividad de costes (energía, suelo, permisos) para alojar IA.",
+      "que_permite": [
+        "Con esto puedo el usuario ve los centros de datos por país y operador (MW en servicio y en construcción), la demanda eléctrica proyectada frente a la capacidad de la red, el déficit esperado y un índice de competitividad de costes (energía, suelo, permisos) para alojar IA.",
+        "Con esto puedo la demanda de IA choca con redes finitas; identifica qué países atraerán inversión, dónde subirán precios eléctricos o habrá moratorias, y qué utilities, constructores y operadores se benefician."
+      ],
+      "estado": "idea",
+      "depende_de": [
+        "sistema-electrico-pais"
+      ],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con MW de centros de datos (en servicio y en construcción) y demanda proyectada con fuente",
+        "umbral": "≥30 países, incluidos los 15 con datos FRED (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Capa 'data-centers' en Map2D (map2d/render-facilities.ts)",
+          "bloque en top-bar TechPanel."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: IEA Energy and AI, EPRI, operadores de red (PJM, EirGrid), Data Center Map / Baxtel, informes de hiperescaladores, Cushman & Wakefield Data Center Development Cost Guide.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/centros-datos-ia.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/data-centers/data-centers.json: {operador, country, region, coords, mw_operativo, mw_construccion, estado, fuente}. Ampliar lib/data/corporate-facilities/hyperscale-auto.ts con MW.",
+        "Nuevo lib/services/data-centers/dc-demand-service.ts (demanda vs capacidad usando power-system-service, índice de costes).",
+        "Nuevo app/api/data-centers/[code]/route.ts."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Mapa de centros de datos: capacidad, demanda eléctrica y competitividad por país"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/centros-datos-ia.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 5 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Ver dónde se concentra la infraestructura de IA y si la red la soporta",
+      "eje": "cobertura"
+    },
+    {
+      "id": "transmision-shocks-energia-inflacion",
+      "nombre": "Motor de transmisión de shocks energéticos a inflación, combustibles y países frágiles",
+      "resumen": "Ante un shock de petróleo o gas (real o simulado en un chokepoint) el usuario ve la inflación por componentes, el traslado a combustibles y transporte por país y qué economías frágiles sufren más por dependencia importadora y subsidios.",
+      "que_permite": [
+        "Con esto puedo ante un shock de petróleo o gas (real o simulado en un chokepoint) el usuario ve la inflación por componentes, el traslado a combustibles y transporte por país y qué economías frágiles sufren más por dependencia importadora y subsidios.",
+        "Con esto puedo conecta un evento geopolítico con inflación, tipos y consumo en cada país, que es lo que mueve resultados y valoraciones de empresas expuestas."
+      ],
+      "estado": "idea",
+      "depende_de": [
+        "balance-energetico-dependencia"
+      ],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Error del traslado simulado a la inflación energética frente al dato real tras el shock de Ormuz 2026, en 10 países",
+        "umbral": "≤1,5 puntos de inflación interanual (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Sidebar DalioMacroSection (pestaña Ciclo Económico Dalio)",
+          "panel de efecto por país en ChokepointSimulationDrawer."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: FRED, Eurostat HICP, ILOSTAT/ONS/BLS por componentes, GlobalPetrolPrices, IMF Fossil Fuel Subsidies.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/transmision-shocks-energia-inflacion.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Ampliar lib/macro/fred-series-map.ts y world-bank-client.ts con IPC por componentes (energía, alimentos, transporte) y precios de combustible al consumidor.",
+        "Nuevo lib/services/geopolitical/energy-shock-transmission.ts (elasticidad de traslado por país, ponderada por energy-security-service).",
+        "Ampliar app/api/macro/[country] con bloque inflation_components y pass_through."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Motor de transmisión de shocks energéticos a inflación, combustibles y países frágiles"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/transmision-shocks-energia-inflacion.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 4 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Estimar cómo un shock energético llega a la inflación de cada país",
+      "eje": "calidad"
+    },
+    {
+      "id": "registro-minas-minerales-criticos",
+      "nombre": "Registro global de minas y proyectos de minerales críticos",
+      "resumen": "El usuario ve cada mina o proyecto de minerales críticos con país, operador, etapa, ley del mineral, tecnología de extracción, participación estatal, acuerdos bilaterales y la brecha entre extracción y procesamiento de la cadena completa.",
+      "que_permite": [
+        "Con esto puedo el usuario ve cada mina o proyecto de minerales críticos con país, operador, etapa, ley del mineral, tecnología de extracción, participación estatal, acuerdos bilaterales y la brecha entre extracción y procesamiento de la cadena completa.",
+        "Con esto puedo quién controla la mina y el refino decide la seguridad de suministro de baterías, chips y defensa; permite ver qué proyectos son viables y qué gobiernos pueden intervenir en ellos."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Minas o proyectos de minerales críticos con país, operador, etapa y fuente",
+        "umbral": "≥300 proyectos de los 10 minerales más críticos (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Minas como puntos en la capa 'resources' del mapa",
+          "sección CountryResources del panel lateral",
+          "top-bar ResourcesPanel."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: USGS Mineral Commodity Summaries, S&P Capital IQ Pro Metals & Mining (si licencia), Benchmark Mineral Intelligence, informes NI 43-101/JORC de las mineras, IEA Critical Minerals Data Explorer.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/registro-minas-minerales-criticos.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/critical-commodities/mines.ts: {mina, country, coords, mineral, operador, etapa, ley, tecnologia, participacion_estatal, offtake, acuerdos_bilaterales[]}; registrar en critical-commodities-registry.ts.",
+        "Nuevo lib/services/country-resources/mine-registry-service.ts (brecha extracción/refino por país usando trade-dag/ev-battery.ts).",
+        "Ampliar app/api/resources con ?country=&mineral=&level=mine."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Registro global de minas y proyectos de minerales críticos"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/registro-minas-minerales-criticos.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 10 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Tener un registro trazable de minas y proyectos de minerales críticos",
+      "eje": "cobertura"
+    },
+    {
+      "id": "concentracion-precios-materias-primas",
+      "nombre": "Concentración de oferta, exposición importadora y precios de materias primas",
+      "resumen": "Por materia prima el usuario ve qué países concentran producción y exportación, qué importadores dependen de cada proveedor, la serie de precios con tendencia y la proyección de demanda a 2050; los escenarios de precio se calibran con Brier.",
+      "que_permite": [
+        "Con esto puedo por materia prima el usuario ve qué países concentran producción y exportación, qué importadores dependen de cada proveedor, la serie de precios con tendencia y la proyección de demanda a 2050; los escenarios de precio se calibran con Brier.",
+        "Con esto puedo la concentración convierte a un país en palanca de precios; cruzarla con precios y demanda futura indica qué productores e importadores ganan o pierden margen."
+      ],
+      "estado": "idea",
+      "depende_de": [
+        "calibracion-brier"
+      ],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Materias primas con índice de concentración (HHI), top importadores y serie mensual de precio",
+        "umbral": "≥30 materias primas (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Top-bar ResourcesPanel (precios y concentración)",
+          "sección CountryResources (exposición del país)",
+          "capa 'resources' del mapa."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: World Bank Pink Sheet, LME, FRED, UN Comtrade/BACI, USGS, IEA Critical Minerals Outlook (demanda 2050).",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/concentracion-precios-materias-primas.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Ampliar lib/data/natural-resources.json (cuota_exportacion, importaciones_por_proveedor) + nuevo lib/data/critical-commodities/prices.json (series mensuales) y demand-outlook.json.",
+        "Nuevo lib/services/country-resources/commodity-exposure-service.ts (HHI de oferta, exposición del importador, escenarios).",
+        "Nuevo app/api/resources/prices/route.ts + ampliar app/api/resources."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Concentración de oferta, exposición importadora y precios de materias primas"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/concentracion-precios-materias-primas.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 5 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Medir la concentración de oferta y la exposición importadora de cada materia prima",
+      "eje": "cobertura"
+    },
+    {
+      "id": "comercio-bilateral-producto",
+      "nombre": "Matriz de comercio bilateral por producto, centralidad y fragmentación",
+      "resumen": "Al abrir un par de países el usuario ve comercio por producto y balanza, cuota de cada socio en exportaciones e importaciones, comercio de servicios y digital, integración del bloque regional, centralidad o aislamiento comercial del país y su estatus en la OMC.",
+      "que_permite": [
+        "Con esto puedo al abrir un par de países el usuario ve comercio por producto y balanza, cuota de cada socio en exportaciones e importaciones, comercio de servicios y digital, integración del bloque regional, centralidad o aislamiento comercial del país y su estatus en la OMC.",
+        "Con esto puedo mide cuánto depende un país de otro y en qué productos, que es lo que determina quién sufre ante aranceles, sanciones o rupturas diplomáticas."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Pares de países con comercio por producto (HS-2) y cuota por socio, año ≤3 años",
+        "umbral": "≥90 % de los pares con relación puntuada en relations.json (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Pestaña Comercio en sidebar/BilateralRelationsSection.tsx",
+          "top-bar RelationsPanel",
+          "grosor de arcos comerciales en map2d/render-arcs.ts."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: CEPII BACI, UN Comtrade, OECD-WTO TiSMoS / BaTIS (servicios), WTO (estatus y disputas), IMF DOTS.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/comercio-bilateral-producto.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/trade/bilateral-trade.json (BACI HS6 agregado: {exporter, importer, hs, valor, año}) + services-trade.json.",
+        "Nuevo lib/services/trade/bilateral-trade-service.ts (cuotas, balanza, centralidad de red, integración por bloque con bloc_memberships.json).",
+        "Nuevo app/api/trade/[code]/route.ts (?partner=)."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Matriz de comercio bilateral por producto, centralidad y fragmentación"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/comercio-bilateral-producto.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 8 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Que cada relación bilateral muestre su peso comercial real por producto",
+      "eje": "cobertura"
+    },
+    {
+      "id": "aranceles-sanciones-controles",
+      "nombre": "Registro de aranceles, sanciones y controles de exportación por país y producto",
+      "resumen": "El usuario ve cada medida vigente (arancel, sanción, control tecnológico, waiver) con tipo, base legal, productos afectados y fecha, más el seguimiento de su efectividad: ingresos externos del régimen sancionado y desvíos o contrabando.",
+      "que_permite": [
+        "Con esto puedo el usuario ve cada medida vigente (arancel, sanción, control tecnológico, waiver) con tipo, base legal, productos afectados y fecha, más el seguimiento de su efectividad: ingresos externos del régimen sancionado y desvíos o contrabando.",
+        "Con esto puedo una medida comercial cambia de golpe el mercado accesible y el coste de los insumos de una empresa; saber qué está vigente y qué productos toca es imprescindible para estimar el impacto."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Medidas vigentes registradas con tipo, base legal, fecha y fuente enlazada",
+        "umbral": "100 % de las medidas mostradas con fuente; ≥500 medidas (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Bloque de medidas en sidebar/BilateralRelationsSection.tsx",
+          "arcos de sanción en map2d/render-arcs.ts",
+          "top-bar TensionPanel."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: Global Trade Alert, WTO Tariff Download Facility, OFAC SDN / EU Sanctions Map / UK OFSI, BIS Entity List, OpenSanctions, CREA (ingresos de exportación rusos).",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/aranceles-sanciones-controles.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Ampliar engine/relations/model/measures.py de sanciones genéricas a registro tipado {emisor, objetivo, tipo, base_legal, hs[], fecha_inicio, fecha_fin, waivers[]}, exportado a lib/data/bilateral-relations/measures.json.",
+        "Nuevo lib/services/bilateral-relations/measures-service.ts (cruce con trade-dag para productos y empresas afectadas).",
+        "Ampliar app/api/relations/[code] con measures[]."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Registro de aranceles, sanciones y controles de exportación por país y producto"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/aranceles-sanciones-controles.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 6 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Registrar cada arancel, sanción y control vigente con su base legal",
+      "eje": "fiabilidad"
+    },
+    {
+      "id": "politica-industrial-subsidios",
+      "nombre": "Registro de política industrial y subsidios por país y sector",
+      "resumen": "El usuario ve las políticas industriales vigentes (subsidios, créditos fiscales, aranceles estratégicos, estrategias tecnológicas, incentivos subnacionales) con sector, importe, plazo y empresas beneficiarias.",
+      "que_permite": [
+        "Con esto puedo el usuario ve las políticas industriales vigentes (subsidios, créditos fiscales, aranceles estratégicos, estrategias tecnológicas, incentivos subnacionales) con sector, importe, plazo y empresas beneficiarias.",
+        "Con esto puedo los subsidios deciden dónde se localiza la inversión y qué empresas tienen viento a favor; su reversión es un riesgo directo para los beneficiarios."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Políticas industriales registradas con país, sector, importe, plazo y fuente",
+        "umbral": "≥20 países con ≥3 políticas cada uno (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Nueva sección sidebar/IndustrialPolicySection.tsx",
+          "marcadores sobre nodos de TradeDagSection."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: Global Trade Alert (subsidios), OECD MAGIC, Good Jobs First Subsidy Tracker (EE. UU.), boletines oficiales; curación manual para estrategias.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/politica-industrial-subsidios.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/industrial-policy/policies.json: {country, nivel (nacional/subnacional), sector, instrumento, importe, inicio, fin, beneficiarios[]}.",
+        "Nuevo lib/services/industrial-policy/industrial-policy-service.ts.",
+        "Nuevo app/api/industrial-policy/[code]/route.ts."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Registro de política industrial y subsidios por país y sector"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/politica-industrial-subsidios.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 5 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Saber qué sectores y empresas apoya cada Estado y con cuánto",
+      "eje": "cobertura"
+    },
+    {
+      "id": "riesgo-politico-interno",
+      "nombre": "Riesgo político interno: gobierno, calendario de catalizadores e inestabilidad social",
+      "resumen": "El usuario ve quién gobierna, su orientación y legitimidad, el calendario de elecciones y catalizadores (políticos y sectoriales) y un monitor de protestas e inestabilidad con episodios de reversión de políticas.",
+      "que_permite": [
+        "Con esto puedo el usuario ve quién gobierna, su orientación y legitimidad, el calendario de elecciones y catalizadores (políticos y sectoriales) y un monitor de protestas e inestabilidad con episodios de reversión de políticas.",
+        "Con esto puedo elecciones y protestas cambian impuestos, regulación y contratos; anticipar el calendario permite posicionarse antes del evento."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con gobierno actual, próxima elección y eventos de inestabilidad de los últimos 90 días con fuente",
+        "umbral": "≥150 países (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Nueva sección sidebar/PoliticalRiskSection.tsx",
+          "top-bar StabilityPanel",
+          "modo 'news' del mapa."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: IFES ElectionGuide, ParlGov / V-Dem, ACLED (protestas), Carnegie Global Protest Tracker, GDELT.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/riesgo-politico-interno.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/political/government.json (jefe de gobierno, orientación, coalición, próximas elecciones, catalizadores[]) + lib/data/political/unrest-events.json (protestas y reversión de políticas).",
+        "Nuevo lib/services/political/political-risk-service.ts.",
+        "Nuevo app/api/political/[code]/route.ts."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Riesgo político interno: gobierno, calendario de catalizadores e inestabilidad social"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/riesgo-politico-interno.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 8 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Que el riesgo político de cada país se actualice con eventos y calendario",
+      "eje": "cobertura"
+    },
+    {
+      "id": "conflicto-armado-control-territorial",
+      "nombre": "Perfil de conflicto armado: control territorial, costes, economías ilícitas y contagio",
+      "resumen": "El usuario ve qué porcentaje del territorio controla el Estado frente a grupos armados, quién controla las zonas de recursos, víctimas y desplazados, economías ilícitas que financian el conflicto y vectores de contagio hacia vecinos.",
+      "que_permite": [
+        "Con esto puedo el usuario ve qué porcentaje del territorio controla el Estado frente a grupos armados, quién controla las zonas de recursos, víctimas y desplazados, economías ilícitas que financian el conflicto y vectores de contagio hacia vecinos.",
+        "Con esto puedo el territorio fuera de control estatal es donde las empresas no pueden operar ni proteger activos; el contagio extiende ese riesgo a países vecinos."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con conflicto activo (según ACLED/UCDP) que tienen víctimas, desplazados y estimación de control territorial con fuente",
+        "umbral": "100 % de los conflictos activos de UCDP (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Nueva sección sidebar/ConflictProfileSection.tsx (junto a TerritorialClaimsSection)",
+          "capa 'conflicto' en Map2D",
+          "top-bar StabilityPanel."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: ACLED, UCDP GED, UNHCR/IDMC (desplazados), Crisis Group CrisisWatch, ISW / monitores locales (control territorial, curación manual), UNODC (economías ilícitas).",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/conflicto-armado-control-territorial.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/conflict/territorial-control.json {country, estado_pct, actores[{nombre, pct, zonas, recursos_controlados}], victimas, desplazados, economias_ilicitas[], vecinos_expuestos[], fecha}.",
+        "Nuevo lib/services/conflict/conflict-service.ts.",
+        "Nuevo app/api/conflict/[code]/route.ts."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Perfil de conflicto armado: control territorial, costes, economías ilícitas y contagio"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/conflicto-armado-control-territorial.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 5 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Cuantificar los conflictos armados activos y su efecto económico",
+      "eje": "cobertura"
+    },
+    {
+      "id": "linea-temporal-relaciones",
+      "nombre": "Línea temporal y calibración de relaciones bilaterales",
+      "resumen": "Al abrir una relación el usuario ve los eventos fechados (cumbres, treguas, controles, combates), la afinidad en votaciones de la ONU, la opinión pública en ambos países y cuánto depende la relación de un líder, sobre la serie del score.",
+      "que_permite": [
+        "Con esto puedo al abrir una relación el usuario ve los eventos fechados (cumbres, treguas, controles, combates), la afinidad en votaciones de la ONU, la opinión pública en ambos países y cuánto depende la relación de un líder, sobre la serie del score.",
+        "Con esto puedo explica por qué la relación está donde está y lo frágil que es, para juzgar si la exposición de una empresa a ese par de países es estable."
+      ],
+      "estado": "idea",
+      "depende_de": [
+        "calibracion-relaciones-gdelt"
+      ],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Pares de países con línea temporal de ≥5 eventos fechados y con fuente",
+        "umbral": "≥200 pares, empezando por los 45 países curados (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Línea temporal en sidebar/BilateralRelationsSection.tsx",
+          "top-bar RelationsPanel."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: GDELT, UN General Assembly Voting Data (Voeten), Pew Global Attitudes, ACLED, Wikidata.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/linea-temporal-relaciones.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Ampliar engine/relations/model/reviewed_facts.json y exportar lib/data/bilateral-relations/events-timeline.json {pair, fecha, tipo, descripcion, fuente}; añadir afinidad ONU y opinión pública a relations.json.",
+        "Ampliar engine/relations/model/scoring.py (afinidad ONU, volatilidad ligada a líder) + lib/services/bilateral-relations (timeline).",
+        "Ampliar app/api/relations/[code] con ?partner=&timeline=1."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Línea temporal y calibración de relaciones bilaterales"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/linea-temporal-relaciones.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 6 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Que cada puntuación bilateral sea trazable a eventos fechados",
+      "eje": "fiabilidad"
+    },
+    {
+      "id": "regimen-credito-tipos",
+      "nombre": "Régimen de crédito: curvas soberanas, tipos oficiales y estrés corporativo",
+      "resumen": "El usuario ve el rendimiento soberano con máximos históricos y spreads contra referencias, el tipo de política monetaria y su senda esperada, el tamaño y redenciones del crédito privado y la morosidad corporativa con emisores en estrés.",
+      "que_permite": [
+        "Con esto puedo el usuario ve el rendimiento soberano con máximos históricos y spreads contra referencias, el tipo de política monetaria y su senda esperada, el tamaño y redenciones del crédito privado y la morosidad corporativa con emisores en estrés.",
+        "Con esto puedo el coste de financiación decide qué empresas apalancadas sobreviven; un régimen de crédito tensionado precede a impagos y caídas de valoración."
+      ],
+      "estado": "idea",
+      "depende_de": [
+        "regimen-credito-bonos"
+      ],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con tipo oficial, rendimiento a 10 años y spread contra referencia, con fecha ≤1 mes",
+        "umbral": "≥40 países (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Curva, spread y tipo oficial en SovereignMetricsSection",
+          "top-bar DebtPanel."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: FRED, BIS policy rates, ECB SDW, investing.com/Trading Economics (yields), Moody's/S&P default reports, PitchBook/Preqin (crédito privado, si licencia).",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/regimen-credito-tipos.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Promover app/api/dev/sovereign-yields a datos estables; ampliar lib/macro/bis-client.ts (tipos oficiales), lib/macro/fred y ecb-client.ts; nuevo lib/data/credit/private-credit.json (AUM, redenciones, morosidad).",
+        "Nuevo lib/services/credit-regime/credit-regime-service.ts (consume el régimen de crédito del sistema equity).",
+        "Nuevo app/api/sovereign-yields/[code]/route.ts (sustituye la ruta dev) + bloque credit en app/api/macro/[country]."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Régimen de crédito: curvas soberanas, tipos oficiales y estrés corporativo"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/regimen-credito-tipos.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 5 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Mostrar el régimen de crédito y de tipos de cada país en el panel del globo",
+      "eje": "cobertura"
+    },
+    {
+      "id": "sector-externo-balanza-pagos",
+      "nombre": "Sector externo: balanza de pagos, posición inversora, divisa y fuentes de divisas",
+      "resumen": "El usuario ve cuenta corriente, composición de entradas de divisas (exportaciones, remesas, turismo, ayuda), deuda externa y programas del FMI, posición inversora internacional, tenedores extranjeros de su deuda por origen, intervenciones cambiarias y flujos financieros de retorno.",
+      "que_permite": [
+        "Con esto puedo el usuario ve cuenta corriente, composición de entradas de divisas (exportaciones, remesas, turismo, ayuda), deuda externa y programas del FMI, posición inversora internacional, tenedores extranjeros de su deuda por origen, intervenciones cambiarias y flujos financieros de retorno.",
+        "Con esto puedo los países que dependen de financiación externa sufren crisis de divisa y control de capitales que hunden el valor en moneda fuerte de cualquier inversión local."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Países con cuenta corriente, composición de entradas de divisas y deuda externa con fuente y año ≤2 años",
+        "umbral": "≥150 países (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Bloque 'Cuentas externas' en SovereignMetricsSection",
+          "desequilibrios en DalioMacroSection",
+          "top-bar DebtPanel."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: IMF BOP/IIP y CPIS, World Bank IDS y WDI, US Treasury TIC, IMF MONA (programas), OECD DAC (ayuda), UN Tourism.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/sector-externo-balanza-pagos.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/macro/imf-bop-client.ts (BOP e IIP) + ampliar world-bank-client.ts (BN.CAB.XOKA.GD.ZS, DT.ODA.ODAT.GN.ZS, BX.TRF.PWKR.CD.DT, ST.INT.RCPT.CD, deuda externa IDS); nuevo lib/data/external-accounts.json para tenencias por origen (TIC/CPIS) y programas FMI.",
+        "Nuevo lib/services/sovereign-finances/external-accounts.ts (vulnerabilidad externa, dependencia de ayuda).",
+        "Ampliar app/api/macro/[country] con bloque external."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Sector externo: balanza de pagos, posición inversora, divisa y fuentes de divisas"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/sector-externo-balanza-pagos.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 13 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Ver la vulnerabilidad externa de cada país: de dónde vienen sus divisas y a quién debe",
+      "eje": "cobertura"
+    },
+    {
+      "id": "motor-causas-pib",
+      "nombre": "Motor de causas de variación del PIB con calidad de dato",
+      "resumen": "El usuario ve por qué creció o cayó el PIB (descomposición por componentes y sectores), la brecha frente a un contrafactual de países pares, el crecimiento necesario frente al real, indicadores adelantados de recesión y una marca de calidad de cada dato (oficial o estimado).",
+      "que_permite": [
+        "Con esto puedo el usuario ve por qué creció o cayó el PIB (descomposición por componentes y sectores), la brecha frente a un contrafactual de países pares, el crecimiento necesario frente al real, indicadores adelantados de recesión y una marca de calidad de cada dato (oficial o estimado).",
+        "Con esto puedo separa crecimiento sano de crecimiento frágil o mal medido, lo que cambia la lectura de la demanda futura para las empresas del país."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Variaciones trimestrales del PIB de los 15 países FRED con descomposición por componentes y causa verificada en una muestra manual",
+        "umbral": "≥80 % de las explicaciones de la muestra correctas (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "CausalAnalysisSection (explicación con LLM sobre la descomposición)",
+          "DalioMacroSection",
+          "aviso de calidad en SovereignMetricsSection."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: World Bank WDI, IMF WEO, OECD Quarterly National Accounts, FRED, Conference Board LEI, VIIRS luces nocturnas.",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/motor-causas-pib.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "lib/macro/world-bank-client.ts, fred/ y static-data.ts (campo calidad: oficial/estimado/fuente alternativa como luces nocturnas).",
+        "Nuevo lib/services/geopolitical/gdp-driver-engine.ts (descomposición, control sintético con pares, indicadores adelantados) usando lib/macro/temporal-align.ts.",
+        "Promover app/api/dev/geo-macro-analysis y ampliar app/api/macro/[country] con bloque gdp_drivers."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Motor de causas de variación del PIB con calidad de dato"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/motor-causas-pib.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 6 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Explicar por qué sube o baja el PIB de un país, con datos y no solo narrativa",
+      "eje": "calidad"
+    },
+    {
+      "id": "ciclo-inversion-ia",
+      "nombre": "Ciclo de inversión en IA: capex, compromisos, monetización y escenario de burbuja",
+      "resumen": "El usuario ve el capex de hiperescaladores y sus compromisos de infraestructura enlazados con proveedores, el peso de esa inversión en el PIB, precios y monetización de la IA, valoraciones de privadas de IA, el debate borde frente a nube y un escenario de estrés si se corrige la burbuja.",
+      "que_permite": [
+        "Con esto puedo el usuario ve el capex de hiperescaladores y sus compromisos de infraestructura enlazados con proveedores, el peso de esa inversión en el PIB, precios y monetización de la IA, valoraciones de privadas de IA, el debate borde frente a nube y un escenario de estrés si se corrige la burbuja.",
+        "Con esto puedo buena parte del crecimiento y de las bolsas depende hoy del gasto en IA; saber quién lo recibe y qué pasa si se frena es clave para chips, utilities, constructores y países exportadores."
+      ],
+      "estado": "idea",
+      "depende_de": [],
+      "separado_de": [
+        "score de empresas"
+      ],
+      "metrica_exito": {
+        "que_medir": "Hiperescaladores con capex trimestral y compromisos enlazados a proveedores; países con inversión en IA sobre PIB",
+        "umbral": "≥5 hiperescaladores y ≥10 países (Suposición)",
+        "plazo": "Antes del despliegue público"
+      },
+      "ui": {
+        "donde": "publica",
+        "pantallas": [
+          "Top-bar TechPanel",
+          "flujos en sidebar/ValueNetworkSection.tsx."
+        ]
+      },
+      "demanda": {
+        "expresa": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin peticiones de usuarios. Los hechos de Bloomberg Originals muestran que el tema importa al inversor, no que lo pidan."
+        },
+        "frustracion": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Sin entrevistas."
+        },
+        "conviene": {
+          "puntos": 0,
+          "etiqueta": "Evidencia insuficiente",
+          "fuente": "Hipótesis: ahorra tiempo frente a buscar en fuentes dispersas."
+        },
+        "total": 0
+      },
+      "modelo": {
+        "planificador": "Claude Opus",
+        "ejecutor": "Claude Sonnet",
+        "verificador": "Pruebas vitest con fixtures reales + revisión manual de una muestra de países",
+        "razon": "Ingesta y normalización de datos tabulares con riesgo de error silencioso moderado; el planificador fija el esquema y el ejecutor lo implementa por pasos con pruebas.",
+        "etiqueta": "Hipótesis"
+      },
+      "por_investigar": [
+        "¿Hay demanda real? Preguntar a 5 usuarios del globo si consultarían esto antes de invertir.",
+        "Licencias y términos de uso de las fuentes: SEC 10-Q/10-K y earnings calls de hiperescaladores, BEA (inversión en equipos y software), Epoch AI, Artificial Analysis (precios de modelos), PitchBook/Crunchbase (valoraciones).",
+        "¿Desplaza la calibración, que sigue en construcción?",
+        "Ubicación propuesta por IA sin abrir cada archivo: revisarla contra el código antes de implementar."
+      ],
+      "plan": "docs/mapa-funcionalidades/fichas/ciclo-inversion-ia.md",
+      "sistema": "global",
+      "parte_arquitectura": [
+        "World Geopolitical Engine",
+        "Geopolitical Sidebar"
+      ],
+      "referencias_internas": [
+        "Nuevo lib/data/ai-cycle/capex-commitments.json {empresa, trimestre, capex, guidance, proyectos[], proveedores[]} + pricing.json (precio por token) + private-valuations.json.",
+        "Nuevo lib/services/ai-cycle/ai-capex-service.ts (enlaza capex con proveedores vía trade-dag/semiconductors.ts y corporate-facilities; escenario de estrés con efecto en cartera y comercio).",
+        "Nuevo app/api/ai-cycle/route.ts."
+      ],
+      "fuentes": [
+        {
+          "archivo": "docs/bloomberg-originals/hallazgos-transcripciones.md",
+          "seccion": "Ciclo de inversión en IA: capex, compromisos, monetización y escenario de burbuja"
+        },
+        {
+          "archivo": "docs/mapa-funcionalidades/fichas/ciclo-inversion-ia.md",
+          "seccion": "Ficha completa"
+        }
+      ],
+      "notas": "Derivada de 9 hechos verificados de Bloomberg Originals (2026-11-02). Prioridad alta propuesta por IA (Hipótesis).",
+      "meta": "Seguir el ciclo de inversión en IA y su peso en la economía",
+      "eje": "cobertura"
     }
   ],
   "definicion_seguridad_riesgo_datos": "Mejorar la seguridad que hay respecto a los datos que se traen a la mesa para los clientes y de esa forma, aumentar el valor de la empresa al tener mejores datos disponibles y representación de estos. Mejorar los Datos y prevenir que se filtren, dan una ventaja a la empresa."
