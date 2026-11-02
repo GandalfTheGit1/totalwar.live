@@ -99,6 +99,23 @@ export function BloombergOriginalsSection({ countryCode, countryName }: Bloomber
         </p>
       )}
 
+      {data.signals.length > 0 && (
+        <div className="mt-3" data-testid="bloomberg-signals">
+          <p className="text-[10px] text-zinc-400 uppercase tracking-widest font-bold font-mono mb-1.5">Señales para invertir</p>
+          <ul className="space-y-1.5">
+            {data.signals.map(sg => (
+              <li key={sg.category + sg.videoId} className="p-2 bg-zinc-800/50 rounded border border-zinc-700/50 text-[11px]">
+                <span className="font-mono text-[9px] uppercase text-sky-300">{sg.category}</span>
+                <p className="text-zinc-300">{sg.claim}</p>
+                <a href={`https://www.youtube.com/watch?v=${sg.videoId}`} target="_blank" rel="noopener noreferrer" className="block italic text-zinc-500 hover:text-sky-300">
+                  “{sg.quote}”
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div className="mt-3 flex gap-1" role="group" aria-label="Filtrar por ángulo">
         {FILTERS.map(f => (
           <button

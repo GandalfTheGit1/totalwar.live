@@ -34,6 +34,12 @@ describe('getBloombergForCountry', () => {
     expect(p.sectors[0]).toEqual({ name: 'Cemento', mentions: 2 });
   });
 
+  it('attaches curated signals for the country', () => {
+    const sig = { category: 'politico', ficha: null, videoId: 'a', claim: 'c', quote: 'q' };
+    expect(getBloombergForCountry('MX', fixture, { MX: [sig] })!.signals).toEqual([sig]);
+    expect(getBloombergForCountry('IN', fixture, { MX: [sig] })!.signals).toEqual([]);
+  });
+
   it('returns an empty payload for a country without videos and null without data', () => {
     expect(getBloombergForCountry('FR', fixture)!.totals.videos).toBe(0);
     expect(getBloombergForCountry('FR', null)).toBeNull();

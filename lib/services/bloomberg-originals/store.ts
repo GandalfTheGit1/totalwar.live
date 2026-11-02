@@ -34,6 +34,16 @@ export interface BloombergOriginalsFile {
   videos: BloombergVideo[];
 }
 
+/** Investment-relevant fact from a transcript, with its verbatim quote (hand-curated, lib/data/bloomberg-originals/country-signals.json). */
+export interface CountrySignal {
+  category: string;
+  /** Slug of the funcionalidades ficha that should absorb this signal, null if none exists yet. */
+  ficha: string | null;
+  videoId: string;
+  claim: string;
+  quote: string;
+}
+
 export interface CountryBloombergPayload {
   country: string;
   source: string;
@@ -42,11 +52,21 @@ export interface CountryBloombergPayload {
   totals: Record<BloombergStance | 'videos', number>;
   companies: { name: string; ticker: string | null; mentions: number }[];
   sectors: { name: string; mentions: number }[];
+  signals: CountrySignal[];
   videos: (BloombergVideo & { url: string })[];
 }
 
 const DATA_FILE = path.join(process.cwd(), 'lib', 'data', 'bloomberg-originals', 'videos.json');
+const SIGNALS_FILE = path.join(process.cwd(), 'lib', 'data', 'bloomberg-originals', 'country-signals.json');
 let cache: BloombergOriginalsFile | null = null;
+
+function loadSignals(file: string = SIGNALS_FILE): Record<string, CountrySignal[]> {
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch {
+    return {};
+  }
+}
 
 export function loadBloombergFile(file: string = DATA_FILE): BloombergOriginalsFile | null {
   if (cache) return cache;
@@ -68,7 +88,8 @@ function rank<T extends { mentions: number }>(map: Map<string, T>): T[] {
 
 export function getBloombergForCountry(
   iso2: string,
-  data: BloombergOriginalsFile | null = loadBloombergFile()
+  data: BloombergOriginalsFile | null = loadBloombergFile(),
+  signals: Record<string, CountrySignal[]> = loadSignals()
 ): CountryBloombergPayload | null {
   if (!data) return null;
   const code = iso2.toUpperCase();
@@ -104,6 +125,7 @@ export function getBloombergForCountry(
     totals,
     companies: rank(companies),
     sectors: rank(sectors),
+    signals: signals[code] ?? [],
     videos: videos.map(v => ({ ...v, url: `https://www.youtube.com/watch?v=${v.id}` })),
   };
 }
