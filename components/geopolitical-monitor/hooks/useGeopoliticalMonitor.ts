@@ -16,6 +16,8 @@ import {
 } from '../types';
 import { useResourceProducers } from './useCountryResources';
 import { buildResourceLayerMap } from '../components/resources/resource-layer';
+import { useIndicatorValues } from './useIndicators';
+import { buildIndicatorLayerMap } from '../components/indicators/indicator-layer';
 import { FriendshoringService, CriticalCommodityKey, SubstitutionArc } from '@/lib/services/geographic/friendshoring-service';
 import { MapMode } from '../components/MapModeSelector';
 
@@ -59,11 +61,22 @@ export function useGeopoliticalMonitor({
     [resourceProducers]
   );
 
+  // Buscador de indicadores (Trading Economics): igual que el de recursos, con su propia capa.
+  const [selectedIndicator, setSelectedIndicator] = useState<string | null>(null);
+  const { data: indicatorValues } = useIndicatorValues(selectedIndicator);
+  const indicatorLayerData = useMemo<ThematicLayerMap>(
+    () => (indicatorValues ? buildIndicatorLayerMap(indicatorValues) : {}),
+    [indicatorValues]
+  );
+
   const thematicLayerData = useThematicLayerData(activeLayer);
-  const layerData = activeLayer === 'resource-search' ? resourceLayerData : thematicLayerData;
+  const layerData = activeLayer === 'resource-search' ? resourceLayerData
+    : activeLayer === 'indicator-search' ? indicatorLayerData
+    : thematicLayerData;
   const handleLayerChange = useCallback((layer: ThematicLayer) => {
     setActiveLayer(layer);
     if (layer !== 'resource-search') setSelectedResourceId(null);
+    if (layer !== 'indicator-search') setSelectedIndicator(null);
   }, []);
 
   const getPolygonColorRef = useRef<any>(null);
@@ -197,6 +210,19 @@ export function useGeopoliticalMonitor({
     setActiveLayer((layer) => (layer === 'resource-search' ? 'none' : layer));
   }, []);
 
+  const selectIndicator = useCallback((slug: string) => {
+    setSelectedIndicator(slug);
+    setSelectedResourceId(null);
+    setActiveMode('risk');
+    setActiveRelations({});
+    setActiveLayer('indicator-search');
+  }, []);
+
+  const clearIndicator = useCallback(() => {
+    setSelectedIndicator(null);
+    setActiveLayer((layer) => (layer === 'indicator-search' ? 'none' : layer));
+  }, []);
+
   const pointsData = useMemo(() => {
     return computeMonitorPoints(
       activeLayer,
@@ -262,6 +288,9 @@ export function useGeopoliticalMonitor({
     selectedResourceId,
     selectResource,
     clearResource,
+    selectedIndicator,
+    selectIndicator,
+    clearIndicator,
     selectedCountry: countrySel.selectedCountry,
     hoveredCountry: countrySel.hoveredCountry,
     tooltipPos: countrySel.tooltipPos,

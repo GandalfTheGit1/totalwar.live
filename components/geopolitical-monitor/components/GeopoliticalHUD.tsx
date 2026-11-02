@@ -12,6 +12,7 @@ import { GeopoliticalKnowledgeService } from '@/lib/services/geopolitical-knowle
 import { useSettings } from '@/lib/settings-context';
 import { WorldTensionWidget } from './hoi4-eu4/WorldTensionWidget';
 import { ResourceSearchBar } from './resources/ResourceSearchBar';
+import { IndicatorSearchBar } from './indicators/IndicatorSearchBar';
 import { ResourceProducersPanel } from './resources/ResourceProducersPanel';
 
 export interface LayerLegendPanelProps {
@@ -64,6 +65,12 @@ const LAYER_META: Record<
     title: 'Red Operativa & Expansión',
     description: 'Sedes centrales, manufactura consolidada y expansión',
     badgeStyle: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30',
+  },
+  'indicator-search': {
+    badge: 'INDICADOR',
+    title: 'Indicador económico buscado',
+    description: 'Cuartiles por valor (Crítico = 25 % más alto). Pasa el ratón para ver el dato · Fuente: Trading Economics',
+    badgeStyle: 'bg-sky-500/15 text-sky-300 border-sky-500/30',
   },
   'resource-search': {
     badge: 'RECURSO',
@@ -224,6 +231,9 @@ export interface GeopoliticalHUDProps {
   activeResourceId?: string | null;
   onSelectResource?: (commodityId: string) => void;
   onClearResource?: () => void;
+  activeIndicator?: string | null;
+  onSelectIndicator?: (slug: string) => void;
+  onClearIndicator?: () => void;
   onSelectCountryByIso?: (isoCode: string) => void;
   className?: string;
 }
@@ -245,6 +255,9 @@ export const GeopoliticalHUD: React.FC<GeopoliticalHUDProps> = ({
   activeResourceId = null,
   onSelectResource,
   onClearResource,
+  activeIndicator = null,
+  onSelectIndicator,
+  onClearIndicator,
   onSelectCountryByIso,
   className = '',
 }) => {
@@ -375,6 +388,17 @@ export const GeopoliticalHUD: React.FC<GeopoliticalHUDProps> = ({
               activeResourceId={activeResourceId}
               onSelectResource={onSelectResource}
               onClearResource={onClearResource}
+            />
+          </div>
+        )}
+
+        {/* Buscador de indicadores: pinta el mapa por el valor de cada país */}
+        {onSelectIndicator && (
+          <div className="mt-2">
+            <IndicatorSearchBar
+              activeIndicator={activeIndicator}
+              onSelectIndicator={onSelectIndicator}
+              onClearIndicator={onClearIndicator}
             />
           </div>
         )}

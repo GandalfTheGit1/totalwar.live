@@ -13,7 +13,8 @@
     "test:watch": "vitest",
     "build:resources": "tsx scripts/build-country-resources.ts",
     "check:wikipedia": "tsx scripts/check-wikipedia-resources.ts",
-    "build:bloomberg": "tsx --env-file=.env.local scripts/build-bloomberg-originals.ts"
+    "build:bloomberg": "tsx --env-file=.env.local scripts/build-bloomberg-originals.ts",
+    "build:te": "tsx scripts/build-trading-economics.ts"
   },
   "dependencies": {
     "@next/third-parties": "^16.4.2",

@@ -20,9 +20,10 @@ export type RelationType =
   | 'ally' | 'conflict' | 'neutral'; // Legacy fallback
 
 // ─── Thematic Layers (T03.2) ──────────────────────────────────────────────────
+/** 'indicator-search' colorea por el indicador de Trading Economics elegido en su buscador. */
 /** 'resource-search' colorea los productores del recurso elegido en el buscador de recursos. */
 export type ThematicLayer =
-  | 'none' | 'tier-n' | 'resources' | 'maritime' | 'footprint' | 'resource-search'
+  | 'none' | 'tier-n' | 'resources' | 'maritime' | 'footprint' | 'resource-search' | 'indicator-search'
   | 'military' | 'stability';
 
 export interface ThematicLayerCountryData {

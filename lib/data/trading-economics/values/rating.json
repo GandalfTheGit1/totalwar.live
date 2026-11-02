@@ -1,0 +1,1913 @@
+{
+  "slug": "rating",
+  "name": "Credit Rating",
+  "category": "Government",
+  "source": "https://tradingeconomics.com/country-list/rating",
+  "fetchedAt": "2026-11-02T15:20:11.463Z",
+  "valueColumn": "TE",
+  "columns": [
+    "Country",
+    "S&P",
+    "DBRS",
+    "TE"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 100,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "100"
+      }
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 100,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "100"
+      }
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 100,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "100"
+      }
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 100,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "100"
+      }
+    },
+    "LIE": {
+      "name": "Liechtenstein",
+      "value": 100,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "",
+        "TE": "100"
+      }
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 100,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "100"
+      }
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 100,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "100"
+      }
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 100,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "100"
+      }
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 100,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "100"
+      }
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 99,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "99"
+      }
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 98,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AAA",
+        "DBRS": "AAA",
+        "TE": "98"
+      }
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 97,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA+",
+        "DBRS": "AAA",
+        "TE": "97"
+      }
+    },
+    "USA": {
+      "name": "United States",
+      "value": 97,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA+",
+        "DBRS": "AAA",
+        "TE": "97"
+      }
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 95,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA+",
+        "DBRS": "AA (high)",
+        "TE": "95"
+      }
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 95,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA+ negative outlook",
+        "DBRS": "AA (high)",
+        "TE": "95"
+      }
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 91,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA+",
+        "DBRS": "AA positive outlook",
+        "TE": "91"
+      }
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 90,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA",
+        "DBRS": "",
+        "TE": "90"
+      }
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 90,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA+",
+        "DBRS": "",
+        "TE": "90"
+      }
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 90,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA",
+        "DBRS": "",
+        "TE": "90"
+      }
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 88,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA+",
+        "DBRS": "",
+        "TE": "88"
+      }
+    },
+    "IMN": {
+      "name": "Isle of Man",
+      "value": 87,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "N/A",
+        "DBRS": "",
+        "TE": "87"
+      }
+    },
+    "MAC": {
+      "name": "Macau",
+      "value": 87,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "87"
+      }
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 87,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA",
+        "DBRS": "AA",
+        "TE": "87"
+      }
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 86,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA- positive outlook",
+        "DBRS": "AA",
+        "TE": "86"
+      }
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 86,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA",
+        "DBRS": "",
+        "TE": "86"
+      }
+    },
+    "CYM": {
+      "name": "Cayman Islands",
+      "value": 85,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "85"
+      }
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 83,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA-",
+        "DBRS": "AA negative outlook",
+        "TE": "83"
+      }
+    },
+    "FRA": {
+      "name": "France",
+      "value": 83,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A+",
+        "DBRS": "AA negative outlook",
+        "TE": "83"
+      }
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 81,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA-",
+        "DBRS": "",
+        "TE": "81"
+      }
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 80,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "NR",
+        "DBRS": "AA (low)",
+        "TE": "80"
+      }
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 80,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A+ positive outlook",
+        "DBRS": "",
+        "TE": "80"
+      }
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 80,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A+",
+        "DBRS": "",
+        "TE": "80"
+      }
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 78,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "AA",
+        "DBRS": "AA (low)",
+        "TE": "78"
+      }
+    },
+    "BMU": {
+      "name": "Bermuda",
+      "value": 77,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A+ positive outlook",
+        "DBRS": "A (high)",
+        "TE": "77"
+      }
+    },
+    "CHN": {
+      "name": "China",
+      "value": 77,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A+",
+        "DBRS": "A",
+        "TE": "77"
+      }
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 77,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A+",
+        "DBRS": "A (high)",
+        "TE": "77"
+      }
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 75,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A",
+        "DBRS": "A (high)",
+        "TE": "75"
+      }
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 75,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A-",
+        "DBRS": "A (high)",
+        "TE": "75"
+      }
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 75,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A+ positive outlook",
+        "DBRS": "A (high) positive outlook",
+        "TE": "75"
+      }
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 73,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A",
+        "DBRS": "N/A",
+        "TE": "73"
+      }
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 72,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A",
+        "DBRS": "A",
+        "TE": "72"
+      }
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 72,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A-",
+        "DBRS": "A negative outlook",
+        "TE": "72"
+      }
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 72,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A",
+        "DBRS": "A (low)",
+        "TE": "72"
+      }
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 72,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A+",
+        "DBRS": "A (high)",
+        "TE": "72"
+      }
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 71,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A",
+        "DBRS": "A",
+        "TE": "71"
+      }
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 71,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A positive outlook",
+        "DBRS": "A positive outlook",
+        "TE": "71"
+      }
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 71,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A",
+        "DBRS": "",
+        "TE": "71"
+      }
+    },
+    "AND": {
+      "name": "Andorra",
+      "value": 68,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A- positive outlook",
+        "DBRS": "",
+        "TE": "68"
+      }
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 68,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A-",
+        "DBRS": "",
+        "TE": "68"
+      }
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 66,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB+ positive outlook",
+        "DBRS": "A (low)",
+        "TE": "66"
+      }
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 65,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB+ positive outlook",
+        "DBRS": "BBB (high)",
+        "TE": "65"
+      }
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 65,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB+",
+        "DBRS": "",
+        "TE": "65"
+      }
+    },
+    "SMR": {
+      "name": "San Marino",
+      "value": 62,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "A-",
+        "DBRS": "BBB positive outlook",
+        "TE": "62"
+      }
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 61,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB+",
+        "DBRS": "",
+        "TE": "61"
+      }
+    },
+    "URY": {
+      "name": "Uruguay",
+      "value": 61,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB+",
+        "DBRS": "BBB",
+        "TE": "61"
+      }
+    },
+    "ABW": {
+      "name": "Aruba",
+      "value": 60,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB+",
+        "DBRS": "",
+        "TE": "60"
+      }
+    },
+    "BWA": {
+      "name": "Botswana",
+      "value": 60,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB- negative outlook",
+        "DBRS": "",
+        "TE": "60"
+      }
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 60,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB",
+        "DBRS": "",
+        "TE": "60"
+      }
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 60,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB",
+        "DBRS": "",
+        "TE": "60"
+      }
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 60,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB-",
+        "DBRS": "N/A",
+        "TE": "60"
+      }
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 58,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB- negative outlook",
+        "DBRS": "BBB",
+        "TE": "58"
+      }
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 58,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB negative outlook",
+        "DBRS": "BBB",
+        "TE": "58"
+      }
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 57,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB",
+        "DBRS": "BBB positive outlook",
+        "TE": "57"
+      }
+    },
+    "IND": {
+      "name": "India",
+      "value": 56,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB",
+        "DBRS": "BBB",
+        "TE": "56"
+      }
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 55,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "-",
+        "DBRS": "",
+        "TE": "55"
+      }
+    },
+    "MSR": {
+      "name": "Montserrat",
+      "value": 55,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB-",
+        "DBRS": "",
+        "TE": "55"
+      }
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 55,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB- negative outlook",
+        "DBRS": "BB (high)",
+        "TE": "55"
+      }
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 53,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "-",
+        "DBRS": "",
+        "TE": "53"
+      }
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 53,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB-",
+        "DBRS": "",
+        "TE": "53"
+      }
+    },
+    "PAN": {
+      "name": "Panama",
+      "value": 53,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB-",
+        "DBRS": "",
+        "TE": "53"
+      }
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 51,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB-",
+        "DBRS": "",
+        "TE": "51"
+      }
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": 51,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB-",
+        "DBRS": "",
+        "TE": "51"
+      }
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 50,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "BB (high)",
+        "TE": "50"
+      }
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 50,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB-",
+        "DBRS": "",
+        "TE": "50"
+      }
+    },
+    "TTO": {
+      "name": "Trinidad and Tobago",
+      "value": 50,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BBB- negative outlook",
+        "DBRS": "",
+        "TE": "50"
+      }
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 48,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB+",
+        "DBRS": "",
+        "TE": "48"
+      }
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 48,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB+",
+        "DBRS": "",
+        "TE": "48"
+      }
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 46,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB",
+        "DBRS": "BB",
+        "TE": "46"
+      }
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 45,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB positive outlook",
+        "DBRS": "",
+        "TE": "45"
+      }
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 45,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "",
+        "TE": "45"
+      }
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 43,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB",
+        "DBRS": "",
+        "TE": "43"
+      }
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 43,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB",
+        "DBRS": "",
+        "TE": "43"
+      }
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "value": 43,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB",
+        "DBRS": "",
+        "TE": "43"
+      }
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 43,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB positive outlook",
+        "DBRS": "",
+        "TE": "43"
+      }
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 43,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB",
+        "DBRS": "",
+        "TE": "43"
+      }
+    },
+    "ALB": {
+      "name": "Albania",
+      "value": 42,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB",
+        "DBRS": "",
+        "TE": "42"
+      }
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 40,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB- positive outlook",
+        "DBRS": "",
+        "TE": "40"
+      }
+    },
+    "JAM": {
+      "name": "Jamaica",
+      "value": 40,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB",
+        "DBRS": "",
+        "TE": "40"
+      }
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 40,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "40"
+      }
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 40,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "BB (high) negative outlook",
+        "TE": "40"
+      }
+    },
+    "BHS": {
+      "name": "Bahamas",
+      "value": 38,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "",
+        "TE": "38"
+      }
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 38,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "",
+        "TE": "38"
+      }
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 37,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "",
+        "TE": "37"
+      }
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 37,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+ positive outlook",
+        "DBRS": "",
+        "TE": "37"
+      }
+    },
+    "NAM": {
+      "name": "Namibia",
+      "value": 37,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "37"
+      }
+    },
+    "BEN": {
+      "name": "Benin",
+      "value": 36,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "",
+        "TE": "36"
+      }
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 35,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+ negative outlook",
+        "DBRS": "",
+        "TE": "35"
+      }
+    },
+    "GIN": {
+      "name": "Guinea",
+      "value": 35,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+ positive outlook",
+        "DBRS": "",
+        "TE": "35"
+      }
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 35,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "",
+        "TE": "35"
+      }
+    },
+    "TZA": {
+      "name": "Tanzania",
+      "value": 35,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "35"
+      }
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "value": 35,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "35"
+      }
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "value": 33,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+ negative outlook",
+        "DBRS": "",
+        "TE": "33"
+      }
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 33,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "",
+        "TE": "33"
+      }
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "value": 33,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+",
+        "DBRS": "",
+        "TE": "33"
+      }
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "value": 32,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+ positive outlook",
+        "DBRS": "",
+        "TE": "32"
+      }
+    },
+    "BRB": {
+      "name": "Barbados",
+      "value": 31,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+",
+        "DBRS": "",
+        "TE": "31"
+      }
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 31,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "BB-",
+        "DBRS": "",
+        "TE": "31"
+      }
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 30,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B",
+        "DBRS": "",
+        "TE": "30"
+      }
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "value": 30,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "N/A",
+        "DBRS": "",
+        "TE": "30"
+      }
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 30,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+",
+        "DBRS": "",
+        "TE": "30"
+      }
+    },
+    "LSO": {
+      "name": "Lesotho",
+      "value": 30,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "30"
+      }
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "value": 30,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+",
+        "DBRS": "",
+        "TE": "30"
+      }
+    },
+    "TGO": {
+      "name": "Togo",
+      "value": 30,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+ positive outlook",
+        "DBRS": "",
+        "TE": "30"
+      }
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "value": 30,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "CCC+",
+        "DBRS": "",
+        "TE": "30"
+      }
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 28,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B",
+        "DBRS": "",
+        "TE": "28"
+      }
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 27,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B+",
+        "DBRS": "",
+        "TE": "27"
+      }
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "value": 27,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B- positive outlook",
+        "DBRS": "",
+        "TE": "27"
+      }
+    },
+    "EGY": {
+      "name": "Egypt",
+      "value": 26,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B",
+        "DBRS": "",
+        "TE": "26"
+      }
+    },
+    "UGA": {
+      "name": "Uganda",
+      "value": 26,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B- positive outlook",
+        "DBRS": "",
+        "TE": "26"
+      }
+    },
+    "AGO": {
+      "name": "Angola",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B-",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "CMR": {
+      "name": "Cameroon",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B-",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "TCD": {
+      "name": "Chad",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B-",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "COG": {
+      "name": "Republic of the Congo",
+      "value": 18,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "CCC+",
+        "DBRS": "",
+        "TE": "18"
+      }
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B-",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "GHA": {
+      "name": "Ghana",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B-",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B-",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "SLB": {
+      "name": "Solomon Islands",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "VCT": {
+      "name": "St Vincent and the Grenadines",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "SWZ": {
+      "name": "Swaziland",
+      "value": 25,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "25"
+      }
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 23,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B",
+        "DBRS": "",
+        "TE": "23"
+      }
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "value": 23,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B- negative outlook",
+        "DBRS": "",
+        "TE": "23"
+      }
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "value": 23,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "N/A",
+        "DBRS": "",
+        "TE": "23"
+      }
+    },
+    "BLZ": {
+      "name": "Belize",
+      "value": 22,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B-",
+        "DBRS": "",
+        "TE": "22"
+      }
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 21,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B-",
+        "DBRS": "B (low)",
+        "TE": "21"
+      }
+    },
+    "GAB": {
+      "name": "Gabon",
+      "value": 21,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "N/A",
+        "DBRS": "",
+        "TE": "21"
+      }
+    },
+    "BFA": {
+      "name": "Burkina Faso",
+      "value": 20,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "CCC+",
+        "DBRS": "",
+        "TE": "20"
+      }
+    },
+    "MDV": {
+      "name": "Maldives",
+      "value": 20,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "20"
+      }
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 20,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "CCC+",
+        "DBRS": "",
+        "TE": "20"
+      }
+    },
+    "LAO": {
+      "name": "Laos",
+      "value": 18,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "B-",
+        "DBRS": "",
+        "TE": "18"
+      }
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "value": 16,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "CCC+",
+        "DBRS": "",
+        "TE": "16"
+      }
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 16,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "CCC negative outlook",
+        "DBRS": "",
+        "TE": "16"
+      }
+    },
+    "SUR": {
+      "name": "Suriname",
+      "value": 16,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "CCC+",
+        "DBRS": "",
+        "TE": "16"
+      }
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "value": 15,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "SD",
+        "DBRS": "",
+        "TE": "15"
+      }
+    },
+    "MLI": {
+      "name": "Mali",
+      "value": 15,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "15"
+      }
+    },
+    "NER": {
+      "name": "Niger",
+      "value": 15,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "15"
+      }
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 14,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "NR",
+        "DBRS": "",
+        "TE": "14"
+      }
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 11,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "NR",
+        "DBRS": "",
+        "TE": "11"
+      }
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "value": 11,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "SD",
+        "DBRS": "",
+        "TE": "11"
+      }
+    },
+    "SEN": {
+      "name": "Senegal",
+      "value": 11,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "CC negative outlook",
+        "DBRS": "",
+        "TE": "11"
+      }
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 11,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "CCC+",
+        "DBRS": "",
+        "TE": "11"
+      }
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "value": 11,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "N/A",
+        "DBRS": "",
+        "TE": "11"
+      }
+    },
+    "CUB": {
+      "name": "Cuba",
+      "value": 5,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": "5"
+      }
+    },
+    "PRI": {
+      "name": "Puerto Rico",
+      "value": 0,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "D negative outlook",
+        "DBRS": "",
+        "TE": "0"
+      }
+    },
+    "GRD": {
+      "name": "Grenada",
+      "value": null,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "SD negative outlook",
+        "DBRS": "",
+        "TE": ""
+      }
+    },
+    "UNK": {
+      "name": "Kosovo",
+      "value": null,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": ""
+      }
+    },
+    "NPL": {
+      "name": "Nepal",
+      "value": null,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "S&P": "",
+        "DBRS": "",
+        "TE": ""
+      }
+    }
+  },
+  "unmatched": []
+}

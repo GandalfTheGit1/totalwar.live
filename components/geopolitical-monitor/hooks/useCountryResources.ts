@@ -29,7 +29,7 @@ function fetchCached<T>(url: string): Promise<T> {
     pending = fetch(url).then(async (res) => {
       if (!res.ok) {
         const body = await res.json().catch(() => ({}));
-        throw new Error(body?.error || `Error ${res.status} al cargar recursos`);
+        throw new Error(body?.error || `Error ${res.status} al cargar datos`);
       }
       return res.json() as Promise<T>;
     });
@@ -45,9 +45,9 @@ export function clearResourcesCache(): void {
   cache.clear();
 }
 
-interface AsyncState<T> { data: T | null; loading: boolean; error: string | null }
+export interface AsyncState<T> { data: T | null; loading: boolean; error: string | null }
 
-function useFetch<T>(url: string | null): AsyncState<T> {
+export function useFetch<T>(url: string | null): AsyncState<T> {
   const [state, setState] = useState<AsyncState<T>>({ data: null, loading: !!url, error: null });
 
   useEffect(() => {

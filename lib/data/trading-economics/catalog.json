@@ -1,0 +1,837 @@
+[
+  {
+    "slug": "gdp-growth-rate",
+    "name": "GDP Growth Rate",
+    "category": "Main Indicators",
+    "countryCount": 88
+  },
+  {
+    "slug": "interest-rate",
+    "name": "Interest Rate",
+    "category": "Main Indicators",
+    "countryCount": 142
+  },
+  {
+    "slug": "inflation-rate",
+    "name": "Inflation Rate",
+    "category": "Main Indicators",
+    "countryCount": 187
+  },
+  {
+    "slug": "unemployment-rate",
+    "name": "Unemployment Rate",
+    "category": "Main Indicators",
+    "countryCount": 178
+  },
+  {
+    "slug": "government-debt-to-gdp",
+    "name": "Government Debt to GDP",
+    "category": "Main Indicators",
+    "countryCount": 165
+  },
+  {
+    "slug": "balance-of-trade",
+    "name": "Balance of Trade",
+    "category": "Main Indicators",
+    "countryCount": 174
+  },
+  {
+    "slug": "current-account-to-gdp",
+    "name": "Current Account to GDP",
+    "category": "Main Indicators",
+    "countryCount": 170
+  },
+  {
+    "slug": "implied-rates",
+    "name": "Implied Rates",
+    "category": "Main Indicators"
+  },
+  {
+    "slug": "average-annual-wages",
+    "name": "Average Annual Wages",
+    "category": "Labour"
+  },
+  {
+    "slug": "employed-persons",
+    "name": "Employed Persons",
+    "category": "Labour"
+  },
+  {
+    "slug": "employment-change",
+    "name": "Employment Change",
+    "category": "Labour"
+  },
+  {
+    "slug": "employment-change-yoy",
+    "name": "Employment Change YoY",
+    "category": "Labour"
+  },
+  {
+    "slug": "employment-rate",
+    "name": "Employment Rate",
+    "category": "Labour"
+  },
+  {
+    "slug": "full-time-employment",
+    "name": "Full Time Employment",
+    "category": "Labour"
+  },
+  {
+    "slug": "gross-average-monthly-wages",
+    "name": "Gross Average Monthly Wages",
+    "category": "Labour"
+  },
+  {
+    "slug": "initial-jobless-claims",
+    "name": "Initial Jobless Claims",
+    "category": "Labour"
+  },
+  {
+    "slug": "job-vacancies",
+    "name": "Job Vacancies",
+    "category": "Labour"
+  },
+  {
+    "slug": "labor-force-participation-rate",
+    "name": "Labor Force Participation Rate",
+    "category": "Labour"
+  },
+  {
+    "slug": "labour-costs",
+    "name": "Labour Costs",
+    "category": "Labour"
+  },
+  {
+    "slug": "long-term-unemployment-rate",
+    "name": "Long Term Unemployment Rate",
+    "category": "Labour"
+  },
+  {
+    "slug": "minimum-wages",
+    "name": "Minimum Wages",
+    "category": "Labour"
+  },
+  {
+    "slug": "non-farm-payrolls",
+    "name": "Non Farm Payrolls",
+    "category": "Labour"
+  },
+  {
+    "slug": "part-time-employment",
+    "name": "Part Time Employment",
+    "category": "Labour"
+  },
+  {
+    "slug": "population",
+    "name": "Population",
+    "category": "Labour"
+  },
+  {
+    "slug": "productivity",
+    "name": "Productivity",
+    "category": "Labour"
+  },
+  {
+    "slug": "retirement-age-men",
+    "name": "Retirement Age Men",
+    "category": "Labour"
+  },
+  {
+    "slug": "retirement-age-women",
+    "name": "Retirement Age Women",
+    "category": "Labour"
+  },
+  {
+    "slug": "unemployed-persons",
+    "name": "Unemployed Persons",
+    "category": "Labour"
+  },
+  {
+    "slug": "wage-growth",
+    "name": "Wage Growth",
+    "category": "Labour"
+  },
+  {
+    "slug": "wages",
+    "name": "Wages",
+    "category": "Labour"
+  },
+  {
+    "slug": "wages-in-manufacturing",
+    "name": "Wages in Manufacturing",
+    "category": "Labour"
+  },
+  {
+    "slug": "youth-unemployment-rate",
+    "name": "Youth Unemployment Rate",
+    "category": "Labour"
+  },
+  {
+    "slug": "asylum-applications",
+    "name": "Asylum Applications",
+    "category": "Government"
+  },
+  {
+    "slug": "corruption-index",
+    "name": "Corruption Index",
+    "category": "Government"
+  },
+  {
+    "slug": "corruption-rank",
+    "name": "Corruption Rank",
+    "category": "Government"
+  },
+  {
+    "slug": "rating",
+    "name": "Credit Rating",
+    "category": "Government",
+    "countryCount": 158
+  },
+  {
+    "slug": "fiscal-expenditure",
+    "name": "Fiscal Expenditure",
+    "category": "Government"
+  },
+  {
+    "slug": "government-budget",
+    "name": "Government Budget",
+    "category": "Government"
+  },
+  {
+    "slug": "government-budget-value",
+    "name": "Government Budget Value",
+    "category": "Government"
+  },
+  {
+    "slug": "government-debt",
+    "name": "Government Debt",
+    "category": "Government"
+  },
+  {
+    "slug": "government-revenues",
+    "name": "Government Revenues",
+    "category": "Government"
+  },
+  {
+    "slug": "government-spending",
+    "name": "Government Spending",
+    "category": "Government"
+  },
+  {
+    "slug": "government-spending-to-gdp",
+    "name": "Government Spending to GDP",
+    "category": "Government"
+  },
+  {
+    "slug": "military-expenditure",
+    "name": "Military Expenditure",
+    "category": "Government"
+  },
+  {
+    "slug": "consumer-price-index-cpi",
+    "name": "Consumer Price Index CPI",
+    "category": "Prices"
+  },
+  {
+    "slug": "core-consumer-prices",
+    "name": "Core Consumer Prices",
+    "category": "Prices"
+  },
+  {
+    "slug": "core-inflation-rate",
+    "name": "Core Inflation Rate",
+    "category": "Prices"
+  },
+  {
+    "slug": "cpi-housing-utilities",
+    "name": "CPI Housing Utilities",
+    "category": "Prices"
+  },
+  {
+    "slug": "export-prices",
+    "name": "Export Prices",
+    "category": "Prices"
+  },
+  {
+    "slug": "food-inflation",
+    "name": "Food Inflation",
+    "category": "Prices"
+  },
+  {
+    "slug": "gdp-deflator",
+    "name": "GDP Deflator",
+    "category": "Prices"
+  },
+  {
+    "slug": "harmonised-consumer-prices",
+    "name": "Harmonised Consumer Prices",
+    "category": "Prices"
+  },
+  {
+    "slug": "harmonised-inflation-rate-mom",
+    "name": "Harmonised Inflation Rate MoM",
+    "category": "Prices"
+  },
+  {
+    "slug": "harmonised-inflation-rate-yoy",
+    "name": "Harmonised Inflation Rate YoY",
+    "category": "Prices"
+  },
+  {
+    "slug": "import-prices",
+    "name": "Import Prices",
+    "category": "Prices"
+  },
+  {
+    "slug": "inflation-expectations",
+    "name": "Inflation Expectations",
+    "category": "Prices"
+  },
+  {
+    "slug": "inflation-rate-mom",
+    "name": "Inflation Rate MoM",
+    "category": "Prices"
+  },
+  {
+    "slug": "producer-price-inflation-mom",
+    "name": "Producer Price Inflation MoM",
+    "category": "Prices"
+  },
+  {
+    "slug": "producer-prices",
+    "name": "Producer Prices",
+    "category": "Prices"
+  },
+  {
+    "slug": "producer-prices-change",
+    "name": "Producer Prices Change",
+    "category": "Prices"
+  },
+  {
+    "slug": "banks-balance-sheet",
+    "name": "Banks Balance Sheet",
+    "category": "Money"
+  },
+  {
+    "slug": "cash-reserve-ratio",
+    "name": "Cash Reserve Ratio",
+    "category": "Money"
+  },
+  {
+    "slug": "central-bank-balance-sheet",
+    "name": "Central Bank Balance Sheet",
+    "category": "Money"
+  },
+  {
+    "slug": "deposit-interest-rate",
+    "name": "Deposit Interest Rate",
+    "category": "Money"
+  },
+  {
+    "slug": "foreign-exchange-reserves",
+    "name": "Foreign Exchange Reserves",
+    "category": "Money",
+    "countryCount": 122
+  },
+  {
+    "slug": "interbank-rate",
+    "name": "Interbank Rate",
+    "category": "Money"
+  },
+  {
+    "slug": "lending-rate",
+    "name": "Lending Rate",
+    "category": "Money"
+  },
+  {
+    "slug": "loan-growth",
+    "name": "Loan Growth",
+    "category": "Money"
+  },
+  {
+    "slug": "loans-to-private-sector",
+    "name": "Loans to Private Sector",
+    "category": "Money"
+  },
+  {
+    "slug": "money-supply-m0",
+    "name": "Money Supply M0",
+    "category": "Money"
+  },
+  {
+    "slug": "money-supply-m1",
+    "name": "Money Supply M1",
+    "category": "Money"
+  },
+  {
+    "slug": "money-supply-m2",
+    "name": "Money Supply M2",
+    "category": "Money"
+  },
+  {
+    "slug": "money-supply-m3",
+    "name": "Money Supply M3",
+    "category": "Money"
+  },
+  {
+    "slug": "private-debt-to-gdp",
+    "name": "Private Debt to GDP",
+    "category": "Money"
+  },
+  {
+    "slug": "capital-flows",
+    "name": "Capital Flows",
+    "category": "Trade"
+  },
+  {
+    "slug": "crude-oil-production",
+    "name": "Crude Oil Production",
+    "category": "Trade"
+  },
+  {
+    "slug": "current-account",
+    "name": "Current Account",
+    "category": "Trade"
+  },
+  {
+    "slug": "exports",
+    "name": "Exports",
+    "category": "Trade"
+  },
+  {
+    "slug": "external-debt",
+    "name": "External Debt",
+    "category": "Trade"
+  },
+  {
+    "slug": "foreign-direct-investment",
+    "name": "Foreign Direct Investment",
+    "category": "Trade"
+  },
+  {
+    "slug": "gold-reserves",
+    "name": "Gold Reserves",
+    "category": "Trade"
+  },
+  {
+    "slug": "imports",
+    "name": "Imports",
+    "category": "Trade"
+  },
+  {
+    "slug": "remittances",
+    "name": "Remittances",
+    "category": "Trade"
+  },
+  {
+    "slug": "terms-of-trade",
+    "name": "Terms of Trade",
+    "category": "Trade"
+  },
+  {
+    "slug": "terrorism-index",
+    "name": "Terrorism Index",
+    "category": "Trade"
+  },
+  {
+    "slug": "tourism-revenues",
+    "name": "Tourism Revenues",
+    "category": "Trade"
+  },
+  {
+    "slug": "tourist-arrivals",
+    "name": "Tourist Arrivals",
+    "category": "Trade"
+  },
+  {
+    "slug": "weapons-sales",
+    "name": "Weapons Sales",
+    "category": "Trade"
+  },
+  {
+    "slug": "full-year-gdp-growth",
+    "name": "Full Year GDP Growth",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp",
+    "name": "GDP",
+    "category": "GDP",
+    "countryCount": 190
+  },
+  {
+    "slug": "gdp-annual-growth-rate",
+    "name": "GDP Annual Growth Rate",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-constant-prices",
+    "name": "GDP Constant Prices",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-from-agriculture",
+    "name": "GDP from Agriculture",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-from-construction",
+    "name": "GDP from Construction",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-from-manufacturing",
+    "name": "GDP from Manufacturing",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-from-mining",
+    "name": "GDP from Mining",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-from-public-administration",
+    "name": "GDP from Public Administration",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-from-services",
+    "name": "GDP from Services",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-from-transport",
+    "name": "GDP from Transport",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-from-utilities",
+    "name": "GDP from Utilities",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-per-capita",
+    "name": "GDP per Capita",
+    "category": "GDP"
+  },
+  {
+    "slug": "gdp-per-capita-ppp",
+    "name": "GDP per Capita PPP",
+    "category": "GDP"
+  },
+  {
+    "slug": "gross-fixed-capital-formation",
+    "name": "Gross Fixed Capital Formation",
+    "category": "GDP"
+  },
+  {
+    "slug": "gross-national-product",
+    "name": "Gross National Product",
+    "category": "GDP"
+  },
+  {
+    "slug": "building-permits",
+    "name": "Building Permits",
+    "category": "Housing"
+  },
+  {
+    "slug": "construction-output",
+    "name": "Construction Output",
+    "category": "Housing"
+  },
+  {
+    "slug": "home-ownership-rate",
+    "name": "Home Ownership Rate",
+    "category": "Housing"
+  },
+  {
+    "slug": "housing-index",
+    "name": "Housing Index",
+    "category": "Housing"
+  },
+  {
+    "slug": "housing-starts",
+    "name": "Housing Starts",
+    "category": "Housing"
+  },
+  {
+    "slug": "price-to-rent-ratio",
+    "name": "Price to Rent Ratio",
+    "category": "Housing"
+  },
+  {
+    "slug": "residential-property-prices",
+    "name": "Residential Property Prices",
+    "category": "Housing"
+  },
+  {
+    "slug": "bankruptcies",
+    "name": "Bankruptcies",
+    "category": "Business"
+  },
+  {
+    "slug": "business-confidence",
+    "name": "Business Confidence",
+    "category": "Business"
+  },
+  {
+    "slug": "capacity-utilization",
+    "name": "Capacity Utilization",
+    "category": "Business"
+  },
+  {
+    "slug": "car-production",
+    "name": "Car Production",
+    "category": "Business"
+  },
+  {
+    "slug": "car-registrations",
+    "name": "Car Registrations",
+    "category": "Business"
+  },
+  {
+    "slug": "cement-production",
+    "name": "Cement Production",
+    "category": "Business"
+  },
+  {
+    "slug": "changes-in-inventories",
+    "name": "Changes in Inventories",
+    "category": "Business"
+  },
+  {
+    "slug": "corporate-profits",
+    "name": "Corporate Profits",
+    "category": "Business"
+  },
+  {
+    "slug": "electric-car-registrations",
+    "name": "Electric Car Registrations",
+    "category": "Business"
+  },
+  {
+    "slug": "electricity-production",
+    "name": "Electricity Production",
+    "category": "Business"
+  },
+  {
+    "slug": "factory-orders",
+    "name": "Factory Orders",
+    "category": "Business"
+  },
+  {
+    "slug": "industrial-production",
+    "name": "Industrial Production",
+    "category": "Business"
+  },
+  {
+    "slug": "industrial-production-mom",
+    "name": "Industrial Production Mom",
+    "category": "Business"
+  },
+  {
+    "slug": "leading-economic-index",
+    "name": "Leading Economic Index",
+    "category": "Business"
+  },
+  {
+    "slug": "manufacturing-production",
+    "name": "Manufacturing Production",
+    "category": "Business"
+  },
+  {
+    "slug": "mining-production",
+    "name": "Mining Production",
+    "category": "Business"
+  },
+  {
+    "slug": "new-orders",
+    "name": "New Orders",
+    "category": "Business"
+  },
+  {
+    "slug": "small-business-sentiment",
+    "name": "Small Business Sentiment",
+    "category": "Business"
+  },
+  {
+    "slug": "steel-production",
+    "name": "Steel Production",
+    "category": "Business"
+  },
+  {
+    "slug": "total-vehicle-sales",
+    "name": "Total Vehicle Sales",
+    "category": "Business"
+  },
+  {
+    "slug": "zew-economic-sentiment-index",
+    "name": "ZEW Economic Sentiment Index",
+    "category": "Business"
+  },
+  {
+    "slug": "crude-oil-rigs",
+    "name": "Crude Oil Rigs",
+    "category": "Energy"
+  },
+  {
+    "slug": "natural-gas-stocks-capacity",
+    "name": "Natural Gas Stocks Capacity",
+    "category": "Energy"
+  },
+  {
+    "slug": "natural-gas-stocks-injection",
+    "name": "Natural Gas Stocks Injection",
+    "category": "Energy"
+  },
+  {
+    "slug": "natural-gas-stocks-inventory",
+    "name": "Natural Gas Stocks Inventory",
+    "category": "Energy"
+  },
+  {
+    "slug": "natural-gas-stocks-withdrawal",
+    "name": "Natural Gas Stocks Withdrawal",
+    "category": "Energy"
+  },
+  {
+    "slug": "corporate-tax-rate",
+    "name": "Corporate Tax Rate",
+    "category": "Taxes"
+  },
+  {
+    "slug": "personal-income-tax-rate",
+    "name": "Personal Income Tax Rate",
+    "category": "Taxes"
+  },
+  {
+    "slug": "sales-tax-rate",
+    "name": "Sales Tax Rate",
+    "category": "Taxes"
+  },
+  {
+    "slug": "social-security-rate",
+    "name": "Social Security Rate",
+    "category": "Taxes"
+  },
+  {
+    "slug": "social-security-rate-for-companies",
+    "name": "Social Security Rate For Companies",
+    "category": "Taxes"
+  },
+  {
+    "slug": "social-security-rate-for-employees",
+    "name": "Social Security Rate For Employees",
+    "category": "Taxes"
+  },
+  {
+    "slug": "bank-lending-rate",
+    "name": "Bank Lending Rate",
+    "category": "Consumer"
+  },
+  {
+    "slug": "consumer-confidence",
+    "name": "Consumer Confidence",
+    "category": "Consumer"
+  },
+  {
+    "slug": "consumer-credit",
+    "name": "Consumer Credit",
+    "category": "Consumer"
+  },
+  {
+    "slug": "consumer-spending",
+    "name": "Consumer Spending",
+    "category": "Consumer"
+  },
+  {
+    "slug": "disposable-personal-income",
+    "name": "Disposable Personal Income",
+    "category": "Consumer"
+  },
+  {
+    "slug": "gasoline-prices",
+    "name": "Gasoline Prices",
+    "category": "Consumer"
+  },
+  {
+    "slug": "households-debt-to-gdp",
+    "name": "Households Debt to GDP",
+    "category": "Consumer"
+  },
+  {
+    "slug": "households-debt-to-income",
+    "name": "Households Debt to Income",
+    "category": "Consumer"
+  },
+  {
+    "slug": "personal-savings",
+    "name": "Personal Savings",
+    "category": "Consumer"
+  },
+  {
+    "slug": "personal-spending",
+    "name": "Personal Spending",
+    "category": "Consumer"
+  },
+  {
+    "slug": "private-sector-credit",
+    "name": "Private Sector Credit",
+    "category": "Consumer"
+  },
+  {
+    "slug": "retail-sales-mom",
+    "name": "Retail Sales MoM",
+    "category": "Consumer"
+  },
+  {
+    "slug": "retail-sales-yoy",
+    "name": "Retail Sales YoY",
+    "category": "Consumer"
+  },
+  {
+    "slug": "co2-emissions",
+    "name": "CO2 Emissions",
+    "category": "Climate"
+  },
+  {
+    "slug": "precipitation",
+    "name": "Precipitation",
+    "category": "Climate"
+  },
+  {
+    "slug": "temperature",
+    "name": "Temperature",
+    "category": "Climate"
+  },
+  {
+    "slug": "hospital-beds",
+    "name": "Hospital Beds",
+    "category": "Health"
+  },
+  {
+    "slug": "hospitals",
+    "name": "Hospitals",
+    "category": "Health"
+  },
+  {
+    "slug": "icu-beds",
+    "name": "ICU Beds",
+    "category": "Health"
+  },
+  {
+    "slug": "medical-doctors",
+    "name": "Medical Doctors",
+    "category": "Health"
+  },
+  {
+    "slug": "nurses",
+    "name": "Nurses",
+    "category": "Health"
+  },
+  {
+    "slug": "index-wb-data.html",
+    "name": "Development Indicators",
+    "category": "WorldBank"
+  }
+]

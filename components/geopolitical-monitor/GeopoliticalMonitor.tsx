@@ -69,6 +69,9 @@ export default function GeopoliticalMonitor({
     selectedResourceId,
     selectResource,
     clearResource,
+    selectedIndicator,
+    selectIndicator,
+    clearIndicator,
     selectedCountry,
     hoveredCountry,
     tooltipPos,
@@ -265,6 +268,9 @@ export default function GeopoliticalMonitor({
         activeResourceId={selectedResourceId}
         onSelectResource={selectResource}
         onClearResource={clearResource}
+        activeIndicator={selectedIndicator}
+        onSelectIndicator={selectIndicator}
+        onClearIndicator={clearIndicator}
         onSelectCountryByIso={handleSelectCountryByIso}
       />
       )}

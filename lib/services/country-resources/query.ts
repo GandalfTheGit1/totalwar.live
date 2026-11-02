@@ -122,7 +122,7 @@ export interface CommoditySearchResult {
   score: number;
 }
 
-function matchScore(candidate: string, query: string): number {
+export function matchScore(candidate: string, query: string): number {
   const c = normalizeSearchText(candidate);
   if (!c) return 0;
   if (c === query) return 100;
