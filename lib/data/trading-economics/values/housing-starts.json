@@ -1,0 +1,151 @@
+{
+  "slug": "housing-starts",
+  "name": "Housing Starts",
+  "category": "Housing",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.765Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 1774,
+      "previous": 1649,
+      "reference": "Jun/26",
+      "unit": "units"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 249,
+      "previous": 242,
+      "reference": "Sep/26",
+      "unit": "Thousand units"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 34031,
+      "previous": 29894,
+      "reference": "Sep/26",
+      "unit": "Tens of Thousands Square Metre"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 13081,
+      "previous": 9704,
+      "reference": "Jun/26",
+      "unit": "units"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 2617,
+      "previous": 2719,
+      "reference": "Jun/26",
+      "unit": "units"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 1875,
+      "previous": 780,
+      "reference": "Aug/26",
+      "unit": "units"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 31098,
+      "previous": 13629,
+      "reference": "Sep/26",
+      "unit": "units"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 17866,
+      "previous": 19700,
+      "reference": "Jun/26",
+      "unit": "units"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 63974,
+      "previous": 66439,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 11472,
+      "previous": 6009,
+      "reference": "Sep/26",
+      "unit": "units"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 2155,
+      "previous": 1753,
+      "reference": "Sep/26",
+      "unit": "units"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 7.5,
+      "previous": 7.9,
+      "reference": "Aug/26",
+      "unit": "Million Square Metre"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 16046,
+      "previous": 18013,
+      "reference": "Sep/26",
+      "unit": "units"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 39.2,
+      "previous": 37.84,
+      "reference": "Mar/26",
+      "unit": "Thousand units"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 7.41,
+      "previous": 6.78,
+      "reference": "Jun/26",
+      "unit": "Thousand units"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 4325,
+      "previous": 4821,
+      "reference": "Jun/26",
+      "unit": "units"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 13282,
+      "previous": 8837,
+      "reference": "Jun/26",
+      "unit": "units"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 35910,
+      "previous": 34030,
+      "reference": "Jun/26",
+      "unit": "units"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 1221,
+      "previous": 1288,
+      "reference": "Sep/26",
+      "unit": "Thousand units"
+    }
+  },
+  "unmatched": []
+}

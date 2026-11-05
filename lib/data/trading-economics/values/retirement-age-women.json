@@ -1,0 +1,501 @@
+{
+  "slug": "retirement-age-women",
+  "name": "Retirement Age Women",
+  "category": "Labour",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.675Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "USA": {
+      "name": "United States",
+      "value": 67,
+      "previous": 66.83,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 67,
+      "previous": 67,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 67,
+      "previous": 67,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 67,
+      "previous": 67,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 67,
+      "previous": 67,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 67,
+      "previous": 67,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 67,
+      "previous": 67,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 66.83,
+      "previous": 66.67,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 66.75,
+      "previous": 66.58,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 66.5,
+      "previous": 66,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 66.33,
+      "previous": 66.17,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 66,
+      "previous": 66,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 66,
+      "previous": 66,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 66,
+      "previous": 66,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 65,
+      "previous": 64,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "LIE": {
+      "name": "Liechtenstein",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 65,
+      "previous": 64.75,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 65,
+      "previous": 64.5,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 64.75,
+      "previous": 64.75,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 64.67,
+      "previous": 64.67,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 64.67,
+      "previous": 64.5,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 64.08,
+      "previous": 63.33,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 64,
+      "previous": 64,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 64,
+      "previous": 63,
+      "reference": "Jul/26",
+      "unit": "Years"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 64,
+      "previous": 63.83,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 63.75,
+      "previous": 63.75,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 63.5,
+      "previous": 63.25,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 63,
+      "previous": 62.75,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 63,
+      "previous": 63,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 62.5,
+      "previous": 62.33,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 62,
+      "previous": 62,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 62,
+      "previous": 62,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 62,
+      "previous": 62,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "ALB": {
+      "name": "Albania",
+      "value": 62,
+      "previous": 61.83,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 61.5,
+      "previous": 61.5,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 61,
+      "previous": 61,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 60.5,
+      "previous": 60.5,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "FSM": {
+      "name": "Micronesia",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "IND": {
+      "name": "India",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "DZA": {
+      "name": "Algeria",
+      "value": 60,
+      "previous": 60,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 59,
+      "previous": 58,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 59,
+      "previous": 59,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "value": 59,
+      "previous": 59,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 58,
+      "previous": 58,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "value": 58,
+      "previous": 58,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 58,
+      "previous": 58,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 57,
+      "previous": 56.67,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "value": 57,
+      "previous": 57,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 55,
+      "previous": 55,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 55,
+      "previous": 55,
+      "reference": "Dec/26",
+      "unit": "Years"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 50.5,
+      "previous": 50.33,
+      "reference": "Dec/26",
+      "unit": "Years"
+    }
+  },
+  "unmatched": []
+}

@@ -1,0 +1,1308 @@
+{
+  "slug": "gdp-per-capita",
+  "name": "GDP per Capita",
+  "category": "GDP",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.627Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "IRL": {
+      "name": "Ireland",
+      "value": 104417,
+      "previous": 94475,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 103292,
+      "previous": 104147,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 93328,
+      "previous": 93018,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CYM": {
+      "name": "Cayman Islands",
+      "value": 84381,
+      "previous": 82907,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 83813,
+      "previous": 83487,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 70684,
+      "previous": 68130,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 67946,
+      "previous": 66857,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MAC": {
+      "name": "Macau",
+      "value": 66444,
+      "previous": 63377,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 62218,
+      "previous": 60773,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 61735,
+      "previous": 62395,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 61369,
+      "previous": 61486,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 58910,
+      "previous": 59054,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 55014,
+      "previous": 54316,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 51817,
+      "previous": 51175,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 48422,
+      "previous": 47901,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 46450,
+      "previous": 44734,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 46090,
+      "previous": 45959,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 45418,
+      "previous": 45061,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 45146,
+      "previous": 45020,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 44941,
+      "previous": 45075,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 44147,
+      "previous": 44028,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 42596,
+      "previous": 41882,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "AND": {
+      "name": "Andorra",
+      "value": 42320,
+      "previous": 41224,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 41605,
+      "previous": 41927,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 41336,
+      "previous": 41415,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 39919,
+      "previous": 39683,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GUY": {
+      "name": "Guyana",
+      "value": 39192,
+      "previous": 33035,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 38619,
+      "previous": 37977,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 37470,
+      "previous": 37048,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 35197,
+      "previous": 34502,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 34716,
+      "previous": 34508,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BHS": {
+      "name": "Bahamas",
+      "value": 33968,
+      "previous": 33010,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 33527,
+      "previous": 32758,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PRI": {
+      "name": "Puerto Rico",
+      "value": 31250,
+      "previous": 30979,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 29763,
+      "previous": 29245,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BRN": {
+      "name": "Brunei",
+      "value": 29531,
+      "previous": 29564,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 26592,
+      "previous": 25886,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 26367,
+      "previous": 26135,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 25066,
+      "previous": 25123,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 24963,
+      "previous": 24140,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BRB": {
+      "name": "Barbados",
+      "value": 23014,
+      "previous": 22422,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 22851,
+      "previous": 22664,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "KNA": {
+      "name": "St Kitts and Nevis",
+      "value": 22238,
+      "previous": 21692,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 21922,
+      "previous": 21495,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 21012,
+      "previous": 20449,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 20282,
+      "previous": 20078,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 19966,
+      "previous": 19776,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 19763,
+      "previous": 19205,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "URY": {
+      "name": "Uruguay",
+      "value": 19375,
+      "previous": 19024,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ATG": {
+      "name": "Antigua and Barbuda",
+      "value": 19130,
+      "previous": 18305,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 18707,
+      "previous": 18001,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 18414,
+      "previous": 17854,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PAN": {
+      "name": "Panama",
+      "value": 17650,
+      "previous": 17123,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 17379,
+      "previous": 16613,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 17074,
+      "previous": 17347,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 16892,
+      "previous": 16376,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 16711,
+      "previous": 16543,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TTO": {
+      "name": "Trinidad and Tobago",
+      "value": 16191,
+      "previous": 16312,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 15883,
+      "previous": 15395,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 15669,
+      "previous": 15053,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PLW": {
+      "name": "Palau",
+      "value": 15617,
+      "previous": 14667,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 14905,
+      "previous": 14617,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 13793,
+      "previous": 13119,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 13287,
+      "previous": 12774,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 12565,
+      "previous": 12460,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MDV": {
+      "name": "Maldives",
+      "value": 12499,
+      "previous": 11799,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 12492,
+      "previous": 11873,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 12352,
+      "previous": 11884,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 12315,
+      "previous": 11919,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LCA": {
+      "name": "St Lucia",
+      "value": 12094,
+      "previous": 12191,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 11216,
+      "previous": 11093,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GRD": {
+      "name": "Grenada",
+      "value": 10477,
+      "previous": 10043,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 10454,
+      "previous": 10127,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 10257,
+      "previous": 10284,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "VCT": {
+      "name": "St Vincent and the Grenadines",
+      "value": 9875,
+      "previous": 9485,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 9748,
+      "previous": 9567,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "DMA": {
+      "name": "Dominica",
+      "value": 9501,
+      "previous": 9173,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 9287,
+      "previous": 9168,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 8804,
+      "previous": 8580,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 8780,
+      "previous": 8540,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LBY": {
+      "name": "Libya",
+      "value": 8634,
+      "previous": 7696,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "value": 8605,
+      "previous": 8230,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CUB": {
+      "name": "Cuba",
+      "value": 7381,
+      "previous": 7433,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "SUR": {
+      "name": "Suriname",
+      "value": 7314,
+      "previous": 7246,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": 7029,
+      "previous": 6671,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 6976,
+      "previous": 6865,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 6944,
+      "previous": 6747,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 6938,
+      "previous": 6814,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 6891,
+      "previous": 6732,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ALB": {
+      "name": "Albania",
+      "value": 6877,
+      "previous": 6549,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 6877,
+      "previous": 6606,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 6873,
+      "previous": 6629,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BWA": {
+      "name": "Botswana",
+      "value": 6791,
+      "previous": 6952,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 6783,
+      "previous": 6617,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GAB": {
+      "name": "Gabon",
+      "value": 6641,
+      "previous": 6619,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BLZ": {
+      "name": "Belize",
+      "value": 6374,
+      "previous": 6290,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MHL": {
+      "name": "Marshall Islands",
+      "value": 6174,
+      "previous": 5833,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 6165,
+      "previous": 5994,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "JAM": {
+      "name": "Jamaica",
+      "value": 6106,
+      "previous": 6096,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 6096,
+      "previous": 5935,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 5936,
+      "previous": 5876,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "UNK": {
+      "name": "Kosovo",
+      "value": 5899,
+      "previous": 5632,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 5713,
+      "previous": 5715,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 5666,
+      "previous": 5378,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "IRN": {
+      "name": "Iran",
+      "value": 5617,
+      "previous": 5834,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "value": 5391,
+      "previous": 5835,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "WSM": {
+      "name": "Samoa",
+      "value": 5056,
+      "previous": 4881,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "DZA": {
+      "name": "Algeria",
+      "value": 4883,
+      "previous": 4766,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 4882,
+      "previous": 4627,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "value": 4735,
+      "previous": 4577,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 4733,
+      "previous": 4478,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "value": 4696,
+      "previous": 4438,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 4688,
+      "previous": 4564,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 4579,
+      "previous": 4441,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 4555,
+      "previous": 4368,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GNQ": {
+      "name": "Equatorial Guinea",
+      "value": 4498,
+      "previous": 4893,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 4439,
+      "previous": 4199,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 4308,
+      "previous": 4013,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "EGY": {
+      "name": "Egypt",
+      "value": 4253,
+      "previous": 4138,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "value": 4082,
+      "previous": 4006,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 4066,
+      "previous": 3926,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "NAM": {
+      "name": "Namibia",
+      "value": 4019,
+      "previous": 4032,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 4019,
+      "previous": 3856,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "value": 4005,
+      "previous": 4180,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BTN": {
+      "name": "Bhutan",
+      "value": 3989,
+      "previous": 3717,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SWZ": {
+      "name": "Swaziland",
+      "value": 3986,
+      "previous": 3866,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 3644,
+      "previous": 3516,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "VUT": {
+      "name": "Vanuatu",
+      "value": 3249,
+      "previous": 3224,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "FSM": {
+      "name": "Micronesia",
+      "value": 3020,
+      "previous": 3002,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "value": 2957,
+      "previous": 3046,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LAO": {
+      "name": "Laos",
+      "value": 2807,
+      "previous": 2721,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "AGO": {
+      "name": "Angola",
+      "value": 2801,
+      "previous": 2799,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "value": 2665,
+      "previous": 2567,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 2628,
+      "previous": 2575,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "IND": {
+      "name": "India",
+      "value": 2523,
+      "previous": 2367,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "value": 2491,
+      "previous": 2396,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 2372,
+      "previous": 2290,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 2369,
+      "previous": 2325,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "value": 2273,
+      "previous": 2184,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GHA": {
+      "name": "Ghana",
+      "value": 2261,
+      "previous": 2173,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 2197,
+      "previous": 2226,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "KIR": {
+      "name": "Kiribati",
+      "value": 2109,
+      "previous": 2053,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "value": 1985,
+      "previous": 1941,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 1908,
+      "previous": 1859,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SLB": {
+      "name": "Solomon Islands",
+      "value": 1828,
+      "previous": 1806,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MRT": {
+      "name": "Mauritania",
+      "value": 1713,
+      "previous": 1693,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "COG": {
+      "name": "Congo",
+      "value": 568,
+      "previous": 554,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 1669,
+      "previous": 1635,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "value": 1593,
+      "previous": 1496,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SEN": {
+      "name": "Senegal",
+      "value": 1582,
+      "previous": 1518,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 1555,
+      "previous": 1424,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ZWE": {
+      "name": "Zimbabwe",
+      "value": 1503,
+      "previous": 1417,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CMR": {
+      "name": "Cameroon",
+      "value": 1489,
+      "previous": 1481,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "COM": {
+      "name": "Comoros",
+      "value": 1428,
+      "previous": 1403,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BEN": {
+      "name": "Benin",
+      "value": 1398,
+      "previous": 1325,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "STP": {
+      "name": "Sao Tome and Principe",
+      "value": 1360,
+      "previous": 1373,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "value": 1356,
+      "previous": 1343,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "NPL": {
+      "name": "Nepal",
+      "value": 1234,
+      "previous": 1180,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TLS": {
+      "name": "East Timor",
+      "value": 1214,
+      "previous": 1149,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SLE": {
+      "name": "Sierra Leone",
+      "value": 1166,
+      "previous": 1137,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TZA": {
+      "name": "Tanzania",
+      "value": 1153,
+      "previous": 1121,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MMR": {
+      "name": "Myanmar",
+      "value": 1128,
+      "previous": 1158,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "value": 1116,
+      "previous": 1043,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "HTI": {
+      "name": "Haiti",
+      "value": 1111,
+      "previous": 1155,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GIN": {
+      "name": "Guinea",
+      "value": 1098,
+      "previous": 1046,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TGO": {
+      "name": "Togo",
+      "value": 1096,
+      "previous": 1054,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LSO": {
+      "name": "Lesotho",
+      "value": 1021,
+      "previous": 1013,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "UGA": {
+      "name": "Uganda",
+      "value": 1021,
+      "previous": 986,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "value": 945,
+      "previous": 883,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MLI": {
+      "name": "Mali",
+      "value": 934,
+      "previous": 910,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TCD": {
+      "name": "Chad",
+      "value": 874,
+      "previous": 856,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "YEM": {
+      "name": "Yemen",
+      "value": 821,
+      "previous": 859,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "GNB": {
+      "name": "Guinea Bissau",
+      "value": 814,
+      "previous": 786,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BFA": {
+      "name": "Burkina Faso",
+      "value": 787,
+      "previous": 764,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GMB": {
+      "name": "Gambia",
+      "value": 786,
+      "previous": 759,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LBR": {
+      "name": "Liberia",
+      "value": 684,
+      "previous": 665,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "NER": {
+      "name": "Niger",
+      "value": 610,
+      "previous": 589,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 586,
+      "previous": 606,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SDN": {
+      "name": "Sudan",
+      "value": 582,
+      "previous": 578,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MWI": {
+      "name": "Malawi",
+      "value": 548,
+      "previous": 552,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "value": 457,
+      "previous": 454,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CAF": {
+      "name": "Central African Republic",
+      "value": 394,
+      "previous": 390,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "AFG": {
+      "name": "Afghanistan",
+      "value": 374,
+      "previous": 378,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "BDI": {
+      "name": "Burundi",
+      "value": 273,
+      "previous": 269,
+      "reference": "Dec/25",
+      "unit": "USD"
+    }
+  },
+  "unmatched": [
+    "West Bank and Gaza"
+  ]
+}

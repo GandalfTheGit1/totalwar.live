@@ -1,0 +1,123 @@
+{
+  "slug": "core-inflation-rate-mom",
+  "name": "Core Inflation Rate MoM",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.204Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IDN": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.1,
+      "previous": 0.16,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "USA": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.3,
+      "previous": 0.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "CHN": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0,
+      "previous": 0.1,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "TUR": {
+      "name": "Core Inflation Rate MoM",
+      "value": 2.14,
+      "previous": 1.81,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "MEX": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.2,
+      "previous": 0.16,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "CAN": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0,
+      "previous": 0.1,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "NOR": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.2,
+      "previous": -0.5,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "GBR": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.2,
+      "previous": 0.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "SWE": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.1,
+      "previous": -0.5,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "SVK": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.1,
+      "previous": 0,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "CHL": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.1,
+      "previous": 0.4,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "ZAF": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.2,
+      "previous": 0,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "ARG": {
+      "name": "Core Inflation Rate MoM",
+      "value": 1.7,
+      "previous": 1.8,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "VNM": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.11,
+      "previous": 0.11,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "UZB": {
+      "name": "Core Inflation Rate MoM",
+      "value": 0.6,
+      "previous": 0.5,
+      "reference": "Mar/26",
+      "unit": "percent"
+    }
+  }
+}

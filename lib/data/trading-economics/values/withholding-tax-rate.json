@@ -1,0 +1,725 @@
+{
+  "slug": "withholding-tax-rate",
+  "name": "Withholding Tax Rate",
+  "category": "Government",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.202Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IRL": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "IDN": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "ISR": {
+      "name": "Withholding Tax Rate",
+      "value": 23,
+      "previous": 23,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "USA": {
+      "name": "Withholding Tax Rate",
+      "value": 30,
+      "previous": 30,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "NGA": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "AGO": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "MYS": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "MUS": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SVN": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "IND": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "CHE": {
+      "name": "Withholding Tax Rate",
+      "value": 35,
+      "previous": 35,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SRB": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SAU": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "MKD": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "COL": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BWA": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "KEN": {
+      "name": "Withholding Tax Rate",
+      "value": 25,
+      "previous": 25,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "JAM": {
+      "name": "Withholding Tax Rate",
+      "value": 33.33,
+      "previous": 33.33,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "CHN": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "TUR": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SGP": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "MLT": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "KOR": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "POL": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "CRI": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "MEX": {
+      "name": "Withholding Tax Rate",
+      "value": 35,
+      "previous": 35,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "DNK": {
+      "name": "Withholding Tax Rate",
+      "value": 22,
+      "previous": 22,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "CYP": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "CAN": {
+      "name": "Withholding Tax Rate",
+      "value": 25,
+      "previous": 25,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "ALB": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "NOR": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "LVA": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BGR": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "ESP": {
+      "name": "Withholding Tax Rate",
+      "value": 19,
+      "previous": 19,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "NLD": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "GBR": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "FIN": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "CZE": {
+      "name": "Withholding Tax Rate",
+      "value": 35,
+      "previous": 35,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BRA": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BIH": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SWE": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "PER": {
+      "name": "Withholding Tax Rate",
+      "value": 30,
+      "previous": 30,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "JPN": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "HRV": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "AUS": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "NAM": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "GRC": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "EST": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BEL": {
+      "name": "Withholding Tax Rate",
+      "value": 30,
+      "previous": 30,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SVK": {
+      "name": "Withholding Tax Rate",
+      "value": 35,
+      "previous": 35,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "PRT": {
+      "name": "Withholding Tax Rate",
+      "value": 25,
+      "previous": 25,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "NZL": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "DEU": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "AUT": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SEN": {
+      "name": "Withholding Tax Rate",
+      "value": 16,
+      "previous": 16,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "HUN": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "ROU": {
+      "name": "Withholding Tax Rate",
+      "value": 16,
+      "previous": 16,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "ITA": {
+      "name": "Withholding Tax Rate",
+      "value": 26,
+      "previous": 26,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "CHL": {
+      "name": "Withholding Tax Rate",
+      "value": 35,
+      "previous": 35,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "FRA": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "THA": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "ZAF": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "HKG": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "ARG": {
+      "name": "Withholding Tax Rate",
+      "value": 35,
+      "previous": 35,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "LUX": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "LTU": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BLZ": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "ISL": {
+      "name": "Withholding Tax Rate",
+      "value": 12,
+      "previous": 12,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "PRY": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "MDV": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BHR": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SYC": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BRB": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BHS": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "MAC": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "GAB": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "OMN": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BFA": {
+      "name": "Withholding Tax Rate",
+      "value": 12.5,
+      "previous": 12.5,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "CIV": {
+      "name": "Withholding Tax Rate",
+      "value": 18,
+      "previous": 18,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "PNG": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BRN": {
+      "name": "Withholding Tax Rate",
+      "value": 2.5,
+      "previous": 2.5,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "ARM": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SWZ": {
+      "name": "Withholding Tax Rate",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "GEO": {
+      "name": "Withholding Tax Rate",
+      "value": 5,
+      "previous": 5,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "COG": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "LBR": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "UKR": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "EGY": {
+      "name": "Withholding Tax Rate",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "LCA": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "ABW": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "PAN": {
+      "name": "Withholding Tax Rate",
+      "value": 12.5,
+      "previous": 12.5,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "CYM": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "BMU": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "GRD": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "LIE": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "DMA": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "MCO": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "AND": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "VCT": {
+      "name": "Withholding Tax Rate",
+      "value": 15,
+      "previous": 15,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "SMR": {
+      "name": "Withholding Tax Rate",
+      "value": 13,
+      "previous": 13,
+      "reference": "Dec/26",
+      "unit": "percent"
+    },
+    "GRL": {
+      "name": "Withholding Tax Rate",
+      "value": 0,
+      "previous": 0,
+      "reference": "Dec/26",
+      "unit": "percent"
+    }
+  }
+}

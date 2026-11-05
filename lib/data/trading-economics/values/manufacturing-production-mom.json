@@ -1,0 +1,53 @@
+{
+  "slug": "manufacturing-production-mom",
+  "name": "Manufacturing Production MoM",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.206Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "ISR": {
+      "name": "Manufacturing Production MoM",
+      "value": 4.7,
+      "previous": -0.2,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "DNK": {
+      "name": "Manufacturing Production MoM",
+      "value": 0.9,
+      "previous": -5,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "NOR": {
+      "name": "Manufacturing Production MoM",
+      "value": -0.4,
+      "previous": 0.7,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "NLD": {
+      "name": "Manufacturing Production MoM",
+      "value": 3.3,
+      "previous": 2.1,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "PAK": {
+      "name": "Manufacturing Production MoM",
+      "value": -4.96,
+      "previous": 9.67,
+      "reference": "Aug/26",
+      "unit": "percent"
+    }
+  }
+}

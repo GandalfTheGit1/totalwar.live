@@ -1,0 +1,263 @@
+{
+  "slug": "electric-car-registrations",
+  "name": "Electric Car Registrations",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.940Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "CHN": {
+      "name": "China",
+      "value": 1823000,
+      "previous": 1643000,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 99199,
+      "previous": 28063,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 88599,
+      "previous": 68930,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 65243,
+      "previous": 36159,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 24908,
+      "previous": 27028,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 19149,
+      "previous": 12925,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 18511,
+      "previous": 13274,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 17784,
+      "previous": 13887,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 17366,
+      "previous": 9199,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 16341,
+      "previous": 13069,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 14034,
+      "previous": 10069,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 10552,
+      "previous": 4434,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 9723,
+      "previous": 6316,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 9338,
+      "previous": 5079,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 9335,
+      "previous": 3545,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 7833,
+      "previous": 4843,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 7300,
+      "previous": 9736,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 4338,
+      "previous": 3427,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 3478,
+      "previous": 2189,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 3114,
+      "previous": 2261,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 2141,
+      "previous": 1497,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 1356,
+      "previous": 544,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 1331,
+      "previous": 1132,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 1224,
+      "previous": 1651,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 1218,
+      "previous": 810,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 871,
+      "previous": 671,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 771,
+      "previous": 541,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 734,
+      "previous": 508,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 569,
+      "previous": 429,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 561,
+      "previous": 325,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 328,
+      "previous": 308,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 283,
+      "previous": 302,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 186,
+      "previous": 174,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 160,
+      "previous": 158,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 96,
+      "previous": 33,
+      "reference": "Sep/26",
+      "unit": "Units"
+    }
+  },
+  "unmatched": []
+}

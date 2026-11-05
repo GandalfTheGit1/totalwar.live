@@ -1,0 +1,1441 @@
+{
+  "slug": "temperature",
+  "name": "Temperature",
+  "category": "Climate",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.744Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "BFA": {
+      "name": "Burkina Faso",
+      "value": 29.94,
+      "previous": 29.98,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MLI": {
+      "name": "Mali",
+      "value": 29.69,
+      "previous": 29.71,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ABW": {
+      "name": "Aruba",
+      "value": 29.63,
+      "previous": 29.45,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SEN": {
+      "name": "Senegal",
+      "value": 29.41,
+      "previous": 29.67,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MRT": {
+      "name": "Mauritania",
+      "value": 29.25,
+      "previous": 29.39,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "DJI": {
+      "name": "Djibouti",
+      "value": 29.22,
+      "previous": 28.6,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GMB": {
+      "name": "Gambia",
+      "value": 28.84,
+      "previous": 29.15,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 28.7,
+      "previous": 29.11,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 28.62,
+      "previous": 28.94,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MHL": {
+      "name": "Marshall Islands",
+      "value": 28.62,
+      "previous": 28.3,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BEN": {
+      "name": "Benin",
+      "value": 28.57,
+      "previous": 28.58,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 28.57,
+      "previous": 28.88,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "KNA": {
+      "name": "St Kitts and Nevis",
+      "value": 28.49,
+      "previous": 28.05,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GNB": {
+      "name": "Guinea Bissau",
+      "value": 28.47,
+      "previous": 28.68,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CYM": {
+      "name": "Cayman Islands",
+      "value": 28.45,
+      "previous": 28.64,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 28.41,
+      "previous": 28.11,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MDV": {
+      "name": "Maldives",
+      "value": 28.37,
+      "previous": 28.18,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GHA": {
+      "name": "Ghana",
+      "value": 28.36,
+      "previous": 28.27,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "value": 28.25,
+      "previous": 27.98,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ATG": {
+      "name": "Antigua and Barbuda",
+      "value": 28.23,
+      "previous": 27.75,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 28.22,
+      "previous": 28.35,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "NER": {
+      "name": "Niger",
+      "value": 28.19,
+      "previous": 28.34,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "WSM": {
+      "name": "Samoa",
+      "value": 28.13,
+      "previous": 27.72,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TGO": {
+      "name": "Togo",
+      "value": 28.06,
+      "previous": 27.94,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "FSM": {
+      "name": "Micronesia",
+      "value": 27.96,
+      "previous": 27.68,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ASM": {
+      "name": "American Samoa",
+      "value": 27.92,
+      "previous": 27.5,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GUM": {
+      "name": "Guam",
+      "value": 27.91,
+      "previous": 27.67,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LCA": {
+      "name": "St Lucia",
+      "value": 27.88,
+      "previous": 27.37,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 27.86,
+      "previous": 27.41,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PLW": {
+      "name": "Palau",
+      "value": 27.81,
+      "previous": 27.26,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "KIR": {
+      "name": "Kiribati",
+      "value": 27.81,
+      "previous": 27.79,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 27.79,
+      "previous": 27.5,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SDN": {
+      "name": "Sudan",
+      "value": 27.73,
+      "previous": 27.8,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "DMA": {
+      "name": "Dominica",
+      "value": 27.7,
+      "previous": 27.2,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 27.65,
+      "previous": 27.72,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 27.64,
+      "previous": 27.57,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TTO": {
+      "name": "Trinidad and Tobago",
+      "value": 27.62,
+      "previous": 27.11,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SUR": {
+      "name": "Suriname",
+      "value": 27.6,
+      "previous": 27.11,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MNP": {
+      "name": "Northern Mariana Islands",
+      "value": 27.49,
+      "previous": 27.35,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TCD": {
+      "name": "Chad",
+      "value": 27.41,
+      "previous": 27.49,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BRB": {
+      "name": "Barbados",
+      "value": 27.41,
+      "previous": 26.88,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "value": 27.38,
+      "previous": 27.32,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SOM": {
+      "name": "Somalia",
+      "value": 27.28,
+      "previous": 27.1,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 27.27,
+      "previous": 27.53,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GRD": {
+      "name": "Grenada",
+      "value": 27.23,
+      "previous": 26.76,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ERI": {
+      "name": "Eritrea",
+      "value": 27.19,
+      "previous": 26.87,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 27.16,
+      "previous": 26.92,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GUY": {
+      "name": "Guyana",
+      "value": 27.11,
+      "previous": 26.64,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "VCT": {
+      "name": "St Vincent and the Grenadines",
+      "value": 27.07,
+      "previous": 26.56,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 27.06,
+      "previous": 26.78,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SLE": {
+      "name": "Sierra Leone",
+      "value": 26.99,
+      "previous": 27.22,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "JAM": {
+      "name": "Jamaica",
+      "value": 26.66,
+      "previous": 26.62,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BLZ": {
+      "name": "Belize",
+      "value": 26.63,
+      "previous": 26.43,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GIN": {
+      "name": "Guinea",
+      "value": 26.6,
+      "previous": 26.59,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 26.56,
+      "previous": 26.52,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CUB": {
+      "name": "Cuba",
+      "value": 26.42,
+      "previous": 26.69,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 26.38,
+      "previous": 26.16,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 26.35,
+      "previous": 26.53,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BHS": {
+      "name": "Bahamas",
+      "value": 26.28,
+      "previous": 26.54,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "value": 26.27,
+      "previous": 26,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "value": 26.18,
+      "previous": 26.02,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PAN": {
+      "name": "Panama",
+      "value": 26.13,
+      "previous": 26.04,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 26.02,
+      "previous": 25.92,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "value": 26.01,
+      "previous": 25.86,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "YEM": {
+      "name": "Yemen",
+      "value": 26,
+      "previous": 25.92,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LBR": {
+      "name": "Liberia",
+      "value": 25.94,
+      "previous": 25.89,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SLB": {
+      "name": "Solomon Islands",
+      "value": 25.89,
+      "previous": 25.89,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PRI": {
+      "name": "Puerto Rico",
+      "value": 25.86,
+      "previous": 25.52,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "HTI": {
+      "name": "Haiti",
+      "value": 25.8,
+      "previous": 25.59,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GAB": {
+      "name": "Gabon",
+      "value": 25.64,
+      "previous": 25.25,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TON": {
+      "name": "Tonga",
+      "value": 25.62,
+      "previous": 25.14,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 25.6,
+      "previous": 25.26,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 25.58,
+      "previous": 25.32,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 25.54,
+      "previous": 25.49,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 25.54,
+      "previous": 25.4,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MYT": {
+      "name": "Mayotte",
+      "value": 25.43,
+      "previous": 25.52,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "IND": {
+      "name": "India",
+      "value": 25.43,
+      "previous": 25.03,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CAF": {
+      "name": "Central African Republic",
+      "value": 25.42,
+      "previous": 25.42,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 25.33,
+      "previous": 25.2,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "COG": {
+      "name": "Congo",
+      "value": 24.42,
+      "previous": 24.37,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 25.23,
+      "previous": 25.55,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 25.21,
+      "previous": 25.41,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 25.18,
+      "previous": 24.79,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CMR": {
+      "name": "Cameroon",
+      "value": 25.12,
+      "previous": 25.03,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LAO": {
+      "name": "Laos",
+      "value": 25.05,
+      "previous": 24.93,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GNQ": {
+      "name": "Equatorial Guinea",
+      "value": 25.03,
+      "previous": 24.76,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": 24.85,
+      "previous": 25.07,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "value": 24.83,
+      "previous": 24.77,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "VUT": {
+      "name": "Vanuatu",
+      "value": 24.82,
+      "previous": 24.39,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "STP": {
+      "name": "Sao Tome and Principe",
+      "value": 24.82,
+      "previous": 24.66,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PYF": {
+      "name": "French Polynesia",
+      "value": 24.65,
+      "previous": 24.71,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MMR": {
+      "name": "Myanmar",
+      "value": 24.58,
+      "previous": 24.48,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 24.58,
+      "previous": 24.38,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "COM": {
+      "name": "Comoros",
+      "value": 24.39,
+      "previous": 24.37,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 24.23,
+      "previous": 24.09,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "DZA": {
+      "name": "Algeria",
+      "value": 24.18,
+      "previous": 23.99,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "value": 24.17,
+      "previous": 23.75,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MAC": {
+      "name": "Macau",
+      "value": 23.99,
+      "previous": 23.84,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "EGY": {
+      "name": "Egypt",
+      "value": 23.95,
+      "previous": 23.95,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 23.88,
+      "previous": 24.11,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "value": 23.85,
+      "previous": 24.06,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "NCL": {
+      "name": "New Caledonia",
+      "value": 23.39,
+      "previous": 22.68,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LBY": {
+      "name": "Libya",
+      "value": 23.26,
+      "previous": 22.95,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MWI": {
+      "name": "Malawi",
+      "value": 23.24,
+      "previous": 22.94,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "UGA": {
+      "name": "Uganda",
+      "value": 23.12,
+      "previous": 23.54,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "value": 23.1,
+      "previous": 23.09,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TZA": {
+      "name": "Tanzania",
+      "value": 23.02,
+      "previous": 23.21,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "value": 22.87,
+      "previous": 23.08,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 22.77,
+      "previous": 22.31,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 22.68,
+      "previous": 22.23,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BWA": {
+      "name": "Botswana",
+      "value": 22.54,
+      "previous": 22.18,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ZWE": {
+      "name": "Zimbabwe",
+      "value": 22.53,
+      "previous": 22.09,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "value": 22.28,
+      "previous": 22.07,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 22.14,
+      "previous": 21.9,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "value": 21.8,
+      "previous": 21.96,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 21.79,
+      "previous": 22.29,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "AGO": {
+      "name": "Angola",
+      "value": 21.71,
+      "previous": 21.56,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "value": 21.62,
+      "previous": 21.2,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SWZ": {
+      "name": "Swaziland",
+      "value": 21.44,
+      "previous": 21.06,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 21.22,
+      "previous": 20.91,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 20.95,
+      "previous": 21.02,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "NAM": {
+      "name": "Namibia",
+      "value": 20.89,
+      "previous": 20.53,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 20.62,
+      "previous": 20.27,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PSE": {
+      "name": "Palestine",
+      "value": 20.34,
+      "previous": 20.45,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 20.3,
+      "previous": 20.44,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BDI": {
+      "name": "Burundi",
+      "value": 20.27,
+      "previous": 20.83,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 20.18,
+      "previous": 19.87,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 20.17,
+      "previous": 20.93,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SYR": {
+      "name": "Syria",
+      "value": 19.79,
+      "previous": 19.78,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 19.18,
+      "previous": 19.16,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "IRN": {
+      "name": "Iran",
+      "value": 19.18,
+      "previous": 19.61,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 18.99,
+      "previous": 18.58,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "value": 18.91,
+      "previous": 19.51,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "URY": {
+      "name": "Uruguay",
+      "value": 18.44,
+      "previous": 18.93,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "value": 17.34,
+      "previous": 18.3,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 16.92,
+      "previous": 17.06,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "value": 16.36,
+      "previous": 16.32,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 16.05,
+      "previous": 15.71,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 15.56,
+      "previous": 15.95,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 15.1,
+      "previous": 15.16,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 14.59,
+      "previous": 15.64,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 14.58,
+      "previous": 14.39,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MCO": {
+      "name": "Monaco",
+      "value": 14.47,
+      "previous": 14.81,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "NPL": {
+      "name": "Nepal",
+      "value": 14.46,
+      "previous": 14.14,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SMR": {
+      "name": "San Marino",
+      "value": 14.3,
+      "previous": 13.94,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ALB": {
+      "name": "Albania",
+      "value": 14.29,
+      "previous": 13.86,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "AFG": {
+      "name": "Afghanistan",
+      "value": 14.24,
+      "previous": 14.61,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 13.94,
+      "previous": 14.21,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 13.82,
+      "previous": 13.42,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 13.64,
+      "previous": 13.32,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 13.53,
+      "previous": 13.1,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 13.43,
+      "previous": 13,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 13.24,
+      "previous": 13.05,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LSO": {
+      "name": "Lesotho",
+      "value": 13.21,
+      "previous": 12.83,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 13.16,
+      "previous": 12.93,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 13.11,
+      "previous": 13,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 12.92,
+      "previous": 12.69,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 12.65,
+      "previous": 13.02,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 12.6,
+      "previous": 12.26,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 12.27,
+      "previous": 11.9,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 12.23,
+      "previous": 11.78,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 11.77,
+      "previous": 11.68,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 11.77,
+      "previous": 11.92,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 11.71,
+      "previous": 11.3,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 11.65,
+      "previous": 11.31,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 11.21,
+      "previous": 10.85,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 11.19,
+      "previous": 10.89,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 11.11,
+      "previous": 11.34,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 11.08,
+      "previous": 10.54,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 10.91,
+      "previous": 10.25,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 10.9,
+      "previous": 11.2,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BTN": {
+      "name": "Bhutan",
+      "value": 10.81,
+      "previous": 10.72,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 10.73,
+      "previous": 10.25,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 10.59,
+      "previous": 10.06,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 10.32,
+      "previous": 10.39,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 10.25,
+      "previous": 10.65,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 10.03,
+      "previous": 9.56,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "IMN": {
+      "name": "Isle of Man",
+      "value": 9.89,
+      "previous": 9.92,
+      "reference": "Dec/21",
+      "unit": "celsius"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 9.88,
+      "previous": 10.14,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 9.73,
+      "previous": 10.06,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 9.34,
+      "previous": 8.82,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 9.26,
+      "previous": 8.84,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 9.21,
+      "previous": 8.58,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "AND": {
+      "name": "Andorra",
+      "value": 9.14,
+      "previous": 9.56,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LIE": {
+      "name": "Liechtenstein",
+      "value": 9.07,
+      "previous": 9.12,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 8.87,
+      "previous": 9.02,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 8.52,
+      "previous": 8.41,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 8.51,
+      "previous": 7.86,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "PRK": {
+      "name": "North Korea",
+      "value": 8.33,
+      "previous": 8.07,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 7.93,
+      "previous": 8.93,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 7.82,
+      "previous": 7.98,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 7.58,
+      "previous": 6.91,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "FRO": {
+      "name": "Faroe Islands",
+      "value": 6.6,
+      "previous": 6.78,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "value": 5,
+      "previous": 5.7,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 4.19,
+      "previous": 3.38,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 3.59,
+      "previous": 2.87,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 3.54,
+      "previous": 4.34,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 3.11,
+      "previous": 2.28,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 2.36,
+      "previous": 1.82,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 1.24,
+      "previous": 1.77,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": -2.63,
+      "previous": -2.82,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": -2.98,
+      "previous": -2.89,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    },
+    "GRL": {
+      "name": "Greenland",
+      "value": -18.56,
+      "previous": -18.47,
+      "reference": "Dec/24",
+      "unit": "celsius"
+    }
+  },
+  "unmatched": [
+    "Virgin Islands"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "implied-rates",
+  "name": "Implied Rates",
+  "category": "Main Indicators",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.232Z",
+  "valueColumn": "Bank",
+  "columns": [
+    "Country",
+    "Bank",
+    "Current",
+    "Next Meeting",
+    "Implied",
+    "Move",
+    "Cut",
+    "Hold",
+    "Hike"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": null,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "Bank": "RBA",
+        "Current": "4.60%",
+        "Next Meeting": "3 Nov 26",
+        "Implied": "4.80%",
+        "Move": "+20.5bp",
+        "Cut": "0.0%",
+        "Hold": "18.0%",
+        "Hike": "82.0%"
+      }
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": null,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "Bank": "BoE",
+        "Current": "3.75%",
+        "Next Meeting": "5 Nov 26",
+        "Implied": "4.06%",
+        "Move": "+31.1bp",
+        "Cut": "0.0%",
+        "Hold": "0.0%",
+        "Hike": "100.0%"
+      }
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": null,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "Bank": "BoC",
+        "Current": "2.50%",
+        "Next Meeting": "9 Dec 26",
+        "Implied": "2.66%",
+        "Move": "+15.8bp",
+        "Cut": "0.0%",
+        "Hold": "36.8%",
+        "Hike": "63.2%"
+      }
+    },
+    "USA": {
+      "name": "United States",
+      "value": null,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "Bank": "Fed",
+        "Current": "3.75–4.00%",
+        "Next Meeting": "9 Dec 26",
+        "Implied": "4.07%",
+        "Move": "+19.0bp",
+        "Cut": "0.0%",
+        "Hold": "23.8%",
+        "Hike": "76.2%"
+      }
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": null,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "Bank": "SNB",
+        "Current": "0.00%",
+        "Next Meeting": "10 Dec 26",
+        "Implied": "0.01%",
+        "Move": "+1.5bp",
+        "Cut": "0.0%",
+        "Hold": "94.2%",
+        "Hike": "5.8%"
+      }
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": null,
+      "previous": null,
+      "reference": null,
+      "unit": null,
+      "cells": {
+        "Bank": "BoJ",
+        "Current": "1.25%",
+        "Next Meeting": "18 Dec 26",
+        "Implied": "1.46%",
+        "Move": "+20.5bp",
+        "Cut": "0.0%",
+        "Hold": "17.8%",
+        "Hike": "82.2%"
+      }
+    }
+  },
+  "unmatched": []
+}

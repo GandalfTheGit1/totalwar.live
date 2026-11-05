@@ -1,0 +1,207 @@
+{
+  "slug": "disposable-personal-income",
+  "name": "Disposable Personal Income",
+  "category": "Consumer",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.511Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 462107,
+      "previous": 457000,
+      "reference": "Jun/26",
+      "unit": "AUD Million"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 89916,
+      "previous": 83093,
+      "reference": "Dec/25",
+      "unit": "AZN Million"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 133127,
+      "previous": 130466,
+      "reference": "Mar/26",
+      "unit": "EUR Million"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 1860216,
+      "previous": 1821552,
+      "reference": "Jun/26",
+      "unit": "CAD Million"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 56502,
+      "previous": 54188,
+      "reference": "Dec/25",
+      "unit": "CNY"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 1436128,
+      "previous": 1385643,
+      "reference": "Dec/24",
+      "unit": "DKK Million"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 475835,
+      "previous": 473628,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 682,
+      "previous": 677,
+      "reference": "Jun/26",
+      "unit": "EUR Billion"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 2520567,
+      "previous": 2429435,
+      "reference": "Dec/25",
+      "unit": "ISK Million"
+    },
+    "IND": {
+      "name": "India",
+      "value": 353131560,
+      "previous": 324519630,
+      "reference": "Dec/25",
+      "unit": "INR Million"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 410053,
+      "previous": 423844,
+      "reference": "Dec/25",
+      "unit": "EUR Million"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 372775,
+      "previous": 371347,
+      "reference": "Jun/26",
+      "unit": "EUR"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 514,
+      "previous": 554,
+      "reference": "Aug/26",
+      "unit": "JPY Thousand"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 16477,
+      "previous": 15243,
+      "reference": "Dec/25",
+      "unit": "KES Billion"
+    },
+    "NAM": {
+      "name": "Namibia",
+      "value": 247001,
+      "previous": 242461,
+      "reference": "Dec/25",
+      "unit": "NAD Million"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 487078,
+      "previous": 440338,
+      "reference": "Dec/23",
+      "unit": "EUR Million"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 21437390,
+      "previous": 20532204,
+      "reference": "Jun/24",
+      "unit": "NGN Million"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 436578,
+      "previous": 420360,
+      "reference": "Jun/26",
+      "unit": "NOK Million"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 80926,
+      "previous": 76440,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 21268,
+      "previous": 20394,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 5261121,
+      "previous": 5146330,
+      "reference": "Jun/26",
+      "unit": "ZAR Million"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 2588759,
+      "previous": 2438258,
+      "reference": "Dec/24",
+      "unit": "KRW Billion"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 356368,
+      "previous": 299796,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 878945,
+      "previous": 785018,
+      "reference": "Jun/26",
+      "unit": "SEK Million"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 118138,
+      "previous": 107922,
+      "reference": "Dec/25",
+      "unit": "TWD Hundred Million"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 457927,
+      "previous": 453116,
+      "reference": "Jun/26",
+      "unit": "GBP Million"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 24223,
+      "previous": 24155,
+      "reference": "Aug/26",
+      "unit": "USD Billion"
+    }
+  },
+  "unmatched": []
+}

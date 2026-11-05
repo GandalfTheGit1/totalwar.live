@@ -1,0 +1,88 @@
+{
+  "slug": "steel-production",
+  "name": "Steel Production",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.146Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "BRA": {
+      "name": "Brazil",
+      "value": 2800,
+      "previous": 2700,
+      "reference": "Sep/26",
+      "unit": "Thousand Tonnes"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 73600,
+      "previous": 74600,
+      "reference": "Sep/26",
+      "unit": "Thousand Tonnes"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 2600,
+      "previous": 2600,
+      "reference": "Sep/26",
+      "unit": "Thousand Tonnes"
+    },
+    "IND": {
+      "name": "India",
+      "value": 13900,
+      "previous": 14800,
+      "reference": "Sep/26",
+      "unit": "Thousand Tonnes"
+    },
+    "IRN": {
+      "name": "Iran",
+      "value": 1700,
+      "previous": 2600,
+      "reference": "Feb/26",
+      "unit": "Thousand Tonnes"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 6300,
+      "previous": 6700,
+      "reference": "Sep/26",
+      "unit": "Thousand Tonnes"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 5500,
+      "previous": 5500,
+      "reference": "Sep/26",
+      "unit": "Thousand Tonnes"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 5200,
+      "previous": 5400,
+      "reference": "Sep/26",
+      "unit": "Thousand Tonnes"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 3200,
+      "previous": 3400,
+      "reference": "Sep/26",
+      "unit": "Thousand Tonnes"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 7200,
+      "previous": 7300,
+      "reference": "Sep/26",
+      "unit": "Thousand Tonnes"
+    }
+  },
+  "unmatched": []
+}

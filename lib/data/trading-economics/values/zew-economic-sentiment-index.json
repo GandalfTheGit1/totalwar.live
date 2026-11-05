@@ -1,0 +1,32 @@
+{
+  "slug": "zew-economic-sentiment-index",
+  "name": "ZEW Economic Sentiment Index",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.175Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "DEU": {
+      "name": "Germany",
+      "value": 28.1,
+      "previous": 34.7,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": -15.3,
+      "previous": 2.6,
+      "reference": "Oct/26",
+      "unit": "points"
+    }
+  },
+  "unmatched": []
+}

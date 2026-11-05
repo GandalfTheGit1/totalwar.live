@@ -1,0 +1,326 @@
+{
+  "slug": "home-ownership-rate",
+  "name": "Home Ownership Rate",
+  "category": "Housing",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.746Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 67,
+      "previous": 66,
+      "reference": "Dec/22",
+      "unit": "%"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 54.2,
+      "previous": 54.5,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 70.9,
+      "previous": 70.3,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 86.1,
+      "previous": 86,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 66.7,
+      "previous": 69.3,
+      "reference": "Dec/23",
+      "unit": "%"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 91.4,
+      "previous": 91,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 69.2,
+      "previous": 69.4,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 75.1,
+      "previous": 74.7,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 58.4,
+      "previous": 60.9,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 79.7,
+      "previous": 79.3,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 66.9,
+      "previous": 68.1,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 61.4,
+      "previous": 61.2,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 47.2,
+      "previous": 47.2,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 69.4,
+      "previous": 69.7,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 50.9,
+      "previous": 50.5,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 89.8,
+      "previous": 91.6,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 70.9,
+      "previous": 69.3,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 68,
+      "previous": 68,
+      "reference": "Dec/24",
+      "unit": "%"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 77.1,
+      "previous": 75.9,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 82.2,
+      "previous": 83.7,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 86.5,
+      "previous": 87.4,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 64.1,
+      "previous": 63.5,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 87,
+      "previous": 87.1,
+      "reference": "Dec/24",
+      "unit": "%"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 70.9,
+      "previous": 69.6,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 87.3,
+      "previous": 90.3,
+      "reference": "Dec/24",
+      "unit": "%"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 68.8,
+      "previous": 68.8,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "NCL": {
+      "name": "New Caledonia",
+      "value": 60.5,
+      "previous": 60,
+      "reference": "Dec/19",
+      "unit": "%"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 66,
+      "previous": 64.5,
+      "reference": "Dec/23",
+      "unit": "%"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 80,
+      "previous": 78.8,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 87.2,
+      "previous": 87.1,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 71.2,
+      "previous": 73.4,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 93.2,
+      "previous": 94.3,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 91.6,
+      "previous": 92.1,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 88.9,
+      "previous": 88.9,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 91.2,
+      "previous": 90.8,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 93.8,
+      "previous": 93.1,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 74.2,
+      "previous": 74.8,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 56.9,
+      "previous": 56.4,
+      "reference": "Dec/24",
+      "unit": "%"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 73.6,
+      "previous": 73.7,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 64.6,
+      "previous": 64.8,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 42,
+      "previous": 42.6,
+      "reference": "Dec/24",
+      "unit": "%"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 56.9,
+      "previous": 55.8,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 64.5,
+      "previous": 64.7,
+      "reference": "Dec/23",
+      "unit": "%"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 65.5,
+      "previous": 65,
+      "reference": "Sep/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

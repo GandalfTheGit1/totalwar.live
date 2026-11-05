@@ -1,0 +1,109 @@
+{
+  "slug": "new-passenger-car-registrations-yoy",
+  "name": "New Passenger Car Registrations YoY",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.204Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "POL": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": 15.2,
+      "previous": 8.1,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "ESP": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": 10.2,
+      "previous": 11.8,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "NLD": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": 12.6,
+      "previous": -0.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "GBR": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": 12,
+      "previous": 13.7,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "CZE": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": -10.6,
+      "previous": 0.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "BEL": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": -5.9,
+      "previous": 1.9,
+      "reference": "Oct/26",
+      "unit": "percent"
+    },
+    "SVK": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": -2.3,
+      "previous": -6.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "DEU": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": 9,
+      "previous": 2.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "HUN": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": 20.3,
+      "previous": 8.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "ROU": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": -11.2,
+      "previous": -36.8,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "ITA": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": 4.8,
+      "previous": 9.9,
+      "reference": "Oct/26",
+      "unit": "percent"
+    },
+    "FRA": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": 7,
+      "previous": 11.6,
+      "reference": "Oct/26",
+      "unit": "percent"
+    },
+    "LUX": {
+      "name": "New Passenger Car Registrations YoY",
+      "value": -6.4,
+      "previous": 5.5,
+      "reference": "Sep/26",
+      "unit": "percent"
+    }
+  }
+}

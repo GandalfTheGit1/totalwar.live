@@ -1,0 +1,263 @@
+{
+  "slug": "lending-rate",
+  "name": "Lending Rate",
+  "category": "Money",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.563Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ZWE": {
+      "name": "Zimbabwe",
+      "value": 45.59,
+      "previous": 45.51,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 39,
+      "previous": 40,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 22.2,
+      "previous": 21.4,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "SLE": {
+      "name": "Sierra Leone",
+      "value": 21.25,
+      "previous": 21,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "EGY": {
+      "name": "Egypt",
+      "value": 21,
+      "previous": 20,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 19.04,
+      "previous": 17.86,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "AGO": {
+      "name": "Angola",
+      "value": 15.75,
+      "previous": 16.75,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "value": 15.7,
+      "previous": 16.13,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 15.5,
+      "previous": 15.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SUR": {
+      "name": "Suriname",
+      "value": 13.7,
+      "previous": 13.7,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 11,
+      "previous": 9.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 10.75,
+      "previous": 10.75,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 10.75,
+      "previous": 10.75,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SWZ": {
+      "name": "Swaziland",
+      "value": 10.5,
+      "previous": 10.25,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NAM": {
+      "name": "Namibia",
+      "value": 10.5,
+      "previous": 10.25,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 9.64,
+      "previous": 9.62,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 9.25,
+      "previous": 9.25,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 9,
+      "previous": 9,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "SEN": {
+      "name": "Senegal",
+      "value": 8.55,
+      "previous": 8.55,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 8.25,
+      "previous": 8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 7.5,
+      "previous": 7.5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 7,
+      "previous": 7,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "MDV": {
+      "name": "Maldives",
+      "value": 7,
+      "previous": 7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 6.5,
+      "previous": 6.5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 6.5,
+      "previous": 6.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 6,
+      "previous": 5.5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 5.5,
+      "previous": 5.5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 4.75,
+      "previous": 4.75,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 4.75,
+      "previous": 4.75,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 3.9,
+      "previous": 3.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 3.5,
+      "previous": 3.5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "ALB": {
+      "name": "Albania",
+      "value": 3.5,
+      "previous": 3.5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 2.25,
+      "previous": 2.25,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 1.85,
+      "previous": 1.85,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BRN": {
+      "name": "Brunei",
+      "value": 1.5,
+      "previous": 1.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

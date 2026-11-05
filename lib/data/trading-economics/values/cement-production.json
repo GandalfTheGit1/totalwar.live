@@ -1,0 +1,116 @@
+{
+  "slug": "cement-production",
+  "name": "Cement Production",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.888Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "CHN": {
+      "name": "China",
+      "value": 14401,
+      "previous": 12908,
+      "reference": "Sep/26",
+      "unit": "Ten Thousands of Tonnes"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 1233929,
+      "previous": 1205336,
+      "reference": "Aug/26",
+      "unit": "Tonnes"
+    },
+    "COG": {
+      "name": "Congo",
+      "value": 2473003,
+      "previous": 2298206,
+      "reference": "Dec/24",
+      "unit": "Tonnes"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 24,
+      "previous": 26.6,
+      "reference": "Aug/26",
+      "unit": "Thousands of Tonnes"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 3366,
+      "previous": 3806,
+      "reference": "Aug/26",
+      "unit": "Thousands of Tonnes"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 1475,
+      "previous": 1614,
+      "reference": "Sep/26",
+      "unit": "Thousands of Tonnes"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 1054600,
+      "previous": 1028724,
+      "reference": "Aug/26",
+      "unit": "Tonnes"
+    },
+    "LBR": {
+      "name": "Liberia",
+      "value": 65192,
+      "previous": 69896,
+      "reference": "Jul/26",
+      "unit": "Tonnes"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 1893,
+      "previous": 1961,
+      "reference": "Aug/26",
+      "unit": "Thousands of Tonnes"
+    },
+    "PRK": {
+      "name": "North Korea",
+      "value": 7306,
+      "previous": 7201,
+      "reference": "Dec/25",
+      "unit": "Thousands of Tonnes"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 3286,
+      "previous": 3530,
+      "reference": "Aug/26",
+      "unit": "Thousands of Tonnes"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 1426,
+      "previous": 1413,
+      "reference": "Sep/26",
+      "unit": "Thousands of Tonnes"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 669,
+      "previous": 675,
+      "reference": "Jul/26",
+      "unit": "Thousands of Tonnes"
+    },
+    "TTO": {
+      "name": "Trinidad And Tobago",
+      "value": 49137,
+      "previous": 55047,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    }
+  },
+  "unmatched": []
+}

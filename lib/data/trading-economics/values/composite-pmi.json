@@ -1,0 +1,172 @@
+{
+  "slug": "composite-pmi",
+  "name": "Composite PMI",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.204Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "USA": {
+      "name": "Composite PMI",
+      "value": 57.6,
+      "previous": 58.4,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "NGA": {
+      "name": "Composite PMI",
+      "value": 55.7,
+      "previous": 56.4,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "IND": {
+      "name": "Composite PMI",
+      "value": 56.7,
+      "previous": 55.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "GHA": {
+      "name": "Composite PMI",
+      "value": 51.3,
+      "previous": 50.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CHN": {
+      "name": "Composite PMI",
+      "value": 52.4,
+      "previous": 52.1,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SGP": {
+      "name": "Composite PMI",
+      "value": 58.1,
+      "previous": 59.4,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CAN": {
+      "name": "Composite PMI",
+      "value": 48.7,
+      "previous": 47.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "UGA": {
+      "name": "Composite PMI",
+      "value": 53,
+      "previous": 55,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ESP": {
+      "name": "Composite PMI",
+      "value": 56.8,
+      "previous": 55.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "GBR": {
+      "name": "Composite PMI",
+      "value": 53.1,
+      "previous": 52,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "BRA": {
+      "name": "Composite PMI",
+      "value": 47.4,
+      "previous": 49.1,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "JPN": {
+      "name": "Composite PMI",
+      "value": 52.3,
+      "previous": 52.3,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "AUS": {
+      "name": "Composite PMI",
+      "value": 47.7,
+      "previous": 51.3,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "NZL": {
+      "name": "Composite PMI",
+      "value": 53.4,
+      "previous": 52.4,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Composite PMI",
+      "value": 52.8,
+      "previous": 53.8,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ITA": {
+      "name": "Composite PMI",
+      "value": 51,
+      "previous": 53.6,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "Composite PMI",
+      "value": 48.4,
+      "previous": 51.1,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ZAF": {
+      "name": "Composite PMI",
+      "value": 49,
+      "previous": 50.5,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MOZ": {
+      "name": "Composite PMI",
+      "value": 50.2,
+      "previous": 51.9,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ZMB": {
+      "name": "Composite PMI",
+      "value": 47.9,
+      "previous": 46,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MNG": {
+      "name": "Composite PMI",
+      "value": 44.5,
+      "previous": 39.4,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "RUS": {
+      "name": "Composite PMI",
+      "value": 50.8,
+      "previous": 50.6,
+      "reference": "Sep/26",
+      "unit": "points"
+    }
+  }
+}

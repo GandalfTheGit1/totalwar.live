@@ -9,8 +9,15 @@
  * Las páginas se guardan en .cache/trading-economics/ y solo se piden una vez,
  * a 1 petición cada 3 s (ritmo probado sin bloqueos el 2026-11-02).
  *
+ * Con --top=N añade una segunda fase: lee /{país}/indicators de cada país (cientos de series
+ * que no tienen tabla mundial) y completa el catálogo hasta N métricas. Solo entran las
+ * comparables entre países (porcentajes y PMI/confianza) y con al menos --min-countries países;
+ * se ordenan por número de países, que es lo más parecido a «importancia» que da la web.
+ *
  * Uso:
  *   npm run build:te                                  # catálogo + 10 indicadores de prueba
+ *   npm run build:te -- --all                         # las 165 tablas mundiales
+ *   npm run build:te -- --top=500                     # --all + fase de países, catálogo de hasta 500
  *   npm run build:te -- --indicators=gdp,inflation-rate
  *   npm run build:te -- --refresh                     # vuelve a descargar
  */
@@ -20,7 +27,10 @@ import path from 'path';
 import rawCountries from '../lib/data/countries.json';
 import { CountryResolver, normalizeCountryName } from '../lib/services/country-resources/ingest/country-codes';
 import { downloadCached } from '../lib/services/country-resources/ingest/download';
-import { parseCountryList, parseIndicatorCatalog, parseTeNumber } from '../lib/trading-economics/country-list';
+import {
+  parseCountryIndicators, parseCountryList, parseIndicatorCatalog, parseTeNumber,
+  type TeCountryValue, type TeIndicator,
+} from '../lib/trading-economics/country-list';
 
 const BASE = 'https://tradingeconomics.com';
 const CACHE_DIR = path.join(process.cwd(), '.cache/trading-economics');
@@ -45,7 +55,14 @@ const TE_AGGREGATES = new Set(['World', 'European Union', 'Euro Area']);
 
 const args = process.argv.slice(2);
 const refresh = args.includes('--refresh');
-const indicatorsArg = args.find((a) => a.startsWith('--indicators='))?.split('=')[1];
+const argValue = (name: string) => args.find((a) => a.startsWith(`--${name}=`))?.split('=')[1];
+const indicatorsArg = argValue('indicators');
+const top = Number(argValue('top')) || 0;
+const minCountries = Number(argValue('min-countries')) || 5;
+
+/** Unidades cuyo valor se puede comparar entre países (el resto va en moneda local o con base distinta). */
+const COMPARABLE_UNITS = new Set(['%', 'percent', 'percent of gdp', 'percentage points']);
+const COMPARABLE_POINTS = /pmi|confidence|sentiment|expectations|climate/;
 
 async function fetchPage(url: string, file: string): Promise<string> {
   const filePath = path.join(CACHE_DIR, file);
@@ -64,8 +81,20 @@ async function main() {
   const countries = rawCountries as { code: string; iso3: string }[];
   const iso3ByIso2 = new Map(countries.map((c) => [c.code, c.iso3]));
   const resolver = new CountryResolver([]);
+  const toIso3 = (name: string) => {
+    if (TE_AGGREGATES.has(name)) return null;
+    const iso2 = TE_NAME_ALIASES[normalizeCountryName(name)] ?? resolver.fromName(name);
+    return (iso2 && iso3ByIso2.get(iso2)) || null;
+  };
+  const writeValues = (meta: TeIndicator, extra: Record<string, unknown>) =>
+    fs.writeFile(path.join(OUT_DIR, 'values', `${meta.slug}.json`), JSON.stringify({
+      ...meta, source: `${BASE}/indicators`, fetchedAt: new Date().toISOString(), ...extra,
+    }, null, 2));
 
-  const slugs = indicatorsArg ? indicatorsArg.split(',') : DEFAULT_INDICATORS;
+  // Fase 1: tablas mundiales (/country-list/{slug}).
+  const slugs = indicatorsArg ? indicatorsArg.split(',') : top || args.includes('--all') ? catalog.map((i) => i.slug) : DEFAULT_INDICATORS;
+  const countryByTeSlug = new Map<string, string>();
+  const listSlugs = new Set<string>(); // slugs de la tabla mundial y los que usa cada país para lo mismo
   for (const slug of slugs) {
     const meta = catalog.find((i) => i.slug === slug);
     if (!meta) { console.warn(`  ✗ ${slug}: no está en el catálogo`); continue; }
@@ -75,37 +104,78 @@ async function main() {
     // Valor principal: "Last" en casi todas las tablas; en rating es la nota "TE" (0-100).
     const valueColumn = columns.includes('Last') ? 'Last' : columns.includes('TE') ? 'TE' : columns[1];
 
-    const values: Record<string, unknown> = {};
+    const values: Record<string, TeCountryValue> = {};
     const unmatched: string[] = [];
+    listSlugs.add(slug);
     for (const row of rows) {
       if (TE_AGGREGATES.has(row.name)) continue;
-      const iso2 = TE_NAME_ALIASES[normalizeCountryName(row.name)] ?? resolver.fromName(row.name);
-      const iso3 = iso2 ? iso3ByIso2.get(iso2) : undefined;
+      const iso3 = toIso3(row.name);
       if (!iso3) { unmatched.push(row.name); continue; }
+      countryByTeSlug.set(row.teSlug, iso3);
+      if (row.indicatorSlug) listSlugs.add(row.indicatorSlug);
       values[iso3] = {
         name: row.name,
         value: parseTeNumber(row.cells[valueColumn]),
         previous: parseTeNumber(row.cells.Previous),
         reference: row.cells.Reference ?? null,
         unit: row.cells.Unit ?? null,
-        cells: row.cells,
+        ...(valueColumn !== 'Last' && { cells: row.cells }),
       };
     }
 
-    await fs.writeFile(path.join(OUT_DIR, 'values', `${slug}.json`), JSON.stringify({
-      ...meta, source: `${BASE}/country-list/${slug}`, fetchedAt: new Date().toISOString(),
-      valueColumn, columns, countries: values, unmatched,
-    }, null, 2));
+    await writeValues(meta, { valueColumn, columns, countries: values, unmatched });
     console.log(`  ✓ ${slug}: ${Object.keys(values).length}/${rows.length} países${unmatched.length ? ` · sin ISO: ${unmatched.join(', ')}` : ''}`);
   }
 
-  // countryCount solo en los indicadores ya descargados (de esta y de anteriores ejecuciones): el buscador sabe cuáles se pueden pintar.
+  // Fase 2: series que solo existen en la página de cada país.
+  const extra: TeIndicator[] = [];
+  if (top) {
+    type Obs = { iso3: string; name: string; last: number | null; previous: number | null; unit: string | null; reference: string | null };
+    const sparse = new Map<string, { name: string; category: string; obs: Obs[] }>();
+    for (const [teSlug, iso3] of countryByTeSlug) {
+      const html = await fetchPage(`${BASE}/${teSlug}/indicators`, `country/${teSlug}.html`);
+      for (const r of parseCountryIndicators(html, teSlug)) {
+        if (listSlugs.has(r.slug) || r.last === null) continue;
+        const entry = sparse.get(r.slug) ?? { name: r.name, category: r.category, obs: [] };
+        entry.obs.push({ iso3, name: r.name, last: r.last, previous: r.previous, unit: r.unit, reference: r.reference });
+        sparse.set(r.slug, entry);
+      }
+    }
+
+    const candidates: { slug: string; name: string; category: string; unit: string; obs: Obs[] }[] = [];
+    for (const [slug, e] of sparse) {
+      const unitCounts = new Map<string, number>();
+      for (const o of e.obs) unitCounts.set(o.unit ?? '', (unitCounts.get(o.unit ?? '') ?? 0) + 1);
+      const unit = [...unitCounts.entries()].sort((a, b) => b[1] - a[1])[0][0];
+      const comparable = COMPARABLE_UNITS.has(unit.toLowerCase()) || (unit.toLowerCase() === 'points' && COMPARABLE_POINTS.test(slug));
+      const obs = e.obs.filter((o) => (o.unit ?? '') === unit);
+      if (comparable && obs.length >= minCountries) candidates.push({ slug, name: e.name, category: e.category, unit, obs });
+    }
+    candidates.sort((a, b) => b.obs.length - a.obs.length || a.slug.localeCompare(b.slug));
+    console.log(`Fase 2: ${sparse.size} series en páginas de país · ${candidates.length} comparables con ≥${minCountries} países`);
+
+    for (const c of candidates.slice(0, Math.max(0, top - slugs.length))) {
+      const meta = { slug: c.slug, name: c.name, category: c.category };
+      await writeValues(meta, {
+        valueColumn: 'Last', columns: ['Country', 'Last', 'Previous', 'Reference', 'Unit'], unmatched: [],
+        countries: Object.fromEntries(c.obs.map((o): [string, TeCountryValue] => [o.iso3, {
+          name: o.name, value: o.last, previous: o.previous, reference: o.reference, unit: o.unit,
+        }])),
+      });
+      extra.push({ ...meta, countryCount: c.obs.length });
+    }
+  }
+
+  // El catálogo del buscador: tablas mundiales + series de país elegidas, solo con datos descargados.
   const withCounts = await Promise.all(catalog.map(async (i) => {
     const file = path.join(OUT_DIR, 'values', `${i.slug}.json`);
     const data = await fs.readFile(file, 'utf8').then(JSON.parse, () => null);
     return data ? { ...i, countryCount: Object.keys(data.countries).length } : i;
   }));
-  await fs.writeFile(path.join(OUT_DIR, 'catalog.json'), JSON.stringify(withCounts, null, 2));
+  // Con --top el catálogo solo lleva métricas con datos; enlaces como index-wb-data no tienen tabla.
+  const listed = top ? withCounts.filter((i) => i.countryCount) : withCounts;
+  await fs.writeFile(path.join(OUT_DIR, 'catalog.json'), JSON.stringify([...listed, ...extra], null, 2));
+  console.log(`catalog.json: ${listed.length + extra.length} métricas (${listed.filter((i) => i.countryCount).length} con tabla mundial + ${extra.length} de páginas de país)`);
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });

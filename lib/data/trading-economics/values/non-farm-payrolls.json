@@ -1,0 +1,67 @@
+{
+  "slug": "non-farm-payrolls",
+  "name": "Non Farm Payrolls",
+  "category": "Labour",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.502Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "BRA": {
+      "name": "Brazil",
+      "value": 166,
+      "previous": 58.57,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 18369,
+      "previous": 18418,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 27021,
+      "previous": 27033,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "PRI": {
+      "name": "Puerto Rico",
+      "value": 952,
+      "previous": 945,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 5698,
+      "previous": 5650,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 12.65,
+      "previous": 0.71,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 29,
+      "previous": 133,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    }
+  },
+  "unmatched": []
+}

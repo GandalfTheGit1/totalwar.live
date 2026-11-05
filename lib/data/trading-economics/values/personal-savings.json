@@ -1,0 +1,256 @@
+{
+  "slug": "personal-savings",
+  "name": "Personal Savings",
+  "category": "Consumer",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.612Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 6.5,
+      "previous": 6.4,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 20.6,
+      "previous": 13.84,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 11.7,
+      "previous": 12.8,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 3.7,
+      "previous": 3.5,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 8.12,
+      "previous": 6.83,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 18.41,
+      "previous": 19.84,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 11.53,
+      "previous": 24.39,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 8.38,
+      "previous": 7.96,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 4.3,
+      "previous": 6.2,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 17.23,
+      "previous": 17.86,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 10.1,
+      "previous": 10.1,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 0,
+      "previous": 0,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 18.71,
+      "previous": 19.77,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 19.8,
+      "previous": 19.3,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 6.7,
+      "previous": 7.9,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": -5.9,
+      "previous": 4.2,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 4.55,
+      "previous": 4.3,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 11.08,
+      "previous": 8.61,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 18.11,
+      "previous": 14.23,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 18.3,
+      "previous": 18.4,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 31.4,
+      "previous": 32.7,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 25.08,
+      "previous": 14.31,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 8.4,
+      "previous": 5,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 12.1,
+      "previous": 12.4,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 14.8,
+      "previous": 13.5,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": -1.6,
+      "previous": -1.3,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 45.6,
+      "previous": 41.7,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 18.73,
+      "previous": 3.63,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 25.8,
+      "previous": 23.7,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 21.74,
+      "previous": 18.12,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 19.3,
+      "previous": 18.3,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 1.4,
+      "previous": 2.2,
+      "reference": "Dec/23",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 8.8,
+      "previous": 8.6,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 3.8,
+      "previous": 4,
+      "reference": "Sep/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

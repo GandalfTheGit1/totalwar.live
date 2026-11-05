@@ -1,0 +1,494 @@
+{
+  "slug": "consumer-confidence",
+  "name": "Consumer Confidence",
+  "category": "Consumer",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.458Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": -21.6,
+      "previous": -23.9,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 42,
+      "previous": 41.8,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 80.4,
+      "previous": 84.4,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": -20.8,
+      "previous": -19.1,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": -13,
+      "previous": -10,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "BLZ": {
+      "name": "Belize",
+      "value": 38.4,
+      "previous": 42.4,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 84.7,
+      "previous": 84.2,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": -25.7,
+      "previous": -28.6,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 47.3,
+      "previous": 48.2,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "value": 17,
+      "previous": 17,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 31,
+      "previous": 31.7,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 89.2,
+      "previous": 89.4,
+      "reference": "Jul/26",
+      "unit": "points"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 15.7,
+      "previous": 15.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": -9.9,
+      "previous": -8.8,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": -21.5,
+      "previous": -16.8,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 104,
+      "previous": 105,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": -17.2,
+      "previous": -13.7,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 36.4,
+      "previous": 36.13,
+      "reference": "May/26",
+      "unit": "points"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": -32.4,
+      "previous": -23.5,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "FRO": {
+      "name": "Faroe Islands",
+      "value": -13,
+      "previous": -17,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": -9.7,
+      "previous": -4.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 80,
+      "previous": 85,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": -30.8,
+      "previous": -30.6,
+      "reference": "Nov/26",
+      "unit": "points"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": -48.9,
+      "previous": -41.6,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "HKG": {
+      "name": "Hong kong",
+      "value": 88.9,
+      "previous": 89.1,
+      "reference": "Mar/26",
+      "unit": "points"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": -6.1,
+      "previous": -3.8,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 51.5,
+      "previous": 75.7,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "IND": {
+      "name": "India",
+      "value": 87.9,
+      "previous": 88.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 118,
+      "previous": 119,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 61.1,
+      "previous": 63.2,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": -20.37,
+      "previous": -22.22,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 90.3,
+      "previous": 91.2,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 35,
+      "previous": 35.4,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 45,
+      "previous": 46.2,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": -9,
+      "previous": -10.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 1,
+      "previous": 3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": -10.3,
+      "previous": -9.3,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 123,
+      "previous": 135,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 4.9,
+      "previous": 5.8,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 45.1,
+      "previous": 46.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 60.1,
+      "previous": 64.4,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": -34,
+      "previous": -33,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 89.5,
+      "previous": 80.4,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": -9.9,
+      "previous": -9,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": -16.6,
+      "previous": -18.1,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 36.6,
+      "previous": 36.4,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": 39.09,
+      "previous": 39.67,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 52.6,
+      "previous": 54.4,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": -29.8,
+      "previous": -42,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": -14,
+      "previous": -10.8,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": -23.1,
+      "previous": -20.6,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": -33.2,
+      "previous": -32.5,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": -16,
+      "previous": -13,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 110,
+      "previous": 114,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 54.3,
+      "previous": 52.9,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": -22.1,
+      "previous": -25.7,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": -27,
+      "previous": -23,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": -13,
+      "previous": -19,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 105,
+      "previous": 107,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 84.1,
+      "previous": 81.2,
+      "reference": "Jul/26",
+      "unit": "points"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 94.3,
+      "previous": 102,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": -36,
+      "previous": -33,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 66.27,
+      "previous": 68.77,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 52.1,
+      "previous": 53.2,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 84.8,
+      "previous": 91.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 81.5,
+      "previous": 76.9,
+      "reference": "Jul/26",
+      "unit": "points"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": -24,
+      "previous": -13,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 48,
+      "previous": 48.1,
+      "reference": "Oct/26",
+      "unit": "points"
+    }
+  },
+  "unmatched": []
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "reverse-repo-rate",
+  "name": "Reverse Repo Rate",
+  "category": "Money",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.205Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IND": {
+      "name": "Reverse Repo Rate",
+      "value": 3.35,
+      "previous": 3.35,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "SAU": {
+      "name": "Reverse Repo Rate",
+      "value": 4,
+      "previous": 3.75,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "CHN": {
+      "name": "Reverse Repo Rate",
+      "value": 1.4,
+      "previous": 1.4,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "QAT": {
+      "name": "Reverse Repo Rate",
+      "value": 4.35,
+      "previous": 4.1,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "BHR": {
+      "name": "Reverse Repo Rate",
+      "value": 4.5,
+      "previous": 4.25,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "KWT": {
+      "name": "Reverse Repo Rate",
+      "value": 3.13,
+      "previous": 3.13,
+      "reference": "Sep/26",
+      "unit": "percent"
+    }
+  }
+}

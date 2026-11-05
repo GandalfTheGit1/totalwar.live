@@ -54,7 +54,7 @@ interface SpeciesInfo { major: string; groupEn: string; groupEs: string }
 
 /** Tabla CL_FI_SPECIES_GROUPS.csv: código de 3 letras → grupo mayor y grupo ISSCAAP. */
 export function parseFishSpecies(csv: string): Map<string, SpeciesInfo> {
-  const [headerLine, ...lines] = csv.replace(/^﻿/, '').split(/\r?\n/);
+  const [headerLine, ...lines] = csv.replace(/^\uFEFF/, '').split(/\r?\n/);
   const header = parseCsvLine(headerLine);
   const col = (name: string) => header.indexOf(name);
   const [iCode, iMajor, iEn, iEs] = ['3A_Code', 'Major_Group', 'ISSCAAP_Group_En', 'ISSCAAP_Group_Es'].map(col);
@@ -70,7 +70,7 @@ export function parseFishSpecies(csv: string): Map<string, SpeciesInfo> {
 
 /** Tabla CL_FI_COUNTRY_GROUPS.csv: código numérico de la ONU → ISO alfa-2. */
 export function parseFishCountries(csv: string): Map<string, string> {
-  const [headerLine, ...lines] = csv.replace(/^﻿/, '').split(/\r?\n/);
+  const [headerLine, ...lines] = csv.replace(/^\uFEFF/, '').split(/\r?\n/);
   const header = parseCsvLine(headerLine);
   const iUn = header.indexOf('UN_Code');
   const iIso2 = header.indexOf('ISO2_Code');

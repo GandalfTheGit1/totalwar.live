@@ -1,0 +1,195 @@
+{
+  "slug": "bankruptcies",
+  "name": "Bankruptcies",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.820Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "USA": {
+      "name": "United States",
+      "value": 26941,
+      "previous": 25960,
+      "reference": "Jun/26",
+      "unit": "Companies"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 12622,
+      "previous": 11016,
+      "reference": "Apr/26",
+      "unit": "Companies"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 12485,
+      "previous": 17036,
+      "reference": "Dec/25",
+      "unit": "Companies and Individuals"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 5757,
+      "previous": 6018,
+      "reference": "Jul/26",
+      "unit": "Companies"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 2373,
+      "previous": 2266,
+      "reference": "Jul/26",
+      "unit": "Companies"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 2357,
+      "previous": 2913,
+      "reference": "Aug/26",
+      "unit": "Companies"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 2286,
+      "previous": 2185,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 1882,
+      "previous": 1953,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 1315,
+      "previous": 1813,
+      "reference": "Aug/26",
+      "unit": "Companies"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 1222,
+      "previous": 1808,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 1165,
+      "previous": 1158,
+      "reference": "Dec/25",
+      "unit": "Companies"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 1063,
+      "previous": 489,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 872,
+      "previous": 487,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 831,
+      "previous": 830,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 641,
+      "previous": 290,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 409,
+      "previous": 317,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 344,
+      "previous": 296,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 328,
+      "previous": 215,
+      "reference": "Sep/26",
+      "unit": "Companies and Individuals"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 261,
+      "previous": 294,
+      "reference": "Aug/26",
+      "unit": "Companies"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 250,
+      "previous": 228,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 229,
+      "previous": 229,
+      "reference": "Jun/26",
+      "unit": "Companies"
+    },
+    "PRI": {
+      "name": "Puerto Rico",
+      "value": 203,
+      "previous": 211,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 145,
+      "previous": 168,
+      "reference": "Aug/26",
+      "unit": "Companies"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 82,
+      "previous": 15,
+      "reference": "Sep/26",
+      "unit": "Companies"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 78,
+      "previous": 69,
+      "reference": "Aug/26",
+      "unit": "Individuals"
+    }
+  },
+  "unmatched": [
+    "Euro area"
+  ]
+}

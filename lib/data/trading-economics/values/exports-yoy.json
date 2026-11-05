@@ -1,0 +1,95 @@
+{
+  "slug": "exports-yoy",
+  "name": "Exports YoY",
+  "category": "Trade",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.204Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IDN": {
+      "name": "Exports YoY",
+      "value": 11.87,
+      "previous": 6.72,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "TWN": {
+      "name": "Exports YoY",
+      "value": 60.9,
+      "previous": 41,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "MYS": {
+      "name": "Exports YoY",
+      "value": 54.5,
+      "previous": 45.5,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "SAU": {
+      "name": "Exports YoY",
+      "value": -11.5,
+      "previous": -17.1,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "COL": {
+      "name": "Exports YoY",
+      "value": 15.1,
+      "previous": 5.9,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "CHN": {
+      "name": "Exports YoY",
+      "value": 36.3,
+      "previous": 25,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "KOR": {
+      "name": "Exports YoY",
+      "value": 93.7,
+      "previous": 83.7,
+      "reference": "Oct/26",
+      "unit": "percent"
+    },
+    "PHL": {
+      "name": "Exports YoY",
+      "value": 35.6,
+      "previous": 28.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "JPN": {
+      "name": "Exports YoY",
+      "value": 16.7,
+      "previous": 19.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "THA": {
+      "name": "Exports YoY",
+      "value": 24,
+      "previous": 24.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "HKG": {
+      "name": "Exports YoY",
+      "value": 64.9,
+      "previous": 53,
+      "reference": "Sep/26",
+      "unit": "percent"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "construction-pmi",
+  "name": "Construction PMI",
+  "category": "Housing",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.205Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IRL": {
+      "name": "Construction PMI",
+      "value": 50.4,
+      "previous": 50.7,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CHN": {
+      "name": "Construction PMI",
+      "value": 50.3,
+      "previous": 46.9,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "GBR": {
+      "name": "Construction PMI",
+      "value": 46.1,
+      "previous": 44.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Construction PMI",
+      "value": 43.5,
+      "previous": 48.7,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ITA": {
+      "name": "Construction PMI",
+      "value": 46.5,
+      "previous": 41.7,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "Construction PMI",
+      "value": 39.8,
+      "previous": 37.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LKA": {
+      "name": "Construction PMI",
+      "value": 59.4,
+      "previous": 61.4,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "MNG": {
+      "name": "Construction PMI",
+      "value": 42,
+      "previous": 33.6,
+      "reference": "Jun/26",
+      "unit": "points"
+    }
+  }
+}

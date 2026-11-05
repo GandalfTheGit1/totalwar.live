@@ -1,0 +1,270 @@
+{
+  "slug": "weapons-sales",
+  "name": "Weapons Sales",
+  "category": "Trade",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.059Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 108,
+      "previous": 73,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 1,
+      "previous": 23,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 1,
+      "previous": 65,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 86,
+      "previous": 69,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 153,
+      "previous": 112,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 33,
+      "previous": 19,
+      "reference": "Dec/24",
+      "unit": "SIPRI TIV Million"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 312,
+      "previous": 237,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 880,
+      "previous": 1294,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 137,
+      "previous": 189,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 165,
+      "previous": 189,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 115,
+      "previous": 20,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 3367,
+      "previous": 2472,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 1696,
+      "previous": 2108,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 2,
+      "previous": 20,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "IND": {
+      "name": "India",
+      "value": 81,
+      "previous": 94,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 2623,
+      "previous": 1163,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 1923,
+      "previous": 1208,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 28,
+      "previous": 21,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 226,
+      "previous": 11,
+      "reference": "Dec/24",
+      "unit": "SIPRI TIV Million"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 601,
+      "previous": 370,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 20,
+      "previous": 29,
+      "reference": "Dec/23",
+      "unit": "SIPRI TIV Million"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 415,
+      "previous": 569,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 59,
+      "previous": 145,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 1,
+      "previous": 37,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 1941,
+      "previous": 1994,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 9,
+      "previous": 154,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 115,
+      "previous": 96,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 2020,
+      "previous": 1102,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 341,
+      "previous": 606,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 235,
+      "previous": 405,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 129,
+      "previous": 11,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 539,
+      "previous": 411,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 120,
+      "previous": 29,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 33,
+      "previous": 119,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 702,
+      "previous": 884,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 13980,
+      "previous": 13651,
+      "reference": "Dec/25",
+      "unit": "SIPRI TIV Million"
+    }
+  },
+  "unmatched": []
+}

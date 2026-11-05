@@ -1,0 +1,165 @@
+{
+  "slug": "services-pmi",
+  "name": "Services PMI",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.204Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IRL": {
+      "name": "Services PMI",
+      "value": 54.1,
+      "previous": 55.4,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "USA": {
+      "name": "Services PMI",
+      "value": 57.9,
+      "previous": 58.8,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "NGA": {
+      "name": "Services PMI",
+      "value": 53.2,
+      "previous": 53.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "IND": {
+      "name": "Services PMI",
+      "value": 56.2,
+      "previous": 55.2,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "CHE": {
+      "name": "Services PMI",
+      "value": 59.8,
+      "previous": 58.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CHN": {
+      "name": "Services PMI",
+      "value": 51.6,
+      "previous": 51.4,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CAN": {
+      "name": "Services PMI",
+      "value": 48.3,
+      "previous": 46.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ESP": {
+      "name": "Services PMI",
+      "value": 58.3,
+      "previous": 57.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "GBR": {
+      "name": "Services PMI",
+      "value": 53.1,
+      "previous": 52.1,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "BRA": {
+      "name": "Services PMI",
+      "value": 49.2,
+      "previous": 50.5,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SWE": {
+      "name": "Services PMI",
+      "value": 57.4,
+      "previous": 56,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "JPN": {
+      "name": "Services PMI",
+      "value": 52,
+      "previous": 51.3,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "AUS": {
+      "name": "Services PMI",
+      "value": 47.8,
+      "previous": 51.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "NZL": {
+      "name": "Services PMI",
+      "value": 50.9,
+      "previous": 51,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Services PMI",
+      "value": 51.7,
+      "previous": 52.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ITA": {
+      "name": "Services PMI",
+      "value": 51.7,
+      "previous": 55.2,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "Services PMI",
+      "value": 48.4,
+      "previous": 51.2,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "LKA": {
+      "name": "Services PMI",
+      "value": 60.5,
+      "previous": 65.6,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MNG": {
+      "name": "Services PMI",
+      "value": 41.9,
+      "previous": 42.2,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "RUS": {
+      "name": "Services PMI",
+      "value": 51.3,
+      "previous": 51.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "KAZ": {
+      "name": "Services PMI",
+      "value": 51.4,
+      "previous": 51.9,
+      "reference": "Sep/26",
+      "unit": "points"
+    }
+  }
+}

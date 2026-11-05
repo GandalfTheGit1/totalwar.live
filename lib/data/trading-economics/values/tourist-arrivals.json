@@ -1,0 +1,648 @@
+{
+  "slug": "tourist-arrivals",
+  "name": "Tourist Arrivals",
+  "category": "Trade",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.039Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": 1286691,
+      "previous": 2429532,
+      "reference": "Sep/26",
+      "unit": "Persons"
+    },
+    "DZA": {
+      "name": "Algeria",
+      "value": 1246,
+      "previous": 3300,
+      "reference": "Dec/24",
+      "unit": "Thousand"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 464209,
+      "previous": 460774,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 588460,
+      "previous": 453138,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 755530,
+      "previous": 710980,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 4470,
+      "previous": 4327,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 26950,
+      "previous": 11572,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BHS": {
+      "name": "Bahamas",
+      "value": 1168,
+      "previous": 1194,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 19655,
+      "previous": 19139,
+      "reference": "Dec/25",
+      "unit": "Thousand"
+    },
+    "BRB": {
+      "name": "Barbados",
+      "value": 57790,
+      "previous": 71583,
+      "reference": "Apr/26",
+      "unit": ""
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 579200,
+      "previous": 366700,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 2126258,
+      "previous": 1749404,
+      "reference": "Jul/26",
+      "unit": ""
+    },
+    "BLZ": {
+      "name": "Belize",
+      "value": 1375402,
+      "previous": 1318030,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BIH": {
+      "name": "Bosnia And Herzegovina",
+      "value": 256973,
+      "previous": 235825,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 9287,
+      "previous": 6774,
+      "reference": "Dec/25",
+      "unit": "Thousand"
+    },
+    "BRN": {
+      "name": "Brunei",
+      "value": 286749,
+      "previous": 268282,
+      "reference": "Dec/25",
+      "unit": "Thousands"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 1251874,
+      "previous": 2221194,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "BFA": {
+      "name": "Burkina Faso",
+      "value": 132340,
+      "previous": 120803,
+      "reference": "Dec/24",
+      "unit": ""
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "value": 254877,
+      "previous": 245935,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 4222163,
+      "previous": 4584611,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "value": 276598,
+      "previous": 379657,
+      "reference": "Jun/26",
+      "unit": ""
+    },
+    "CYM": {
+      "name": "Cayman Islands",
+      "value": 438,
+      "previous": 429,
+      "reference": "Dec/24",
+      "unit": "Thousand"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 798946,
+      "previous": 769406,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "CHN": {
+      "name": "China",
+      "value": 3517,
+      "previous": 2694,
+      "reference": "Dec/25",
+      "unit": "Tens of Thousands"
+    },
+    "COM": {
+      "name": "Comoros",
+      "value": 21718,
+      "previous": 20297,
+      "reference": "Dec/24",
+      "unit": ""
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 4318257,
+      "previous": 4065279,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 580889,
+      "previous": 581880,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 533793,
+      "previous": 725481,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 95970,
+      "previous": 99963,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 246632,
+      "previous": 387233,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "FRA": {
+      "name": "France",
+      "value": 5057,
+      "previous": 5344,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 4284,
+      "previous": 4862,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 8466,
+      "previous": 6552,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 304232,
+      "previous": 290025,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "GUY": {
+      "name": "Guyana",
+      "value": 147,
+      "previous": 128,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 5456320,
+      "previous": 4503842,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 227983,
+      "previous": 314180,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "IND": {
+      "name": "India",
+      "value": 584000,
+      "previous": 517000,
+      "reference": "Jun/26",
+      "unit": ""
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 1427114,
+      "previous": 1599660,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 136,
+      "previous": 116,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 11734014,
+      "previous": 12287449,
+      "reference": "Aug/26",
+      "unit": "Persons"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 3103700,
+      "previous": 3098900,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 1335,
+      "previous": 1457,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 213069,
+      "previous": 185792,
+      "reference": "Jun/26",
+      "unit": ""
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 5314,
+      "previous": 3659,
+      "reference": "Dec/25",
+      "unit": "Thousand"
+    },
+    "LAO": {
+      "name": "Laos",
+      "value": 4580709,
+      "previous": 4120832,
+      "reference": "Dec/25",
+      "unit": "people"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 236784,
+      "previous": 255517,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "value": 186829,
+      "previous": 72454,
+      "reference": "May/26",
+      "unit": ""
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 413,
+      "previous": 317,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "MAC": {
+      "name": "Macau",
+      "value": 3216535,
+      "previous": 4478073,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 244513,
+      "previous": 223711,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 2303636,
+      "previous": 2300616,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "MDV": {
+      "name": "Maldives",
+      "value": 195390,
+      "previous": 183119,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 539655,
+      "previous": 489494,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 114506,
+      "previous": 123102,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 3769,
+      "previous": 4407,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 91021,
+      "previous": 68568,
+      "reference": "Jun/26",
+      "unit": ""
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 207118,
+      "previous": 264475,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 19800000,
+      "previous": 17411949,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 852177,
+      "previous": 757458,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "NAM": {
+      "name": "Namibia",
+      "value": 1257093,
+      "previous": 863872,
+      "reference": "Dec/24",
+      "unit": ""
+    },
+    "NPL": {
+      "name": "Nepal",
+      "value": 1158459,
+      "previous": 1147567,
+      "reference": "Dec/25",
+      "unit": "Persons"
+    },
+    "NCL": {
+      "name": "New Caledonia",
+      "value": 6786,
+      "previous": 8540,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 248714,
+      "previous": 256638,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 350,
+      "previous": 223,
+      "reference": "Jul/26",
+      "unit": "Thousand"
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 3256693,
+      "previous": 2524658,
+      "reference": "Dec/24",
+      "unit": ""
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 478311,
+      "previous": 529444,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 2304961,
+      "previous": 2091632,
+      "reference": "Aug/26",
+      "unit": "Persons"
+    },
+    "PRI": {
+      "name": "Puerto Rico",
+      "value": 105,
+      "previous": 79.5,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 5091,
+      "previous": 4907,
+      "reference": "Dec/25",
+      "unit": "Thousand"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 344443,
+      "previous": 315174,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 30,
+      "previous": 29.7,
+      "reference": "Dec/25",
+      "unit": "Million"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 300879,
+      "previous": 283890,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 30917,
+      "previous": 34987,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 1227035,
+      "previous": 1605019,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 821800,
+      "previous": 1285957,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 1091441,
+      "previous": 1304763,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 2245293,
+      "previous": 2093223,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 12256,
+      "previous": 11539,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 191704,
+      "previous": 196845,
+      "reference": "Aug/26",
+      "unit": ""
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 2519,
+      "previous": 2508,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 612,
+      "previous": 663,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 2000,
+      "previous": 2515,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "value": 1100,
+      "previous": 1025,
+      "reference": "Dec/25",
+      "unit": "Thousand"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 6111821,
+      "previous": 6963065,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "UGA": {
+      "name": "Uganda",
+      "value": 1602,
+      "previous": 1372,
+      "reference": "Dec/25",
+      "unit": "Thousand"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 6248242,
+      "previous": 5415892,
+      "reference": "Jul/26",
+      "unit": ""
+    },
+    "URY": {
+      "name": "Uruguay",
+      "value": 628924,
+      "previous": 1181795,
+      "reference": "Jun/26",
+      "unit": ""
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 1769,
+      "previous": 1990,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    },
+    "ZWE": {
+      "name": "Zimbabwe",
+      "value": 1777569,
+      "previous": 1613901,
+      "reference": "Dec/25",
+      "unit": ""
+    }
+  },
+  "unmatched": []
+}

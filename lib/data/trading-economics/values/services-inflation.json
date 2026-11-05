@@ -1,0 +1,88 @@
+{
+  "slug": "services-inflation",
+  "name": "Services Inflation",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.205Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "TWN": {
+      "name": "Services Inflation",
+      "value": 2.49,
+      "previous": 2.47,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "DNK": {
+      "name": "Services Inflation",
+      "value": 3.3,
+      "previous": 3.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "CAN": {
+      "name": "Services Inflation",
+      "value": 2.6,
+      "previous": 2.8,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "GBR": {
+      "name": "Services Inflation",
+      "value": 3.7,
+      "previous": 3.4,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "JPN": {
+      "name": "Services Inflation",
+      "value": 1.5,
+      "previous": 1.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "AUS": {
+      "name": "Services Inflation",
+      "value": 4.1,
+      "previous": 3.7,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "PRT": {
+      "name": "Services Inflation",
+      "value": 4.4,
+      "previous": 3.95,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "DEU": {
+      "name": "Services Inflation",
+      "value": 2.5,
+      "previous": 2.7,
+      "reference": "Oct/26",
+      "unit": "percent"
+    },
+    "ITA": {
+      "name": "Services Inflation",
+      "value": 2.6,
+      "previous": 2.4,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "FRA": {
+      "name": "Services Inflation",
+      "value": 2.7,
+      "previous": 2.4,
+      "reference": "Oct/26",
+      "unit": "percent"
+    }
+  }
+}

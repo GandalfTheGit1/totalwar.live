@@ -1,0 +1,347 @@
+{
+  "slug": "building-permits",
+  "name": "Building Permits",
+  "category": "Housing",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.708Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": 460,
+      "previous": 322,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 1383,
+      "previous": 1574,
+      "reference": "Jul/26",
+      "unit": "Thousands Square Metre"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 16953,
+      "previous": 18056,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 11316,
+      "previous": 11476,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 1854,
+      "previous": 2396,
+      "reference": "Jul/26",
+      "unit": "Units"
+    },
+    "BIH": {
+      "name": "Bosnia And Herzegovina",
+      "value": 475,
+      "previous": 448,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 2216,
+      "previous": 2302,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 13571697,
+      "previous": 12478548,
+      "reference": "Aug/26",
+      "unit": "CAD Thousand"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 4841,
+      "previous": 6485,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 775,
+      "previous": 972,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 751,
+      "previous": 735,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 5684,
+      "previous": 5622,
+      "reference": "Aug/26",
+      "unit": "units"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 1575,
+      "previous": 1346,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 310,
+      "previous": 287,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 805,
+      "previous": 753,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 35415,
+      "previous": 25376,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 16461,
+      "previous": 18441,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 2873,
+      "previous": 3118,
+      "reference": "Jul/26",
+      "unit": "Units"
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 488,
+      "previous": 555,
+      "reference": "Jul/26",
+      "unit": "Units"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 828,
+      "previous": 1038,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 1597,
+      "previous": 1789,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 6454,
+      "previous": 5748,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 2410,
+      "previous": 2291,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 31804,
+      "previous": 22977,
+      "reference": "Aug/26",
+      "unit": "KES Million"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 624,
+      "previous": 580,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 2069,
+      "previous": 1533,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 333,
+      "previous": 367,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 539,
+      "previous": 504,
+      "reference": "Jun/26",
+      "unit": "units"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 257,
+      "previous": 213,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 1377,
+      "previous": 2108,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 3525,
+      "previous": 3337,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 2421,
+      "previous": 1387,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "PSE": {
+      "name": "Palestine",
+      "value": 1814,
+      "previous": 1841,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 10968,
+      "previous": 16725,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 7953,
+      "previous": 7035,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 1648,
+      "previous": 2014,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 558,
+      "previous": 739,
+      "reference": "Mar/26",
+      "unit": "Units"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 2943,
+      "previous": 2909,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 2443,
+      "previous": 2751,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 244,
+      "previous": 275,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 8905932,
+      "previous": 9332741,
+      "reference": "Aug/26",
+      "unit": "ZAR Thousand"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 9244,
+      "previous": 8868,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "SWZ": {
+      "name": "Swaziland",
+      "value": 142860,
+      "previous": 177352,
+      "reference": "Jun/26",
+      "unit": "SZL Thousand"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 8629,
+      "previous": 9948,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 893,
+      "previous": 977,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 280463,
+      "previous": 234350,
+      "reference": "Jun/26",
+      "unit": "Units"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 1398,
+      "previous": 1403,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    }
+  },
+  "unmatched": []
+}

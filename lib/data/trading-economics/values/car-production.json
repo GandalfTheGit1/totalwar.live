@@ -1,0 +1,172 @@
+{
+  "slug": "car-production",
+  "name": "Car Production",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.851Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ARG": {
+      "name": "Argentina",
+      "value": 39747,
+      "previous": 39381,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 268300,
+      "previous": 271200,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 2990000,
+      "previous": 2684000,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 1463991,
+      "previous": 1357701,
+      "reference": "Dec/25",
+      "unit": "Units"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 392200,
+      "previous": 221012,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "IND": {
+      "name": "India",
+      "value": 3452554,
+      "previous": 3157822,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 1026976,
+      "previous": 1180355,
+      "reference": "Dec/24",
+      "unit": "Units"
+    },
+    "IRN": {
+      "name": "Iran",
+      "value": 1323066,
+      "previous": 1131906,
+      "reference": "Mar/25",
+      "unit": "Units"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 686871,
+      "previous": 666380,
+      "reference": "Jul/26",
+      "unit": "Units"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 1747,
+      "previous": 1863,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 64482,
+      "previous": 64549,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 302,
+      "previous": 345,
+      "reference": "Sep/26",
+      "unit": "Thousand Units"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 7,
+      "previous": 10.2,
+      "reference": "Aug/26",
+      "unit": "Thousand Units"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 19114,
+      "previous": 6591,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 62.6,
+      "previous": 65.8,
+      "reference": "Aug/26",
+      "unit": "Thousand Units"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 346618,
+      "previous": 206036,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 1719,
+      "previous": 1477,
+      "reference": "Sep/26",
+      "unit": "Hundred Units"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 16716,
+      "previous": 13395,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 120319,
+      "previous": 124646,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 129571,
+      "previous": 74368,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 70831,
+      "previous": 39328,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 10.21,
+      "previous": 10.61,
+      "reference": "Sep/26",
+      "unit": "Million Units"
+    }
+  },
+  "unmatched": []
+}

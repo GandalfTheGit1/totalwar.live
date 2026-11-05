@@ -1,0 +1,319 @@
+{
+  "slug": "construction-output",
+  "name": "Construction Output",
+  "category": "Housing",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.734Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": 4.1,
+      "previous": 7.2,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": -4.5,
+      "previous": 4,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 25.9,
+      "previous": 23.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": -2.1,
+      "previous": 4.3,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 1.4,
+      "previous": 0.5,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": -0.3,
+      "previous": -3.3,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 4.2,
+      "previous": 4.9,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 11,
+      "previous": 11.4,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 2.8,
+      "previous": 2.7,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 1.1,
+      "previous": 1.6,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": -1.4,
+      "previous": 1.8,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 0.3,
+      "previous": 1.3,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 3.8,
+      "previous": 4.2,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 12.7,
+      "previous": 17.1,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "FRA": {
+      "name": "France",
+      "value": -5,
+      "previous": -5.2,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 10.5,
+      "previous": 1.1,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 7.1,
+      "previous": 16.5,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 21.9,
+      "previous": -12.2,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "IND": {
+      "name": "India",
+      "value": 7.9,
+      "previous": 5.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": -3.4,
+      "previous": -0.8,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": -2.2,
+      "previous": -0.1,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 11.5,
+      "previous": 15.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 3.2,
+      "previous": 2.9,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 7,
+      "previous": -0.6,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": -6.8,
+      "previous": 4.5,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 8.8,
+      "previous": 8.5,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 7.5,
+      "previous": 7.3,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 6.3,
+      "previous": 5.1,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": -1.4,
+      "previous": 1.1,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "NCL": {
+      "name": "New Caledonia",
+      "value": 2.01,
+      "previous": 1.58,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 5.2,
+      "previous": -4.18,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 4.4,
+      "previous": -2.4,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 2,
+      "previous": 2.1,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 39,
+      "previous": 2.2,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 2.7,
+      "previous": 0.8,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": -4.8,
+      "previous": 2.3,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 3.6,
+      "previous": 11.4,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 1.3,
+      "previous": -3.4,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": -4.3,
+      "previous": -10.6,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 3.9,
+      "previous": 1.7,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 2.1,
+      "previous": 0.6,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": -1.8,
+      "previous": -1.9,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 11.8,
+      "previous": 12.9,
+      "reference": "Aug/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

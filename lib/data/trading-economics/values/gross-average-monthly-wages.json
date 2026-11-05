@@ -1,0 +1,375 @@
+{
+  "slug": "gross-average-monthly-wages",
+  "name": "Gross Average Monthly Wages",
+  "category": "Labour",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.365Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": 832,
+      "previous": 701,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "AND": {
+      "name": "Andorra",
+      "value": 2781,
+      "previous": 2639,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 731,
+      "previous": 688,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 5136,
+      "previous": 4798,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 594,
+      "previous": 549,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 700,
+      "previous": 637,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 5327,
+      "previous": 5108,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 1183,
+      "previous": 1076,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 2514,
+      "previous": 2207,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 5057,
+      "previous": 5002,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 1970,
+      "previous": 1713,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 2690,
+      "previous": 2555,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 2044,
+      "previous": 2013,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 6361,
+      "previous": 6023,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 2143,
+      "previous": 1981,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 4419,
+      "previous": 4350,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 4049,
+      "previous": 3929,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 757,
+      "previous": 672,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 4531,
+      "previous": 4352,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 1665,
+      "previous": 1594,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 1545,
+      "previous": 1453,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 7132,
+      "previous": 6778,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 5012,
+      "previous": 4862,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 3637,
+      "previous": 3507,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 2988,
+      "previous": 2924,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 865,
+      "previous": 799,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 429,
+      "previous": 360,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 1823,
+      "previous": 1662,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 2592,
+      "previous": 2408,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 7536,
+      "previous": 7292,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 1090,
+      "previous": 965,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 2117,
+      "previous": 1981,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 783,
+      "previous": 672,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 1172,
+      "previous": 1067,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 5251,
+      "previous": 5005,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 5578,
+      "previous": 5437,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 1918,
+      "previous": 1636,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 2089,
+      "previous": 1984,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 1850,
+      "previous": 1610,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 1251,
+      "previous": 1094,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 1837,
+      "previous": 1706,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 3347,
+      "previous": 3058,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 2979,
+      "previous": 2880,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 4177,
+      "previous": 3982,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 9165,
+      "previous": 8765,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "value": 214,
+      "previous": 186,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 202,
+      "previous": 1362,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 535,
+      "previous": 477,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 4772,
+      "previous": 4462,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 6911,
+      "previous": 6676,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 348,
+      "previous": 324,
+      "reference": "Dec/24",
+      "unit": "USD at Current Exchange Rates"
+    }
+  },
+  "unmatched": []
+}

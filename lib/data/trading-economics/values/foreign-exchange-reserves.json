@@ -2,8 +2,8 @@
   "slug": "foreign-exchange-reserves",
   "name": "Foreign Exchange Reserves",
   "category": "Money",
-  "source": "https://tradingeconomics.com/country-list/foreign-exchange-reserves",
-  "fetchedAt": "2026-11-02T15:20:11.445Z",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.544Z",
   "valueColumn": "Last",
   "columns": [
     "Country",
@@ -18,1586 +18,854 @@
       "value": 8554,
       "previous": 8415,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "8554",
-        "Previous": "8415",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "AGO": {
       "name": "Angola",
       "value": 15228,
       "previous": 15320,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "15228",
-        "Previous": "15320",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "ARG": {
       "name": "Argentina",
       "value": 49133,
       "previous": 39406,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "49133",
-        "Previous": "39406",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "ARM": {
       "name": "Armenia",
       "value": 6658,
       "previous": 6522,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "6658",
-        "Previous": "6522",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "AUS": {
       "name": "Australia",
       "value": 109715,
       "previous": 106019,
       "reference": "Sep/26",
-      "unit": "AUD Million",
-      "cells": {
-        "Last": "109715",
-        "Previous": "106019",
-        "Reference": "Sep/26",
-        "Unit": "AUD Million"
-      }
+      "unit": "AUD Million"
     },
     "AUT": {
       "name": "Austria",
       "value": 45890,
       "previous": 47142,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "45890",
-        "Previous": "47142",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "AZE": {
       "name": "Azerbaijan",
       "value": 15363,
       "previous": 15301,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "15363",
-        "Previous": "15301",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "BHS": {
       "name": "Bahamas",
       "value": 2954,
       "previous": 3105,
       "reference": "Sep/26",
-      "unit": "BSD Million",
-      "cells": {
-        "Last": "2954",
-        "Previous": "3105",
-        "Reference": "Sep/26",
-        "Unit": "BSD Million"
-      }
+      "unit": "BSD Million"
     },
     "BHR": {
       "name": "Bahrain",
       "value": 594,
       "previous": 945,
       "reference": "Aug/26",
-      "unit": "BHD Million",
-      "cells": {
-        "Last": "594",
-        "Previous": "945",
-        "Reference": "Aug/26",
-        "Unit": "BHD Million"
-      }
+      "unit": "BHD Million"
     },
     "BGD": {
       "name": "Bangladesh",
       "value": 36015,
       "previous": 37352,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "36015",
-        "Previous": "37352",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "BRB": {
       "name": "Barbados",
       "value": 2492,
       "previous": 2743,
       "reference": "Sep/26",
-      "unit": "BBD Million",
-      "cells": {
-        "Last": "2492",
-        "Previous": "2743",
-        "Reference": "Sep/26",
-        "Unit": "BBD Million"
-      }
+      "unit": "BBD Million"
     },
     "BLR": {
       "name": "Belarus",
       "value": 14634,
       "previous": 15243,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "14634",
-        "Previous": "15243",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "BEL": {
       "name": "Belgium",
       "value": 48212,
       "previous": 49091,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "48212",
-        "Previous": "49091",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "BLZ": {
       "name": "Belize",
       "value": 552,
       "previous": 491,
       "reference": "Dec/25",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "552",
-        "Previous": "491",
-        "Reference": "Dec/25",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "BTN": {
       "name": "Bhutan",
       "value": 1299,
       "previous": 1227,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "1299",
-        "Previous": "1227",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "BOL": {
       "name": "Bolivia",
       "value": 3933,
       "previous": 4290,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "3933",
-        "Previous": "4290",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "BIH": {
       "name": "Bosnia and Herzegovina",
       "value": 19903,
       "previous": 19888,
       "reference": "Sep/26",
-      "unit": "BAM Million",
-      "cells": {
-        "Last": "19903",
-        "Previous": "19888",
-        "Reference": "Sep/26",
-        "Unit": "BAM Million"
-      }
+      "unit": "BAM Million"
     },
     "BWA": {
       "name": "Botswana",
       "value": 4444,
       "previous": 4162,
       "reference": "Jul/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "4444",
-        "Previous": "4162",
-        "Reference": "Jul/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "BRA": {
       "name": "Brazil",
       "value": 362821,
       "previous": 372616,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "362821",
-        "Previous": "372616",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "BGR": {
       "name": "Bulgaria",
       "value": 7337,
       "previous": 7660,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "7337",
-        "Previous": "7660",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "BDI": {
       "name": "Burundi",
       "value": 419432,
       "previous": 624915,
       "reference": "Aug/26",
-      "unit": "BIF Million",
-      "cells": {
-        "Last": "419432",
-        "Previous": "624915",
-        "Reference": "Aug/26",
-        "Unit": "BIF Million"
-      }
+      "unit": "BIF Million"
     },
     "CAN": {
       "name": "Canada",
       "value": 125288,
       "previous": 127406,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "125288",
-        "Previous": "127406",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "CPV": {
       "name": "Cape Verde",
       "value": 130832,
       "previous": 130248,
       "reference": "Aug/26",
-      "unit": "CVE Million",
-      "cells": {
-        "Last": "130832",
-        "Previous": "130248",
-        "Reference": "Aug/26",
-        "Unit": "CVE Million"
-      }
+      "unit": "CVE Million"
     },
     "CHL": {
       "name": "Chile",
       "value": 53547,
       "previous": 53510,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "53547",
-        "Previous": "53510",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "CHN": {
       "name": "China",
       "value": 3400251,
       "previous": 3438325,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "3400251",
-        "Previous": "3438325",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "COL": {
       "name": "Colombia",
       "value": 67228,
       "previous": 67817,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "67228",
-        "Previous": "67817",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "COG": {
       "name": "Congo",
       "value": 7742,
       "previous": 8009,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "7742",
-        "Previous": "8009",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "CRI": {
       "name": "Costa Rica",
       "value": 20159,
       "previous": 20448,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "20159",
-        "Previous": "20448",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "HRV": {
       "name": "Croatia",
       "value": 3241,
       "previous": 3168,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "3241",
-        "Previous": "3168",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "CYP": {
       "name": "Cyprus",
       "value": 2554,
       "previous": 2603,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "2554",
-        "Previous": "2603",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "CZE": {
       "name": "Czech Republic",
       "value": 180100,
       "previous": 184600,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "180100",
-        "Previous": "184600",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "DNK": {
       "name": "Denmark",
       "value": 693200,
       "previous": 693600,
       "reference": "Sep/26",
-      "unit": "DKK Million",
-      "cells": {
-        "Last": "693200",
-        "Previous": "693600",
-        "Reference": "Sep/26",
-        "Unit": "DKK Million"
-      }
+      "unit": "DKK Million"
     },
     "DOM": {
       "name": "Dominican Republic",
       "value": 15240,
       "previous": 15434,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "15240",
-        "Previous": "15434",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "ECU": {
       "name": "Ecuador",
       "value": 11775,
       "previous": 12067,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "11775",
-        "Previous": "12067",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "EGY": {
       "name": "Egypt",
       "value": 57348,
       "previous": 57215,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "57348",
-        "Previous": "57215",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "SLV": {
       "name": "El Salvador",
       "value": 5032,
       "previous": 5142,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "5032",
-        "Previous": "5142",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "FIN": {
       "name": "Finland",
       "value": 19107,
       "previous": 19579,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "19107",
-        "Previous": "19579",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "FRA": {
       "name": "France",
       "value": 370,
       "previous": 381,
       "reference": "Sep/26",
-      "unit": "EUR Billion",
-      "cells": {
-        "Last": "370",
-        "Previous": "381",
-        "Reference": "Sep/26",
-        "Unit": "EUR Billion"
-      }
+      "unit": "EUR Billion"
     },
     "GEO": {
       "name": "Georgia",
       "value": 8166920,
       "previous": 8140459,
       "reference": "Sep/26",
-      "unit": "USD Thousand",
-      "cells": {
-        "Last": "8166920",
-        "Previous": "8140459",
-        "Reference": "Sep/26",
-        "Unit": "USD Thousand"
-      }
+      "unit": "USD Thousand"
     },
     "DEU": {
       "name": "Germany",
       "value": 487498,
       "previous": 502625,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "487498",
-        "Previous": "502625",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "GHA": {
       "name": "Ghana",
       "value": 12944,
       "previous": 14024,
       "reference": "Jun/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "12944",
-        "Previous": "14024",
-        "Reference": "Jun/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "GRC": {
       "name": "Greece",
       "value": 19893,
       "previous": 20607,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "19893",
-        "Previous": "20607",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "GTM": {
       "name": "Guatemala",
       "value": 33490,
       "previous": 33375,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "33490",
-        "Previous": "33375",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "GUY": {
       "name": "Guyana",
       "value": 1055,
       "previous": 1000,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "1055",
-        "Previous": "1000",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "HND": {
       "name": "Honduras",
       "value": 11524,
       "previous": 11707,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "11524",
-        "Previous": "11707",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "HKG": {
       "name": "Hong Kong",
       "value": 433000,
       "previous": 442800,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "433000",
-        "Previous": "442800",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "HUN": {
       "name": "Hungary",
       "value": 62061,
       "previous": 63502,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "62061",
-        "Previous": "63502",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "ISL": {
       "name": "Iceland",
       "value": 922658,
       "previous": 948849,
       "reference": "Sep/26",
-      "unit": "ISK Million",
-      "cells": {
-        "Last": "922658",
-        "Previous": "948849",
-        "Reference": "Sep/26",
-        "Unit": "ISK Million"
-      }
+      "unit": "ISK Million"
     },
     "IND": {
       "name": "India",
       "value": 719748,
       "previous": 721020,
       "reference": "Oct/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "719748",
-        "Previous": "721020",
-        "Reference": "Oct/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "IDN": {
       "name": "Indonesia",
       "value": 146300,
       "previous": 146500,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "146300",
-        "Previous": "146500",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "IRQ": {
       "name": "Iraq",
       "value": 102196,
       "previous": 106482,
       "reference": "Sep/26",
-      "unit": "IQD Billion",
-      "cells": {
-        "Last": "102196",
-        "Previous": "106482",
-        "Reference": "Sep/26",
-        "Unit": "IQD Billion"
-      }
+      "unit": "IQD Billion"
     },
     "IRL": {
       "name": "Ireland",
       "value": 11760,
       "previous": 11963,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "11760",
-        "Previous": "11963",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "ISR": {
       "name": "Israel",
       "value": 236998,
       "previous": 241641,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "236998",
-        "Previous": "241641",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "ITA": {
       "name": "Italy",
       "value": 373822,
       "previous": 385958,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "373822",
-        "Previous": "385958",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "JAM": {
       "name": "Jamaica",
       "value": 7182,
       "previous": 6640,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "7182",
-        "Previous": "6640",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "JPN": {
       "name": "Japan",
       "value": 1178400,
       "previous": 1207500,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "1178400",
-        "Previous": "1207500",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "JOR": {
       "name": "Jordan",
       "value": 21992,
       "previous": 21941,
       "reference": "Sep/26",
-      "unit": "JOD Million",
-      "cells": {
-        "Last": "21992",
-        "Previous": "21941",
-        "Reference": "Sep/26",
-        "Unit": "JOD Million"
-      }
+      "unit": "JOD Million"
     },
     "KAZ": {
       "name": "Kazakhstan",
       "value": 66410,
       "previous": 70214,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "66410",
-        "Previous": "70214",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "KEN": {
       "name": "Kenya",
       "value": 21953,
       "previous": 20795,
       "reference": "Jul/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "21953",
-        "Previous": "20795",
-        "Reference": "Jul/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "KWT": {
       "name": "Kuwait",
       "value": 9645,
       "previous": 10082,
       "reference": "Sep/26",
-      "unit": "KWD Million",
-      "cells": {
-        "Last": "9645",
-        "Previous": "10082",
-        "Reference": "Sep/26",
-        "Unit": "KWD Million"
-      }
+      "unit": "KWD Million"
     },
     "KGZ": {
       "name": "Kyrgyzstan",
       "value": 8145,
       "previous": 8869,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "8145",
-        "Previous": "8869",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "LAO": {
       "name": "Laos",
       "value": 3773,
       "previous": 4071,
       "reference": "Jul/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "3773",
-        "Previous": "4071",
-        "Reference": "Jul/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "LVA": {
       "name": "Latvia",
       "value": 5356,
       "previous": 5354,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "5356",
-        "Previous": "5354",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "LTU": {
       "name": "Lithuania",
       "value": 6422,
       "previous": 6246,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "6422",
-        "Previous": "6246",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "LUX": {
       "name": "Luxembourg",
       "value": 2669,
       "previous": 2648,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "2669",
-        "Previous": "2648",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "MAC": {
       "name": "Macau",
       "value": 245024,
       "previous": 245791,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "245024",
-        "Previous": "245791",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "MKD": {
       "name": "Macedonia",
       "value": 5024,
       "previous": 5101,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "5024",
-        "Previous": "5101",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "MWI": {
       "name": "Malawi",
       "value": 1051,
       "previous": 1079,
       "reference": "Jul/26",
-      "unit": "MWK Billion",
-      "cells": {
-        "Last": "1051",
-        "Previous": "1079",
-        "Reference": "Jul/26",
-        "Unit": "MWK Billion"
-      }
+      "unit": "MWK Billion"
     },
     "MYS": {
       "name": "Malaysia",
       "value": 131800,
       "previous": 132000,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "131800",
-        "Previous": "132000",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "MDV": {
       "name": "Maldives",
       "value": 644,
       "previous": 638,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "644",
-        "Previous": "638",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "MUS": {
       "name": "Mauritius",
       "value": 10487,
       "previous": 10210,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "10487",
-        "Previous": "10210",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "MEX": {
       "name": "Mexico",
       "value": 255946,
       "previous": 258479,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "255946",
-        "Previous": "258479",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "MDA": {
       "name": "Moldova",
       "value": 5456661,
       "previous": 5414070,
       "reference": "Sep/26",
-      "unit": "USD Thousand",
-      "cells": {
-        "Last": "5456661",
-        "Previous": "5414070",
-        "Reference": "Sep/26",
-        "Unit": "USD Thousand"
-      }
+      "unit": "USD Thousand"
     },
     "MNG": {
       "name": "Mongolia",
       "value": 8897,
       "previous": 8373,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "8897",
-        "Previous": "8373",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "MAR": {
       "name": "Morocco",
       "value": 506435,
       "previous": 500065,
       "reference": "Sep/26",
-      "unit": "MAD Million",
-      "cells": {
-        "Last": "506435",
-        "Previous": "500065",
-        "Reference": "Sep/26",
-        "Unit": "MAD Million"
-      }
+      "unit": "MAD Million"
     },
     "MOZ": {
       "name": "Mozambique",
       "value": 3419,
       "previous": 3437,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "3419",
-        "Previous": "3437",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "NAM": {
       "name": "Namibia",
       "value": 59268,
       "previous": 58457,
       "reference": "Sep/26",
-      "unit": "NAD Million",
-      "cells": {
-        "Last": "59268",
-        "Previous": "58457",
-        "Reference": "Sep/26",
-        "Unit": "NAD Million"
-      }
+      "unit": "NAD Million"
     },
     "NLD": {
       "name": "Netherlands",
       "value": 102173,
       "previous": 105087,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "102173",
-        "Previous": "105087",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "NZL": {
       "name": "New Zealand",
       "value": 54403,
       "previous": 49139,
       "reference": "Sep/26",
-      "unit": "NZD Million",
-      "cells": {
-        "Last": "54403",
-        "Previous": "49139",
-        "Reference": "Sep/26",
-        "Unit": "NZD Million"
-      }
+      "unit": "NZD Million"
     },
     "NIC": {
       "name": "Nicaragua",
       "value": 9663,
       "previous": 9569,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "9663",
-        "Previous": "9569",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "NGA": {
       "name": "Nigeria",
       "value": 55260,
       "previous": 54910,
       "reference": "Oct/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "55260",
-        "Previous": "54910",
-        "Reference": "Oct/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "NOR": {
       "name": "Norway",
       "value": 856583,
       "previous": 847308,
       "reference": "Sep/26",
-      "unit": "NOK Million",
-      "cells": {
-        "Last": "856583",
-        "Previous": "847308",
-        "Reference": "Sep/26",
-        "Unit": "NOK Million"
-      }
+      "unit": "NOK Million"
     },
     "OMN": {
       "name": "Oman",
       "value": 7684,
       "previous": 7284,
       "reference": "Aug/26",
-      "unit": "OMR Million",
-      "cells": {
-        "Last": "7684",
-        "Previous": "7284",
-        "Reference": "Aug/26",
-        "Unit": "OMR Million"
-      }
+      "unit": "OMR Million"
     },
     "PAK": {
       "name": "Pakistan",
       "value": 26771,
       "previous": 22032,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "26771",
-        "Previous": "22032",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "PNG": {
       "name": "Papua New Guinea",
       "value": 4303,
       "previous": 4108,
       "reference": "Jul/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "4303",
-        "Previous": "4108",
-        "Reference": "Jul/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "PRY": {
       "name": "Paraguay",
       "value": 9546,
       "previous": 9683,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "9546",
-        "Previous": "9683",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "PER": {
       "name": "Peru",
       "value": 92736,
       "previous": 96518,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "92736",
-        "Previous": "96518",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "PHL": {
       "name": "Philippines",
       "value": 100000,
       "previous": 104813,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "100000",
-        "Previous": "104813",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "POL": {
       "name": "Poland",
       "value": 295441,
       "previous": 304967,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "295441",
-        "Previous": "304967",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "PRT": {
       "name": "Portugal",
       "value": 55212,
       "previous": 58093,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "55212",
-        "Previous": "58093",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "QAT": {
       "name": "Qatar",
       "value": 262254,
       "previous": 262175,
       "reference": "Aug/26",
-      "unit": "QAR Million",
-      "cells": {
-        "Last": "262254",
-        "Previous": "262175",
-        "Reference": "Aug/26",
-        "Unit": "QAR Million"
-      }
+      "unit": "QAR Million"
     },
     "ROU": {
       "name": "Romania",
       "value": 60060,
       "previous": 64865,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "60060",
-        "Previous": "64865",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "RUS": {
       "name": "Russia",
       "value": 731760,
       "previous": 769022,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "731760",
-        "Previous": "769022",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "STP": {
       "name": "Sao Tome And Principe",
       "value": 81.08,
       "previous": 111,
       "reference": "Sep/26",
-      "unit": "STN Million",
-      "cells": {
-        "Last": "81.08",
-        "Previous": "111",
-        "Reference": "Sep/26",
-        "Unit": "STN Million"
-      }
+      "unit": "STN Million"
     },
     "SAU": {
       "name": "Saudi Arabia",
       "value": 1746270,
       "previous": 1827407,
       "reference": "Sep/26",
-      "unit": "SAR Million",
-      "cells": {
-        "Last": "1746270",
-        "Previous": "1827407",
-        "Reference": "Sep/26",
-        "Unit": "SAR Million"
-      }
+      "unit": "SAR Million"
     },
     "SRB": {
       "name": "Serbia",
       "value": 29859,
       "previous": 30805,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "29859",
-        "Previous": "30805",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "SYC": {
       "name": "Seychelles",
       "value": 891,
       "previous": 907,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "891",
-        "Previous": "907",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "SGP": {
       "name": "Singapore",
       "value": 553573,
       "previous": 550725,
       "reference": "Sep/26",
-      "unit": "SGD Million",
-      "cells": {
-        "Last": "553573",
-        "Previous": "550725",
-        "Reference": "Sep/26",
-        "Unit": "SGD Million"
-      }
+      "unit": "SGD Million"
     },
     "SVK": {
       "name": "Slovakia",
       "value": 16741,
       "previous": 16906,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "16741",
-        "Previous": "16906",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "SVN": {
       "name": "Slovenia",
       "value": 1437,
       "previous": 1442,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "1437",
-        "Previous": "1442",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "ZAF": {
       "name": "South Africa",
       "value": 75429,
       "previous": 75954,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "75429",
-        "Previous": "75954",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "KOR": {
       "name": "South Korea",
       "value": 440560,
       "previous": 442280,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "440560",
-        "Previous": "442280",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "ESP": {
       "name": "Spain",
       "value": 1091173,
       "previous": 1100883,
       "reference": "Sep/26",
-      "unit": "EUR Million",
-      "cells": {
-        "Last": "1091173",
-        "Previous": "1100883",
-        "Reference": "Sep/26",
-        "Unit": "EUR Million"
-      }
+      "unit": "EUR Million"
     },
     "LKA": {
       "name": "Sri Lanka",
       "value": 6929,
       "previous": 6600,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "6929",
-        "Previous": "6600",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "SWZ": {
       "name": "Swaziland",
       "value": 10803660,
       "previous": 10531348,
       "reference": "Sep/26",
-      "unit": "SZL Thousand",
-      "cells": {
-        "Last": "10803660",
-        "Previous": "10531348",
-        "Reference": "Sep/26",
-        "Unit": "SZL Thousand"
-      }
+      "unit": "SZL Thousand"
     },
     "SWE": {
       "name": "Sweden",
       "value": 740405,
       "previous": 722124,
       "reference": "Sep/26",
-      "unit": "SEK Million",
-      "cells": {
-        "Last": "740405",
-        "Previous": "722124",
-        "Reference": "Sep/26",
-        "Unit": "SEK Million"
-      }
+      "unit": "SEK Million"
     },
     "CHE": {
       "name": "Switzerland",
       "value": 770476,
       "previous": 770074,
       "reference": "Sep/26",
-      "unit": "CHF Million",
-      "cells": {
-        "Last": "770476",
-        "Previous": "770074",
-        "Reference": "Sep/26",
-        "Unit": "CHF Million"
-      }
+      "unit": "CHF Million"
     },
     "TWN": {
       "name": "Taiwan",
       "value": 6008,
       "previous": 6019,
       "reference": "Sep/26",
-      "unit": "USD Hundred Million",
-      "cells": {
-        "Last": "6008",
-        "Previous": "6019",
-        "Reference": "Sep/26",
-        "Unit": "USD Hundred Million"
-      }
+      "unit": "USD Hundred Million"
     },
     "THA": {
       "name": "Thailand",
       "value": 276134,
       "previous": 283142,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "276134",
-        "Previous": "283142",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "TTO": {
       "name": "Trinidad And Tobago",
       "value": 5116,
       "previous": 5293,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "5116",
-        "Previous": "5293",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "TUN": {
       "name": "Tunisia",
       "value": 28024358,
       "previous": 25549077,
       "reference": "Aug/26",
-      "unit": "TND Thousand",
-      "cells": {
-        "Last": "28024358",
-        "Previous": "25549077",
-        "Reference": "Aug/26",
-        "Unit": "TND Thousand"
-      }
+      "unit": "TND Thousand"
     },
     "TUR": {
       "name": "Turkey",
       "value": 59045,
       "previous": 62148,
       "reference": "Oct/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "59045",
-        "Previous": "62148",
-        "Reference": "Oct/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "UGA": {
       "name": "Uganda",
       "value": 6520,
       "previous": 6616,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "6520",
-        "Previous": "6616",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "UKR": {
       "name": "Ukraine",
       "value": 47100,
       "previous": 48700,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "47100",
-        "Previous": "48700",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "ARE": {
       "name": "United Arab Emirates",
       "value": 958,
       "previous": 932,
       "reference": "Aug/26",
-      "unit": "AED Billion",
-      "cells": {
-        "Last": "958",
-        "Previous": "932",
-        "Reference": "Aug/26",
-        "Unit": "AED Billion"
-      }
+      "unit": "AED Billion"
     },
     "GBR": {
       "name": "United Kingdom",
       "value": 228107,
       "previous": 220129,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "228107",
-        "Previous": "220129",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "USA": {
       "name": "United States",
       "value": 38578,
       "previous": 38343,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "38578",
-        "Previous": "38343",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "URY": {
       "name": "Uruguay",
       "value": 18552,
       "previous": 17486,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "18552",
-        "Previous": "17486",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "UZB": {
       "name": "Uzbekistan",
       "value": 66589,
       "previous": 72135,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "66589",
-        "Previous": "72135",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "VEN": {
       "name": "Venezuela",
       "value": 12727,
       "previous": 13367,
       "reference": "Sep/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "12727",
-        "Previous": "13367",
-        "Reference": "Sep/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "VNM": {
       "name": "Vietnam",
       "value": 82653,
       "previous": 82813,
       "reference": "Aug/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "82653",
-        "Previous": "82813",
-        "Reference": "Aug/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     },
     "ZMB": {
       "name": "Zambia",
       "value": 5802,
       "previous": 6489,
       "reference": "Jun/26",
-      "unit": "USD Million",
-      "cells": {
-        "Last": "5802",
-        "Previous": "6489",
-        "Reference": "Jun/26",
-        "Unit": "USD Million"
-      }
+      "unit": "USD Million"
     }
   },
   "unmatched": []

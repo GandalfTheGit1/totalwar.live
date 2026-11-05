@@ -1,0 +1,200 @@
+{
+  "slug": "households-debt-to-income",
+  "name": "Households Debt to Income",
+  "category": "Consumer",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.599Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "NOR": {
+      "name": "Norway",
+      "value": 203,
+      "previous": 206,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 180,
+      "previous": 180,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 175,
+      "previous": 175,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 165,
+      "previous": 165,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 163,
+      "previous": 168,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 156,
+      "previous": 167,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 150,
+      "previous": 148,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 107,
+      "previous": 109,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 95.01,
+      "previous": 94.63,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 91.05,
+      "previous": 90.8,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 85.91,
+      "previous": 91.28,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 79.43,
+      "previous": 71.28,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 78.32,
+      "previous": 75.03,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 72.52,
+      "previous": 73.26,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 69.84,
+      "previous": 67.46,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 68.8,
+      "previous": 65.83,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 68.37,
+      "previous": 68.74,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 66.27,
+      "previous": 66.41,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 61.9,
+      "previous": 62.7,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 55.94,
+      "previous": 55.72,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 53.8,
+      "previous": 52.36,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 41.23,
+      "previous": 40.35,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 38.85,
+      "previous": 37.08,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 34.87,
+      "previous": 36.01,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 32.31,
+      "previous": 30.78,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 28.3,
+      "previous": 26.97,
+      "reference": "Dec/25",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

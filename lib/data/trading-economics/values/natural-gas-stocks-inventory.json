@@ -1,0 +1,165 @@
+{
+  "slug": "natural-gas-stocks-inventory",
+  "name": "Natural Gas Stocks Inventory",
+  "category": "Energy",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.244Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "BEL": {
+      "name": "Belgium",
+      "value": 4.99,
+      "previous": 4.99,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 5.86,
+      "previous": 5.86,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 3.94,
+      "previous": 3.94,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 34.51,
+      "previous": 34.59,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 7.41,
+      "previous": 7.41,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 0.26,
+      "previous": 0.26,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 107,
+      "previous": 108,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 151,
+      "previous": 151,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 0.7,
+      "previous": 0.76,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 52.49,
+      "previous": 52.49,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 185,
+      "previous": 185,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 12.15,
+      "previous": 12.15,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 0.79,
+      "previous": 0.79,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 94.82,
+      "previous": 94.75,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 36.55,
+      "previous": 36.53,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 3.41,
+      "previous": 3.41,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 29.99,
+      "previous": 29.97,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 20.19,
+      "previous": 20.27,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 28.77,
+      "previous": 28.72,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 0.08,
+      "previous": 0.08,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 120,
+      "previous": 120,
+      "reference": "Oct/26",
+      "unit": "TWh"
+    }
+  },
+  "unmatched": []
+}

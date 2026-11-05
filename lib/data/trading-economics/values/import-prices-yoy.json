@@ -1,0 +1,60 @@
+{
+  "slug": "import-prices-yoy",
+  "name": "Import Prices YoY",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.205Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "USA": {
+      "name": "Import Prices YoY",
+      "value": 8.1,
+      "previous": 6.7,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "SGP": {
+      "name": "Import Prices YoY",
+      "value": 19.9,
+      "previous": 15.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "KOR": {
+      "name": "Import Prices YoY",
+      "value": 17.6,
+      "previous": 15.9,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "FIN": {
+      "name": "Import Prices YoY",
+      "value": 9.8,
+      "previous": 7.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "DEU": {
+      "name": "Import Prices YoY",
+      "value": 10.4,
+      "previous": 8.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "BTN": {
+      "name": "Import Prices YoY",
+      "value": -0.38,
+      "previous": 0.03,
+      "reference": "Dec/25",
+      "unit": "percent"
+    }
+  }
+}

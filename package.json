@@ -14,7 +14,9 @@
     "build:resources": "tsx scripts/build-country-resources.ts",
     "check:wikipedia": "tsx scripts/check-wikipedia-resources.ts",
     "build:bloomberg": "tsx --env-file=.env.local scripts/build-bloomberg-originals.ts",
-    "build:te": "tsx scripts/build-trading-economics.ts"
+    "build:te": "tsx scripts/build-trading-economics.ts",
+    "build:wb": "tsx scripts/build-worldbank-indicators.ts",
+    "build:metrics": "tsx scripts/build-country-metrics.ts"
   },
   "dependencies": {
     "@next/third-parties": "^16.4.2",
@@ -34,6 +36,7 @@
     "three": "^0.170.0"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@next/eslint-plugin-next": "^16.2.7",
     "@tailwindcss/postcss": "^4.2.0",
     "@testing-library/jest-dom": "^7.0.0",
@@ -44,11 +47,14 @@
     "@types/react-dom": "^19",
     "@types/three": "^0.170.0",
     "@vitejs/plugin-react": "^6.0.5",
+    "eslint": "^10.14.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
     "happy-dom": "^20.11.2",
     "postcss": "^8.5",
     "tsx": "^4.22.5",
     "tw-animate-css": "1.3.3",
     "typescript": "5.7.3",
+    "typescript-eslint": "^8.72.1",
     "vitest": "^4.1.10"
   }
 }

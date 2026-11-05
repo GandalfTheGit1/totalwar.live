@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { parseCountryList, parseIndicatorCatalog, parseTeNumber } from '@/lib/trading-economics/country-list';
+import { parseCountryIndicators, parseCountryList, parseIndicatorCatalog, parseTeNumber } from '@/lib/trading-economics/country-list';
 
 describe('parseIndicatorCatalog', () => {
   it('groups /country-list links by section heading and dedupes slugs', () => {
@@ -23,12 +23,36 @@ describe('parseCountryList', () => {
       </table>`;
     const { columns, rows } = parseCountryList(html);
     expect(columns).toEqual(['Country', 'Last', 'Previous', 'Unit']);
-    expect(rows[0]).toEqual({ teSlug: 'venezuela', name: 'Venezuela', cells: { Last: '466', Previous: '534', Unit: '%' } });
+    expect(rows[0]).toEqual({ teSlug: 'venezuela', indicatorSlug: 'inflation-cpi', name: 'Venezuela', cells: { Last: '466', Previous: '534', Unit: '%' } });
     expect(parseTeNumber(rows[1].cells.Last)).toBe(1234.5);
     expect(parseTeNumber(rows[1].cells.Previous)).toBeNull();
   });
 
   it('returns nothing when there is no Country table', () => {
     expect(parseCountryList('<table><tr><td>x</td></tr></table>')).toEqual({ columns: [], rows: [] });
+  });
+});
+
+describe('parseCountryIndicators', () => {
+  const row = (slug: string, name: string, last: string, unit: string, ref: string) =>
+    `<tr><td><a href='/spain/${slug}'> ${name} </a></td><td>${last}</td><td>1</td><td>2</td><td>0</td><td>${unit} </td><td>${ref}</td></tr>`;
+  const html = `
+    <a href="#overview">Overview</a><a href="#labour">Labour</a>
+    <div class="tab-pane" id="overview"><table>${row('unemployment-rate', 'Unemployment Rate', '10.2', '%', 'Sep/26')}</table></div>
+    <div class="tab-pane" id="labour"><table>
+      ${row('unemployment-rate', 'Unemployment Rate', '10.2', '%', 'Sep/26')}
+      ${row('youth-unemployment-rate', 'Youth Unemployment Rate', '24', '%', 'Sep/26')}
+      ${row('currency', 'Currency', 'n/a', '', 'Nov/26')}
+    </table></div>`;
+
+  it('skips the overview tab, keeps the category and parses numbers', () => {
+    const rows = parseCountryIndicators(html, 'spain');
+    expect(rows.map((r) => r.slug)).toEqual(['unemployment-rate', 'youth-unemployment-rate', 'currency']);
+    expect(rows[1]).toEqual({
+      slug: 'youth-unemployment-rate', name: 'Youth Unemployment Rate', category: 'Labour',
+      last: 24, previous: 1, unit: '%', reference: 'Sep/26',
+    });
+    expect(rows[2].last).toBeNull();
+    expect(rows[2].unit).toBeNull();
   });
 });

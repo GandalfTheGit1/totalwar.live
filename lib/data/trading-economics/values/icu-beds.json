@@ -1,0 +1,207 @@
+{
+  "slug": "icu-beds",
+  "name": "ICU Beds",
+  "category": "Health",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.778Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "DEU": {
+      "name": "Germany",
+      "value": 5.81,
+      "previous": 6.01,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 5.05,
+      "previous": 5.3,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 5.03,
+      "previous": 5.13,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 4.9,
+      "previous": 4.92,
+      "reference": "Dec/22",
+      "unit": "per 1000 people"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 4.82,
+      "previous": 4.81,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 4.41,
+      "previous": 4.73,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 4.29,
+      "previous": 4.23,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 4.15,
+      "previous": 4.09,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 4.13,
+      "previous": 4.13,
+      "reference": "Dec/19",
+      "unit": "per 1000 people"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 3.65,
+      "previous": 3.63,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 3.51,
+      "previous": 3.53,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 3.33,
+      "previous": 3.29,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 3.32,
+      "previous": 3.32,
+      "reference": "Dec/19",
+      "unit": "per 1000 people"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 3.19,
+      "previous": 3.29,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 3.1,
+      "previous": 3.13,
+      "reference": "Dec/19",
+      "unit": "per 1000 people"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 3.09,
+      "previous": 3.22,
+      "reference": "Dec/19",
+      "unit": "per 1000 people"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 3,
+      "previous": 3.04,
+      "reference": "Dec/19",
+      "unit": "per 1000 people"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 2.84,
+      "previous": 2.81,
+      "reference": "Dec/19",
+      "unit": "per 1000 people"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 2.71,
+      "previous": 2.79,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 2.61,
+      "previous": 2.66,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 2.52,
+      "previous": 2.51,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 2.47,
+      "previous": 2.49,
+      "reference": "Dec/20",
+      "unit": "per 1000 people"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 2.36,
+      "previous": 2.84,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 2.32,
+      "previous": 2.27,
+      "reference": "Dec/20",
+      "unit": "per 1000 people"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 2.21,
+      "previous": 2.74,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 2.05,
+      "previous": 2.18,
+      "reference": "Dec/22",
+      "unit": "per 1000 people"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 1.9,
+      "previous": 1.96,
+      "reference": "Dec/19",
+      "unit": "per 1000 people"
+    }
+  },
+  "unmatched": []
+}

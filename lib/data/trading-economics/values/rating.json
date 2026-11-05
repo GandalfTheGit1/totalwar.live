@@ -2,8 +2,8 @@
   "slug": "rating",
   "name": "Credit Rating",
   "category": "Government",
-  "source": "https://tradingeconomics.com/country-list/rating",
-  "fetchedAt": "2026-11-02T15:20:11.463Z",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.891Z",
   "valueColumn": "TE",
   "columns": [
     "Country",

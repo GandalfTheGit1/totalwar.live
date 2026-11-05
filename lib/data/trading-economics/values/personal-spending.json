@@ -1,0 +1,53 @@
+{
+  "slug": "personal-spending",
+  "name": "Personal Spending",
+  "category": "Consumer",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.628Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "FRA": {
+      "name": "France",
+      "value": -0.5,
+      "previous": -0.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 2.1,
+      "previous": 1.2,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 2.9,
+      "previous": 2.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": -2.2,
+      "previous": 0.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 0.5,
+      "previous": 0.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

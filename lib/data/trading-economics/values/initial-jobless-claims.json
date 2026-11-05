@@ -1,0 +1,39 @@
+{
+  "slug": "initial-jobless-claims",
+  "name": "Initial Jobless Claims",
+  "category": "Labour",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.401Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "FRA": {
+      "name": "France",
+      "value": 111,
+      "previous": -61.3,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 9276,
+      "previous": 17567,
+      "reference": "Sep/26",
+      "unit": "Persons"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 194,
+      "previous": 195,
+      "reference": "Oct/26",
+      "unit": "Thousand"
+    }
+  },
+  "unmatched": []
+}

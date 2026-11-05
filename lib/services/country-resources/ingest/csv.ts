@@ -45,7 +45,7 @@ export async function forEachCsvRow(
   let header: string[] | null = null;
   let count = 0;
   for await (const rawLine of lines) {
-    const line = header === null ? rawLine.replace(/^﻿/, '') : rawLine;
+    const line = header === null ? rawLine.replace(/^\uFEFF/, '') : rawLine;
     if (!line) continue;
     const fields = parseCsvLine(line);
     if (header === null) {

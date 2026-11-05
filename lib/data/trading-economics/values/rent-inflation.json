@@ -1,0 +1,137 @@
+{
+  "slug": "rent-inflation",
+  "name": "Rent Inflation",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.204Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "USA": {
+      "name": "Rent Inflation",
+      "value": 3.2,
+      "previous": 3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "SVN": {
+      "name": "Rent Inflation",
+      "value": 10.9,
+      "previous": 9.7,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "TUN": {
+      "name": "Rent Inflation",
+      "value": 5.9,
+      "previous": 5.9,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "CHN": {
+      "name": "Rent Inflation",
+      "value": -0.6,
+      "previous": -0.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "DNK": {
+      "name": "Rent Inflation",
+      "value": 2.5,
+      "previous": 2.5,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "CAN": {
+      "name": "Rent Inflation",
+      "value": 2.8,
+      "previous": 2.8,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "NLD": {
+      "name": "Rent Inflation",
+      "value": 4.4,
+      "previous": 4.4,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "GBR": {
+      "name": "Rent Inflation",
+      "value": 4.2,
+      "previous": 4.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "JPN": {
+      "name": "Rent Inflation",
+      "value": 0.6,
+      "previous": 0.5,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "AUS": {
+      "name": "Rent Inflation",
+      "value": 3.6,
+      "previous": 3.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "PRT": {
+      "name": "Rent Inflation",
+      "value": 5.2,
+      "previous": 5.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "DEU": {
+      "name": "Rent Inflation",
+      "value": 2.2,
+      "previous": 2.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "SEN": {
+      "name": "Rent Inflation",
+      "value": 0.6,
+      "previous": 0.5,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "ITA": {
+      "name": "Rent Inflation",
+      "value": 3.4,
+      "previous": 3.5,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "FRA": {
+      "name": "Rent Inflation",
+      "value": 2.1,
+      "previous": 2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "BEN": {
+      "name": "Rent Inflation",
+      "value": 0,
+      "previous": -0.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "JOR": {
+      "name": "Rent Inflation",
+      "value": 4.3,
+      "previous": 4.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    }
+  }
+}

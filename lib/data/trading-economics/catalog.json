@@ -44,142 +44,170 @@
   {
     "slug": "implied-rates",
     "name": "Implied Rates",
-    "category": "Main Indicators"
+    "category": "Main Indicators",
+    "countryCount": 6
   },
   {
     "slug": "average-annual-wages",
     "name": "Average Annual Wages",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 38
   },
   {
     "slug": "employed-persons",
     "name": "Employed Persons",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 97
   },
   {
     "slug": "employment-change",
     "name": "Employment Change",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 35
   },
   {
     "slug": "employment-change-yoy",
     "name": "Employment Change YoY",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 29
   },
   {
     "slug": "employment-rate",
     "name": "Employment Rate",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 76
   },
   {
     "slug": "full-time-employment",
     "name": "Full Time Employment",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 38
   },
   {
     "slug": "gross-average-monthly-wages",
     "name": "Gross Average Monthly Wages",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 51
   },
   {
     "slug": "initial-jobless-claims",
     "name": "Initial Jobless Claims",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 3
   },
   {
     "slug": "job-vacancies",
     "name": "Job Vacancies",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 39
   },
   {
     "slug": "labor-force-participation-rate",
     "name": "Labor Force Participation Rate",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 84
   },
   {
     "slug": "labour-costs",
     "name": "Labour Costs",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 43
   },
   {
     "slug": "long-term-unemployment-rate",
     "name": "Long Term Unemployment Rate",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 33
   },
   {
     "slug": "minimum-wages",
     "name": "Minimum Wages",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 102
   },
   {
     "slug": "non-farm-payrolls",
     "name": "Non Farm Payrolls",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 7
   },
   {
     "slug": "part-time-employment",
     "name": "Part Time Employment",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 37
   },
   {
     "slug": "population",
     "name": "Population",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 186
   },
   {
     "slug": "productivity",
     "name": "Productivity",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 44
   },
   {
     "slug": "retirement-age-men",
     "name": "Retirement Age Men",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 69
   },
   {
     "slug": "retirement-age-women",
     "name": "Retirement Age Women",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 69
   },
   {
     "slug": "unemployed-persons",
     "name": "Unemployed Persons",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 94
   },
   {
     "slug": "wage-growth",
     "name": "Wage Growth",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 36
   },
   {
     "slug": "wages",
     "name": "Wages",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 80
   },
   {
     "slug": "wages-in-manufacturing",
     "name": "Wages in Manufacturing",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 59
   },
   {
     "slug": "youth-unemployment-rate",
     "name": "Youth Unemployment Rate",
-    "category": "Labour"
+    "category": "Labour",
+    "countryCount": 61
   },
   {
     "slug": "asylum-applications",
     "name": "Asylum Applications",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 34
   },
   {
     "slug": "corruption-index",
     "name": "Corruption Index",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 179
   },
   {
     "slug": "corruption-rank",
     "name": "Corruption Rank",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 179
   },
   {
     "slug": "rating",
@@ -190,142 +218,170 @@
   {
     "slug": "fiscal-expenditure",
     "name": "Fiscal Expenditure",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 110
   },
   {
     "slug": "government-budget",
     "name": "Government Budget",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 173
   },
   {
     "slug": "government-budget-value",
     "name": "Government Budget Value",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 114
   },
   {
     "slug": "government-debt",
     "name": "Government Debt",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 64
   },
   {
     "slug": "government-revenues",
     "name": "Government Revenues",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 115
   },
   {
     "slug": "government-spending",
     "name": "Government Spending",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 120
   },
   {
     "slug": "government-spending-to-gdp",
     "name": "Government Spending to GDP",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 45
   },
   {
     "slug": "military-expenditure",
     "name": "Military Expenditure",
-    "category": "Government"
+    "category": "Government",
+    "countryCount": 149
   },
   {
     "slug": "consumer-price-index-cpi",
     "name": "Consumer Price Index CPI",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 176
   },
   {
     "slug": "core-consumer-prices",
     "name": "Core Consumer Prices",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 72
   },
   {
     "slug": "core-inflation-rate",
     "name": "Core Inflation Rate",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 88
   },
   {
     "slug": "cpi-housing-utilities",
     "name": "CPI Housing Utilities",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 144
   },
   {
     "slug": "export-prices",
     "name": "Export Prices",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 60
   },
   {
     "slug": "food-inflation",
     "name": "Food Inflation",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 175
   },
   {
     "slug": "gdp-deflator",
     "name": "GDP Deflator",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 60
   },
   {
     "slug": "harmonised-consumer-prices",
     "name": "Harmonised Consumer Prices",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 31
   },
   {
     "slug": "harmonised-inflation-rate-mom",
     "name": "Harmonised Inflation Rate MoM",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 31
   },
   {
     "slug": "harmonised-inflation-rate-yoy",
     "name": "Harmonised Inflation Rate YoY",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 32
   },
   {
     "slug": "import-prices",
     "name": "Import Prices",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 62
   },
   {
     "slug": "inflation-expectations",
     "name": "Inflation Expectations",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 22
   },
   {
     "slug": "inflation-rate-mom",
     "name": "Inflation Rate MoM",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 169
   },
   {
     "slug": "producer-price-inflation-mom",
     "name": "Producer Price Inflation MoM",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 44
   },
   {
     "slug": "producer-prices",
     "name": "Producer Prices",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 102
   },
   {
     "slug": "producer-prices-change",
     "name": "Producer Prices Change",
-    "category": "Prices"
+    "category": "Prices",
+    "countryCount": 94
   },
   {
     "slug": "banks-balance-sheet",
     "name": "Banks Balance Sheet",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 70
   },
   {
     "slug": "cash-reserve-ratio",
     "name": "Cash Reserve Ratio",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 19
   },
   {
     "slug": "central-bank-balance-sheet",
     "name": "Central Bank Balance Sheet",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 83
   },
   {
     "slug": "deposit-interest-rate",
     "name": "Deposit Interest Rate",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 100
   },
   {
     "slug": "foreign-exchange-reserves",
@@ -336,122 +392,146 @@
   {
     "slug": "interbank-rate",
     "name": "Interbank Rate",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 55
   },
   {
     "slug": "lending-rate",
     "name": "Lending Rate",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 35
   },
   {
     "slug": "loan-growth",
     "name": "Loan Growth",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 20
   },
   {
     "slug": "loans-to-private-sector",
     "name": "Loans to Private Sector",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 72
   },
   {
     "slug": "money-supply-m0",
     "name": "Money Supply M0",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 102
   },
   {
     "slug": "money-supply-m1",
     "name": "Money Supply M1",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 125
   },
   {
     "slug": "money-supply-m2",
     "name": "Money Supply M2",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 132
   },
   {
     "slug": "money-supply-m3",
     "name": "Money Supply M3",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 94
   },
   {
     "slug": "private-debt-to-gdp",
     "name": "Private Debt to GDP",
-    "category": "Money"
+    "category": "Money",
+    "countryCount": 32
   },
   {
     "slug": "capital-flows",
     "name": "Capital Flows",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 110
   },
   {
     "slug": "crude-oil-production",
     "name": "Crude Oil Production",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 70
   },
   {
     "slug": "current-account",
     "name": "Current Account",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 170
   },
   {
     "slug": "exports",
     "name": "Exports",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 174
   },
   {
     "slug": "external-debt",
     "name": "External Debt",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 117
   },
   {
     "slug": "foreign-direct-investment",
     "name": "Foreign Direct Investment",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 121
   },
   {
     "slug": "gold-reserves",
     "name": "Gold Reserves",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 102
   },
   {
     "slug": "imports",
     "name": "Imports",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 175
   },
   {
     "slug": "remittances",
     "name": "Remittances",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 71
   },
   {
     "slug": "terms-of-trade",
     "name": "Terms of Trade",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 56
   },
   {
     "slug": "terrorism-index",
     "name": "Terrorism Index",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 162
   },
   {
     "slug": "tourism-revenues",
     "name": "Tourism Revenues",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 26
   },
   {
     "slug": "tourist-arrivals",
     "name": "Tourist Arrivals",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 90
   },
   {
     "slug": "weapons-sales",
     "name": "Weapons Sales",
-    "category": "Trade"
+    "category": "Trade",
+    "countryCount": 36
   },
   {
     "slug": "full-year-gdp-growth",
     "name": "Full Year GDP Growth",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 104
   },
   {
     "slug": "gdp",
@@ -462,376 +542,2461 @@
   {
     "slug": "gdp-annual-growth-rate",
     "name": "GDP Annual Growth Rate",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 182
   },
   {
     "slug": "gdp-constant-prices",
     "name": "GDP Constant Prices",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 147
   },
   {
     "slug": "gdp-from-agriculture",
     "name": "GDP from Agriculture",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 123
   },
   {
     "slug": "gdp-from-construction",
     "name": "GDP from Construction",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 120
   },
   {
     "slug": "gdp-from-manufacturing",
     "name": "GDP from Manufacturing",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 120
   },
   {
     "slug": "gdp-from-mining",
     "name": "GDP from Mining",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 88
   },
   {
     "slug": "gdp-from-public-administration",
     "name": "GDP from Public Administration",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 103
   },
   {
     "slug": "gdp-from-services",
     "name": "GDP from Services",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 106
   },
   {
     "slug": "gdp-from-transport",
     "name": "GDP from Transport",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 95
   },
   {
     "slug": "gdp-from-utilities",
     "name": "GDP from Utilities",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 88
   },
   {
     "slug": "gdp-per-capita",
     "name": "GDP per Capita",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 184
   },
   {
     "slug": "gdp-per-capita-ppp",
     "name": "GDP per Capita PPP",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 184
   },
   {
     "slug": "gross-fixed-capital-formation",
     "name": "Gross Fixed Capital Formation",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 117
   },
   {
     "slug": "gross-national-product",
     "name": "Gross National Product",
-    "category": "GDP"
+    "category": "GDP",
+    "countryCount": 49
   },
   {
     "slug": "building-permits",
     "name": "Building Permits",
-    "category": "Housing"
+    "category": "Housing",
+    "countryCount": 47
   },
   {
     "slug": "construction-output",
     "name": "Construction Output",
-    "category": "Housing"
+    "category": "Housing",
+    "countryCount": 43
   },
   {
     "slug": "home-ownership-rate",
     "name": "Home Ownership Rate",
-    "category": "Housing"
+    "category": "Housing",
+    "countryCount": 44
   },
   {
     "slug": "housing-index",
     "name": "Housing Index",
-    "category": "Housing"
+    "category": "Housing",
+    "countryCount": 66
   },
   {
     "slug": "housing-starts",
     "name": "Housing Starts",
-    "category": "Housing"
+    "category": "Housing",
+    "countryCount": 19
   },
   {
     "slug": "price-to-rent-ratio",
     "name": "Price to Rent Ratio",
-    "category": "Housing"
+    "category": "Housing",
+    "countryCount": 35
   },
   {
     "slug": "residential-property-prices",
     "name": "Residential Property Prices",
-    "category": "Housing"
+    "category": "Housing",
+    "countryCount": 56
   },
   {
     "slug": "bankruptcies",
     "name": "Bankruptcies",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 25
   },
   {
     "slug": "business-confidence",
     "name": "Business Confidence",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 68
   },
   {
     "slug": "capacity-utilization",
     "name": "Capacity Utilization",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 52
   },
   {
     "slug": "car-production",
     "name": "Car Production",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 22
   },
   {
     "slug": "car-registrations",
     "name": "Car Registrations",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 61
   },
   {
     "slug": "cement-production",
     "name": "Cement Production",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 14
   },
   {
     "slug": "changes-in-inventories",
     "name": "Changes in Inventories",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 98
   },
   {
     "slug": "corporate-profits",
     "name": "Corporate Profits",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 11
   },
   {
     "slug": "electric-car-registrations",
     "name": "Electric Car Registrations",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 35
   },
   {
     "slug": "electricity-production",
     "name": "Electricity Production",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 46
   },
   {
     "slug": "factory-orders",
     "name": "Factory Orders",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 6
   },
   {
     "slug": "industrial-production",
     "name": "Industrial Production",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 102
   },
   {
     "slug": "industrial-production-mom",
     "name": "Industrial Production Mom",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 66
   },
   {
     "slug": "leading-economic-index",
     "name": "Leading Economic Index",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 31
   },
   {
     "slug": "manufacturing-production",
     "name": "Manufacturing Production",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 77
   },
   {
     "slug": "mining-production",
     "name": "Mining Production",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 78
   },
   {
     "slug": "new-orders",
     "name": "New Orders",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 22
   },
   {
     "slug": "small-business-sentiment",
     "name": "Small Business Sentiment",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 3
   },
   {
     "slug": "steel-production",
     "name": "Steel Production",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 10
   },
   {
     "slug": "total-vehicle-sales",
     "name": "Total Vehicle Sales",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 15
   },
   {
     "slug": "zew-economic-sentiment-index",
     "name": "ZEW Economic Sentiment Index",
-    "category": "Business"
+    "category": "Business",
+    "countryCount": 2
   },
   {
     "slug": "crude-oil-rigs",
     "name": "Crude Oil Rigs",
-    "category": "Energy"
+    "category": "Energy",
+    "countryCount": 16
   },
   {
     "slug": "natural-gas-stocks-capacity",
     "name": "Natural Gas Stocks Capacity",
-    "category": "Energy"
+    "category": "Energy",
+    "countryCount": 21
   },
   {
     "slug": "natural-gas-stocks-injection",
     "name": "Natural Gas Stocks Injection",
-    "category": "Energy"
+    "category": "Energy",
+    "countryCount": 18
   },
   {
     "slug": "natural-gas-stocks-inventory",
     "name": "Natural Gas Stocks Inventory",
-    "category": "Energy"
+    "category": "Energy",
+    "countryCount": 21
   },
   {
     "slug": "natural-gas-stocks-withdrawal",
     "name": "Natural Gas Stocks Withdrawal",
-    "category": "Energy"
+    "category": "Energy",
+    "countryCount": 17
   },
   {
     "slug": "corporate-tax-rate",
     "name": "Corporate Tax Rate",
-    "category": "Taxes"
+    "category": "Taxes",
+    "countryCount": 161
   },
   {
     "slug": "personal-income-tax-rate",
     "name": "Personal Income Tax Rate",
-    "category": "Taxes"
+    "category": "Taxes",
+    "countryCount": 152
   },
   {
     "slug": "sales-tax-rate",
     "name": "Sales Tax Rate",
-    "category": "Taxes"
+    "category": "Taxes",
+    "countryCount": 176
   },
   {
     "slug": "social-security-rate",
     "name": "Social Security Rate",
-    "category": "Taxes"
+    "category": "Taxes",
+    "countryCount": 115
   },
   {
     "slug": "social-security-rate-for-companies",
     "name": "Social Security Rate For Companies",
-    "category": "Taxes"
+    "category": "Taxes",
+    "countryCount": 115
   },
   {
     "slug": "social-security-rate-for-employees",
     "name": "Social Security Rate For Employees",
-    "category": "Taxes"
+    "category": "Taxes",
+    "countryCount": 116
   },
   {
     "slug": "bank-lending-rate",
     "name": "Bank Lending Rate",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 55
   },
   {
     "slug": "consumer-confidence",
     "name": "Consumer Confidence",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 68
   },
   {
     "slug": "consumer-credit",
     "name": "Consumer Credit",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 63
   },
   {
     "slug": "consumer-spending",
     "name": "Consumer Spending",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 117
   },
   {
     "slug": "disposable-personal-income",
     "name": "Disposable Personal Income",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 27
   },
   {
     "slug": "gasoline-prices",
     "name": "Gasoline Prices",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 96
   },
   {
     "slug": "households-debt-to-gdp",
     "name": "Households Debt to GDP",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 44
   },
   {
     "slug": "households-debt-to-income",
     "name": "Households Debt to Income",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 26
   },
   {
     "slug": "personal-savings",
     "name": "Personal Savings",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 34
   },
   {
     "slug": "personal-spending",
     "name": "Personal Spending",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 5
   },
   {
     "slug": "private-sector-credit",
     "name": "Private Sector Credit",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 49
   },
   {
     "slug": "retail-sales-mom",
     "name": "Retail Sales MoM",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 56
   },
   {
     "slug": "retail-sales-yoy",
     "name": "Retail Sales YoY",
-    "category": "Consumer"
+    "category": "Consumer",
+    "countryCount": 79
   },
   {
     "slug": "co2-emissions",
     "name": "CO2 Emissions",
-    "category": "Climate"
+    "category": "Climate",
+    "countryCount": 45
   },
   {
     "slug": "precipitation",
     "name": "Precipitation",
-    "category": "Climate"
+    "category": "Climate",
+    "countryCount": 145
   },
   {
     "slug": "temperature",
     "name": "Temperature",
-    "category": "Climate"
+    "category": "Climate",
+    "countryCount": 203
   },
   {
     "slug": "hospital-beds",
     "name": "Hospital Beds",
-    "category": "Health"
+    "category": "Health",
+    "countryCount": 39
   },
   {
     "slug": "hospitals",
     "name": "Hospitals",
-    "category": "Health"
+    "category": "Health",
+    "countryCount": 31
   },
   {
     "slug": "icu-beds",
     "name": "ICU Beds",
-    "category": "Health"
+    "category": "Health",
+    "countryCount": 27
   },
   {
     "slug": "medical-doctors",
     "name": "Medical Doctors",
-    "category": "Health"
+    "category": "Health",
+    "countryCount": 24
   },
   {
     "slug": "nurses",
     "name": "Nurses",
-    "category": "Health"
+    "category": "Health",
+    "countryCount": 25
   },
   {
-    "slug": "index-wb-data.html",
-    "name": "Development Indicators",
-    "category": "WorldBank"
+    "slug": "withholding-tax-rate",
+    "name": "Withholding Tax Rate",
+    "category": "Government",
+    "countryCount": 101
+  },
+  {
+    "slug": "manufacturing-pmi",
+    "name": "Manufacturing PMI",
+    "category": "Business",
+    "countryCount": 48
+  },
+  {
+    "slug": "external-debt-to-gdp",
+    "name": "External Debt to GDP",
+    "category": "Trade",
+    "countryCount": 44
+  },
+  {
+    "slug": "house-price-index-yoy",
+    "name": "House Price Index YoY",
+    "category": "Housing",
+    "countryCount": 37
+  },
+  {
+    "slug": "job-vacancy-rate",
+    "name": "Job Vacancy Rate",
+    "category": "Labour",
+    "countryCount": 29
+  },
+  {
+    "slug": "composite-pmi",
+    "name": "Composite PMI",
+    "category": "Business",
+    "countryCount": 22
+  },
+  {
+    "slug": "services-pmi",
+    "name": "Services PMI",
+    "category": "Business",
+    "countryCount": 21
+  },
+  {
+    "slug": "rent-inflation",
+    "name": "Rent Inflation",
+    "category": "Prices",
+    "countryCount": 17
+  },
+  {
+    "slug": "core-inflation-rate-mom",
+    "name": "Core Inflation Rate MoM",
+    "category": "Prices",
+    "countryCount": 15
+  },
+  {
+    "slug": "house-price-index-mom",
+    "name": "House Price Index MoM",
+    "category": "Housing",
+    "countryCount": 14
+  },
+  {
+    "slug": "monthly-gdp-yoy",
+    "name": "Monthly GDP YoY",
+    "category": "GDP",
+    "countryCount": 13
+  },
+  {
+    "slug": "new-passenger-car-registrations-yoy",
+    "name": "New Passenger Car Registrations YoY",
+    "category": "Business",
+    "countryCount": 13
+  },
+  {
+    "slug": "exports-yoy",
+    "name": "Exports YoY",
+    "category": "Trade",
+    "countryCount": 11
+  },
+  {
+    "slug": "imports-yoy",
+    "name": "Imports YoY",
+    "category": "Trade",
+    "countryCount": 11
+  },
+  {
+    "slug": "services-inflation",
+    "name": "Services Inflation",
+    "category": "Prices",
+    "countryCount": 10
+  },
+  {
+    "slug": "construction-pmi",
+    "name": "Construction PMI",
+    "category": "Housing",
+    "countryCount": 8
+  },
+  {
+    "slug": "monthly-gdp-mom",
+    "name": "Monthly GDP MoM",
+    "category": "GDP",
+    "countryCount": 7
+  },
+  {
+    "slug": "energy-inflation",
+    "name": "Energy Inflation",
+    "category": "Prices",
+    "countryCount": 6
+  },
+  {
+    "slug": "import-prices-yoy",
+    "name": "Import Prices YoY",
+    "category": "Prices",
+    "countryCount": 6
+  },
+  {
+    "slug": "reverse-repo-rate",
+    "name": "Reverse Repo Rate",
+    "category": "Money",
+    "countryCount": 6
+  },
+  {
+    "slug": "export-prices-yoy",
+    "name": "Export Prices YoY",
+    "category": "Prices",
+    "countryCount": 5
+  },
+  {
+    "slug": "gdp-external-demand-contribution",
+    "name": "GDP External Demand Contribution",
+    "category": "GDP",
+    "countryCount": 5
+  },
+  {
+    "slug": "manufacturing-production-mom",
+    "name": "Manufacturing Production MoM",
+    "category": "Business",
+    "countryCount": 5
+  },
+  {
+    "slug": "private-investment",
+    "name": "Private Investment",
+    "category": "Business",
+    "countryCount": 5
+  },
+  {
+    "slug": "wb-ag-lnd-totl-k2",
+    "name": "Land area (sq. km)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-bir-thrd-no",
+    "name": "Bird species, threatened",
+    "category": "Environment",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-pop-dnst",
+    "name": "Population density (people per sq. km of land area)",
+    "category": "Urban Development",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-iq-spi-pil1",
+    "name": "Statistical performance indicators (SPI): Pillar 1 data use score (scale 0-100)",
+    "category": "Public Sector",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-it-net-secr",
+    "name": "Secure Internet servers",
+    "category": "Infrastructure",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-ny-adj-dmin-cd",
+    "name": "Adjusted savings: mineral depletion (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-sm-pop-netm",
+    "name": "Net migration",
+    "category": "Financial Sector",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-sp-dyn-cbrt-in",
+    "name": "Birth rate, crude (per 1,000 people)",
+    "category": "Health",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-sp-pop-grow",
+    "name": "Population growth (annual %)",
+    "category": "Climate Change",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-eg-elc-accs-zs",
+    "name": "Access to electricity (% of population)",
+    "category": "Energy & Mining",
+    "countryCount": 214
+  },
+  {
+    "slug": "wb-se-sec-enrl-gc",
+    "name": "Secondary education, general pupils",
+    "category": "Education",
+    "countryCount": 211
+  },
+  {
+    "slug": "wb-tm-uvi-mrch-xd-wd",
+    "name": "Import unit value index (2015 = 100)",
+    "category": "Private Sector",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-pa-nus-prvt-pli",
+    "name": "Price level index (Households and NPISHs Final consumption expenditure)",
+    "category": "World Bank",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-se-enr-prsc-fm-zs",
+    "name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+    "category": "Aid Effectiveness",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-en-pop-slum-ur-zs",
+    "name": "Population living in slums (% of urban population)",
+    "category": "Poverty",
+    "countryCount": 196
+  },
+  {
+    "slug": "wb-ip-jrn-artc-sc",
+    "name": "Scientific and technical journal articles",
+    "category": "Science & Technology",
+    "countryCount": 196
+  },
+  {
+    "slug": "wb-sl-uem-intm-zs",
+    "name": "Unemployment with intermediate education (% of total labor force with intermediate education)",
+    "category": "Social Protection & Labor",
+    "countryCount": 188
+  },
+  {
+    "slug": "wb-lp-exp-durs-md",
+    "name": "Lead time to export, median case (days)",
+    "category": "Trade",
+    "countryCount": 155
+  },
+  {
+    "slug": "wb-dt-nfl-nifc-cd",
+    "name": "IFC, private nonguaranteed (NFL, US$)",
+    "category": "External Debt",
+    "countryCount": 135
+  },
+  {
+    "slug": "wb-ag-srf-totl-k2",
+    "name": "Surface area (sq. km)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-fsh-thrd-no",
+    "name": "Fish species, threatened",
+    "category": "Environment",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-atm-pm25-mc-m3",
+    "name": "PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",
+    "category": "Urban Development",
+    "countryCount": 200
+  },
+  {
+    "slug": "wb-iq-spi-pil3",
+    "name": "Statistical performance indicators (SPI): Pillar 3 data products score  (scale 0-100)",
+    "category": "Public Sector",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-it-net-secr-p6",
+    "name": "Secure Internet servers (per 1 million people)",
+    "category": "Infrastructure",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-ny-gdp-defl-zs",
+    "name": "GDP deflator (base year varies by country)",
+    "category": "Economy & Growth",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-sm-pop-totl-zs",
+    "name": "International migrant stock (% of population)",
+    "category": "Financial Sector",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-sp-dyn-cdrt-in",
+    "name": "Death rate, crude (per 1,000 people)",
+    "category": "Health",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-sp-pop-totl",
+    "name": "Population, total",
+    "category": "Climate Change",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-eg-elc-accs-ur-zs",
+    "name": "Access to electricity, urban (% of urban population)",
+    "category": "Energy & Mining",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-se-prm-ages",
+    "name": "Primary school starting age (years)",
+    "category": "Education",
+    "countryCount": 210
+  },
+  {
+    "slug": "wb-tx-uvi-mrch-xd-wd",
+    "name": "Export unit value index (2015 = 100)",
+    "category": "Private Sector",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-gov_wgi_cc_est",
+    "name": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)",
+    "category": "World Bank",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-se-prm-cmpt-zs",
+    "name": "Primary completion rate, total (% of relevant age group)",
+    "category": "Aid Effectiveness",
+    "countryCount": 198
+  },
+  {
+    "slug": "wb-si-dst-02nd-20",
+    "name": "Income share held by second 20%",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-ip-pat-nres",
+    "name": "Patent applications, nonresidents",
+    "category": "Science & Technology",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sl-uem-advn-zs",
+    "name": "Unemployment with advanced education (% of total labor force with advanced education)",
+    "category": "Social Protection & Labor",
+    "countryCount": 187
+  },
+  {
+    "slug": "wb-dt-dod-dimf-cd",
+    "name": "Use of IMF credit (DOD, current US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-sp-rur-totl",
+    "name": "Rural population",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-hpt-thrd-no",
+    "name": "Plant species (higher), threatened",
+    "category": "Environment",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-atm-pm25-mc-zs",
+    "name": "PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",
+    "category": "Urban Development",
+    "countryCount": 194
+  },
+  {
+    "slug": "wb-vc-idp-nwds",
+    "name": "Internally displaced persons, new displacement associated with disasters (number of cases)",
+    "category": "Public Sector",
+    "countryCount": 197
+  },
+  {
+    "slug": "wb-it-cel-sets",
+    "name": "Mobile cellular subscriptions",
+    "category": "Infrastructure",
+    "countryCount": 213
+  },
+  {
+    "slug": "wb-ny-gdp-mktp-cd",
+    "name": "GDP (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-sm-pop-totl",
+    "name": "International migrant stock, total",
+    "category": "Financial Sector",
+    "countryCount": 214
+  },
+  {
+    "slug": "wb-sp-dyn-le00-in",
+    "name": "Life expectancy at birth, total (years)",
+    "category": "Health",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-sp-urb-grow",
+    "name": "Urban population growth (annual %)",
+    "category": "Climate Change",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-eg-fec-rnew-zs",
+    "name": "Renewable energy consumption (% of total final energy consumption)",
+    "category": "Energy & Mining",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-se-prm-durs",
+    "name": "Primary education, duration (years)",
+    "category": "Education",
+    "countryCount": 210
+  },
+  {
+    "slug": "wb-tm-val-mrch-cd-wt",
+    "name": "Merchandise imports (current US$)",
+    "category": "Private Sector",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-gov_wgi_cc_sc",
+    "name": "Control of Corruption - Governance score (0-100)",
+    "category": "World Bank",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-dc-dac-totl-cd",
+    "name": "Net bilateral aid flows from DAC donors, Total (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 179
+  },
+  {
+    "slug": "wb-si-dst-03rd-20",
+    "name": "Income share held by third 20%",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-ip-pat-resd",
+    "name": "Patent applications, residents",
+    "category": "Science & Technology",
+    "countryCount": 160
+  },
+  {
+    "slug": "wb-sl-emp-mpyr-zs",
+    "name": "Employers, total (% of total employment) (modeled ILO estimate)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-dod-dppg-cd",
+    "name": "External debt stocks, public and publicly guaranteed (PPG) (DOD, current US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-sp-rur-totl-zs",
+    "name": "Rural population (% of total population)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-mam-thrd-no",
+    "name": "Mammal species, threatened",
+    "category": "Environment",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-urb-lcty",
+    "name": "Population in largest city",
+    "category": "Urban Development",
+    "countryCount": 153
+  },
+  {
+    "slug": "wb-vc-ihr-psrc-p5",
+    "name": "Intentional homicides (per 100,000 people)",
+    "category": "Public Sector",
+    "countryCount": 194
+  },
+  {
+    "slug": "wb-it-cel-sets-p2",
+    "name": "Mobile cellular subscriptions (per 100 people)",
+    "category": "Infrastructure",
+    "countryCount": 213
+  },
+  {
+    "slug": "wb-ny-gdp-mktp-kd-zg",
+    "name": "GDP growth (annual %)",
+    "category": "Economy & Growth",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-ny-gdp-defl-kd-zg-ad",
+    "name": "Inflation, GDP deflator: linked series (annual %)",
+    "category": "Financial Sector",
+    "countryCount": 211
+  },
+  {
+    "slug": "wb-sp-dyn-tfrt-in",
+    "name": "Fertility rate, total (births per woman)",
+    "category": "Health",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-sp-urb-totl",
+    "name": "Urban population",
+    "category": "Climate Change",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-ny-gdp-minr-rt-zs",
+    "name": "Mineral rents (% of GDP)",
+    "category": "Energy & Mining",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-se-prm-enrl",
+    "name": "Primary education, pupils",
+    "category": "Education",
+    "countryCount": 210
+  },
+  {
+    "slug": "wb-tx-val-mrch-cd-wt",
+    "name": "Merchandise exports (current US$)",
+    "category": "Private Sector",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-gov_wgi_pv_est",
+    "name": "Political Stability - Governance estimate (approx. -2.5 to +2.5)",
+    "category": "World Bank",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-dt-nfl-undp-cd",
+    "name": "Net official flows from UN agencies, UNDP (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 179
+  },
+  {
+    "slug": "wb-si-dst-04th-20",
+    "name": "Income share held by fourth 20%",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-gb-xpd-rsdv-gd-zs",
+    "name": "Research and development expenditure (% of GDP)",
+    "category": "Science & Technology",
+    "countryCount": 156
+  },
+  {
+    "slug": "wb-sl-emp-self-zs",
+    "name": "Self-employed, total (% of total employment) (modeled ILO estimate)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-dod-mwbg-cd",
+    "name": "IBRD loans and IDA credits (DOD, current US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-ag-lnd-frst-k2",
+    "name": "Forest area (sq. km)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 213
+  },
+  {
+    "slug": "wb-er-fsh-aqua-mt",
+    "name": "Aquaculture production (metric tons)",
+    "category": "Environment",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-urb-lcty-ur-zs",
+    "name": "Population in the largest city (% of urban population)",
+    "category": "Urban Development",
+    "countryCount": 153
+  },
+  {
+    "slug": "wb-sg-gen-parl-zs",
+    "name": "Proportion of seats held by women in national parliaments (%)",
+    "category": "Public Sector",
+    "countryCount": 193
+  },
+  {
+    "slug": "wb-it-mlt-main",
+    "name": "Fixed telephone subscriptions",
+    "category": "Infrastructure",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-ny-gdp-pcap-cd",
+    "name": "GDP per capita (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-ny-gdp-defl-zs-ad",
+    "name": "GDP deflator: linked series (base year varies by country)",
+    "category": "Financial Sector",
+    "countryCount": 211
+  },
+  {
+    "slug": "wb-sh-h2o-basw-zs",
+    "name": "People using at least basic drinking water services (% of population)",
+    "category": "Health",
+    "countryCount": 214
+  },
+  {
+    "slug": "wb-sp-urb-totl-in-zs",
+    "name": "Urban population (% of total population)",
+    "category": "Climate Change",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-ny-gdp-totl-rt-zs",
+    "name": "Total natural resources rents (% of GDP)",
+    "category": "Energy & Mining",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-se-sec-enrl",
+    "name": "Secondary education, pupils",
+    "category": "Education",
+    "countryCount": 210
+  },
+  {
+    "slug": "wb-tt-pri-mrch-xd-wd",
+    "name": "Net barter terms of trade index (2015 = 100)",
+    "category": "Private Sector",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-gov_wgi_pv_sc",
+    "name": "Political Stability - Governance score (0-100)",
+    "category": "World Bank",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-dt-oda-alld-cd",
+    "name": "Net official development assistance and official aid received (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 179
+  },
+  {
+    "slug": "wb-si-dst-10th-10",
+    "name": "Income share held by highest 10%",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sp-pop-scie-rd-p6",
+    "name": "Researchers in R&D (per million people)",
+    "category": "Science & Technology",
+    "countryCount": 145
+  },
+  {
+    "slug": "wb-sl-emp-totl-sp-zs",
+    "name": "Employment to population ratio, 15+, total (%) (modeled ILO estimate)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-nfl-blat-cd",
+    "name": "Net financial flows, bilateral (NFL, current US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-ag-lnd-frst-zs",
+    "name": "Forest area (% of land area)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 213
+  },
+  {
+    "slug": "wb-er-fsh-capt-mt",
+    "name": "Capture fisheries production (metric tons)",
+    "category": "Environment",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-en-urb-mcty",
+    "name": "Population in urban agglomerations of more than 1 million",
+    "category": "Urban Development",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-iq-spi-pil5",
+    "name": "Statistical performance indicators (SPI): Pillar 5 data infrastructure score (scale 0-100)",
+    "category": "Public Sector",
+    "countryCount": 190
+  },
+  {
+    "slug": "wb-it-mlt-main-p2",
+    "name": "Fixed telephone subscriptions (per 100 people)",
+    "category": "Infrastructure",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-ny-gdp-pcap-kd-zg",
+    "name": "GDP per capita growth (annual %)",
+    "category": "Economy & Growth",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-fp-cpi-totl",
+    "name": "Consumer price index (2010 = 100)",
+    "category": "Financial Sector",
+    "countryCount": 191
+  },
+  {
+    "slug": "wb-sh-sta-bass-zs",
+    "name": "People using at least basic sanitation services (% of population)",
+    "category": "Health",
+    "countryCount": 214
+  },
+  {
+    "slug": "wb-er-lnd-ptld-zs",
+    "name": "Terrestrial protected areas (% of total land area)",
+    "category": "Climate Change",
+    "countryCount": 213
+  },
+  {
+    "slug": "wb-eg-elc-coal-zs",
+    "name": "Electricity production from coal sources (% of total)",
+    "category": "Energy & Mining",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-se-prm-enrr",
+    "name": "School enrollment, primary (% gross)",
+    "category": "Education",
+    "countryCount": 209
+  },
+  {
+    "slug": "wb-tg-val-totl-gd-zs",
+    "name": "Merchandise trade (% of GDP)",
+    "category": "Private Sector",
+    "countryCount": 205
+  },
+  {
+    "slug": "wb-gov_wgi_rl_est",
+    "name": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)",
+    "category": "World Bank",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-dt-oda-alld-kd",
+    "name": "Net official development assistance and official aid received (constant 2023 US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 179
+  },
+  {
+    "slug": "wb-si-dst-50md",
+    "name": "Proportion of people living below 50 percent of median income (%)",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sp-pop-tech-rd-p6",
+    "name": "Technicians in R&D (per million people)",
+    "category": "Science & Technology",
+    "countryCount": 122
+  },
+  {
+    "slug": "wb-sl-emp-vuln-zs",
+    "name": "Vulnerable employment, total (% of total employment) (modeled ILO estimate)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-nfl-imfn-cd",
+    "name": "Net financial flows, IMF nonconcessional (NFL, current US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-eg-elc-accs-ru-zs",
+    "name": "Access to electricity, rural (% of rural population)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-er-fsh-prod-mt",
+    "name": "Total fisheries production (metric tons)",
+    "category": "Environment",
+    "countryCount": 215
+  },
+  {
+    "slug": "wb-iq-spi-pil2",
+    "name": "Statistical performance indicators (SPI): Pillar 2 data services score (scale 0-100)",
+    "category": "Public Sector",
+    "countryCount": 189
+  },
+  {
+    "slug": "wb-it-net-user-zs",
+    "name": "Individuals using the Internet (% of population)",
+    "category": "Infrastructure",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-ny-gdp-defl-kd-zg",
+    "name": "Inflation, GDP deflator (annual %)",
+    "category": "Economy & Growth",
+    "countryCount": 211
+  },
+  {
+    "slug": "wb-fb-atm-totl-p5",
+    "name": "Automated teller machines (ATMs) (per 100,000 adults)",
+    "category": "Financial Sector",
+    "countryCount": 190
+  },
+  {
+    "slug": "wb-sh-sta-odfc-zs",
+    "name": "People practicing open defecation (% of population)",
+    "category": "Health",
+    "countryCount": 214
+  },
+  {
+    "slug": "wb-er-ptd-totl-zs",
+    "name": "Terrestrial and marine protected areas (% of total territorial area)",
+    "category": "Climate Change",
+    "countryCount": 213
+  },
+  {
+    "slug": "wb-eg-elc-fosl-zs",
+    "name": "Electricity production from oil, gas and coal sources (% of total)",
+    "category": "Energy & Mining",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-se-sec-ages",
+    "name": "Lower secondary school starting age (years)",
+    "category": "Education",
+    "countryCount": 209
+  },
+  {
+    "slug": "wb-tm-qty-mrch-xd-wd",
+    "name": "Import volume index (2015 = 100)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-gov_wgi_rl_sc",
+    "name": "Rule of Law - Governance score (0-100)",
+    "category": "World Bank",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-dt-nfl-unta-cd",
+    "name": "Net official flows from UN agencies, UNTA (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 177
+  },
+  {
+    "slug": "wb-si-dst-frst-10",
+    "name": "Income share held by lowest 10%",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sl-emp-work-zs",
+    "name": "Wage and salaried workers, total (% of total employment) (modeled ILO estimate)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-nfl-mlat-cd",
+    "name": "Net financial flows, multilateral (NFL, current US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-ag-lnd-agri-k2",
+    "name": "Agricultural land (sq. km)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 209
+  },
+  {
+    "slug": "wb-ny-gdp-frst-rt-zs",
+    "name": "Forest rents (% of GDP)",
+    "category": "Environment",
+    "countryCount": 212
+  },
+  {
+    "slug": "wb-iq-spi-ovrl",
+    "name": "Statistical performance indicators (SPI): Overall score (scale 0-100)",
+    "category": "Public Sector",
+    "countryCount": 188
+  },
+  {
+    "slug": "wb-it-net-bbnd",
+    "name": "Fixed broadband subscriptions",
+    "category": "Infrastructure",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-ny-gdp-mktp-kd",
+    "name": "GDP (constant 2015 US$)",
+    "category": "Economy & Growth",
+    "countryCount": 211
+  },
+  {
+    "slug": "wb-fb-cbk-brch-p5",
+    "name": "Commercial bank branches (per 100,000 adults)",
+    "category": "Financial Sector",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-sh-tbs-cure-zs",
+    "name": "Tuberculosis treatment success rate (% of new cases)",
+    "category": "Health",
+    "countryCount": 209
+  },
+  {
+    "slug": "wb-er-h2o-fwtl-k3",
+    "name": "Annual freshwater withdrawals, total (billion cubic meters)",
+    "category": "Climate Change",
+    "countryCount": 181
+  },
+  {
+    "slug": "wb-eg-elc-hyro-zs",
+    "name": "Electricity production from hydroelectric sources (% of total)",
+    "category": "Energy & Mining",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-se-sec-durs",
+    "name": "Secondary education, duration (years)",
+    "category": "Education",
+    "countryCount": 209
+  },
+  {
+    "slug": "wb-tm-val-mrch-al-zs",
+    "name": "Merchandise imports from economies in the Arab World (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-gov_wgi_va_est",
+    "name": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)",
+    "category": "World Bank",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-dc-dac-cecl-cd",
+    "name": "Net bilateral aid flows from DAC donors, European Union institutions (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 176
+  },
+  {
+    "slug": "wb-si-pov-dday",
+    "name": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sl-fam-work-zs",
+    "name": "Contributing family workers, total (% of total employment) (modeled ILO estimate)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-nfl-offt-cd",
+    "name": "PPG, official creditors (NFL, US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-ag-lnd-agri-zs",
+    "name": "Agricultural land (% of land area)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 209
+  },
+  {
+    "slug": "wb-en-ghg-all-pc-ce-ar5",
+    "name": "Total greenhouse gas emissions excluding LULUCF per capita (t CO2e/capita)",
+    "category": "Environment",
+    "countryCount": 203
+  },
+  {
+    "slug": "wb-iq-spi-pil4",
+    "name": "Statistical performance indicators (SPI): Pillar 4 data sources score (scale 0-100)",
+    "category": "Public Sector",
+    "countryCount": 188
+  },
+  {
+    "slug": "wb-it-net-bbnd-p2",
+    "name": "Fixed broadband subscriptions (per 100 people)",
+    "category": "Infrastructure",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-ny-gdp-pcap-kd",
+    "name": "GDP per capita (constant 2015 US$)",
+    "category": "Economy & Growth",
+    "countryCount": 211
+  },
+  {
+    "slug": "wb-fd-ast-prvt-gd-zs",
+    "name": "Domestic credit to private sector by banks (% of GDP)",
+    "category": "Financial Sector",
+    "countryCount": 185
+  },
+  {
+    "slug": "wb-sh-tbs-dtec-zs",
+    "name": "Tuberculosis case detection rate (%, all forms)",
+    "category": "Health",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-er-h2o-fwtl-zs",
+    "name": "Annual freshwater withdrawals, total (% of internal resources)",
+    "category": "Climate Change",
+    "countryCount": 177
+  },
+  {
+    "slug": "wb-eg-elc-ngas-zs",
+    "name": "Electricity production from natural gas sources (% of total)",
+    "category": "Energy & Mining",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-se-prm-tchr",
+    "name": "Primary education, teachers",
+    "category": "Education",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-tm-val-mrch-hi-zs",
+    "name": "Merchandise imports from high-income economies (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-gov_wgi_va_sc",
+    "name": "Voice and Accountability - Governance score (0-100)",
+    "category": "World Bank",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-dc-dac-deul-cd",
+    "name": "Net bilateral aid flows from DAC donors, Germany (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 176
+  },
+  {
+    "slug": "wb-si-pov-gaps",
+    "name": "Poverty gap at $3.00 a day (2021 PPP) (%)",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sl-ind-empl-zs",
+    "name": "Employment in industry (% of total employment) (modeled ILO estimate)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-tds-dimf-cd",
+    "name": "IMF repurchases and charges (TDS, current US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-sp-rur-totl-zg",
+    "name": "Rural population growth (annual %)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-en-ghg-ch4-zg-ar5",
+    "name": "Methane (CH4) emissions (total) excluding LULUCF (% change from 1990)",
+    "category": "Environment",
+    "countryCount": 203
+  },
+  {
+    "slug": "wb-ms-mil-mprt-kd",
+    "name": "Arms imports (SIPRI trend indicator values)",
+    "category": "Public Sector",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-tm-val-ictg-zs-un",
+    "name": "ICT goods imports (% total goods imports)",
+    "category": "Infrastructure",
+    "countryCount": 194
+  },
+  {
+    "slug": "wb-ny-adj-dco2-cd",
+    "name": "Adjusted savings: carbon dioxide damage (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-fm-ast-prvt-gd-zs",
+    "name": "Monetary Sector credit to private sector (% GDP)",
+    "category": "Financial Sector",
+    "countryCount": 185
+  },
+  {
+    "slug": "wb-sh-tbs-incd",
+    "name": "Incidence of tuberculosis (per 100,000 people)",
+    "category": "Health",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-er-mrn-ptmr-zs",
+    "name": "Marine protected areas (% of territorial waters)",
+    "category": "Climate Change",
+    "countryCount": 174
+  },
+  {
+    "slug": "wb-eg-elc-nucl-zs",
+    "name": "Electricity production from nuclear sources (% of total)",
+    "category": "Energy & Mining",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-se-sec-enrr",
+    "name": "School enrollment, secondary (% gross)",
+    "category": "Education",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-tm-val-mrch-or-zs",
+    "name": "Merchandise imports from low- and middle-income economies outside region (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-sm-pop-asys-eo",
+    "name": "Asylum-seekers by country or territory of origin",
+    "category": "World Bank",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-dc-dac-jpnl-cd",
+    "name": "Net bilateral aid flows from DAC donors, Japan (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 176
+  },
+  {
+    "slug": "wb-si-pov-gini",
+    "name": "Gini index",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sl-srv-empl-zs",
+    "name": "Employment in services (% of total employment) (modeled ILO estimate)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-tds-dppg-cd",
+    "name": "Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-ag-lnd-arbl-ha",
+    "name": "Arable land (hectares)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-en-ghg-co2-pc-ce-ar5",
+    "name": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)",
+    "category": "Environment",
+    "countryCount": 203
+  },
+  {
+    "slug": "wb-ms-mil-totl-p1",
+    "name": "Armed forces personnel, total",
+    "category": "Public Sector",
+    "countryCount": 174
+  },
+  {
+    "slug": "wb-tx-val-ictg-zs-un",
+    "name": "ICT goods exports (% of total goods exports)",
+    "category": "Infrastructure",
+    "countryCount": 191
+  },
+  {
+    "slug": "wb-ny-adj-dmin-gn-zs",
+    "name": "Adjusted savings: mineral depletion (% of GNI)",
+    "category": "Economy & Growth",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-fs-ast-cgov-gd-zs",
+    "name": "Claims on central government, etc. (% GDP)",
+    "category": "Financial Sector",
+    "countryCount": 185
+  },
+  {
+    "slug": "wb-sh-med-phys-zs",
+    "name": "Physicians (per 1,000 people)",
+    "category": "Health",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-en-clc-mdat-zs",
+    "name": "Droughts, floods, extreme temperatures (% of population, average 1990-2009)",
+    "category": "Climate Change",
+    "countryCount": 168
+  },
+  {
+    "slug": "wb-eg-elc-petr-zs",
+    "name": "Electricity production from oil sources (% of total)",
+    "category": "Energy & Mining",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-se-sec-tchr",
+    "name": "Secondary education, teachers",
+    "category": "Education",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-tm-val-mrch-r1-zs",
+    "name": "Merchandise imports from low- and middle-income economies in East Asia & Pacific (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-gov_wgi_ge_est",
+    "name": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)",
+    "category": "World Bank",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-dc-dac-fral-cd",
+    "name": "Net bilateral aid flows from DAC donors, France (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 175
+  },
+  {
+    "slug": "wb-si-pov-lmic",
+    "name": "Poverty headcount ratio at $4.20 a day (2021 PPP) (% of population)",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sl-uem-basc-zs",
+    "name": "Unemployment with basic education (% of total labor force with basic education)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-tds-dppg-gn-zs",
+    "name": "Public and publicly guaranteed debt service (% of GNI)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-ag-lnd-arbl-ha-pc",
+    "name": "Arable land (hectares per person)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-en-ghg-n2o-zg-ar5",
+    "name": "Nitrous oxide (N2O) emissions (total) excluding LULUCF (% change from 1990)",
+    "category": "Environment",
+    "countryCount": 203
+  },
+  {
+    "slug": "wb-ms-mil-totl-tf-zs",
+    "name": "Armed forces personnel (% of total labor force)",
+    "category": "Public Sector",
+    "countryCount": 172
+  },
+  {
+    "slug": "wb-is-air-dprt",
+    "name": "Air transport, registered carrier departures worldwide",
+    "category": "Infrastructure",
+    "countryCount": 185
+  },
+  {
+    "slug": "wb-ny-gnp-mktp-cd",
+    "name": "GNI (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-fs-ast-prvt-gd-zs",
+    "name": "Domestic credit to private sector (% of GDP)",
+    "category": "Financial Sector",
+    "countryCount": 185
+  },
+  {
+    "slug": "wb-sh-sta-brtc-zs",
+    "name": "Births attended by skilled health staff (% of total)",
+    "category": "Health",
+    "countryCount": 205
+  },
+  {
+    "slug": "wb-en-urb-mcty-tl-zs",
+    "name": "Population in urban agglomerations of more than 1 million (% of total population)",
+    "category": "Climate Change",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-eg-elc-rnew-zs",
+    "name": "Renewable electricity output (% of total electricity output)",
+    "category": "Energy & Mining",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-se-pre-enrr",
+    "name": "School enrollment, preprimary (% gross)",
+    "category": "Education",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-tm-val-mrch-r2-zs",
+    "name": "Merchandise imports from low- and middle-income economies in Europe & Central Asia (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-gov_wgi_ge_sc",
+    "name": "Government Effectiveness - Governance score (0-100)",
+    "category": "World Bank",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-dc-dac-gbrl-cd",
+    "name": "Net bilateral aid flows from DAC donors, United Kingdom (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 175
+  },
+  {
+    "slug": "wb-si-pov-lmic-gp",
+    "name": "Poverty gap at $4.20 a day (2021 PPP) (%)",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sl-uem-neet-me-zs",
+    "name": "Share of youth not in education, employment or training, total (% of youth population)  (modeled ILO estimate)",
+    "category": "Social Protection & Labor",
+    "countryCount": 186
+  },
+  {
+    "slug": "wb-dt-tds-mlat-cd",
+    "name": "Multilateral debt service (TDS, current US$)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-ag-lnd-arbl-zs",
+    "name": "Arable land (% of land area)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-en-ghg-tot-zg-ar5",
+    "name": "Total greenhouse gas emissions excluding LULUCF (% change from 1990)",
+    "category": "Environment",
+    "countryCount": 203
+  },
+  {
+    "slug": "wb-gf-xpd-budg-zs",
+    "name": "Primary government expenditures as a proportion of original approved budget (%)",
+    "category": "Public Sector",
+    "countryCount": 169
+  },
+  {
+    "slug": "wb-is-air-psgr",
+    "name": "Air transport, passengers carried",
+    "category": "Infrastructure",
+    "countryCount": 185
+  },
+  {
+    "slug": "wb-nv-ind-totl-cd",
+    "name": "Industry (including construction), value added (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-fi-res-totl-mo",
+    "name": "Total reserves in months of imports",
+    "category": "Financial Sector",
+    "countryCount": 178
+  },
+  {
+    "slug": "wb-sh-med-beds-zs",
+    "name": "Hospital beds (per 1,000 people)",
+    "category": "Health",
+    "countryCount": 200
+  },
+  {
+    "slug": "wb-eg-elc-rnwx-kh",
+    "name": "Electricity production from renewable sources, excluding hydroelectric (kWh)",
+    "category": "Energy & Mining",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-se-prm-priv-zs",
+    "name": "School enrollment, primary, private (% of total primary)",
+    "category": "Education",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-tm-val-mrch-r3-zs",
+    "name": "Merchandise imports from low- and middle-income economies in Latin America & the Caribbean (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-gov_wgi_rq_est",
+    "name": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)",
+    "category": "World Bank",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-dc-dac-ausl-cd",
+    "name": "Net bilateral aid flows from DAC donors, Australia (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 172
+  },
+  {
+    "slug": "wb-si-pov-umic",
+    "name": "Poverty headcount ratio at $8.30 a day (2021 PPP) (% of population)",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sl-tlf-advn-zs",
+    "name": "Labor force with advanced education (% of total working-age population with advanced education)",
+    "category": "Social Protection & Labor",
+    "countryCount": 182
+  },
+  {
+    "slug": "wb-dt-tds-mlat-pg-zs",
+    "name": "Multilateral debt service (% of public and publicly guaranteed debt service)",
+    "category": "External Debt",
+    "countryCount": 121
+  },
+  {
+    "slug": "wb-nv-agr-totl-cd",
+    "name": "Agriculture, forestry, and fishing, value added (current US$)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-en-ghg-co2-zg-ar5",
+    "name": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (% change from 1990)",
+    "category": "Environment",
+    "countryCount": 201
+  },
+  {
+    "slug": "wb-ms-mil-xpnd-cd",
+    "name": "Military expenditure (current USD)",
+    "category": "Public Sector",
+    "countryCount": 166
+  },
+  {
+    "slug": "wb-is-air-good-mt-k1",
+    "name": "Air transport, freight (million ton-km)",
+    "category": "Infrastructure",
+    "countryCount": 184
+  },
+  {
+    "slug": "wb-nv-ind-totl-zs",
+    "name": "Industry (including construction), value added (% of GDP)",
+    "category": "Economy & Growth",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-fm-ast-cgov-zg-m3",
+    "name": "Claims on central government (annual growth as % of broad money)",
+    "category": "Financial Sector",
+    "countryCount": 165
+  },
+  {
+    "slug": "wb-sh-med-numw-p3",
+    "name": "Nurses and midwives (per 1,000 people)",
+    "category": "Health",
+    "countryCount": 198
+  },
+  {
+    "slug": "wb-eg-elc-rnwx-zs",
+    "name": "Electricity production from renewable sources, excluding hydroelectric (% of total)",
+    "category": "Energy & Mining",
+    "countryCount": 208
+  },
+  {
+    "slug": "wb-se-sec-enrl-vo",
+    "name": "Secondary education, vocational pupils",
+    "category": "Education",
+    "countryCount": 207
+  },
+  {
+    "slug": "wb-tm-val-mrch-r4-zs",
+    "name": "Merchandise imports from low- and middle-income economies in Middle East & North Africa (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-gov_wgi_rq_sc",
+    "name": "Regulatory Quality - Governance score (0-100)",
+    "category": "World Bank",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-dc-dac-usal-cd",
+    "name": "Net bilateral aid flows from DAC donors, United States (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 172
+  },
+  {
+    "slug": "wb-si-pov-umic-gp",
+    "name": "Poverty gap at $8.30 a day (2021 PPP) (%)",
+    "category": "Poverty",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-sl-tlf-intm-zs",
+    "name": "Labor force with intermediate education (% of total working-age population with intermediate education)",
+    "category": "Social Protection & Labor",
+    "countryCount": 182
+  },
+  {
+    "slug": "wb-dt-dod-dlxf-cd",
+    "name": "External debt stocks, long-term (DOD, current US$)",
+    "category": "External Debt",
+    "countryCount": 120
+  },
+  {
+    "slug": "wb-nv-agr-totl-zs",
+    "name": "Agriculture, forestry, and fishing, value added (% of GDP)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-en-ghg-co2-rt-gdp-kd",
+    "name": "Carbon intensity of GDP (kg CO2e per constant 2015 US$ of GDP)",
+    "category": "Environment",
+    "countryCount": 200
+  },
+  {
+    "slug": "wb-ms-mil-xpnd-gd-zs",
+    "name": "Military expenditure (% of GDP)",
+    "category": "Public Sector",
+    "countryCount": 165
+  },
+  {
+    "slug": "wb-er-h2o-intr-k3",
+    "name": "Renewable internal freshwater resources, total (billion cubic meters)",
+    "category": "Infrastructure",
+    "countryCount": 183
+  },
+  {
+    "slug": "wb-ny-adj-dngy-cd",
+    "name": "Adjusted savings: energy depletion (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-fm-ast-prvt-zg-m3",
+    "name": "Claims on private sector (annual growth as % of broad money)",
+    "category": "Financial Sector",
+    "countryCount": 165
+  },
+  {
+    "slug": "wb-sh-dth-imrt",
+    "name": "Number of infant deaths",
+    "category": "Health",
+    "countryCount": 195
+  },
+  {
+    "slug": "wb-eg-egy-prim-pp-kd",
+    "name": "Energy intensity level of primary energy (MJ/$2021 PPP GDP)",
+    "category": "Energy & Mining",
+    "countryCount": 201
+  },
+  {
+    "slug": "wb-se-enr-prim-fm-zs",
+    "name": "School enrollment, primary (gross), gender parity index (GPI)",
+    "category": "Education",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-tm-val-mrch-r5-zs",
+    "name": "Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-hd_hcip_hlth_to",
+    "name": "Human capital index plus (HCI+): health pillar score, total (scale 0–50)",
+    "category": "World Bank",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-dc-dac-canl-cd",
+    "name": "Net bilateral aid flows from DAC donors, Canada (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 170
+  },
+  {
+    "slug": "wb-si-pov-nahc",
+    "name": "Poverty headcount ratio at national poverty lines (% of population)",
+    "category": "Poverty",
+    "countryCount": 160
+  },
+  {
+    "slug": "wb-sl-uem-neet-zs",
+    "name": "Share of youth not in education, employment or training, total (% of youth population)",
+    "category": "Social Protection & Labor",
+    "countryCount": 182
+  },
+  {
+    "slug": "wb-dt-dod-dstc-cd",
+    "name": "External debt stocks, short-term (DOD, current US$)",
+    "category": "External Debt",
+    "countryCount": 120
+  },
+  {
+    "slug": "wb-ag-lnd-crop-zs",
+    "name": "Permanent cropland (% of land area)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 201
+  },
+  {
+    "slug": "wb-ny-gdp-coal-rt-zs",
+    "name": "Coal rents (% of GDP)",
+    "category": "Environment",
+    "countryCount": 199
+  },
+  {
+    "slug": "wb-ms-mil-xpnd-zs",
+    "name": "Military expenditure (% of general government expenditure)",
+    "category": "Public Sector",
+    "countryCount": 163
+  },
+  {
+    "slug": "wb-er-h2o-intr-pc",
+    "name": "Renewable internal freshwater resources per capita (cubic meters)",
+    "category": "Infrastructure",
+    "countryCount": 183
+  },
+  {
+    "slug": "wb-ny-gnp-atls-cd",
+    "name": "GNI, Atlas method (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-fm-lbl-bmny-gd-zs",
+    "name": "Broad money (% of GDP)",
+    "category": "Financial Sector",
+    "countryCount": 165
+  },
+  {
+    "slug": "wb-sh-dth-mort",
+    "name": "Number of under-five deaths",
+    "category": "Health",
+    "countryCount": 195
+  },
+  {
+    "slug": "wb-ny-gdp-ngas-rt-zs",
+    "name": "Natural gas rents (% of GDP)",
+    "category": "Energy & Mining",
+    "countryCount": 200
+  },
+  {
+    "slug": "wb-se-prm-enrl-tc-zs",
+    "name": "Pupil-teacher ratio, primary",
+    "category": "Education",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-tm-val-mrch-r6-zs",
+    "name": "Merchandise imports from low- and middle-income economies in Sub-Saharan Africa (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-pa-nus-gdp-pli",
+    "name": "Price level index (GDP)",
+    "category": "World Bank",
+    "countryCount": 203
+  },
+  {
+    "slug": "wb-dc-dac-nldl-cd",
+    "name": "Net bilateral aid flows from DAC donors, Netherlands (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 169
+  },
+  {
+    "slug": "wb-si-spr-pc40",
+    "name": "Survey mean consumption or income per capita, bottom 40% of population (2021 PPP $ per day)",
+    "category": "Poverty",
+    "countryCount": 122
+  },
+  {
+    "slug": "wb-sl-tlf-basc-zs",
+    "name": "Labor force with basic education (% of total working-age population with basic education)",
+    "category": "Social Protection & Labor",
+    "countryCount": 181
+  },
+  {
+    "slug": "wb-dt-dod-dstc-zs",
+    "name": "Short-term debt (% of total external debt)",
+    "category": "External Debt",
+    "countryCount": 120
+  },
+  {
+    "slug": "wb-ag-con-fert-zs",
+    "name": "Fertilizer consumption (kilograms per hectare of arable land)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 200
+  },
+  {
+    "slug": "wb-en-atm-pm25-mc-t1-zs",
+    "name": "PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-1 value (% of total)",
+    "category": "Environment",
+    "countryCount": 194
+  },
+  {
+    "slug": "wb-gc-tax-gsrv-rv-zs",
+    "name": "Taxes on goods and services (% of revenue)",
+    "category": "Public Sector",
+    "countryCount": 161
+  },
+  {
+    "slug": "wb-er-h2o-fwdm-zs",
+    "name": "Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)",
+    "category": "Infrastructure",
+    "countryCount": 180
+  },
+  {
+    "slug": "wb-ny-gnp-pcap-cd",
+    "name": "GNI per capita, Atlas method (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-fm-lbl-bmny-zg",
+    "name": "Broad money growth (annual %)",
+    "category": "Financial Sector",
+    "countryCount": 165
+  },
+  {
+    "slug": "wb-sh-dth-nmrt",
+    "name": "Number of neonatal deaths",
+    "category": "Health",
+    "countryCount": 195
+  },
+  {
+    "slug": "wb-ny-gdp-petr-rt-zs",
+    "name": "Oil rents (% of GDP)",
+    "category": "Energy & Mining",
+    "countryCount": 199
+  },
+  {
+    "slug": "wb-se-enr-seco-fm-zs",
+    "name": "School enrollment, secondary (gross), gender parity index (GPI)",
+    "category": "Education",
+    "countryCount": 205
+  },
+  {
+    "slug": "wb-tm-val-mrch-rs-zs",
+    "name": "Merchandise imports by the reporting economy, residual (% of total merchandise imports)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-sm-pop-rhcr-eo",
+    "name": "Refugees under the mandate of the UNHCR by country or territory of origin",
+    "category": "World Bank",
+    "countryCount": 203
+  },
+  {
+    "slug": "wb-dt-oda-odat-cd",
+    "name": "Net official development assistance received (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 169
+  },
+  {
+    "slug": "wb-si-spr-pc40-zg",
+    "name": "Annualized average growth rate in per capita real survey mean consumption or income, bottom 40% of population (%)",
+    "category": "Poverty",
+    "countryCount": 122
+  },
+  {
+    "slug": "wb-sl-gdp-pcap-em-kd",
+    "name": "GDP per person employed (constant 2021 PPP $)",
+    "category": "Social Protection & Labor",
+    "countryCount": 177
+  },
+  {
+    "slug": "wb-dt-nfl-moth-cd",
+    "name": "Net financial flows, others (NFL, current US$)",
+    "category": "External Debt",
+    "countryCount": 120
+  },
+  {
+    "slug": "wb-tm-val-agri-zs-un",
+    "name": "Agricultural raw materials imports (% of merchandise imports)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 198
+  },
+  {
+    "slug": "wb-en-atm-pm25-mc-t2-zs",
+    "name": "PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-2 value (% of total)",
+    "category": "Environment",
+    "countryCount": 194
+  },
+  {
+    "slug": "wb-gc-tax-totl-gd-zs",
+    "name": "Tax revenue (% of GDP)",
+    "category": "Public Sector",
+    "countryCount": 161
+  },
+  {
+    "slug": "wb-er-h2o-fwin-zs",
+    "name": "Annual freshwater withdrawals, industry (% of total freshwater withdrawal)",
+    "category": "Infrastructure",
+    "countryCount": 179
+  },
+  {
+    "slug": "wb-ny-gsr-nfcy-cd",
+    "name": "Net primary income (Net income from abroad) (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 206
+  },
+  {
+    "slug": "wb-fm-lbl-bmny-ir-zs",
+    "name": "Broad money to total reserves ratio",
+    "category": "Financial Sector",
+    "countryCount": 157
+  },
+  {
+    "slug": "wb-sh-dyn-mort",
+    "name": "Mortality rate, under-5 (per 1,000 live births)",
+    "category": "Health",
+    "countryCount": 195
+  },
+  {
+    "slug": "wb-tm-val-fuel-zs-un",
+    "name": "Fuel imports (% of merchandise imports)",
+    "category": "Energy & Mining",
+    "countryCount": 198
+  },
+  {
+    "slug": "wb-se-prm-uner",
+    "name": "Children out of school, primary",
+    "category": "Education",
+    "countryCount": 205
+  },
+  {
+    "slug": "wb-tm-val-mrch-wl-cd",
+    "name": "Merchandise imports by the reporting economy (current US$)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-sh_uhc_sci",
+    "name": "UHC service coverage index",
+    "category": "World Bank",
+    "countryCount": 193
+  },
+  {
+    "slug": "wb-dt-oda-odat-kd",
+    "name": "Net official development assistance received (constant 2023 US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 169
+  },
+  {
+    "slug": "wb-si-spr-pcap",
+    "name": "Survey mean consumption or income per capita, total population (2021 PPP $ per day)",
+    "category": "Poverty",
+    "countryCount": 122
+  },
+  {
+    "slug": "wb-sl-tlf-part-zs",
+    "name": "Part time employment, total (% of total employment)",
+    "category": "Social Protection & Labor",
+    "countryCount": 165
+  },
+  {
+    "slug": "wb-dt-tds-dect-cd",
+    "name": "Debt service on external debt, total (TDS, current US$)",
+    "category": "External Debt",
+    "countryCount": 120
+  },
+  {
+    "slug": "wb-tx-val-agri-zs-un",
+    "name": "Agricultural raw materials exports (% of merchandise exports)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 198
+  },
+  {
+    "slug": "wb-en-atm-pm25-mc-t3-zs",
+    "name": "PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-3 value (% of total)",
+    "category": "Environment",
+    "countryCount": 194
+  },
+  {
+    "slug": "wb-gc-xpn-intp-rv-zs",
+    "name": "Interest payments (% of revenue)",
+    "category": "Public Sector",
+    "countryCount": 160
+  },
+  {
+    "slug": "wb-is-shp-gcnw-xq",
+    "name": "Liner shipping connectivity index (maximum value in 2004 = 100)",
+    "category": "Infrastructure",
+    "countryCount": 169
+  },
+  {
+    "slug": "wb-ny-adj-dkap-cd",
+    "name": "Adjusted savings: consumption of fixed capital (current US$)",
+    "category": "Economy & Growth",
+    "countryCount": 205
+  },
+  {
+    "slug": "wb-fb-ast-nper-zs",
+    "name": "Bank nonperforming loans to total gross loans (%)",
+    "category": "Financial Sector",
+    "countryCount": 153
+  },
+  {
+    "slug": "wb-sh-dyn-nmrt",
+    "name": "Mortality rate, neonatal (per 1,000 live births)",
+    "category": "Health",
+    "countryCount": 195
+  },
+  {
+    "slug": "wb-tm-val-mmtl-zs-un",
+    "name": "Ores and metals imports (% of merchandise imports)",
+    "category": "Energy & Mining",
+    "countryCount": 198
+  },
+  {
+    "slug": "wb-se-prm-uner-zs",
+    "name": "Children out of school (% of primary school age)",
+    "category": "Education",
+    "countryCount": 205
+  },
+  {
+    "slug": "wb-tm-val-mrch-xd-wd",
+    "name": "Import value index (2015 = 100)",
+    "category": "Private Sector",
+    "countryCount": 204
+  },
+  {
+    "slug": "wb-sh_uhc_sci_capacity",
+    "name": "UHC service coverage sub-index on service capacity and access",
+    "category": "World Bank",
+    "countryCount": 193
+  },
+  {
+    "slug": "wb-dt-oda-odat-pc-zs",
+    "name": "Net ODA received per capita (current US$)",
+    "category": "Aid Effectiveness",
+    "countryCount": 169
+  },
+  {
+    "slug": "wb-si-spr-pcap-zg",
+    "name": "Annualized average growth rate in per capita real survey mean consumption or income, total population (%)",
+    "category": "Poverty",
+    "countryCount": 122
+  },
+  {
+    "slug": "wb-per_allsp-cov_pop_tot",
+    "name": "Coverage of social protection and labor programs (% of population)",
+    "category": "Social Protection & Labor",
+    "countryCount": 129
+  },
+  {
+    "slug": "wb-dt-tds-dppf-xp-zs",
+    "name": "Debt service (PPG and IMF only, % of exports of goods, services and primary income)",
+    "category": "External Debt",
+    "countryCount": 119
+  },
+  {
+    "slug": "wb-ag-prd-crop-xd",
+    "name": "Crop production index (2014-2016 = 100)",
+    "category": "Agriculture & Rural Development",
+    "countryCount": 195
+  },
+  {
+    "slug": "wb-eg-cft-accs-ru-zs",
+    "name": "Access to clean fuels and technologies for cooking, rural (% of rural population)",
+    "category": "Environment",
+    "countryCount": 192
   }
 ]

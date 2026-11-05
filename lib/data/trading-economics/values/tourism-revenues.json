@@ -1,0 +1,200 @@
+{
+  "slug": "tourism-revenues",
+  "name": "Tourism Revenues",
+  "category": "Trade",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.022Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "CYP": {
+      "name": "Cyprus",
+      "value": 536500,
+      "previous": 423100,
+      "reference": "Jul/26",
+      "unit": "EUR Thousand"
+    },
+    "EGY": {
+      "name": "Egypt",
+      "value": 16.7,
+      "previous": 14.4,
+      "reference": "Jun/25",
+      "unit": "USD Billion"
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 708,
+      "previous": 456,
+      "reference": "Jun/26",
+      "unit": "FJD Million"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 9313,
+      "previous": 9354,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 4867,
+      "previous": 4722,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 122,
+      "previous": 122,
+      "reference": "Aug/26",
+      "unit": "USD Million"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 4388,
+      "previous": 4046,
+      "reference": "Jun/26",
+      "unit": "USD Million"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 8231,
+      "previous": 8319,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 32338272,
+      "previous": 30927018,
+      "reference": "Jul/26",
+      "unit": "JPY Thousand"
+    },
+    "LAO": {
+      "name": "Laos",
+      "value": 1485,
+      "previous": 1422,
+      "reference": "Dec/25",
+      "unit": "USD Million"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 229,
+      "previous": 195,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "MAC": {
+      "name": "Macau",
+      "value": 20038,
+      "previous": 24430,
+      "reference": "Jun/26",
+      "unit": "MOP Million"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 102256,
+      "previous": 71309,
+      "reference": "Dec/24",
+      "unit": "MYR Million"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 9586,
+      "previous": 9098,
+      "reference": "Aug/26",
+      "unit": "MUR Million"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 2409192,
+      "previous": 2961265,
+      "reference": "Aug/26",
+      "unit": "USD Thousand"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 3912,
+      "previous": 6456,
+      "reference": "Jun/26",
+      "unit": "NZD Million"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 4436,
+      "previous": 3655,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 160,
+      "previous": 154,
+      "reference": "Dec/25",
+      "unit": "SAR Billion"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 2487,
+      "previous": 2624,
+      "reference": "Aug/26",
+      "unit": "USD Million"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 14084,
+      "previous": 10429,
+      "reference": "Jul/26",
+      "unit": "EUR Million"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 264,
+      "previous": 286,
+      "reference": "Aug/26",
+      "unit": "USD Million"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 4994,
+      "previous": 4677,
+      "reference": "Jun/26",
+      "unit": "CHF Million"
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "value": 1903,
+      "previous": 1449,
+      "reference": "Jun/26",
+      "unit": "TND Million"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 25526,
+      "previous": 15871,
+      "reference": "Sep/26",
+      "unit": "USD Million"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 19886,
+      "previous": 20174,
+      "reference": "Aug/26",
+      "unit": "USD Million"
+    },
+    "URY": {
+      "name": "Uruguay",
+      "value": 348174893,
+      "previous": 842835020,
+      "reference": "Jun/26",
+      "unit": "USD Thousand"
+    }
+  },
+  "unmatched": []
+}

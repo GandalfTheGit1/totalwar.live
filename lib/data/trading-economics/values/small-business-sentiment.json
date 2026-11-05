@@ -1,0 +1,39 @@
+{
+  "slug": "small-business-sentiment",
+  "name": "Small Business Sentiment",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.118Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "BRA": {
+      "name": "Brazil",
+      "value": 46.8,
+      "previous": 44.4,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 50,
+      "previous": 47.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 14,
+      "previous": 9,
+      "reference": "Sep/26",
+      "unit": "points"
+    }
+  },
+  "unmatched": []
+}

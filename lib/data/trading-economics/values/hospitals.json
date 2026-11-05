@@ -1,0 +1,235 @@
+{
+  "slug": "hospitals",
+  "name": "Hospitals",
+  "category": "Health",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.768Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "JPN": {
+      "name": "Japan",
+      "value": 65.31,
+      "previous": 65.28,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 48.78,
+      "previous": 49.53,
+      "reference": "Dec/24",
+      "unit": "per one million people"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 43.37,
+      "previous": 43.65,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 41.67,
+      "previous": 41.41,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 39.07,
+      "previous": 38.53,
+      "reference": "Dec/24",
+      "unit": "per one million people"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 35.46,
+      "previous": 35.85,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 35.1,
+      "previous": 35.82,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 33.59,
+      "previous": 33.58,
+      "reference": "Dec/22",
+      "unit": "per one million people"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 31.95,
+      "previous": 31.54,
+      "reference": "Dec/24",
+      "unit": "per one million people"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 31.71,
+      "previous": 31.95,
+      "reference": "Dec/21",
+      "unit": "per one million people"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 29.73,
+      "previous": 29.78,
+      "reference": "Dec/22",
+      "unit": "per one million people"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 29.3,
+      "previous": 29.26,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 28.36,
+      "previous": 28.98,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 27.09,
+      "previous": 25.96,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 25.56,
+      "previous": 25.39,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 24.73,
+      "previous": 26.84,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 22.88,
+      "previous": 23.21,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 20.74,
+      "previous": 20.94,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 20.43,
+      "previous": 20.02,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 18.36,
+      "previous": 18.46,
+      "reference": "Dec/22",
+      "unit": "per one million people"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 18.35,
+      "previous": 18.3,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 17.97,
+      "previous": 17.94,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 17.66,
+      "previous": 18.08,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 16.47,
+      "previous": 16.97,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 16.38,
+      "previous": 16.13,
+      "reference": "Dec/24",
+      "unit": "per one million people"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 15.88,
+      "previous": 16,
+      "reference": "Dec/24",
+      "unit": "per one million people"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 15.57,
+      "previous": 15.72,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 15.01,
+      "previous": 15.31,
+      "reference": "Dec/23",
+      "unit": "per one million people"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 13.79,
+      "previous": 13.84,
+      "reference": "Dec/24",
+      "unit": "per one million people"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 13.65,
+      "previous": 13.68,
+      "reference": "Dec/24",
+      "unit": "per one million people"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 8.96,
+      "previous": 9.03,
+      "reference": "Dec/24",
+      "unit": "per one million people"
+    }
+  },
+  "unmatched": []
+}

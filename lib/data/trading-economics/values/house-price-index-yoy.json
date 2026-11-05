@@ -1,0 +1,277 @@
+{
+  "slug": "house-price-index-yoy",
+  "name": "House Price Index YoY",
+  "category": "Housing",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.203Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IRL": {
+      "name": "House Price Index YoY",
+      "value": 5.1,
+      "previous": 5.5,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "IDN": {
+      "name": "House Price Index YoY",
+      "value": 0.69,
+      "previous": 0.62,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "USA": {
+      "name": "House Price Index YoY",
+      "value": 2.4,
+      "previous": 2.5,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "MYS": {
+      "name": "House Price Index YoY",
+      "value": 0.9,
+      "previous": 2,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "SVN": {
+      "name": "House Price Index YoY",
+      "value": 9.1,
+      "previous": 9.3,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "SAU": {
+      "name": "House Price Index YoY",
+      "value": 1.2,
+      "previous": 1.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "MLT": {
+      "name": "House Price Index YoY",
+      "value": 6.9,
+      "previous": 6.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "POL": {
+      "name": "House Price Index YoY",
+      "value": 6.3,
+      "previous": 5.9,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "CYP": {
+      "name": "House Price Index YoY",
+      "value": 7.9,
+      "previous": 3.4,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "CAN": {
+      "name": "House Price Index YoY",
+      "value": -2.03,
+      "previous": -2.3,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "NOR": {
+      "name": "House Price Index YoY",
+      "value": 2.4,
+      "previous": 2.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "LVA": {
+      "name": "House Price Index YoY",
+      "value": 11.4,
+      "previous": 10.3,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "BGR": {
+      "name": "House Price Index YoY",
+      "value": 15.5,
+      "previous": 14.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "UGA": {
+      "name": "House Price Index YoY",
+      "value": 3.5,
+      "previous": 6.4,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "ESP": {
+      "name": "House Price Index YoY",
+      "value": 12.1,
+      "previous": 12.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "NLD": {
+      "name": "House Price Index YoY",
+      "value": 3.4,
+      "previous": 4.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "GBR": {
+      "name": "House Price Index YoY",
+      "value": 0,
+      "previous": -0.4,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "FIN": {
+      "name": "House Price Index YoY",
+      "value": -2.7,
+      "previous": -2,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "CZE": {
+      "name": "House Price Index YoY",
+      "value": 8.6,
+      "previous": 10,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "SWE": {
+      "name": "House Price Index YoY",
+      "value": 2,
+      "previous": 2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "HRV": {
+      "name": "House Price Index YoY",
+      "value": 12.7,
+      "previous": 14.3,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "EST": {
+      "name": "House Price Index YoY",
+      "value": 5.8,
+      "previous": 5.9,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "BEL": {
+      "name": "House Price Index YoY",
+      "value": 2.1,
+      "previous": 1.9,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "SVK": {
+      "name": "House Price Index YoY",
+      "value": 13.6,
+      "previous": 14.4,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "PRT": {
+      "name": "House Price Index YoY",
+      "value": 16.5,
+      "previous": 17.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "NZL": {
+      "name": "House Price Index YoY",
+      "value": -0.9,
+      "previous": -1.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "DEU": {
+      "name": "House Price Index YoY",
+      "value": 0.8,
+      "previous": 1.7,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "AUT": {
+      "name": "House Price Index YoY",
+      "value": 5.1,
+      "previous": 2.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "HUN": {
+      "name": "House Price Index YoY",
+      "value": 10.2,
+      "previous": 14.1,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "ROU": {
+      "name": "House Price Index YoY",
+      "value": 12.1,
+      "previous": 7.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "ITA": {
+      "name": "House Price Index YoY",
+      "value": 4,
+      "previous": 5.1,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "CHL": {
+      "name": "House Price Index YoY",
+      "value": -0.2,
+      "previous": 1.1,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "FRA": {
+      "name": "House Price Index YoY",
+      "value": -0.8,
+      "previous": 0,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "LUX": {
+      "name": "House Price Index YoY",
+      "value": -2.2,
+      "previous": 1.3,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "LTU": {
+      "name": "House Price Index YoY",
+      "value": 14.3,
+      "previous": 11.9,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "ISL": {
+      "name": "House Price Index YoY",
+      "value": 2.7,
+      "previous": 2.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "RUS": {
+      "name": "House Price Index YoY",
+      "value": 5.68,
+      "previous": 4.5,
+      "reference": "Jun/26",
+      "unit": "percent"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "energy-inflation",
+  "name": "Energy Inflation",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.205Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "CAN": {
+      "name": "Energy Inflation",
+      "value": 19,
+      "previous": 15.4,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "GBR": {
+      "name": "Energy Inflation",
+      "value": 17.9,
+      "previous": 13.8,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "PRT": {
+      "name": "Energy Inflation",
+      "value": 17.39,
+      "previous": 15.31,
+      "reference": "Oct/26",
+      "unit": "percent"
+    },
+    "DEU": {
+      "name": "Energy Inflation",
+      "value": 12.2,
+      "previous": 14.9,
+      "reference": "Oct/26",
+      "unit": "percent"
+    },
+    "ITA": {
+      "name": "Energy Inflation",
+      "value": 22.6,
+      "previous": 17.1,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "FRA": {
+      "name": "Energy Inflation",
+      "value": 24.1,
+      "previous": 21.3,
+      "reference": "Oct/26",
+      "unit": "percent"
+    }
+  }
+}

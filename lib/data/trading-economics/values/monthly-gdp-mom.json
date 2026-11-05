@@ -1,0 +1,67 @@
+{
+  "slug": "monthly-gdp-mom",
+  "name": "Monthly GDP MoM",
+  "category": "GDP",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.205Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "ISR": {
+      "name": "Monthly GDP MoM",
+      "value": 0.4,
+      "previous": 0.5,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "MEX": {
+      "name": "Monthly GDP MoM",
+      "value": 0.6,
+      "previous": 0.5,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "CAN": {
+      "name": "Monthly GDP MoM",
+      "value": -0.1,
+      "previous": 0,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "NOR": {
+      "name": "Monthly GDP MoM",
+      "value": 2.5,
+      "previous": -0.1,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "GBR": {
+      "name": "Monthly GDP MoM",
+      "value": 0.1,
+      "previous": 0.4,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "SWE": {
+      "name": "Monthly GDP MoM",
+      "value": -0.7,
+      "previous": 1.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "ARG": {
+      "name": "Monthly GDP MoM",
+      "value": 0.1,
+      "previous": 1.4,
+      "reference": "Aug/26",
+      "unit": "percent"
+    }
+  }
+}

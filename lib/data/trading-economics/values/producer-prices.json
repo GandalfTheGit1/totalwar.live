@@ -1,0 +1,732 @@
+{
+  "slug": "producer-prices",
+  "name": "Producer Prices",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.443Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": 130,
+      "previous": 130,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "DZA": {
+      "name": "Algeria",
+      "value": 1778,
+      "previous": 1762,
+      "reference": "Jun/25",
+      "unit": "points"
+    },
+    "AGO": {
+      "name": "Angola",
+      "value": 106,
+      "previous": 105,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 16883,
+      "previous": 16259,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 140,
+      "previous": 140,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 142,
+      "previous": 140,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 122,
+      "previous": 121,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 90.4,
+      "previous": 100,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 27232,
+      "previous": 27067,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 134,
+      "previous": 131,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "BTN": {
+      "name": "Bhutan",
+      "value": 99.58,
+      "previous": 101,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "value": 165,
+      "previous": 162,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 135,
+      "previous": 135,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 173,
+      "previous": 171,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 160,
+      "previous": 156,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 151,
+      "previous": 148,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 234,
+      "previous": 228,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 104,
+      "previous": 103,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 191,
+      "previous": 187,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 136,
+      "previous": 136,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 133,
+      "previous": 129,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 128,
+      "previous": 128,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 148,
+      "previous": 147,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 154,
+      "previous": 151,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 104,
+      "previous": 103,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "EGY": {
+      "name": "Egypt",
+      "value": 655,
+      "previous": 646,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "value": 140,
+      "previous": 140,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 165,
+      "previous": 163,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 133,
+      "previous": 131,
+      "reference": "Mar/26",
+      "unit": "points"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 127,
+      "previous": 124,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 128,
+      "previous": 126,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 148,
+      "previous": 148,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 134,
+      "previous": 131,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "GHA": {
+      "name": "Ghana",
+      "value": 280,
+      "previous": 273,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 146,
+      "previous": 139,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 140,
+      "previous": 144,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 157,
+      "previous": 154,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 333,
+      "previous": 333,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "IND": {
+      "name": "India",
+      "value": 113,
+      "previous": 111,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 112,
+      "previous": 112,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "IRN": {
+      "name": "Iran",
+      "value": 1742,
+      "previous": 1894,
+      "reference": "Jun/25",
+      "unit": "points"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 111,
+      "previous": 110,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 123,
+      "previous": 122,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 140,
+      "previous": 136,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 136,
+      "previous": 136,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 110,
+      "previous": 111,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 2140,
+      "previous": 2118,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 140,
+      "previous": 134,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "UNK": {
+      "name": "Kosovo",
+      "value": 125,
+      "previous": 124,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 152,
+      "previous": 151,
+      "reference": "Mar/26",
+      "unit": "points"
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 410,
+      "previous": 408,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 132,
+      "previous": 131,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 138,
+      "previous": 133,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 125,
+      "previous": 125,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 131,
+      "previous": 131,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 130,
+      "previous": 128,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 110,
+      "previous": 110,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 105,
+      "previous": 104,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 137,
+      "previous": 136,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 220,
+      "previous": 219,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 128,
+      "previous": 122,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 211,
+      "previous": 211,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 119,
+      "previous": 118,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 128,
+      "previous": 126,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 1530,
+      "previous": 1506,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 423,
+      "previous": 425,
+      "reference": "Jul/26",
+      "unit": "points"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 167,
+      "previous": 148,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 147,
+      "previous": 111,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 361,
+      "previous": 357,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "PSE": {
+      "name": "Palestine",
+      "value": 224,
+      "previous": 216,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": 100,
+      "previous": 98.5,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 134,
+      "previous": 133,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 102,
+      "previous": 102,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 119,
+      "previous": 119,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 126,
+      "previous": 124,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 114,
+      "previous": 118,
+      "reference": "Jul/26",
+      "unit": "points"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 171,
+      "previous": 168,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 343,
+      "previous": 334,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "value": 130,
+      "previous": 130,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 110,
+      "previous": 110,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SEN": {
+      "name": "Senegal",
+      "value": 146,
+      "previous": 144,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 101,
+      "previous": 98.7,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 145,
+      "previous": 135,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 123,
+      "previous": 122,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 131,
+      "previous": 130,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 110,
+      "previous": 109,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 130,
+      "previous": 130,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 148,
+      "previous": 142,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 252,
+      "previous": 251,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 146,
+      "previous": 141,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 101,
+      "previous": 100,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 127,
+      "previous": 126,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "value": 104,
+      "previous": 104,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 117,
+      "previous": 115,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "TTO": {
+      "name": "Trinidad And Tobago",
+      "value": 668,
+      "previous": 664,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 5901,
+      "previous": 5782,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "UGA": {
+      "name": "Uganda",
+      "value": 128,
+      "previous": 128,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 1757,
+      "previous": 1808,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 151,
+      "previous": 150,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 160,
+      "previous": 158,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "URY": {
+      "name": "Uruguay",
+      "value": 111,
+      "previous": 109,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 105,
+      "previous": 105,
+      "reference": "Sep/26",
+      "unit": "points"
+    }
+  },
+  "unmatched": []
+}

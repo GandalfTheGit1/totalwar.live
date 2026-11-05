@@ -1,0 +1,676 @@
+{
+  "slug": "money-supply-m3",
+  "name": "Money Supply M3",
+  "category": "Money",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.714Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": 2120960,
+      "previous": 2112355,
+      "reference": "Sep/26",
+      "unit": "ALL Million"
+    },
+    "AGO": {
+      "name": "Angola",
+      "value": 19595030,
+      "previous": 19654884,
+      "reference": "Sep/26",
+      "unit": "AOA Million"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 188758512,
+      "previous": 186888849,
+      "reference": "Aug/26",
+      "unit": "ARS Million"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 3498,
+      "previous": 3496,
+      "reference": "Sep/26",
+      "unit": "AUD Billion"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 461921,
+      "previous": 466568,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 56008,
+      "previous": 54978,
+      "reference": "Sep/26",
+      "unit": "AZN Million"
+    },
+    "BHS": {
+      "name": "Bahamas",
+      "value": 11067,
+      "previous": 11335,
+      "reference": "Aug/26",
+      "unit": "BSD Million"
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 17787,
+      "previous": 17908,
+      "reference": "Aug/26",
+      "unit": "BHD Million"
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "value": 2835,
+      "previous": 2805,
+      "reference": "Aug/26",
+      "unit": "BDT Billion"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 117693,
+      "previous": 116008,
+      "reference": "Sep/26",
+      "unit": "BYN Million"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 721400,
+      "previous": 720900,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "value": 328172446,
+      "previous": 325368707,
+      "reference": "Sep/26",
+      "unit": "Thousand BOB"
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 17111,
+      "previous": 17031,
+      "reference": "Sep/26",
+      "unit": "BAM Million"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 14246712,
+      "previous": 14189689,
+      "reference": "Sep/26",
+      "unit": "BRL Million"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 107450,
+      "previous": 107691,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "BDI": {
+      "name": "Burundi",
+      "value": 8475192,
+      "previous": 8452764,
+      "reference": "Aug/26",
+      "unit": "BIF Million"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 4094549,
+      "previous": 4081159,
+      "reference": "Aug/26",
+      "unit": "CAD Million"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 407142,
+      "previous": 404415,
+      "reference": "Sep/26",
+      "unit": "CLP Billion"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 1033808,
+      "previous": 1031096,
+      "reference": "Sep/26",
+      "unit": "COP Billion"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 79246,
+      "previous": 78944,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 56000,
+      "previous": 55308,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 7571689,
+      "previous": 7614632,
+      "reference": "Sep/26",
+      "unit": "CZK Million"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 2155677,
+      "previous": 2155951,
+      "reference": "Sep/26",
+      "unit": "DKK Million"
+    },
+    "DJI": {
+      "name": "Djibouti",
+      "value": 524698,
+      "previous": 507413,
+      "reference": "Dec/24",
+      "unit": "DJF Million"
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 3389031,
+      "previous": 3420255,
+      "reference": "Oct/26",
+      "unit": "DOP Million"
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "value": 25027,
+      "previous": 24684,
+      "reference": "Aug/26",
+      "unit": "USD Million"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 31977,
+      "previous": 31824,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 13958,
+      "previous": 13883,
+      "reference": "Aug/26",
+      "unit": "FJD Million"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 214663,
+      "previous": 214218,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 3656351,
+      "previous": 3672042,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 63216919,
+      "previous": 61813649,
+      "reference": "Sep/26",
+      "unit": "GEL Thousands"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 4181,
+      "previous": 4178,
+      "reference": "Aug/26",
+      "unit": "EUR Billion"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 279459,
+      "previous": 277485,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 829559,
+      "previous": 822345,
+      "reference": "Aug/26",
+      "unit": "HNL Million"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 22317144,
+      "previous": 22221486,
+      "reference": "Sep/26",
+      "unit": "HKD Million"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 50784,
+      "previous": 50512,
+      "reference": "Aug/26",
+      "unit": "HUF Billion"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 3629,
+      "previous": 3587,
+      "reference": "Sep/26",
+      "unit": "ISK Billion"
+    },
+    "IND": {
+      "name": "India",
+      "value": 337665,
+      "previous": 330674,
+      "reference": "Sep/26",
+      "unit": "INR Billion"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 10448,
+      "previous": 10372,
+      "reference": "Aug/26",
+      "unit": "IDR Trillion"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 575279,
+      "previous": 581993,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 2222903,
+      "previous": 2242483,
+      "reference": "Jul/26",
+      "unit": "ILS Million"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 1986249,
+      "previous": 1988679,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 1638260,
+      "previous": 1639738,
+      "reference": "Sep/26",
+      "unit": "JPY Billion"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 56246156,
+      "previous": 54994535,
+      "reference": "Sep/26",
+      "unit": "KZT Million"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 6386,
+      "previous": 6475,
+      "reference": "Aug/26",
+      "unit": "KES Billion"
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 42835,
+      "previous": 42768,
+      "reference": "Sep/26",
+      "unit": "KWD Million"
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "value": 5872361,
+      "previous": 5887292,
+      "reference": "Jul/26",
+      "unit": "LBP Billion"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 67416,
+      "previous": 67514,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 539,
+      "previous": 524,
+      "reference": "Sep/26",
+      "unit": "EUR Billion"
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "value": 24734,
+      "previous": 24513,
+      "reference": "Mar/26",
+      "unit": "MGA Billion"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 2659569,
+      "previous": 2636959,
+      "reference": "Sep/26",
+      "unit": "MYR Million"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 31188,
+      "previous": 31148,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 1093176,
+      "previous": 1085379,
+      "reference": "Aug/26",
+      "unit": "MUR Million"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 20318998827,
+      "previous": 20489104444,
+      "reference": "Aug/26",
+      "unit": "MXN Thousand"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 201682,
+      "previous": 203119,
+      "reference": "Sep/26",
+      "unit": "MDL Million"
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 2215675,
+      "previous": 2191120,
+      "reference": "Aug/26",
+      "unit": "MAD Million"
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 892235,
+      "previous": 882467,
+      "reference": "Aug/26",
+      "unit": "MZN Million"
+    },
+    "NPL": {
+      "name": "Nepal",
+      "value": 9166910,
+      "previous": 8981753,
+      "reference": "Sep/26",
+      "unit": "NPR Million"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 1273228,
+      "previous": 1269794,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 459840,
+      "previous": 454671,
+      "reference": "Sep/26",
+      "unit": "NZD Million"
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 274356,
+      "previous": 268808,
+      "reference": "Aug/26",
+      "unit": "NIO Million"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 146602412,
+      "previous": 139090131,
+      "reference": "Sep/26",
+      "unit": "NGN Million"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 3635562,
+      "previous": 3617420,
+      "reference": "Sep/26",
+      "unit": "NOK Million"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 50139926,
+      "previous": 49450970,
+      "reference": "Sep/26",
+      "unit": "PKR Million"
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": 173674972,
+      "previous": 171155827,
+      "reference": "Aug/26",
+      "unit": "PYG Million"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 20671438,
+      "previous": 20519681,
+      "reference": "Aug/26",
+      "unit": "PHP Million"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 2973100,
+      "previous": 2923717,
+      "reference": "Sep/26",
+      "unit": "PLN Million"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 357021,
+      "previous": 357804,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 876282,
+      "previous": 881253,
+      "reference": "Aug/26",
+      "unit": "QAR Million"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 816213,
+      "previous": 813337,
+      "reference": "Sep/26",
+      "unit": "RON Million"
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "value": 6965,
+      "previous": 6879,
+      "reference": "Aug/26",
+      "unit": "RWF Billion"
+    },
+    "STP": {
+      "name": "Sao Tome And Principe",
+      "value": 4628,
+      "previous": 4685,
+      "reference": "Sep/26",
+      "unit": "STN Million"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 3323247,
+      "previous": 3328620,
+      "reference": "Sep/26",
+      "unit": "SAR Million"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 5915431,
+      "previous": 5814631,
+      "reference": "Sep/26",
+      "unit": "RSD Million"
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 30279,
+      "previous": 29925,
+      "reference": "Aug/26",
+      "unit": "SCR Million"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 920417,
+      "previous": 915194,
+      "reference": "Sep/26",
+      "unit": "SGD Million"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 98.3,
+      "previous": 97.9,
+      "reference": "Aug/26",
+      "unit": "EUR Billion"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 44740,
+      "previous": 44672,
+      "reference": "Sep/26",
+      "unit": "EUR Million"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 6138803,
+      "previous": 6142378,
+      "reference": "Sep/26",
+      "unit": "ZAR Million"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 6368586,
+      "previous": 6354144,
+      "reference": "Aug/26",
+      "unit": "KRW Billion"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 1774051,
+      "previous": 1783510,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 5214127,
+      "previous": 5184700,
+      "reference": "Sep/26",
+      "unit": "SEK Million"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 1238936,
+      "previous": 1239475,
+      "reference": "Sep/26",
+      "unit": "CHF Million"
+    },
+    "TZA": {
+      "name": "Tanzania",
+      "value": 72828,
+      "previous": 72129,
+      "reference": "Sep/26",
+      "unit": "TZS Billion"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 28186,
+      "previous": 28201,
+      "reference": "Sep/26",
+      "unit": "THB Billion"
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "value": 155243,
+      "previous": 154042,
+      "reference": "Aug/26",
+      "unit": "TND Thousand"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 32613566987,
+      "previous": 32345984582,
+      "reference": "Sep/26",
+      "unit": "TRY Thousand"
+    },
+    "UGA": {
+      "name": "Uganda",
+      "value": 54810,
+      "previous": 53661,
+      "reference": "Aug/26",
+      "unit": "UGX Billion"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 4195653,
+      "previous": 4177750,
+      "reference": "Sep/26",
+      "unit": "UAH Million"
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 3465585,
+      "previous": 3440768,
+      "reference": "Aug/26",
+      "unit": "AED Million"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 3851812,
+      "previous": 3839593,
+      "reference": "Sep/26",
+      "unit": "GBP Million"
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "value": 3132892,
+      "previous": 2860540,
+      "reference": "Sep/26",
+      "unit": "VES Million"
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "value": 225528686,
+      "previous": 221780379,
+      "reference": "Aug/26",
+      "unit": "ZMW Thousand"
+    },
+    "ZWE": {
+      "name": "Zimbabwe",
+      "value": 156761,
+      "previous": 147931,
+      "reference": "Aug/26",
+      "unit": "ZWG Million"
+    }
+  },
+  "unmatched": []
+}

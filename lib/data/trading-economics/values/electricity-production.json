@@ -1,0 +1,340 @@
+{
+  "slug": "electricity-production",
+  "name": "Electricity Production",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.951Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "CHN": {
+      "name": "China",
+      "value": 829400,
+      "previous": 943800,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "IND": {
+      "name": "India",
+      "value": 143562,
+      "previous": 144162,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 51856,
+      "previous": 68521,
+      "reference": "Jun/26",
+      "unit": "Gigawatt-hour"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 39942,
+      "previous": 44312,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 29600,
+      "previous": 30400,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 28783,
+      "previous": 28018,
+      "reference": "Jul/26",
+      "unit": "Gigawatt-hour"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 25926,
+      "previous": 27717,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 25151,
+      "previous": 27717,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 23315,
+      "previous": 23267,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 18816,
+      "previous": 19416,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 14804,
+      "previous": 14094,
+      "reference": "Jun/26",
+      "unit": "Gigawatt-hour"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 13561,
+      "previous": 13222,
+      "reference": "Jul/26",
+      "unit": "Gigawatt-hour"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 11589,
+      "previous": 10605,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 11350,
+      "previous": 11150,
+      "reference": "Jul/26",
+      "unit": "Gigawatt-hour"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 10578,
+      "previous": 10329,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 5868,
+      "previous": 5600,
+      "reference": "Jul/26",
+      "unit": "Gigawatt-hour"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 5576,
+      "previous": 6094,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 5458,
+      "previous": 5067,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 5403,
+      "previous": 5746,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 5117,
+      "previous": 5485,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 4264,
+      "previous": 4293,
+      "reference": "Jul/26",
+      "unit": "Gigawatt-hour"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 3953,
+      "previous": 3923,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 3716,
+      "previous": 3801,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 3599,
+      "previous": 3535,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 2873,
+      "previous": 2928,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 2755,
+      "previous": 3265,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 2374,
+      "previous": 2168,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 2310,
+      "previous": 2268,
+      "reference": "Jul/26",
+      "unit": "Gigawatt-hour"
+    },
+    "AFG": {
+      "name": "Afghanistan",
+      "value": 1531,
+      "previous": 972,
+      "reference": "Dec/24",
+      "unit": "Gigawatt-hour"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 1396,
+      "previous": 1393,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 1262,
+      "previous": 1190,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "UNK": {
+      "name": "Kosovo",
+      "value": 1128,
+      "previous": 1858,
+      "reference": "Jun/26",
+      "unit": "Gigawatt-hour"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 947,
+      "previous": 912,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 665,
+      "previous": 666,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 658,
+      "previous": 667,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 612,
+      "previous": 655,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "MRT": {
+      "name": "Mauritania",
+      "value": 570,
+      "previous": 446,
+      "reference": "Jun/26",
+      "unit": "Gigawatt-hour"
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 466,
+      "previous": 427,
+      "reference": "Jul/26",
+      "unit": "Gigawatt-hour"
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "value": 434,
+      "previous": 434,
+      "reference": "Mar/26",
+      "unit": "Gigawatt-hour"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 377,
+      "previous": 331,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 368,
+      "previous": 427,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 275,
+      "previous": 288,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 222,
+      "previous": 291,
+      "reference": "Sep/26",
+      "unit": "Gigawatt-hour"
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "value": 177,
+      "previous": 181,
+      "reference": "Jun/26",
+      "unit": "Gigawatt-hour"
+    },
+    "MAC": {
+      "name": "Macau",
+      "value": 108,
+      "previous": 83.1,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    },
+    "BDI": {
+      "name": "Burundi",
+      "value": 42.93,
+      "previous": 46.5,
+      "reference": "Aug/26",
+      "unit": "Gigawatt-hour"
+    }
+  },
+  "unmatched": []
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "natural-gas-stocks-withdrawal",
+  "name": "Natural Gas Stocks Withdrawal",
+  "category": "Energy",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.254Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "BEL": {
+      "name": "Belgium",
+      "value": 4.1,
+      "previous": 8.3,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 0,
+      "previous": 0,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 0,
+      "previous": 0,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 92.5,
+      "previous": 173,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 11,
+      "previous": 12.3,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 352,
+      "previous": 372,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 421,
+      "previous": 597,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 63.7,
+      "previous": 138,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 2.7,
+      "previous": 93.7,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 21.5,
+      "previous": 21.5,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 81,
+      "previous": 53.2,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 4.4,
+      "previous": 14.2,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 0,
+      "previous": 0,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 4.8,
+      "previous": 7.8,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 94.1,
+      "previous": 97.1,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 0,
+      "previous": 0,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 0,
+      "previous": 0,
+      "reference": "Oct/26",
+      "unit": "GWh/d"
+    }
+  },
+  "unmatched": []
+}

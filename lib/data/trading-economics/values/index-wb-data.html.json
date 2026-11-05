@@ -1,0 +1,10 @@
+{
+  "slug": "index-wb-data.html",
+  "name": "Development Indicators",
+  "category": "WorldBank",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.838Z",
+  "columns": [],
+  "countries": {},
+  "unmatched": []
+}

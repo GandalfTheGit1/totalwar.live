@@ -1,0 +1,578 @@
+{
+  "slug": "wages",
+  "name": "Wages",
+  "category": "Labour",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.718Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": 92150,
+      "previous": 90119,
+      "reference": "Jun/26",
+      "unit": "ALL/Month"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 3162523,
+      "previous": 2151327,
+      "reference": "Jun/26",
+      "unit": "ARS/Month"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 314196,
+      "previous": 320763,
+      "reference": "Aug/26",
+      "unit": "AMD/Month"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 1579,
+      "previous": 1562,
+      "reference": "Jun/26",
+      "unit": "AUD/Week"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 3170,
+      "previous": 2942,
+      "reference": "Dec/24",
+      "unit": "EUR/Month"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 1173,
+      "previous": 1177,
+      "reference": "Aug/26",
+      "unit": "AZN/Month"
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 936,
+      "previous": 931,
+      "reference": "Jun/26",
+      "unit": "BHD/Month"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 3099,
+      "previous": 3136,
+      "reference": "Sep/26",
+      "unit": "BYN/Month"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 4076,
+      "previous": 3886,
+      "reference": "Dec/22",
+      "unit": "EUR/Month"
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 2646,
+      "previous": 2694,
+      "reference": "Aug/26",
+      "unit": "BAM/Month"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 3777,
+      "previous": 3760,
+      "reference": "Aug/26",
+      "unit": "BRL/Month"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 1421,
+      "previous": 1434,
+      "reference": "Jun/26",
+      "unit": "EUR/Month"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 33.1,
+      "previous": 32.91,
+      "reference": "Aug/26",
+      "unit": "CAD/Hour"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 7614,
+      "previous": 7599,
+      "reference": "Aug/26",
+      "unit": "CLP/Hour"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 129441,
+      "previous": 124110,
+      "reference": "Dec/25",
+      "unit": "CNY/Year"
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 787796,
+      "previous": 797045,
+      "reference": "Aug/26",
+      "unit": "CRC/Month"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 1543,
+      "previous": 1540,
+      "reference": "Aug/26",
+      "unit": "EUR/Month"
+    },
+    "CUB": {
+      "name": "Cuba",
+      "value": 6989,
+      "previous": 5851,
+      "reference": "Dec/25",
+      "unit": "CUP/Month"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 2548,
+      "previous": 2604,
+      "reference": "Jun/26",
+      "unit": "EUR/Month"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 51966,
+      "previous": 50282,
+      "reference": "Jun/26",
+      "unit": "CZK/Month"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 52846,
+      "previous": 50652,
+      "reference": "Dec/25",
+      "unit": "DKK/Month"
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 562,
+      "previous": 562,
+      "reference": "Sep/26",
+      "unit": "USD/Month"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 2135,
+      "previous": 2155,
+      "reference": "Mar/26",
+      "unit": "EUR/Month"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 4304,
+      "previous": 4269,
+      "reference": "Jun/26",
+      "unit": "EUR/Month"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 3602,
+      "previous": 3490,
+      "reference": "Dec/24",
+      "unit": "EUR/Month"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 2389,
+      "previous": 2364,
+      "reference": "Jun/26",
+      "unit": "GEL/Month"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 4851,
+      "previous": 4691,
+      "reference": "Dec/25",
+      "unit": "EUR/Month"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 20060,
+      "previous": 19783,
+      "reference": "Jun/26",
+      "unit": "HKD/Month"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 740600,
+      "previous": 745500,
+      "reference": "Aug/26",
+      "unit": "HUF/Month"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 982000,
+      "previous": 912000,
+      "reference": "Dec/25",
+      "unit": "ISK/Month"
+    },
+    "IND": {
+      "name": "India",
+      "value": 22699,
+      "previous": 21455,
+      "reference": "Dec/25",
+      "unit": "INR/Month"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 3288,
+      "previous": 3331,
+      "reference": "Mar/26",
+      "unit": "IDR/Month"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 1047,
+      "previous": 1065,
+      "reference": "Jun/26",
+      "unit": "EUR/Week"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 14534,
+      "previous": 15047,
+      "reference": "Jul/26",
+      "unit": "ILS/Month"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 34733,
+      "previous": 33842,
+      "reference": "Dec/25",
+      "unit": "EUR/Year"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 344966,
+      "previous": 500926,
+      "reference": "Aug/26",
+      "unit": "JPY/Month"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 486388,
+      "previous": 461486,
+      "reference": "Jun/26",
+      "unit": "KZT/Month"
+    },
+    "UNK": {
+      "name": "Kosovo",
+      "value": 713,
+      "previous": 639,
+      "reference": "Dec/25",
+      "unit": "EUR/Month"
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 61950,
+      "previous": 63124,
+      "reference": "Jul/26",
+      "unit": "KGS/Month"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 1446,
+      "previous": 1384,
+      "reference": "Jun/26",
+      "unit": "EUR/Month"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 2628,
+      "previous": 2554,
+      "reference": "Jun/26",
+      "unit": "EUR/Month"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 7168,
+      "previous": 6941,
+      "reference": "Dec/25",
+      "unit": "EUR/Month"
+    },
+    "MAC": {
+      "name": "Macau",
+      "value": 18000,
+      "previous": 18300,
+      "reference": "Jun/26",
+      "unit": "MOP/Monthly"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 73336,
+      "previous": 72935,
+      "reference": "Aug/26",
+      "unit": "MKD/Month"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 3167,
+      "previous": 3045,
+      "reference": "Dec/25",
+      "unit": "MYR/Month"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 2282,
+      "previous": 2270,
+      "reference": "Jun/26",
+      "unit": "EUR/Month"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 45794,
+      "previous": 43511,
+      "reference": "Dec/25",
+      "unit": "MUR/Month"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 666,
+      "previous": 673,
+      "reference": "Sep/26",
+      "unit": "MXN/Day"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 16896,
+      "previous": 15987,
+      "reference": "Jun/26",
+      "unit": "MDL/Month"
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 3027,
+      "previous": 2934,
+      "reference": "Jun/26",
+      "unit": "MNT Thousand/Month"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 1242,
+      "previous": 1238,
+      "reference": "Aug/26",
+      "unit": "EUR/Month"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 3875,
+      "previous": 3708,
+      "reference": "Dec/25",
+      "unit": "EUR/Month"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 44.72,
+      "previous": 44.2,
+      "reference": "Jun/26",
+      "unit": "NZD/Hour"
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 17.03,
+      "previous": 16.9,
+      "reference": "Jul/26",
+      "unit": "NIO Thousands/Month"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 63700,
+      "previous": 63630,
+      "reference": "Jun/26",
+      "unit": "NOK/Month"
+    },
+    "PAN": {
+      "name": "Panama",
+      "value": 1340,
+      "previous": 1310,
+      "reference": "Dec/25",
+      "unit": "PAB/Month"
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 2302,
+      "previous": 2308,
+      "reference": "Sep/26",
+      "unit": "PEN/Month"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 9233,
+      "previous": 9563,
+      "reference": "Jun/26",
+      "unit": "PLN/Month"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 1348,
+      "previous": 1333,
+      "reference": "Jun/26",
+      "unit": "EUR/Month"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 9497,
+      "previous": 9709,
+      "reference": "Aug/26",
+      "unit": "RON/Month"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 103014,
+      "previous": 109524,
+      "reference": "Aug/26",
+      "unit": "RUB/Month"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 5794,
+      "previous": 5835,
+      "reference": "Jun/26",
+      "unit": "SAR/Month"
+    },
+    "SEN": {
+      "name": "Senegal",
+      "value": 100966,
+      "previous": 126642,
+      "reference": "Jun/26",
+      "unit": "XOF/Month"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 117282,
+      "previous": 121346,
+      "reference": "Aug/26",
+      "unit": "RSD/Month"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 6605,
+      "previous": 6593,
+      "reference": "Jun/26",
+      "unit": "SGD/Month"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 1725,
+      "previous": 1809,
+      "reference": "Aug/26",
+      "unit": "EUR/Month"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 2696,
+      "previous": 2709,
+      "reference": "Aug/26",
+      "unit": "EUR/Month"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 30611,
+      "previous": 29997,
+      "reference": "Jun/26",
+      "unit": "ZAR/Month"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 4344298,
+      "previous": 4973731,
+      "reference": "Jun/26",
+      "unit": "KRW/Month"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 2513,
+      "previous": 2404,
+      "reference": "Jun/26",
+      "unit": "EUR/Month"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 212,
+      "previous": 216,
+      "reference": "Jul/26",
+      "unit": "SEK/Hour"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 7150,
+      "previous": 7024,
+      "reference": "Dec/25",
+      "unit": "CHF/Month"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 65826,
+      "previous": 71471,
+      "reference": "Aug/26",
+      "unit": "TWD/Month"
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "value": 3508,
+      "previous": 3805,
+      "reference": "Jul/26",
+      "unit": "TJS/Month"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 123,
+      "previous": 130,
+      "reference": "Jun/26",
+      "unit": "Points"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 34642,
+      "previous": 23789,
+      "reference": "Dec/24",
+      "unit": "TRY/Month"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 757,
+      "previous": 757,
+      "reference": "Aug/26",
+      "unit": "GBP/Week"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 32.6,
+      "previous": 32.53,
+      "reference": "Sep/26",
+      "unit": "USD/Hour"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 6377,
+      "previous": 5361,
+      "reference": "Dec/25",
+      "unit": "UZS Thousand/Month"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 9200,
+      "previous": 9000,
+      "reference": "Sep/26",
+      "unit": "VND Thousand/Month"
+    }
+  },
+  "unmatched": []
+}

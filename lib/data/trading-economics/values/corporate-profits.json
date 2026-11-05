@@ -1,0 +1,95 @@
+{
+  "slug": "corporate-profits",
+  "name": "Corporate Profits",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.930Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 134696,
+      "previous": 132311,
+      "reference": "Jun/26",
+      "unit": "AUD Million"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 162059,
+      "previous": 152067,
+      "reference": "Jun/26",
+      "unit": "CAD Million"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 6033740,
+      "previous": 5271980,
+      "reference": "Sep/26",
+      "unit": "CNY Million"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 368511,
+      "previous": 381192,
+      "reference": "Dec/24",
+      "unit": "CZK Million"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 579715,
+      "previous": 1083668,
+      "reference": "Mar/26",
+      "unit": "EUR Thousand"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 237,
+      "previous": 227,
+      "reference": "Jun/26",
+      "unit": "EUR Billion"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 44667,
+      "previous": 32627,
+      "reference": "Jun/26",
+      "unit": "JPY Billion"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 192706,
+      "previous": 88247,
+      "reference": "Jun/26",
+      "unit": "PLN Million"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 15677,
+      "previous": 13028,
+      "reference": "Aug/26",
+      "unit": "RUB Billion"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 170760,
+      "previous": 164459,
+      "reference": "Jun/26",
+      "unit": "GBP Million"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 3877,
+      "previous": 3601,
+      "reference": "Jun/26",
+      "unit": "USD Billion"
+    }
+  },
+  "unmatched": []
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "new-orders",
+  "name": "New Orders",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.111Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 20,
+      "previous": 7,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 96.8,
+      "previous": 112,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 79851248,
+      "previous": 80282460,
+      "reference": "Aug/26",
+      "unit": "CAD Thousand"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 50.5,
+      "previous": 50.6,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 106,
+      "previous": 105,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 2,
+      "previous": 14,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 100,
+      "previous": 164,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "France",
+      "value": -15.8,
+      "previous": -13.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 86,
+      "previous": 96.2,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": -9,
+      "previous": -11,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 116,
+      "previous": 118,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 1209,
+      "previous": 1280,
+      "reference": "Aug/26",
+      "unit": "JPY Billion"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 4.9,
+      "previous": 7,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 104,
+      "previous": 111,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 106,
+      "previous": 133,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 4950,
+      "previous": 4831,
+      "reference": "Aug/26",
+      "unit": "EUR Million"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 9576292,
+      "previous": 11819998,
+      "reference": "Aug/26",
+      "unit": "KRW Million"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": -5.3,
+      "previous": -5.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 98.8,
+      "previous": 82.9,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 114210,
+      "previous": 102955,
+      "reference": "Sep/26",
+      "unit": "USD Million"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 9163,
+      "previous": 10395,
+      "reference": "Jun/26",
+      "unit": "GBP Million"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 663491,
+      "previous": 662837,
+      "reference": "Aug/26",
+      "unit": "USD Million"
+    }
+  },
+  "unmatched": []
+}

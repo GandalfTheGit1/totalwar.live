@@ -1,0 +1,361 @@
+{
+  "slug": "gross-national-product",
+  "name": "Gross National Product",
+  "category": "GDP",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.695Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 670018,
+      "previous": 669527,
+      "reference": "Jun/26",
+      "unit": "AUD Million"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 524,
+      "previous": 504,
+      "reference": "Dec/25",
+      "unit": "EUR Billion"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 125979,
+      "previous": 122134,
+      "reference": "Dec/25",
+      "unit": "AZN Million"
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "value": 37994,
+      "previous": 36529,
+      "reference": "Jun/26",
+      "unit": "BDT Billion"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 169474,
+      "previous": 162290,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 3342133,
+      "previous": 3149651,
+      "reference": "Jun/26",
+      "unit": "BRL Million"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 3379468,
+      "previous": 3267564,
+      "reference": "Jun/26",
+      "unit": "CAD Million"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 215645,
+      "previous": 210470,
+      "reference": "Dec/25",
+      "unit": "CLP Billion"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 1393700,
+      "previous": 1339672,
+      "reference": "Dec/25",
+      "unit": "CNY Hundred Million"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 32190,
+      "previous": 31016,
+      "reference": "Dec/25",
+      "unit": "EUR Million"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 8384918,
+      "previous": 7848471,
+      "reference": "Dec/25",
+      "unit": "CZK Million"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 701156,
+      "previous": 699230,
+      "reference": "Jun/26",
+      "unit": "DKK Million"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 59216,
+      "previous": 59431,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 26380,
+      "previous": 23556,
+      "reference": "Jun/26",
+      "unit": "GEL Million"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 1213,
+      "previous": 1198,
+      "reference": "Jun/26",
+      "unit": "EUR Billion"
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 239932,
+      "previous": 232498,
+      "reference": "Dec/25",
+      "unit": "HNL Million"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 966062,
+      "previous": 928292,
+      "reference": "Jun/26",
+      "unit": "HKD Million"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 3661794,
+      "previous": 3539686,
+      "reference": "Dec/25",
+      "unit": "ISK Million"
+    },
+    "IND": {
+      "name": "India",
+      "value": 31811699,
+      "previous": 29569423,
+      "reference": "Dec/25",
+      "unit": "INR Tens Of Million"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 111318,
+      "previous": 117120,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 536924,
+      "previous": 508927,
+      "reference": "Jun/26",
+      "unit": "ILS Million"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 623308,
+      "previous": 625647,
+      "reference": "Jun/26",
+      "unit": "JPY Billion"
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 43067,
+      "previous": 40754,
+      "reference": "Dec/25",
+      "unit": "JOD Million"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 159583751,
+      "previous": 136693318,
+      "reference": "Dec/25",
+      "unit": "KZT Million"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 11249,
+      "previous": 9678,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 81610,
+      "previous": 77058,
+      "reference": "Dec/25",
+      "unit": "EUR Million"
+    },
+    "MAC": {
+      "name": "Macau",
+      "value": 390379,
+      "previous": 356975,
+      "reference": "Dec/24",
+      "unit": "MOP Million"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 425,
+      "previous": 421,
+      "reference": "Jun/26",
+      "unit": "MYR Billion"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 5742480,
+      "previous": 5538846,
+      "reference": "Jun/26",
+      "unit": "EUR Thousand"
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 79844571,
+      "previous": 71613927,
+      "reference": "Dec/25",
+      "unit": "MNT Million"
+    },
+    "NAM": {
+      "name": "Namibia",
+      "value": 253499,
+      "previous": 242157,
+      "reference": "Dec/25",
+      "unit": "NAD Million"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 301988,
+      "previous": 294159,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 78235,
+      "previous": 78636,
+      "reference": "Jun/26",
+      "unit": "NZD Million"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 1422075,
+      "previous": 1411085,
+      "reference": "Dec/25",
+      "unit": "NOK Million"
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 38823,
+      "previous": 38580,
+      "reference": "Dec/24",
+      "unit": "OMR Million"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 12620632,
+      "previous": 12404120,
+      "reference": "Mar/26",
+      "unit": "PKR Million"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 6794866,
+      "previous": 6751181,
+      "reference": "Jun/26",
+      "unit": "PHP Million"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 79444,
+      "previous": 75233,
+      "reference": "Jun/26",
+      "unit": "EUR Million"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 789529,
+      "previous": 765498,
+      "reference": "Dec/25",
+      "unit": "SGD Million"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 70486,
+      "previous": 66968,
+      "reference": "Dec/25",
+      "unit": "EUR Million"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 4775131,
+      "previous": 4932893,
+      "reference": "Jun/26",
+      "unit": "ZAR Million"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 658868,
+      "previous": 624001,
+      "reference": "Jun/26",
+      "unit": "KRW Billion"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 32750844,
+      "previous": 30095825,
+      "reference": "Dec/25",
+      "unit": "LKR Million"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 1869219,
+      "previous": 1689987,
+      "reference": "Jun/26",
+      "unit": "SEK Million"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 7321048,
+      "previous": 7323437,
+      "reference": "Jun/26",
+      "unit": "TWD Million"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 2932579,
+      "previous": 3181966,
+      "reference": "Jun/26",
+      "unit": "THB Billion"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 783358,
+      "previous": 779646,
+      "reference": "Jun/26",
+      "unit": "GBP Million"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 24423,
+      "previous": 24276,
+      "reference": "Jun/26",
+      "unit": "USD Billion"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 12487929,
+      "previous": 11131020,
+      "reference": "Dec/25",
+      "unit": "VND Billion"
+    }
+  },
+  "unmatched": []
+}

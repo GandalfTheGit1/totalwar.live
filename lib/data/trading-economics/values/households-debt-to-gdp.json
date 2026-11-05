@@ -1,0 +1,326 @@
+{
+  "slug": "households-debt-to-gdp",
+  "name": "Households Debt to GDP",
+  "category": "Consumer",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.592Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "CHE": {
+      "name": "Switzerland",
+      "value": 127,
+      "previous": 123,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 114,
+      "previous": 114,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 99.87,
+      "previous": 100,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 94.6,
+      "previous": 94.4,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 91,
+      "previous": 91,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 88.9,
+      "previous": 87.8,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 87.8,
+      "previous": 87.3,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 86.7,
+      "previous": 87.5,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 85.1,
+      "previous": 88.1,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 82.5,
+      "previous": 82.6,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 82.1,
+      "previous": 82.2,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 72.6,
+      "previous": 73.5,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 69.5,
+      "previous": 69.8,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 67.2,
+      "previous": 68.1,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 61.7,
+      "previous": 62.5,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 60.8,
+      "previous": 60.8,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 59.1,
+      "previous": 59.4,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 58.2,
+      "previous": 61.3,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 57.5,
+      "previous": 58,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 56.8,
+      "previous": 56.8,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 54.2,
+      "previous": 53.9,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "IND": {
+      "name": "India",
+      "value": 49.1,
+      "previous": 47.7,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 47.9,
+      "previous": 48.2,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 44.1,
+      "previous": 44,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 43.4,
+      "previous": 43.8,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 42.5,
+      "previous": 42.9,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 42.5,
+      "previous": 42.5,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 41.3,
+      "previous": 41.5,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 38,
+      "previous": 37.6,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 37.5,
+      "previous": 38,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 35.9,
+      "previous": 35.9,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 33.7,
+      "previous": 33.7,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 31.6,
+      "previous": 31.7,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 31.6,
+      "previous": 31.4,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 26.3,
+      "previous": 25.3,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 25.7,
+      "previous": 25.5,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 24.47,
+      "previous": 23.82,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 22.1,
+      "previous": 22.1,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 21,
+      "previous": 21.1,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 18.7,
+      "previous": 18.3,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 17.4,
+      "previous": 17.4,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 15.2,
+      "previous": 15.5,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 10.1,
+      "previous": 10.1,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 5.6,
+      "previous": 5.7,
+      "reference": "Mar/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

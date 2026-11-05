@@ -21,7 +21,8 @@ export interface TeCountryValue {
   previous: number | null;
   reference: string | null;
   unit: string | null;
-  cells: Record<string, string>;
+  /** Only kept when the main value is not the "Last" column (e.g. rating). */
+  cells?: Record<string, string>;
 }
 
 export interface TeIndicatorValues extends TeIndicator {
@@ -36,6 +37,8 @@ export interface TeIndicatorValues extends TeIndicator {
 
 export interface TeCountryRow {
   teSlug: string;
+  /** Indicator slug on the country's own page (/{teSlug}/{indicatorSlug}); can differ from the country-list slug. */
+  indicatorSlug: string;
   name: string;
   /** Cell text keyed by column header (sort arrows stripped). */
   cells: Record<string, string>;
@@ -83,7 +86,7 @@ export function parseCountryList(html: string): { columns: string[]; rows: TeCou
         const header = columns[i + 1];
         if (header) cells[header] = cleanText($(td).text());
       });
-      rows.push({ teSlug: link.split('/')[1] ?? '', name, cells });
+      rows.push({ teSlug: link.split('/')[1] ?? '', indicatorSlug: link.split('/')[2] ?? '', name, cells });
     });
     return { columns: columns.filter(Boolean), rows };
   }
@@ -95,4 +98,40 @@ export function parseTeNumber(raw: string | undefined): number | null {
   if (!raw) return null;
   const n = Number(raw.replace(/,/g, ''));
   return raw.trim() !== '' && Number.isFinite(n) ? n : null;
+}
+
+export interface TeCountryIndicatorRow {
+  slug: string;
+  name: string;
+  category: string;
+  last: number | null;
+  previous: number | null;
+  unit: string | null;
+  reference: string | null;
+}
+
+/** Every indicator on /{country}/indicators: one tab per category, rows are Last · Previous · Highest · Lowest · Unit · Reference. */
+export function parseCountryIndicators(html: string, teSlug: string): TeCountryIndicatorRow[] {
+  const $ = cheerio.load(html);
+  const out: TeCountryIndicatorRow[] = [];
+  const seen = new Set<string>();
+  $('.tab-pane').each((_, pane) => {
+    const id = $(pane).attr('id') ?? '';
+    if (id === 'overview') return; // repeats rows from the other tabs
+    const category = cleanText($(`a[href="#${id}"]`).first().text()) || id;
+    $(pane).find('tr').each((__, tr) => {
+      const tds = $(tr).find('td');
+      const href = tds.first().find('a').attr('href') ?? '';
+      const slug = href.startsWith(`/${teSlug}/`) ? href.slice(teSlug.length + 2) : '';
+      if (!slug || slug.includes('/') || seen.has(slug) || tds.length < 7) return;
+      seen.add(slug);
+      const text = (i: number) => cleanText($(tds[i]).text());
+      out.push({
+        slug, name: text(0), category,
+        last: parseTeNumber(text(1)), previous: parseTeNumber(text(2)),
+        unit: text(5) || null, reference: text(6) || null,
+      });
+    });
+  });
+  return out;
 }

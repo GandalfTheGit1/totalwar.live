@@ -1,0 +1,235 @@
+{
+  "slug": "leading-economic-index",
+  "name": "Leading Economic Index",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.014Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ARG": {
+      "name": "Argentina",
+      "value": -0.27,
+      "previous": -0.72,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 5,
+      "previous": 5.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": -0.1,
+      "previous": 0,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 0.3,
+      "previous": -0.2,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 0.2,
+      "previous": -1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 148,
+      "previous": 148,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": -0.04,
+      "previous": 1.11,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 1.42,
+      "previous": 0.55,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 5.6,
+      "previous": 3.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 7.9,
+      "previous": 2.3,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "value": 5.48,
+      "previous": 5.6,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "GHA": {
+      "name": "Ghana",
+      "value": 14.9,
+      "previous": 12.7,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 4.3,
+      "previous": 4.4,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 2.9,
+      "previous": 5.7,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 118,
+      "previous": 118,
+      "reference": "Aug/26",
+      "unit": "Points"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 0.2,
+      "previous": 0.6,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 2.5,
+      "previous": 3.4,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 0,
+      "previous": 0.5,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "PAN": {
+      "name": "Panama",
+      "value": 7.36,
+      "previous": 8.49,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": 6.8,
+      "previous": 5.5,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 3.23,
+      "previous": 3.56,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 2.4,
+      "previous": 2.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PRI": {
+      "name": "Puerto Rico",
+      "value": 0.1,
+      "previous": -0.3,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 1.1,
+      "previous": -0.8,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 132,
+      "previous": 131,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 108,
+      "previous": 107,
+      "reference": "Oct/26",
+      "unit": "index points"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 141,
+      "previous": 138,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 166,
+      "previous": 167,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "UGA": {
+      "name": "Uganda",
+      "value": 0.3,
+      "previous": -0.67,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 0.7,
+      "previous": 0.5,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 99.6,
+      "previous": 99.5,
+      "reference": "Sep/26",
+      "unit": "points"
+    }
+  },
+  "unmatched": []
+}

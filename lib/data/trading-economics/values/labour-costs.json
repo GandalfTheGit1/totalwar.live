@@ -1,0 +1,319 @@
+{
+  "slug": "labour-costs",
+  "name": "Labour Costs",
+  "category": "Labour",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.447Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 110,
+      "previous": 109,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 159,
+      "previous": 130,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 121,
+      "previous": 120,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 170,
+      "previous": 172,
+      "reference": "Jul/26",
+      "unit": "points"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 242,
+      "previous": 259,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 134,
+      "previous": 133,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 65.9,
+      "previous": 69.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 160,
+      "previous": 159,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 114,
+      "previous": 112,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 135,
+      "previous": 137,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 110,
+      "previous": 109,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 160,
+      "previous": 157,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 121,
+      "previous": 125,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 115,
+      "previous": 115,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 124,
+      "previous": 123,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 117,
+      "previous": 117,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 221,
+      "previous": 252,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 107,
+      "previous": 99.96,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 114,
+      "previous": 113,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 143,
+      "previous": 143,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 181,
+      "previous": 176,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 153,
+      "previous": 169,
+      "reference": "Mar/26",
+      "unit": "points"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 156,
+      "previous": 157,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 132,
+      "previous": 127,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 163,
+      "previous": 172,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 131,
+      "previous": 120,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 1458,
+      "previous": 1450,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 151,
+      "previous": 134,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 177,
+      "previous": 177,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 159,
+      "previous": 147,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 229,
+      "previous": 270,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 212,
+      "previous": 219,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 113,
+      "previous": 127,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 165,
+      "previous": 167,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 150,
+      "previous": 148,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 147,
+      "previous": 146,
+      "reference": "Mar/26",
+      "unit": "points"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 120,
+      "previous": 115,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 172,
+      "previous": 173,
+      "reference": "Jul/26",
+      "unit": "points"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 90.16,
+      "previous": 113,
+      "reference": "Aug/26",
+      "unit": "points"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 107,
+      "previous": 99.25,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 1348,
+      "previous": 1303,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 115,
+      "previous": 113,
+      "reference": "Mar/26",
+      "unit": "points"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 124,
+      "previous": 124,
+      "reference": "Jun/26",
+      "unit": "points"
+    }
+  },
+  "unmatched": []
+}

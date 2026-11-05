@@ -1,0 +1,354 @@
+{
+  "slug": "manufacturing-pmi",
+  "name": "Manufacturing PMI",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.203Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IRL": {
+      "name": "Manufacturing PMI",
+      "value": 55.2,
+      "previous": 55.5,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "IDN": {
+      "name": "Manufacturing PMI",
+      "value": 54,
+      "previous": 52.4,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "USA": {
+      "name": "Manufacturing PMI",
+      "value": 54.9,
+      "previous": 55.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "TWN": {
+      "name": "Manufacturing PMI",
+      "value": 54.9,
+      "previous": 56.7,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "MYS": {
+      "name": "Manufacturing PMI",
+      "value": 51,
+      "previous": 49.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "IND": {
+      "name": "Manufacturing PMI",
+      "value": 54.7,
+      "previous": 55.1,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "CHE": {
+      "name": "Manufacturing PMI",
+      "value": 56.7,
+      "previous": 55.3,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "SAU": {
+      "name": "Manufacturing PMI",
+      "value": 55.3,
+      "previous": 53.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "COL": {
+      "name": "Manufacturing PMI",
+      "value": 54.6,
+      "previous": 54.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "KEN": {
+      "name": "Manufacturing PMI",
+      "value": 51.3,
+      "previous": 49.7,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CHN": {
+      "name": "Manufacturing PMI",
+      "value": 52,
+      "previous": 52.1,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "TUR": {
+      "name": "Manufacturing PMI",
+      "value": 47.3,
+      "previous": 47.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "SGP": {
+      "name": "Manufacturing PMI",
+      "value": 51.4,
+      "previous": 51.7,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "KOR": {
+      "name": "Manufacturing PMI",
+      "value": 51.3,
+      "previous": 53.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "POL": {
+      "name": "Manufacturing PMI",
+      "value": 50,
+      "previous": 49,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "MEX": {
+      "name": "Manufacturing PMI",
+      "value": 50.3,
+      "previous": 49.8,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CAN": {
+      "name": "Manufacturing PMI",
+      "value": 49.6,
+      "previous": 51.5,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ESP": {
+      "name": "Manufacturing PMI",
+      "value": 52.2,
+      "previous": 51,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "PHL": {
+      "name": "Manufacturing PMI",
+      "value": 49.6,
+      "previous": 54.9,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "NLD": {
+      "name": "Manufacturing PMI",
+      "value": 55,
+      "previous": 55.6,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "GBR": {
+      "name": "Manufacturing PMI",
+      "value": 52.8,
+      "previous": 51.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "CZE": {
+      "name": "Manufacturing PMI",
+      "value": 55,
+      "previous": 53.5,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "BRA": {
+      "name": "Manufacturing PMI",
+      "value": 44.8,
+      "previous": 46.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SWE": {
+      "name": "Manufacturing PMI",
+      "value": 60.5,
+      "previous": 58.5,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "JPN": {
+      "name": "Manufacturing PMI",
+      "value": 53.3,
+      "previous": 54.1,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "AUS": {
+      "name": "Manufacturing PMI",
+      "value": 49.6,
+      "previous": 49.6,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "GRC": {
+      "name": "Manufacturing PMI",
+      "value": 53.3,
+      "previous": 54,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "NZL": {
+      "name": "Manufacturing PMI",
+      "value": 56.5,
+      "previous": 53.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Manufacturing PMI",
+      "value": 54.2,
+      "previous": 53.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "AUT": {
+      "name": "Manufacturing PMI",
+      "value": 55.9,
+      "previous": 54.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "HUN": {
+      "name": "Manufacturing PMI",
+      "value": 53.1,
+      "previous": 53.3,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ROU": {
+      "name": "Manufacturing PMI",
+      "value": 50.9,
+      "previous": 51.1,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ITA": {
+      "name": "Manufacturing PMI",
+      "value": 49.4,
+      "previous": 50.4,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "Manufacturing PMI",
+      "value": 49.5,
+      "previous": 50.6,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "THA": {
+      "name": "Manufacturing PMI",
+      "value": 54.8,
+      "previous": 54.3,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "ZAF": {
+      "name": "Manufacturing PMI",
+      "value": 49.6,
+      "previous": 48.7,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "HKG": {
+      "name": "Manufacturing PMI",
+      "value": 49.2,
+      "previous": 49.5,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "QAT": {
+      "name": "Manufacturing PMI",
+      "value": 47.3,
+      "previous": 47.6,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ARE": {
+      "name": "Manufacturing PMI",
+      "value": 55.3,
+      "previous": 55.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "VNM": {
+      "name": "Manufacturing PMI",
+      "value": 52.3,
+      "previous": 51.9,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "LKA": {
+      "name": "Manufacturing PMI",
+      "value": 53,
+      "previous": 53,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MMR": {
+      "name": "Manufacturing PMI",
+      "value": 49.1,
+      "previous": 50.3,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MNG": {
+      "name": "Manufacturing PMI",
+      "value": 47.2,
+      "previous": 38.2,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "RUS": {
+      "name": "Manufacturing PMI",
+      "value": 49.9,
+      "previous": 49.8,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "KAZ": {
+      "name": "Manufacturing PMI",
+      "value": 46.4,
+      "previous": 46,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "EGY": {
+      "name": "Manufacturing PMI",
+      "value": 47.2,
+      "previous": 49.6,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LBN": {
+      "name": "Manufacturing PMI",
+      "value": 50.5,
+      "previous": 50.1,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PRI": {
+      "name": "Manufacturing PMI",
+      "value": 52.9,
+      "previous": 54.6,
+      "reference": "Aug/26",
+      "unit": "points"
+    }
+  }
+}

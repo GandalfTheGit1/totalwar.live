@@ -1,0 +1,221 @@
+{
+  "slug": "job-vacancy-rate",
+  "name": "Job Vacancy Rate",
+  "category": "Labour",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.203Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IRL": {
+      "name": "Job Vacancy Rate",
+      "value": 1.3,
+      "previous": 1.2,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "SVN": {
+      "name": "Job Vacancy Rate",
+      "value": 2.5,
+      "previous": 2.5,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "CHE": {
+      "name": "Job Vacancy Rate",
+      "value": 1.5,
+      "previous": 1.6,
+      "reference": "Dec/25",
+      "unit": "percent"
+    },
+    "MLT": {
+      "name": "Job Vacancy Rate",
+      "value": 3.1,
+      "previous": 3.3,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "POL": {
+      "name": "Job Vacancy Rate",
+      "value": 0.8,
+      "previous": 0.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "CYP": {
+      "name": "Job Vacancy Rate",
+      "value": 2.6,
+      "previous": 2.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "NOR": {
+      "name": "Job Vacancy Rate",
+      "value": 3,
+      "previous": 3.4,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "LVA": {
+      "name": "Job Vacancy Rate",
+      "value": 2.2,
+      "previous": 2.2,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "BGR": {
+      "name": "Job Vacancy Rate",
+      "value": 0.8,
+      "previous": 0.9,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "ESP": {
+      "name": "Job Vacancy Rate",
+      "value": 0.8,
+      "previous": 0.9,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "NLD": {
+      "name": "Job Vacancy Rate",
+      "value": 4.1,
+      "previous": 4,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "FIN": {
+      "name": "Job Vacancy Rate",
+      "value": 1.1,
+      "previous": 1.9,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "CZE": {
+      "name": "Job Vacancy Rate",
+      "value": 1.9,
+      "previous": 1.8,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "SWE": {
+      "name": "Job Vacancy Rate",
+      "value": 2.2,
+      "previous": 2.1,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "HRV": {
+      "name": "Job Vacancy Rate",
+      "value": 1.3,
+      "previous": 1.5,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "GRC": {
+      "name": "Job Vacancy Rate",
+      "value": 1.8,
+      "previous": 2.1,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "EST": {
+      "name": "Job Vacancy Rate",
+      "value": 1.4,
+      "previous": 1.5,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "BEL": {
+      "name": "Job Vacancy Rate",
+      "value": 3.3,
+      "previous": 3.4,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "SVK": {
+      "name": "Job Vacancy Rate",
+      "value": 0.9,
+      "previous": 0.9,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "PRT": {
+      "name": "Job Vacancy Rate",
+      "value": 1.6,
+      "previous": 1.4,
+      "reference": "Mar/26",
+      "unit": "percent"
+    },
+    "DEU": {
+      "name": "Job Vacancy Rate",
+      "value": 2.4,
+      "previous": 2.7,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "AUT": {
+      "name": "Job Vacancy Rate",
+      "value": 2.9,
+      "previous": 3.1,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "HUN": {
+      "name": "Job Vacancy Rate",
+      "value": 2.1,
+      "previous": 2.1,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "ROU": {
+      "name": "Job Vacancy Rate",
+      "value": 0.5,
+      "previous": 0.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "ITA": {
+      "name": "Job Vacancy Rate",
+      "value": 1.5,
+      "previous": 1.9,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "FRA": {
+      "name": "Job Vacancy Rate",
+      "value": 2.4,
+      "previous": 2.4,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "LUX": {
+      "name": "Job Vacancy Rate",
+      "value": 1.4,
+      "previous": 1.3,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "LTU": {
+      "name": "Job Vacancy Rate",
+      "value": 2.3,
+      "previous": 2.2,
+      "reference": "Jun/26",
+      "unit": "percent"
+    },
+    "ISL": {
+      "name": "Job Vacancy Rate",
+      "value": 2.8,
+      "previous": 1.7,
+      "reference": "Jun/26",
+      "unit": "percent"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "cash-reserve-ratio",
+  "name": "Cash Reserve Ratio",
+  "category": "Money",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.488Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AGO": {
+      "name": "Angola",
+      "value": 22,
+      "previous": 22,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 21,
+      "previous": 21,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 7.5,
+      "previous": 7.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 4,
+      "previous": 4,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 6,
+      "previous": 6,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "IND": {
+      "name": "India",
+      "value": 3,
+      "previous": 3,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 7,
+      "previous": 9,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "value": 10,
+      "previous": 10,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 1,
+      "previous": 1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 18,
+      "previous": 18,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 45,
+      "previous": 45,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 5,
+      "previous": 5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 3.5,
+      "previous": 3.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 5,
+      "previous": 5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 8.5,
+      "previous": 8.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 7,
+      "previous": 7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 13,
+      "previous": 13,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 2,
+      "previous": 2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 25,
+      "previous": 25,
+      "reference": "Sep/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

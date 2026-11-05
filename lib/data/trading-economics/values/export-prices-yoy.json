@@ -1,0 +1,53 @@
+{
+  "slug": "export-prices-yoy",
+  "name": "Export Prices YoY",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.205Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "USA": {
+      "name": "Export Prices YoY",
+      "value": 11.6,
+      "previous": 9.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "SGP": {
+      "name": "Export Prices YoY",
+      "value": 19.4,
+      "previous": 15.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "KOR": {
+      "name": "Export Prices YoY",
+      "value": 40.9,
+      "previous": 42.7,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "FIN": {
+      "name": "Export Prices YoY",
+      "value": 10.3,
+      "previous": 8.7,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "BTN": {
+      "name": "Export Prices YoY",
+      "value": -1.42,
+      "previous": 5.24,
+      "reference": "Dec/25",
+      "unit": "percent"
+    }
+  }
+}

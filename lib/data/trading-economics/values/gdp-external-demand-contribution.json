@@ -1,0 +1,53 @@
+{
+  "slug": "gdp-external-demand-contribution",
+  "name": "GDP External Demand Contribution",
+  "category": "GDP",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.205Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "GBR": {
+      "name": "GDP External Demand Contribution",
+      "value": 0.84,
+      "previous": -0.47,
+      "reference": "Jun/26",
+      "unit": "percentage points"
+    },
+    "JPN": {
+      "name": "GDP External Demand Contribution",
+      "value": 0.5,
+      "previous": 0.3,
+      "reference": "Jun/26",
+      "unit": "percentage points"
+    },
+    "AUS": {
+      "name": "GDP External Demand Contribution",
+      "value": 0.1,
+      "previous": -0.7,
+      "reference": "Jun/26",
+      "unit": "percentage points"
+    },
+    "DEU": {
+      "name": "GDP External Demand Contribution",
+      "value": 0.2,
+      "previous": 0.7,
+      "reference": "Jun/26",
+      "unit": "percentage points"
+    },
+    "FRA": {
+      "name": "GDP External Demand Contribution",
+      "value": 0.6,
+      "previous": -0.9,
+      "reference": "Jun/26",
+      "unit": "percentage points"
+    }
+  }
+}

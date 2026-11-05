@@ -1,0 +1,130 @@
+{
+  "slug": "crude-oil-rigs",
+  "name": "Crude Oil Rigs",
+  "category": "Energy",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.198Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "DZA": {
+      "name": "Algeria",
+      "value": 33,
+      "previous": 34,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "AGO": {
+      "name": "Angola",
+      "value": 3,
+      "previous": 4,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 140,
+      "previous": 147,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 7,
+      "previous": 8,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "IRN": {
+      "name": "Iran",
+      "value": 117,
+      "previous": 117,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "value": 23,
+      "previous": 16,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 40,
+      "previous": 37,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "LBY": {
+      "name": "Libya",
+      "value": 28,
+      "previous": 27,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 33,
+      "previous": 30,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 20,
+      "previous": 20,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 15,
+      "previous": 16,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 118,
+      "previous": 125,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 58,
+      "previous": 58,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 7,
+      "previous": 6,
+      "reference": "Sep/26",
+      "unit": ""
+    },
+    "USA": {
+      "name": "United States",
+      "value": 460,
+      "previous": 459,
+      "reference": "Oct/26",
+      "unit": ""
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "value": 2,
+      "previous": 2,
+      "reference": "Sep/26",
+      "unit": ""
+    }
+  },
+  "unmatched": []
+}

@@ -1,0 +1,1243 @@
+{
+  "slug": "food-inflation",
+  "name": "Food Inflation",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.271Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AFG": {
+      "name": "Afghanistan",
+      "value": 8,
+      "previous": 7,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "ALB": {
+      "name": "Albania",
+      "value": 2.8,
+      "previous": 2.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "DZA": {
+      "name": "Algeria",
+      "value": 9.54,
+      "previous": 6.9,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "AGO": {
+      "name": "Angola",
+      "value": 9.54,
+      "previous": 9.94,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ATG": {
+      "name": "Antigua and Barbuda",
+      "value": -1,
+      "previous": 0,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 35.1,
+      "previous": 34.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 6.2,
+      "previous": 6.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ABW": {
+      "name": "Aruba",
+      "value": 3.5,
+      "previous": 3.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 3.2,
+      "previous": 3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 0.4,
+      "previous": -0.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 6.7,
+      "previous": 7.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 8,
+      "previous": 8.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "value": 7.22,
+      "previous": 7.02,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BRB": {
+      "name": "Barbados",
+      "value": 3.4,
+      "previous": 3,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 2.8,
+      "previous": 3.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": -0.28,
+      "previous": -0.01,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "BLZ": {
+      "name": "Belize",
+      "value": 4.3,
+      "previous": 2.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BEN": {
+      "name": "Benin",
+      "value": 0.1,
+      "previous": -3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BMU": {
+      "name": "Bermuda",
+      "value": 4,
+      "previous": 2.9,
+      "reference": "Apr/26",
+      "unit": "%"
+    },
+    "BTN": {
+      "name": "Bhutan",
+      "value": 5.1,
+      "previous": 5.66,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "value": 3.51,
+      "previous": 3.06,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": -0.1,
+      "previous": -0.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BWA": {
+      "name": "Botswana",
+      "value": 4.5,
+      "previous": 5.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 4.64,
+      "previous": 3.51,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BRN": {
+      "name": "Brunei",
+      "value": 1.3,
+      "previous": 1.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 1.6,
+      "previous": 0.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BFA": {
+      "name": "Burkina Faso",
+      "value": -1.7,
+      "previous": -2.8,
+      "reference": "May/26",
+      "unit": "%"
+    },
+    "BDI": {
+      "name": "Burundi",
+      "value": 1.7,
+      "previous": 2.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "value": 5.31,
+      "previous": 5.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CMR": {
+      "name": "Cameroon",
+      "value": 6.8,
+      "previous": 5.9,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 2.2,
+      "previous": 2.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "value": 1.7,
+      "previous": -0.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CYM": {
+      "name": "Cayman Islands",
+      "value": 1.8,
+      "previous": 3.8,
+      "reference": "Mar/26",
+      "unit": "%"
+    },
+    "TCD": {
+      "name": "Chad",
+      "value": -4.2,
+      "previous": -4.4,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 4.3,
+      "previous": 4.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CHN": {
+      "name": "China",
+      "value": -1.7,
+      "previous": -1.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 6.74,
+      "previous": 6.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": -1.31,
+      "previous": -1.95,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 0.2,
+      "previous": -0.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 3.56,
+      "previous": 3.81,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": -3.5,
+      "previous": -4.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": -2.1,
+      "previous": -1.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "DJI": {
+      "name": "Djibouti",
+      "value": 2.8,
+      "previous": 5.3,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "DMA": {
+      "name": "Dominica",
+      "value": 4.09,
+      "previous": 4.09,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 5.59,
+      "previous": 5.89,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "TLS": {
+      "name": "East Timor",
+      "value": -0.8,
+      "previous": -0.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": -0.12,
+      "previous": -1.32,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "EGY": {
+      "name": "Egypt",
+      "value": 7.2,
+      "previous": 6.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "value": 4.44,
+      "previous": 3.65,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": -1.2,
+      "previous": -2.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "value": 14.8,
+      "previous": 14.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "FRO": {
+      "name": "Faroe Islands",
+      "value": 0.8,
+      "previous": 1.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 7.6,
+      "previous": 9.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 1.9,
+      "previous": 1.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 1.2,
+      "previous": 1.4,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "GMB": {
+      "name": "Gambia",
+      "value": 5.03,
+      "previous": 5.24,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 3.4,
+      "previous": 5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 0.3,
+      "previous": 0.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "GHA": {
+      "name": "Ghana",
+      "value": 4,
+      "previous": 3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 0.6,
+      "previous": 0.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "GRD": {
+      "name": "Grenada",
+      "value": 1.59,
+      "previous": 1.47,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 5.56,
+      "previous": 3.05,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "GIN": {
+      "name": "Guinea",
+      "value": 12.4,
+      "previous": 12.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "GUY": {
+      "name": "Guyana",
+      "value": 4.4,
+      "previous": 5.1,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "HTI": {
+      "name": "Haiti",
+      "value": 16.9,
+      "previous": 17.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 6.01,
+      "previous": 5.57,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 0.5,
+      "previous": 0.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": -4.6,
+      "previous": -4.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 3.9,
+      "previous": 4,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "IND": {
+      "name": "India",
+      "value": 7.74,
+      "previous": 5.97,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 4.82,
+      "previous": 4.37,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "IRN": {
+      "name": "Iran",
+      "value": 131,
+      "previous": 134,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "value": 3.8,
+      "previous": 2.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 0.4,
+      "previous": 0.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 1.6,
+      "previous": 1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 1.9,
+      "previous": 1.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "value": 1.9,
+      "previous": 1.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "JAM": {
+      "name": "Jamaica",
+      "value": 12.36,
+      "previous": 10.25,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 2.8,
+      "previous": 3.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 0.35,
+      "previous": 0.23,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 8.5,
+      "previous": 9.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 10.2,
+      "previous": 9.5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "UNK": {
+      "name": "Kosovo",
+      "value": 2.4,
+      "previous": 2.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 6.08,
+      "previous": 5.55,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 10.5,
+      "previous": 9.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LAO": {
+      "name": "Laos",
+      "value": 3.11,
+      "previous": 3.25,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": -4.8,
+      "previous": -4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "value": 10.04,
+      "previous": 11.65,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LSO": {
+      "name": "Lesotho",
+      "value": -0.1,
+      "previous": 1.3,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "LBR": {
+      "name": "Liberia",
+      "value": 4.9,
+      "previous": 4.2,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "LBY": {
+      "name": "Libya",
+      "value": 21.2,
+      "previous": 16.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": -1.6,
+      "previous": -2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 1.5,
+      "previous": 1.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MAC": {
+      "name": "Macau",
+      "value": 1.25,
+      "previous": 1.37,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 1.7,
+      "previous": 1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "value": 10.6,
+      "previous": 9.4,
+      "reference": "May/26",
+      "unit": "%"
+    },
+    "MWI": {
+      "name": "Malawi",
+      "value": 13.4,
+      "previous": 14.3,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 1.8,
+      "previous": 1.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MDV": {
+      "name": "Maldives",
+      "value": 8.6,
+      "previous": 5.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MLI": {
+      "name": "Mali",
+      "value": 5.8,
+      "previous": 5.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 2.5,
+      "previous": 1.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MRT": {
+      "name": "Mauritania",
+      "value": 8.5,
+      "previous": 7.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 6.2,
+      "previous": 3.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 2.55,
+      "previous": 1.49,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 5.1,
+      "previous": 4.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 20.8,
+      "previous": 21.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 2.6,
+      "previous": 1.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": -2.7,
+      "previous": -3.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 8.69,
+      "previous": 8.91,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NAM": {
+      "name": "Namibia",
+      "value": 4,
+      "previous": 4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NPL": {
+      "name": "Nepal",
+      "value": 7.54,
+      "previous": 6.77,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": -1.8,
+      "previous": -1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NCL": {
+      "name": "New Caledonia",
+      "value": -1,
+      "previous": -1.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 2.4,
+      "previous": 1.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 6.72,
+      "previous": 6.7,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "NER": {
+      "name": "Niger",
+      "value": 2.2,
+      "previous": -2.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 19.59,
+      "previous": 19.57,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 2.4,
+      "previous": 1.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 8,
+      "previous": 7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 7.74,
+      "previous": 8.2,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "PSE": {
+      "name": "Palestine",
+      "value": -50.62,
+      "previous": -56.32,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PAN": {
+      "name": "Panama",
+      "value": 2.1,
+      "previous": 0,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "value": 3.6,
+      "previous": 0.7,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": -1,
+      "previous": -0.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 6,
+      "previous": 3.87,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 6.7,
+      "previous": 4.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": -0.4,
+      "previous": -0.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 2.38,
+      "previous": 2.14,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PRI": {
+      "name": "Puerto Rico",
+      "value": 2.5,
+      "previous": 2.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 10.97,
+      "previous": 13.19,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "COG": {
+      "name": "Republic of the Congo",
+      "value": 4.8,
+      "previous": 5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 3,
+      "previous": 2.62,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 4.61,
+      "previous": 5.08,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "value": 25.2,
+      "previous": 16.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 1.4,
+      "previous": 1.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SEN": {
+      "name": "Senegal",
+      "value": 0.9,
+      "previous": 1.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": -1.3,
+      "previous": -6.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 0.32,
+      "previous": 0.28,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SLE": {
+      "name": "Sierra Leone",
+      "value": 5.82,
+      "previous": 5.74,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 2.4,
+      "previous": 2.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": -3.2,
+      "previous": -2.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 0.7,
+      "previous": -0.7,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "SLB": {
+      "name": "Solomon Islands",
+      "value": -1.6,
+      "previous": 0.6,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "SOM": {
+      "name": "Somalia",
+      "value": 6.9,
+      "previous": 7.9,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 1.2,
+      "previous": 1.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 1,
+      "previous": -0.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 2.7,
+      "previous": 2.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 8.8,
+      "previous": 8.7,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "KNA": {
+      "name": "St Kitts and Nevis",
+      "value": 8.11,
+      "previous": 8.95,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "LCA": {
+      "name": "St Lucia",
+      "value": 3.44,
+      "previous": 4.29,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "SUR": {
+      "name": "Suriname",
+      "value": 9.2,
+      "previous": 9.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SWZ": {
+      "name": "Swaziland",
+      "value": 0,
+      "previous": -0.8,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": -6.6,
+      "previous": -6.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": -1,
+      "previous": -1.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SYR": {
+      "name": "Syria",
+      "value": 20.5,
+      "previous": 28.5,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 2.64,
+      "previous": 0.77,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "value": 4.3,
+      "previous": 4.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "TZA": {
+      "name": "Tanzania",
+      "value": 3.9,
+      "previous": 3.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 3.07,
+      "previous": 2.99,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "TGO": {
+      "name": "Togo",
+      "value": 1.9,
+      "previous": -1.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "TTO": {
+      "name": "Trinidad And Tobago",
+      "value": 1.7,
+      "previous": 0.9,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "value": 8.4,
+      "previous": 7.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 27.62,
+      "previous": 33.79,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "UGA": {
+      "name": "Uganda",
+      "value": 4.7,
+      "previous": 3.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 8.9,
+      "previous": 6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 1.02,
+      "previous": 0.72,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 1.3,
+      "previous": 1.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 2.5,
+      "previous": 2.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "URY": {
+      "name": "Uruguay",
+      "value": 4.26,
+      "previous": 3.14,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 6.3,
+      "previous": 6.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "VUT": {
+      "name": "Vanuatu",
+      "value": -1,
+      "previous": -1.1,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "value": 474,
+      "previous": 555,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 4.44,
+      "previous": 4.13,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "value": 5.7,
+      "previous": 5.8,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "ZWE": {
+      "name": "Zimbabwe",
+      "value": 4.9,
+      "previous": 5.6,
+      "reference": "Oct/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

@@ -1,0 +1,174 @@
+{
+  "slug": "inflation-expectations",
+  "name": "Inflation Expectations",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.373Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ARG": {
+      "name": "Argentina",
+      "value": 29.8,
+      "previous": 35.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 5.3,
+      "previous": 4.9,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 4.03,
+      "previous": 4.08,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 1.77,
+      "previous": 2.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 2.6,
+      "previous": 2.4,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 4.5,
+      "previous": 4.47,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 3.72,
+      "previous": 3.63,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 4.95,
+      "previous": 4.96,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "IND": {
+      "name": "India",
+      "value": 10,
+      "previous": 9.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 1.7,
+      "previous": 1.6,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 3.5,
+      "previous": 2.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 4.15,
+      "previous": 4.23,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 2.34,
+      "previous": 2.53,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 14.2,
+      "previous": 13.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 4,
+      "previous": 4.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 2.7,
+      "previous": 2.7,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 7.7,
+      "previous": 6.3,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 1.02,
+      "previous": 1.24,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 29.63,
+      "previous": 29.61,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 4.2,
+      "previous": 4.5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 3.9,
+      "previous": 3.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 9.8,
+      "previous": 10.1,
+      "reference": "Aug/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": [
+    "Euro area"
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "slug": "average-annual-wages",
+  "name": "Average Annual Wages",
+  "category": "Labour",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.255Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 72018,
+      "previous": 71238,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 78301,
+      "previous": 77703,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 80009,
+      "previous": 78614,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 67901,
+      "previous": 67768,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 40626,
+      "previous": 40103,
+      "reference": "Dec/23",
+      "unit": "USD"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 30133,
+      "previous": 29576,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 44431,
+      "previous": 44431,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 43607,
+      "previous": 41954,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 78090,
+      "previous": 77883,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 41019,
+      "previous": 40458,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 63053,
+      "previous": 62393,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 60483,
+      "previous": 59865,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 76285,
+      "previous": 74854,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 32412,
+      "previous": 32503,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 39145,
+      "previous": 37852,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 100605,
+      "previous": 79051,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 70113,
+      "previous": 68849,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 57426,
+      "previous": 57135,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 53864,
+      "previous": 53243,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 50183,
+      "previous": 50421,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 44709,
+      "previous": 43265,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 58112,
+      "previous": 54865,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 98530,
+      "previous": 97462,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 24463,
+      "previous": 24140,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 80136,
+      "previous": 78683,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 60896,
+      "previous": 60469,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 73462,
+      "previous": 72294,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 49074,
+      "previous": 46916,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 44937,
+      "previous": 44144,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 37832,
+      "previous": 37248,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 63376,
+      "previous": 60079,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 61259,
+      "previous": 60909,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 57779,
+      "previous": 57083,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 61443,
+      "previous": 60905,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 92285,
+      "previous": 92161,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 57275,
+      "previous": 48124,
+      "reference": "Dec/24",
+      "unit": "USD"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 66299,
+      "previous": 65842,
+      "reference": "Dec/25",
+      "unit": "USD"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 86977,
+      "previous": 85546,
+      "reference": "Dec/25",
+      "unit": "USD"
+    }
+  },
+  "unmatched": []
+}

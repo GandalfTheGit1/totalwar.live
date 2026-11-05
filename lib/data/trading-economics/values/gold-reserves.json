@@ -1,0 +1,732 @@
+{
+  "slug": "gold-reserves",
+  "name": "Gold Reserves",
+  "category": "Trade",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.896Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "USA": {
+      "name": "United States",
+      "value": 8133,
+      "previous": 8133,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 3349,
+      "previous": 3350,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 2452,
+      "previous": 2452,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 2437,
+      "previous": 2437,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 2346,
+      "previous": 2313,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 2283,
+      "previous": 2305,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 1040,
+      "previous": 1040,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "IND": {
+      "name": "India",
+      "value": 881,
+      "previous": 881,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 846,
+      "previous": 846,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 632,
+      "previous": 582,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 612,
+      "previous": 612,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 531,
+      "previous": 535,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 432,
+      "previous": 416,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 424,
+      "previous": 424,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 383,
+      "previous": 383,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 368,
+      "previous": 354,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 323,
+      "previous": 323,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 310,
+      "previous": 310,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "value": 287,
+      "previous": 287,
+      "reference": "Mar/25",
+      "unit": "Tonnes"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 282,
+      "previous": 282,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 280,
+      "previous": 280,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 235,
+      "previous": 235,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 227,
+      "previous": 227,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 204,
+      "previous": 194,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 178,
+      "previous": 178,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "value": 176,
+      "previous": 175,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "DZA": {
+      "name": "Algeria",
+      "value": 174,
+      "previous": 174,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 172,
+      "previous": 172,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "LBY": {
+      "name": "Libya",
+      "value": 147,
+      "previous": 147,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 134,
+      "previous": 134,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "EGY": {
+      "name": "Egypt",
+      "value": 130,
+      "previous": 130,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 126,
+      "previous": 126,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 126,
+      "previous": 126,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 120,
+      "previous": 120,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 116,
+      "previous": 115,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 115,
+      "previous": 115,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 110,
+      "previous": 110,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 104,
+      "previous": 104,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 104,
+      "previous": 104,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 87.09,
+      "previous": 87.04,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 82.43,
+      "previous": 76.64,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 79.87,
+      "previous": 79.87,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 78.98,
+      "previous": 78.98,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 78.72,
+      "previous": 72.75,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 74.96,
+      "previous": 74.51,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 66.55,
+      "previous": 66.55,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 64.82,
+      "previous": 64.8,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 61.74,
+      "previous": 61.74,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "value": 57.3,
+      "previous": 56.43,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 55.1,
+      "previous": 54.56,
+      "reference": "Sep/26",
+      "unit": "Tonnes"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 53.86,
+      "previous": 53.86,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 49.02,
+      "previous": 47.81,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 43.86,
+      "previous": 43.86,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 43.86,
+      "previous": 43.76,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 41.04,
+      "previous": 41.04,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 34.67,
+      "previous": 34.67,
+      "reference": "Dec/25",
+      "unit": "Tonnes"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 31.69,
+      "previous": 31.69,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 27.37,
+      "previous": 27.37,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 26.28,
+      "previous": 26.28,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "GHA": {
+      "name": "Ghana",
+      "value": 24.4,
+      "previous": 20.8,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "value": 22.3,
+      "previous": 22.53,
+      "reference": "Dec/25",
+      "unit": "Tonnes"
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 22.12,
+      "previous": 22.12,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 15.51,
+      "previous": 15.51,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "value": 14.28,
+      "previous": 14.28,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 13.87,
+      "previous": 13.9,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 12.42,
+      "previous": 12.42,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 12.04,
+      "previous": 12.04,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 9.79,
+      "previous": 8.39,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": 8.19,
+      "previous": 8.19,
+      "reference": "Dec/25",
+      "unit": "Tonnes"
+    },
+    "NPL": {
+      "name": "Nepal",
+      "value": 7.99,
+      "previous": 7.99,
+      "reference": "Dec/25",
+      "unit": "Tonnes"
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 7.88,
+      "previous": 7.8,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 7.83,
+      "previous": 7.14,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 6.89,
+      "previous": 6.89,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "value": 6.84,
+      "previous": 6.84,
+      "reference": "Sep/25",
+      "unit": "Tonnes"
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 6.73,
+      "previous": 6.73,
+      "reference": "Mar/25",
+      "unit": "Tonnes"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 6.66,
+      "previous": 6.66,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 5.82,
+      "previous": 5.82,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 4.68,
+      "previous": 4.68,
+      "reference": "Dec/25",
+      "unit": "Tonnes"
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 4.67,
+      "previous": 4.67,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 4.23,
+      "previous": 4.23,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 3.94,
+      "previous": 3.94,
+      "reference": "Jun/25",
+      "unit": "Tonnes"
+    },
+    "ALB": {
+      "name": "Albania",
+      "value": 3.73,
+      "previous": 3.73,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 3.48,
+      "previous": 3.48,
+      "reference": "Mar/25",
+      "unit": "Tonnes"
+    },
+    "ABW": {
+      "name": "Aruba",
+      "value": 3.11,
+      "previous": 3.11,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 2.24,
+      "previous": 2.24,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "value": 2.1,
+      "previous": 2.1,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 2.08,
+      "previous": 2.08,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 1.98,
+      "previous": 1.98,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "TTO": {
+      "name": "Trinidad And Tobago",
+      "value": 1.96,
+      "previous": 1.96,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "value": 1.96,
+      "previous": 1.96,
+      "reference": "Sep/25",
+      "unit": "Tonnes"
+    },
+    "HTI": {
+      "name": "Haiti",
+      "value": 1.81,
+      "previous": 1.81,
+      "reference": "Dec/25",
+      "unit": "Tonnes"
+    },
+    "SUR": {
+      "name": "Suriname",
+      "value": 1.21,
+      "previous": 1.21,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "URY": {
+      "name": "Uruguay",
+      "value": 1.02,
+      "previous": 0.42,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 0.7,
+      "previous": 0.7,
+      "reference": "Dec/25",
+      "unit": "Tonnes"
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 0.57,
+      "previous": 0.57,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 0.47,
+      "previous": 0.47,
+      "reference": "Jun/25",
+      "unit": "Tonnes"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 0.37,
+      "previous": 0.4,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 0.25,
+      "previous": 0.25,
+      "reference": "Mar/26",
+      "unit": "Tonnes"
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 0.03,
+      "previous": 0.03,
+      "reference": "Dec/25",
+      "unit": "Tonnes"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 0,
+      "previous": 0.02,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 0,
+      "previous": 0,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 0,
+      "previous": 0,
+      "reference": "Jun/26",
+      "unit": "Tonnes"
+    }
+  },
+  "unmatched": []
+}

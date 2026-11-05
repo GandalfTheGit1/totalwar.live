@@ -1,0 +1,263 @@
+{
+  "slug": "price-to-rent-ratio",
+  "name": "Price to Rent Ratio",
+  "category": "Housing",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.774Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "PRT": {
+      "name": "Portugal",
+      "value": 211,
+      "previous": 207,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 182,
+      "previous": 185,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 177,
+      "previous": 171,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 174,
+      "previous": 174,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 172,
+      "previous": 169,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 169,
+      "previous": 169,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 166,
+      "previous": 166,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 163,
+      "previous": 163,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 158,
+      "previous": 158,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 150,
+      "previous": 148,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 147,
+      "previous": 148,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 140,
+      "previous": 138,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 139,
+      "previous": 137,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 138,
+      "previous": 136,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 133,
+      "previous": 133,
+      "reference": "Dec/24",
+      "unit": "points"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 132,
+      "previous": 131,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 129,
+      "previous": 128,
+      "reference": "Mar/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 128,
+      "previous": 129,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 125,
+      "previous": 131,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 125,
+      "previous": 124,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 124,
+      "previous": 126,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 123,
+      "previous": 130,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 122,
+      "previous": 122,
+      "reference": "Mar/26",
+      "unit": "points"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 120,
+      "previous": 120,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 118,
+      "previous": 119,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 114,
+      "previous": 115,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 113,
+      "previous": 112,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 113,
+      "previous": 115,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 110,
+      "previous": 110,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 110,
+      "previous": 110,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 108,
+      "previous": 106,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 104,
+      "previous": 103,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 104,
+      "previous": 103,
+      "reference": "Dec/25",
+      "unit": "points"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 103,
+      "previous": 103,
+      "reference": "Jun/26",
+      "unit": "points"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 81.8,
+      "previous": 82.7,
+      "reference": "Jun/26",
+      "unit": "points"
+    }
+  },
+  "unmatched": []
+}

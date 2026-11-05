@@ -1,0 +1,235 @@
+{
+  "slug": "harmonised-consumer-prices",
+  "name": "Harmonised Consumer Prices",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.295Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": 103,
+      "previous": 103,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 104,
+      "previous": 103,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 105,
+      "previous": 105,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 106,
+      "previous": 106,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 105,
+      "previous": 105,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 106,
+      "previous": 107,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 102,
+      "previous": 102,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 103,
+      "previous": 103,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 104,
+      "previous": 104,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 103,
+      "previous": 102,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 104,
+      "previous": 103,
+      "reference": "Oct/26",
+      "unit": "points"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 104,
+      "previous": 103,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 106,
+      "previous": 104,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 102,
+      "previous": 102,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 107,
+      "previous": 108,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 104,
+      "previous": 104,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 105,
+      "previous": 103,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 104,
+      "previous": 103,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 106,
+      "previous": 105,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 106,
+      "previous": 105,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 107,
+      "previous": 107,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 104,
+      "previous": 104,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 104,
+      "previous": 103,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 104,
+      "previous": 104,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 105,
+      "previous": 104,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 109,
+      "previous": 108,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 104,
+      "previous": 104,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 104,
+      "previous": 104,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 105,
+      "previous": 105,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 101,
+      "previous": 101,
+      "reference": "Sep/26",
+      "unit": "points"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 101,
+      "previous": 101,
+      "reference": "Sep/26",
+      "unit": "points"
+    }
+  },
+  "unmatched": []
+}

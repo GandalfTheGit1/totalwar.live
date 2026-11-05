@@ -1,0 +1,242 @@
+{
+  "slug": "harmonised-inflation-rate-yoy",
+  "name": "Harmonised Inflation Rate YoY",
+  "category": "Prices",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.349Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "ALB": {
+      "name": "Albania",
+      "value": 2.7,
+      "previous": 3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 3.6,
+      "previous": 2.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 5.2,
+      "previous": 4.5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 5.6,
+      "previous": 5.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 4.3,
+      "previous": 3.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 5.2,
+      "previous": 5.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 2.2,
+      "previous": 1.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 2.1,
+      "previous": 2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 3,
+      "previous": 1.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 2.7,
+      "previous": 2.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 3.8,
+      "previous": 3.4,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 5.1,
+      "previous": 4.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 2.8,
+      "previous": 3.3,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 5.1,
+      "previous": 3.7,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 2.1,
+      "previous": 1.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 5.4,
+      "previous": 6.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 3.9,
+      "previous": 3.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 5.6,
+      "previous": 4.2,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 2.9,
+      "previous": 3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 6.1,
+      "previous": 5.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 5.2,
+      "previous": 4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 5.5,
+      "previous": 4.6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 3,
+      "previous": 2.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 3.4,
+      "previous": 3.2,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 4,
+      "previous": 3.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 3.9,
+      "previous": 3.6,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 6.5,
+      "previous": 6.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 3,
+      "previous": 3.1,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 3.8,
+      "previous": 3.7,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 4.9,
+      "previous": 5,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 1,
+      "previous": 0.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 1.2,
+      "previous": 0.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

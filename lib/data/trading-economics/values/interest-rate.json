@@ -2,8 +2,8 @@
   "slug": "interest-rate",
   "name": "Interest Rate",
   "category": "Main Indicators",
-  "source": "https://tradingeconomics.com/country-list/interest-rate",
-  "fetchedAt": "2026-11-02T15:20:11.319Z",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:58.987Z",
   "valueColumn": "Last",
   "columns": [
     "Country",
@@ -19,1988 +19,994 @@
       "value": 0,
       "previous": 0,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "0",
-        "Previous": "0",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "FJI": {
       "name": "Fiji",
       "value": 0.25,
       "previous": 0.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "0.25",
-        "Previous": "0.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "KHM": {
       "name": "Cambodia",
       "value": 0.41,
       "previous": 0.42,
       "reference": "Jul/26",
-      "unit": "%",
-      "cells": {
-        "Last": "0.41",
-        "Previous": "0.42",
-        "Reference": "Jul/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "THA": {
       "name": "Thailand",
       "value": 1,
       "previous": 1,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "1",
-        "Previous": "1",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "JPN": {
       "name": "Japan",
       "value": 1.25,
       "previous": 1.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "1.25",
-        "Previous": "1.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "SGP": {
       "name": "Singapore",
       "value": 1.51,
       "previous": 1.06,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "1.51",
-        "Previous": "1.06",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Jan/27"
-      }
+      "unit": "%"
     },
     "SYC": {
       "name": "Seychelles",
       "value": 1.75,
       "previous": 1.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "1.75",
-        "Previous": "1.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "SWE": {
       "name": "Sweden",
       "value": 1.75,
       "previous": 1.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "1.75",
-        "Previous": "1.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "BRB": {
       "name": "Barbados",
       "value": 2,
       "previous": 2,
       "reference": "Aug/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2",
-        "Previous": "2",
-        "Reference": "Aug/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "TWN": {
       "name": "Taiwan",
       "value": 2,
       "previous": 2,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2",
-        "Previous": "2",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "DNK": {
       "name": "Denmark",
       "value": 2.1,
       "previous": 2.1,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.1",
-        "Previous": "2.1",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/25"
-      }
+      "unit": "%"
     },
     "BLZ": {
       "name": "Belize",
       "value": 2.25,
       "previous": 2.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.25",
-        "Previous": "2.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "CUB": {
       "name": "Cuba",
       "value": 2.25,
       "previous": 2.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.25",
-        "Previous": "2.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "MAR": {
       "name": "Morocco",
       "value": 2.25,
       "previous": 2.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.25",
-        "Previous": "2.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "ALB": {
       "name": "Albania",
       "value": 2.5,
       "previous": 2.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.5",
-        "Previous": "2.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "DZA": {
       "name": "Algeria",
       "value": 2.5,
       "previous": 2.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.5",
-        "Previous": "2.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "CAN": {
       "name": "Canada",
       "value": 2.5,
       "previous": 2.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.5",
-        "Previous": "2.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "CPV": {
       "name": "Cape Verde",
       "value": 2.5,
       "previous": 2.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.5",
-        "Previous": "2.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "NCL": {
       "name": "New Caledonia",
       "value": 2.6,
       "previous": 2.35,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.6",
-        "Previous": "2.35",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "MYS": {
       "name": "Malaysia",
       "value": 2.75,
       "previous": 2.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.75",
-        "Previous": "2.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "NZL": {
       "name": "New Zealand",
       "value": 2.75,
       "previous": 2.75,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "2.75",
-        "Previous": "2.75",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "CHN": {
       "name": "China",
       "value": 3,
       "previous": 3,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3",
-        "Previous": "3",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "CRI": {
       "name": "Costa Rica",
       "value": 3,
       "previous": 3,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3",
-        "Previous": "3",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "LBY": {
       "name": "Libya",
       "value": 3,
       "previous": 3,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3",
-        "Previous": "3",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "KOR": {
       "name": "South Korea",
       "value": 3,
       "previous": 3,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3",
-        "Previous": "3",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "ISR": {
       "name": "Israel",
       "value": 3.25,
       "previous": 3.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3.25",
-        "Previous": "3.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "GTM": {
       "name": "Guatemala",
       "value": 3.5,
       "previous": 3.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3.5",
-        "Previous": "3.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "KWT": {
       "name": "Kuwait",
       "value": 3.5,
       "previous": 3.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3.5",
-        "Previous": "3.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Sep/26"
-      }
+      "unit": "%"
     },
     "TTO": {
       "name": "Trinidad and Tobago",
       "value": 3.5,
       "previous": 3.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3.5",
-        "Previous": "3.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "CZE": {
       "name": "Czech Republic",
       "value": 3.75,
       "previous": 3.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3.75",
-        "Previous": "3.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "POL": {
       "name": "Poland",
       "value": 3.75,
       "previous": 3.75,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3.75",
-        "Previous": "3.75",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "GBR": {
       "name": "United Kingdom",
       "value": 3.75,
       "previous": 3.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3.75",
-        "Previous": "3.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "ARE": {
       "name": "United Arab Emirates",
       "value": 3.9,
       "previous": 3.9,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "3.9",
-        "Previous": "3.9",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Sep/26"
-      }
+      "unit": "%"
     },
     "BHS": {
       "name": "Bahamas",
       "value": 4,
       "previous": 4,
       "reference": "Aug/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4",
-        "Previous": "4",
-        "Reference": "Aug/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "USA": {
       "name": "United States",
       "value": 4,
       "previous": 4,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4",
-        "Previous": "4",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "BIH": {
       "name": "Bosnia and Herzegovina",
       "value": 4.06,
       "previous": 4.01,
       "reference": "Jul/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.06",
-        "Previous": "4.01",
-        "Reference": "Jul/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "HKG": {
       "name": "Hong Kong",
       "value": 4.25,
       "previous": 4.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.25",
-        "Previous": "4.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Sep/26"
-      }
+      "unit": "%"
     },
     "MAC": {
       "name": "Macau",
       "value": 4.25,
       "previous": 4.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.25",
-        "Previous": "4.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Sep/26"
-      }
+      "unit": "%"
     },
     "MKD": {
       "name": "Macedonia",
       "value": 4.25,
       "previous": 4.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.25",
-        "Previous": "4.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "PER": {
       "name": "Peru",
       "value": 4.25,
       "previous": 4.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.25",
-        "Previous": "4.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "CMR": {
       "name": "Cameroon",
       "value": 4.5,
       "previous": 4.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "CAF": {
       "name": "Central African Republic",
       "value": 4.5,
       "previous": 4.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "TCD": {
       "name": "Chad",
       "value": 4.5,
       "previous": 4.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "CHL": {
       "name": "Chile",
       "value": 4.5,
       "previous": 4.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "GNQ": {
       "name": "Equatorial Guinea",
       "value": 4.5,
       "previous": 4.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "GAB": {
       "name": "Gabon",
       "value": 4.5,
       "previous": 4.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "NOR": {
       "name": "Norway",
       "value": 4.5,
       "previous": 4.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "OMN": {
       "name": "Oman",
       "value": 4.5,
       "previous": 4.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Sep/26"
-      }
+      "unit": "%"
     },
     "COG": {
       "name": "Congo",
       "value": 12.5,
       "previous": 12.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "12.5",
-        "Previous": "12.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "SAU": {
       "name": "Saudi Arabia",
       "value": 4.5,
       "previous": 4.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Sep/26"
-      }
+      "unit": "%"
     },
     "VNM": {
       "name": "Vietnam",
       "value": 4.5,
       "previous": 4.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.5",
-        "Previous": "4.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "AUS": {
       "name": "Australia",
       "value": 4.6,
       "previous": 4.35,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.6",
-        "Previous": "4.35",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "QAT": {
       "name": "Qatar",
       "value": 4.6,
       "previous": 4.35,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.6",
-        "Previous": "4.35",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Sep/26"
-      }
+      "unit": "%"
     },
     "SLV": {
       "name": "El Salvador",
       "value": 4.67,
       "previous": 4.56,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.67",
-        "Previous": "4.56",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "BHR": {
       "name": "Bahrain",
       "value": 4.75,
       "previous": 4.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.75",
-        "Previous": "4.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Sep/26"
-      }
+      "unit": "%"
     },
     "MUS": {
       "name": "Mauritius",
       "value": 4.75,
       "previous": 4.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "4.75",
-        "Previous": "4.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "BEN": {
       "name": "Benin",
       "value": 5,
       "previous": 5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "BFA": {
       "name": "Burkina Faso",
       "value": 5,
       "previous": 5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "GNB": {
       "name": "Guinea Bissau",
       "value": 5,
       "previous": 5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "GUY": {
       "name": "Guyana",
       "value": 5,
       "previous": 5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "CIV": {
       "name": "Ivory Coast",
       "value": 5,
       "previous": 5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "MLI": {
       "name": "Mali",
       "value": 5,
       "previous": 5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "NER": {
       "name": "Niger",
       "value": 5,
       "previous": 5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "PNG": {
       "name": "Papua New Guinea",
       "value": 5,
       "previous": 5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "SEN": {
       "name": "Senegal",
       "value": 5,
       "previous": 5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "TGO": {
       "name": "Togo",
       "value": 5,
       "previous": 5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5",
-        "Previous": "5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "BTN": {
       "name": "Bhutan",
       "value": 5.37,
       "previous": 5.37,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.37",
-        "Previous": "5.37",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "BWA": {
       "name": "Botswana",
       "value": 5.5,
       "previous": 5.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.5",
-        "Previous": "5.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "BRN": {
       "name": "Brunei",
       "value": 5.5,
       "previous": 5.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.5",
-        "Previous": "5.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "DOM": {
       "name": "Dominican Republic",
       "value": 5.5,
       "previous": 5.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.5",
-        "Previous": "5.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/25"
-      }
+      "unit": "%"
     },
     "HUN": {
       "name": "Hungary",
       "value": 5.5,
       "previous": 5.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.5",
-        "Previous": "5.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "IND": {
       "name": "India",
       "value": 5.5,
       "previous": 5.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.5",
-        "Previous": "5.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "IRQ": {
       "name": "Iraq",
       "value": 5.5,
       "previous": 5.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.5",
-        "Previous": "5.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "PRY": {
       "name": "Paraguay",
       "value": 5.5,
       "previous": 5.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.5",
-        "Previous": "5.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "PHL": {
       "name": "Philippines",
       "value": 5.5,
       "previous": 5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.5",
-        "Previous": "5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "HND": {
       "name": "Honduras",
       "value": 5.75,
       "previous": 5.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.75",
-        "Previous": "5.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "IDN": {
       "name": "Indonesia",
       "value": 5.75,
       "previous": 5.75,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.75",
-        "Previous": "5.75",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "NPL": {
       "name": "Nepal",
       "value": 5.75,
       "previous": 5.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.75",
-        "Previous": "5.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "NIC": {
       "name": "Nicaragua",
       "value": 5.75,
       "previous": 5.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.75",
-        "Previous": "5.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "SRB": {
       "name": "Serbia",
       "value": 5.75,
       "previous": 5.75,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "5.75",
-        "Previous": "5.75",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "JAM": {
       "name": "Jamaica",
       "value": 6,
       "previous": 5.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6",
-        "Previous": "5.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "JOR": {
       "name": "Jordan",
       "value": 6,
       "previous": 5.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6",
-        "Previous": "5.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "MRT": {
       "name": "Mauritania",
       "value": 6,
       "previous": 6,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6",
-        "Previous": "6",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "URY": {
       "name": "Uruguay",
       "value": 6,
       "previous": 5.75,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6",
-        "Previous": "5.75",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "TZA": {
       "name": "Tanzania",
       "value": 6.25,
       "previous": 6.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6.25",
-        "Previous": "6.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Jan/27"
-      }
+      "unit": "%"
     },
     "AZE": {
       "name": "Azerbaijan",
       "value": 6.5,
       "previous": 6.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6.5",
-        "Previous": "6.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "MEX": {
       "name": "Mexico",
       "value": 6.5,
       "previous": 6.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6.5",
-        "Previous": "6.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "ROU": {
       "name": "Romania",
       "value": 6.5,
       "previous": 6.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6.5",
-        "Previous": "6.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "BOL": {
       "name": "Bolivia",
       "value": 6.73,
       "previous": 6.89,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6.73",
-        "Previous": "6.89",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "ARM": {
       "name": "Armenia",
       "value": 6.75,
       "previous": 6.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "6.75",
-        "Previous": "6.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "LAO": {
       "name": "Laos",
       "value": 7,
       "previous": 7,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "7",
-        "Previous": "7",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "LSO": {
       "name": "Lesotho",
       "value": 7,
       "previous": 6.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "7",
-        "Previous": "6.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "MDV": {
       "name": "Maldives",
       "value": 7,
       "previous": 7,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "7",
-        "Previous": "7",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "NAM": {
       "name": "Namibia",
       "value": 7,
       "previous": 6.75,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "7",
-        "Previous": "6.75",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "SWZ": {
       "name": "Swaziland",
       "value": 7,
       "previous": 6.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "7",
-        "Previous": "6.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "TJK": {
       "name": "Tajikistan",
       "value": 7,
       "previous": 7,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "7",
-        "Previous": "7",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "TUN": {
       "name": "Tunisia",
       "value": 7,
       "previous": 7,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "7",
-        "Previous": "7",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "ECU": {
       "name": "Ecuador",
       "value": 7.03,
       "previous": 6.79,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "7.03",
-        "Previous": "6.79",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "ZAF": {
       "name": "South Africa",
       "value": 7.25,
       "previous": 7,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "7.25",
-        "Previous": "7",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "ISL": {
       "name": "Iceland",
       "value": 8,
       "previous": 8,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "8",
-        "Previous": "8",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "GEO": {
       "name": "Georgia",
       "value": 8.25,
       "previous": 8.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "8.25",
-        "Previous": "8.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "KEN": {
       "name": "Kenya",
       "value": 8.75,
       "previous": 8.75,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "8.75",
-        "Previous": "8.75",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "RWA": {
       "name": "Rwanda",
       "value": 8.75,
       "previous": 8.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "8.75",
-        "Previous": "8.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "LKA": {
       "name": "Sri Lanka",
       "value": 8.75,
       "previous": 8.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "8.75",
-        "Previous": "8.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "MDA": {
       "name": "Moldova",
       "value": 9,
       "previous": 7.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "9",
-        "Previous": "7.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "MMR": {
       "name": "Myanmar",
       "value": 9,
       "previous": 9,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "9",
-        "Previous": "9",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "BLR": {
       "name": "Belarus",
       "value": 9.25,
       "previous": 9.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "9.25",
-        "Previous": "9.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "MOZ": {
       "name": "Mozambique",
       "value": 9.25,
       "previous": 9.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "9.25",
-        "Previous": "9.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "BGD": {
       "name": "Bangladesh",
       "value": 9.5,
       "previous": 9.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "9.5",
-        "Previous": "9.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "GIN": {
       "name": "Guinea",
       "value": 9.5,
       "previous": 9.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "9.5",
-        "Previous": "9.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "BDI": {
       "name": "Burundi",
       "value": 10,
       "previous": 10,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "10",
-        "Previous": "10",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "STP": {
       "name": "Sao Tome and Principe",
       "value": 10,
       "previous": 10,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "10",
-        "Previous": "10",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "SUR": {
       "name": "Suriname",
       "value": 10,
       "previous": 10,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "10",
-        "Previous": "10",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "ZMB": {
       "name": "Zambia",
       "value": 10.75,
       "previous": 13.25,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "10.75",
-        "Previous": "13.25",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "KGZ": {
       "name": "Kyrgyzstan",
       "value": 12,
       "previous": 12,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "12",
-        "Previous": "12",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "PAK": {
       "name": "Pakistan",
       "value": 12,
       "previous": 11.5,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "12",
-        "Previous": "11.5",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "UGA": {
       "name": "Uganda",
       "value": 12,
       "previous": 9.75,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "12",
-        "Previous": "9.75",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "COL": {
       "name": "Colombia",
       "value": 12.25,
       "previous": 12.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "12.25",
-        "Previous": "12.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "MDG": {
       "name": "Madagascar",
       "value": 12.5,
       "previous": 12.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "12.5",
-        "Previous": "12.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "MNG": {
       "name": "Mongolia",
       "value": 12.5,
       "previous": 12.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "12.5",
-        "Previous": "12.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "SSD": {
       "name": "South Sudan",
       "value": 13,
       "previous": 13,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "13",
-        "Previous": "13",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "BRA": {
       "name": "Brazil",
       "value": 13.75,
       "previous": 14,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "13.75",
-        "Previous": "14",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "GMB": {
       "name": "Gambia",
       "value": 14,
       "previous": 14,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "14",
-        "Previous": "14",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "GHA": {
       "name": "Ghana",
       "value": 14,
       "previous": 14,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "14",
-        "Previous": "14",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "RUS": {
       "name": "Russia",
       "value": 14,
       "previous": 14,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "14",
-        "Previous": "14",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "UZB": {
       "name": "Uzbekistan",
       "value": 14,
       "previous": 14,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "14",
-        "Previous": "14",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "AGO": {
       "name": "Angola",
       "value": 14.75,
       "previous": 15.75,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "14.75",
-        "Previous": "15.75",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "KAZ": {
       "name": "Kazakhstan",
       "value": 15.75,
       "previous": 16.25,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "15.75",
-        "Previous": "16.25",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "ETH": {
       "name": "Ethiopia",
       "value": 16,
       "previous": 16,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "16",
-        "Previous": "16",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "LBR": {
       "name": "Liberia",
       "value": 16,
       "previous": 16,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "16",
-        "Previous": "16",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "UKR": {
       "name": "Ukraine",
       "value": 16.5,
       "previous": 16,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "16.5",
-        "Previous": "16",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "HTI": {
       "name": "Haiti",
       "value": 17,
       "previous": 17,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "17",
-        "Previous": "17",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "SLE": {
       "name": "Sierra Leone",
       "value": 17.25,
       "previous": 17,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "17.25",
-        "Previous": "17",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "EGY": {
       "name": "Egypt",
       "value": 20,
       "previous": 19,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "20",
-        "Previous": "19",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Dec/26"
-      }
+      "unit": "%"
     },
     "IRN": {
       "name": "Iran",
       "value": 23,
       "previous": 23,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "23",
-        "Previous": "23",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "NGA": {
       "name": "Nigeria",
       "value": 23,
       "previous": 26.5,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "23",
-        "Previous": "26.5",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "MWI": {
       "name": "Malawi",
       "value": 24,
       "previous": 24,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "24",
-        "Previous": "24",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "LBN": {
       "name": "Lebanon",
       "value": 25,
       "previous": 25,
       "reference": "Jul/26",
-      "unit": "%",
-      "cells": {
-        "Last": "25",
-        "Previous": "25",
-        "Reference": "Jul/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "ZWE": {
       "name": "Zimbabwe",
       "value": 27.5,
       "previous": 30,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "27.5",
-        "Previous": "30",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "ARG": {
       "name": "Argentina",
       "value": 29,
       "previous": 29,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "29",
-        "Previous": "29",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     },
     "TUR": {
       "name": "Turkey",
       "value": 36,
       "previous": 37,
       "reference": "Oct/26",
-      "unit": "%",
-      "cells": {
-        "Last": "36",
-        "Previous": "37",
-        "Reference": "Oct/26",
-        "Unit": "%",
-        "Next Release": "Nov/26"
-      }
+      "unit": "%"
     },
     "VEN": {
       "name": "Venezuela",
       "value": 58.86,
       "previous": 58.93,
       "reference": "Sep/26",
-      "unit": "%",
-      "cells": {
-        "Last": "58.86",
-        "Previous": "58.93",
-        "Reference": "Sep/26",
-        "Unit": "%",
-        "Next Release": ""
-      }
+      "unit": "%"
     }
   },
   "unmatched": []

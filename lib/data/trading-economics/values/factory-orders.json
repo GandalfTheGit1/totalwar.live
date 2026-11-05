@@ -1,0 +1,60 @@
+{
+  "slug": "factory-orders",
+  "name": "Factory Orders",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:01.961Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "FIN": {
+      "name": "Finland",
+      "value": 18.1,
+      "previous": 69.2,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": -10.6,
+      "previous": 3.2,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 3.9,
+      "previous": -6.9,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": -1.9,
+      "previous": 5.5,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": -32,
+      "previous": -9,
+      "reference": "Oct/26",
+      "unit": "Net Balance"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 0.1,
+      "previous": 0.8,
+      "reference": "Aug/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

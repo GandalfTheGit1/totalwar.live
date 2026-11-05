@@ -1,0 +1,326 @@
+{
+  "slug": "external-debt-to-gdp",
+  "name": "External Debt to GDP",
+  "category": "Trade",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.203Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "IRL": {
+      "name": "External Debt to GDP",
+      "value": 595,
+      "previous": 580,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "TTO": {
+      "name": "External Debt to GDP",
+      "value": 21,
+      "previous": 18.8,
+      "reference": "Dec/24",
+      "unit": "percent of GDP"
+    },
+    "SVN": {
+      "name": "External Debt to GDP",
+      "value": 91,
+      "previous": 91,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "SLV": {
+      "name": "External Debt to GDP",
+      "value": 38.2,
+      "previous": 35.8,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "DOM": {
+      "name": "External Debt to GDP",
+      "value": 35.4,
+      "previous": 33.4,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "SAU": {
+      "name": "External Debt to GDP",
+      "value": 12.5,
+      "previous": 10.2,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "COL": {
+      "name": "External Debt to GDP",
+      "value": 20.4,
+      "previous": 19.5,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "JAM": {
+      "name": "External Debt to GDP",
+      "value": 43.1,
+      "previous": 46.5,
+      "reference": "Dec/24",
+      "unit": "percent of GDP"
+    },
+    "MLT": {
+      "name": "External Debt to GDP",
+      "value": 784,
+      "previous": 796,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "CRI": {
+      "name": "External Debt to GDP",
+      "value": 15,
+      "previous": 15.7,
+      "reference": "Dec/24",
+      "unit": "percent of GDP"
+    },
+    "MEX": {
+      "name": "External Debt to GDP",
+      "value": 7.8,
+      "previous": 7.5,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "CYP": {
+      "name": "External Debt to GDP",
+      "value": 607,
+      "previous": 614,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "LVA": {
+      "name": "External Debt to GDP",
+      "value": 104,
+      "previous": 104,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "ESP": {
+      "name": "External Debt to GDP",
+      "value": 168,
+      "previous": 166,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "NLD": {
+      "name": "External Debt to GDP",
+      "value": 363,
+      "previous": 358,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "HND": {
+      "name": "External Debt to GDP",
+      "value": 23.6,
+      "previous": 25.3,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "FIN": {
+      "name": "External Debt to GDP",
+      "value": 223,
+      "previous": 210,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "PER": {
+      "name": "External Debt to GDP",
+      "value": 13.6,
+      "previous": 15.1,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "GRC": {
+      "name": "External Debt to GDP",
+      "value": 237,
+      "previous": 240,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "EST": {
+      "name": "External Debt to GDP",
+      "value": 101,
+      "previous": 100,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "BEL": {
+      "name": "External Debt to GDP",
+      "value": 250,
+      "previous": 249,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "SVK": {
+      "name": "External Debt to GDP",
+      "value": 102,
+      "previous": 101,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "PRT": {
+      "name": "External Debt to GDP",
+      "value": 150,
+      "previous": 149,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "DEU": {
+      "name": "External Debt to GDP",
+      "value": 158,
+      "previous": 155,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "AUT": {
+      "name": "External Debt to GDP",
+      "value": 161,
+      "previous": 157,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "ITA": {
+      "name": "External Debt to GDP",
+      "value": 128,
+      "previous": 126,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "CHL": {
+      "name": "External Debt to GDP",
+      "value": 14.8,
+      "previous": 14.5,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "FRA": {
+      "name": "External Debt to GDP",
+      "value": 277,
+      "previous": 267,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "ARG": {
+      "name": "External Debt to GDP",
+      "value": 26.7,
+      "previous": 23.5,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "LUX": {
+      "name": "External Debt to GDP",
+      "value": 3919,
+      "previous": 3916,
+      "reference": "Mar/26",
+      "unit": "percent of GDP"
+    },
+    "LTU": {
+      "name": "External Debt to GDP",
+      "value": 109,
+      "previous": 104,
+      "reference": "Jun/26",
+      "unit": "percent of GDP"
+    },
+    "BLZ": {
+      "name": "External Debt to GDP",
+      "value": 41,
+      "previous": 43.7,
+      "reference": "Dec/24",
+      "unit": "percent of GDP"
+    },
+    "ECU": {
+      "name": "External Debt to GDP",
+      "value": 37.8,
+      "previous": 39.1,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "BOL": {
+      "name": "External Debt to GDP",
+      "value": 26.8,
+      "previous": 29.9,
+      "reference": "Dec/24",
+      "unit": "percent of GDP"
+    },
+    "PRY": {
+      "name": "External Debt to GDP",
+      "value": 35.3,
+      "previous": 35.2,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "BRB": {
+      "name": "External Debt to GDP",
+      "value": 36.7,
+      "previous": 36.7,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "GTM": {
+      "name": "External Debt to GDP",
+      "value": 12.1,
+      "previous": 12,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "BHS": {
+      "name": "External Debt to GDP",
+      "value": 32.4,
+      "previous": 36,
+      "reference": "Dec/24",
+      "unit": "percent of GDP"
+    },
+    "GUY": {
+      "name": "External Debt to GDP",
+      "value": 9.1,
+      "previous": 10.6,
+      "reference": "Dec/24",
+      "unit": "percent of GDP"
+    },
+    "NIC": {
+      "name": "External Debt to GDP",
+      "value": 39.7,
+      "previous": 44,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "URY": {
+      "name": "External Debt to GDP",
+      "value": 30.2,
+      "previous": 28.2,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "SUR": {
+      "name": "External Debt to GDP",
+      "value": 108,
+      "previous": 79,
+      "reference": "Dec/25",
+      "unit": "percent of GDP"
+    },
+    "HTI": {
+      "name": "External Debt to GDP",
+      "value": 9.6,
+      "previous": 11.2,
+      "reference": "Dec/23",
+      "unit": "percent of GDP"
+    },
+    "PAN": {
+      "name": "External Debt to GDP",
+      "value": 51,
+      "previous": 46.8,
+      "reference": "Dec/24",
+      "unit": "percent of GDP"
+    }
+  }
+}

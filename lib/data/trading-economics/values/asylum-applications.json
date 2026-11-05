@@ -1,0 +1,256 @@
+{
+  "slug": "asylum-applications",
+  "name": "Asylum Applications",
+  "category": "Government",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.792Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "USA": {
+      "name": "United States",
+      "value": 874106,
+      "previous": 909876,
+      "reference": "Dec/25",
+      "unit": "Persons"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 14626,
+      "previous": 18336,
+      "reference": "Dec/25",
+      "unit": "Persons"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 10255,
+      "previous": 8655,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 5195,
+      "previous": 5115,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 4635,
+      "previous": 3715,
+      "reference": "Aug/26",
+      "unit": "persons"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 4575,
+      "previous": 3985,
+      "reference": "Aug/26",
+      "unit": "Persons"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 3590,
+      "previous": 2850,
+      "reference": "Jul/26",
+      "unit": "persons"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 3135,
+      "previous": 3075,
+      "reference": "Aug/26",
+      "unit": "persons"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 2450,
+      "previous": 100,
+      "reference": "Jul/26",
+      "unit": "persons"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 1980,
+      "previous": 1735,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 1895,
+      "previous": 1635,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 1645,
+      "previous": 1730,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 740,
+      "previous": 640,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 620,
+      "previous": 725,
+      "reference": "Aug/26",
+      "unit": "persons"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 435,
+      "previous": 525,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 375,
+      "previous": 220,
+      "reference": "Aug/26",
+      "unit": "persons"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 360,
+      "previous": 370,
+      "reference": "Jul/26",
+      "unit": "persons"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 360,
+      "previous": 335,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 285,
+      "previous": 245,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 210,
+      "previous": 135,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 190,
+      "previous": 195,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 180,
+      "previous": 150,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 155,
+      "previous": 65,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 140,
+      "previous": 130,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 105,
+      "previous": 115,
+      "reference": "Jul/26",
+      "unit": "persons"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 100,
+      "previous": 65,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 90,
+      "previous": 105,
+      "reference": "Aug/26",
+      "unit": "persons"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 85,
+      "previous": 80,
+      "reference": "Aug/26",
+      "unit": "persons"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 85,
+      "previous": 80,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 85,
+      "previous": 90,
+      "reference": "Aug/26",
+      "unit": "persons"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 30,
+      "previous": 55,
+      "reference": "Aug/26",
+      "unit": "persons"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 15,
+      "previous": 5,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 10,
+      "previous": 25,
+      "reference": "Sep/26",
+      "unit": "persons"
+    },
+    "LIE": {
+      "name": "Liechtenstein",
+      "value": 10,
+      "previous": 5,
+      "reference": "Sep/26",
+      "unit": "persons"
+    }
+  },
+  "unmatched": []
+}

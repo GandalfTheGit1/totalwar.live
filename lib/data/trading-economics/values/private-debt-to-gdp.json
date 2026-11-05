@@ -1,0 +1,242 @@
+{
+  "slug": "private-debt-to-gdp",
+  "name": "Private Debt to GDP",
+  "category": "Money",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.724Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 70.97,
+      "previous": 70.72,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 102,
+      "previous": 108,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 156,
+      "previous": 162,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 161,
+      "previous": 163,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 139,
+      "previous": 145,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 99.7,
+      "previous": 105,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 181,
+      "previous": 181,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 129,
+      "previous": 132,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 142,
+      "previous": 144,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 204,
+      "previous": 201,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 141,
+      "previous": 140,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 69.9,
+      "previous": 67.4,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 118,
+      "previous": 124,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 166,
+      "previous": 174,
+      "reference": "Dec/24",
+      "unit": "%"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 183,
+      "previous": 216,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 97.6,
+      "previous": 98.9,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 163,
+      "previous": 166,
+      "reference": "Dec/24",
+      "unit": "%"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 409,
+      "previous": 443,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 56.3,
+      "previous": 53.4,
+      "reference": "Dec/24",
+      "unit": "%"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 189,
+      "previous": 199,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 175,
+      "previous": 180,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 70,
+      "previous": 70.4,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 131,
+      "previous": 136,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 79.2,
+      "previous": 79.1,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 75.1,
+      "previous": 76.1,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 169,
+      "previous": 169,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 115,
+      "previous": 119,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 187,
+      "previous": 202,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 129,
+      "previous": 133,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 108,
+      "previous": 106,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 69.7,
+      "previous": 75.6,
+      "reference": "Dec/25",
+      "unit": "%"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 142,
+      "previous": 145,
+      "reference": "Dec/25",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

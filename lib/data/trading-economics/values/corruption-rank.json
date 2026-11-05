@@ -1,0 +1,1271 @@
+{
+  "slug": "corruption-rank",
+  "name": "Corruption Rank",
+  "category": "Government",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.873Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "DNK": {
+      "name": "Denmark",
+      "value": 1,
+      "previous": 1,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 2,
+      "previous": 2,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 3,
+      "previous": 3,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 4,
+      "previous": 4,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 4,
+      "previous": 5,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 6,
+      "previous": 8,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 6,
+      "previous": 5,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 8,
+      "previous": 5,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 8,
+      "previous": 9,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 10,
+      "previous": 15,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 10,
+      "previous": 10,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 12,
+      "previous": 10,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 12,
+      "previous": 13,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "value": 12,
+      "previous": 17,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 12,
+      "previous": 10,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 16,
+      "previous": 15,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "URY": {
+      "name": "Uruguay",
+      "value": 17,
+      "previous": 13,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BTN": {
+      "name": "Bhutan",
+      "value": 18,
+      "previous": 18,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 18,
+      "previous": 20,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 20,
+      "previous": 20,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 21,
+      "previous": 25,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 21,
+      "previous": 22,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 21,
+      "previous": 23,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BRB": {
+      "name": "Barbados",
+      "value": 24,
+      "previous": 23,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "value": 24,
+      "previous": 18,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 24,
+      "previous": 25,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "FRA": {
+      "name": "France",
+      "value": 27,
+      "previous": 25,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 28,
+      "previous": 32,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BHS": {
+      "name": "Bahamas",
+      "value": 29,
+      "previous": 28,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "USA": {
+      "name": "United States",
+      "value": 29,
+      "previous": 28,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 31,
+      "previous": 32,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "KOR": {
+      "name": "South Korea",
+      "value": 31,
+      "previous": 30,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "VCT": {
+      "name": "St Vincent and the Grenadines",
+      "value": 31,
+      "previous": 32,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "value": 35,
+      "previous": 35,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 35,
+      "previous": 30,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "DMA": {
+      "name": "Dominica",
+      "value": 37,
+      "previous": 36,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 37,
+      "previous": 38,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 39,
+      "previous": 46,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LCA": {
+      "name": "St Lucia",
+      "value": 39,
+      "previous": 38,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BWA": {
+      "name": "Botswana",
+      "value": 41,
+      "previous": 43,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 41,
+      "previous": 38,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "value": 41,
+      "previous": 43,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 41,
+      "previous": 36,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 45,
+      "previous": 38,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "value": 46,
+      "previous": 42,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GRD": {
+      "name": "Grenada",
+      "value": 46,
+      "previous": 46,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 46,
+      "previous": 43,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 49,
+      "previous": 46,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "FJI": {
+      "name": "Fiji",
+      "value": 49,
+      "previous": 50,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 49,
+      "previous": 46,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 52,
+      "previous": 52,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 52,
+      "previous": 53,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 54,
+      "previous": 57,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 54,
+      "previous": 50,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 56,
+      "previous": 53,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GEO": {
+      "name": "Georgia",
+      "value": 56,
+      "previous": 53,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 56,
+      "previous": 59,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 56,
+      "previous": 59,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 60,
+      "previous": 65,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "value": 61,
+      "previous": 56,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 61,
+      "previous": 59,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 63,
+      "previous": 63,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "VUT": {
+      "name": "Vanuatu",
+      "value": 63,
+      "previous": 57,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ARM": {
+      "name": "Armenia",
+      "value": 65,
+      "previous": 63,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "value": 65,
+      "previous": 65,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "NAM": {
+      "name": "Namibia",
+      "value": 65,
+      "previous": 59,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SEN": {
+      "name": "Senegal",
+      "value": 65,
+      "previous": 69,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BEN": {
+      "name": "Benin",
+      "value": 70,
+      "previous": 69,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 70,
+      "previous": 65,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "STP": {
+      "name": "Sao Tome and Principe",
+      "value": 70,
+      "previous": 69,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TLS": {
+      "name": "East Timor",
+      "value": 73,
+      "previous": 73,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "JAM": {
+      "name": "Jamaica",
+      "value": 73,
+      "previous": 73,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SLB": {
+      "name": "Solomon Islands",
+      "value": 73,
+      "previous": 76,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CHN": {
+      "name": "China",
+      "value": 76,
+      "previous": 76,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GHA": {
+      "name": "Ghana",
+      "value": 76,
+      "previous": 80,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "value": 76,
+      "previous": 69,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "UNK": {
+      "name": "Kosovo",
+      "value": 76,
+      "previous": 73,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MDA": {
+      "name": "Moldova",
+      "value": 80,
+      "previous": 76,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 81,
+      "previous": 82,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TTO": {
+      "name": "Trinidad and Tobago",
+      "value": 81,
+      "previous": 82,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 81,
+      "previous": 88,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 84,
+      "previous": 76,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BFA": {
+      "name": "Burkina Faso",
+      "value": 84,
+      "previous": 82,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CUB": {
+      "name": "Cuba",
+      "value": 84,
+      "previous": 82,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GUY": {
+      "name": "Guyana",
+      "value": 84,
+      "previous": 92,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 84,
+      "previous": 82,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MKD": {
+      "name": "Macedonia",
+      "value": 84,
+      "previous": 88,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TZA": {
+      "name": "Tanzania",
+      "value": 84,
+      "previous": 82,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ALB": {
+      "name": "Albania",
+      "value": 91,
+      "previous": 80,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "IND": {
+      "name": "India",
+      "value": 91,
+      "previous": 96,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MDV": {
+      "name": "Maldives",
+      "value": 91,
+      "previous": 96,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MAR": {
+      "name": "Morocco",
+      "value": 91,
+      "previous": 99,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "value": 91,
+      "previous": 92,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "value": 96,
+      "previous": 99,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 96,
+      "previous": 88,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SUR": {
+      "name": "Suriname",
+      "value": 96,
+      "previous": 88,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 99,
+      "previous": 92,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "value": 99,
+      "previous": 104,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GMB": {
+      "name": "Gambia",
+      "value": 99,
+      "previous": 96,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LSO": {
+      "name": "Lesotho",
+      "value": 99,
+      "previous": 99,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "value": 99,
+      "previous": 92,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ARG": {
+      "name": "Argentina",
+      "value": 104,
+      "previous": 99,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "value": 104,
+      "previous": 105,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 107,
+      "previous": 107,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 107,
+      "previous": 121,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "DZA": {
+      "name": "Algeria",
+      "value": 109,
+      "previous": 107,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 109,
+      "previous": 114,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 109,
+      "previous": 99,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LAO": {
+      "name": "Laos",
+      "value": 109,
+      "previous": 114,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MWI": {
+      "name": "Malawi",
+      "value": 109,
+      "previous": 107,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "NPL": {
+      "name": "Nepal",
+      "value": 109,
+      "previous": 107,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SLE": {
+      "name": "Sierra Leone",
+      "value": 109,
+      "previous": 114,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "value": 116,
+      "previous": 121,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "PAN": {
+      "name": "Panama",
+      "value": 116,
+      "previous": 114,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SRB": {
+      "name": "Serbia",
+      "value": 116,
+      "previous": 105,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 116,
+      "previous": 107,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "AGO": {
+      "name": "Angola",
+      "value": 120,
+      "previous": 121,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "value": 120,
+      "previous": 130,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 120,
+      "previous": 114,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TGO": {
+      "name": "Togo",
+      "value": 120,
+      "previous": 121,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BLR": {
+      "name": "Belarus",
+      "value": 124,
+      "previous": 114,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "DJI": {
+      "name": "Djibouti",
+      "value": 124,
+      "previous": 127,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "value": 124,
+      "previous": 114,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "NER": {
+      "name": "Niger",
+      "value": 124,
+      "previous": 107,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 124,
+      "previous": 107,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "value": 124,
+      "previous": 121,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "value": 130,
+      "previous": 154,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "EGY": {
+      "name": "Egypt",
+      "value": 130,
+      "previous": 130,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 130,
+      "previous": 121,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MRT": {
+      "name": "Mauritania",
+      "value": 130,
+      "previous": 130,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "PER": {
+      "name": "Peru",
+      "value": 130,
+      "previous": 127,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GAB": {
+      "name": "Gabon",
+      "value": 135,
+      "previous": 135,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "value": 136,
+      "previous": 133,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "value": 136,
+      "previous": 140,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LBR": {
+      "name": "Liberia",
+      "value": 136,
+      "previous": 135,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MLI": {
+      "name": "Mali",
+      "value": 136,
+      "previous": 135,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 136,
+      "previous": 135,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 141,
+      "previous": 140,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CMR": {
+      "name": "Cameroon",
+      "value": 142,
+      "previous": 140,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "value": 142,
+      "previous": 146,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GIN": {
+      "name": "Guinea",
+      "value": 142,
+      "previous": 133,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "value": 142,
+      "previous": 146,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 142,
+      "previous": 140,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "value": 142,
+      "previous": 127,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "value": 148,
+      "previous": 140,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "UGA": {
+      "name": "Uganda",
+      "value": 148,
+      "previous": 140,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "value": 150,
+      "previous": 151,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "CAF": {
+      "name": "Central African Republic",
+      "value": 150,
+      "previous": 149,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "value": 150,
+      "previous": 149,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "IRN": {
+      "name": "Iran",
+      "value": 153,
+      "previous": 151,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "value": 153,
+      "previous": 154,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "COG": {
+      "name": "Congo",
+      "value": 163,
+      "previous": 163,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SWZ": {
+      "name": "Swaziland",
+      "value": 153,
+      "previous": 135,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TCD": {
+      "name": "Chad",
+      "value": 157,
+      "previous": 158,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "HND": {
+      "name": "Honduras",
+      "value": 157,
+      "previous": 154,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 157,
+      "previous": 154,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ZWE": {
+      "name": "Zimbabwe",
+      "value": 157,
+      "previous": 158,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GNB": {
+      "name": "Guinea Bissau",
+      "value": 161,
+      "previous": 158,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 161,
+      "previous": 146,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "value": 163,
+      "previous": 158,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "COM": {
+      "name": "Comoros",
+      "value": 163,
+      "previous": 158,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "value": 166,
+      "previous": 164,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "BDI": {
+      "name": "Burundi",
+      "value": 167,
+      "previous": 165,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "value": 167,
+      "previous": 165,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "AFG": {
+      "name": "Afghanistan",
+      "value": 169,
+      "previous": 165,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "HTI": {
+      "name": "Haiti",
+      "value": 169,
+      "previous": 168,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "MMR": {
+      "name": "Myanmar",
+      "value": 169,
+      "previous": 168,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "GNQ": {
+      "name": "Equatorial Guinea",
+      "value": 172,
+      "previous": 173,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "PRK": {
+      "name": "North Korea",
+      "value": 172,
+      "previous": 170,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SYR": {
+      "name": "Syria",
+      "value": 172,
+      "previous": 177,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "value": 175,
+      "previous": 172,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SDN": {
+      "name": "Sudan",
+      "value": 175,
+      "previous": 170,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "ERI": {
+      "name": "Eritrea",
+      "value": 177,
+      "previous": 173,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "LBY": {
+      "name": "Libya",
+      "value": 177,
+      "previous": 173,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "YEM": {
+      "name": "Yemen",
+      "value": 177,
+      "previous": 173,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "value": 180,
+      "previous": 178,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SOM": {
+      "name": "Somalia",
+      "value": 181,
+      "previous": 179,
+      "reference": "Dec/25",
+      "unit": ""
+    },
+    "SSD": {
+      "name": "South Sudan",
+      "value": 181,
+      "previous": 180,
+      "reference": "Dec/25",
+      "unit": ""
+    }
+  },
+  "unmatched": []
+}

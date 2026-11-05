@@ -1,0 +1,109 @@
+{
+  "slug": "monthly-gdp-yoy",
+  "name": "Monthly GDP YoY",
+  "category": "GDP",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:08.204Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "unmatched": [],
+  "countries": {
+    "MEX": {
+      "name": "Monthly GDP YoY",
+      "value": 3.3,
+      "previous": 3.4,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "GBR": {
+      "name": "Monthly GDP YoY",
+      "value": 2.1,
+      "previous": 1.8,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "FIN": {
+      "name": "Monthly GDP YoY",
+      "value": 2,
+      "previous": 1.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "SWE": {
+      "name": "Monthly GDP YoY",
+      "value": 2.1,
+      "previous": 3.6,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "PER": {
+      "name": "Monthly GDP YoY",
+      "value": 3.23,
+      "previous": 3.56,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "PRT": {
+      "name": "Monthly GDP YoY",
+      "value": 1.6,
+      "previous": 2.1,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "ARG": {
+      "name": "Monthly GDP YoY",
+      "value": -1.7,
+      "previous": -1.4,
+      "reference": "Aug/26",
+      "unit": "percent"
+    },
+    "AZE": {
+      "name": "Monthly GDP YoY",
+      "value": 1.5,
+      "previous": 1.2,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "GEO": {
+      "name": "Monthly GDP YoY",
+      "value": 6,
+      "previous": 6.3,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "BLR": {
+      "name": "Monthly GDP YoY",
+      "value": 2,
+      "previous": 1.9,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "KGZ": {
+      "name": "Monthly GDP YoY",
+      "value": 10.8,
+      "previous": 11,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "RUS": {
+      "name": "Monthly GDP YoY",
+      "value": 0.5,
+      "previous": 0.8,
+      "reference": "Sep/26",
+      "unit": "percent"
+    },
+    "KAZ": {
+      "name": "Monthly GDP YoY",
+      "value": 4.8,
+      "previous": 4.9,
+      "reference": "Sep/26",
+      "unit": "percent"
+    }
+  }
+}

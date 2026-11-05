@@ -1,0 +1,158 @@
+{
+  "slug": "loan-growth",
+  "name": "Loan Growth",
+  "category": "Money",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:00.582Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 8.4,
+      "previous": 8.4,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 6.95,
+      "previous": 6.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 0.4,
+      "previous": 0.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 4.8,
+      "previous": 4.9,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 2.7,
+      "previous": 2.2,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 2.4,
+      "previous": 3.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "IND": {
+      "name": "India",
+      "value": 18.2,
+      "previous": 19.4,
+      "reference": "Oct/26",
+      "unit": "%"
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "value": 13.26,
+      "previous": 13.65,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 5.3,
+      "previous": 5.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 6.21,
+      "previous": 5.46,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 4.9,
+      "previous": 4.5,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "OMN": {
+      "name": "Oman",
+      "value": 14.2,
+      "previous": 12.7,
+      "reference": "Aug/26",
+      "unit": "%"
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "value": 4.5,
+      "previous": 5.7,
+      "reference": "Jun/26",
+      "unit": "%"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 5.8,
+      "previous": 5.8,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": -0.89,
+      "previous": -0.39,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 6,
+      "previous": 6,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 3.4,
+      "previous": 3.7,
+      "reference": "Jul/26",
+      "unit": "%"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 3.4,
+      "previous": 3.3,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "value": 10.63,
+      "previous": 10.49,
+      "reference": "Sep/26",
+      "unit": "%"
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 18.8,
+      "previous": 18.3,
+      "reference": "Aug/26",
+      "unit": "%"
+    }
+  },
+  "unmatched": []
+}

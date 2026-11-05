@@ -1,0 +1,123 @@
+{
+  "slug": "total-vehicle-sales",
+  "name": "Total Vehicle Sales",
+  "category": "Business",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.162Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 102924,
+      "previous": 100939,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "BRA": {
+      "name": "Brazil",
+      "value": 216366,
+      "previous": 213024,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 30989,
+      "previous": 27896,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "CHN": {
+      "name": "China",
+      "value": 2956000,
+      "previous": 2712000,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "COL": {
+      "name": "Colombia",
+      "value": 5801,
+      "previous": 6972,
+      "reference": "Aug/26",
+      "unit": "Units"
+    },
+    "IND": {
+      "name": "India",
+      "value": 385764,
+      "previous": 374056,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 69609,
+      "previous": 71428,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 132237,
+      "previous": 129362,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 7799,
+      "previous": 6784,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "RUS": {
+      "name": "Russia",
+      "value": 126542,
+      "previous": 116220,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 61890,
+      "previous": 61660,
+      "reference": "Oct/26",
+      "unit": "Units"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 98487,
+      "previous": 93858,
+      "reference": "Oct/26",
+      "unit": "Units"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 55254,
+      "previous": 59808,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 83469,
+      "previous": 81031,
+      "reference": "Sep/26",
+      "unit": "Units"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 16,
+      "previous": 16.8,
+      "reference": "Sep/26",
+      "unit": "Million"
+    }
+  },
+  "unmatched": []
+}

@@ -1,0 +1,333 @@
+{
+  "slug": "co2-emissions",
+  "name": "CO2 Emissions",
+  "category": "Climate",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.695Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "CHN": {
+      "name": "China",
+      "value": 13124700,
+      "previous": 13021200,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 4632160,
+      "previous": 4618270,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "value": 652510,
+      "previous": 635430,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 579940,
+      "previous": 589660,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "MEX": {
+      "name": "Mexico",
+      "value": 475990,
+      "previous": 475600,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 460030,
+      "previous": 446440,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "value": 440170,
+      "previous": 427270,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "value": 430820,
+      "previous": 390730,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 383400,
+      "previous": 377500,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 299230,
+      "previous": 304310,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "value": 295950,
+      "previous": 282380,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 292420,
+      "previous": 304790,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "THA": {
+      "name": "Thailand",
+      "value": 283810,
+      "previous": 275030,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "value": 258800,
+      "previous": 255430,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "value": 203990,
+      "previous": 208890,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "value": 200560,
+      "previous": 192700,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "value": 174110,
+      "previous": 162450,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "QAT": {
+      "name": "Qatar",
+      "value": 135270,
+      "previous": 129200,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "value": 131910,
+      "previous": 125870,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "value": 115930,
+      "previous": 110160,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 86650,
+      "previous": 85730,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "CHL": {
+      "name": "Chile",
+      "value": 77820,
+      "previous": 77010,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 77750,
+      "previous": 85610,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "SGP": {
+      "name": "Singapore",
+      "value": 58870,
+      "previous": 56100,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 58030,
+      "previous": 58480,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 52510,
+      "previous": 51240,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "value": 37970,
+      "previous": 38690,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 35560,
+      "previous": 37410,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 33730,
+      "previous": 33670,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "MMR": {
+      "name": "Myanmar",
+      "value": 31360,
+      "previous": 31240,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "JOR": {
+      "name": "Jordan",
+      "value": 24140,
+      "previous": 24040,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "value": 23330,
+      "previous": 21580,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "value": 21640,
+      "previous": 21270,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "CUB": {
+      "name": "Cuba",
+      "value": 21000,
+      "previous": 20030,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "value": 19440,
+      "previous": 18920,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "NPL": {
+      "name": "Nepal",
+      "value": 15890,
+      "previous": 15430,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "ZWE": {
+      "name": "Zimbabwe",
+      "value": 12860,
+      "previous": 12570,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "value": 11570,
+      "previous": 11360,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 10650,
+      "previous": 11470,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "value": 10110,
+      "previous": 10720,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 7340,
+      "previous": 7200,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "MDV": {
+      "name": "Maldives",
+      "value": 1880,
+      "previous": 1790,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 1810,
+      "previous": 1790,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "BRB": {
+      "name": "Barbados",
+      "value": 710,
+      "previous": 690,
+      "reference": "Dec/24",
+      "unit": "KT"
+    },
+    "CAF": {
+      "name": "Central African Republic",
+      "value": 340,
+      "previous": 330,
+      "reference": "Dec/24",
+      "unit": "KT"
+    }
+  },
+  "unmatched": []
+}

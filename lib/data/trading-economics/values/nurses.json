@@ -1,0 +1,193 @@
+{
+  "slug": "nurses",
+  "name": "Nurses",
+  "category": "Health",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:13:02.823Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "NOR": {
+      "name": "Norway",
+      "value": 21.72,
+      "previous": 21.78,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 15.99,
+      "previous": 15.86,
+      "reference": "Dec/25",
+      "unit": "per 1000 people"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 15.79,
+      "previous": 15.54,
+      "reference": "Dec/25",
+      "unit": "per 1000 people"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 15.52,
+      "previous": 15.65,
+      "reference": "Dec/25",
+      "unit": "per 1000 people"
+    },
+    "AUS": {
+      "name": "Australia",
+      "value": 14.82,
+      "previous": 14.45,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 14.57,
+      "previous": 14.41,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 13.83,
+      "previous": 13.07,
+      "reference": "Dec/25",
+      "unit": "per 1000 people"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 13.41,
+      "previous": 13.02,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 13.14,
+      "previous": 13.19,
+      "reference": "Dec/23",
+      "unit": "per 1000 people"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 12.59,
+      "previous": 12.3,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 12.25,
+      "previous": 12.15,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 11.98,
+      "previous": 12.01,
+      "reference": "Dec/17",
+      "unit": "per 1000 people"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 11.8,
+      "previous": 11.69,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": 11.19,
+      "previous": 11.05,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 10.59,
+      "previous": 10.66,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 9.63,
+      "previous": 9.43,
+      "reference": "Dec/21",
+      "unit": "per 1000 people"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 7.73,
+      "previous": 7.5,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 7.68,
+      "previous": 7.6,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 6.99,
+      "previous": 6.9,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 5.93,
+      "previous": 6.08,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 5.84,
+      "previous": 5.87,
+      "reference": "Dec/22",
+      "unit": "per 1000 people"
+    },
+    "ISR": {
+      "name": "Israel",
+      "value": 5.84,
+      "previous": 5.68,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 5.79,
+      "previous": 5.74,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 4.14,
+      "previous": 4.16,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "value": 3.1,
+      "previous": 2.91,
+      "reference": "Dec/24",
+      "unit": "per 1000 people"
+    }
+  },
+  "unmatched": []
+}

@@ -1,0 +1,284 @@
+{
+  "slug": "full-time-employment",
+  "name": "Full Time Employment",
+  "category": "Labour",
+  "source": "https://tradingeconomics.com/indicators",
+  "fetchedAt": "2026-11-02T18:12:59.352Z",
+  "valueColumn": "Last",
+  "columns": [
+    "Country",
+    "Last",
+    "Previous",
+    "Reference",
+    "Unit"
+  ],
+  "countries": {
+    "AUS": {
+      "name": "Australia",
+      "value": 34385,
+      "previous": -4020,
+      "reference": "Sep/26",
+      "unit": "Persons"
+    },
+    "AUT": {
+      "name": "Austria",
+      "value": 3023,
+      "previous": 3019,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "BEL": {
+      "name": "Belgium",
+      "value": 3700,
+      "previous": 3744,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "value": 1193,
+      "previous": 1201,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "value": 2736,
+      "previous": 2741,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "CAN": {
+      "name": "Canada",
+      "value": -35.4,
+      "previous": -35.9,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    },
+    "HRV": {
+      "name": "Croatia",
+      "value": 1628,
+      "previous": 1617,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "value": 460,
+      "previous": 451,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "CZE": {
+      "name": "Czech Republic",
+      "value": 4672,
+      "previous": 4653,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "DNK": {
+      "name": "Denmark",
+      "value": 2168,
+      "previous": 2137,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "EST": {
+      "name": "Estonia",
+      "value": 555,
+      "previous": 555,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "FIN": {
+      "name": "Finland",
+      "value": 2056,
+      "previous": 1992,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "FRA": {
+      "name": "France",
+      "value": 23969,
+      "previous": 23831,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "DEU": {
+      "name": "Germany",
+      "value": 28212,
+      "previous": 28437,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "GRC": {
+      "name": "Greece",
+      "value": 4188,
+      "previous": 4049,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "value": 4260,
+      "previous": 4272,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "ISL": {
+      "name": "Iceland",
+      "value": 170,
+      "previous": 161,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "IRL": {
+      "name": "Ireland",
+      "value": 2250,
+      "previous": 2233,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "ITA": {
+      "name": "Italy",
+      "value": 16003,
+      "previous": 15819,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "JPN": {
+      "name": "Japan",
+      "value": 23653,
+      "previous": 23607,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "LVA": {
+      "name": "Latvia",
+      "value": 745,
+      "previous": 738,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "value": 1321,
+      "previous": 1298,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "value": 259,
+      "previous": 264,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "MLT": {
+      "name": "Malta",
+      "value": 296,
+      "previous": 292,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "value": 5286,
+      "previous": 5283,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "value": 2312,
+      "previous": 2304,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "NOR": {
+      "name": "Norway",
+      "value": 2115,
+      "previous": 2105,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "PSE": {
+      "name": "Palestine",
+      "value": 726700,
+      "previous": 691800,
+      "reference": "Jun/26",
+      "unit": "Persons"
+    },
+    "POL": {
+      "name": "Poland",
+      "value": 15625,
+      "previous": 15668,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "PRT": {
+      "name": "Portugal",
+      "value": 4976,
+      "previous": 4892,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "ROU": {
+      "name": "Romania",
+      "value": 7422,
+      "previous": 7405,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "value": 2420,
+      "previous": 2404,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "value": 891,
+      "previous": 878,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "ESP": {
+      "name": "Spain",
+      "value": 19907,
+      "previous": 19662,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    },
+    "SWE": {
+      "name": "Sweden",
+      "value": 4062,
+      "previous": 4010,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "value": 2787,
+      "previous": 2804,
+      "reference": "Jun/26",
+      "unit": "Thousand"
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "value": 25865,
+      "previous": 25772,
+      "reference": "Aug/26",
+      "unit": "Thousand"
+    },
+    "USA": {
+      "name": "United States",
+      "value": 134376,
+      "previous": 134288,
+      "reference": "Sep/26",
+      "unit": "Thousand"
+    }
+  },
+  "unmatched": []
+}
